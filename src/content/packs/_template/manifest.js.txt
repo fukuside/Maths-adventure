@@ -1,0 +1,9 @@
+export default {
+  id: "world5",
+  name: "WORLD5 Pack",
+  version: "1.0.0",
+  type: "world-pack",
+  requiresCore: ">=2.0.0",
+  enabled: true,
+  worlds: [5]
+};

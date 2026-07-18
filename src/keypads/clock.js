@@ -1,0 +1,1 @@
+export default {id:"clock",keys:b=>[b("morning","☀ あさ","wide-key"),b("night","🌙 よる","wide-key"),...Array.from({length:12},(_,i)=>b(String(i+1))),b("じ","じ","unit-key"),...["00","05","10","15","20","25","30","35","40","45","50","55"].map(v=>b(v)),b("ふん","ふん","unit-key"),b("back","ひとつ もどす"),b("clear","ぜんぶ けす")]};

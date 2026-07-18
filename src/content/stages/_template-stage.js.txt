@@ -1,0 +1,16 @@
+/*
+  このファイルをコピーして、拡張子を .js にしてください。
+  例: 004-multiply-4.js
+*/
+export default {
+  id: "重複しないID",
+  sort: 999,
+  name: "画面に表示するステージ名",
+  category: "カテゴリ名",
+  type: "multiply",
+  baseNum: 4,
+  min: 1,
+  max: 9,
+  cardId: "カードファイル側のID",
+  rewardGems: 5
+};

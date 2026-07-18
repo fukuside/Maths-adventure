@@ -1,0 +1,18 @@
+/*
+  このファイルをコピーし、拡張子を .js にしてください。
+  N・SR・URで別画像を使う場合は images を使用します。
+*/
+export default {
+  id: "重複しないカードID",
+  sort: 999,
+  name: "カード名",
+  element: "🔷 属性",
+  hp: 100,
+  atk: 50,
+  description: "カード説明",
+  images: {
+    N: "/pictures/monsters/monster-name-n.webp",
+    SR: "/pictures/monsters/monster-name-sr.webp",
+    UR: "/pictures/monsters/monster-name-ur.webp"
+  }
+};

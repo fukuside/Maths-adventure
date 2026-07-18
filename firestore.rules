@@ -1,0 +1,26 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    match /users/{userId} {
+      allow read, write:
+        if request.auth != null
+        && request.auth.uid == userId;
+    }
+
+    /*
+      匿名ユーザー同士で引っ越しコードを受け渡すため、
+      transferCodes は認証済みユーザーに限定しています。
+
+      6桁コードを知っている人は読み込み可能です。
+      個人情報は保存せず、10分で無効化されるセーブデータだけにしてください。
+    */
+    match /transferCodes/{code} {
+      allow create, read, delete:
+        if request.auth != null;
+
+      allow update: if false;
+    }
+  }
+}
