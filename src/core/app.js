@@ -2,20 +2,39 @@ import { worlds, stages, cards, getCard, getStage } from "./registry.js";
 import { generateQuestions } from "./questions.js";
 import { renderQuestionByKind } from "../renderers/registry.js";
 import { renderKeypadForStage } from "../keypads/registry.js";
-import { initializeCloud, loadLocalState, persistState, replaceState, setSyncListener } from "./storage.js";
+import {
+  initializeCloud,
+  loadLocalState,
+  persistState,
+  replaceState,
+  setSyncListener,
+  getPlayers,
+  getActivePlayer,
+  createPlayer,
+  selectPlayer,
+  hasLegacySave,
+  migrateLegacySave
+} from "./storage.js";
 import { consumeTransferCode, createTransferCode, isFirebaseConfigured } from "./firebase.js";
 
 const rarityRows = [["UR", 0.05, 1.7], ["SR", 0.25, 1.3], ["N", 0.70, 1]];
 
 export function createApp(root) {
   let state = loadLocalState();
-  let screen = "title", worldId = null, currentStage = null, questions = [], qi = 0, input = "";
+  let screen = "landing", worldId = null, currentStage = null, questions = [], qi = 0, input = "";
   let earned = null, chestOpened = false, sync = "local", msg = "", err = "";
   let lives = 2, gameOver = false, wrongMessage = "";
   let flashVisible = true, inputEnabled = false, flashTimer = null, feedbackTimer = null, zoom = null;
   let answerFeedback = null;
   let feedbackPlaying = false;
   let partnerMood = "idle";
+  let titleBgmPlaying = false;
+  let playerMessage = "";
+  let playerError = "";
+
+const titleBgm = new Audio("/audio/title-bgm.mp3");
+titleBgm.loop = true;
+titleBgm.volume = 0.35;
 
   setSyncListener(x => { sync = x; render(); });
   root.addEventListener("click", click);
@@ -26,12 +45,141 @@ export function createApp(root) {
   initializeCloud(state).then(x => { state = x; render(); }).catch(() => { sync = "local"; render(); });
 
   function onInput(e) {
-    if (e.target.matches("[data-transfer-input]")) e.target.value = e.target.value.replace(/\D/g, "").slice(0, 6);
+  if (e.target.matches("[data-transfer-input]")) {
+    e.target.value = e.target.value
+      .replace(/\D/g, "")
+      .slice(0, 6);
   }
 
+  if (e.target.matches("[data-nickname-input]")) {
+    e.target.value = e.target.value.slice(0, 20);
+  }
+}
   async function click(e) {
     const t = e.target.closest("[data-action]"); if (!t) return;
     const a = t.dataset.action;
+    if (a === "landing-start") {
+  stopTitleBgm();
+
+  const players = getPlayers();
+
+  if (players.length > 0) {
+    screen = "player-select";
+  } else if (hasLegacySave()) {
+    screen = "legacy-migrate";
+  } else {
+    screen = "player-create";
+  }
+
+  render();
+  return;
+}
+
+if (a === "player-new") {
+  playerMessage = "";
+  playerError = "";
+  screen = "player-create";
+  render();
+  return;
+}
+
+
+if (a === "player-select") {
+  try {
+    const playerId = t.dataset.playerId;
+
+    state = selectPlayer(playerId);
+
+    playerMessage = "";
+    playerError = "";
+
+    screen = "title";
+
+    render();
+  } catch (error) {
+    playerError = error.message;
+    render();
+  }
+
+  return;
+}
+
+
+if (a === "player-create-submit") {
+  const nickname =
+    root.querySelector("[data-nickname-input]")
+      ?.value
+      ?.trim() ?? "";
+
+  if (!nickname) {
+    playerError =
+      "ニックネームを入力してください。";
+
+    render();
+    return;
+  }
+
+  try {
+    const player =
+      createPlayer(nickname);
+
+    state = player.state;
+
+    playerMessage = "";
+    playerError = "";
+
+    screen = "title";
+
+    render();
+  } catch (error) {
+    playerError = error.message;
+    render();
+  }
+
+  return;
+}
+
+
+if (a === "legacy-migrate-submit") {
+  const nickname =
+    root.querySelector("[data-nickname-input]")
+      ?.value
+      ?.trim() ?? "";
+
+  if (!nickname) {
+    playerError =
+      "ニックネームを入力してください。";
+
+    render();
+    return;
+  }
+
+  try {
+    const player =
+      migrateLegacySave(nickname);
+
+    state = player.state;
+
+    playerMessage =
+      "これまでの冒険データを引き継ぎました！";
+
+    playerError = "";
+
+    screen = "title";
+
+    render();
+  } catch (error) {
+    playerError = error.message;
+    render();
+  }
+
+  return;
+}
+
+if (a === "toggle-title-bgm") {
+  toggleTitleBgm();
+  return;
+}
     if (feedbackPlaying && !["go", "close-zoom"].includes(a)) return;
     if (a === "go") { clearQuestionTimers(); screen = t.dataset.screen; render(); return; }
     if (a === "world") { worldId = Number(t.dataset.world); screen = "world"; render(); return; }
@@ -205,13 +353,621 @@ export function createApp(root) {
   }
 
   function render() {
-    root.innerHTML = `<div class="app-shell"><header class="app-header"><h1 class="brand">⚔️ Mathsーadventure</h1><div class="header-status"><span class="sync-badge ${sync}">${sync === "connected" ? "☁️ 同期済み" : sync === "syncing" ? "⏳ 同期中" : "💾 ローカル"}</span><strong>✨ ${Number(state.totalExp ?? 0)} EXP</strong><strong>💎 ${state.gems}</strong></div></header><main class="main">${body()}</main><footer class="footer">WORLD学年別モジュール版</footer>${zoomModal()}</div>`;
+
+  if (screen === "landing") {
+    root.innerHTML = landing();
+    return;
   }
-  function body() { if (screen === "world") return world(); if (screen === "game") return game(); if (screen === "result") return result(); if (screen === "collection") return collection(); if (screen === "partner") return partner(); if (screen === "sync") return transfer(); return title(); }
+
+  root.innerHTML = `
+    <div class="app-shell">
+
+      <header class="app-header">
+        <h1 class="brand">⚔️ Maths-adventure</h1>
+
+        <div class="header-status">
+          <span class="sync-badge ${sync}">
+            ${
+              sync === "connected"
+                ? "☁️ 同期済み"
+                : sync === "syncing"
+                  ? "⏳ 同期中"
+                  : "💾 ローカル"
+            }
+          </span>
+
+          <strong>💎 ${state.gems}</strong>
+        </div>
+      </header>
+
+      <main class="main">
+        ${body()}
+      </main>
+
+      <footer class="footer">
+        WORLD学年別モジュール版
+      </footer>
+
+      ${zoomModal()}
+
+    </div>
+  `;
+}
+  function body() {
+  if (screen === "player-select") {
+    return playerSelect();
+  }
+
+  if (screen === "player-create") {
+    return playerCreate();
+  }
+
+  if (screen === "legacy-migrate") {
+    return legacyMigrate();
+  }
+
+  if (screen === "world") {
+    return world();
+  }
+
+  if (screen === "game") {
+    return game();
+  }
+
+  if (screen === "result") {
+    return result();
+  }
+
+  if (screen === "collection") {
+    return collection();
+  }
+
+  if (screen === "partner") {
+    return partner();
+  }
+
+  if (screen === "sync") {
+    return transfer();
+  }
+
+  return title();
+}
+
+/* ==================================================
+   PLAYER SELECT
+================================================== */
+
+function playerSelect() {
+  const players = getPlayers();
+  const active = getActivePlayer();
+
+  return `
+    <section class="stack">
+
+      <div class="toolbar">
+        <button
+          class="button secondary small"
+          data-action="go"
+          data-screen="landing"
+        >
+          ◀ トップへ
+        </button>
+
+        <h2>だれが冒険する？</h2>
+
+        <span></span>
+      </div>
+
+
+      ${
+        playerMessage
+          ? `
+            <div class="notice">
+              ${escapeHtml(playerMessage)}
+            </div>
+          `
+          : ""
+      }
+
+
+      ${
+        playerError
+          ? `
+            <div class="error">
+              ${escapeHtml(playerError)}
+            </div>
+          `
+          : ""
+      }
+
+
+      <div class="player-grid">
+
+        ${
+          players.map(player => `
+            <button
+              class="player-card ${
+                active?.playerId === player.playerId
+                  ? "active"
+                  : ""
+              }"
+              data-action="player-select"
+              data-player-id="${escapeHtml(player.playerId)}"
+            >
+
+              <div class="player-avatar">
+                🧙
+              </div>
+
+              <strong>
+                ${escapeHtml(player.nickname)}
+              </strong>
+
+              <small>
+                💎 ${Number(player.state?.gems ?? 0)}
+                ・
+                🃏 ${player.state?.unlockedCards?.length ?? 0}枚
+              </small>
+
+              ${
+                active?.playerId === player.playerId
+                  ? `
+                    <span class="player-current">
+                      いまのプレイヤー
+                    </span>
+                  `
+                  : ""
+              }
+
+            </button>
+          `).join("")
+        }
+
+      </div>
+
+
+      <button
+        class="button cyan"
+        data-action="player-new"
+      >
+        ＋ あたらしいプレイヤー
+      </button>
+
+    </section>
+  `;
+}
+
+
+/* ==================================================
+   PLAYER CREATE
+================================================== */
+
+function playerCreate() {
+  return `
+    <section class="panel stack">
+
+      <div class="toolbar">
+
+        <button
+          class="button secondary small"
+          data-action="go"
+          data-screen="player-select"
+        >
+          ◀ もどる
+        </button>
+
+        <h2>
+          あたらしい冒険
+        </h2>
+
+        <span></span>
+
+      </div>
+
+
+      <div class="hero">
+
+        <div class="hero-icon">
+          🧙‍♂️✨
+        </div>
+
+        <h2>
+          ニックネームを決めよう！
+        </h2>
+
+        <p class="muted">
+          本名じゃなくてOKだよ。
+        </p>
+
+      </div>
+
+
+      <input
+        class="input nickname-input"
+        data-nickname-input
+        maxlength="20"
+        autocomplete="off"
+        placeholder="ニックネーム"
+      >
+
+
+      ${
+        playerError
+          ? `
+            <div class="error">
+              ${escapeHtml(playerError)}
+            </div>
+          `
+          : ""
+      }
+
+
+      <button
+        class="button cyan"
+        data-action="player-create-submit"
+      >
+        この名前で冒険をはじめる
+      </button>
+
+    </section>
+  `;
+}
+
+
+/* ==================================================
+   LEGACY SAVE MIGRATION
+================================================== */
+
+function legacyMigrate() {
+  return `
+    <section class="panel stack">
+
+      <div class="hero">
+
+        <div class="hero-icon">
+          💾✨
+        </div>
+
+        <h2>
+          これまでの冒険を見つけたよ！
+        </h2>
+
+        <p class="muted">
+          今まで集めたカードやジェムを
+          新しいプレイヤーデータへ引き継げます。
+        </p>
+
+      </div>
+
+
+      <p>
+        この冒険につける
+        ニックネームを入力してください。
+      </p>
+
+
+      <input
+        class="input nickname-input"
+        data-nickname-input
+        maxlength="20"
+        autocomplete="off"
+        placeholder="ニックネーム"
+      >
+
+
+      ${
+        playerError
+          ? `
+            <div class="error">
+              ${escapeHtml(playerError)}
+            </div>
+          `
+          : ""
+      }
+
+
+      <button
+        class="button cyan"
+        data-action="legacy-migrate-submit"
+      >
+        この名前で引き継ぐ
+      </button>
+
+    </section>
+  `;
+}
 
   function title() {
-    return `<section class="stack"><div class="panel hero"><div class="hero-icon">💎⚔️🐉</div><h2>Maths Quest</h2><p class="muted">WORLDを選んで算数の冒険へ出発しよう。</p></div><div class="world-grid">${worlds.map(w=>`<button class="world-button ${w.available?"":"disabled"}" ${w.available?`data-action="world" data-world="${w.id}"`:"disabled"}><strong>WORLD ${w.id}</strong><span>${w.icon} ${w.grade}</span><small>${w.title}<br>${w.description}</small></button>`).join("")}</div><div class="panel stack"><strong>フラッシュ表示時間</strong><div class="speed-grid">${["slow","normal","fast"].map(s=>`<button class="button small ${state.speedSetting===s?"cyan":"secondary"}" data-action="set-speed" data-speed="${s}">${s==="slow"?"ゆっくり":s==="fast"?"一瞬":"ふつう"}</button>`).join("")}</div><button class="button partner-button" data-action="go" data-screen="partner">⭐ パートナー</button><button class="button secondary" data-action="go" data-screen="collection">カード図鑑</button><button class="button secondary" data-action="go" data-screen="sync">引っ越しコード</button></div></section>`;
+  const activePlayer = getActivePlayer();
+
+  return `
+    <section class="stack">
+
+      <!-- 現在のプレイヤー -->
+      <div class="panel player-banner">
+
+  <div>
+    <small>
+      いま冒険しているプレイヤー
+    </small>
+
+    <strong>
+      🧙 ${escapeHtml(activePlayer?.nickname ?? "ゲスト")}
+    </strong>
+  </div>
+
+  <div class="player-banner-actions">
+
+    <button
+      class="button secondary small"
+      data-action="go"
+      data-screen="player-select"
+    >
+      👤 きりかえる
+    </button>
+
+    <button
+      class="button secondary small"
+      data-action="go"
+      data-screen="landing"
+    >
+      🏠 トップへ
+    </button>
+
+  </div>
+
+</div>
+
+      <!-- WORLD案内 -->
+      <div class="panel hero">
+
+        <div class="hero-icon">
+          💎⚔️🐉
+        </div>
+
+        <h2>
+          Maths Quest
+        </h2>
+
+        <p class="muted">
+          WORLDを選んで算数の冒険へ出発しよう。
+        </p>
+
+      </div>
+
+
+      <!-- WORLD一覧 -->
+      <div class="world-grid">
+
+        ${
+          worlds.map(w => `
+            <button
+              class="world-button ${w.available ? "" : "disabled"}"
+              ${
+                w.available
+                  ? `data-action="world" data-world="${w.id}"`
+                  : "disabled"
+              }
+            >
+
+              <strong>
+                WORLD ${w.id}
+              </strong>
+
+              <span>
+                ${w.icon} ${w.grade}
+              </span>
+
+              <small>
+                ${w.title}
+                <br>
+                ${w.description}
+              </small>
+
+            </button>
+          `).join("")
+        }
+
+      </div>
+
+
+      <!-- 設定・図鑑 -->
+      <div class="panel stack">
+
+        <strong>
+          フラッシュ表示時間
+        </strong>
+
+        <div class="speed-grid">
+
+          ${
+            ["slow", "normal", "fast"].map(s => `
+              <button
+                class="button small ${
+                  state.speedSetting === s
+                    ? "cyan"
+                    : "secondary"
+                }"
+                data-action="set-speed"
+                data-speed="${s}"
+              >
+                ${
+                  s === "slow"
+                    ? "ゆっくり"
+                    : s === "fast"
+                      ? "一瞬"
+                      : "ふつう"
+                }
+              </button>
+            `).join("")
+          }
+
+        </div>
+
+
+        <button
+          class="button partner-button"
+          data-action="go"
+          data-screen="partner"
+        >
+          ⭐ パートナー
+        </button>
+
+
+        <button
+          class="button secondary"
+          data-action="go"
+          data-screen="collection"
+        >
+          カード図鑑
+        </button>
+
+
+        <button
+          class="button secondary"
+          data-action="go"
+          data-screen="sync"
+        >
+          引っ越しコード
+        </button>
+
+      </div>
+
+    </section>
+  `;
+}
+
+/* =========================
+   タイトルBGM
+========================= */
+
+function toggleTitleBgm() {
+  if (titleBgmPlaying) {
+    titleBgm.pause();
+    titleBgmPlaying = false;
+    return;
   }
+
+  titleBgm.play()
+    .then(() => {
+      titleBgmPlaying = true;
+      render();
+    })
+    .catch(error => {
+      console.warn("BGMを再生できませんでした:", error);
+    });
+}
+
+function stopTitleBgm() {
+  titleBgm.pause();
+  titleBgm.currentTime = 0;
+  titleBgmPlaying = false;
+}
+
+
+/* =========================
+   新トップページ
+========================= */
+  function landing() {
+
+  return `
+    <section class="landing-screen">
+
+      <div class="landing-bg"></div>
+      <div class="landing-vignette"></div>
+
+      <!-- BGM -->
+      <button
+        class="landing-music"
+        data-action="toggle-title-bgm"
+        aria-label="BGM切り替え"
+        title="BGM ON / OFF"
+      >
+        ${titleBgmPlaying ? "🔊" : "♪"}
+      </button>
+
+
+      <!-- 中央エリア -->
+      <div class="landing-center">
+
+        <!-- タイトルロゴ -->
+        <div class="game-logo">
+
+          <div class="game-logo-star">
+            ✦
+          </div>
+
+          <div class="game-logo-inner">
+
+            <span class="game-logo-maths">
+              Maths-
+            </span>
+
+            <span class="game-logo-adventure">
+              adventure
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <p class="landing-catch">
+          算数を、冒険に。
+        </p>
+
+
+        <!-- メインボタン -->
+        <button
+          class="landing-start-button"
+          data-action="landing-start"
+        >
+          <span class="landing-play-icon">▶</span>
+          <span>冒険をはじめる</span>
+        </button>
+
+
+        <!-- サブボタン -->
+        <div class="landing-sub-buttons">
+
+  <button
+    class="landing-sub-button continue"
+    data-action="landing-start"
+  >
+    👤 プレイヤーをえらぶ
+  </button>
+
+</div>
+
+      </div>
+
+
+      <!-- 下部 -->
+      <div class="landing-bottom">
+
+        <button
+          class="landing-settings"
+          data-action="go"
+          data-screen="sync"
+        >
+          ⚙ 引っ越し・設定
+        </button>
+
+        <div class="landing-sync">
+          ${
+            sync === "connected"
+              ? "☁️ データ同期済み"
+              : sync === "syncing"
+                ? "⏳ 同期中"
+                : "💾 ローカルセーブ"
+          }
+        </div>
+
+      </div>
+
+    </section>
+  `;
+}
 
   function world() {
     const w = worlds.find(x=>x.id===worldId), ss = stages.filter(x=>x.world===worldId), units = [...new Set(ss.map(x=>x.unit))];
@@ -519,6 +1275,9 @@ function zoomModal() {
   function tiltMouse(e) { if (!zoom) return; const el=root.querySelector("[data-zoom-tilt]"); if(!el)return; const r=el.getBoundingClientRect(),x=e.clientX-r.left-r.width/2,y=e.clientY-r.top-r.height/2; el.style.transform=`rotateX(${-y/(r.height/2)*16}deg) rotateY(${x/(r.width/2)*16}deg) scale(1.03)`; }
   function tiltTouch(e) { if (!zoom||!e.touches.length)return; e.preventDefault(); const t=e.touches[0],el=root.querySelector("[data-zoom-tilt]"); if(!el)return; const r=el.getBoundingClientRect(),x=t.clientX-r.left-r.width/2,y=t.clientY-r.top-r.height/2; el.style.transform=`rotateX(${-y/(r.height/2)*16}deg) rotateY(${x/(r.width/2)*16}deg) scale(1.03)`; }
 
-  function transfer() { return `<section class="panel stack"><div class="toolbar"><button class="button secondary small" data-action="go" data-screen="title">◀ 戻る</button><h2>引っ越しコード</h2><span></span></div>${!isFirebaseConfigured()?'<div class="notice">Firebase設定が未入力です。</div>':""}<button class="button" data-action="transfer-create">6桁コードを発行</button><input class="input" data-transfer-input inputmode="numeric" maxlength="6" placeholder="123456"><button class="button cyan" data-action="transfer-use">データを引き継ぐ</button>${msg?`<div class="sync-code">${msg}</div>`:""}${err?`<div class="error">${err}</div>`:""}</section>`; }
+  function transfer() { return `<section class="panel stack"><div class="toolbar"><button class="button secondary small" data-action="go" data-screen="landing">
+  ◀ トップへ
+</button>
+<h2>引っ越しコード</h2><span></span></div>${!isFirebaseConfigured()?'<div class="notice">Firebase設定が未入力です。</div>':""}<button class="button" data-action="transfer-create">6桁コードを発行</button><input class="input" data-transfer-input inputmode="numeric" maxlength="6" placeholder="123456"><button class="button cyan" data-action="transfer-use">データを引き継ぐ</button>${msg?`<div class="sync-code">${msg}</div>`:""}${err?`<div class="error">${err}</div>`:""}</section>`; }
 }
 const image=(c,r)=>c?.images?.[r]??c?.images?.N??c?.image??"";

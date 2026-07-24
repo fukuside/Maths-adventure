@@ -917,3 +917,1128 @@ body { overflow-x: hidden; }
     opacity: 0.28;
   }
 }
+
+/* ==================================================
+   Maths-adventure
+   LANDING / TITLE SCREEN
+================================================== */
+
+.landing-screen {
+  position: fixed;
+  inset: 0;
+
+  width: 100%;
+  height: 100dvh;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family:
+    "Trebuchet MS",
+    "Arial Rounded MT Bold",
+    "Noto Sans JP",
+    sans-serif;
+
+  background: #07152c;
+}
+
+
+/* 背景 */
+
+.landing-bg {
+  position: absolute;
+  inset: 0;
+
+  background-image:
+    url("/images/title-bg.png");
+
+  background-size: cover;
+  background-position: center center;
+
+  z-index: 0;
+
+  transform: scale(1.02);
+}
+
+
+/* ロゴ部分を読みやすくする中央の薄い暗幕 */
+
+.landing-vignette {
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at center 45%,
+      rgba(5, 25, 55, 0.05) 0%,
+      rgba(5, 20, 45, 0.16) 43%,
+      rgba(0, 8, 24, 0.46) 100%
+    );
+
+  pointer-events: none;
+
+  z-index: 1;
+}
+
+
+/* 中央 */
+
+.landing-center {
+  position: relative;
+
+  z-index: 5;
+
+  width: min(92vw, 680px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+
+  transform: translateY(-2vh);
+}
+
+
+/* ==================================================
+   LOGO
+================================================== */
+
+.game-logo {
+  position: relative;
+
+  width: min(90vw, 650px);
+
+  padding:
+    clamp(24px, 4vw, 38px)
+    clamp(38px, 7vw, 75px)
+    clamp(20px, 3vw, 30px);
+
+  margin-bottom: 4px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(15, 42, 91, 0.98),
+      rgba(5, 20, 55, 0.98)
+    );
+
+  border:
+    clamp(4px, 0.7vw, 7px)
+    solid #e7a91b;
+
+  clip-path:
+    polygon(
+      7% 8%,
+      42% 8%,
+      46% 0%,
+      54% 0%,
+      58% 8%,
+      93% 8%,
+      100% 25%,
+      95% 50%,
+      100% 75%,
+      91% 93%,
+      60% 93%,
+      50% 100%,
+      40% 93%,
+      9% 93%,
+      0% 75%,
+      5% 50%,
+      0% 25%
+    );
+
+  filter:
+    drop-shadow(0 8px 0 #4a2102)
+    drop-shadow(0 14px 20px rgba(0,0,0,.55));
+}
+
+
+/* 内側の金線 */
+
+.game-logo::before {
+  content: "";
+
+  position: absolute;
+  inset: 8px;
+
+  clip-path: inherit;
+
+  border: 2px solid rgba(255, 226, 117, 0.8);
+
+  pointer-events: none;
+}
+
+
+/* コンパス星 */
+
+.game-logo-star {
+  position: absolute;
+
+  top: -38px;
+  left: 50%;
+
+  transform: translateX(-50%);
+
+  width: 82px;
+  height: 82px;
+
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+
+  color: #ffe270;
+
+  font-size: 62px;
+
+  background:
+    radial-gradient(
+      circle,
+      #45cfff 0 30%,
+      #0756a8 31% 60%,
+      #021d55 61%
+    );
+
+  border: 6px solid #f7ba28;
+
+  box-shadow:
+    0 0 0 3px #74430b,
+    0 0 22px rgba(255, 221, 68, .8);
+}
+
+
+/* ロゴ文字 */
+
+.game-logo-inner {
+  display: flex;
+  flex-direction: column;
+
+  line-height: .82;
+
+  transform: rotate(-1deg);
+}
+
+
+.game-logo-maths {
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    clamp(64px, 11vw, 108px);
+
+  font-weight: 900;
+
+  letter-spacing: -5px;
+
+  color: #ffd44c;
+
+  -webkit-text-stroke:
+    clamp(2px, .4vw, 4px)
+    #5a2500;
+
+  text-shadow:
+    0 3px 0 #fff3a5,
+    0 7px 0 #a85a03,
+    0 12px 0 #462000,
+    0 17px 18px rgba(0,0,0,.65);
+}
+
+
+.game-logo-adventure {
+  margin-top: 8px;
+
+  font-family:
+    Georgia,
+    "Times New Roman",
+    serif;
+
+  font-size:
+    clamp(52px, 9vw, 90px);
+
+  font-weight: 900;
+
+  letter-spacing: -5px;
+
+  color: #6be0ff;
+
+  -webkit-text-stroke:
+    clamp(2px, .4vw, 4px)
+    #043a70;
+
+  text-shadow:
+    0 3px 0 #e2fbff,
+    0 7px 0 #138bc8,
+    0 12px 0 #03325f,
+    0 17px 18px rgba(0,0,0,.65);
+}
+
+
+/* キャッチコピー */
+
+.landing-catch {
+  margin:
+    clamp(12px, 2vh, 18px)
+    0
+    clamp(14px, 2vh, 22px);
+
+  padding: 4px 24px 8px;
+
+  color: white;
+
+  font-size:
+    clamp(21px, 3.1vw, 32px);
+
+  font-weight: 900;
+
+  letter-spacing: .1em;
+
+  text-shadow:
+    0 3px 0 rgba(35, 19, 3, .8),
+    0 0 10px rgba(0,0,0,.9);
+}
+
+
+/* ==================================================
+   START BUTTON
+================================================== */
+
+.landing-start-button {
+  position: relative;
+
+  min-width:
+    min(78vw, 400px);
+
+  min-height:
+    clamp(68px, 9vh, 86px);
+
+  padding:
+    12px
+    34px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+
+  border:
+    5px solid #efb22a;
+
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  color: white;
+
+  font-size:
+    clamp(22px, 3.5vw, 34px);
+
+  font-weight: 900;
+
+  background:
+    linear-gradient(
+      180deg,
+      #1382ff,
+      #075bd1 52%,
+      #043785
+    );
+
+  box-shadow:
+    inset 0 0 0 3px #5ecaff,
+    inset 0 -8px 0 rgba(0,0,0,.18),
+    0 5px 0 #672e00,
+    0 10px 25px rgba(0,0,0,.52);
+
+  text-shadow:
+    0 3px 0 #05275b;
+}
+
+
+.landing-start-button::before {
+  content: "";
+
+  position: absolute;
+  inset: 5px;
+
+  border:
+    2px solid rgba(255,255,255,.6);
+
+  border-radius: 9px;
+
+  pointer-events: none;
+}
+
+
+.landing-start-button:hover {
+  transform:
+    translateY(-2px)
+    scale(1.02);
+
+  filter: brightness(1.1);
+}
+
+
+.landing-start-button:active {
+  transform: translateY(3px);
+
+  box-shadow:
+    inset 0 0 0 3px #5ecaff,
+    inset 0 -4px 0 rgba(0,0,0,.18),
+    0 2px 0 #672e00;
+}
+
+
+.landing-play-icon {
+  font-size: .9em;
+
+  color: white;
+
+  filter:
+    drop-shadow(0 2px 0 #06295c);
+}
+
+
+/* ==================================================
+   SUB BUTTONS
+================================================== */
+
+.landing-sub-buttons {
+  margin-top: 18px;
+
+  display: flex;
+
+  gap: 14px;
+
+  justify-content: center;
+}
+
+
+.landing-sub-button {
+  min-width:
+    clamp(130px, 24vw, 185px);
+
+  padding:
+    12px 20px;
+
+  border-radius: 12px;
+
+  cursor: pointer;
+
+  color: white;
+
+  font-size:
+    clamp(15px, 2.2vw, 20px);
+
+  font-weight: 900;
+
+  border: 4px solid #e8b13b;
+
+  text-shadow:
+    0 2px 0 rgba(0,0,0,.65);
+
+  box-shadow:
+    inset 0 0 0 2px rgba(255,255,255,.28),
+    0 4px 0 #4a2705,
+    0 7px 14px rgba(0,0,0,.4);
+}
+
+
+.landing-sub-button.continue {
+  background:
+    linear-gradient(
+      #55d24d,
+      #19962d
+    );
+}
+
+
+.landing-sub-button.collection {
+  background:
+    linear-gradient(
+      #a45cff,
+      #5c20b3
+    );
+}
+
+
+.landing-sub-button:hover {
+  transform: translateY(-2px);
+
+  filter: brightness(1.12);
+}
+
+
+/* ==================================================
+   MUSIC BUTTON
+================================================== */
+
+.landing-music {
+  position: absolute;
+
+  z-index: 10;
+
+  top:
+    max(16px, env(safe-area-inset-top));
+
+  right:
+    max(18px, env(safe-area-inset-right));
+
+  width: 58px;
+  height: 58px;
+
+  border-radius: 50%;
+
+  display: grid;
+  place-items: center;
+
+  cursor: pointer;
+
+  color: white;
+
+  font-size: 28px;
+
+  border:
+    3px solid rgba(255,255,255,.9);
+
+  background:
+    rgba(4, 20, 47, .75);
+
+  box-shadow:
+    0 5px 15px rgba(0,0,0,.4);
+
+  backdrop-filter: blur(5px);
+}
+
+
+.landing-music:hover {
+  background:
+    rgba(12, 65, 130, .9);
+}
+
+
+/* ==================================================
+   BOTTOM
+================================================== */
+
+.landing-bottom {
+  position: absolute;
+
+  z-index: 7;
+
+  bottom:
+    max(15px, env(safe-area-inset-bottom));
+
+  left: 16px;
+  right: 16px;
+
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: space-between;
+
+  pointer-events: none;
+}
+
+
+.landing-settings {
+  pointer-events: auto;
+
+  padding:
+    9px
+    14px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  color: white;
+
+  border:
+    2px solid rgba(255,255,255,.65);
+
+  background:
+    rgba(4, 16, 38, .72);
+
+  font-weight: 800;
+
+  backdrop-filter: blur(5px);
+}
+
+
+.landing-sync {
+  padding:
+    7px
+    12px;
+
+  border-radius: 999px;
+
+  color: white;
+
+  background:
+    rgba(3, 16, 35, .62);
+
+  font-size: 13px;
+
+  font-weight: 700;
+
+  backdrop-filter: blur(4px);
+}
+
+
+/* ==================================================
+   SMALL HEIGHT
+================================================== */
+
+@media (max-height: 760px) {
+
+  .game-logo {
+    width: min(75vw, 500px);
+
+    padding-top: 20px;
+
+    padding-bottom: 14px;
+  }
+
+  .game-logo-star {
+    width: 60px;
+    height: 60px;
+
+    top: -27px;
+
+    font-size: 43px;
+  }
+
+  .game-logo-maths {
+    font-size:
+      clamp(48px, 9vh, 74px);
+  }
+
+  .game-logo-adventure {
+    font-size:
+      clamp(40px, 7.5vh, 62px);
+  }
+
+  .landing-catch {
+    margin: 7px 0 10px;
+
+    font-size:
+      clamp(17px, 3vh, 23px);
+  }
+
+  .landing-start-button {
+    min-height: 58px;
+
+    font-size: 23px;
+  }
+
+  .landing-sub-buttons {
+    margin-top: 11px;
+  }
+
+}
+
+
+/* ==================================================
+   MOBILE
+================================================== */
+
+@media (max-width: 600px) {
+
+  .landing-bg {
+    background-position: center center;
+  }
+
+  .landing-center {
+    width: 96vw;
+
+    transform: translateY(-1vh);
+  }
+
+  .game-logo {
+    width: 92vw;
+
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+
+  .game-logo-maths {
+    letter-spacing: -3px;
+  }
+
+  .game-logo-adventure {
+    letter-spacing: -3px;
+  }
+
+  .landing-sub-buttons {
+    width: 90%;
+
+    gap: 9px;
+  }
+
+  .landing-sub-button {
+    flex: 1;
+
+    min-width: 0;
+
+    padding:
+      11px
+      8px;
+  }
+
+  .landing-sync {
+    display: none;
+  }
+
+}
+/* =========================================================
+   Maths-adventure LANDING PAGE
+   ========================================================= */
+
+.landing-page {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  min-height: 100dvh;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background:
+    linear-gradient(
+      rgba(2, 6, 23, 0.18),
+      rgba(2, 6, 23, 0.62)
+    ),
+    url("/images/title-bg.png") center center / cover no-repeat;
+
+  color: #fff;
+}
+
+
+/* 背景を少し暗くして文字を読みやすくする */
+
+.landing-page::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+
+  background:
+    radial-gradient(
+      circle at 50% 40%,
+      transparent 0%,
+      rgba(2, 6, 23, 0.08) 42%,
+      rgba(2, 6, 23, 0.62) 100%
+    );
+}
+
+
+/* 中央コンテンツ */
+
+.landing-content {
+  position: relative;
+  z-index: 2;
+
+  width: min(92vw, 520px);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+
+/* =========================
+   タイトル
+========================= */
+
+.landing-logo {
+  margin-bottom: 1.5rem;
+
+  filter:
+    drop-shadow(0 5px 0 rgba(0, 0, 0, 0.65))
+    drop-shadow(0 0 18px rgba(251, 191, 36, 0.35));
+}
+
+.landing-logo h1 {
+  margin: 0;
+
+  color: #fde68a;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(2.4rem, 8vw, 4.3rem);
+  font-weight: 900;
+  line-height: 0.95;
+
+  letter-spacing: -0.04em;
+
+  text-shadow:
+    0 3px 0 #92400e,
+    0 6px 0 #451a03,
+    0 9px 16px rgba(0, 0, 0, 0.8);
+}
+
+.landing-logo .logo-subtitle {
+  display: block;
+
+  margin-top: 0.55rem;
+
+  color: #fef3c7;
+
+  font-size: clamp(0.75rem, 2.5vw, 1rem);
+  font-weight: 900;
+
+  letter-spacing: 0.28em;
+
+  text-shadow: 0 2px 6px #000;
+}
+
+
+/* =========================
+   メニュー
+========================= */
+
+.landing-menu {
+  width: min(100%, 390px);
+
+  display: grid;
+  gap: 0.65rem;
+}
+
+
+/* 共通ボタン */
+
+.landing-button {
+  position: relative;
+
+  width: 100%;
+  min-height: 54px;
+
+  border: 1px solid rgba(253, 230, 138, 0.72);
+  border-radius: 12px;
+
+  padding: 0.7rem 1rem;
+
+  color: #fff;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(51, 65, 85, 0.94),
+      rgba(15, 23, 42, 0.96)
+    );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.18),
+    0 6px 14px rgba(0, 0, 0, 0.38);
+
+  font-weight: 900;
+  font-size: 0.95rem;
+
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.8);
+
+  transition:
+    transform 120ms ease,
+    filter 120ms ease;
+}
+
+.landing-button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.12);
+}
+
+.landing-button:active {
+  transform: translateY(1px);
+}
+
+
+/* 冒険をはじめる */
+
+.landing-button.primary {
+  min-height: 64px;
+
+  color: #fff7cc;
+
+  border-color: #fcd34d;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(180, 83, 9, 0.96),
+      rgba(120, 53, 15, 0.98)
+    );
+
+  box-shadow:
+    inset 0 1px 0 rgba(255,255,255,.28),
+    0 0 18px rgba(251,191,36,.22),
+    0 7px 16px rgba(0,0,0,.45);
+
+  font-size: 1.08rem;
+}
+
+
+/* =========================
+   BGMボタン
+========================= */
+
+.landing-bgm {
+  position: absolute;
+
+  top: max(1rem, env(safe-area-inset-top));
+  right: max(1rem, env(safe-area-inset-right));
+
+  z-index: 5;
+
+  width: 46px;
+  height: 46px;
+
+  display: grid;
+  place-items: center;
+
+  padding: 0;
+
+  border: 1px solid rgba(253,230,138,.65);
+  border-radius: 50%;
+
+  color: #fde68a;
+
+  background: rgba(15,23,42,.82);
+
+  box-shadow:
+    0 4px 12px rgba(0,0,0,.4),
+    inset 0 1px 0 rgba(255,255,255,.15);
+
+  font-size: 1.15rem;
+}
+
+
+/* =========================
+   小さい画面
+========================= */
+
+@media (max-width: 600px) {
+
+  .landing-content {
+    width: 90vw;
+  }
+
+  .landing-logo {
+    margin-bottom: 1rem;
+  }
+
+  .landing-menu {
+    width: min(100%, 350px);
+    gap: 0.5rem;
+  }
+
+  .landing-button {
+    min-height: 48px;
+    padding: 0.55rem 0.8rem;
+    font-size: 0.86rem;
+  }
+
+  .landing-button.primary {
+    min-height: 56px;
+    font-size: 1rem;
+  }
+}
+
+
+/* Surfaceなど横長・高さが低い画面 */
+
+@media (max-height: 700px) {
+
+  .landing-logo {
+    margin-bottom: 0.8rem;
+  }
+
+  .landing-logo h1 {
+    font-size: clamp(2rem, 7vh, 3.3rem);
+  }
+
+  .landing-menu {
+    gap: 0.42rem;
+  }
+
+  .landing-button {
+    min-height: 44px;
+    padding: 0.45rem 0.8rem;
+  }
+
+  .landing-button.primary {
+    min-height: 52px;
+  }
+}
+
+/* ==================================================
+   PLAYER PROFILES
+================================================== */
+
+.player-grid {
+  display: grid;
+  grid-template-columns:
+    repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+}
+
+
+.player-card {
+  min-height: 150px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.45rem;
+
+  padding: 1rem;
+
+  border:
+    2px solid #475569;
+
+  border-radius: 1.1rem;
+
+  color: white;
+
+  background:
+    linear-gradient(
+      145deg,
+      #1e293b,
+      #0f172a
+    );
+
+  text-align: center;
+}
+
+
+.player-card:hover {
+  border-color: #22d3ee;
+
+  transform:
+    translateY(-2px);
+}
+
+
+.player-card.active {
+  border-color: #facc15;
+
+  box-shadow:
+    0 0 24px
+    rgba(250, 204, 21, 0.28);
+}
+
+
+.player-avatar {
+  font-size: 2.7rem;
+}
+
+
+.player-card strong {
+  color: #fde68a;
+
+  font-size: 1.05rem;
+}
+
+
+.player-card small {
+  color: #cbd5e1;
+}
+
+
+.player-current {
+  margin-top: 0.3rem;
+
+  padding:
+    0.25rem
+    0.55rem;
+
+  border-radius: 999px;
+
+  color: #052e16;
+
+  background: #86efac;
+
+  font-size: 0.68rem;
+
+  font-weight: 900;
+}
+
+
+.nickname-input {
+  font-size: 1.2rem;
+
+  font-weight: 900;
+}
+
+
+.player-banner {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+
+.player-banner small,
+.player-banner strong {
+  display: block;
+}
+
+
+.player-banner small {
+  margin-bottom: 0.25rem;
+
+  color: #94a3b8;
+
+  font-size: 0.7rem;
+}
+
+
+.player-banner strong {
+  color: #fde68a;
+
+  font-size: 1rem;
+}
+
+
+@media (max-width: 480px) {
+
+  .player-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .player-card {
+    min-height: 115px;
+  }
+
+}
+.player-banner-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 520px) {
+  .player-banner {
+    align-items: flex-start;
+  }
+
+  .player-banner-actions {
+    justify-content: flex-end;
+  }
+
+  .player-banner-actions .button {
+    font-size: 0.72rem;
+  }
+}
