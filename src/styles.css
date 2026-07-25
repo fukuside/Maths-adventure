@@ -2042,3 +2042,117 @@ body { overflow-x: hidden; }
     font-size: 0.72rem;
   }
 }
+/* ==================================================
+   TOP CONTACT / CREATOR
+================================================== */
+
+.landing-bottom-left {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  pointer-events: auto;
+}
+
+
+.landing-contact {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 9px 14px;
+
+  border: 2px solid rgba(255,255,255,.65);
+  border-radius: 10px;
+
+  color: white;
+  background: rgba(4, 16, 38, .72);
+
+  font-size: 0.82rem;
+  font-weight: 800;
+  text-decoration: none;
+
+  backdrop-filter: blur(5px);
+
+  transition:
+    transform .15s ease,
+    background .15s ease;
+}
+
+
+.landing-contact:hover {
+  transform: translateY(-2px);
+  background: rgba(12, 65, 130, .9);
+}
+
+
+/* 作成元 */
+
+.landing-creator {
+  position: absolute;
+
+  z-index: 8;
+
+  left: 50%;
+  bottom: max(15px, env(safe-area-inset-bottom));
+
+  transform: translateX(-50%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.45rem;
+
+  color: rgba(255,255,255,.85);
+
+  font-size: 0.7rem;
+  font-weight: 700;
+
+  text-shadow:
+    0 2px 5px rgba(0,0,0,.9);
+
+  white-space: nowrap;
+}
+
+
+.landing-creator-logo {
+  width: 28px;
+  height: 28px;
+
+  object-fit: contain;
+
+  border-radius: 6px;
+
+  background: rgba(255,255,255,.9);
+}
+
+
+/* スマホ */
+
+@media (max-width: 700px) {
+
+  .landing-bottom-left {
+    gap: 0.35rem;
+  }
+
+  .landing-settings,
+  .landing-contact {
+    padding: 7px 9px;
+    font-size: 0.7rem;
+  }
+
+  .landing-creator {
+    bottom: 58px;
+    max-width: 85vw;
+
+    white-space: normal;
+    text-align: center;
+
+    font-size: 0.62rem;
+  }
+
+  .landing-creator-logo {
+    width: 24px;
+    height: 24px;
+  }
+}

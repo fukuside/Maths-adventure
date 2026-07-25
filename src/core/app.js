@@ -945,26 +945,54 @@ function stopTitleBgm() {
       <!-- 下部 -->
       <div class="landing-bottom">
 
-        <button
-          class="landing-settings"
-          data-action="go"
-          data-screen="sync"
-        >
-          ⚙ 引っ越し・設定
-        </button>
+  <div class="landing-bottom-left">
 
-        <div class="landing-sync">
-          ${
-            sync === "connected"
-              ? "☁️ データ同期済み"
-              : sync === "syncing"
-                ? "⏳ 同期中"
-                : "💾 ローカルセーブ"
-          }
-        </div>
+    <button
+      class="landing-settings"
+      data-action="go"
+      data-screen="sync"
+    >
+      ⚙ 引っ越し・設定
+    </button>
 
-      </div>
+    <a
+      class="landing-contact"
+      href="mailto:info.fukushi@allcare.co.jp?subject=${encodeURIComponent("【Maths-adventure】お問い合わせ")}&body=${encodeURIComponent(
+        "Maths-adventureについてのお問い合わせ\n\n【お問い合わせ内容】\n\n"
+      )}"
+    >
+      ✉ お問い合わせ
+    </a>
 
+  </div>
+
+  <div class="landing-sync">
+    ${
+      sync === "connected"
+        ? "☁️ データ同期済み"
+        : sync === "syncing"
+          ? "⏳ 同期中"
+          : "💾 ローカルセーブ"
+    }
+  </div>
+
+</div>
+
+
+<div class="landing-creator">
+
+  <img
+    src="/images/fukushi-logo.png"
+    alt="一般社団法人福祉でつながる会"
+    class="landing-creator-logo"
+  >
+
+  <span>
+    作成元：一般社団法人福祉でつながる会
+  </span>
+
+</div>
+          
     </section>
   `;
 }
