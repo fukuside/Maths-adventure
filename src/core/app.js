@@ -23,7 +23,7 @@ export function createApp(root) {
   let state = loadLocalState();
   let screen = "landing", worldId = null, currentStage = null, questions = [], qi = 0, input = "";
   let earned = null;
-  
+
 let chestOpened = false;
 let chestOpening = false;
 let cardRevealed = false;
@@ -532,12 +532,31 @@ function playCardRevealSound(rarity = "N") {
 }
 
   function getPool(stage) {
-    const unitCards = cards.filter(c => c.world === stage.world && c.unit === stage.unit);
-    if (stage.isBoss) return unitCards.filter(c => c.role === "boss");
-    const normals = unitCards.filter(c => c.role === "normal").sort((a,b)=>a.number-b.number);
-    if (stage.unit === "multiplication") return (stage.sort ?? 1) <= 6 ? normals.slice(0,6) : normals.slice(6,12);
-    return normals;
+  const worldCards =
+    cards.filter(
+      c => c.world === stage.world
+    );
+
+  if (stage.isBoss) {
+    const bosses =
+      worldCards.filter(
+        c => c.role === "boss"
+      );
+
+    if (bosses.length > 0) {
+      return bosses;
+    }
   }
+
+  const normals =
+    worldCards.filter(
+      c => c.role === "normal"
+    );
+
+  return normals.length > 0
+    ? normals
+    : worldCards;
+}
 
   function finish() {
     clearQuestionTimers();
