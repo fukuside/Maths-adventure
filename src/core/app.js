@@ -22,7 +22,14 @@ const rarityRows = [["UR", 0.05, 1.7], ["SR", 0.25, 1.3], ["N", 0.70, 1]];
 export function createApp(root) {
   let state = loadLocalState();
   let screen = "landing", worldId = null, currentStage = null, questions = [], qi = 0, input = "";
-  let earned = null, chestOpened = false, sync = "local", msg = "", err = "";
+  let earned = null;
+  
+let chestOpened = false;
+let chestOpening = false;
+let cardRevealed = false;
+let chestTimer = null;
+
+let sync = "local", msg = "", err = "";
   let lives = 2, gameOver = false, wrongMessage = "";
   let flashVisible = true, inputEnabled = false, flashTimer = null, feedbackTimer = null, zoom = null;
   let answerFeedback = null;
@@ -237,7 +244,42 @@ if (a === "toggle-title-bgm") {
       }
       return;
     }
-    if (a === "open-chest") { chestOpened = true; render(); return; }
+    if (a === "open-chest") {
+  if (chestOpening || cardRevealed) return;
+
+  chestOpened = true;
+  chestOpening = true;
+  cardRevealed = false;
+
+  playChestOpenSound();
+
+  render();
+
+  clearTimeout(chestTimer);
+
+  const revealDelay =
+    earned?.rarity === "UR"
+      ? 2200
+      : earned?.rarity === "SR"
+        ? 1750
+        : 1350;
+
+  chestTimer = setTimeout(() => {
+
+    chestOpening = false;
+    cardRevealed = true;
+
+    render();
+
+    playCardRevealSound(
+      earned?.rarity
+    );
+
+  }, revealDelay);
+
+  return;
+}
+
     if (a === "retry-stage") { questions = generateQuestions(currentStage, 5); qi = 0; input = ""; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; startQuestion(); return; }
     if (a === "zoom-card") { zoom = { card: getCard(t.dataset.cardId), rarity: t.dataset.rarity }; render(); return; }
     if (a === "close-zoom") { zoom = null; render(); return; }
@@ -334,6 +376,161 @@ if (a === "toggle-title-bgm") {
     }
   }
 
+  function playChestOpenSound() {
+  try {
+    const AudioContextClass =
+      window.AudioContext || window.webkitAudioContext;
+
+    if (!AudioContextClass) return;
+
+    const context = new AudioContextClass();
+    const now = context.currentTime;
+
+    const master = context.createGain();
+    master.connect(context.destination);
+
+    master.gain.setValueAtTime(0.0001, now);
+    master.gain.exponentialRampToValueAtTime(0.22, now + 0.02);
+    master.gain.exponentialRampToValueAtTime(0.0001, now + 1.1);
+
+    // 鍵が外れる感じ
+    [180, 240, 330].forEach((frequency, index) => {
+      const oscillator = context.createOscillator();
+      const gain = context.createGain();
+
+      oscillator.type = "triangle";
+      oscillator.frequency.setValueAtTime(
+        frequency,
+        now + index * 0.08
+      );
+
+      gain.gain.setValueAtTime(
+        0.12,
+        now + index * 0.08
+      );
+
+      gain.gain.exponentialRampToValueAtTime(
+        0.0001,
+        now + index * 0.08 + 0.22
+      );
+
+      oscillator.connect(gain);
+      gain.connect(master);
+
+      oscillator.start(now + index * 0.08);
+      oscillator.stop(now + index * 0.08 + 0.25);
+    });
+
+    // キラッ
+    const sparkle = context.createOscillator();
+    const sparkleGain = context.createGain();
+
+    sparkle.type = "sine";
+    sparkle.frequency.setValueAtTime(850, now + 0.34);
+    sparkle.frequency.exponentialRampToValueAtTime(
+      1450,
+      now + 0.7
+    );
+
+    sparkleGain.gain.setValueAtTime(0.08, now + 0.34);
+    sparkleGain.gain.exponentialRampToValueAtTime(
+      0.0001,
+      now + 0.8
+    );
+
+    sparkle.connect(sparkleGain);
+    sparkleGain.connect(master);
+
+    sparkle.start(now + 0.34);
+    sparkle.stop(now + 0.82);
+
+    setTimeout(() => {
+      context.close().catch(() => {});
+    }, 1400);
+
+  } catch (error) {
+    console.warn("宝箱サウンドを再生できませんでした", error);
+  }
+}
+
+function playCardRevealSound(rarity = "N") {
+  try {
+    const AudioContextClass =
+      window.AudioContext || window.webkitAudioContext;
+
+    if (!AudioContextClass) return;
+
+    const context = new AudioContextClass();
+    const now = context.currentTime;
+
+    const master = context.createGain();
+    master.connect(context.destination);
+
+    master.gain.setValueAtTime(0.0001, now);
+    master.gain.exponentialRampToValueAtTime(0.18, now + 0.02);
+    master.gain.exponentialRampToValueAtTime(0.0001, now + 1.3);
+
+    let notes;
+
+    if (rarity === "UR") {
+      notes = [
+        [523.25, 0],
+        [659.25, 0.12],
+        [783.99, 0.24],
+        [1046.5, 0.38],
+        [1318.5, 0.55]
+      ];
+    } else if (rarity === "SR") {
+      notes = [
+        [523.25, 0],
+        [659.25, 0.14],
+        [880, 0.3]
+      ];
+    } else {
+      notes = [
+        [523.25, 0],
+        [659.25, 0.16]
+      ];
+    }
+
+    notes.forEach(([frequency, start]) => {
+      const oscillator = context.createOscillator();
+      const gain = context.createGain();
+
+      oscillator.type =
+        rarity === "UR" ? "triangle" : "sine";
+
+      oscillator.frequency.setValueAtTime(
+        frequency,
+        now + start
+      );
+
+      gain.gain.setValueAtTime(
+        rarity === "UR" ? 0.11 : 0.08,
+        now + start
+      );
+
+      gain.gain.exponentialRampToValueAtTime(
+        0.0001,
+        now + start + 0.42
+      );
+
+      oscillator.connect(gain);
+      gain.connect(master);
+
+      oscillator.start(now + start);
+      oscillator.stop(now + start + 0.45);
+    });
+
+    setTimeout(() => {
+      context.close().catch(() => {});
+    }, 1800);
+
+  } catch (error) {
+    console.warn("カード獲得音を再生できませんでした", error);
+  }
+}
+
   function getPool(stage) {
     const unitCards = cards.filter(c => c.world === stage.world && c.unit === stage.unit);
     if (stage.isBoss) return unitCards.filter(c => c.role === "boss");
@@ -349,7 +546,18 @@ if (a === "toggle-title-bgm") {
     const pool = getPool(currentStage); const card = pool[Math.floor(Math.random() * pool.length)];
     const key = `${card.id}_${row[0]}`; if (!state.unlockedCards.includes(key)) state.unlockedCards.push(key);
     state.gems += currentStage.rewardGems ?? 5; earned = { card, rarity: row[0], factor: row[2] };
-    chestOpened = false; persistState(state); screen = "result"; render();
+    chestOpened = false;
+chestOpening = false;
+cardRevealed = false;
+
+if (chestTimer) {
+  clearTimeout(chestTimer);
+  chestTimer = null;
+}
+
+persistState(state);
+screen = "result";
+render();
   }
 
   function render() {
@@ -1030,10 +1238,30 @@ function stopTitleBgm() {
         </div>
         ${flashMode && flashVisible?`<div class="flash-progress" style="animation-duration:${flashDuration()}ms"></div>`:""}
       </button>
-      ${renderPartnerCompanion()}
-      <div class="answer-display">${input ? formatInput(input) : (inputEnabled ? "こたえを えらんでね" : "もんだいを みています")}</div>
-      ${renderKeypad()}
-      <button class="button cyan ${inputEnabled?"":"disabled-button"}" data-action="answer">けってい</button>
+      <div class="partner-answer-zone">
+
+  ${renderPartnerCompanion()}
+
+  <button
+    class="partner-submit-button ${inputEnabled ? "" : "disabled-button"}"
+    data-action="answer"
+  >
+    🐾 こたえを けってい！
+  </button>
+
+</div>
+
+<div class="answer-display">
+  ${
+    input
+      ? formatInput(input)
+      : inputEnabled
+        ? "こたえを えらんでね"
+        : "もんだいを みています"
+  }
+</div>
+
+${renderKeypad()}
       ${answerFeedback === "correct" ? `<div class="correct-feedback" aria-live="polite"><div class="correct-feedback-card"><svg class="red-pen-svg" viewBox="0 0 240 240" aria-hidden="true"><path class="red-pen-stroke" d="M190 49 C147 10 75 18 38 69 C1 120 29 194 96 211 C158 227 218 182 218 116 C218 84 206 62 190 49"/><path class="red-pen-check" d="M70 119 L101 151 L167 78"/></svg><strong>せいかい！</strong><span class="correct-exp">✨ +10 EXP</span></div></div>` : ""}
     </section>`;
   }
@@ -1098,8 +1326,113 @@ function stopTitleBgm() {
 }
 
   function result() {
-    return `<section class="stack"><div class="panel hero"><div class="hero-icon">🎉</div><h2>クエストクリア！</h2><p class="muted">宝箱を開けて報酬を受け取ろう。</p></div>${!chestOpened?`<button class="treasure-area" data-action="open-chest"><div class="treasure-chest">🎁</div><strong>タップして宝箱を開ける</strong></button>`:earnedCard()}<button class="button cyan" data-action="go" data-screen="world">ワールドへ戻る</button><button class="button secondary" data-action="go" data-screen="collection">図鑑を見る</button></section>`;
-  }
+  const rarity = earned?.rarity ?? "N";
+
+  return `
+    <section class="stack">
+
+      <div class="panel hero">
+
+        <div class="hero-icon">
+          🎉
+        </div>
+
+        <h2>
+          クエストクリア！
+        </h2>
+
+        <p class="muted">
+          ${
+            !chestOpened
+              ? "宝箱を開けて報酬を受け取ろう。"
+              : chestOpening
+                ? "なにが でるかな……？"
+                : "カードをゲット！"
+          }
+        </p>
+
+      </div>
+
+
+      ${
+        !chestOpened
+          ? `
+            <button
+              class="treasure-area"
+              data-action="open-chest"
+            >
+
+              <div class="treasure-chest">
+                🎁
+              </div>
+
+              <strong>
+                タップして宝箱を開ける
+              </strong>
+
+            </button>
+          `
+
+          : chestOpening
+            ? `
+              <div
+                class="chest-opening-stage rarity-${rarity}"
+              >
+
+                <div class="chest-light"></div>
+                <div class="chest-rays"></div>
+                <div class="chest-sparkles"></div>
+
+                <div class="opening-chest">
+                  🎁
+                </div>
+
+                <strong class="chest-opening-text">
+                  ${
+                    rarity === "UR"
+                      ? "ま、まぶしい……！"
+                      : rarity === "SR"
+                        ? "すごい光だ……！"
+                        : "なにが でるかな？"
+                  }
+                </strong>
+
+              </div>
+            `
+
+            : `
+              <div class="card-reveal-stage rarity-${rarity}">
+                ${earnedCard()}
+              </div>
+            `
+      }
+
+
+      ${
+        cardRevealed
+          ? `
+            <button
+              class="button cyan"
+              data-action="go"
+              data-screen="world"
+            >
+              ワールドへ戻る
+            </button>
+
+            <button
+              class="button secondary"
+              data-action="go"
+              data-screen="collection"
+            >
+              図鑑を見る
+            </button>
+          `
+          : ""
+      }
+
+    </section>
+  `;
+}
 
   function earnedCard() {
   const hp = Math.round(
