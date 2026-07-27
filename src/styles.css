@@ -3064,3 +3064,64 @@ body {
   }
 
 }
+.money-choice-options {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .7rem;
+}
+
+.money-choice-option {
+  min-height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .55rem;
+
+  padding: .65rem;
+
+  border: 3px solid #fbbf24;
+  border-radius: 1rem;
+
+  color: #3f2600;
+  background: linear-gradient(180deg, #fff7c7, #fde68a);
+
+  font-weight: 900;
+}
+
+.money-choice-option strong {
+  width: 34px;
+  height: 34px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+
+  color: #fff;
+  background: #2563eb;
+}
+
+.money-choice-guide {
+  color: #fef3c7;
+  font-size: .85rem;
+  font-weight: 900;
+}
+
+.keypad-choice {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.keypad-choice .choice-key {
+  min-height: 82px;
+  font-size: 2rem;
+
+  background:
+    linear-gradient(
+      180deg,
+      #22c55e,
+      #15803d
+    );
+
+  border-color: #bbf7d0;
+}

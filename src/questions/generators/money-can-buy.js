@@ -20,61 +20,62 @@ export default {
     const budget =
       budgets[r(0, budgets.length - 1)];
 
-    const affordable =
-      PRODUCTS[
-        r(0, PRODUCTS.length - 1)
-      ];
+    const firstProduct =
+      PRODUCTS[r(0, PRODUCTS.length - 1)];
 
-    let expensive =
-      PRODUCTS[
-        r(0, PRODUCTS.length - 1)
-      ];
+    let secondProduct =
+      PRODUCTS[r(0, PRODUCTS.length - 1)];
 
     while (
-      expensive.name === affordable.name
+      secondProduct.name === firstProduct.name
     ) {
-      expensive =
-        PRODUCTS[
-          r(0, PRODUCTS.length - 1)
-        ];
+      secondProduct =
+        PRODUCTS[r(0, PRODUCTS.length - 1)];
     }
 
     const affordablePrice =
       Math.max(
         10,
-        Math.floor(
-          r(1, Math.floor(budget / 10))
-        ) * 10
+        r(1, Math.max(1, Math.floor(budget / 10))) * 10
       );
 
     const expensivePrice =
-      budget +
-      r(1, 10) * 10;
+      budget + r(1, 10) * 10;
 
-    const choices = [
+    let choices = [
       {
         id: "A",
         label:
-          `${affordable.icon} ${affordable.name} ${affordablePrice}円`
+          `${firstProduct.icon} ${firstProduct.name} ${affordablePrice}円`,
+        affordable: true
       },
       {
         id: "B",
         label:
-          `${expensive.icon} ${expensive.name} ${expensivePrice}円`
+          `${secondProduct.icon} ${secondProduct.name} ${expensivePrice}円`,
+        affordable: false
       }
     ];
 
     if (Math.random() < 0.5) {
-      choices.reverse();
+      choices = [
+        {
+          id: "A",
+          label:
+            `${secondProduct.icon} ${secondProduct.name} ${expensivePrice}円`,
+          affordable: false
+        },
+        {
+          id: "B",
+          label:
+            `${firstProduct.icon} ${firstProduct.name} ${affordablePrice}円`,
+          affordable: true
+        }
+      ];
     }
 
     const answer =
-      choices.find(
-        c =>
-          c.label.includes(
-            `${affordablePrice}円`
-          )
-      )?.id;
+      choices.find(choice => choice.affordable)?.id;
 
     return {
       kind: "money-choice",
@@ -91,7 +92,7 @@ export default {
       answer,
 
       uniqueKey:
-        `canbuy-${budget}-${affordablePrice}-${expensivePrice}`
+        `canbuy-${budget}-${affordablePrice}-${expensivePrice}-${answer}`
     };
   }
 };
