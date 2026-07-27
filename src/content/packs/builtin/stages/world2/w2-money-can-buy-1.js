@@ -1,27 +1,27 @@
 export default {
-  id: "w2-money-change-1",
+  id: "w2-money-can-buy-1",
 
-  sort: 7,
+  sort: 8,
 
   world: 2,
 
   unit: "money",
   unitLabel: "お金",
 
-  name: "おかいもの① おつり",
+  name: "おかいもの② どっちが買える？",
 
   presentation: "persistent",
 
   isBoss: false,
 
-  keypad: "money",
+  keypad: "choice",
 
-  type: "money_change",
+  type: "money_can_buy",
 
-  payments: [
+  budgets: [
     100,
-    500,
-    1000
+    300,
+    500
   ],
 
   cardId: "022-coin-rabbit",

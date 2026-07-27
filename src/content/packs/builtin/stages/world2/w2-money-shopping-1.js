@@ -1,14 +1,14 @@
 export default {
-  id: "w2-money-change-1",
+  id: "w2-money-shopping-1",
 
-  sort: 7,
+  sort: 9,
 
   world: 2,
 
   unit: "money",
   unitLabel: "お金",
 
-  name: "おかいもの① おつり",
+  name: "おかいもの③ 2つ買おう",
 
   presentation: "persistent",
 
@@ -16,10 +16,9 @@ export default {
 
   keypad: "money",
 
-  type: "money_change",
+  type: "money_shopping",
 
   payments: [
-    100,
     500,
     1000
   ],

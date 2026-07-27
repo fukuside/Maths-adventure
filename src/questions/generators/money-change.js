@@ -1,5 +1,15 @@
 import { randomInt as r, moneyItem } from "../helpers.js";
 
+const PRODUCTS = [
+  { name: "りんご", icon: "🍎" },
+  { name: "パン", icon: "🍞" },
+  { name: "ドーナツ", icon: "🍩" },
+  { name: "ジュース", icon: "🥤" },
+  { name: "ノート", icon: "📘" },
+  { name: "えんぴつ", icon: "✏️" },
+  { name: "おもちゃ", icon: "🧸" }
+];
+
 export default {
   types: ["money_change"],
 
@@ -10,34 +20,35 @@ export default {
     const paid =
       payments[r(0, payments.length - 1)];
 
-    // 支払額によって値段の刻みを変更
+    const product =
+      PRODUCTS[r(0, PRODUCTS.length - 1)];
+
     let step = 10;
 
     if (paid >= 1000) {
       step = 50;
     }
 
-    if (paid >= 5000) {
-      step = 100;
-    }
-
-    // 商品価格は支払額より必ず安くする
-    const minPrice = step;
     const maxPrice = paid - step;
 
-    const priceSteps =
-      Math.floor((maxPrice - minPrice) / step);
-
     const price =
-      minPrice + r(0, priceSteps) * step;
+      step *
+      r(
+        1,
+        Math.max(
+          1,
+          Math.floor(maxPrice / step)
+        )
+      );
 
-    const answer = paid - price;
+    const answer =
+      paid - price;
 
     return {
       kind: "money",
 
       prompt:
-        `${price}円のおかいもの。${paid}円を出しました。おつりはいくら？`,
+        `${product.icon} ${product.name}は ${price}円。${paid}円を出しました。おつりはいくら？`,
 
       items: [
         moneyItem(paid)
@@ -46,7 +57,7 @@ export default {
       answer,
 
       uniqueKey:
-        `change-${paid}-${price}`
+        `change-${product.name}-${paid}-${price}`
     };
   }
 };
