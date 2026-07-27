@@ -1,17 +1,23 @@
 export default {
   id: "choice",
 
-  keys: (b, question) => {
-    const choices = Array.isArray(question?.choices)
-      ? question.choices
-      : [];
+  keys: b => [
+    b(
+      "A",
+      "A",
+      "choice-key choice-key-a"
+    ),
 
-    return choices.map(choice =>
-      b(
-        choice.id,
-        choice.label,
-        "choice-key"
-      )
-    );
-  }
+    b(
+      "B",
+      "B",
+      "choice-key choice-key-b"
+    ),
+
+    b(
+      "C",
+      "C",
+      "choice-key choice-key-c"
+    )
+  ]
 };

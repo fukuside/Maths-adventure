@@ -3064,64 +3064,328 @@ body {
   }
 
 }
-.money-choice-options {
+
+/* =========================================================
+   MONEY CHOICE
+   A = blue / B = red
+   Single consolidated definition
+========================================================= */
+
+.money-choice-question {
   width: 100%;
+  height: 100%;
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: .7rem;
+  grid-template-rows: auto auto 1fr;
+  gap: .35rem;
+  align-content: center;
 }
 
-.money-choice-option {
-  min-height: 72px;
+/* Prompt */
+.money-choice-question .visual-prompt {
+  margin: 0;
+  color: #fff;
+  font-size: clamp(1.25rem, 2.4vw, 1.7rem);
+  line-height: 1.15;
+  font-weight: 900;
+}
+
+/* Wallet */
+.money-choice-wallet {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: .55rem;
-
-  padding: .65rem;
-
-  border: 3px solid #fbbf24;
-  border-radius: 1rem;
-
-  color: #3f2600;
-  background: linear-gradient(180deg, #fff7c7, #fde68a);
-
-  font-weight: 900;
+  min-height: 42px;
 }
 
-.money-choice-option strong {
-  width: 34px;
-  height: 34px;
+.money-choice-wallet-label {
+  color: #fde68a;
+  font-size: .75rem;
+  font-weight: 900;
+  text-shadow: none;
+}
 
+.money-choice-wallet-items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .22rem;
+}
+
+.money-choice-money-image {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  filter: drop-shadow(0 3px 3px rgba(0,0,0,.35));
+}
+
+/* Product cards */
+.money-choice-options {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .55rem;
+}
+
+.money-choice-option {
+  min-height: 78px;
+  display: grid;
+  grid-template-columns: 38px 44px 1fr;
+  align-items: center;
+  gap: .55rem;
+  padding: .5rem .7rem;
+  border-radius: 1rem;
+  color: #3f2600;
+  background: linear-gradient(180deg, #fffbea, #fde68a);
+  box-shadow:
+    inset 0 2px 0 rgba(255,255,255,.85),
+    0 4px 10px rgba(0,0,0,.22);
+  overflow: hidden;
+}
+
+/* Only the outer border follows A/B color */
+.money-choice-option-a {
+  border: 3px solid #3b82f6;
+}
+
+.money-choice-option-b {
+  border: 3px solid #fb7185;
+}
+
+/* A/B badge */
+.choice-letter {
+  width: 36px;
+  height: 36px;
   display: grid;
   place-items: center;
-
   border-radius: 50%;
-
   color: #fff;
-  background: #2563eb;
+  font-size: 1.1rem;
+  font-weight: 900;
+  line-height: 1;
+  text-shadow: none;
+  box-shadow: 0 3px 7px rgba(0,0,0,.22);
 }
 
-.money-choice-guide {
-  color: #fef3c7;
-  font-size: .85rem;
+.money-choice-option-a .choice-letter {
+  background: linear-gradient(180deg, #3b82f6, #1d4ed8);
+}
+
+.money-choice-option-b .choice-letter {
+  background: linear-gradient(180deg, #fb7185, #e11d48);
+}
+
+/* Product icon */
+.choice-product-icon {
+  display: block;
+  width: 44px;
+  font-size: 2rem;
+  line-height: 1;
+  text-align: center;
+  text-shadow: none;
+}
+
+/* Product name + price */
+.choice-product-info {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: .15rem;
+}
+
+.choice-product-name,
+.choice-product-price {
+  position: static;
+  display: block;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  outline: 0;
+  transform: none;
+  text-shadow: none;
+  white-space: nowrap;
+}
+
+/* Name is shown once, with no inherited outline/shadow */
+.choice-product-name {
+  color: #3f2600;
+  font-size: .9rem;
+  line-height: 1.1;
   font-weight: 900;
 }
 
+/* Price has one neutral style regardless of A/B */
+.choice-product-price,
+.money-choice-option-a .choice-product-price,
+.money-choice-option-b .choice-product-price {
+  width: auto;
+  height: auto;
+  place-items: initial;
+  color: #92400e;
+  background: none;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 1.05rem;
+  line-height: 1.1;
+  font-weight: 900;
+}
+
+/* Prevent any old pseudo decoration from reappearing */
+.choice-product-name::before,
+.choice-product-name::after,
+.choice-product-price::before,
+.choice-product-price::after {
+  content: none;
+  display: none;
+}
+
+/* Answer keypad */
 .keypad-choice {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  align-content: center;
+  gap: .7rem;
 }
 
 .keypad-choice .choice-key {
-  min-height: 82px;
-  font-size: 2rem;
+  min-height: 115px;
+  border-radius: 1.25rem;
+  color: #fff;
+  font-size: 2.4rem;
+  font-weight: 900;
+  text-shadow: 0 3px 0 rgba(0,0,0,.25);
+}
+
+.keypad-choice .choice-key-a {
+  border: 3px solid #bfdbfe;
+  background: linear-gradient(180deg, #38bdf8, #2563eb);
+  box-shadow:
+    inset 0 3px 0 rgba(255,255,255,.30),
+    inset 0 -6px 0 rgba(30,64,175,.23),
+    0 5px 0 #1e40af;
+}
+
+.keypad-choice .choice-key-b {
+  border: 3px solid #fecdd3;
+  background: linear-gradient(180deg, #fb7185, #e11d48);
+  box-shadow:
+    inset 0 3px 0 rgba(255,255,255,.30),
+    inset 0 -6px 0 rgba(159,18,57,.23),
+    0 5px 0 #9f1239;
+}
+
+.keypad-choice .choice-key:active {
+  transform: translateY(4px);
+}
+
+/* Mobile */
+@media (max-width: 760px) {
+  .money-choice-question {
+    gap: .25rem;
+  }
+
+  .money-choice-question .visual-prompt {
+    font-size: 1.15rem;
+  }
+
+  .money-choice-money-image {
+    width: 32px;
+    height: 32px;
+  }
+
+  .money-choice-option {
+    min-height: 64px;
+    grid-template-columns: 32px 36px 1fr;
+    gap: .4rem;
+    padding: .4rem .5rem;
+  }
+
+  .choice-letter {
+    width: 30px;
+    height: 30px;
+    font-size: .95rem;
+  }
+
+  .choice-product-icon {
+    width: 36px;
+    font-size: 1.5rem;
+  }
+
+  .choice-product-name {
+    font-size: .75rem;
+  }
+
+  .choice-product-price {
+    font-size: .9rem;
+  }
+
+  .keypad-choice .choice-key {
+    min-height: 82px;
+    font-size: 1.9rem;
+  }
+}
+.money-choice-option-c {
+  border:
+    3px solid #f59e0b;
+}
+
+.money-choice-option-c
+.choice-letter {
+  background:
+    linear-gradient(
+      180deg,
+      #fbbf24,
+      #d97706
+    );
+}
+
+.keypad-choice
+.choice-key-c {
+  border:
+    3px solid #fde68a;
 
   background:
     linear-gradient(
       180deg,
-      #22c55e,
-      #15803d
+      #fbbf24,
+      #d97706
     );
 
-  border-color: #bbf7d0;
+  box-shadow:
+    inset 0 3px 0
+      rgba(255,255,255,.30),
+
+    inset 0 -6px 0
+      rgba(146,64,14,.23),
+
+    0 5px 0
+      #92400e;
+}
+/* =========================================================
+   MONEY BILL SIZE
+   全お金ステージ共通：紙幣を大きく表示
+========================================================= */
+
+/* 1000円札・5000円札・10000円札 */
+img[src*="1000yen"],
+img[src*="5000yen"],
+img[src*="10000yen"] {
+  width: 165px !important;
+  height: 88px !important;
+  max-width: none !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  flex-shrink: 0 !important;
+}
+
+/* お金が並ぶ部分の間隔 */
+.money-items {
+  gap: 14px;
+  align-items: center;
+  justify-content: center;
 }

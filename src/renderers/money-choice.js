@@ -1,51 +1,142 @@
 export default {
+
   kind: "money-choice",
 
-  render(question) {
-    const items = Array.isArray(question?.items)
-      ? question.items
-      : [];
 
-    const choices = Array.isArray(question?.choices)
-      ? question.choices
-      : [];
+  render(question) {
+
+    const items =
+      Array.isArray(
+        question?.items
+      )
+        ? question.items
+        : [];
+
+
+    const choices =
+      Array.isArray(
+        question?.choices
+      )
+        ? question.choices
+        : [];
+
 
     return `
-      <div class="visual-question money-choice-question">
+
+      <div
+        class="
+          visual-question
+          money-choice-question
+        "
+      >
 
         <div class="visual-prompt">
-          ${question.prompt ?? "どっちが買える？"}
+
+          ${question.prompt ?? "買えるのはどっち？"}
+
         </div>
 
-        ${
-          items.length
-            ? `
-              <div class="money-choice-wallet">
-                <div class="money-choice-label">
-                  もっているお金
-                </div>
 
-                <div class="money-items">
-                  ${items.map(item => `
-                    <img
-                      class="money-image"
-                      src="${item.image}"
-                      alt="${item.value}円"
-                      data-money-value="${item.value}"
-                    >
-                  `).join("")}
-                </div>
-              </div>
-            `
-            : ""
-        }
+        <div class="money-choice-wallet">
 
-        <div class="money-choice-options">
+          <span
+            class="
+              money-choice-wallet-label
+            "
+          >
+            👛 もっているお金
+          </span>
+
+
+          <div
+            class="
+              money-choice-wallet-items
+            "
+          >
+
+            ${items.map(item => `
+
+              <img
+
+                class="
+                  money-choice-money-image
+                "
+
+                src="${item.image}"
+
+                alt="${item.value}円"
+
+              >
+
+            `).join("")}
+
+          </div>
+
+        </div>
+
+
+        <div
+          class="
+            money-choice-options
+          "
+        >
+
           ${choices.map(choice => `
-            <div class="money-choice-option">
-              ${choice.label}
+
+            <div
+              class="
+                money-choice-option
+                money-choice-option-${choice.id.toLowerCase()}
+              "
+            >
+
+              <span
+                class="
+                  choice-letter
+                "
+              >
+                ${choice.id}
+              </span>
+
+
+              <span
+                class="
+                  choice-product-icon
+                "
+              >
+                ${choice.icon}
+              </span>
+
+
+              <div
+                class="
+                  choice-product-info
+                "
+              >
+
+                <span
+                  class="
+                    choice-product-name
+                  "
+                >
+                  ${choice.name}
+                </span>
+
+
+                <strong
+                  class="
+                    choice-product-price
+                  "
+                >
+                  ${choice.price}円
+                </strong>
+
+              </div>
+
             </div>
+
           `).join("")}
+
         </div>
 
       </div>

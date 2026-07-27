@@ -1,4 +1,8 @@
-import { randomInt as r, moneyItem } from "../helpers.js";
+import {
+  randomInt as r,
+  moneyItem
+} from "../helpers.js";
+
 
 const PRODUCTS = [
   { name: "りんご", icon: "🍎" },
@@ -10,89 +14,209 @@ const PRODUCTS = [
   { name: "おもちゃ", icon: "🧸" }
 ];
 
+
+function moneyItemsForAmount(amount) {
+
+  const denominations = [
+    1000,
+    500,
+    100,
+    50,
+    10,
+    5,
+    1
+  ];
+
+  const items = [];
+  let rest = amount;
+
+  for (const value of denominations) {
+
+    while (rest >= value) {
+
+      items.push(
+        moneyItem(value)
+      );
+
+      rest -= value;
+    }
+  }
+
+  return items;
+}
+
+
+function pickDifferentProducts(count) {
+
+  const pool = [...PRODUCTS];
+
+  const picked = [];
+
+  while (
+    picked.length < count &&
+    pool.length > 0
+  ) {
+
+    const index =
+      r(0, pool.length - 1);
+
+    picked.push(
+      pool.splice(index, 1)[0]
+    );
+  }
+
+  return picked;
+}
+
+
 export default {
-  types: ["money_can_buy"],
+
+  types: [
+    "money_can_buy"
+  ],
+
 
   build(stage) {
+
     const budgets =
-      stage.budgets ?? [100, 300, 500];
+      stage.budgets ??
+      [100, 300, 500];
+
 
     const budget =
-      budgets[r(0, budgets.length - 1)];
+      budgets[
+        r(
+          0,
+          budgets.length - 1
+        )
+      ];
 
-    const firstProduct =
-      PRODUCTS[r(0, PRODUCTS.length - 1)];
 
-    let secondProduct =
-      PRODUCTS[r(0, PRODUCTS.length - 1)];
+    const products =
+      pickDifferentProducts(3);
 
-    while (
-      secondProduct.name === firstProduct.name
-    ) {
-      secondProduct =
-        PRODUCTS[r(0, PRODUCTS.length - 1)];
-    }
+
+    /*
+      1個だけ買える
+      2個は買えない
+    */
 
     const affordablePrice =
       Math.max(
         10,
-        r(1, Math.max(1, Math.floor(budget / 10))) * 10
+        r(
+          1,
+          Math.max(
+            1,
+            Math.floor(
+              budget / 10
+            )
+          )
+        ) * 10
       );
 
-    const expensivePrice =
-      budget + r(1, 10) * 10;
 
-    let choices = [
+    const expensivePrice1 =
+      budget +
+      r(1, 8) * 10;
+
+
+    const expensivePrice2 =
+      budget +
+      r(9, 16) * 10;
+
+
+    const rawChoices = [
+
       {
-        id: "A",
-        label:
-          `${firstProduct.icon} ${firstProduct.name} ${affordablePrice}円`,
+        icon: products[0].icon,
+        name: products[0].name,
+        price: affordablePrice,
         affordable: true
       },
+
       {
-        id: "B",
-        label:
-          `${secondProduct.icon} ${secondProduct.name} ${expensivePrice}円`,
+        icon: products[1].icon,
+        name: products[1].name,
+        price: expensivePrice1,
+        affordable: false
+      },
+
+      {
+        icon: products[2].icon,
+        name: products[2].name,
+        price: expensivePrice2,
         affordable: false
       }
+
     ];
 
-    if (Math.random() < 0.5) {
-      choices = [
-        {
-          id: "A",
-          label:
-            `${secondProduct.icon} ${secondProduct.name} ${expensivePrice}円`,
-          affordable: false
-        },
-        {
-          id: "B",
-          label:
-            `${firstProduct.icon} ${firstProduct.name} ${affordablePrice}円`,
-          affordable: true
-        }
+
+    /*
+      順番をシャッフル
+    */
+
+    for (
+      let i = rawChoices.length - 1;
+      i > 0;
+      i--
+    ) {
+
+      const j =
+        r(0, i);
+
+      [
+        rawChoices[i],
+        rawChoices[j]
+      ] = [
+        rawChoices[j],
+        rawChoices[i]
       ];
     }
 
+
+    const letters =
+      ["A", "B", "C"];
+
+
+    const choices =
+      rawChoices.map(
+        (choice, index) => ({
+          ...choice,
+          id: letters[index]
+        })
+      );
+
+
     const answer =
-      choices.find(choice => choice.affordable)?.id;
+      choices.find(
+        choice =>
+          choice.affordable
+      ).id;
+
 
     return {
-      kind: "money-choice",
+
+      kind:
+        "money-choice",
 
       prompt:
-        `${budget}円もっています。買えるのはどっち？`,
+        `${budget}円もっています。買えるのはどれ？`,
 
-      items: [
-        moneyItem(budget)
-      ],
+      items:
+        moneyItemsForAmount(
+          budget
+        ),
 
       choices,
 
       answer,
 
       uniqueKey:
-        `canbuy-${budget}-${affordablePrice}-${expensivePrice}-${answer}`
+        `canbuy-${budget}-${choices.map(
+          c =>
+            `${c.id}-${c.name}-${c.price}`
+        ).join("-")}`
     };
   }
 };

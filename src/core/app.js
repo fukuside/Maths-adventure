@@ -203,8 +203,20 @@ if (a === "toggle-title-bgm") {
     }
     if (a === "answer") {
       if (!inputEnabled || input === "") return;
-      const expected = Number(questions[qi].answer), got = parseAnswerInput(input);
-      if (Math.abs(got - expected) < 1e-9) {
+      const question = questions[qi];
+
+const isChoiceAnswer =
+  typeof question.answer === "string" &&
+  /^[ABC]$/.test(question.answer);
+
+const isCorrect = isChoiceAnswer
+  ? input === question.answer
+  : Math.abs(
+      parseAnswerInput(input) -
+      Number(question.answer)
+    ) < 1e-9;
+
+if (isCorrect) {
         input = "";
         inputEnabled = false;
         wrongMessage = "";
