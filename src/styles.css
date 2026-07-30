@@ -3389,3 +3389,1982 @@ img[src*="10000yen"] {
   align-items: center;
   justify-content: center;
 }
+/* =========================================================
+   FRACTION CHOICE
+   WORLD4 分数・基礎学習
+   ホール → 等分 → 何こ分かを視覚で理解
+========================================================= */
+
+.fraction-choice-question {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.3rem;
+
+  padding: 0.15rem 0.35rem;
+
+  overflow: visible;
+}
+
+
+/* =========================================================
+   問題文
+========================================================= */
+
+.fraction-choice-prompt {
+  width: 100%;
+
+  margin: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      1rem,
+      2vw,
+      1.35rem
+    );
+
+  font-weight: 900;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   視覚問題
+========================================================= */
+
+.fraction-story {
+  width: 100%;
+
+  min-height: 105px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap:
+    clamp(
+      0.8rem,
+      3vw,
+      2.2rem
+    );
+
+  overflow: visible;
+}
+
+
+.fraction-story-side {
+  min-width: 130px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.15rem;
+}
+
+
+.fraction-story-label {
+  color: #fde68a;
+
+  font-size: 0.7rem;
+  font-weight: 900;
+
+  line-height: 1;
+}
+
+
+.fraction-story-arrow {
+  flex-shrink: 0;
+
+  color: #fbbf24;
+
+  font-size:
+    clamp(
+      1.8rem,
+      3vw,
+      2.5rem
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-shadow:
+    0 3px 0
+    rgba(0, 0, 0, 0.3);
+}
+
+
+/* =========================================================
+   ピザ
+========================================================= */
+
+.fraction-whole-pizza {
+  width: 92px;
+  height: 92px;
+
+  display: grid;
+  place-items: center;
+
+  border: 5px solid #d97706;
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      #fde68a 0 60%,
+      #f59e0b 61% 100%
+    );
+
+  box-shadow:
+    0 5px 8px
+    rgba(0, 0, 0, 0.28);
+
+  overflow: hidden;
+}
+
+
+.fraction-whole-pizza span {
+  font-size: 4.3rem;
+
+  line-height: 1;
+
+  text-shadow: none;
+}
+
+
+.fraction-food-pizza {
+  position: relative;
+
+  width: 92px;
+  height: 92px;
+
+  border: 3px dashed #cbd5e1;
+  border-radius: 50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.04
+    );
+
+  overflow: hidden;
+}
+
+
+.fraction-pizza-selected {
+  position: absolute;
+
+  inset: 0;
+
+  border-radius: 50%;
+}
+
+
+/* ピザの等分線 */
+
+.fraction-pizza-lines {
+  position: absolute;
+
+  inset: 0;
+
+  border-radius: 50%;
+
+  pointer-events: none;
+}
+
+
+.fraction-parts-2 {
+  background:
+    linear-gradient(
+      90deg,
+      transparent 47%,
+      #fff 48% 52%,
+      transparent 53%
+    );
+}
+
+
+.fraction-parts-3 {
+  background:
+    conic-gradient(
+      from -1deg,
+
+      #fff 0deg 2deg,
+      transparent 2deg 119deg,
+
+      #fff 119deg 122deg,
+      transparent 122deg 239deg,
+
+      #fff 239deg 242deg,
+      transparent 242deg 359deg,
+
+      #fff 359deg 360deg
+    );
+}
+
+
+.fraction-parts-4 {
+  background:
+    linear-gradient(
+      90deg,
+      transparent 47%,
+      #fff 48% 52%,
+      transparent 53%
+    ),
+
+    linear-gradient(
+      0deg,
+      transparent 47%,
+      #fff 48% 52%,
+      transparent 53%
+    );
+}
+
+
+/* =========================================================
+   ケーキ
+========================================================= */
+
+.fraction-whole-cake {
+  width: 92px;
+  height: 92px;
+
+  display: grid;
+  place-items: center;
+
+  border: 5px solid #f472b6;
+  border-radius: 50%;
+
+  background:
+    radial-gradient(
+      circle,
+      #fff7ed 0 55%,
+      #f9a8d4 56% 100%
+    );
+
+  box-shadow:
+    0 5px 8px
+    rgba(0, 0, 0, 0.28);
+}
+
+
+.fraction-whole-cake span {
+  font-size: 1.8rem;
+
+  text-shadow: none;
+}
+
+
+.fraction-food-cake {
+  position: relative;
+
+  width: 92px;
+  height: 92px;
+
+  border: 3px dashed #cbd5e1;
+  border-radius: 50%;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.04
+    );
+
+  overflow: hidden;
+}
+
+
+.fraction-cake-selected {
+  position: absolute;
+
+  inset: 0;
+
+  border-radius: 50%;
+}
+
+
+.fraction-cake-center {
+  position: absolute;
+
+  inset: 0;
+
+  display: grid;
+  place-items: center;
+
+  font-size: 1.35rem;
+
+  text-shadow: none;
+}
+
+
+/* =========================================================
+   チョコ
+========================================================= */
+
+.fraction-whole-chocolate {
+  width: 145px;
+  height: 68px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 4px;
+
+  padding: 5px;
+
+  border: 3px solid #92400e;
+  border-radius: 8px;
+
+  background: #713f12;
+
+  box-shadow:
+    0 5px 8px
+    rgba(0, 0, 0, 0.28);
+}
+
+
+.fraction-whole-chocolate span {
+  border: 2px solid #d97706;
+  border-radius: 4px;
+
+  background:
+    linear-gradient(
+      145deg,
+      #b45309,
+      #78350f
+    );
+}
+
+
+.fraction-chocolate {
+  width: 145px;
+  height: 68px;
+
+  display: grid;
+
+  gap: 4px;
+
+  padding: 5px;
+
+  border: 3px dashed #cbd5e1;
+  border-radius: 8px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.04
+    );
+}
+
+
+.fraction-choco-cell {
+  min-width: 0;
+
+  border-radius: 4px;
+}
+
+
+.fraction-choco-cell.is-selected {
+  border: 2px solid #d97706;
+
+  background:
+    linear-gradient(
+      145deg,
+      #b45309,
+      #78350f
+    );
+}
+
+
+.fraction-choco-cell.is-empty {
+  border:
+    2px dashed
+    #94a3b8;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.05
+    );
+}
+
+
+/* =========================================================
+   ヒント
+========================================================= */
+
+.fraction-choice-guide {
+  width: 100%;
+
+  margin: 0;
+
+  color: #fde68a;
+
+  font-size: 0.68rem;
+  font-weight: 900;
+
+  line-height: 1.15;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   A / B / C 選択肢
+========================================================= */
+
+.fraction-choice-options {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 0.55rem;
+
+  margin-top: 0.1rem;
+}
+
+
+.fraction-choice-option {
+  min-height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+
+  padding:
+    0.3rem
+    0.4rem;
+
+  border: 3px solid;
+
+  border-radius: 0.8rem;
+
+  background:
+    linear-gradient(
+      180deg,
+      #fffef7,
+      #fff8dc
+    );
+
+  box-shadow:
+    inset 0 2px 0
+      rgba(255, 255, 255, 0.9),
+
+    0 4px 0
+      rgba(0, 0, 0, 0.18);
+}
+
+
+.fraction-choice-letter {
+  width: 28px;
+  height: 28px;
+
+  display: grid;
+  place-items: center;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  color: #fff;
+
+  font-size: 0.9rem;
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-shadow: none;
+}
+
+
+.fraction-choice-value {
+  position: static;
+
+  display: block;
+
+  margin: 0;
+  padding: 0;
+
+  color: #172033;
+
+  background: none;
+
+  border: 0;
+
+  font-size:
+    clamp(
+      1rem,
+      2vw,
+      1.4rem
+    );
+
+  font-weight: 900;
+
+  line-height: 1;
+
+  text-shadow: none !important;
+
+  -webkit-text-stroke: 0 !important;
+
+  filter: none !important;
+
+  transform: none !important;
+
+  letter-spacing: normal;
+
+  box-shadow: none;
+}
+
+
+/* A = 青 */
+
+.fraction-choice-option-a {
+  border-color: #3b82f6;
+}
+
+
+.fraction-choice-option-a
+.fraction-choice-letter {
+  background:
+    linear-gradient(
+      180deg,
+      #3b82f6,
+      #1d4ed8
+    );
+}
+
+
+/* B = 赤 */
+
+.fraction-choice-option-b {
+  border-color: #fb7185;
+}
+
+
+.fraction-choice-option-b
+.fraction-choice-letter {
+  background:
+    linear-gradient(
+      180deg,
+      #fb7185,
+      #e11d48
+    );
+}
+
+
+/* C = オレンジ */
+
+.fraction-choice-option-c {
+  border-color: #f59e0b;
+}
+
+
+.fraction-choice-option-c
+.fraction-choice-letter {
+  background:
+    linear-gradient(
+      180deg,
+      #fbbf24,
+      #d97706
+    );
+}
+
+
+/* =========================================================
+   分数問題だけ問題枠を少し広げる
+========================================================= */
+
+.question-card:has(.fraction-choice-question) {
+  min-height: 260px;
+
+  max-height: 310px;
+
+  overflow: visible;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.fraction-choice-question) {
+    min-height: 235px;
+
+    max-height: 290px;
+  }
+
+
+  .fraction-choice-question {
+    gap: 0.2rem;
+
+    padding:
+      0.1rem
+      0.2rem;
+  }
+
+
+  .fraction-choice-prompt {
+    font-size:
+      clamp(
+        0.9rem,
+        4vw,
+        1.15rem
+      );
+  }
+
+
+  .fraction-story {
+    min-height: 88px;
+
+    gap: 0.45rem;
+  }
+
+
+  .fraction-story-side {
+    min-width: 92px;
+  }
+
+
+  .fraction-story-arrow {
+    font-size: 1.6rem;
+  }
+
+
+  .fraction-whole-pizza,
+  .fraction-food-pizza,
+  .fraction-whole-cake,
+  .fraction-food-cake {
+    width: 76px;
+    height: 76px;
+  }
+
+
+  .fraction-whole-pizza span {
+    font-size: 3.4rem;
+  }
+
+
+  .fraction-whole-chocolate,
+  .fraction-chocolate {
+    width: 112px;
+    height: 58px;
+  }
+
+
+  .fraction-choice-guide {
+    font-size: 0.6rem;
+  }
+
+
+  .fraction-choice-options {
+    gap: 0.35rem;
+  }
+
+
+  .fraction-choice-option {
+    min-height: 43px;
+
+    gap: 0.3rem;
+
+    padding:
+      0.25rem
+      0.3rem;
+  }
+
+
+  .fraction-choice-letter {
+    width: 24px;
+    height: 24px;
+
+    font-size: 0.75rem;
+  }
+
+
+  .fraction-choice-value {
+    font-size: 0.95rem;
+  }
+}
+/* =========================================================
+   FRACTION FOOD SVG
+   ピザ・カットケーキ
+========================================================= */
+
+.fraction-food-svg {
+  display: block;
+
+  width: 112px;
+  height: 112px;
+
+  overflow: visible;
+
+  filter:
+    drop-shadow(
+      0 5px 6px
+      rgba(0, 0, 0, 0.3)
+    );
+}
+
+
+/* SVG内の文字にゲーム全体の文字効果を付けない */
+
+.fraction-food-svg text {
+  text-shadow: none !important;
+
+  -webkit-text-stroke:
+    0 !important;
+
+  filter: none !important;
+}
+
+
+/* =========================================================
+   ピザ
+========================================================= */
+
+.fraction-pizza-piece {
+  stroke-width: 3;
+
+  stroke-linejoin: round;
+}
+
+
+.fraction-pizza-piece.is-selected {
+  fill: #fbbf24;
+
+  stroke: #b45309;
+}
+
+
+.fraction-pizza-piece.is-empty {
+  fill:
+    rgba(
+      255,
+      255,
+      255,
+      0.04
+    );
+
+  stroke: #cbd5e1;
+
+  stroke-dasharray: 7 6;
+}
+
+
+.fraction-food-outline {
+  fill: none;
+
+  stroke: #92400e;
+
+  stroke-width: 4;
+}
+
+
+.fraction-pizza-topping {
+  fill: #ef4444;
+
+  stroke: #991b1b;
+
+  stroke-width: 1.5;
+}
+
+
+/* =========================================================
+   カットケーキ
+========================================================= */
+
+.fraction-cake-piece {
+  stroke-width: 3;
+
+  stroke-linejoin: round;
+}
+
+
+.fraction-cake-piece.is-selected {
+  fill: #f9a8d4;
+
+  stroke: #db2777;
+}
+
+
+.fraction-cake-piece.is-empty {
+  fill:
+    rgba(
+      255,
+      255,
+      255,
+      0.04
+    );
+
+  stroke: #cbd5e1;
+
+  stroke-dasharray: 7 6;
+}
+
+
+.fraction-cake-outline {
+  fill: none;
+
+  stroke: #f472b6;
+
+  stroke-width: 4;
+}
+
+
+.fraction-cake-center {
+  fill: #fff7ed;
+
+  stroke: #db2777;
+
+  stroke-width: 2;
+}
+
+
+.fraction-cake-strawberry {
+  font-size: 16px;
+
+  dominant-baseline: middle;
+}
+
+
+/* =========================================================
+   チョコのサイズを維持
+========================================================= */
+
+.fraction-chocolate {
+  width: 145px;
+  height: 68px;
+
+  display: grid;
+
+  gap: 4px;
+
+  padding: 5px;
+
+  border:
+    3px dashed
+    #cbd5e1;
+
+  border-radius: 8px;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.04
+    );
+}
+
+/* =========================================================
+   分数画面の重なり防止
+========================================================= */
+
+.game-area:has(.fraction-choice-question) {
+  grid-template-rows:
+    auto
+    auto
+    330px
+    auto
+    minmax(220px, 1fr);
+}
+
+
+.game-area > .question-card:has(
+  .fraction-choice-question
+) {
+  min-height: 330px;
+  height: 330px;
+  max-height: 330px;
+
+  padding:
+    0.65rem
+    1rem
+    0.8rem;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(
+  .fraction-choice-question
+)
+.fraction-choice-question {
+  height: 100%;
+
+  justify-content:
+    space-between;
+}
+
+
+.question-card:has(
+  .fraction-choice-question
+)
+.fraction-story {
+  flex: 0 0 120px;
+
+  min-height: 120px;
+}
+
+
+.question-card:has(
+  .fraction-choice-question
+)
+.fraction-choice-options {
+  flex-shrink: 0;
+
+  margin: 0;
+}
+
+
+.game-area:has(
+  .fraction-choice-question
+)
+.partner-answer-zone,
+
+.game-area:has(
+  .fraction-choice-question
+)
+.answer-display,
+
+.game-area:has(
+  .fraction-choice-question
+)
+.keypad {
+  position: relative;
+
+  z-index: 1;
+}
+
+/* =========================================================
+   画面が低いPC
+========================================================= */
+
+@media (max-height: 760px)
+and (min-width: 761px) {
+
+  .game-area:has(.fraction-choice-question) {
+    grid-template-rows:
+      auto
+      auto
+      300px
+      auto
+      minmax(190px, 1fr);
+  }
+
+
+  .game-area > .question-card:has(
+    .fraction-choice-question
+  ) {
+    min-height: 300px;
+    height: 300px;
+    max-height: 300px;
+  }
+
+
+  .question-card:has(
+    .fraction-choice-question
+  )
+  .fraction-story {
+    flex-basis: 102px;
+
+    min-height: 102px;
+  }
+
+
+  .fraction-food-svg {
+    width: 92px;
+    height: 92px;
+  }
+}
+
+/* =========================================================
+   スマホ・タブレット
+========================================================= */
+@media (max-width: 760px) {
+
+  .game-area:has(.fraction-choice-question) {
+    grid-template-rows:
+      auto
+      auto
+      285px
+      auto
+      auto
+      auto;
+  }
+
+
+  .game-area > .question-card:has(
+    .fraction-choice-question
+  ) {
+    min-height: 285px;
+    height: 285px;
+    max-height: 285px;
+
+    overflow: hidden;
+  }
+
+
+  .question-card:has(
+    .fraction-choice-question
+  )
+  .fraction-story {
+    flex-basis: 90px;
+
+    min-height: 90px;
+  }
+
+
+  .fraction-food-svg {
+    width: 80px;
+    height: 80px;
+  }
+
+
+  .fraction-story-side {
+    min-width: 88px;
+  }
+}
+/* =========================================================
+   FRACTION BASIC PATTERNS
+   人数・色ぬり・文章・図問題
+========================================================= */
+
+
+/* -------------------------
+   人数で分ける
+------------------------- */
+
+.fraction-share-story {
+  gap:
+    clamp(
+      0.65rem,
+      2vw,
+      1.5rem
+    );
+}
+
+
+.fraction-share-people {
+  min-width: 150px;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  gap: 0.35rem;
+
+  flex-wrap: wrap;
+}
+
+
+.fraction-share-person {
+  display: grid;
+  justify-items: center;
+
+  gap: 0.05rem;
+}
+
+
+.fraction-share-person span {
+  font-size: 1.8rem;
+
+  line-height: 1;
+
+  text-shadow: none;
+}
+
+
+.fraction-share-person small {
+  color: #fde68a;
+
+  font-size: 0.55rem;
+  font-weight: 900;
+
+  line-height: 1;
+}
+
+
+/* -------------------------
+   色ぬり・図から読む
+------------------------- */
+
+.fraction-blocks {
+  width:
+    min(
+      84%,
+      430px
+    );
+
+  min-height: 86px;
+
+  display: grid;
+
+  gap: 0.45rem;
+
+  padding:
+    0.6rem;
+
+  border:
+    3px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.55
+    );
+
+  border-radius: 1rem;
+
+  background:
+    rgba(
+      2,
+      6,
+      23,
+      0.28
+    );
+}
+
+
+.fraction-block {
+  min-height: 64px;
+
+  border-radius: 0.65rem;
+
+  box-shadow:
+    inset 0 2px 0
+    rgba(
+      255,
+      255,
+      255,
+      0.22
+    );
+}
+
+
+.fraction-block.is-filled {
+  border:
+    3px solid
+    #0284c7;
+
+  background:
+    linear-gradient(
+      180deg,
+      #67e8f9,
+      #0ea5e9
+    );
+}
+
+
+.fraction-block.is-empty {
+  border:
+    3px dashed
+    #94a3b8;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.05
+    );
+}
+
+
+/* -------------------------
+   文章から分数を読む
+------------------------- */
+
+.fraction-word-visual {
+  min-height: 92px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap:
+    clamp(
+      0.4rem,
+      1.5vw,
+      0.8rem
+    );
+
+  padding:
+    0.7rem
+    1.2rem;
+
+  border:
+    3px solid
+    rgba(
+      103,
+      232,
+      249,
+      0.7
+    );
+
+  border-radius: 1rem;
+
+  background:
+    rgba(
+      2,
+      6,
+      23,
+      0.34
+    );
+}
+
+
+.fraction-word-number {
+  min-width: 52px;
+  height: 52px;
+
+  display: grid;
+  place-items: center;
+
+  border:
+    3px solid
+    #fde68a;
+
+  border-radius: 50%;
+
+  color: #172033;
+
+  background:
+    #fef3c7;
+
+  font-size: 1.65rem;
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-shadow: none;
+}
+
+
+.fraction-word-text {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      0.9rem,
+      2vw,
+      1.2rem
+    );
+
+  font-weight: 900;
+
+  text-shadow:
+    0 2px 0
+    #172033;
+}
+
+
+/* -------------------------
+   スマホ
+------------------------- */
+
+@media (
+  max-width: 760px
+) {
+
+  .fraction-share-people {
+    min-width: 105px;
+
+    gap: 0.2rem;
+  }
+
+
+  .fraction-share-person span {
+    font-size: 1.4rem;
+  }
+
+
+  .fraction-blocks {
+    min-height: 70px;
+
+    gap: 0.25rem;
+
+    padding: 0.4rem;
+  }
+
+
+  .fraction-block {
+    min-height: 50px;
+  }
+
+
+  .fraction-word-visual {
+    min-height: 72px;
+
+    padding:
+      0.5rem
+      0.7rem;
+  }
+
+
+  .fraction-word-number {
+    min-width: 40px;
+    height: 40px;
+
+    font-size: 1.25rem;
+  }
+
+
+  .fraction-word-text {
+    font-size: 0.78rem;
+  }
+}
+/* =========================================================
+   DECIMAL CHOICE
+   WORLD4 小数・基礎学習
+========================================================= */
+
+.decimal-choice-question {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 0.35rem;
+
+  padding: 0.2rem 0.4rem;
+}
+
+
+.decimal-choice-prompt {
+  width: 100%;
+
+  margin: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      1rem,
+      2vw,
+      1.35rem
+    );
+
+  font-weight: 900;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+.decimal-learning-visual {
+  width: 100%;
+  min-height: 100px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* 10マス */
+
+.decimal-tenths-grid {
+  width:
+    min(
+      90%,
+      520px
+    );
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      10,
+      minmax(0, 1fr)
+    );
+
+  gap: 0.35rem;
+
+  padding: 0.55rem;
+
+  border:
+    3px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.65
+    );
+
+  border-radius: 1rem;
+
+  background:
+    rgba(
+      2,
+      6,
+      23,
+      0.28
+    );
+}
+
+
+.decimal-tenth-cell {
+  min-height: 62px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 0.55rem;
+
+  font-size: 0.65rem;
+  font-weight: 900;
+}
+
+
+.decimal-tenth-cell.is-filled {
+  border: 3px solid #0284c7;
+
+  background:
+    linear-gradient(
+      180deg,
+      #67e8f9,
+      #0ea5e9
+    );
+}
+
+
+.decimal-tenth-cell.is-empty {
+  border:
+    3px dashed
+    #94a3b8;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.05
+    );
+}
+
+
+/* 0.1の個数 */
+
+.decimal-count-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.7rem;
+}
+
+
+.decimal-main-number {
+  padding:
+    0.55rem
+    0.9rem;
+
+  border:
+    3px solid
+    #fde68a;
+
+  border-radius: 1rem;
+
+  color: #172033;
+
+  background: #fef3c7;
+
+  font-size: 1.8rem;
+  font-weight: 1000;
+
+  text-shadow: none;
+}
+
+
+.decimal-equals {
+  color: #fbbf24;
+
+  font-size: 1.8rem;
+  font-weight: 1000;
+}
+
+
+.decimal-tenth-chips {
+  max-width: 440px;
+
+  display: flex;
+  justify-content: center;
+
+  gap: 0.3rem;
+
+  flex-wrap: wrap;
+}
+
+
+.decimal-tenth-chips span {
+  padding:
+    0.35rem
+    0.5rem;
+
+  border:
+    2px solid
+    #38bdf8;
+
+  border-radius: 0.65rem;
+
+  color: #082f49;
+
+  background: #cffafe;
+
+  font-size: 0.85rem;
+  font-weight: 900;
+
+  text-shadow: none;
+}
+
+
+/* 1を10等分 */
+
+.decimal-one-tenth-visual {
+  display: grid;
+  justify-items: center;
+
+  gap: 0.2rem;
+}
+
+
+.decimal-whole-bar {
+  width:
+    min(
+      85vw,
+      520px
+    );
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      10,
+      minmax(0, 1fr)
+    );
+
+  gap: 3px;
+
+  padding: 5px;
+
+  border:
+    3px solid
+    #e2e8f0;
+
+  border-radius: 0.8rem;
+
+  background:
+    rgba(
+      2,
+      6,
+      23,
+      0.3
+    );
+}
+
+
+.decimal-whole-bar span {
+  min-height: 55px;
+
+  border:
+    2px solid
+    #94a3b8;
+
+  background:
+    rgba(
+      255,
+      255,
+      255,
+      0.08
+    );
+}
+
+
+.decimal-whole-bar
+span.is-highlighted {
+  border-color: #0284c7;
+
+  background:
+    linear-gradient(
+      180deg,
+      #67e8f9,
+      #0ea5e9
+    );
+}
+
+
+.decimal-one-tenth-arrow {
+  color: #fbbf24;
+
+  font-size: 1.5rem;
+  font-weight: 1000;
+}
+
+
+.decimal-one-tenth-visual strong {
+  color: #fde68a;
+
+  font-size: 0.72rem;
+}
+
+
+/* 数直線 */
+
+.decimal-number-line {
+  width:
+    min(
+      90%,
+      540px
+    );
+
+  padding:
+    1.2rem
+    0.7rem
+    0.3rem;
+}
+
+
+.decimal-line-track {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      11,
+      1fr
+    );
+
+  align-items: end;
+
+  border-bottom:
+    5px solid
+    #e2e8f0;
+}
+
+
+.decimal-line-tick {
+  position: relative;
+
+  min-height: 26px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  color: #fbbf24;
+
+  font-size: 1.4rem;
+  font-weight: 1000;
+}
+
+
+.decimal-line-tick::after {
+  content: "";
+
+  position: absolute;
+
+  bottom: -5px;
+
+  width: 3px;
+  height: 14px;
+
+  background: #e2e8f0;
+}
+
+
+.decimal-line-tick.is-current {
+  transform:
+    translateY(-4px);
+}
+
+
+.decimal-line-labels {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 0.45rem;
+
+  color: #fff;
+
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+
+
+/* ヒント */
+
+.decimal-choice-guide {
+  width: 100%;
+
+  color: #fde68a;
+
+  font-size: 0.68rem;
+  font-weight: 900;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* 回答選択肢 */
+
+.decimal-choice-options {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 0.55rem;
+}
+
+
+.decimal-choice-option {
+  min-height: 48px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.5rem;
+
+  padding:
+    0.3rem
+    0.4rem;
+
+  border:
+    3px solid;
+
+  border-radius: 0.8rem;
+
+  background:
+    linear-gradient(
+      180deg,
+      #fffef7,
+      #fff8dc
+    );
+
+  box-shadow:
+    0 4px 0
+    rgba(
+      0,
+      0,
+      0,
+      0.18
+    );
+}
+
+
+.decimal-choice-letter {
+  width: 28px;
+  height: 28px;
+
+  display: grid;
+  place-items: center;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  color: #fff;
+
+  font-size: 0.9rem;
+  font-weight: 1000;
+
+  text-shadow: none;
+}
+
+
+.decimal-choice-value {
+  color: #172033;
+
+  font-size:
+    clamp(
+      1rem,
+      2vw,
+      1.4rem
+    );
+
+  font-weight: 900;
+
+  line-height: 1;
+
+  text-shadow: none !important;
+
+  -webkit-text-stroke:
+    0 !important;
+
+  filter: none !important;
+}
+
+
+.decimal-choice-option-a {
+  border-color: #3b82f6;
+}
+
+
+.decimal-choice-option-a
+.decimal-choice-letter {
+  background: #3b82f6;
+}
+
+
+.decimal-choice-option-b {
+  border-color: #fb7185;
+}
+
+
+.decimal-choice-option-b
+.decimal-choice-letter {
+  background: #fb7185;
+}
+
+
+.decimal-choice-option-c {
+  border-color: #f59e0b;
+}
+
+
+.decimal-choice-option-c
+.decimal-choice-letter {
+  background: #f59e0b;
+}
+
+
+/* 問題枠の高さ */
+
+.game-area:has(
+  .decimal-choice-question
+) {
+  grid-template-rows:
+    auto
+    auto
+    315px
+    auto
+    minmax(220px, 1fr);
+}
+
+
+.game-area > .question-card:has(
+  .decimal-choice-question
+) {
+  min-height: 315px;
+  height: 315px;
+  max-height: 315px;
+
+  overflow: hidden;
+}
+
+
+@media (max-width: 760px) {
+
+  .game-area:has(
+    .decimal-choice-question
+  ) {
+    grid-template-rows:
+      auto
+      auto
+      280px
+      auto
+      auto
+      auto;
+  }
+
+
+  .game-area > .question-card:has(
+    .decimal-choice-question
+  ) {
+    min-height: 280px;
+    height: 280px;
+    max-height: 280px;
+  }
+
+
+  .decimal-tenths-grid {
+    gap: 0.18rem;
+
+    padding: 0.35rem;
+  }
+
+
+  .decimal-tenth-cell {
+    min-height: 44px;
+  }
+
+
+  .decimal-main-number {
+    font-size: 1.35rem;
+  }
+
+
+  .decimal-tenth-chips span {
+    font-size: 0.68rem;
+  }
+
+
+  .decimal-whole-bar span {
+    min-height: 42px;
+  }
+
+
+  .decimal-choice-option {
+    min-height: 43px;
+
+    gap: 0.3rem;
+  }
+
+
+  .decimal-choice-letter {
+    width: 24px;
+    height: 24px;
+
+    font-size: 0.75rem;
+  }
+
+
+  .decimal-choice-value {
+    font-size: 0.95rem;
+  }
+}

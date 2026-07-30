@@ -193,14 +193,39 @@ if (a === "toggle-title-bgm") {
     if (a === "stage") { currentStage = getStage(t.dataset.id); questions = generateQuestions(currentStage, 5); qi = 0; input = ""; earned = null; chestOpened = false; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; partnerMood = "start"; screen = "game"; startQuestion(); return; }
     if (a === "replay-flash") { if (usesFlash(currentStage) && !answerFeedback) startQuestion(); return; }
     if (a === "key") {
-      if (!inputEnabled) return;
-      const value = t.dataset.value;
-      if (value === "clear") input = "";
-      else if (value === "back") input = input.slice(0, -1);
-      else if (input.length < 20) input += value;
-      render();
-      return;
+  if (!inputEnabled) return;
+
+  const value = t.dataset.value;
+
+  if (value === "clear") {
+    input = "";
+
+  } else if (value === "back") {
+    input = input.slice(0, -1);
+
+  } else if (input.length < 20) {
+    const isChoiceKey =
+      typeof value === "string" &&
+      /^[ABC]$/.test(value);
+
+    if (isChoiceKey) {
+      /*
+        A/B/C問題は1文字だけ保持する。
+        別の文字を押したら、その文字へ置き換える。
+      */
+      input = value;
+
+    } else {
+      /*
+        数字・小数・分数などは従来どおり追記する。
+      */
+      input += value;
     }
+  }
+
+  render();
+  return;
+}
     if (a === "answer") {
       if (!inputEnabled || input === "") return;
       const question = questions[qi];
