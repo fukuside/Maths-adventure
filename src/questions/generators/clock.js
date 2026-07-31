@@ -5,7 +5,7 @@ export default {
     if (stage.type === "clock_read") {
       const minutes = stage.minuteChoices ?? [0];
       const hour = r(1, 12), minute = minutes[r(0, minutes.length - 1)];
-      return { kind:"clock", mode:"read", prompt: minute === 0 ? "この とけいは なんじ？" : "この とけいは なんじ なんぷん？", hour, minute, answer:hour*100+minute, uniqueKey:`read-${hour}-${minute}` };
+      return { kind:"clock", mode:"read", prompt: "この とけいは なんじ なんぷん？", hour, minute, answer:hour*100+minute, uniqueKey:`read-${hour}-${minute}` };
     }
     const minutes = stage.minuteChoices ?? [0];
     const elapsed = stage.elapsedChoices ?? [60,120];

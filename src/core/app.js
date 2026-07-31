@@ -196,7 +196,85 @@ if (a === "toggle-title-bgm") {
   if (!inputEnabled) return;
 
   const value = t.dataset.value;
+  const isClockStage =
+    currentStage?.keypad === "clock" ||
+    currentStage?.type?.startsWith("clock_");
 
+  /*
+    時計専用入力
+  */
+  if (isClockStage) {
+    if (value === "clear") {
+      input = "";
+      render();
+      return;
+    }
+
+    if (value === "back") {
+      /*
+        分の選択画面から、
+        時の選択画面へ戻す
+      */
+      input = "";
+      render();
+      return;
+    }
+
+    if (
+      typeof value === "string" &&
+      value.startsWith("clock-hour:")
+    ) {
+      const hour = value.slice("clock-hour:".length);
+
+      if (/^(?:[1-9]|1[0-2])$/.test(hour)) {
+        input = `${hour}|`;
+      }
+
+      render();
+      return;
+    }
+
+    if (
+      typeof value === "string" &&
+      value.startsWith("clock-minute:")
+    ) {
+      const minute =
+        value.slice("clock-minute:".length);
+
+      const minuteChoices = [
+        "00",
+        "05",
+        "10",
+        "15",
+        "20",
+        "25",
+        "30",
+        "35",
+        "40",
+        "45",
+        "50",
+        "55"
+      ];
+
+      if (
+        input.includes("|") &&
+        minuteChoices.includes(minute)
+      ) {
+        const hour = input.split("|")[0];
+
+        input = `${hour}|${minute}`;
+      }
+
+      render();
+      return;
+    }
+
+    return;
+  }
+
+  /*
+    時計以外の通常入力
+  */
   if (value === "clear") {
     input = "";
 
@@ -1309,11 +1387,14 @@ function stopTitleBgm() {
 
 <div class="answer-display">
   ${
-    input
+    currentStage?.keypad === "clock" ||
+    currentStage?.type?.startsWith("clock_")
       ? formatInput(input)
-      : inputEnabled
-        ? "こたえを えらんでね"
-        : "もんだいを みています"
+      : input
+        ? formatInput(input)
+        : inputEnabled
+          ? "こたえを えらんでね"
+          : "もんだいを みています"
   }
 </div>
 
@@ -1328,12 +1409,63 @@ ${renderKeypad()}
   }
 
   function formatInput(value) {
-    return escapeHtml(String(value).replaceAll("morning", "☀ あさ ").replaceAll("night", "🌙 よる "));
+  const isClockStage =
+    currentStage?.keypad === "clock" ||
+    currentStage?.type?.startsWith("clock_");
+
+  /*
+    時計ステージの入力表示
+  */
+  if (isClockStage) {
+    const rawValue = String(value ?? "");
+    const [hour = "", minute = ""] =
+      rawValue.split("|");
+
+    const hourDisplay =
+      hour !== ""
+        ? escapeHtml(hour)
+        : "ーー";
+
+    const minuteDisplay =
+      minute !== ""
+        ? escapeHtml(minute)
+        : "ーー";
+
+    return `
+      <span class="clock-answer-value">
+        <span class="clock-answer-part">
+          <strong>${hourDisplay}</strong>
+          <small>じ</small>
+        </span>
+
+        <span class="clock-answer-part">
+          <strong>${minuteDisplay}</strong>
+          <small>ふん</small>
+        </span>
+      </span>
+    `;
   }
 
+  /*
+    時計以外の入力表示
+  */
+  return escapeHtml(
+    String(value)
+      .replaceAll("morning", "☀ あさ ")
+      .replaceAll("night", "🌙 よる ")
+  );
+}
+
   function renderKeypad() {
-    return renderKeypadForStage(currentStage, { escapeHtml, inputEnabled });
-  }
+  return renderKeypadForStage(
+    currentStage,
+    {
+      escapeHtml,
+      inputEnabled,
+      input
+    }
+  );
+}
 
   function unlockedPartnerEntries() {
     return state.unlockedCards.map(key => {
