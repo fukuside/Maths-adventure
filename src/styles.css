@@ -5368,3 +5368,708 @@ span.is-highlighted {
     font-size: 0.95rem;
   }
 }
+/* =========================================================
+   CLOCK LEARNING SCREEN
+   時計問題共通
+   左：問題文　右：時計
+========================================================= */
+
+.clock-learning-question {
+  width: 100%;
+  height: 100%;
+
+  display: block;
+
+  padding: 0;
+
+  overflow: hidden;
+}
+
+
+.clock-learning-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1.18fr)
+    minmax(180px, 0.82fr);
+
+  align-items: center;
+
+  gap:
+    clamp(
+      1rem,
+      3vw,
+      2.5rem
+    );
+
+  padding:
+    0.35rem
+    1.35rem;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   左側
+========================================================= */
+
+.clock-learning-info {
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: stretch;
+  justify-content: center;
+
+  gap: 0.5rem;
+}
+
+.clock-learning-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.12rem;
+
+  color: #fde68a;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+.clock-learning-title strong {
+  font-size: 0.78rem;
+  font-weight: 900;
+}
+
+
+.clock-learning-title small {
+  color: #fef3c7;
+
+  font-size: 0.58rem;
+  font-weight: 800;
+
+  line-height: 1.2;
+}
+
+.clock-learning-prompt {
+  width: 100%;
+
+  margin: 0;
+
+  padding:
+    0.75rem
+    0.9rem;
+
+  border:
+    2px solid
+    rgba(
+      255,
+      255,
+      255,
+      0.32
+    );
+
+  border-radius: 0.95rem;
+
+  color: #fffdf2;
+
+  background:
+    rgba(
+      2,
+      6,
+      23,
+      0.24
+    );
+
+  box-sizing: border-box;
+
+  font-size:
+    clamp(
+      1rem,
+      2.2vw,
+      1.35rem
+    );
+
+  font-weight: 900;
+
+  line-height: 1.4;
+
+  text-align: center;
+}
+
+
+.clock-learning-guide {
+  min-height: 1.2em;
+
+  color: #fde68a;
+
+  font-size: 0.7rem;
+  font-weight: 800;
+
+  line-height: 1.35;
+
+  text-align: center;
+}
+
+/* =========================================================
+   朝・夜
+========================================================= */
+
+.clock-period-scene {
+  width: 100%;
+  min-height: 48px;
+
+  margin: 0;
+
+  padding:
+    0.45rem
+    0.85rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.55rem;
+
+  border-radius: 0.9rem;
+
+  box-sizing: border-box;
+
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+.clock-period-scene.morning {
+  color: #3b2100;
+
+  border:
+    3px solid
+    #f59e0b;
+
+  background:
+    linear-gradient(
+      180deg,
+      #fff6b8,
+      #facc15
+    );
+
+  box-shadow:
+    inset 0 2px 0 rgba(255, 255, 255, 0.75),
+    0 3px 8px rgba(0, 0, 0, 0.22);
+
+  text-shadow: none;
+}
+
+
+.clock-period-scene.morning strong {
+  color: #3b2100;
+
+  font-size: 1.15rem;
+  font-weight: 1000;
+
+  letter-spacing: 0.08em;
+
+  line-height: 1;
+
+  text-shadow: none;
+
+  -webkit-text-stroke: 0;
+}
+
+
+.clock-period-scene.morning
+.clock-period-icon {
+  font-size: 1.7rem;
+
+  filter:
+    drop-shadow(
+      0 2px 1px
+      rgba(120, 53, 15, 0.25)
+    );
+}
+
+.clock-period-scene.night {
+  color: #fff;
+
+  border:
+    2px solid
+    #7e79d8;
+
+  background:
+    linear-gradient(
+      135deg,
+      #17264c,
+      #463b82
+    );
+}
+
+
+.clock-period-icon {
+  font-size: 1.55rem;
+
+  line-height: 1;
+}
+
+
+/* =========================================================
+   右側の時計
+========================================================= */
+.clock-learning-clock {
+  min-width: 0;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.15rem;
+
+  overflow: visible;
+}
+
+
+.clock-learning-clock
+.clock-learning-svg {
+  display: block;
+
+  width:
+    clamp(
+      150px,
+      17vw,
+      190px
+    );
+
+  height: auto;
+
+  max-height: 190px;
+
+  margin: 0;
+
+  overflow: visible;
+}
+
+.clock-learning-svg text {
+  text-shadow: none !important;
+
+  -webkit-text-stroke:
+    0 !important;
+
+  filter: none !important;
+}
+
+
+.clock-current-time-label {
+  color: #fde68a;
+
+  font-size: 0.65rem;
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   回答表示
+========================================================= */
+
+.clock-answer-value {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+
+  gap: 1rem;
+}
+
+
+.clock-answer-part {
+  display: inline-flex;
+  align-items: baseline;
+
+  gap: 0.25rem;
+}
+
+
+.clock-answer-part strong {
+  min-width: 2.2em;
+
+  text-align: center;
+}
+
+
+.clock-answer-part small {
+  font-size: 0.55em;
+}
+
+
+/* =========================================================
+   時計問題のゲーム画面全体
+   下部が画面外へ切れないように圧縮
+========================================================= */
+.game-area:has(.clock-learning-layout) {
+  min-height: calc(100dvh - 90px);
+
+  grid-template-rows:
+    auto
+    auto
+    260px
+    58px
+    minmax(190px, 1fr);
+
+  gap: 0.55rem;
+}
+
+.game-area >
+.question-card:has(.clock-learning-layout) {
+  min-height: 260px;
+  height: 260px;
+  max-height: 260px;
+
+  padding:
+    0.45rem
+    0.7rem;
+
+  overflow: hidden;
+}
+
+.question-card:has(.clock-learning-layout)
+.question,
+
+.question-card:has(.clock-learning-layout)
+.visual-question {
+  width: 100%;
+  height: 100%;
+}
+
+
+/* 時計問題では下部を少しコンパクトに */
+
+.game-area:has(.clock-learning-layout)
+.partner-answer-zone
+.partner-companion {
+  min-height: 190px;
+
+  padding:
+    0.7rem;
+}
+
+
+.game-area:has(.clock-learning-layout)
+.partner-answer-zone
+.partner-companion img {
+  width:
+    clamp(
+      115px,
+      15vw,
+      170px
+    );
+
+  height:
+    clamp(
+      115px,
+      15vw,
+      170px
+    );
+}
+
+
+.game-area:has(.clock-learning-layout)
+.partner-submit-button {
+  min-height: 52px;
+}
+
+
+.game-area:has(.clock-learning-layout)
+.keypad {
+  padding: 0.55rem;
+
+  gap: 0.4rem;
+}
+
+
+.game-area:has(.clock-learning-layout)
+.keypad .key {
+  min-height: 48px;
+
+  padding:
+    0.4rem
+    0.25rem;
+
+  font-size:
+    clamp(
+      1rem,
+      2vw,
+      1.3rem
+    );
+}
+
+
+/* =========================================================
+   高さが低いPC
+========================================================= */
+
+@media (max-height: 760px)
+and (min-width: 761px) {
+
+  .game-area:has(.clock-learning-layout) {
+  min-height: calc(100dvh - 72px);
+
+  grid-template-rows:
+    auto
+    auto
+    225px
+    50px
+    minmax(165px, 1fr);
+
+  gap: 0.4rem;
+}
+
+  .game-area >
+.question-card:has(.clock-learning-layout) {
+  min-height: 225px;
+  height: 225px;
+  max-height: 225px;
+}
+
+  .clock-learning-layout {
+    padding:
+      0.2rem
+      0.9rem;
+  }
+
+.clock-learning-clock
+.clock-learning-svg {
+  width: 160px;
+
+  max-height: 160px;
+}
+
+  .clock-learning-info {
+    gap: 0.3rem;
+  }
+
+
+  .clock-learning-prompt {
+    padding:
+      0.5rem
+      0.7rem;
+
+    font-size: 1rem;
+  }
+
+
+  .clock-learning-guide {
+    font-size: 0.62rem;
+  }
+
+
+  .clock-period-scene {
+    min-height: 38px;
+
+    padding:
+      0.3rem
+      0.6rem;
+  }
+
+
+  .game-area:has(.clock-learning-layout)
+  .partner-answer-zone
+  .partner-companion {
+    min-height: 155px;
+  }
+
+
+  .game-area:has(.clock-learning-layout)
+  .partner-answer-zone
+  .partner-companion img {
+    width: 105px;
+    height: 105px;
+  }
+
+
+  .game-area:has(.clock-learning-layout)
+  .keypad .key {
+    min-height: 42px;
+
+    font-size: 0.95rem;
+  }
+}
+
+/* =========================================================
+   タブレット・iPad
+========================================================= */
+
+@media (max-width: 900px) {
+
+  .clock-learning-layout {
+    grid-template-columns:
+      minmax(0, 1.12fr)
+      minmax(145px, 0.88fr);
+
+    gap: 0.7rem;
+
+    padding:
+      0.25rem
+      0.55rem;
+  }
+
+  .clock-learning-clock
+.clock-learning-svg {
+  width:
+    clamp(
+      135px,
+      20vw,
+      165px
+    );
+
+  max-height: 165px;
+}
+
+  .clock-learning-prompt {
+    font-size: 0.95rem;
+  }
+}
+
+
+/* =========================================================
+   縦並び画面
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .game-area:has(.clock-learning-layout) {
+    min-height: auto;
+
+    grid-template-rows:
+      auto
+      auto
+      255px
+      auto
+      auto
+      auto;
+  }
+
+
+  .game-area >
+  .question-card:has(.clock-learning-layout) {
+    min-height: 255px;
+    height: 255px;
+    max-height: 255px;
+  }
+
+
+  .clock-learning-layout {
+    grid-template-columns:
+      minmax(0, 1fr)
+      135px;
+
+    gap: 0.4rem;
+
+    padding:
+      0.2rem
+      0.35rem;
+  }
+
+
+  .clock-learning-clock
+  .clock-learning-svg {
+    width: 128px;
+
+    max-height: 128px;
+  }
+
+
+  .clock-learning-title {
+    font-size: 0.65rem;
+  }
+
+
+  .clock-learning-prompt {
+    padding:
+      0.4rem
+      0.45rem;
+
+    font-size: 0.82rem;
+  }
+
+
+  .clock-learning-guide {
+    font-size: 0.56rem;
+  }
+
+
+  .clock-period-scene {
+    min-height: 34px;
+
+    padding:
+      0.25rem
+      0.45rem;
+
+    font-size: 0.8rem;
+  }
+
+
+  .clock-period-icon {
+    font-size: 1.15rem;
+  }
+}
+
+
+/* =========================================================
+   幅の狭いスマホだけ上下配置
+========================================================= */
+
+@media (max-width: 480px) {
+
+  .game-area:has(.clock-learning-layout) {
+    grid-template-rows:
+      auto
+      auto
+      300px
+      auto
+      auto
+      auto;
+  }
+
+
+  .game-area >
+  .question-card:has(.clock-learning-layout) {
+    min-height: 300px;
+    height: 300px;
+    max-height: 300px;
+  }
+
+
+  .clock-learning-layout {
+    grid-template-columns: 1fr;
+
+    grid-template-rows:
+      auto
+      115px;
+
+    gap: 0.25rem;
+  }
+
+
+  .clock-learning-clock
+  .clock-learning-svg {
+    width: 108px;
+
+    max-height: 108px;
+  }
+}
+
+.clock-period-scene,
+.clock-period-scene strong {
+  text-shadow: none !important;
+
+  -webkit-text-stroke: 0 !important;
+
+  filter: none;
+}

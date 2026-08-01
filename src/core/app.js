@@ -187,7 +187,17 @@ if (a === "toggle-title-bgm") {
   toggleTitleBgm();
   return;
 }
-    if (feedbackPlaying && !["go", "close-zoom"].includes(a)) return;
+    if (
+  feedbackPlaying &&
+  ![
+    "go",
+    "close-zoom",
+    "key",
+    "submit"
+  ].includes(a)
+) {
+  return;
+}
     if (a === "go") { clearQuestionTimers(); screen = t.dataset.screen; render(); return; }
     if (a === "world") { worldId = Number(t.dataset.world); screen = "world"; render(); return; }
     if (a === "stage") { currentStage = getStage(t.dataset.id); questions = generateQuestions(currentStage, 5); qi = 0; input = ""; earned = null; chestOpened = false; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; partnerMood = "start"; screen = "game"; startQuestion(); return; }
@@ -197,9 +207,7 @@ if (a === "toggle-title-bgm") {
 
   const value = t.dataset.value;
   const isClockStage =
-    currentStage?.keypad === "clock" ||
-    currentStage?.type?.startsWith("clock_");
-
+  currentStage?.keypad === "clock";
   /*
     時計専用入力
   */
@@ -1364,14 +1372,37 @@ function stopTitleBgm() {
         <div class="game-status"><div class="life-display"><span>${lives>=1?"🛡️":"💥"}</span><span>${lives>=2?"🛡️":"💥"}</span></div><strong>${qi+1}/${questions.length}</strong></div>
       </div>
       ${wrongMessage?`<div class="wrong-notice">${wrongMessage}</div>`:""}
-      <button class="question-card ${flashMode ? "flash-card" : "persistent-card"} ${showQuestion?"showing":"hidden-question"}" ${questionAction} ${flashMode ? "" : 'type="button"'}>
-        <div>
-          <p class="muted">${currentStage.unitLabel}・${currentStage.name}</p>
-          <div class="question">${showQuestion ? renderQuestion(q) : "？"}</div>
-          <p class="flash-guide">${guide}</p>
-        </div>
-        ${flashMode && flashVisible?`<div class="flash-progress" style="animation-duration:${flashDuration()}ms"></div>`:""}
-      </button>
+      <button
+  class="question-card ${flashMode ? "flash-card" : "persistent-card"} ${showQuestion ? "showing" : "hidden-question"}"
+  ${questionAction}
+  ${flashMode ? "" : 'type="button"'}
+>
+  <div>
+
+    <p class="muted">
+      ${
+        currentStage?.type?.startsWith("clock_")
+          ? "もんだいを よくみて こたえよう"
+          : `${escapeHtml(currentStage.unitLabel)}・${escapeHtml(currentStage.name)}`
+      }
+    </p>
+
+    <div class="question">
+      ${
+        showQuestion
+          ? renderQuestion(q)
+          : "？"
+      }
+    </div>
+
+    ${
+      currentStage?.type?.startsWith("clock_")
+        ? ""
+        : `<p class="flash-guide">${guide}</p>`
+    }
+
+  </div>
+</button>
       <div class="partner-answer-zone">
 
   ${renderPartnerCompanion()}
@@ -1387,14 +1418,20 @@ function stopTitleBgm() {
 
 <div class="answer-display">
   ${
-    currentStage?.keypad === "clock" ||
-    currentStage?.type?.startsWith("clock_")
+    currentStage?.type === "clock_24h"
       ? formatInput(input)
-      : input
+
+      : currentStage?.keypad === "clock" ||
+        currentStage?.type?.startsWith("clock_")
         ? formatInput(input)
-        : inputEnabled
-          ? "こたえを えらんでね"
-          : "もんだいを みています"
+
+        : input
+          ? formatInput(input)
+
+          : inputEnabled
+            ? "こたえを えらんでね"
+
+            : "もんだいを みています"
   }
 </div>
 
@@ -1408,17 +1445,53 @@ ${renderKeypad()}
     return cleaned === "" ? NaN : Number(cleaned);
   }
 
-  function formatInput(value) {
-  const isClockStage =
-    currentStage?.keypad === "clock" ||
-    currentStage?.type?.startsWith("clock_");
+ function formatInput(value) {
+  /*
+    朝・夜の24時間表記ステージ
+  */
+  if (
+    currentStage?.type ===
+    "clock_24h"
+  ) {
+    const hour =
+      String(value ?? "");
+
+    return `
+      <span class="clock-answer-value clock-24h-answer">
+        <span class="clock-answer-part">
+          <strong>
+            ${
+              hour !== ""
+                ? escapeHtml(hour)
+                : "ーー"
+            }
+          </strong>
+
+          <small>
+            じ
+          </small>
+        </span>
+      </span>
+    `;
+  }
 
   /*
-    時計ステージの入力表示
+    通常の時計ステージ
   */
+  const isClockStage =
+    currentStage?.keypad === "clock" ||
+    currentStage?.type?.startsWith(
+      "clock_"
+    );
+
   if (isClockStage) {
-    const rawValue = String(value ?? "");
-    const [hour = "", minute = ""] =
+    const rawValue =
+      String(value ?? "");
+
+    const [
+      hour = "",
+      minute = ""
+    ] =
       rawValue.split("|");
 
     const hourDisplay =
@@ -1434,25 +1507,41 @@ ${renderKeypad()}
     return `
       <span class="clock-answer-value">
         <span class="clock-answer-part">
-          <strong>${hourDisplay}</strong>
-          <small>じ</small>
+          <strong>
+            ${hourDisplay}
+          </strong>
+
+          <small>
+            じ
+          </small>
         </span>
 
         <span class="clock-answer-part">
-          <strong>${minuteDisplay}</strong>
-          <small>ふん</small>
+          <strong>
+            ${minuteDisplay}
+          </strong>
+
+          <small>
+            ふん
+          </small>
         </span>
       </span>
     `;
   }
 
   /*
-    時計以外の入力表示
+    時計以外
   */
   return escapeHtml(
     String(value)
-      .replaceAll("morning", "☀ あさ ")
-      .replaceAll("night", "🌙 よる ")
+      .replaceAll(
+        "morning",
+        "☀ あさ "
+      )
+      .replaceAll(
+        "night",
+        "🌙 よる "
+      )
   );
 }
 
