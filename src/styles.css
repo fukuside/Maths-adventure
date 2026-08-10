@@ -3109,14 +3109,40 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .22rem;
+
+  gap: .16rem;
+
+  flex-wrap: wrap;
+
+  max-width: 100%;
+
+  min-width: 0;
 }
 
 .money-choice-money-image {
-  width: 40px;
-  height: 40px;
+  width:
+    clamp(
+      26px,
+      3.2vw,
+      38px
+    );
+
+  height:
+    clamp(
+      26px,
+      3.2vw,
+      38px
+    );
+
+  flex: 0 0 auto;
+
   object-fit: contain;
-  filter: drop-shadow(0 3px 3px rgba(0,0,0,.35));
+
+  filter:
+    drop-shadow(
+      0 3px 3px
+      rgba(0,0,0,.35)
+    );
 }
 
 /* Product cards */
@@ -3366,6 +3392,65 @@ body {
     0 5px 0
       #92400e;
 }
+
+/* =========================================================
+   MONEY EXACT PAY
+   A/B/Cの中に硬貨を横並び表示
+========================================================= */
+
+/* 硬貨選択肢のときは
+   A/B/C + 硬貨一覧 の2列にする */
+.money-choice-option:has(.money-choice-wallet-items) {
+  grid-template-columns:
+    38px
+    minmax(0, 1fr);
+}
+
+
+/* 硬貨を必ず横方向へ並べる */
+.money-choice-option
+.money-choice-wallet-items {
+  width: 100%;
+  min-width: 0;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 0.22rem;
+
+  padding: 0;
+
+  overflow: visible;
+}
+
+
+/* 選択肢の中だけ硬貨を少し小さくする */
+.money-choice-option
+.money-choice-wallet-items
+.money-choice-money-image {
+  width:
+    clamp(
+      23px,
+      2.6vw,
+      32px
+    );
+
+  height:
+    clamp(
+      23px,
+      2.6vw,
+      32px
+    );
+
+  flex: 0 1 auto;
+
+  object-fit: contain;
+}
+
 /* =========================================================
    MONEY BILL SIZE
    全お金ステージ共通：紙幣を大きく表示
@@ -6099,4 +6184,36 @@ and (min-width: 761px) {
   box-shadow:0 4px 10px rgba(0,0,0,.3);
 
   z-index:20;
+}
+/* =========================================================
+   WORLD2 お金ボス
+   長い文章問題だけ文字サイズを調整
+========================================================= */
+
+.question-card:has(.money-boss-shopping)
+.question {
+  font-size:
+    clamp(
+      1rem,
+      2vw,
+      1.45rem
+    );
+
+  line-height: 1.35;
+}
+.money-boss-shopping {
+  font-size:
+    clamp(
+      1rem,
+      2vw,
+      1.4rem
+    );
+
+  line-height: 1.35;
+
+  max-width: 850px;
+
+  margin: 0 auto;
+
+  white-space: pre-line;
 }

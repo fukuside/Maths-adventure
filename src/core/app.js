@@ -1597,9 +1597,170 @@ function stopTitleBgm() {
 }
 
   function world() {
-    const w = worlds.find(x=>x.id===worldId), ss = stages.filter(x=>x.world===worldId), units = [...new Set(ss.map(x=>x.unit))];
-    return `<section class="panel"><div class="toolbar"><button class="button secondary small" data-action="go" data-screen="title">◀ WORLD</button><h2>WORLD ${w.id}・${w.grade}</h2><span></span></div>${units.map(u=>{const us=ss.filter(x=>x.unit===u).sort((a,b)=>(a.sort??0)-(b.sort??0));return `<section class="stage-section"><h3>${us[0].unitLabel}</h3><div class="stage-grid">${us.map(s=>`<button class="stage-button stage-text-only ${s.isBoss?"boss":""}" data-action="stage" data-id="${s.id}"><span class="stage-symbol">${s.isBoss?"👑":"⚔️"}</span><span class="stage-name">${s.isBoss?`${s.unitLabel} ボス戦`:s.unit==="multiplication"?`${s.sort}の段`:`${s.unitLabel} ${s.name}`}</span></button>`).join("")}</div></section>`}).join("")}</section>`;
-  }
+  const w =
+    worlds.find(
+      x => x.id === worldId
+    );
+
+  const ss =
+    stages
+      .filter(
+        x => x.world === worldId
+      )
+      .sort(
+        (a, b) =>
+          (a.sort ?? 0) -
+          (b.sort ?? 0)
+      );
+
+  const units =
+    [
+      ...new Set(
+        ss.map(
+          x => x.unit
+        )
+      )
+    ];
+
+  return `
+    <section class="panel">
+
+      <div class="toolbar">
+
+        <button
+          class="button secondary small"
+          data-action="go"
+          data-screen="title"
+        >
+          ◀ WORLD
+        </button>
+
+        <h2>
+          WORLD ${w.id}・${w.grade}
+        </h2>
+
+        <span></span>
+
+      </div>
+
+
+      ${
+        units.map(unit => {
+
+          const unitStages =
+            ss
+              .filter(
+                stage =>
+                  stage.unit === unit
+              )
+              .sort(
+                (a, b) =>
+                  (a.sort ?? 0) -
+                  (b.sort ?? 0)
+              );
+
+
+          return `
+            <section class="stage-section">
+
+              <h3>
+                ${escapeHtml(
+                  unitStages[0].unitLabel
+                )}
+              </h3>
+
+
+              <div class="stage-grid">
+
+                ${
+                  unitStages.map(
+                    stage => {
+
+                      let displayName;
+
+
+                      /*
+                        九九だけは
+                        1の段、2の段……
+                        の表示を維持
+                      */
+                      if (
+                        stage.unit ===
+                        "multiplication"
+                      ) {
+
+                        displayName =
+                          `${stage.sort}の段`;
+
+                      }
+
+                      /*
+                        それ以外は
+                        stage側のnameを
+                        そのまま表示
+                      */
+                      else {
+
+                        displayName =
+                          stage.name;
+
+                      }
+
+
+                      return `
+                        <button
+                          class="
+                            stage-button
+                            stage-text-only
+                            ${
+                              stage.isBoss
+                                ? "boss"
+                                : ""
+                            }
+                          "
+                          data-action="stage"
+                          data-id="${escapeHtml(
+                            stage.id
+                          )}"
+                        >
+
+                          <span
+                            class="stage-symbol"
+                          >
+                            ${
+                              stage.isBoss
+                                ? "👑"
+                                : "⚔️"
+                            }
+                          </span>
+
+
+                          <span
+                            class="stage-name"
+                          >
+                            ${escapeHtml(
+                              displayName
+                            )}
+                          </span>
+
+                        </button>
+                      `;
+
+                    }
+                  ).join("")
+                }
+
+              </div>
+
+            </section>
+          `;
+
+        }).join("")
+      }
+
+    </section>
+  `;
+}
 
   function game() {
     const q = questions[qi];

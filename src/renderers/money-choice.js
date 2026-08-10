@@ -83,59 +83,56 @@ export default {
 
           ${choices.map(choice => `
 
-            <div
-              class="
-                money-choice-option
-                money-choice-option-${choice.id.toLowerCase()}
-              "
-            >
+  <div
+    class="
+      money-choice-option
+      money-choice-option-${choice.id.toLowerCase()}
+    "
+  >
 
-              <span
-                class="
-                  choice-letter
-                "
-              >
-                ${choice.id}
-              </span>
+    <span class="choice-letter">
+      ${choice.id}
+    </span>
 
+    ${choice.moneyItems ? `
 
-              <span
-                class="
-                  choice-product-icon
-                "
-              >
-                ${choice.icon}
-              </span>
+      <div class="money-choice-wallet-items">
 
+        ${choice.moneyItems.map(item=>`
 
-              <div
-                class="
-                  choice-product-info
-                "
-              >
+          <img
+            class="money-choice-money-image"
+            src="${item.image}"
+            alt="${item.value}円"
+          >
 
-                <span
-                  class="
-                    choice-product-name
-                  "
-                >
-                  ${choice.name}
-                </span>
+        `).join("")}
 
+      </div>
 
-                <strong
-                  class="
-                    choice-product-price
-                  "
-                >
-                  ${choice.price}円
-                </strong>
+    ` : `
 
-              </div>
+      <span class="choice-product-icon">
+        ${choice.icon}
+      </span>
 
-            </div>
+      <div class="choice-product-info">
 
-          `).join("")}
+        <span class="choice-product-name">
+          ${choice.name}
+        </span>
+
+        <strong class="choice-product-price">
+          ${choice.price}円
+        </strong>
+
+      </div>
+
+    `}
+
+  </div>
+
+`).join("")}
 
         </div>
 

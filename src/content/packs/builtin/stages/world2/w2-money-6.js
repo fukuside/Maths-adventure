@@ -1,6 +1,6 @@
 export default {
   id: "w2-money-6",
-  sort: 6,
+  sort: 10,
   world: 2,
   unit: "money",
   unitLabel: "お金",

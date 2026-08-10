@@ -1,14 +1,14 @@
 export default {
   id: "w2-money-can-buy-1",
 
-  sort: 8,
+  sort: 2,
 
   world: 2,
 
   unit: "money",
   unitLabel: "お金",
 
-  name: "おかいもの② どっちが買える？",
+  name: "どれが買えるかな？",
 
   presentation: "persistent",
 

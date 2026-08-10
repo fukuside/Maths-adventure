@@ -8,7 +8,7 @@ export default {
   unit: "money",
   unitLabel: "お金",
 
-  name: "おかいもの① おつり",
+  name: "おつりはいくら？",
 
   presentation: "persistent",
 

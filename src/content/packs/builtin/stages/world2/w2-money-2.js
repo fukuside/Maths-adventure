@@ -1,19 +1,30 @@
 export default {
   id: "w2-money-2",
-  sort: 2,
+
+  sort: 3,
+
   world: 2,
+
   unit: "money",
   unitLabel: "お金",
-  name: "100円まで",
+
+  name: "ちょうど はらおう",
+
   presentation: "persistent",
+
   isBoss: false,
-  keypad: "money",
-  type: "money_sum",
-  denominations: [1, 5, 10, 50, 100],
-  minItems: 2,
-  maxItems: 4,
-  billChance: 0.0,
+
+  keypad: "choice",
+
+  type: "money_exact_pay",
+
   cardId: "023-yen-cat",
+
   rewardGems: 5,
-  dropRates: { N: 0.7, SR: 0.25, UR: 0.05 }
+
+  dropRates: {
+    N: 0.60,
+    SR: 0.32,
+    UR: 0.08
+  }
 };
