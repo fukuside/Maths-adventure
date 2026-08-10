@@ -6073,3 +6073,30 @@ and (min-width: 761px) {
 
   filter: none;
 }
+
+.clock-learning-prompt{
+    white-space: pre-line;
+}
+.new-badge{
+  position:absolute;
+  top:14px;
+  right:-38px;
+
+  width:140px;
+
+  text-align:center;
+
+  background:#ef4444;
+  color:#fff;
+
+  font-weight:900;
+  font-size:1rem;
+
+  padding:6px 0;
+
+  transform:rotate(40deg);
+
+  box-shadow:0 4px 10px rgba(0,0,0,.3);
+
+  z-index:20;
+}

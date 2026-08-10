@@ -17,7 +17,7 @@ import {
 } from "./storage.js";
 import { consumeTransferCode, createTransferCode, isFirebaseConfigured } from "./firebase.js";
 
-const rarityRows = [["UR", 0.05, 1.7], ["SR", 0.25, 1.3], ["N", 0.70, 1]];
+const rarityRows = [["UR", 0.08, 1.7], ["SR", 0.32, 1.3], ["N", 0.60, 1]];
 
 export function createApp(root) {
   let state = loadLocalState();
@@ -654,53 +654,302 @@ function playCardRevealSound(rarity = "N") {
   }
 }
 
-  function getPool(stage) {
-  const worldCards =
-    cards.filter(
-      c => c.world === stage.world
-    );
+  function getRewardCard(stage) {
 
-  if (stage.isBoss) {
+  const worldCards =
+    cards.filter(c => c.world === stage.world);
+
+  const bosses =
+    worldCards.filter(c => c.role === "boss");
+
+  const normals =
+    worldCards.filter(c => c.role !== "boss");
+
+  if (!stage.isBoss) {
+    return sample(normals);
+  }
+
+  const r = Math.random();
+
+  // ------------------------
+  // 40%
+  // ボスカード
+  // ------------------------
+
+  if (r < 0.40) {
+    return sample(bosses);
+  }
+
+  // ------------------------
+  // 40%
+  // 通常カード
+  // ------------------------
+
+  if (r < 0.80) {
+    return sample(normals);
+  }
+
+  // ------------------------
+  // 20%
+  // 全カード
+  // ------------------------
+
+  return sample(worldCards);
+}
+
+function sample(arr){
+  return arr[
+    Math.floor(Math.random()*arr.length)
+  ];
+}
+
+  function finish() {
+  clearQuestionTimers();
+
+  let card;
+  let rarity;
+  let factor;
+
+  /*
+    ================================
+    ボス戦
+    ================================
+  */
+  if (currentStage?.isBoss) {
+    const worldCards =
+      cards.filter(
+        c => c.world === currentStage.world
+      );
+
     const bosses =
       worldCards.filter(
         c => c.role === "boss"
       );
 
-    if (bosses.length > 0) {
-      return bosses;
+    const normals =
+      worldCards.filter(
+        c => c.role !== "boss"
+      );
+
+    const bossRoll =
+      Math.random();
+
+
+    /*
+      40%
+      ボスカード
+      N / SR / UR
+    */
+    if (bossRoll < 0.40) {
+      card =
+        bosses.length > 0
+          ? bosses[
+              Math.floor(
+                Math.random() *
+                bosses.length
+              )
+            ]
+          : worldCards[
+              Math.floor(
+                Math.random() *
+                worldCards.length
+              )
+            ];
+
+      const rarityRoll =
+        Math.random();
+
+      if (rarityRoll < 0.60) {
+        rarity = "N";
+        factor = 1;
+
+      } else if (
+        rarityRoll < 0.90
+      ) {
+        rarity = "SR";
+        factor = 1.3;
+
+      } else {
+        rarity = "UR";
+        factor = 1.7;
+      }
+    }
+
+
+    /*
+      40%
+      通常カード
+      SR以上
+    */
+    else if (
+      bossRoll < 0.80
+    ) {
+      card =
+        normals.length > 0
+          ? normals[
+              Math.floor(
+                Math.random() *
+                normals.length
+              )
+            ]
+          : worldCards[
+              Math.floor(
+                Math.random() *
+                worldCards.length
+              )
+            ];
+
+      const rarityRoll =
+        Math.random();
+
+      if (rarityRoll < 0.80) {
+        rarity = "SR";
+        factor = 1.3;
+
+      } else {
+        rarity = "UR";
+        factor = 1.7;
+      }
+    }
+
+
+    /*
+      20%
+      ボス・通常すべてから
+      UR確定
+    */
+    else {
+      card =
+        worldCards[
+          Math.floor(
+            Math.random() *
+            worldCards.length
+          )
+        ];
+
+      rarity = "UR";
+      factor = 1.7;
     }
   }
 
-  const normals =
-    worldCards.filter(
-      c => c.role === "normal"
+
+  /*
+    ================================
+    通常ステージ
+    今まで通り
+    ================================
+  */
+  else {
+    const roll =
+      Math.random();
+
+    let cur = 0;
+
+    let row =
+      rarityRows[2];
+
+    for (
+      const r of rarityRows
+    ) {
+      cur += r[1];
+
+      if (roll <= cur) {
+        row = r;
+        break;
+      }
+    }
+
+    card =
+      getRewardCard(
+        currentStage
+      );
+
+    rarity =
+      row[0];
+
+    factor =
+      row[2];
+  }
+
+
+  /*
+    ================================
+    NEW判定
+    ================================
+  */
+
+  const key =
+    `${card.id}_${rarity}`;
+
+  const isNew =
+    !state.unlockedCards.includes(
+      key
     );
 
-  return normals.length > 0
-    ? normals
-    : worldCards;
-}
-
-  function finish() {
-    clearQuestionTimers();
-    const roll = Math.random(); let cur = 0, row = rarityRows[2];
-    for (const r of rarityRows) { cur += r[1]; if (roll <= cur) { row = r; break; } }
-    const pool = getPool(currentStage); const card = pool[Math.floor(Math.random() * pool.length)];
-    const key = `${card.id}_${row[0]}`; if (!state.unlockedCards.includes(key)) state.unlockedCards.push(key);
-    state.gems += currentStage.rewardGems ?? 5; earned = { card, rarity: row[0], factor: row[2] };
-    chestOpened = false;
-chestOpening = false;
-cardRevealed = false;
-
-if (chestTimer) {
-  clearTimeout(chestTimer);
-  chestTimer = null;
-}
-
-persistState(state);
-screen = "result";
-render();
+  if (isNew) {
+    state.unlockedCards.push(
+      key
+    );
   }
+
+
+  /*
+    NEWカード管理
+  */
+
+  state.newCards =
+    Array.isArray(
+      state.newCards
+    )
+      ? state.newCards
+      : [];
+
+  if (
+    isNew &&
+    !state.newCards.includes(key)
+  ) {
+    state.newCards.push(key);
+  }
+
+
+  /*
+    報酬
+  */
+
+  state.gems +=
+    currentStage.rewardGems ?? 5;
+
+  earned = {
+    card,
+    rarity,
+    factor,
+    isNew
+  };
+
+
+  /*
+    宝箱状態リセット
+  */
+
+  chestOpened = false;
+  chestOpening = false;
+  cardRevealed = false;
+
+  if (chestTimer) {
+    clearTimeout(
+      chestTimer
+    );
+
+    chestTimer = null;
+  }
+
+
+  persistState(state);
+
+  screen = "result";
+
+  render();
+}
 
   function render() {
 
@@ -1604,6 +1853,7 @@ ${renderKeypad()}
 
   function result() {
   const rarity = earned?.rarity ?? "N";
+  const isNew = earned?.isNew === true;
 
   return `
     <section class="stack">
@@ -1727,14 +1977,23 @@ ${renderKeypad()}
       </p>
 
       <article class="result-card rarity-${earned.rarity}">
-        <div class="card-shine"></div>
-        <div class="holo-layer"></div>
 
-        <img
-          class="card-image"
-          src="${image(earned.card, earned.rarity)}"
-          alt="${earned.card.name}"
-        >
+  ${
+    earned.isNew
+      ? `<div class="card-new-badge">NEW!</div>`
+      : ""
+  }
+
+  <div class="card-shine"></div>
+  <div class="holo-layer"></div>
+
+  <img
+  class="card-image"
+  src="${image(earned.card, earned.rarity)}"
+  alt="${earned.card.name}"
+>
+
+${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
 
         <div class="card-body">
           <p class="muted">
