@@ -200,7 +200,7 @@ if (a === "toggle-title-bgm") {
 }
     if (a === "go") { clearQuestionTimers(); screen = t.dataset.screen; render(); return; }
     if (a === "world") { worldId = Number(t.dataset.world); screen = "world"; render(); return; }
-    if (a === "stage") { currentStage = getStage(t.dataset.id); questions = generateQuestions(currentStage, 5); qi = 0; input = ""; earned = null; chestOpened = false; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; partnerMood = "start"; screen = "game"; startQuestion(); return; }
+    if (a === "stage") { currentStage = getStage(t.dataset.id); questions = generateQuestions(currentStage, 10); qi = 0; input = ""; earned = null; chestOpened = false; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; partnerMood = "start"; screen = "game"; startQuestion(); return; }
     if (a === "replay-flash") { if (usesFlash(currentStage) && !answerFeedback) startQuestion(); return; }
     if (a === "key") {
   if (!inputEnabled) return;
@@ -403,7 +403,7 @@ if (isCorrect) {
   return;
 }
 
-    if (a === "retry-stage") { questions = generateQuestions(currentStage, 5); qi = 0; input = ""; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; startQuestion(); return; }
+    if (a === "retry-stage") { questions = generateQuestions(currentStage, 10); qi = 0; input = ""; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; startQuestion(); return; }
     if (a === "zoom-card") { zoom = { card: getCard(t.dataset.cardId), rarity: t.dataset.rarity }; render(); return; }
     if (a === "close-zoom") { zoom = null; render(); return; }
     if (a === "choose-partner") {
