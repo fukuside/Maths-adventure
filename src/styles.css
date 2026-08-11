@@ -5128,8 +5128,10 @@ span.is-highlighted {
   font-size: 0.72rem;
 }
 
-
-/* 数直線 */
+/* =========================================================
+   小数・数直線
+   11本の目盛りと 0 / 0.5 / 1 を同一gridで配置
+========================================================= */
 
 .decimal-number-line {
   width:
@@ -5139,14 +5141,16 @@ span.is-highlighted {
     );
 
   padding:
-    1.2rem
-    0.7rem
-    0.3rem;
+    1rem
+    1rem
+    0.2rem;
 }
 
 
-.decimal-line-track {
+.decimal-line-grid {
   position: relative;
+
+  width: 100%;
 
   display: grid;
 
@@ -5158,60 +5162,109 @@ span.is-highlighted {
 
   align-items: end;
 
-  border-bottom:
-    5px solid
-    #e2e8f0;
+  padding-top: 24px;
 }
 
 
-.decimal-line-tick {
-  position: relative;
+/* 横線 */
 
-  min-height: 26px;
-
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-
-  color: #fbbf24;
-
-  font-size: 1.4rem;
-  font-weight: 1000;
-}
-
-
-.decimal-line-tick::after {
+.decimal-line-grid::before {
   content: "";
 
   position: absolute;
 
-  bottom: -5px;
+  left: 0;
+  right: 0;
+
+  top: 24px;
+
+  height: 5px;
+
+  background:
+    #e2e8f0;
+
+  border-radius: 999px;
+}
+
+
+/* 1目盛り分 */
+
+.decimal-line-point {
+  position: relative;
+
+  min-height: 58px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: flex-start;
+}
+
+
+/* ● */
+
+.decimal-line-dot {
+  position: absolute;
+
+  top: -22px;
+
+  color:
+    #fbbf24;
+
+  font-size: 1.35rem;
+  font-weight: 1000;
+
+  line-height: 1;
+
+  z-index: 2;
+
+  text-shadow:
+    0 2px 4px
+    rgba(
+      0,
+      0,
+      0,
+      0.35
+    );
+}
+
+
+/* 縦の目盛り線 */
+
+.decimal-line-tick {
+  position: relative;
+
+  z-index: 1;
 
   width: 3px;
-  height: 14px;
+  height: 16px;
 
-  background: #e2e8f0;
+  margin-top: 16px;
+
+  background:
+    #e2e8f0;
 }
 
 
-.decimal-line-tick.is-current {
-  transform:
-    translateY(-4px);
-}
+/* 0 / 0.5 / 1 */
 
+.decimal-line-label {
+  min-height: 1.2em;
 
-.decimal-line-labels {
-  display: flex;
-  justify-content: space-between;
-
-  margin-top: 0.45rem;
+  margin-top: 0.4rem;
 
   color: #fff;
 
   font-size: 0.85rem;
   font-weight: 900;
-}
 
+  line-height: 1;
+
+  text-align: center;
+
+  text-shadow: none;
+}
 
 /* ヒント */
 

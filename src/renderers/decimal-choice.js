@@ -109,7 +109,6 @@ function renderOneTenth() {
   `;
 }
 
-
 function renderNumberLine(
   value
 ) {
@@ -125,15 +124,15 @@ function renderNumberLine(
   return `
     <div class="decimal-number-line">
 
-      <div class="decimal-line-track">
+      <div class="decimal-line-grid">
 
         ${Array.from({
           length: 11
         }).map(
           (_, index) => `
-            <span
+            <div
               class="
-                decimal-line-tick
+                decimal-line-point
                 ${
                   index === safeValue
                     ? "is-current"
@@ -143,24 +142,32 @@ function renderNumberLine(
             >
               ${
                 index === safeValue
-                  ? "●"
+                  ? `<span class="decimal-line-dot">●</span>`
                   : ""
               }
-            </span>
+
+              <span class="decimal-line-tick"></span>
+
+              <span class="decimal-line-label">
+                ${
+                  index === 0
+                    ? "0"
+                    : index === 5
+                      ? "0.5"
+                      : index === 10
+                        ? "1"
+                        : ""
+                }
+              </span>
+            </div>
           `
         ).join("")}
 
       </div>
 
-      <div class="decimal-line-labels">
-        <span>0</span>
-        <span>1</span>
-      </div>
-
     </div>
   `;
 }
-
 
 function renderVisual(
   visual
