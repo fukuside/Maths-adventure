@@ -4,15 +4,10 @@ export default {
   "world": 1,
   "unit": "subtraction",
   "unitLabel": "引き算",
-  "name": "レベル3",
+  "name": "10〜19−1けた",
   "isBoss": false,
-  "type": "subtraction",
-  "cardId": "010-remove-mole",
+  "type": "subtraction_teens",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 20
+  "presentation": "persistent",
+  "questionCount": 10
 };

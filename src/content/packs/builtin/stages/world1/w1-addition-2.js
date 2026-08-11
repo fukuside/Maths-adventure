@@ -4,15 +4,10 @@ export default {
   "world": 1,
   "unit": "addition",
   "unitLabel": "足し算",
-  "name": "レベル2",
+  "name": "1けた＋1けた",
   "isBoss": false,
-  "type": "addition",
-  "cardId": "002-sum-slime",
+  "type": "addition_single",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 15
+  "presentation": "persistent",
+  "questionCount": 10
 };

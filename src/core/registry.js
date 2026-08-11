@@ -14,12 +14,23 @@ function normalize(modules, type) {
     if (!item || typeof item !== "object" || item.id === undefined) throw new Error(`${type} definition is invalid: ${path}`);
     return Object.freeze({ ...item, packId: item.packId ?? packIdFromPath(path) });
   });
-  const ids = new Set();
-  for (const item of values) {
-    const key = String(item.id);
-    if (ids.has(key)) throw new Error(`${type} id is duplicated: ${key}`);
-    ids.add(key);
+  const ids = new Map();
+
+for (const [path, item] of Object.entries(modules)) {
+  const key = String(item.id);
+
+  if (ids.has(key)) {
+    console.error("DUPLICATED ID:", key);
+    console.error("FIRST FILE:", ids.get(key));
+    console.error("SECOND FILE:", path);
+
+    throw new Error(
+      `${type} id is duplicated: ${key}`
+    );
   }
+
+  ids.set(key, path);
+}
   return values.sort((a,b)=>(a.world??0)-(b.world??0) || (a.sort??a.number??0)-(b.sort??b.number??0));
 }
 

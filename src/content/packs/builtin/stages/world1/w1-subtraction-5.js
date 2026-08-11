@@ -4,15 +4,10 @@ export default {
   "world": 1,
   "unit": "subtraction",
   "unitLabel": "引き算",
-  "name": "レベル5",
+  "name": "引き算の文章題",
   "isBoss": false,
-  "type": "subtraction",
-  "cardId": "012-back-bear",
+  "type": "subtraction_word",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 50
+  "presentation": "persistent",
+  "questionCount": 10
 };

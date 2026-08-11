@@ -4,15 +4,10 @@ export default {
   "world": 1,
   "unit": "addition",
   "unitLabel": "足し算",
-  "name": "レベル3",
+  "name": "1けた＋2けた",
   "isBoss": false,
-  "type": "addition",
-  "cardId": "003-pair-bird",
+  "type": "addition_mixed",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 20
+  "presentation": "persistent",
+  "questionCount": 10
 };

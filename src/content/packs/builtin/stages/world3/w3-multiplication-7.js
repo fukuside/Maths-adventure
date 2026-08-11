@@ -4,17 +4,16 @@ export default {
   "world": 3,
   "unit": "multiplication",
   "unitLabel": "掛け算",
-  "name": "レベル7",
+  "name": "フラッシュ九九",
   "isBoss": false,
-  "type": "multiply",
-  "cardId": "035-rainbow-dragon",
+  "type": "multiply_flash",
+  "cardId": "029-waterpon",
   "rewardGems": 5,
   "dropRates": {
     "N": 0.7,
     "SR": 0.25,
     "UR": 0.05
   },
-  "baseNum": 7,
-  "min": 1,
-  "max": 9
+  "presentation": "flash",
+  "questionCount": 10
 };

@@ -420,14 +420,13 @@ if (isCorrect) {
       render();
       return;
     }
-    if (a === "set-speed") { state.speedSetting = t.dataset.speed; await persistState(state); render(); return; }
     if (a === "transfer-create") { try { msg = await createTransferCode(state); err = ""; } catch (x) { err = x.message; } render(); return; }
     if (a === "transfer-use") { const code = root.querySelector("[data-transfer-input]")?.value ?? ""; try { state = await replaceState(await consumeTransferCode(code)); msg = "引き継ぎ完了"; err = ""; screen = "title"; } catch (x) { err = x.message; } render(); }
   }
 
   function usesFlash(stage) {
-    return (stage?.presentation ?? "flash") === "flash";
-  }
+  return stage?.presentation === "flash";
+}
 
   function startQuestion() {
     clearFlash();
@@ -467,8 +466,8 @@ if (isCorrect) {
   }
 
   function flashDuration() {
-    return state.speedSetting === "slow" ? 2500 : state.speedSetting === "fast" ? 700 : 1500;
-  }
+  return 1500;
+}
 
   function playCorrectSound() {
     try {
@@ -1373,37 +1372,6 @@ function legacyMigrate() {
       <!-- 設定・図鑑 -->
       <div class="panel stack">
 
-        <strong>
-          フラッシュ表示時間
-        </strong>
-
-        <div class="speed-grid">
-
-          ${
-            ["slow", "normal", "fast"].map(s => `
-              <button
-                class="button small ${
-                  state.speedSetting === s
-                    ? "cyan"
-                    : "secondary"
-                }"
-                data-action="set-speed"
-                data-speed="${s}"
-              >
-                ${
-                  s === "slow"
-                    ? "ゆっくり"
-                    : s === "fast"
-                      ? "一瞬"
-                      : "ふつう"
-                }
-              </button>
-            `).join("")
-          }
-
-        </div>
-
-
         <button
           class="button partner-button"
           data-action="go"
@@ -1675,38 +1643,9 @@ function stopTitleBgm() {
                 ${
                   unitStages.map(
                     stage => {
-
-                      let displayName;
-
-
-                      /*
-                        九九だけは
-                        1の段、2の段……
-                        の表示を維持
-                      */
-                      if (
-                        stage.unit ===
-                        "multiplication"
-                      ) {
-
-                        displayName =
-                          `${stage.sort}の段`;
-
-                      }
-
-                      /*
-                        それ以外は
-                        stage側のnameを
-                        そのまま表示
-                      */
-                      else {
-
-                        displayName =
-                          stage.name;
-
-                      }
-
-
+                      const displayName =
+                      stage.name;
+                      
                       return `
                         <button
                           class="

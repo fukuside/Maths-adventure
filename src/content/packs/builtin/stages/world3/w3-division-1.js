@@ -3,10 +3,10 @@ export default {
   "sort": 1,
   "world": 3,
   "unit": "division",
-  "unitLabel": "割り算",
-  "name": "レベル1",
+  "unitLabel": "わり算",
+  "name": "わり算ってなに？",
   "isBoss": false,
-  "type": "divide",
+  "type": "division_meaning",
   "cardId": "042-half-penguin",
   "rewardGems": 5,
   "dropRates": {
@@ -14,7 +14,6 @@ export default {
     "SR": 0.25,
     "UR": 0.05
   },
-  "baseNum": 2,
-  "min": 1,
-  "max": 9
+  "presentation": "persistent",
+  "questionCount": 10
 };

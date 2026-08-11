@@ -1,18 +1,13 @@
 export default {
   "id": "w1-addition-boss",
-  "sort": 99,
+  "sort": 6,
   "world": 1,
   "unit": "addition",
   "unitLabel": "足し算",
-  "name": "ボス戦",
+  "name": "足し算の王",
   "isBoss": true,
-  "type": "addition",
-  "cardId": "007-plus-emperor",
+  "type": "addition_boss",
   "rewardGems": 10,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 100
+  "presentation": "persistent",
+  "questionCount": 10
 };

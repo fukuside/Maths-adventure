@@ -4,9 +4,9 @@ export default {
   "world": 3,
   "unit": "multiplication",
   "unitLabel": "掛け算",
-  "name": "レベル1",
+  "name": "かけ算ってなに？",
   "isBoss": false,
-  "type": "multiply",
+  "type": "multiply_meaning",
   "cardId": "029-waterpon",
   "rewardGems": 5,
   "dropRates": {
@@ -14,7 +14,6 @@ export default {
     "SR": 0.25,
     "UR": 0.05
   },
-  "baseNum": 1,
-  "min": 1,
-  "max": 9
+  "presentation": "persistent",
+  "questionCount": 10
 };

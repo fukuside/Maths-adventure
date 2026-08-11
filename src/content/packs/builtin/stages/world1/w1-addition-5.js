@@ -4,15 +4,10 @@ export default {
   "world": 1,
   "unit": "addition",
   "unitLabel": "足し算",
-  "name": "レベル5",
+  "name": "足し算の文章題",
   "isBoss": false,
-  "type": "addition",
-  "cardId": "005-carry-fox",
+  "type": "addition_word",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 50
+  "presentation": "persistent",
+  "questionCount": 10
 };

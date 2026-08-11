@@ -4,17 +4,18 @@ export default {
   "world": 3,
   "unit": "multiplication",
   "unitLabel": "掛け算",
-  "name": "レベル4",
+  "name": "九九をマスター②",
   "isBoss": false,
-  "type": "multiply",
-  "cardId": "032-clover-turtle",
+  "type": "multiply_master",
+  "cardId": "029-waterpon",
   "rewardGems": 5,
   "dropRates": {
     "N": 0.7,
     "SR": 0.25,
     "UR": 0.05
   },
-  "baseNum": 4,
-  "min": 1,
-  "max": 9
+  "presentation": "persistent",
+  "questionCount": 10,
+  "minTable": 4,
+  "maxTable": 6
 };

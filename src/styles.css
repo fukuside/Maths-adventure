@@ -6270,3 +6270,3010 @@ and (min-width: 761px) {
 
   white-space: pre-line;
 }
+
+/* =========================================================
+   WORLD3 掛け算 レイアウト確定版
+========================================================= */
+
+/*
+  重要：
+  問題カードの高さを増やさない。
+  既存ゲーム画面の上段サイズの中に収める。
+*/
+
+.question-card:has(.multiply-layout),
+.question-card:has(.multiply-master-text),
+.question-card:has(.multiply-word-text),
+.question-card:has(.multiply-flash-text) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  box-sizing: border-box;
+
+  padding: 38px 18px 12px;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   問題表示領域
+========================================================= */
+
+.question-card:has(.multiply-layout) .question,
+.question-card:has(.multiply-master-text) .question,
+.question-card:has(.multiply-word-text) .question,
+.question-card:has(.multiply-flash-text) .question {
+  width: 100%;
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+/* =========================================================
+   掛け算カード内部
+   タイトル / 問題 / ガイド の3段構成
+========================================================= */
+
+.question-card:has(.multiply-layout) > div,
+.question-card:has(.multiply-master-text) > div,
+.question-card:has(.multiply-word-text) > div,
+.question-card:has(.multiply-flash-text) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    auto;
+
+  align-items: center;
+
+  gap: 4px;
+}
+
+/* =========================================================
+   視覚問題
+   左58%：イラスト
+   右42%：説明
+========================================================= */
+
+.multiply-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 58%)
+    minmax(0, 42%);
+
+  align-items: center;
+
+  gap: 18px;
+
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   左側：まとまり
+========================================================= */
+
+.multiply-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.multiply-groups {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+/* まとまり1個 */
+.multiply-group {
+  flex:
+    0 1
+    calc(33.333% - 7px);
+
+  min-width: 82px;
+  max-width: 145px;
+
+  height: 82px;
+  min-height: 82px;
+  max-height: 82px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  grid-auto-rows:
+    minmax(0, 1fr);
+
+  align-items: center;
+  justify-items: center;
+
+  gap: 1px;
+
+  margin: 0;
+  padding: 5px;
+
+  box-sizing: border-box;
+
+  border:
+    3px solid
+    rgba(125, 211, 252, .9);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255,255,255,.08);
+
+  overflow: hidden;
+}
+
+
+/* 🍎など */
+
+.multiply-item {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  font-size:
+    clamp(24px, 2.5vw, 35px);
+
+  line-height: 1;
+
+  text-align: center;
+
+  overflow: visible;
+}
+
+/* =========================================================
+   右側
+========================================================= */
+
+.multiply-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  margin: 0;
+  padding: 0 6px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  transform: translateY(-4px);
+}
+
+
+.multiply-prompt {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(19px, 1.8vw, 26px);
+
+  font-weight: 900;
+
+  line-height: 1.3;
+
+  text-align: center;
+
+  white-space: normal;
+}
+
+
+.multiply-question-text {
+  width: 100%;
+
+  margin: 0;
+
+  padding:
+    9px
+    0
+    0;
+
+  border-top:
+    2px solid
+    rgba(255,255,255,.2);
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(22px, 2.1vw, 29px);
+
+  font-weight: 1000;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   九九のきほん
+========================================================= */
+
+.multiply-equation {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(40px, 4vw, 58px);
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+.multiply-equation-guide {
+  width: 100%;
+
+  margin: 7px 0 0;
+
+  padding: 0;
+
+  color: #fde68a;
+
+  font-size: 14px;
+
+  font-weight: 900;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   九九をマスター
+========================================================= */
+
+.multiply-master-text {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(54px, 5.5vw, 76px);
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   文章題
+========================================================= */
+
+.multiply-word-text {
+  width: min(820px, 94%);
+
+  margin: 0 auto;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(23px, 2.2vw, 31px);
+
+  font-weight: 900;
+
+  line-height: 1.45;
+
+  white-space: pre-line;
+
+  text-align: center;
+
+  overflow-wrap: normal;
+  word-break: normal;
+
+  transform: translateY(-8px);
+}
+
+
+/* =========================================================
+   フラッシュ九九
+========================================================= */
+
+.multiply-flash-text {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(58px, 6vw, 82px);
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.multiply-layout),
+  .question-card:has(.multiply-master-text),
+  .question-card:has(.multiply-word-text),
+  .question-card:has(.multiply-flash-text) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      34px
+      8px
+      9px;
+  }
+
+
+  .multiply-layout {
+    grid-template-columns:
+      minmax(0, 56%)
+      minmax(0, 44%);
+
+    gap: 7px;
+  }
+
+
+  .multiply-groups {
+    gap: 4px;
+  }
+
+
+  .multiply-group {
+    flex:
+      0 1
+      calc(50% - 4px);
+
+    min-width: 60px;
+    max-width: 110px;
+
+    height: 60px;
+    min-height: 60px;
+    max-height: 60px;
+
+    padding: 3px;
+
+    border-width: 2px;
+
+    border-radius: 10px;
+  }
+
+
+  .multiply-item {
+    font-size:
+      clamp(20px, 5vw, 28px);
+  }
+
+
+  .multiply-text-side {
+    gap: 6px;
+
+    padding: 0 2px;
+  }
+
+
+  .multiply-prompt {
+    font-size:
+      clamp(14px, 3.5vw, 19px);
+  }
+
+
+  .multiply-question-text {
+    padding-top: 6px;
+
+    font-size:
+      clamp(16px, 4vw, 21px);
+  }
+
+
+  .multiply-equation {
+    font-size:
+      clamp(32px, 8vw, 46px);
+  }
+
+
+  .multiply-word-text {
+    width: 96%;
+
+    font-size:
+      clamp(17px, 4vw, 23px);
+
+    line-height: 1.4;
+  }
+
+
+  .multiply-master-text,
+  .multiply-flash-text {
+    font-size:
+      clamp(44px, 11vw, 64px);
+  }
+}
+
+/* =========================================================
+   小さい画面
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.multiply-layout),
+  .question-card:has(.multiply-master-text),
+  .question-card:has(.multiply-word-text),
+  .question-card:has(.multiply-flash-text) {
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+
+    padding:
+      38px 10px 12px;
+  }
+
+
+  .multiply-layout {
+    grid-template-columns:
+      minmax(0, 55%)
+      minmax(0, 45%);
+
+    gap: 8px;
+  }
+
+
+  .multiply-group {
+    min-width: 65px;
+    min-height: 60px;
+
+    padding: 5px;
+
+    border-width: 2px;
+  }
+
+
+  .multiply-item {
+    font-size:
+      clamp(22px, 5vw, 32px);
+  }
+
+
+  .multiply-prompt {
+    font-size:
+      clamp(15px, 3.5vw, 20px);
+  }
+
+
+  .multiply-question-text {
+    font-size:
+      clamp(17px, 4vw, 23px);
+  }
+
+
+  .multiply-equation {
+    font-size:
+      clamp(34px, 9vw, 50px);
+  }
+
+
+  .multiply-word-text {
+    width: 96%;
+
+    font-size:
+      clamp(18px, 4vw, 25px);
+
+    line-height: 1.45;
+  }
+
+
+  .multiply-master-text,
+  .multiply-flash-text {
+    font-size:
+      clamp(48px, 12vw, 70px);
+  }
+}
+
+/* =========================================================
+   FLASH QUESTION 安定表示
+========================================================= */
+
+.question-card.flash-card {
+  overflow: hidden;
+}
+
+.question-card.flash-card > div {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+}
+
+.question-card.flash-card .question {
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  color: #fffdf2;
+  font-size: clamp(3rem, 7vw, 5rem);
+  line-height: 1;
+  text-align: center;
+  overflow: visible;
+}
+
+.question-card.flash-card .text-question {
+  display: block;
+  width: 100%;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  text-align: center;
+  visibility: visible;
+  opacity: 1;
+}
+
+.question-card.flash-card.hidden-question .question {
+  color: #fffdf2;
+}
+
+/* =========================================================
+   WORLD1 足し算
+========================================================= */
+
+
+/* =========================================================
+   視覚問題カード
+========================================================= */
+
+.question-card:has(.addition-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    38px
+    18px
+    12px;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.addition-layout)
+.question {
+  width: 100%;
+  height: auto;
+
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* カード内部を
+   タイトル / 問題 / ガイド
+   の3段に固定 */
+
+.question-card:has(.addition-layout)
+> div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    auto;
+
+  gap: 4px;
+
+  align-items: center;
+}
+
+
+/* =========================================================
+   左：図
+   右：文章
+========================================================= */
+
+.addition-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 58%)
+    minmax(0, 42%);
+
+  gap: 18px;
+
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+/* =========================================================
+   左側
+========================================================= */
+
+.addition-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto
+    minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 9px;
+
+  overflow: hidden;
+}
+
+
+/* 1つの集合 */
+
+.addition-set {
+  width: 100%;
+  min-height: 88px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  grid-auto-rows:
+    minmax(0, 1fr);
+
+  align-items: center;
+  justify-items: center;
+
+  gap: 2px;
+
+  padding: 7px;
+
+  border:
+    3px solid
+    rgba(125, 211, 252, .9);
+
+  border-radius: 15px;
+
+  background:
+    rgba(255,255,255,.08);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* 絵 */
+
+.addition-item {
+  display: inline-flex;
+
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size:
+    clamp(
+      25px,
+      2.5vw,
+      36px
+    );
+
+  line-height: 1;
+
+  text-shadow: none;
+}
+
+
+/* ＋ */
+
+.addition-symbol,
+.addition-arrow {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      34px,
+      3vw,
+      46px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-shadow:
+    0 2px 0 #172033;
+}
+
+
+/* 増える側を少し目立たせる */
+
+.addition-added-set {
+  border-color: #fbbf24;
+
+  background:
+    rgba(
+      251,
+      191,
+      36,
+      .08
+    );
+}
+
+
+/* =========================================================
+   右側
+========================================================= */
+
+.addition-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 0 6px;
+
+  transform:
+    translateY(-3px);
+
+  overflow: hidden;
+}
+
+
+.addition-prompt,
+.addition-second-prompt {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      25px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.3;
+
+  text-align: center;
+}
+
+
+.addition-second-prompt {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      17px,
+      1.7vw,
+      23px
+    );
+}
+
+
+.addition-question-text {
+  width: 100%;
+
+  margin: 0;
+
+  padding-top: 8px;
+
+  border-top:
+    2px solid
+    rgba(255,255,255,.2);
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      21px,
+      2.1vw,
+      29px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+/* =========================================================
+   足し算の文章題
+========================================================= */
+
+.question-card:has(.addition-word-text) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    10px
+    18px
+    12px;
+
+  overflow: hidden;
+}
+
+
+/*
+  タイトル
+  ↓
+  文章題
+  ↓
+  ガイド
+*/
+.question-card:has(.addition-word-text) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    22px;
+
+  gap: 0;
+
+  align-items: center;
+}
+
+
+/* 問題文エリア */
+
+.question-card:has(.addition-word-text) .question {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* 実際の文章 */
+
+.addition-word-text {
+  width: min(820px, 94%);
+
+  margin: 0 auto;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.35;
+
+  white-space: pre-line;
+
+  text-align: center;
+
+  transform:
+    translateY(-8px);
+}
+
+
+/* 上のステージ名 */
+
+.question-card:has(.addition-word-text)
+.muted {
+  margin: 0;
+
+  align-self: start;
+}
+
+
+/* 下のガイド */
+
+.question-card:has(.addition-word-text)
+.flash-guide {
+  margin: 0;
+
+  align-self: end;
+}
+
+
+/* =========================================================
+   フラッシュ足し算
+========================================================= */
+
+.addition-flash-text {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      58px,
+      6vw,
+      82px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.addition-layout),
+  .question-card:has(.addition-word-text) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      34px
+      8px
+      9px;
+  }
+
+
+  .addition-layout {
+    grid-template-columns:
+      minmax(0, 56%)
+      minmax(0, 44%);
+
+    gap: 7px;
+  }
+
+
+  .addition-visual-side {
+    gap: 4px;
+  }
+
+
+  .addition-set {
+    min-height: 66px;
+
+    gap: 1px;
+
+    padding: 4px;
+
+    border-width: 2px;
+
+    border-radius: 10px;
+  }
+
+
+  .addition-item {
+    font-size:
+      clamp(
+        19px,
+        5vw,
+        28px
+      );
+  }
+
+
+  .addition-symbol,
+  .addition-arrow {
+    font-size:
+      clamp(
+        25px,
+        6vw,
+        34px
+      );
+  }
+
+
+  .addition-text-side {
+    gap: 5px;
+
+    padding: 0 2px;
+  }
+
+
+  .addition-prompt,
+  .addition-second-prompt {
+    font-size:
+      clamp(
+        14px,
+        3.5vw,
+        19px
+      );
+  }
+
+
+  .addition-question-text {
+    padding-top: 5px;
+
+    font-size:
+      clamp(
+        16px,
+        4vw,
+        21px
+      );
+  }
+
+
+  .addition-word-text {
+    width: 96%;
+
+    font-size:
+      clamp(
+        17px,
+        4vw,
+        23px
+      );
+
+    line-height: 1.4;
+  }
+
+
+  .addition-flash-text {
+    font-size:
+      clamp(
+        44px,
+        11vw,
+        64px
+      );
+  }
+}
+/* =========================================================
+   WORLD1 引き算
+   文章題レイアウト
+========================================================= */
+
+.question-card:has(.subtraction-word-text) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    38px
+    18px
+    12px;
+
+  overflow: hidden;
+}
+
+
+/* 問題表示エリア */
+
+.question-card:has(.subtraction-word-text) .question {
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-top: 14px;
+
+  overflow: hidden;
+}
+
+
+/* 文章本体 */
+.subtraction-word-text {
+  width: min(760px, 96%);
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      19px,
+      1.9vw,
+      27px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.3;
+
+  white-space: pre-line;
+
+  text-align: left;
+
+  transform: translateY(-8px);
+}
+
+
+/* タイトル・問題・ガイドの3段 */
+
+.question-card:has(.subtraction-word-text) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    auto;
+
+  align-items: center;
+
+  gap: 2px;
+}
+
+/* =========================================================
+   フラッシュ引き算
+========================================================= */
+
+.subtraction-flash-text {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      58px,
+      6vw,
+      82px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.subtraction-word-text) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      34px
+      8px
+      9px;
+  }
+
+
+  .subtraction-word-text {
+    width: 96%;
+
+    font-size:
+      clamp(
+        17px,
+        4vw,
+        23px
+      );
+
+    line-height: 1.4;
+  }
+
+
+  .subtraction-flash-text {
+    font-size:
+      clamp(
+        44px,
+        11vw,
+        64px
+      );
+  }
+}
+
+/* =========================================================
+   WORLD1 引き算
+========================================================= */
+
+
+/* =========================================================
+   S1 引き算ってなに？
+========================================================= */
+
+.question-card:has(.subtraction-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    38px
+    18px
+    12px;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.subtraction-layout) .question {
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.subtraction-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    auto;
+
+  gap: 4px;
+
+  align-items: center;
+}
+
+
+/* 左：イラスト / 右：文章 */
+
+.subtraction-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 58%)
+    minmax(0, 42%);
+
+  gap: 18px;
+
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+/* 左側 */
+
+.subtraction-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.subtraction-items {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(5, minmax(0, 1fr));
+
+  gap: 6px;
+
+  align-items: center;
+  justify-items: center;
+
+  padding: 8px;
+
+  border:
+    3px solid
+    rgba(125, 211, 252, .9);
+
+  border-radius: 16px;
+
+  background:
+    rgba(255,255,255,.08);
+
+  box-sizing: border-box;
+}
+
+
+.subtraction-item {
+  position: relative;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size:
+    clamp(
+      28px,
+      3vw,
+      42px
+    );
+
+  line-height: 1;
+}
+
+
+/* 取り去るもの */
+
+.subtraction-item.is-removed {
+  opacity: .35;
+}
+
+
+.subtraction-item.is-removed::after {
+  content: "";
+
+  position: absolute;
+
+  width: 115%;
+  height: 4px;
+
+  left: -7%;
+  top: 50%;
+
+  background: #ef4444;
+
+  border-radius: 999px;
+
+  transform:
+    rotate(-35deg);
+
+  transform-origin: center;
+}
+
+
+/* 右側 */
+
+.subtraction-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 0 6px;
+
+  transform:
+    translateY(-3px);
+
+  overflow: hidden;
+}
+
+
+.subtraction-prompt,
+.subtraction-second-prompt {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      25px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.3;
+
+  text-align: center;
+}
+
+
+.subtraction-second-prompt {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      17px,
+      1.7vw,
+      23px
+    );
+}
+
+
+.subtraction-question-text {
+  width: 100%;
+
+  margin: 0;
+
+  padding-top: 8px;
+
+  border-top:
+    2px solid
+    rgba(255,255,255,.2);
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      21px,
+      2.1vw,
+      29px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   比較問題
+========================================================= */
+
+.subtraction-compare-visual {
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+
+.subtraction-compare-row {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  min-height: 54px;
+
+  padding: 6px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 12px;
+
+  box-sizing: border-box;
+}
+
+
+.subtraction-compare-item {
+  font-size:
+    clamp(
+      26px,
+      2.7vw,
+      38px
+    );
+
+  line-height: 1;
+}
+
+/* =========================================================
+   引き算の文章題
+   左：イラスト / 右：文章
+========================================================= */
+
+.question-card:has(.subtraction-word-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  box-sizing: border-box;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  overflow: hidden;
+}
+
+
+/* -----------------------------------------
+   カード内部
+   タイトル / 本文 / ガイド
+----------------------------------------- */
+
+.question-card:has(.subtraction-word-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+
+  align-items: center;
+
+  box-sizing: border-box;
+}
+
+
+/* -----------------------------------------
+   問題本文エリア
+----------------------------------------- */
+
+.question-card:has(.subtraction-word-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+/* -----------------------------------------
+   左30％ / 右70％
+----------------------------------------- */
+
+.subtraction-word-layout {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 30%)
+    minmax(0, 70%);
+
+  gap: 18px;
+
+  align-items: center;
+
+  margin: 0;
+  padding: 0 10px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* -----------------------------------------
+   左：イラスト
+----------------------------------------- */
+
+.subtraction-word-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.subtraction-word-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  font-size:
+    clamp(
+      62px,
+      7vw,
+      98px
+    );
+
+  line-height: 1;
+}
+
+
+/* -----------------------------------------
+   右：文章
+----------------------------------------- */
+
+.subtraction-word-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.subtraction-word-text {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      25px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.28;
+
+  white-space: pre-line;
+
+  text-align: left;
+
+  overflow: visible;
+
+  transform: none;
+}
+
+
+/* -----------------------------------------
+   タイトル
+----------------------------------------- */
+
+.question-card:has(.subtraction-word-layout)
+.muted {
+  margin: 0;
+  padding: 0;
+
+  align-self: center;
+
+  line-height: 1.1;
+}
+
+
+/* -----------------------------------------
+   下部ガイド
+----------------------------------------- */
+
+.question-card:has(.subtraction-word-layout)
+.flash-guide {
+  margin: 0;
+  padding: 0;
+
+  align-self: center;
+
+  line-height: 1.1;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.subtraction-word-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.subtraction-word-layout) > div {
+    grid-template-rows:
+      24px
+      minmax(0, 1fr)
+      18px;
+
+    gap: 1px;
+  }
+
+
+  .subtraction-word-layout {
+    grid-template-columns:
+      minmax(0, 25%)
+      minmax(0, 75%);
+
+    gap: 7px;
+
+    padding: 0 3px;
+  }
+
+
+  .subtraction-word-icon {
+    font-size:
+      clamp(
+        46px,
+        11vw,
+        68px
+      );
+  }
+
+
+  .subtraction-word-text {
+    font-size:
+      clamp(
+        15px,
+        3.7vw,
+        21px
+      );
+
+    line-height: 1.25;
+  }
+}
+
+/* =========================================================
+   WORLD3 わり算
+========================================================= */
+
+
+/* =========================================================
+   S1 わり算ってなに？
+========================================================= */
+
+.question-card:has(.division-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    38px
+    18px
+    12px;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.division-layout) .question {
+  width: 100%;
+  height: auto;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.division-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr)
+    auto;
+
+  gap: 4px;
+
+  align-items: center;
+}
+
+
+/* 左：視覚 / 右：文章 */
+
+.division-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 58%)
+    minmax(0, 42%);
+
+  gap: 18px;
+
+  align-items: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* =========================================================
+   割り算 S1
+   イラスト数が多い場合の見切れ対策
+========================================================= */
+
+.division-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 2px;
+
+  padding: 0;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  transform: translateY(-5px);
+}
+
+/* 最初のまとまり */
+
+.division-items-box {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(6, minmax(0, 1fr));
+
+  align-items: center;
+  justify-items: center;
+
+  gap: 1px;
+
+  padding: 4px 6px;
+
+  box-sizing: border-box;
+
+  border:
+    3px solid
+    rgba(125, 211, 252, .9);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255,255,255,.08);
+
+  overflow: hidden;
+}
+
+.division-item {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size:
+    clamp(
+      22px,
+      2.2vw,
+      32px
+    );
+
+  line-height: 1;
+}
+
+
+/* 下向き矢印 */
+.division-arrow {
+  color: #fde68a;
+
+  font-size: 22px;
+
+  font-weight: 1000;
+
+  line-height: .9;
+
+  margin: -1px 0;
+}
+
+.division-people-row {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  margin-top: -3px;
+}
+
+.division-person {
+  min-width: 56px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 0;
+
+  padding: 3px 4px;
+
+  border:
+    2px solid
+    rgba(251,191,36,.7);
+
+  border-radius: 10px;
+
+  background:
+    rgba(251,191,36,.07);
+}
+
+
+.division-person-icon {
+  font-size: 23px;
+
+  line-height: 1;
+}
+
+
+.division-person small {
+  font-size: 10px;
+
+  line-height: 1;
+
+  color: #fde68a;
+}
+
+/* =========================================================
+   まとまり分け
+========================================================= */
+
+.division-group-grid {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 7px;
+
+  align-content: center;
+}
+
+
+.division-group-box {
+  min-height: 68px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  align-items: center;
+  justify-items: center;
+
+  gap: 2px;
+
+  padding: 5px;
+
+  box-sizing: border-box;
+
+  border:
+    3px solid
+    rgba(125,211,252,.9);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255,255,255,.08);
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   右側
+========================================================= */
+
+.division-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  padding: 0 5px;
+
+  transform:
+    translateY(-3px);
+
+  overflow: hidden;
+}
+
+
+.division-prompt,
+.division-second-prompt {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      17px,
+      1.7vw,
+      24px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.3;
+
+  text-align: center;
+}
+
+
+.division-second-prompt {
+  color: #fde68a;
+}
+
+
+.division-question-text {
+  width: 100%;
+
+  margin: 0;
+
+  padding-top: 7px;
+
+  border-top:
+    2px solid
+    rgba(255,255,255,.2);
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+/* =========================================================
+   S3 九九をつかってわり算
+========================================================= */
+
+.question-card:has(.division-fact-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  box-sizing: border-box;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.division-fact-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+
+  align-items: center;
+
+  box-sizing: border-box;
+}
+
+
+.question-card:has(.division-fact-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+
+.division-fact-layout {
+  width: min(760px, 96%);
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto
+    minmax(0, 1fr);
+
+  align-items: center;
+
+  gap: 16px;
+
+  margin: 0 auto;
+
+  transform: translateY(-3px);
+}
+
+
+.division-fact-step {
+  min-height: 96px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  padding: 8px 10px;
+
+  border:
+    3px solid
+    rgba(125,211,252,.85);
+
+  border-radius: 16px;
+
+  background:
+    rgba(255,255,255,.07);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.division-fact-step small {
+  color: #fde68a;
+
+  font-size: 14px;
+
+  font-weight: 900;
+
+  line-height: 1.1;
+}
+
+
+.division-fact-step strong {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      28px,
+      3vw,
+      42px
+    );
+
+  line-height: 1;
+
+  font-weight: 1000;
+
+  white-space: nowrap;
+}
+
+
+.division-fact-arrow {
+  color: #fde68a;
+
+  font-size: 30px;
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.division-fact-answer {
+  border-color: #fbbf24;
+
+  background:
+    rgba(251,191,36,.06);
+}
+
+
+/* =========================================================
+   S5 文章題
+========================================================= */
+
+.question-card:has(.division-word-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  box-sizing: border-box;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.division-word-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+
+  align-items: center;
+
+  box-sizing: border-box;
+}
+
+
+.question-card:has(.division-word-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.division-word-layout {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 28%)
+    minmax(0, 72%);
+
+  gap: 16px;
+
+  align-items: center;
+
+  margin: 0;
+  padding: 0 10px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* 左：イラスト */
+
+.division-word-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.division-word-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  font-size:
+    clamp(
+      58px,
+      6.5vw,
+      92px
+    );
+
+  line-height: 1;
+}
+
+
+/* 右：文章 */
+
+.division-word-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.division-word-text {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.75vw,
+      24px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.28;
+
+  white-space: pre-line;
+
+  text-align: left;
+
+  overflow: visible;
+
+  transform: none;
+}
+
+
+/* =========================================================
+   フラッシュわり算
+========================================================= */
+
+.question-card:has(.division-flash-text) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  box-sizing: border-box;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.division-flash-text) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+
+  align-items: center;
+}
+
+
+.question-card:has(.division-flash-text) .question {
+  width: 100%;
+  height: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.division-flash-text {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      54px,
+      5.6vw,
+      76px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  /* -------------------------
+     S1
+  ------------------------- */
+
+  .question-card:has(.division-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.division-layout) > div {
+    grid-template-rows:
+      24px
+      minmax(0, 1fr)
+      18px;
+
+    gap: 1px;
+  }
+
+
+  .division-layout {
+    grid-template-columns:
+      minmax(0, 56%)
+      minmax(0, 44%);
+
+    gap: 7px;
+
+    transform: translateY(-3px);
+  }
+
+
+  .division-items-box {
+    grid-template-columns:
+      repeat(4, minmax(0, 1fr));
+
+    gap: 2px;
+
+    padding: 4px;
+
+    border-width: 2px;
+  }
+
+
+  .division-item {
+    font-size:
+      clamp(
+        18px,
+        4.8vw,
+        27px
+      );
+  }
+
+
+  .division-person {
+    min-width: 42px;
+
+    padding: 3px;
+  }
+
+
+  .division-person-icon {
+    font-size: 21px;
+  }
+
+
+  .division-person small {
+    font-size: 9px;
+  }
+
+
+  .division-group-grid {
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 4px;
+  }
+
+
+  .division-group-box {
+    min-height: 55px;
+
+    padding: 3px;
+
+    border-width: 2px;
+  }
+
+
+  .division-text-side {
+    gap: 5px;
+
+    padding: 0 2px;
+
+    transform: translateY(-3px);
+  }
+
+
+  .division-prompt,
+  .division-second-prompt {
+    font-size:
+      clamp(
+        13px,
+        3.3vw,
+        18px
+      );
+  }
+
+
+  .division-question-text {
+    padding-top: 5px;
+
+    font-size:
+      clamp(
+        15px,
+        3.8vw,
+        21px
+      );
+  }
+
+
+  /* -------------------------
+     S3
+  ------------------------- */
+
+  .question-card:has(.division-fact-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.division-fact-layout) > div {
+    grid-template-rows:
+      24px
+      minmax(0, 1fr)
+      18px;
+
+    gap: 1px;
+  }
+
+
+  .division-fact-layout {
+    width: 98%;
+
+    gap: 6px;
+
+    transform: translateY(-2px);
+  }
+
+
+  .division-fact-step {
+    min-height: 78px;
+
+    gap: 4px;
+
+    padding: 5px;
+
+    border-width: 2px;
+
+    border-radius: 11px;
+  }
+
+
+  .division-fact-step small {
+    font-size: 10px;
+  }
+
+
+  .division-fact-step strong {
+    font-size:
+      clamp(
+        21px,
+        5.6vw,
+        31px
+      );
+  }
+
+
+  .division-fact-arrow {
+    font-size: 22px;
+  }
+
+
+  /* -------------------------
+     S5
+  ------------------------- */
+
+  .question-card:has(.division-word-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.division-word-layout) > div {
+    grid-template-rows:
+      24px
+      minmax(0, 1fr)
+      18px;
+
+    gap: 1px;
+  }
+
+
+  .division-word-layout {
+    grid-template-columns:
+      minmax(0, 24%)
+      minmax(0, 76%);
+
+    gap: 7px;
+
+    padding: 0 3px;
+  }
+
+
+  .division-word-icon {
+    font-size:
+      clamp(
+        44px,
+        10vw,
+        64px
+      );
+  }
+
+
+  .division-word-text {
+    font-size:
+      clamp(
+        15px,
+        3.6vw,
+        20px
+      );
+
+    line-height: 1.24;
+  }
+
+
+  /* -------------------------
+     フラッシュ
+  ------------------------- */
+
+  .question-card:has(.division-flash-text) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .division-flash-text {
+    font-size:
+      clamp(
+        42px,
+        10vw,
+        60px
+      );
+  }
+}
+/* =========================================================
+   WORLD2 ちょうど払おう
+   お金イラストを大きくする
+========================================================= */
+
+/* 問題上部：つかえるお金 */
+.money-exact-pay-layout img,
+.money-exact-pay-available img {
+  width: 72px !important;
+  height: 72px !important;
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+}
+
+
+/* 選択肢の中のお金 */
+.money-exact-pay-choice img,
+.money-exact-pay-option img {
+  width: 68px !important;
+  height: 68px !important;
+
+  object-fit: contain;
+
+  flex-shrink: 0;
+}

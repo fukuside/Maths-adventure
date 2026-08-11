@@ -3,18 +3,21 @@ export default {
   "sort": 2,
   "world": 3,
   "unit": "division",
-  "unitLabel": "割り算",
-  "name": "レベル2",
+  "unitLabel": "わり算",
+  "name": "わり算のきほん",
   "isBoss": false,
-  "type": "divide",
+  "type": "division_basic",
+
   "cardId": "043-divide-bird",
+
   "rewardGems": 5,
+
   "dropRates": {
     "N": 0.7,
     "SR": 0.25,
     "UR": 0.05
   },
-  "baseNum": 3,
-  "min": 1,
-  "max": 9
+
+  "presentation": "persistent",
+  "questionCount": 10
 };

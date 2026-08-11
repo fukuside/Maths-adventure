@@ -3,10 +3,10 @@ export default {
   "sort": 6,
   "world": 3,
   "unit": "division",
-  "unitLabel": "割り算",
-  "name": "レベル6",
+  "unitLabel": "わり算",
+  "name": "フラッシュわり算",
   "isBoss": false,
-  "type": "divide",
+  "type": "division_flash",
   "cardId": "047-quotient-wolf",
   "rewardGems": 5,
   "dropRates": {
@@ -14,7 +14,6 @@ export default {
     "SR": 0.25,
     "UR": 0.05
   },
-  "baseNum": 8,
-  "min": 1,
-  "max": 9
+  "presentation": "flash",
+  "questionCount": 10
 };

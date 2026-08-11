@@ -4,15 +4,10 @@ export default {
   "world": 1,
   "unit": "subtraction",
   "unitLabel": "引き算",
-  "name": "レベル4",
+  "name": "フラッシュ引き算",
   "isBoss": false,
-  "type": "subtraction",
-  "cardId": "011-diff-bird",
+  "type": "subtraction_flash",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 30
+  "presentation": "flash",
+  "questionCount": 10
 };

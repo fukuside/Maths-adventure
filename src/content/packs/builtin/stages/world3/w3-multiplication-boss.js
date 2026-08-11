@@ -1,17 +1,19 @@
 export default {
   "id": "w3-multiplication-boss",
-  "sort": 99,
+  "sort": 8,
   "world": 3,
   "unit": "multiplication",
   "unitLabel": "掛け算",
-  "name": "ボス戦",
+  "name": "九九の王",
   "isBoss": true,
-  "type": "multiply_mixed",
-  "cardId": "041-kuku-king-gold",
+  "type": "multiply_boss",
+  "cardId": "029-waterpon",
   "rewardGems": 10,
   "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  }
+    "N": 0.6,
+    "SR": 0.3,
+    "UR": 0.1
+  },
+  "presentation": "persistent",
+  "questionCount": 10
 };

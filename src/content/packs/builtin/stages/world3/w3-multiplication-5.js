@@ -4,17 +4,18 @@ export default {
   "world": 3,
   "unit": "multiplication",
   "unitLabel": "掛け算",
-  "name": "レベル5",
+  "name": "九九をマスター③",
   "isBoss": false,
-  "type": "multiply",
-  "cardId": "033-star-wolf",
+  "type": "multiply_master",
+  "cardId": "029-waterpon",
   "rewardGems": 5,
   "dropRates": {
     "N": 0.7,
     "SR": 0.25,
     "UR": 0.05
   },
-  "baseNum": 5,
-  "min": 1,
-  "max": 9
+  "presentation": "persistent",
+  "questionCount": 10,
+  "minTable": 7,
+  "maxTable": 9
 };
