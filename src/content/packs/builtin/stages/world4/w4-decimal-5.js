@@ -4,16 +4,11 @@ export default {
   "world": 4,
   "unit": "decimal",
   "unitLabel": "小数",
-  "name": "レベル5",
+  "name": "小数の位",
   "isBoss": false,
-  "type": "decimal_add",
-  "cardId": "053-zero-tenths-bear",
+  "type": "decimal_place_value",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 20,
-  "decimalPlaces": 1
+  "presentation": "persistent",
+  "questionCount": 10,
+  "keypad": "choice"
 };

@@ -1643,9 +1643,10 @@ function stopTitleBgm() {
                 ${
                   unitStages.map(
                     stage => {
+                      
                       const displayName =
                       stage.name;
-                      
+
                       return `
                         <button
                           class="
@@ -1710,16 +1711,76 @@ function stopTitleBgm() {
       return `<section class="stack"><div class="panel hero game-over-panel"><div class="hero-icon">💥</div><h2>バリアがなくなった！</h2><p class="muted">${qi} / ${questions.length} 問まで進みました。</p></div><div class="life-display game-over-life"><span>💥</span><span>💥</span></div><button class="button cyan" data-action="retry-stage">同じステージにもう一度挑戦</button><button class="button secondary" data-action="go" data-screen="world">ワールドへ戻る</button></section>`;
     }
 
-    const questionAction = flashMode ? 'data-action="replay-flash"' : "";
-    const guide = flashMode
-      ? (flashVisible ? "よく見ておぼえよう！" : "タップすると、もう一度問題を見られます")
-      : "問題を見ながら答えよう！";
+    const questionAction =
+  flashMode
+    ? `data-action="replay-flash"`
+    : "";
 
-    return `<section class="stack game-area">
-      <div class="toolbar">
-        <button class="button secondary small" data-action="go" data-screen="world">◀ やめる</button>
-        <div class="game-status"><div class="life-display"><span>${lives>=1?"🛡️":"💥"}</span><span>${lives>=2?"🛡️":"💥"}</span></div><strong>${qi+1}/${questions.length}</strong></div>
+
+const guide =
+  flashMode
+    ? ""
+    : (
+        q?.guide ??
+        "問題をよく見て答えよう。"
+      );
+
+const rendererHasOwnGuide = (
+  String(q?.kind ?? "").startsWith("fraction-") ||
+  String(q?.kind ?? "").startsWith("decimal-")
+);
+
+return `<section class="stack game-area">
+
+  <!-- =====================================================
+       全WORLD共通：単元タイトル
+  ====================================================== -->
+
+  <div class="game-unit-header">
+
+    <div class="game-unit-title">
+      ${escapeHtml(currentStage?.unitLabel ?? "")}・${escapeHtml(currentStage?.name ?? "")}
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       全WORLD共通：操作・進行状況
+  ====================================================== -->
+
+  <div class="toolbar game-toolbar">
+
+    <button
+      class="button secondary small"
+      data-action="go"
+      data-screen="world"
+    >
+      ◀ やめる
+    </button>
+
+
+    <div class="game-status">
+
+      <div class="life-display">
+
+        <span>
+          ${lives >= 1 ? "🛡️" : "💥"}
+        </span>
+
+        <span>
+          ${lives >= 2 ? "🛡️" : "💥"}
+        </span>
+
       </div>
+
+      <strong>
+        ${qi + 1}/${questions.length}
+      </strong>
+
+    </div>
+
+  </div>
       ${wrongMessage?`<div class="wrong-notice">${wrongMessage}</div>`:""}
       <button
   class="question-card ${flashMode ? "flash-card" : "persistent-card"} ${showQuestion ? "showing" : "hidden-question"}"
@@ -1727,14 +1788,6 @@ function stopTitleBgm() {
   ${flashMode ? "" : 'type="button"'}
 >
   <div>
-
-    <p class="muted">
-      ${
-        currentStage?.type?.startsWith("clock_")
-          ? "もんだいを よくみて こたえよう"
-          : `${escapeHtml(currentStage.unitLabel)}・${escapeHtml(currentStage.name)}`
-      }
-    </p>
 
     <div class="question">
       ${
@@ -1745,10 +1798,12 @@ function stopTitleBgm() {
     </div>
 
     ${
-      currentStage?.type?.startsWith("clock_")
-        ? ""
-        : `<p class="flash-guide">${guide}</p>`
-    }
+  currentStage?.type?.startsWith("clock_") ||
+  rendererHasOwnGuide ||
+  !guide
+    ? ""
+    : `<p class="flash-guide">${guide}</p>`
+}
 
   </div>
 </button>

@@ -1,3 +1,60 @@
+/* =========================================================
+   分数表示
+========================================================= */
+
+function renderFractionValue(
+  value,
+  className = "is-small"
+) {
+
+  const text =
+    String(value ?? "");
+
+
+  const match =
+    text.match(
+      /^(-?\d+)\/(\d+)$/
+    );
+
+
+  /*
+    分数以外はそのまま表示
+  */
+  if (!match) {
+
+    return `
+      <span>
+        ${text}
+      </span>
+    `;
+  }
+
+
+  const numerator =
+    match[1];
+
+
+  const denominator =
+    match[2];
+
+
+  return `
+    <span class="fraction-display ${className}">
+
+      <span class="fraction-display-numerator">
+        ${numerator}
+      </span>
+
+      <span class="fraction-display-line"></span>
+
+      <span class="fraction-display-denominator">
+        ${denominator}
+      </span>
+
+    </span>
+  `;
+}
+
 function polarToCartesian(
   cx,
   cy,
@@ -701,17 +758,18 @@ function renderVisual(
   }
 }
 
-
 /* =========================================================
    renderer
 ========================================================= */
 
 export default {
+
   kind:
     "fraction-choice",
 
 
   render(question) {
+
     const choices =
       Array.isArray(
         question?.choices
@@ -719,8 +777,10 @@ export default {
         ? question.choices
         : [];
 
+
     const visual =
       question?.visual ?? {};
+
 
     return `
       <div
@@ -765,8 +825,13 @@ export default {
                   ${choice.id}
                 </span>
 
+
                 <strong class="fraction-choice-value">
-                  ${choice.label}
+
+                  ${renderFractionValue(
+                    choice.label
+                  )}
+
                 </strong>
 
               </div>

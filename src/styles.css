@@ -9277,3 +9277,8531 @@ and (min-width: 761px) {
 
   flex-shrink: 0;
 }
+
+/* =========================================================
+   WORLD4 小数
+========================================================= */
+
+
+/* =========================================================
+   S2 1をこえる小数
+========================================================= */
+
+.question-card:has(.decimal-over-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.question-card:has(.decimal-over-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+
+  align-items: center;
+}
+
+
+.question-card:has(.decimal-over-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+
+.decimal-over-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 55%)
+    minmax(0, 45%);
+
+  gap: 18px;
+
+  align-items: center;
+
+  overflow: hidden;
+}
+
+
+.decimal-over-visual {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  overflow: hidden;
+}
+
+
+.decimal-over-blocks {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+}
+
+
+.decimal-whole-block {
+  width: 122px;
+  height: 34px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(10, 1fr);
+
+  border:
+    2px solid
+    rgba(125,211,252,.9);
+
+  border-radius: 8px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.decimal-whole-block span {
+  border-right:
+    1px solid
+    rgba(255,255,255,.18);
+
+  background:
+    rgba(255,255,255,.05);
+}
+
+
+.decimal-whole-block span:last-child {
+  border-right: none;
+}
+
+
+.decimal-whole-block span.is-filled {
+  background:
+    rgba(34,211,238,.72);
+}
+
+
+.decimal-part-block {
+  border-color:
+    rgba(251,191,36,.9);
+}
+
+
+.decimal-over-result {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      30px,
+      3.2vw,
+      44px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.decimal-over-text {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  overflow: hidden;
+}
+
+
+.decimal-over-prompt,
+.decimal-compare-prompt {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      25px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.3;
+
+  text-align: center;
+}
+
+
+.decimal-over-guide,
+.decimal-compare-guide {
+  width: 100%;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      13px,
+      1.25vw,
+      17px
+    );
+
+  font-weight: 800;
+
+  line-height: 1.25;
+
+  text-align: center;
+}
+
+
+.decimal-over-options {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+}
+
+
+.decimal-mini-choice {
+  min-width: 72px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  padding: 5px 7px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 9px;
+
+  background:
+    rgba(255,255,255,.06);
+}
+
+
+.decimal-mini-choice span {
+  color: #fde68a;
+
+  font-weight: 1000;
+}
+
+
+.decimal-mini-choice strong {
+  color: #fffdf2;
+
+  font-size: 15px;
+}
+
+
+/* =========================================================
+   S3 小数の大小
+========================================================= */
+
+.question-card:has(.decimal-compare-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.question-card:has(.decimal-compare-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+}
+
+
+.question-card:has(.decimal-compare-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+
+.decimal-compare-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 55%)
+    minmax(0, 45%);
+
+  gap: 18px;
+
+  align-items: center;
+}
+
+
+.decimal-compare-visual {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 16px;
+}
+
+
+.decimal-compare-row {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    58px
+    minmax(0, 1fr);
+
+  gap: 10px;
+
+  align-items: center;
+}
+
+
+.decimal-compare-row strong {
+  color: #fffdf2;
+
+  font-size: 28px;
+
+  text-align: right;
+}
+
+
+.decimal-compare-bar-track {
+  width: 100%;
+  height: 26px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.55);
+
+  border-radius: 999px;
+
+  background:
+    rgba(255,255,255,.06);
+
+  overflow: hidden;
+}
+
+
+.decimal-compare-bar {
+  height: 100%;
+
+  background:
+    rgba(34,211,238,.75);
+
+  border-radius: 999px;
+}
+
+
+.decimal-compare-text {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+}
+
+
+/* =========================================================
+   S4/S5 小数の計算
+========================================================= */
+
+.question-card:has(.decimal-calc-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.question-card:has(.decimal-calc-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+}
+
+
+.question-card:has(.decimal-calc-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.decimal-calc-layout {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+}
+
+
+.decimal-calc-prompt {
+  color: #fde68a;
+
+  font-size: 18px;
+
+  font-weight: 900;
+}
+
+
+.decimal-calc-equation {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 16px;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      42px,
+      4.5vw,
+      62px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.decimal-calc-symbol,
+.decimal-calc-equals {
+  color: #fde68a;
+}
+
+
+.decimal-calc-question {
+  color: #fca5a5;
+}
+
+
+.decimal-calc-guide {
+  color: #fffdf2;
+
+  font-size: 15px;
+
+  font-weight: 800;
+
+  opacity: .85;
+}
+
+
+/* =========================================================
+   S6 小数の文章題
+========================================================= */
+
+.question-card:has(.decimal-word-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.question-card:has(.decimal-word-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+}
+
+
+.question-card:has(.decimal-word-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+
+.decimal-word-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 28%)
+    minmax(0, 72%);
+
+  gap: 16px;
+
+  align-items: center;
+}
+
+
+.decimal-word-visual-side {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.decimal-word-icon {
+  font-size:
+    clamp(
+      58px,
+      6.5vw,
+      92px
+    );
+
+  line-height: 1;
+}
+
+
+.decimal-word-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  overflow: hidden;
+}
+
+
+.decimal-word-text {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.75vw,
+      24px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.28;
+
+  white-space: pre-line;
+
+  text-align: left;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.decimal-over-layout),
+  .question-card:has(.decimal-compare-layout),
+  .question-card:has(.decimal-calc-layout),
+  .question-card:has(.decimal-word-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.decimal-over-layout) > div,
+  .question-card:has(.decimal-compare-layout) > div,
+  .question-card:has(.decimal-calc-layout) > div,
+  .question-card:has(.decimal-word-layout) > div {
+    grid-template-rows:
+      24px
+      minmax(0, 1fr)
+      18px;
+  }
+
+
+  .decimal-over-layout,
+  .decimal-compare-layout {
+    grid-template-columns:
+      minmax(0, 52%)
+      minmax(0, 48%);
+
+    gap: 7px;
+  }
+
+
+  .decimal-whole-block {
+    width: 90px;
+    height: 27px;
+  }
+
+
+  .decimal-over-result {
+    font-size:
+      clamp(
+        24px,
+        7vw,
+        34px
+      );
+  }
+
+
+  .decimal-over-prompt,
+  .decimal-compare-prompt {
+    font-size:
+      clamp(
+        14px,
+        3.5vw,
+        19px
+      );
+  }
+
+
+  .decimal-over-guide,
+  .decimal-compare-guide {
+    font-size:
+      clamp(
+        10px,
+        2.7vw,
+        14px
+      );
+  }
+
+
+  .decimal-mini-choice {
+    min-width: 54px;
+
+    padding: 3px 4px;
+  }
+
+
+  .decimal-mini-choice strong {
+    font-size: 12px;
+  }
+
+
+  .decimal-compare-row {
+    grid-template-columns:
+      42px
+      minmax(0, 1fr);
+
+    gap: 5px;
+  }
+
+
+  .decimal-compare-row strong {
+    font-size: 21px;
+  }
+
+
+  .decimal-compare-bar-track {
+    height: 20px;
+  }
+
+
+  .decimal-calc-equation {
+    gap: 8px;
+
+    font-size:
+      clamp(
+        32px,
+        8vw,
+        46px
+      );
+  }
+
+
+  .decimal-calc-prompt {
+    font-size: 14px;
+  }
+
+
+  .decimal-calc-guide {
+    font-size: 12px;
+  }
+
+
+  .decimal-word-layout {
+    grid-template-columns:
+      minmax(0, 24%)
+      minmax(0, 76%);
+
+    gap: 7px;
+  }
+
+
+  .decimal-word-icon {
+    font-size:
+      clamp(
+        44px,
+        10vw,
+        64px
+      );
+  }
+
+
+  .decimal-word-text {
+    font-size:
+      clamp(
+        15px,
+        3.6vw,
+        20px
+      );
+
+    line-height: 1.24;
+  }
+}
+
+/* =========================================================
+   小数 S2
+   1をこえる小数
+========================================================= */
+
+.decimal-over-blocks {
+  width: 100%;
+
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+
+.decimal-over-whole-unit {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+}
+
+
+.decimal-over-whole-unit small {
+  color: #fde68a;
+
+  font-size: 12px;
+
+  font-weight: 900;
+}
+
+
+.decimal-over-bar {
+  width: 120px;
+  height: 34px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(10, minmax(0, 1fr));
+
+  border:
+    2px solid
+    rgba(125,211,252,.9);
+
+  border-radius: 7px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.decimal-over-bar span {
+  border-right:
+    1px solid
+    rgba(255,255,255,.2);
+
+  background:
+    rgba(255,255,255,.05);
+}
+
+
+.decimal-over-bar span:last-child {
+  border-right: none;
+}
+
+
+.decimal-over-bar span.is-filled {
+  background:
+    rgba(34,211,238,.75);
+}
+
+
+.decimal-over-part-bar {
+  border-color:
+    #fbbf24;
+}
+
+
+.decimal-over-part-bar span.is-filled {
+  background:
+    rgba(251,191,36,.72);
+}
+
+
+/* 4 ＋ 0.1×？ など */
+
+.decimal-over-formula {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      22px,
+      2.2vw,
+      30px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.decimal-over-question-mark {
+  color: #fde68a;
+}
+
+
+/* 右側 */
+
+.decimal-over-prompt {
+  white-space: pre-line;
+}
+
+
+.decimal-over-input-guide {
+  margin-top: 3px;
+
+  padding:
+    5px
+    12px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(34,211,238,.12);
+
+  color:
+    #bae6fd;
+
+  font-size: 13px;
+
+  font-weight: 900;
+}
+
+
+/* スマホ */
+
+@media (max-width: 760px) {
+
+  .decimal-over-bar {
+    width: 82px;
+    height: 27px;
+  }
+
+
+  .decimal-over-blocks {
+    gap: 5px;
+  }
+
+
+  .decimal-over-formula {
+    gap: 6px;
+
+    font-size:
+      clamp(
+        18px,
+        5vw,
+        25px
+      );
+  }
+
+
+  .decimal-over-input-guide {
+    font-size: 11px;
+
+    padding:
+      4px
+      8px;
+  }
+}
+
+/* =========================================================
+   小数 S3
+   小数と数直線
+========================================================= */
+
+.question-card:has(.decimal-numberline-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.decimal-numberline-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+
+  align-items: center;
+}
+
+
+.question-card:has(.decimal-numberline-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.decimal-numberline-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 62%)
+    minmax(0, 38%);
+
+  gap: 18px;
+
+  align-items: center;
+}
+
+
+/* 左：数直線 */
+
+.decimal-numberline-visual {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding:
+    24px
+    8px
+    0;
+
+  box-sizing: border-box;
+}
+
+
+.decimal-numberline-track {
+  position: relative;
+
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      11,
+      minmax(0, 1fr)
+    );
+
+  align-items: start;
+}
+
+
+.decimal-numberline-track::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+
+  top: 22px;
+
+  height: 4px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(
+      125,
+      211,
+      252,
+      .9
+    );
+}
+
+
+.decimal-numberline-point {
+  position: relative;
+
+  height: 76px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+
+.decimal-numberline-tick {
+  position: absolute;
+
+  top: 14px;
+
+  width: 3px;
+  height: 20px;
+
+  background:
+    #e0f2fe;
+
+  border-radius: 999px;
+
+  z-index: 2;
+}
+
+
+.decimal-numberline-dot {
+  position: absolute;
+
+  top: -12px;
+
+  color: #fde68a;
+
+  font-size: 28px;
+
+  line-height: 1;
+
+  z-index: 3;
+}
+
+
+.decimal-numberline-label {
+  position: absolute;
+
+  top: 43px;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      15px,
+      1.5vw,
+      20px
+    );
+
+  font-weight: 900;
+
+  white-space: nowrap;
+}
+
+
+/* 右 */
+
+.decimal-numberline-text {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+
+.decimal-numberline-prompt {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+.decimal-numberline-guide {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      13px,
+      1.25vw,
+      17px
+    );
+
+  font-weight: 900;
+
+  text-align: center;
+}
+
+
+.decimal-numberline-input-guide {
+  padding:
+    5px
+    12px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(
+      34,
+      211,
+      238,
+      .12
+    );
+
+  color: #bae6fd;
+
+  font-size: 13px;
+
+  font-weight: 900;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.decimal-numberline-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.decimal-numberline-layout) > div {
+    grid-template-rows:
+      24px
+      minmax(0, 1fr)
+      18px;
+  }
+
+
+  .decimal-numberline-layout {
+    grid-template-columns:
+      minmax(0, 60%)
+      minmax(0, 40%);
+
+    gap: 7px;
+  }
+
+
+  .decimal-numberline-visual {
+    padding:
+      20px
+      2px
+      0;
+  }
+
+
+  .decimal-numberline-track::before {
+    top: 20px;
+
+    height: 3px;
+  }
+
+
+  .decimal-numberline-point {
+    height: 68px;
+  }
+
+
+  .decimal-numberline-tick {
+    top: 13px;
+
+    width: 2px;
+    height: 17px;
+  }
+
+
+  .decimal-numberline-dot {
+    top: -8px;
+
+    font-size: 22px;
+  }
+
+
+  .decimal-numberline-label {
+    top: 39px;
+
+    font-size:
+      clamp(
+        11px,
+        3vw,
+        15px
+      );
+  }
+
+
+  .decimal-numberline-text {
+    gap: 6px;
+  }
+
+
+  .decimal-numberline-prompt {
+    font-size:
+      clamp(
+        15px,
+        3.8vw,
+        21px
+      );
+  }
+
+
+  .decimal-numberline-guide {
+    font-size:
+      clamp(
+        10px,
+        2.8vw,
+        14px
+      );
+  }
+
+
+  .decimal-numberline-input-guide {
+    padding:
+      4px
+      8px;
+
+    font-size: 11px;
+  }
+}
+
+/* =========================================================
+   WORLD4 小数 S1
+   数直線をS3風に統一
+========================================================= */
+
+.decimal-number-line-s1 {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  padding:
+    18px
+    12px
+    0;
+
+  box-sizing: border-box;
+}
+
+
+/* 数直線本体 */
+
+.decimal-number-line-s1-track {
+  position: relative;
+
+  width: min(
+    620px,
+    96%
+  );
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      11,
+      minmax(0, 1fr)
+    );
+
+  align-items: start;
+}
+
+
+/* 横線 */
+
+.decimal-number-line-s1-track::before {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  right: 0;
+
+  top: 22px;
+
+  height: 4px;
+
+  border-radius: 999px;
+
+  background:
+    rgba(
+      125,
+      211,
+      252,
+      .95
+    );
+}
+
+
+/* 各目盛り */
+
+.decimal-number-line-s1-point {
+  position: relative;
+
+  height: 76px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+
+
+/* 縦目盛り */
+
+.decimal-number-line-s1-tick {
+  position: absolute;
+
+  top: 14px;
+
+  width: 3px;
+  height: 20px;
+
+  background:
+    #e0f2fe;
+
+  border-radius: 999px;
+
+  z-index: 2;
+}
+
+
+/* ● */
+
+.decimal-number-line-s1-dot {
+  position: absolute;
+
+  top: -12px;
+
+  color: #fde68a;
+
+  font-size: 28px;
+
+  line-height: 1;
+
+  z-index: 3;
+
+  text-shadow:
+    0 2px 4px
+    rgba(0,0,0,.35);
+}
+
+
+/* 0 / 0.5 / 1 */
+
+.decimal-number-line-s1-label {
+  position: absolute;
+
+  top: 43px;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      15px,
+      1.5vw,
+      20px
+    );
+
+  font-weight: 900;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .decimal-number-line-s1 {
+    padding:
+      16px
+      4px
+      0;
+  }
+
+
+  .decimal-number-line-s1-track {
+    width: 98%;
+  }
+
+
+  .decimal-number-line-s1-track::before {
+    top: 20px;
+
+    height: 3px;
+  }
+
+
+  .decimal-number-line-s1-point {
+    height: 68px;
+  }
+
+
+  .decimal-number-line-s1-tick {
+    top: 13px;
+
+    width: 2px;
+    height: 17px;
+  }
+
+
+  .decimal-number-line-s1-dot {
+    top: -8px;
+
+    font-size: 22px;
+  }
+
+
+  .decimal-number-line-s1-label {
+    top: 39px;
+
+    font-size:
+      clamp(
+        11px,
+        3vw,
+        15px
+      );
+  }
+}
+
+/* =========================================================
+   WORLD4 小数 S4
+   数字だけの大小比較
+========================================================= */
+
+.question-card:has(.decimal-compare-simple) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.decimal-compare-simple) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    26px
+    minmax(0, 1fr)
+    20px;
+
+  gap: 2px;
+
+  align-items: center;
+}
+
+
+.question-card:has(.decimal-compare-simple) .question {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* 問題全体 */
+
+.decimal-compare-simple {
+  width: min(860px, 96%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  margin: 0 auto;
+
+  overflow: hidden;
+}
+
+
+/* 問題文 */
+
+.decimal-compare-simple-prompt {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      23px,
+      2.4vw,
+      34px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* ヒント */
+
+.decimal-compare-simple-guide {
+  width: 100%;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      13px,
+      1.3vw,
+      17px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* A / B / C */
+
+.decimal-compare-simple-choices {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 14px;
+
+  align-items: stretch;
+
+  margin-top: 4px;
+}
+
+
+.decimal-compare-simple-choice {
+  min-height: 78px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  padding:
+    10px
+    12px;
+
+  border:
+    3px solid
+    rgba(125,211,252,.75);
+
+  border-radius: 15px;
+
+  background:
+    rgba(255,255,255,.07);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.decimal-compare-simple-letter {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 42px;
+  height: 42px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  background:
+    rgba(59,130,246,.85);
+
+  color: white;
+
+  font-size: 23px;
+
+  font-weight: 1000;
+}
+
+
+.decimal-compare-simple-value {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      25px,
+      2.7vw,
+      40px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.15;
+
+  text-align: center;
+}
+
+
+/* 並べ替え問題は文字列が長いので少しだけ抑える */
+
+.decimal-compare-simple-value {
+  overflow-wrap: anywhere;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.decimal-compare-simple) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.decimal-compare-simple) > div {
+    grid-template-rows:
+      24px
+      minmax(0, 1fr)
+      18px;
+  }
+
+
+  .decimal-compare-simple {
+    width: 98%;
+
+    gap: 8px;
+  }
+
+
+  .decimal-compare-simple-prompt {
+    font-size:
+      clamp(
+        18px,
+        4.5vw,
+        25px
+      );
+  }
+
+
+  .decimal-compare-simple-guide {
+    font-size:
+      clamp(
+        10px,
+        2.8vw,
+        14px
+      );
+  }
+
+
+  .decimal-compare-simple-choices {
+    gap: 6px;
+  }
+
+
+  .decimal-compare-simple-choice {
+    min-height: 66px;
+
+    gap: 6px;
+
+    padding:
+      6px
+      5px;
+
+    border-width: 2px;
+
+    border-radius: 11px;
+  }
+
+
+  .decimal-compare-simple-letter {
+    width: 30px;
+    height: 30px;
+
+    font-size: 17px;
+  }
+
+
+  .decimal-compare-simple-value {
+    font-size:
+      clamp(
+        16px,
+        4.2vw,
+        23px
+      );
+  }
+}
+
+/* =========================================================
+   位取り表示
+========================================================= */
+
+.decimal-place-number {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+
+.decimal-place-digit {
+  position: relative;
+
+  min-width: 92px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 4px;
+
+  padding:
+    9px
+    12px;
+
+  border:
+    3px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255,255,255,.06);
+
+  box-sizing: border-box;
+}
+
+
+.decimal-place-digit strong {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      44px,
+      4.8vw,
+      66px
+    );
+
+  font-weight: 1000;
+
+  line-height: .95;
+}
+
+
+.decimal-place-name {
+  color: #bae6fd;
+
+  font-size: 13px;
+
+  font-weight: 900;
+
+  white-space: nowrap;
+}
+
+
+/* 問題になっている位 */
+
+.decimal-place-digit.is-target {
+  border-color: #fbbf24;
+
+  background:
+    rgba(251,191,36,.12);
+
+  box-shadow:
+    0 0 0 2px
+    rgba(251,191,36,.08);
+}
+
+
+.decimal-place-digit.is-target strong {
+  color: #fde68a;
+}
+
+
+/* 小数点 */
+
+.decimal-place-dot {
+  color: #fffdf2;
+
+  font-size: 52px;
+
+  font-weight: 1000;
+
+  line-height: .85;
+
+  padding-bottom: 10px;
+}
+
+
+/* =========================================================
+   右：問題
+========================================================= */
+
+.decimal-place-question-area {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+
+.decimal-place-prompt {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.25;
+
+  white-space: pre-line;
+
+  text-align: center;
+}
+
+
+.decimal-place-guide {
+  width: 100%;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      12px,
+      1.2vw,
+      16px
+    );
+
+  font-weight: 900;
+
+  text-align: center;
+}
+
+
+/* A/B/C 表示 */
+
+.decimal-place-choices {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 7px;
+
+  margin-top: 3px;
+}
+
+
+.decimal-place-choice {
+  min-height: 55px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  padding:
+    6px
+    7px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 11px;
+
+  background:
+    rgba(255,255,255,.06);
+
+  box-sizing: border-box;
+}
+
+
+.decimal-place-choice-letter {
+  color: #fde68a;
+
+  font-size: 23px;
+
+  font-weight: 1000;
+}
+
+
+.decimal-place-choice strong {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      15px,
+      1.45vw,
+      20px
+    );
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.decimal-place-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.decimal-place-layout) > div {
+    grid-template-rows:
+      24px
+      minmax(0, 1fr)
+      18px;
+  }
+
+
+  .decimal-place-layout {
+    width: 98%;
+
+    grid-template-columns:
+      minmax(0, 42%)
+      minmax(0, 58%);
+
+    gap: 7px;
+  }
+
+
+  .decimal-place-number {
+    gap: 4px;
+  }
+
+
+  .decimal-place-digit {
+    min-width: 61px;
+
+    gap: 2px;
+
+    padding:
+      6px
+      4px;
+
+    border-width: 2px;
+
+    border-radius: 10px;
+  }
+
+
+  .decimal-place-digit strong {
+    font-size:
+      clamp(
+        32px,
+        8vw,
+        45px
+      );
+  }
+
+
+  .decimal-place-name {
+    font-size: 9px;
+  }
+
+
+  .decimal-place-dot {
+    font-size: 38px;
+
+    padding-bottom: 7px;
+  }
+
+
+  .decimal-place-question-area {
+    gap: 5px;
+  }
+
+
+  .decimal-place-prompt {
+    font-size:
+      clamp(
+        15px,
+        3.8vw,
+        21px
+      );
+  }
+
+
+  .decimal-place-guide {
+    font-size:
+      clamp(
+        9px,
+        2.5vw,
+        13px
+      );
+  }
+
+
+  .decimal-place-choices {
+    gap: 4px;
+  }
+
+
+  .decimal-place-choice {
+    min-height: 46px;
+
+    gap: 3px;
+
+    padding:
+      4px
+      3px;
+  }
+
+
+  .decimal-place-choice-letter {
+    font-size: 17px;
+  }
+
+
+  .decimal-place-choice strong {
+    font-size:
+      clamp(
+        11px,
+        2.8vw,
+        15px
+      );
+  }
+}
+
+/* =========================================================
+   WORLD4 小数 S5
+   小数の位
+   完全整理版
+========================================================= */
+
+
+/* =========================================================
+   問題カード
+========================================================= */
+
+.question-card:has(.decimal-place-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding: 6px 16px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+/* タイトル / 問題 / ガイド の外枠 */
+
+.question-card:has(.decimal-place-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    24px
+    minmax(0, 1fr)
+    18px;
+
+  gap: 2px;
+
+  align-items: center;
+
+  box-sizing: border-box;
+}
+
+
+/* 問題本体 */
+
+.question-card:has(.decimal-place-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   S5 全体
+========================================================= */
+
+.decimal-place-layout {
+  width: min(900px, 98%);
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  margin: 0 auto;
+  padding: 0;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   1問目
+   チュートリアルあり
+========================================================= */
+
+.decimal-place-layout.has-tutorial {
+  display: grid;
+
+  grid-template-rows:
+    64px
+    minmax(0, 1fr);
+
+  gap: 6px;
+
+  align-items: center;
+}
+
+
+/* -----------------------------------------
+   上：位取りのお手本
+----------------------------------------- */
+
+.decimal-place-tutorial {
+  width: 100%;
+  height: 64px;
+
+  min-height: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 3px;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.decimal-place-tutorial-title {
+  margin: 0;
+  padding: 0;
+
+  color: #fde68a;
+
+  font-size: 11px;
+  font-weight: 900;
+
+  line-height: 1;
+}
+
+
+/* 位取り表 */
+
+.decimal-place-table {
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  gap: 4px;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.decimal-place-table-cell {
+  width: 82px;
+  height: 43px;
+
+  display: grid;
+
+  grid-template-rows:
+    14px
+    minmax(0, 1fr);
+
+  align-items: center;
+  justify-items: center;
+
+  padding: 2px 4px;
+
+  border:
+    2px solid
+    rgba(125, 211, 252, .75);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, .06);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.decimal-place-table-cell span {
+  color: #bae6fd;
+
+  font-size: 9px;
+  font-weight: 900;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+.decimal-place-table-cell strong {
+  color: #fffdf2;
+
+  font-size: 24px;
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.decimal-place-table-dot {
+  height: 43px;
+
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  padding-bottom: 3px;
+
+  color: #fffdf2;
+
+  font-size: 27px;
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+/* -----------------------------------------
+   下：実際の問題
+----------------------------------------- */
+
+.decimal-place-layout.has-tutorial
+.decimal-place-main {
+  width: min(760px, 96%);
+  height: 100%;
+
+  min-height: 0;
+
+  margin: 0 auto;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 30%)
+    minmax(0, 70%);
+
+  gap: 20px;
+
+  align-items: center;
+
+  overflow: hidden;
+}
+
+
+/* 左：3.5 */
+
+.decimal-place-main-number {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      46px,
+      5vw,
+      68px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+/* 右 */
+
+.decimal-place-question-area {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  margin: 0;
+  padding: 0;
+
+  overflow: hidden;
+}
+
+
+.decimal-place-prompt {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.85vw,
+      25px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.15;
+
+  text-align: center;
+
+  white-space: pre-line;
+}
+
+
+.decimal-place-guide {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   上側に表示する A / B / C の内容
+========================================================= */
+
+.decimal-place-choices {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 6px;
+
+  margin: 2px 0 0;
+  padding: 0;
+}
+
+
+.decimal-place-choice {
+  height: 36px;
+
+  min-width: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  padding: 3px 5px;
+
+  border:
+    2px solid
+    rgba(125, 211, 252, .65);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255, 255, 255, .06);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.decimal-place-choice-letter {
+  color: #fde68a;
+
+  font-size: 15px;
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.decimal-place-choice strong {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      11px,
+      1.15vw,
+      15px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   2問目以降
+   チュートリアルなし
+========================================================= */
+
+.decimal-place-layout.no-tutorial {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+.decimal-place-layout.no-tutorial
+.decimal-place-main {
+  width: min(760px, 96%);
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 30%)
+    minmax(0, 70%);
+
+  gap: 26px;
+
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+
+/* 2問目以降は数字を少し大きく */
+
+.decimal-place-layout.no-tutorial
+.decimal-place-main-number {
+  font-size:
+    clamp(
+      56px,
+      6vw,
+      80px
+    );
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.decimal-place-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding: 5px 7px;
+  }
+
+
+  .question-card:has(.decimal-place-layout) > div {
+    grid-template-rows:
+      22px
+      minmax(0, 1fr)
+      16px;
+  }
+
+
+  .decimal-place-layout.has-tutorial {
+    grid-template-rows:
+      58px
+      minmax(0, 1fr);
+
+    gap: 4px;
+  }
+
+
+  .decimal-place-tutorial {
+    height: 58px;
+
+    gap: 2px;
+  }
+
+
+  .decimal-place-tutorial-title {
+    font-size: 8px;
+  }
+
+
+  .decimal-place-table {
+    gap: 2px;
+  }
+
+
+  .decimal-place-table-cell {
+    width: 58px;
+    height: 39px;
+
+    grid-template-rows:
+      12px
+      minmax(0, 1fr);
+
+    padding: 1px 2px;
+
+    border-width: 1px;
+  }
+
+
+  .decimal-place-table-cell span {
+    font-size: 7px;
+  }
+
+
+  .decimal-place-table-cell strong {
+    font-size: 20px;
+  }
+
+
+  .decimal-place-table-dot {
+    height: 39px;
+
+    font-size: 22px;
+
+    padding-bottom: 3px;
+  }
+
+
+  .decimal-place-layout.has-tutorial
+  .decimal-place-main,
+  .decimal-place-layout.no-tutorial
+  .decimal-place-main {
+    width: 98%;
+
+    grid-template-columns:
+      minmax(0, 27%)
+      minmax(0, 73%);
+
+    gap: 6px;
+  }
+
+
+  .decimal-place-main-number,
+  .decimal-place-layout.no-tutorial
+  .decimal-place-main-number {
+    font-size:
+      clamp(
+        36px,
+        9vw,
+        50px
+      );
+  }
+
+
+  .decimal-place-question-area {
+    gap: 3px;
+  }
+
+
+  .decimal-place-prompt {
+    font-size:
+      clamp(
+        13px,
+        3.3vw,
+        18px
+      );
+
+    line-height: 1.12;
+  }
+
+
+  .decimal-place-guide {
+    font-size:
+      clamp(
+        7px,
+        2vw,
+        10px
+      );
+  }
+
+
+  .decimal-place-choices {
+    gap: 3px;
+
+    margin-top: 1px;
+  }
+
+
+  .decimal-place-choice {
+    height: 30px;
+
+    gap: 2px;
+
+    padding: 2px;
+  }
+
+
+  .decimal-place-choice-letter {
+    font-size: 12px;
+  }
+
+
+  .decimal-place-choice strong {
+    font-size:
+      clamp(
+        8px,
+        2.2vw,
+        11px
+      );
+  }
+}
+
+/* =========================================================
+   WORLD4 小数 S5
+   チュートリアル配置 最終修正
+========================================================= */
+
+
+/* =========================================================
+   1問目：全体を必ず縦2段にする
+========================================================= */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-layout.has-tutorial {
+  width: min(900px, 98%) !important;
+  height: 100% !important;
+
+  display: grid !important;
+
+  grid-template-columns: 1fr !important;
+
+  grid-template-rows:
+    72px
+    minmax(0, 1fr) !important;
+
+  gap: 6px !important;
+
+  align-items: center !important;
+  justify-items: stretch !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  transform: none !important;
+
+  overflow: hidden !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* =========================================================
+   上段：位取りのお手本
+========================================================= */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-tutorial {
+  grid-row: 1 !important;
+  grid-column: 1 !important;
+
+  width: 100% !important;
+  height: 72px !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 4px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  transform: none !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* タイトル */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-tutorial-title {
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: #fde68a;
+
+  font-size: 11px !important;
+  font-weight: 900;
+
+  line-height: 1 !important;
+
+  text-align: center;
+}
+
+
+/* 位取り表 */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-table {
+  display: flex !important;
+
+  align-items: flex-end !important;
+  justify-content: center !important;
+
+  gap: 4px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  transform: none !important;
+}
+
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-table-cell {
+  width: 82px !important;
+  height: 44px !important;
+
+  min-width: 0 !important;
+
+  display: grid !important;
+
+  grid-template-rows:
+    14px
+    minmax(0, 1fr) !important;
+
+  align-items: center !important;
+  justify-items: center !important;
+
+  padding: 2px 4px !important;
+
+  box-sizing: border-box !important;
+}
+
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-table-cell span {
+  font-size: 9px !important;
+
+  line-height: 1 !important;
+
+  white-space: nowrap;
+}
+
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-table-cell strong {
+  font-size: 24px !important;
+
+  line-height: 1 !important;
+}
+
+
+/* 小数点 */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-table-dot {
+  height: 44px !important;
+
+  display: flex !important;
+
+  align-items: flex-end !important;
+  justify-content: center !important;
+
+  padding-bottom: 4px !important;
+
+  font-size: 26px !important;
+
+  line-height: 1 !important;
+}
+
+
+/* =========================================================
+   下段：実際の問題
+========================================================= */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-main {
+  grid-row: 2 !important;
+  grid-column: 1 !important;
+
+  width: min(760px, 96%) !important;
+  height: 100% !important;
+
+  min-height: 0 !important;
+
+  display: grid !important;
+
+  grid-template-columns:
+    minmax(0, 30%)
+    minmax(0, 70%) !important;
+
+  grid-template-rows:
+    minmax(0, 1fr) !important;
+
+  gap: 22px !important;
+
+  align-items: center !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  transform: none !important;
+
+  overflow: hidden !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* =========================================================
+   左：3.5
+========================================================= */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-main-number {
+  grid-column: 1 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  transform: none !important;
+
+  font-size:
+    clamp(
+      48px,
+      5vw,
+      68px
+    ) !important;
+
+  line-height: 1 !important;
+
+  color: #fffdf2;
+
+  font-weight: 1000;
+}
+
+
+/* =========================================================
+   右：問題文
+========================================================= */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-question-area {
+  grid-column: 2 !important;
+
+  width: 100% !important;
+  height: 100% !important;
+
+  min-width: 0 !important;
+  min-height: 0 !important;
+
+  display: flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 5px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  transform: none !important;
+
+  overflow: hidden !important;
+}
+
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-prompt {
+  width: 100% !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      25px
+    ) !important;
+
+  line-height: 1.15 !important;
+
+  text-align: center !important;
+
+  white-space: pre-line !important;
+}
+
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-guide {
+  width: 100% !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    ) !important;
+
+  line-height: 1.1 !important;
+
+  text-align: center !important;
+}
+
+
+/* =========================================================
+   上側のA/B/C内容
+========================================================= */
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-choices {
+  width: 100% !important;
+
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    ) !important;
+
+  gap: 6px !important;
+
+  margin: 2px 0 0 !important;
+  padding: 0 !important;
+}
+
+
+.question-card:has(.decimal-place-layout.has-tutorial)
+.decimal-place-choice {
+  height: 36px !important;
+  min-height: 36px !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  gap: 5px !important;
+
+  padding: 3px 5px !important;
+
+  box-sizing: border-box !important;
+}
+
+
+/* =========================================================
+   2問目以降
+   こちらは普通に中央配置
+========================================================= */
+
+.question-card:has(.decimal-place-layout.no-tutorial)
+.decimal-place-layout.no-tutorial {
+  width: min(850px, 98%) !important;
+  height: 100% !important;
+
+  display: flex !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  transform: none !important;
+}
+
+
+.question-card:has(.decimal-place-layout.no-tutorial)
+.decimal-place-main {
+  width: min(760px, 96%) !important;
+  height: 100% !important;
+
+  display: grid !important;
+
+  grid-template-columns:
+    minmax(0, 30%)
+    minmax(0, 70%) !important;
+
+  gap: 26px !important;
+
+  align-items: center !important;
+
+  margin: 0 auto !important;
+  padding: 0 !important;
+
+  transform: none !important;
+}
+
+/* =========================================================
+   WORLD4 小数 S5
+   小数の位
+   左：チュートリアル
+   右：問題
+========================================================= */
+
+.question-card:has(.decimal-place-stage) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    7px
+    16px
+    7px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.decimal-place-stage) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    24px
+    minmax(0, 1fr)
+    18px;
+
+  gap: 2px;
+
+  align-items: center;
+
+  box-sizing: border-box;
+}
+
+
+.question-card:has(.decimal-place-stage) .question {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   全体
+========================================================= */
+
+.decimal-place-stage {
+  width: min(920px, 98%);
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  margin: 0 auto;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+
+/* 1問目 */
+
+.decimal-place-stage.is-tutorial {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 31%)
+    minmax(0, 69%);
+
+  gap: 16px;
+
+  align-items: center;
+}
+
+
+/* 2問目以降 */
+
+.decimal-place-stage.is-normal {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =========================================================
+   左：チュートリアル
+========================================================= */
+
+.decimal-place-help {
+  width: 100%;
+  height: 124px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  padding:
+    8px
+    7px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.72);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255,255,255,.055);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.decimal-place-help-title {
+  color: #fde68a;
+
+  font-size: 13px;
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+/* 24.63の位 */
+
+.decimal-place-help-number {
+  width: 100%;
+
+  display: flex;
+
+  align-items: flex-end;
+  justify-content: center;
+
+  gap: 2px;
+}
+
+
+.decimal-place-help-cell {
+  width: 52px;
+  height: 52px;
+
+  display: grid;
+
+  grid-template-rows:
+    19px
+    minmax(0, 1fr);
+
+  align-items: center;
+  justify-items: center;
+
+  padding:
+    3px
+    2px;
+
+  border:
+    1px solid
+    rgba(125,211,252,.72);
+
+  border-radius: 7px;
+
+  background:
+    rgba(255,255,255,.045);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.decimal-place-help-cell small {
+  color: #bae6fd;
+
+  font-size: 7px;
+
+  font-weight: 900;
+
+  line-height: 1.05;
+
+  text-align: center;
+
+  white-space: nowrap;
+}
+
+
+.decimal-place-help-cell strong {
+  color: #fffdf2;
+
+  font-size: 23px;
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.decimal-place-help-dot {
+  padding-bottom: 7px;
+
+  color: #fffdf2;
+
+  font-size: 23px;
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.decimal-place-help-caption {
+  color: rgba(255,255,255,.78);
+
+  font-size: 10px;
+
+  font-weight: 900;
+
+  line-height: 1;
+}
+
+
+/* =========================================================
+   右：問題カード
+========================================================= */
+
+.decimal-place-question-box {
+  width: 100%;
+  height: 128px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 27%)
+    minmax(0, 73%);
+
+  gap: 12px;
+
+  align-items: center;
+
+  padding:
+    10px
+    13px;
+
+  border:
+    3px solid
+    rgba(251,191,36,.82);
+
+  border-radius: 16px;
+
+  background:
+    rgba(15,23,42,.22);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* 2問目以降は中央に */
+
+.decimal-place-stage.is-normal
+.decimal-place-question-box {
+  width: min(700px, 92%);
+}
+
+
+/* 左：問題の数字 */
+
+.decimal-place-question-number {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      48px,
+      5vw,
+      68px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+/* 右：問題文 */
+
+.decimal-place-question-body {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  overflow: hidden;
+}
+
+
+.decimal-place-question-prompt {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      25px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.15;
+
+  text-align: center;
+
+  white-space: pre-line;
+}
+
+
+.decimal-place-question-guide {
+  width: 100%;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   問題内A/B/C
+========================================================= */
+
+.decimal-place-question-options {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 5px;
+
+  margin-top: 2px;
+}
+
+
+.decimal-place-question-option {
+  height: 34px;
+
+  min-width: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  padding:
+    3px
+    5px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.62);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255,255,255,.055);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.decimal-place-question-option span {
+  color: #fde68a;
+
+  font-size: 15px;
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.decimal-place-question-option strong {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      11px,
+      1.1vw,
+      15px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.decimal-place-stage) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      5px
+      7px;
+  }
+
+
+  .question-card:has(.decimal-place-stage) > div {
+    grid-template-rows:
+      22px
+      minmax(0, 1fr)
+      16px;
+  }
+
+
+  .decimal-place-stage.is-tutorial {
+    grid-template-columns:
+      minmax(0, 32%)
+      minmax(0, 68%);
+
+    gap: 6px;
+  }
+
+
+  .decimal-place-help {
+    height: 116px;
+
+    gap: 4px;
+
+    padding: 5px;
+  }
+
+
+  .decimal-place-help-title {
+    font-size: 10px;
+  }
+
+
+  .decimal-place-help-cell {
+    width: 39px;
+    height: 46px;
+
+    grid-template-rows:
+      16px
+      minmax(0, 1fr);
+  }
+
+
+  .decimal-place-help-cell small {
+    font-size: 6px;
+  }
+
+
+  .decimal-place-help-cell strong {
+    font-size: 19px;
+  }
+
+
+  .decimal-place-help-dot {
+    font-size: 19px;
+
+    padding-bottom: 6px;
+  }
+
+
+  .decimal-place-help-caption {
+    font-size: 8px;
+  }
+
+
+  .decimal-place-question-box {
+    height: 118px;
+
+    grid-template-columns:
+      minmax(0, 24%)
+      minmax(0, 76%);
+
+    gap: 5px;
+
+    padding:
+      6px
+      7px;
+
+    border-width: 2px;
+
+    border-radius: 11px;
+  }
+
+
+  .decimal-place-question-number {
+    font-size:
+      clamp(
+        34px,
+        9vw,
+        48px
+      );
+  }
+
+
+  .decimal-place-question-body {
+    gap: 3px;
+  }
+
+
+  .decimal-place-question-prompt {
+    font-size:
+      clamp(
+        13px,
+        3.3vw,
+        18px
+      );
+  }
+
+
+  .decimal-place-question-guide {
+    font-size:
+      clamp(
+        7px,
+        2vw,
+        10px
+      );
+  }
+
+
+  .decimal-place-question-options {
+    gap: 3px;
+
+    margin-top: 1px;
+  }
+
+
+  .decimal-place-question-option {
+    height: 29px;
+
+    gap: 2px;
+
+    padding: 2px;
+  }
+
+
+  .decimal-place-question-option span {
+    font-size: 11px;
+  }
+
+
+  .decimal-place-question-option strong {
+    font-size:
+      clamp(
+        8px,
+        2.1vw,
+        11px
+      );
+  }
+}
+
+/* =========================================================
+   WORLD4 小数 S5
+   右側問題カードの最終バランス調整
+========================================================= */
+
+.decimal-place-question-box {
+  height: 138px;
+
+  grid-template-columns:
+    minmax(0, 26%)
+    minmax(0, 74%);
+
+  gap: 14px;
+
+  padding:
+    9px
+    14px;
+
+  align-items: center;
+}
+
+
+/* 左の 3.5 を少し小さくして中央へ */
+
+.decimal-place-question-number {
+  font-size:
+    clamp(
+      44px,
+      4.7vw,
+      62px
+    );
+
+  align-self: center;
+}
+
+
+/* 右側を3段固定 */
+
+.decimal-place-question-body {
+  display: grid;
+
+  grid-template-rows:
+    auto
+    auto
+    38px;
+
+  gap: 5px;
+
+  align-items: center;
+
+  justify-content: stretch;
+
+  overflow: hidden;
+}
+
+
+/* 問題文 */
+
+.decimal-place-question-prompt {
+  font-size:
+    clamp(
+      17px,
+      1.7vw,
+      23px
+    );
+
+  line-height: 1.14;
+}
+
+
+/* ヒント */
+
+.decimal-place-question-guide {
+  font-size:
+    clamp(
+      10px,
+      .95vw,
+      12px
+    );
+
+  line-height: 1.1;
+}
+
+
+/* 選択肢を必ずカード内に収める */
+
+.decimal-place-question-options {
+  width: 100%;
+  height: 38px;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    );
+
+  gap: 6px;
+
+  margin: 0;
+}
+
+
+.decimal-place-question-option {
+  height: 38px;
+
+  min-height: 38px;
+
+  padding:
+    3px
+    5px;
+
+  overflow: hidden;
+}
+
+
+/* A / B / C */
+
+.decimal-place-question-option span {
+  font-size: 14px;
+}
+
+
+/* 選択肢本文 */
+
+.decimal-place-question-option strong {
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    );
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   左側チュートリアルも
+   右カードと高さを揃える
+========================================================= */
+
+.decimal-place-help {
+  height: 138px;
+}
+
+
+/* =========================================================
+   画面幅が狭い場合
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .decimal-place-question-box,
+  .decimal-place-help {
+    height: 126px;
+  }
+
+
+  .decimal-place-question-box {
+    grid-template-columns:
+      minmax(0, 24%)
+      minmax(0, 76%);
+
+    gap: 5px;
+
+    padding:
+      6px;
+  }
+
+
+  .decimal-place-question-number {
+    font-size:
+      clamp(
+        32px,
+        8vw,
+        44px
+      );
+  }
+
+
+  .decimal-place-question-body {
+    grid-template-rows:
+      auto
+      auto
+      32px;
+
+    gap: 3px;
+  }
+
+
+  .decimal-place-question-options {
+    height: 32px;
+
+    gap: 3px;
+  }
+
+
+  .decimal-place-question-option {
+    height: 32px;
+    min-height: 32px;
+  }
+}
+
+/* =========================================================
+   WORLD4 小数 S5
+   右問題カードの重なり修正
+========================================================= */
+
+.decimal-place-question-box {
+  height: 142px;
+}
+
+
+/* 右側を3段に固定 */
+
+.decimal-place-question-body {
+  display: grid !important;
+
+  grid-template-rows:
+    48px
+    22px
+    36px !important;
+
+  gap: 4px !important;
+
+  align-items: center !important;
+
+  justify-content: center !important;
+
+  overflow: hidden !important;
+}
+
+
+/* 問題文 */
+
+.decimal-place-question-prompt {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-size:
+    clamp(
+      17px,
+      1.7vw,
+      22px
+    ) !important;
+
+  line-height: 1.1 !important;
+
+  text-align: center;
+}
+
+
+/* ヒント */
+
+.decimal-place-question-guide {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  font-size:
+    clamp(
+      9px,
+      .9vw,
+      12px
+    ) !important;
+
+  line-height: 1 !important;
+
+  text-align: center;
+}
+
+
+/* 選択肢 */
+
+.decimal-place-question-options {
+  width: 100%;
+  height: 36px;
+
+  display: grid !important;
+
+  grid-template-columns:
+    repeat(
+      3,
+      minmax(0, 1fr)
+    ) !important;
+
+  gap: 6px !important;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  align-self: end;
+}
+
+
+/* 各選択肢 */
+
+.decimal-place-question-option {
+  height: 34px !important;
+  min-height: 34px !important;
+
+  margin: 0 !important;
+
+  padding:
+    2px
+    5px !important;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   左の3.5も少しだけ中央寄せ
+========================================================= */
+
+.decimal-place-question-number {
+  font-size:
+    clamp(
+      42px,
+      4.5vw,
+      58px
+    ) !important;
+
+  transform: translateY(-2px);
+}
+
+
+/* =========================================================
+   左のチュートリアルも高さを合わせる
+========================================================= */
+
+.decimal-place-help {
+  height: 142px;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .decimal-place-question-box,
+  .decimal-place-help {
+    height: 126px;
+  }
+
+
+  .decimal-place-question-body {
+    grid-template-rows:
+      42px
+      18px
+      30px !important;
+
+    gap: 3px !important;
+  }
+
+
+  .decimal-place-question-options {
+    height: 30px;
+  }
+
+
+  .decimal-place-question-option {
+    height: 28px !important;
+    min-height: 28px !important;
+  }
+
+
+  .decimal-place-question-number {
+    font-size:
+      clamp(
+        32px,
+        8vw,
+        44px
+      ) !important;
+
+    transform: none;
+  }
+}
+
+/* =========================================================
+   WORLD4 分数 S2
+   分数の大きさ
+========================================================= */
+
+.question-card:has(.fraction-compare-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    8px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.fraction-compare-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    25px
+    minmax(0, 1fr)
+    18px;
+
+  gap: 2px;
+
+  align-items: center;
+}
+
+
+.question-card:has(.fraction-compare-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   全体
+========================================================= */
+
+.fraction-compare-layout {
+  width: min(920px, 98%);
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 56%)
+    minmax(0, 44%);
+
+  gap: 20px;
+
+  align-items: center;
+
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   左：図
+========================================================= */
+
+.fraction-compare-visual {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto
+    minmax(0, 1fr);
+
+  gap: 12px;
+
+  align-items: center;
+}
+
+
+.fraction-compare-side {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+}
+
+
+.fraction-compare-label {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      28px,
+      3vw,
+      42px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+/* 分数バー */
+
+.fraction-compare-bar {
+  width: 100%;
+  height: 62px;
+
+  display: grid;
+
+  border:
+    3px solid
+    rgba(125,211,252,.85);
+
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+
+  background:
+    rgba(255,255,255,.05);
+}
+
+
+.fraction-compare-bar span {
+  border-right:
+    2px solid
+    rgba(255,255,255,.25);
+
+  background:
+    rgba(255,255,255,.04);
+}
+
+
+.fraction-compare-bar span:last-child {
+  border-right: none;
+}
+
+
+.fraction-compare-bar span.is-filled {
+  background:
+    rgba(34,211,238,.75);
+}
+
+
+.fraction-compare-vs {
+  color: #fde68a;
+
+  font-size: 22px;
+
+  font-weight: 1000;
+}
+
+
+/* =========================================================
+   右：問題
+========================================================= */
+
+.fraction-compare-question {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 9px;
+}
+
+
+.fraction-compare-prompt {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+.fraction-compare-guide {
+  width: 100%;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      11px,
+      1.1vw,
+      15px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.2;
+
+  text-align: center;
+}
+
+
+/* 上側A/B/C */
+
+.fraction-compare-choices {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 6px;
+}
+
+
+.fraction-compare-choice {
+  height: 44px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  padding:
+    4px
+    5px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 9px;
+
+  background:
+    rgba(255,255,255,.055);
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.fraction-compare-choice span {
+  color: #fde68a;
+
+  font-size: 17px;
+
+  font-weight: 1000;
+}
+
+
+.fraction-compare-choice strong {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      12px,
+      1.3vw,
+      17px
+    );
+
+  font-weight: 1000;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.fraction-compare-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px;
+  }
+
+
+  .question-card:has(.fraction-compare-layout) > div {
+    grid-template-rows:
+      23px
+      minmax(0, 1fr)
+      16px;
+  }
+
+
+  .fraction-compare-layout {
+    width: 99%;
+
+    grid-template-columns:
+      minmax(0, 56%)
+      minmax(0, 44%);
+
+    gap: 7px;
+  }
+
+
+  .fraction-compare-visual {
+    gap: 5px;
+  }
+
+
+  .fraction-compare-side {
+    gap: 6px;
+  }
+
+
+  .fraction-compare-label {
+    font-size:
+      clamp(
+        21px,
+        5.5vw,
+        30px
+      );
+  }
+
+
+  .fraction-compare-bar {
+    height: 48px;
+
+    border-width: 2px;
+
+    border-radius: 8px;
+  }
+
+
+  .fraction-compare-bar span {
+    border-right-width: 1px;
+  }
+
+
+  .fraction-compare-vs {
+    font-size: 16px;
+  }
+
+
+  .fraction-compare-question {
+    gap: 5px;
+  }
+
+
+  .fraction-compare-prompt {
+    font-size:
+      clamp(
+        15px,
+        3.7vw,
+        20px
+      );
+  }
+
+
+  .fraction-compare-guide {
+    font-size:
+      clamp(
+        8px,
+        2.3vw,
+        11px
+      );
+  }
+
+
+  .fraction-compare-choices {
+    gap: 3px;
+  }
+
+
+  .fraction-compare-choice {
+    height: 35px;
+
+    gap: 2px;
+
+    padding: 2px;
+  }
+
+
+  .fraction-compare-choice span {
+    font-size: 12px;
+  }
+
+
+  .fraction-compare-choice strong {
+    font-size:
+      clamp(
+        9px,
+        2.5vw,
+        12px
+      );
+  }
+}
+
+/* =========================================================
+   WORLD4 分数 S2
+   分数の大きさ
+========================================================= */
+
+.question-card:has(.fraction-s2-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    7px
+    18px
+    7px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.fraction-s2-layout) > div {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-rows:
+    24px
+    minmax(0, 1fr)
+    18px;
+
+  gap: 2px;
+
+  align-items: center;
+}
+
+
+.question-card:has(.fraction-s2-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   問題全体
+========================================================= */
+
+.fraction-s2-layout {
+  width: min(880px, 96%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  margin: 0 auto;
+}
+
+
+/* 問題文 */
+
+.fraction-s2-prompt {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   左右の分数
+========================================================= */
+
+.fraction-s2-compare {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    35px
+    minmax(0, 1fr);
+
+  gap: 12px;
+
+  align-items: center;
+}
+
+
+.fraction-s2-side {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+}
+
+
+/* 2/3 など */
+
+.fraction-s2-label {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      27px,
+      2.8vw,
+      38px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+/* =========================================================
+   分数バー
+========================================================= */
+
+.fraction-s2-bar {
+  width: 100%;
+  height: 48px;
+
+  display: grid;
+
+  border:
+    3px solid
+    rgba(125,211,252,.9);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255,255,255,.05);
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.fraction-s2-cell {
+  min-width: 0;
+
+  border-right:
+    2px solid
+    rgba(255,255,255,.32);
+
+  box-sizing: border-box;
+}
+
+
+.fraction-s2-cell:last-child {
+  border-right: none;
+}
+
+
+/* 色がついている部分 */
+
+.fraction-s2-cell.is-filled {
+  background:
+    linear-gradient(
+      180deg,
+      #67e8f9,
+      #0891b2
+    );
+}
+
+
+/* 塗られていない部分 */
+
+.fraction-s2-cell.is-empty {
+  background:
+    rgba(255,255,255,.04);
+}
+
+
+/* と */
+
+.fraction-s2-vs {
+  color: #fde68a;
+
+  font-size: 22px;
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   ヒント
+========================================================= */
+
+.fraction-s2-guide {
+  width: 100%;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   A/B/Cの説明
+========================================================= */
+
+.fraction-s2-options {
+  width: min(620px, 95%);
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 8px;
+}
+
+
+.fraction-s2-option {
+  height: 34px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  padding:
+    3px
+    7px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255,255,255,.055);
+
+  box-sizing: border-box;
+}
+
+
+.fraction-s2-option span {
+  color: #fde68a;
+
+  font-size: 16px;
+
+  font-weight: 1000;
+}
+
+
+.fraction-s2-option strong {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      11px,
+      1.15vw,
+      15px
+    );
+
+  font-weight: 1000;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .fraction-s2-layout {
+    width: 98%;
+
+    gap: 5px;
+  }
+
+
+  .fraction-s2-prompt {
+    font-size:
+      clamp(
+        15px,
+        3.8vw,
+        20px
+      );
+  }
+
+
+  .fraction-s2-compare {
+    grid-template-columns:
+      minmax(0, 1fr)
+      22px
+      minmax(0, 1fr);
+
+    gap: 5px;
+  }
+
+
+  .fraction-s2-label {
+    font-size:
+      clamp(
+        21px,
+        5vw,
+        29px
+      );
+  }
+
+
+  .fraction-s2-bar {
+    height: 39px;
+
+    border-width: 2px;
+  }
+
+
+  .fraction-s2-cell {
+    border-right-width: 1px;
+  }
+
+
+  .fraction-s2-vs {
+    font-size: 16px;
+  }
+
+
+  .fraction-s2-options {
+    width: 98%;
+
+    gap: 3px;
+  }
+
+
+  .fraction-s2-option {
+    height: 30px;
+
+    gap: 3px;
+
+    padding: 2px;
+  }
+
+
+  .fraction-s2-option span {
+    font-size: 12px;
+  }
+
+
+  .fraction-s2-option strong {
+    font-size:
+      clamp(
+        8px,
+        2.4vw,
+        11px
+      );
+  }
+}
+
+/* =========================================================
+   全WORLD共通
+   問題画面：単元タイトル
+========================================================= */
+
+.game-unit-header {
+  width: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  margin:
+    0
+    0
+    2px;
+
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   左上タイトル
+
+   例：
+   足し算・1けた＋1けた
+   分数・分数の大きさ
+========================================================= */
+
+.game-unit-title {
+  width: auto;
+
+  display: flex;
+
+  align-items: center;
+
+  padding:
+    2px
+    0
+    2px
+    13px;
+
+  border-left:
+    4px solid
+    #fde047;
+
+  color:
+    #fffdf2;
+
+  font-size:
+    clamp(
+      16px,
+      1.55vw,
+      21px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.2;
+
+  letter-spacing: .02em;
+
+  text-align: left;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   やめる / バリア / 問題数
+========================================================= */
+
+.game-toolbar {
+  margin-top: 0;
+
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   問題カード
+
+   単元タイトルを外へ出したため
+   問題カード内は問題そのものだけにする
+========================================================= */
+
+.game-area .question-card > div {
+  min-height: 0;
+}
+
+
+/* 問題カード内に古い単元タイトルが残った場合の保険 */
+
+.game-area
+.question-card
+> div
+> p.muted:first-child {
+  display: none;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .game-unit-header {
+    margin-bottom: 1px;
+  }
+
+
+  .game-unit-title {
+    padding-left: 9px;
+
+    border-left-width: 3px;
+
+    font-size:
+      clamp(
+        13px,
+        3.5vw,
+        17px
+      );
+  }
+}
+
+/* =========================================================
+   2026-08-13
+   問題画面 共通レイアウト再統一
+
+   単元タイトルを question-card 外へ移動した後の
+   旧「タイトル / 問題 / ガイド」3段構造を解除する
+========================================================= */
+
+
+/* =========================================================
+   1. 全問題カード共通
+========================================================= */
+
+.game-area > .question-card {
+  box-sizing: border-box;
+}
+
+
+/*
+  question-card 内は現在
+
+  問題
+  ↓
+  ガイド
+
+  の2段だけ。
+
+  旧タイトル行はもう作らない。
+*/
+
+.game-area > .question-card > div {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: grid;
+
+  grid-template-rows:
+    minmax(0, 1fr)
+    auto !important;
+
+  gap: 4px;
+
+  align-items: center;
+
+  box-sizing: border-box;
+}
+
+
+/* 問題本体 */
+
+.game-area > .question-card .question {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* 下部ガイド */
+
+.game-area > .question-card .flash-guide {
+  min-height: 16px;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  align-self: end;
+
+  line-height: 1.1;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   2. 旧タイトル用スペースを強制解除
+========================================================= */
+
+.question-card:has(.addition-layout) > div,
+.question-card:has(.addition-word-text) > div,
+
+.question-card:has(.subtraction-layout) > div,
+.question-card:has(.subtraction-word-text) > div,
+.question-card:has(.subtraction-word-layout) > div,
+
+.question-card:has(.multiply-layout) > div,
+.question-card:has(.multiply-master-text) > div,
+.question-card:has(.multiply-word-text) > div,
+.question-card:has(.multiply-flash-text) > div,
+
+.question-card:has(.division-layout) > div,
+.question-card:has(.division-fact-layout) > div,
+.question-card:has(.division-word-layout) > div,
+.question-card:has(.division-flash-text) > div,
+
+.question-card:has(.decimal-choice-question) > div,
+.question-card:has(.decimal-over-layout) > div,
+.question-card:has(.decimal-numberline-layout) > div,
+.question-card:has(.decimal-compare-layout) > div,
+.question-card:has(.decimal-compare-simple) > div,
+.question-card:has(.decimal-calc-layout) > div,
+.question-card:has(.decimal-word-layout) > div,
+.question-card:has(.decimal-place-stage) > div,
+
+.question-card:has(.fraction-choice-question) > div,
+.question-card:has(.fraction-s2-layout) > div {
+
+  grid-template-rows:
+    minmax(0, 1fr)
+    auto !important;
+
+  gap: 4px !important;
+}
+
+
+/* =========================================================
+   3. 古い38px上余白を解除
+========================================================= */
+
+.question-card:has(.addition-layout),
+.question-card:has(.addition-word-text),
+
+.question-card:has(.subtraction-layout),
+.question-card:has(.subtraction-word-text),
+.question-card:has(.subtraction-word-layout),
+
+.question-card:has(.multiply-layout),
+.question-card:has(.multiply-master-text),
+.question-card:has(.multiply-word-text),
+.question-card:has(.multiply-flash-text),
+
+.question-card:has(.division-layout),
+.question-card:has(.division-fact-layout),
+.question-card:has(.division-word-layout),
+.question-card:has(.division-flash-text),
+
+.question-card:has(.decimal-over-layout),
+.question-card:has(.decimal-numberline-layout),
+.question-card:has(.decimal-compare-layout),
+.question-card:has(.decimal-compare-simple),
+.question-card:has(.decimal-calc-layout),
+.question-card:has(.decimal-word-layout),
+.question-card:has(.decimal-place-stage),
+
+.question-card:has(.fraction-s2-layout) {
+
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    10px
+    18px
+    8px !important;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   4. 過去の位置補正をリセット
+========================================================= */
+
+.addition-word-text,
+
+.subtraction-word-text,
+.subtraction-word-layout,
+
+.multiply-layout,
+.multiply-text-side,
+.multiply-word-text,
+
+.division-layout,
+.division-visual-side,
+.division-text-side,
+.division-fact-layout,
+
+.decimal-over-layout,
+.decimal-numberline-layout,
+.decimal-compare-layout,
+.decimal-calc-layout,
+.decimal-word-layout,
+
+.fraction-s2-layout {
+
+  transform: none !important;
+}
+
+
+/* =========================================================
+   5. W1 文章題
+========================================================= */
+
+.question-card:has(.addition-word-text) .question,
+.question-card:has(.subtraction-word-text) .question,
+.question-card:has(.subtraction-word-layout) .question {
+
+  align-items: center !important;
+
+  padding: 0 !important;
+}
+
+
+.addition-word-text {
+  width: min(820px, 94%);
+
+  margin: 0 auto;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  line-height: 1.35;
+}
+
+
+.subtraction-word-text {
+  margin: 0;
+
+  line-height: 1.3;
+}
+
+
+/* =========================================================
+   6. W3 割り算
+========================================================= */
+
+.question-card:has(.division-layout) .question,
+.question-card:has(.division-fact-layout) .question,
+.question-card:has(.division-word-layout) .question,
+.question-card:has(.division-flash-text) .question {
+
+  height: 100%;
+
+  align-items: center;
+}
+
+
+/* S1 */
+
+.division-layout {
+  height: 100%;
+
+  align-items: center;
+}
+
+
+/* S3 */
+
+.division-fact-layout {
+  height: auto;
+
+  align-self: center;
+}
+
+
+/* S5 */
+
+.division-word-layout {
+  height: 100%;
+
+  align-items: center;
+}
+
+
+/* S6 */
+
+.division-flash-text {
+  height: 100%;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* =========================================================
+   7. WORLD4 小数
+========================================================= */
+
+.decimal-over-layout,
+.decimal-numberline-layout,
+.decimal-compare-layout,
+.decimal-calc-layout,
+.decimal-word-layout {
+
+  max-height: 100%;
+}
+
+
+/* 数直線 */
+
+.decimal-numberline-visual {
+  padding-top: 10px;
+}
+
+
+/* 計算 */
+
+.decimal-calc-layout {
+  justify-content: center;
+}
+
+
+/* 文章題 */
+
+.decimal-word-layout {
+  align-items: center;
+}
+
+
+/* =========================================================
+   8. WORLD4 分数 S2
+========================================================= */
+
+.question-card:has(.fraction-s2-layout) .question {
+  align-items: center;
+}
+
+
+.fraction-s2-layout {
+  width: min(880px, 96%);
+
+  height: 100%;
+
+  justify-content: center;
+
+  gap: 6px;
+}
+
+
+.fraction-s2-compare {
+  min-height: 0;
+}
+
+
+.fraction-s2-bar {
+  height: 42px;
+}
+
+
+.fraction-s2-options {
+  flex-shrink: 0;
+}
+
+
+/* =========================================================
+   9. スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.addition-layout),
+  .question-card:has(.addition-word-text),
+
+  .question-card:has(.subtraction-layout),
+  .question-card:has(.subtraction-word-text),
+  .question-card:has(.subtraction-word-layout),
+
+  .question-card:has(.multiply-layout),
+  .question-card:has(.multiply-master-text),
+  .question-card:has(.multiply-word-text),
+  .question-card:has(.multiply-flash-text),
+
+  .question-card:has(.division-layout),
+  .question-card:has(.division-fact-layout),
+  .question-card:has(.division-word-layout),
+  .question-card:has(.division-flash-text),
+
+  .question-card:has(.decimal-over-layout),
+  .question-card:has(.decimal-numberline-layout),
+  .question-card:has(.decimal-compare-layout),
+  .question-card:has(.decimal-compare-simple),
+  .question-card:has(.decimal-calc-layout),
+  .question-card:has(.decimal-word-layout),
+  .question-card:has(.decimal-place-stage),
+
+  .question-card:has(.fraction-s2-layout) {
+
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      7px
+      8px
+      6px !important;
+  }
+
+
+  .game-area > .question-card > div {
+    grid-template-rows:
+      minmax(0, 1fr)
+      16px !important;
+
+    gap: 2px;
+  }
+
+
+  .fraction-s2-bar {
+    height: 36px;
+  }
+}
+
+/* =========================================================
+   WORLD1 足し算 S5
+   文章題：左イラスト / 右文章
+========================================================= */
+
+.question-card:has(.addition-word-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    10px
+    18px
+    8px !important;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.addition-word-layout) .question {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   全体
+========================================================= */
+
+.addition-word-layout {
+  width: min(900px, 96%);
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 38%)
+    minmax(0, 62%);
+
+  gap: 24px;
+
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 0 10px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+
+  transform: none !important;
+}
+
+
+/* =========================================================
+   左：イラスト
+========================================================= */
+
+.addition-word-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.addition-word-scene {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  overflow: hidden;
+}
+
+
+/* バス・木・えんぴつなど */
+
+.addition-word-main-icon {
+  font-size:
+    clamp(
+      54px,
+      5.8vw,
+      82px
+    );
+
+  line-height: 1;
+}
+
+
+/* バス停・箱・皿など */
+
+.addition-word-sub-icon {
+  font-size:
+    clamp(
+      28px,
+      3vw,
+      42px
+    );
+
+  line-height: 1;
+}
+
+
+/* 人数表示 */
+
+.addition-word-people-badge {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+
+  padding:
+    4px
+    10px;
+
+  border:
+    2px solid
+    rgba(125, 211, 252, .7);
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 255, 255, .06);
+}
+
+
+.addition-word-person {
+  font-size:
+    clamp(
+      24px,
+      2.6vw,
+      34px
+    );
+}
+
+
+.addition-word-count {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      15px,
+      1.5vw,
+      20px
+    );
+
+  font-weight: 900;
+}
+
+
+/* ＋ */
+
+.addition-word-plus {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      22px,
+      2.4vw,
+      32px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+/* 数字だけの場面用 */
+
+.addition-word-number-row {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 14px;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      28px,
+      3.2vw,
+      44px
+    );
+
+  font-weight: 1000;
+}
+
+
+/* =========================================================
+   右：文章
+========================================================= */
+
+.addition-word-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  overflow: hidden;
+}
+
+
+.addition-word-text {
+  width: 100%;
+
+  margin: 0 !important;
+  padding: 0 !important;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.4;
+
+  white-space: pre-line;
+
+  text-align: left;
+
+  transform: none !important;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.addition-word-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      7px
+      8px
+      6px !important;
+  }
+
+
+  .addition-word-layout {
+    width: 99%;
+
+    grid-template-columns:
+      minmax(0, 34%)
+      minmax(0, 66%);
+
+    gap: 8px;
+
+    padding: 0 2px;
+  }
+
+
+  .addition-word-main-icon {
+    font-size:
+      clamp(
+        42px,
+        10vw,
+        60px
+      );
+  }
+
+
+  .addition-word-sub-icon {
+    font-size:
+      clamp(
+        22px,
+        6vw,
+        32px
+      );
+  }
+
+
+  .addition-word-people-badge {
+    gap: 3px;
+
+    padding:
+      3px
+      5px;
+  }
+
+
+  .addition-word-person {
+    font-size:
+      clamp(
+        18px,
+        5vw,
+        26px
+      );
+  }
+
+
+  .addition-word-count {
+    font-size:
+      clamp(
+        11px,
+        2.8vw,
+        15px
+      );
+  }
+
+
+  .addition-word-plus {
+    font-size:
+      clamp(
+        17px,
+        4vw,
+        23px
+      );
+  }
+
+
+  .addition-word-text {
+    font-size:
+      clamp(
+        16px,
+        3.7vw,
+        21px
+      );
+
+    line-height: 1.3;
+  }
+}
+
+/* =========================================================
+   足し算文章題：式を自分で考える表示
+   □ ＋ ○
+========================================================= */
+
+.addition-word-number-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  margin-top: 4px;
+}
+
+.addition-word-formula-box {
+  color: #fffdf2;
+
+  font-size: clamp(
+    28px,
+    3vw,
+    42px
+  );
+
+  font-weight: 900;
+
+  line-height: 1;
+}
+
+.addition-word-number-row .addition-word-plus {
+  color: #fde68a;
+
+  font-size: clamp(
+    25px,
+    2.8vw,
+    38px
+  );
+
+  font-weight: 900;
+
+  line-height: 1;
+}
+
+/* =========================================================
+   WORLD4 分数 S3
+   同じ大きさの分数
+========================================================= */
+
+.question-card:has(.fraction-equivalent-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    8px !important;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.question-card:has(.fraction-equivalent-layout)
+.question {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* 全体 */
+
+.fraction-equivalent-layout {
+  width: min(900px, 96%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  margin: 0 auto;
+}
+
+
+/* 問題文 */
+
+.fraction-equivalent-prompt {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      25px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.15;
+
+  text-align: center;
+}
+
+
+/* 左右比較 */
+
+.fraction-equivalent-compare {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    50px
+    minmax(0, 1fr);
+
+  gap: 12px;
+
+  align-items: center;
+}
+
+
+.fraction-equivalent-side {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 6px;
+}
+
+
+/* 分数表示 */
+
+.fraction-equivalent-label {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      26px,
+      2.8vw,
+      38px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+/* バー */
+
+.fraction-equivalent-bar {
+  width: 100%;
+  height: 44px;
+
+  display: grid;
+
+  border:
+    3px solid
+    rgba(125,211,252,.9);
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+
+  background:
+    rgba(255,255,255,.05);
+}
+
+
+.fraction-equivalent-cell {
+  min-width: 0;
+
+  border-right:
+    2px solid
+    rgba(255,255,255,.28);
+
+  box-sizing: border-box;
+}
+
+
+.fraction-equivalent-cell:last-child {
+  border-right: none;
+}
+
+
+.fraction-equivalent-cell.is-filled {
+  background:
+    linear-gradient(
+      180deg,
+      #67e8f9,
+      #0891b2
+    );
+}
+
+
+.fraction-equivalent-cell.is-empty {
+  background:
+    rgba(255,255,255,.04);
+}
+
+
+/* 中央 */
+
+.fraction-equivalent-center {
+  color: #fde68a;
+
+  font-size: 25px;
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+/* ヒント */
+
+.fraction-equivalent-guide {
+  width: 100%;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.15;
+
+  text-align: center;
+}
+
+
+/* A/B/C */
+
+.fraction-equivalent-options {
+  width: min(720px, 100%);
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 7px;
+}
+
+
+.fraction-equivalent-option {
+  min-height: 36px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  padding:
+    3px
+    6px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255,255,255,.055);
+
+  box-sizing: border-box;
+}
+
+
+.fraction-equivalent-letter {
+  color: #fde68a;
+
+  font-size: 15px;
+
+  font-weight: 1000;
+}
+
+
+.fraction-equivalent-value {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      10px,
+      1.05vw,
+      14px
+    );
+
+  font-weight: 1000;
+
+  white-space: nowrap;
+}
+
+
+/* スマホ */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.fraction-equivalent-layout) {
+    height: 220px;
+    min-height: 220px;
+    max-height: 220px;
+
+    padding:
+      6px
+      8px
+      6px !important;
+  }
+
+
+  .fraction-equivalent-layout {
+    width: 99%;
+
+    gap: 5px;
+  }
+
+
+  .fraction-equivalent-compare {
+    grid-template-columns:
+      minmax(0, 1fr)
+      32px
+      minmax(0, 1fr);
+
+    gap: 5px;
+  }
+
+
+  .fraction-equivalent-label {
+    font-size:
+      clamp(
+        20px,
+        5vw,
+        28px
+      );
+  }
+
+
+  .fraction-equivalent-bar {
+    height: 36px;
+
+    border-width: 2px;
+  }
+
+
+  .fraction-equivalent-cell {
+    border-right-width: 1px;
+  }
+
+
+  .fraction-equivalent-center {
+    font-size: 18px;
+  }
+
+
+  .fraction-equivalent-options {
+    gap: 3px;
+  }
+
+
+  .fraction-equivalent-option {
+    min-height: 30px;
+
+    gap: 2px;
+
+    padding: 2px;
+  }
+
+
+  .fraction-equivalent-letter {
+    font-size: 11px;
+  }
+
+
+  .fraction-equivalent-value {
+    font-size:
+      clamp(
+        8px,
+        2.3vw,
+        11px
+      );
+  }
+}
+
+/* =========================================================
+   WORLD4 分数 S4
+   分数の大小
+========================================================= */
+
+.question-card:has(.fraction-s4-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    10px
+    18px
+    8px !important;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.fraction-s4-layout {
+  width: min(820px, 94%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  margin: 0 auto;
+}
+
+
+.fraction-s4-prompt {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+.fraction-s4-numbers {
+  width: min(600px, 90%);
+
+  display: grid;
+
+  grid-template-columns:
+    1fr
+    auto
+    1fr;
+
+  gap: 30px;
+
+  align-items: center;
+}
+
+
+.fraction-s4-number {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-height: 72px;
+
+  border:
+    3px solid
+    rgba(125,211,252,.75);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255,255,255,.05);
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      42px,
+      4.5vw,
+      62px
+    );
+
+  font-weight: 1000;
+}
+
+
+.fraction-s4-vs {
+  color: #fde68a;
+
+  font-size: 24px;
+
+  font-weight: 1000;
+}
+
+
+.fraction-s4-guide {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    );
+
+  font-weight: 900;
+}
+
+
+.fraction-s4-options {
+  width: min(680px, 96%);
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 7px;
+}
+
+
+.fraction-s4-option {
+  min-height: 36px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255,255,255,.055);
+}
+
+
+.fraction-s4-option span {
+  color: #fde68a;
+
+  font-weight: 1000;
+}
+
+
+.fraction-s4-option strong {
+  color: #fffdf2;
+
+  font-weight: 1000;
+}
+
+/* =========================================================
+   WORLD4 分数 S4
+   分数の大小
+========================================================= */
+
+.question-card:has(.fraction-s4-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    10px
+    18px
+    8px !important;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.fraction-s4-layout {
+  width: min(820px, 94%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  margin: 0 auto;
+}
+
+
+.fraction-s4-prompt {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+.fraction-s4-expression {
+  width: min(620px, 90%);
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    70px
+    minmax(0, 1fr);
+
+  gap: 18px;
+
+  align-items: center;
+}
+
+
+.fraction-s4-number {
+  min-height: 76px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  border:
+    3px solid
+    rgba(125,211,252,.75);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255,255,255,.05);
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      42px,
+      4.5vw,
+      62px
+    );
+
+  font-weight: 1000;
+}
+
+
+.fraction-s4-blank {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      42px,
+      4vw,
+      56px
+    );
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+.fraction-s4-guide {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    );
+
+  font-weight: 900;
+
+  text-align: center;
+}
+
+
+.fraction-s4-options {
+  width: min(560px, 90%);
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 8px;
+}
+
+
+.fraction-s4-option {
+  min-height: 38px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  border:
+    2px solid
+    rgba(125,211,252,.65);
+
+  border-radius: 8px;
+
+  background:
+    rgba(255,255,255,.055);
+}
+
+
+.fraction-s4-option span {
+  color: #fde68a;
+
+  font-weight: 1000;
+}
+
+
+.fraction-s4-option strong {
+  color: #fffdf2;
+
+  font-size: 20px;
+
+  font-weight: 1000;
+}
+
+/* =========================================================
+   WORLD4 分数 S4
+   文字切れ修正
+========================================================= */
+
+.question-card:has(.fraction-s4-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    6px !important;
+
+  overflow: hidden;
+}
+
+
+/* 全体を少し上へ詰める */
+
+.fraction-s4-layout {
+  width: min(820px, 94%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 7px;
+
+  margin: 0 auto;
+}
+
+
+/* 問題文 */
+
+.fraction-s4-prompt {
+  margin: 0;
+
+  font-size:
+    clamp(
+      18px,
+      1.7vw,
+      24px
+    );
+
+  line-height: 1.05;
+}
+
+
+/* 分数部分 */
+
+.fraction-s4-expression {
+  width: min(560px, 88%);
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    54px
+    minmax(0, 1fr);
+
+  gap: 12px;
+
+  align-items: center;
+}
+
+
+.fraction-s4-number {
+  min-height: 58px;
+
+  font-size:
+    clamp(
+      34px,
+      3.7vw,
+      50px
+    );
+}
+
+
+.fraction-s4-blank {
+  font-size:
+    clamp(
+      32px,
+      3.4vw,
+      46px
+    );
+}
+
+
+/* ヒント */
+
+.fraction-s4-guide {
+  margin: 0;
+
+  font-size:
+    clamp(
+      9px,
+      .9vw,
+      12px
+    );
+
+  line-height: 1;
+}
+
+
+/* 上側のA/B/C説明 */
+
+.fraction-s4-options {
+  width: min(560px, 90%);
+
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, minmax(0, 1fr));
+
+  gap: 6px;
+}
+
+
+.fraction-s4-option {
+  height: 30px;
+  min-height: 30px;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 5px;
+
+  padding:
+    2px
+    5px;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.fraction-s4-option span {
+  font-size: 13px;
+
+  line-height: 1;
+}
+
+
+.fraction-s4-option strong {
+  font-size: 15px;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+/* =========================================================
+   WORLD4 分数 S5
+   同分母の足し算
+========================================================= */
+
+.question-card:has(.fraction-s5-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    10px
+    18px
+    8px !important;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+.fraction-s5-layout {
+  width: min(820px, 94%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 15px;
+
+  margin: 0 auto;
+}
+
+
+.fraction-s5-prompt {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  text-align: center;
+}
+
+
+.fraction-s5-expression {
+  width: min(650px, 94%);
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+
+.fraction-s5-fraction {
+  width: 90px;
+
+  display: grid;
+
+  grid-template-rows:
+    1fr
+    4px
+    1fr;
+
+  align-items: center;
+
+  padding:
+    7px
+    10px;
+
+  border:
+    3px solid
+    rgba(125,211,252,.75);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255,255,255,.05);
+
+  box-sizing: border-box;
+}
+
+
+.fraction-s5-numerator,
+.fraction-s5-denominator {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      30px,
+      3vw,
+      42px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+.fraction-s5-line {
+  width: 100%;
+  height: 3px;
+
+  background: #fffdf2;
+
+  border-radius: 999px;
+}
+
+
+.fraction-s5-symbol {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      28px,
+      3vw,
+      40px
+    );
+
+  font-weight: 1000;
+}
+
+
+.fraction-s5-answer {
+  border-color: #fbbf24;
+}
+
+
+.fraction-s5-answer
+.fraction-s5-numerator {
+  color: #fde68a;
+}
+
+
+.fraction-s5-guide {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      11px,
+      1vw,
+      14px
+    );
+
+  font-weight: 900;
+
+  text-align: center;
+}
+
+/* =========================================================
+   WORLD4 分数
+   S1〜S6 共通：縦型分数表記
+========================================================= */
+
+.fraction-display {
+  width: 62px;
+
+  display: grid;
+
+  grid-template-rows:
+    auto
+    3px
+    auto;
+
+  align-items: center;
+  justify-items: center;
+
+  gap: 3px;
+
+  flex-shrink: 0;
+}
+
+
+.fraction-display-numerator,
+.fraction-display-denominator {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      24px,
+      2.5vw,
+      36px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.fraction-display-line {
+  width: 100%;
+  height: 3px;
+
+  border-radius: 999px;
+
+  background: #fffdf2;
+}
+
+
+/* 選択肢の白背景内では濃い文字 */
+
+.fraction-choice-option
+.fraction-display-numerator,
+
+.fraction-choice-option
+.fraction-display-denominator {
+  color: #172033;
+}
+
+
+.fraction-choice-option
+.fraction-display-line {
+  background: #172033;
+}
+
+
+/* 小さな選択肢用 */
+
+.fraction-display.is-small {
+  width: 40px;
+}
+
+
+.fraction-display.is-small
+.fraction-display-numerator,
+
+.fraction-display.is-small
+.fraction-display-denominator {
+  font-size:
+    clamp(
+      13px,
+      1.4vw,
+      18px
+    );
+}
+
+
+.fraction-display.is-small
+.fraction-display-line {
+  height: 2px;
+}
+
+
+/* 整数 */
+
+.fraction-whole-number {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      34px,
+      3.8vw,
+      52px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+/* スマホ */
+
+@media (max-width: 760px) {
+
+  .fraction-display {
+    width: 48px;
+  }
+
+
+  .fraction-display-numerator,
+  .fraction-display-denominator {
+    font-size:
+      clamp(
+        18px,
+        4.8vw,
+        26px
+      );
+  }
+
+
+  .fraction-display.is-small {
+    width: 32px;
+  }
+
+
+  .fraction-display.is-small
+  .fraction-display-numerator,
+
+  .fraction-display.is-small
+  .fraction-display-denominator {
+    font-size:
+      clamp(
+        11px,
+        3vw,
+        15px
+      );
+  }
+}
+
+/* =========================================================
+   分数の横線 強制修正版
+   S1〜S6 共通
+========================================================= */
+
+.fraction-display {
+  display: inline-flex !important;
+  flex-direction: column !important;
+
+  align-items: center !important;
+  justify-content: center !important;
+
+  width: 64px !important;
+
+  gap: 0 !important;
+
+  vertical-align: middle;
+}
+
+
+.fraction-display-numerator,
+.fraction-display-denominator {
+  display: block !important;
+
+  width: 100% !important;
+
+  margin: 0 !important;
+  padding: 2px 4px !important;
+
+  text-align: center !important;
+
+  color: #fffdf2;
+
+  font-size: 32px;
+  font-weight: 900;
+
+  line-height: 1 !important;
+}
+
+
+.fraction-display-line {
+  display: block !important;
+
+  width: 100% !important;
+  height: 0 !important;
+
+  margin: 3px 0 !important;
+
+  padding: 0 !important;
+
+  border: 0 !important;
+  border-top: 3px solid #fffdf2 !important;
+
+  background: transparent !important;
+
+  flex: 0 0 auto !important;
+}
+
+
+/* =========================
+   S1 選択肢
+========================= */
+
+.fraction-choice-option .fraction-display {
+  width: 42px !important;
+}
+
+
+.fraction-choice-option
+.fraction-display-numerator,
+
+.fraction-choice-option
+.fraction-display-denominator {
+  color: #172033 !important;
+
+  font-size: 18px !important;
+
+  padding: 1px 3px !important;
+}
+
+
+.fraction-choice-option
+.fraction-display-line {
+  border-top-color: #172033 !important;
+
+  border-top-width: 2px !important;
+
+  margin: 2px 0 !important;
+}
+
+
+/* =========================
+   スマホ
+========================= */
+
+@media (max-width: 760px) {
+
+  .fraction-display {
+    width: 50px !important;
+  }
+
+
+  .fraction-display-numerator,
+  .fraction-display-denominator {
+    font-size: 24px;
+  }
+
+
+  .fraction-choice-option .fraction-display {
+    width: 34px !important;
+  }
+
+
+  .fraction-choice-option
+  .fraction-display-numerator,
+
+  .fraction-choice-option
+  .fraction-display-denominator {
+    font-size: 15px !important;
+  }
+}
+
+/* =========================================================
+   WORLD4 分数 S2 / S3
+   縦型分数対応 レイアウト調整
+========================================================= */
+
+
+/* =========================================================
+   S2 分数の大きさ
+========================================================= */
+
+.question-card:has(.fraction-s2-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    6px
+    18px
+    5px !important;
+
+  overflow: hidden;
+}
+
+
+.fraction-s2-layout {
+  width: min(900px, 96%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 3px !important;
+
+  margin: 0 auto;
+}
+
+
+/* 問題文 */
+
+.fraction-s2-prompt {
+  margin: 0;
+
+  font-size:
+    clamp(
+      18px,
+      1.7vw,
+      24px
+    );
+
+  line-height: 1.05;
+}
+
+
+/* 左右比較 */
+
+.fraction-s2-compare {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    34px
+    minmax(0, 1fr);
+
+  gap: 8px !important;
+
+  align-items: center;
+}
+
+
+/* 分数＋バー */
+
+.fraction-s2-side {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 3px !important;
+}
+
+
+/* S2では分数を少し小さめに */
+
+.fraction-s2-side
+.fraction-display {
+  width: 52px !important;
+}
+
+
+.fraction-s2-side
+.fraction-display-numerator,
+
+.fraction-s2-side
+.fraction-display-denominator {
+  font-size: 24px !important;
+
+  padding:
+    1px
+    3px !important;
+}
+
+
+.fraction-s2-side
+.fraction-display-line {
+  border-top-width: 2px !important;
+
+  margin:
+    1px
+    0 !important;
+}
+
+
+/* バー */
+
+.fraction-s2-bar {
+  height: 32px !important;
+}
+
+
+/* 「と」 */
+
+.fraction-s2-vs {
+  font-size: 18px !important;
+}
+
+
+/* ヒント */
+
+.fraction-s2-guide {
+  margin: 0;
+
+  font-size: 10px !important;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+/* 上側 A/B/C説明 */
+
+.fraction-s2-options {
+  width: min(620px, 90%);
+
+  gap: 5px !important;
+}
+
+
+.fraction-s2-option {
+  height: 26px !important;
+  min-height: 26px !important;
+
+  padding:
+    1px
+    4px !important;
+
+  gap: 4px !important;
+
+  overflow: hidden;
+}
+
+
+.fraction-s2-option span {
+  font-size: 11px !important;
+}
+
+
+.fraction-s2-option strong {
+  font-size: 11px !important;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   S3 同じ大きさの分数
+========================================================= */
+
+.question-card:has(.fraction-equivalent-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    6px
+    18px
+    5px !important;
+
+  overflow: hidden;
+}
+
+
+.fraction-equivalent-layout {
+  width: min(900px, 96%);
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 3px !important;
+
+  margin: 0 auto;
+}
+
+
+/* 問題文 */
+
+.fraction-equivalent-prompt {
+  margin: 0;
+
+  font-size:
+    clamp(
+      17px,
+      1.6vw,
+      23px
+    );
+
+  line-height: 1.05;
+}
+
+
+/* 左右 */
+
+.fraction-equivalent-compare {
+  width: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    40px
+    minmax(0, 1fr);
+
+  gap: 8px !important;
+
+  align-items: center;
+}
+
+
+.fraction-equivalent-side {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 3px !important;
+}
+
+
+/* S3分数サイズ */
+
+.fraction-equivalent-side
+.fraction-display {
+  width: 52px !important;
+}
+
+
+.fraction-equivalent-side
+.fraction-display-numerator,
+
+.fraction-equivalent-side
+.fraction-display-denominator {
+  font-size: 23px !important;
+
+  padding:
+    1px
+    3px !important;
+}
+
+
+.fraction-equivalent-side
+.fraction-display-line {
+  border-top-width: 2px !important;
+
+  margin:
+    1px
+    0 !important;
+}
+
+
+/* バー */
+
+.fraction-equivalent-bar {
+  height: 32px !important;
+}
+
+
+/* 中央 =? */
+
+.fraction-equivalent-center {
+  font-size: 18px !important;
+}
+
+
+/* ヒント */
+
+.fraction-equivalent-guide {
+  margin: 0;
+
+  font-size: 10px !important;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+/* A/B/C説明 */
+
+.fraction-equivalent-options {
+  width: min(680px, 92%);
+
+  gap: 5px !important;
+}
+
+
+.fraction-equivalent-option {
+  height: 26px !important;
+  min-height: 26px !important;
+
+  padding:
+    1px
+    4px !important;
+
+  gap: 3px !important;
+
+  overflow: hidden;
+}
+
+
+.fraction-equivalent-letter {
+  font-size: 11px !important;
+}
+
+
+.fraction-equivalent-value {
+  font-size: 10px !important;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .fraction-s2-side
+  .fraction-display,
+
+  .fraction-equivalent-side
+  .fraction-display {
+    width: 42px !important;
+  }
+
+
+  .fraction-s2-side
+  .fraction-display-numerator,
+
+  .fraction-s2-side
+  .fraction-display-denominator,
+
+  .fraction-equivalent-side
+  .fraction-display-numerator,
+
+  .fraction-equivalent-side
+  .fraction-display-denominator {
+    font-size: 19px !important;
+  }
+
+
+  .fraction-s2-bar,
+  .fraction-equivalent-bar {
+    height: 28px !important;
+  }
+
+
+  .fraction-s2-options,
+  .fraction-equivalent-options {
+    width: 98%;
+  }
+}
+
+/* =========================================================
+   WORLD4 分数
+   上部 A/B/C 選択肢説明を見やすくする
+========================================================= */
+
+
+/* =========================================================
+   S1 分数をみつけよう
+========================================================= */
+
+.fraction-choice-options {
+  width: min(900px, 98%) !important;
+
+  gap: 10px !important;
+}
+
+
+.fraction-choice-option {
+  min-height: 48px !important;
+
+  padding:
+    5px
+    12px !important;
+
+  gap: 10px !important;
+
+  border-radius: 10px;
+}
+
+
+.fraction-choice-letter {
+  min-width: 26px;
+  min-height: 26px;
+
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size: 14px !important;
+
+  line-height: 1;
+
+  flex-shrink: 0;
+}
+
+
+.fraction-choice-value {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  min-width: 0;
+
+  font-size: 18px !important;
+}
+
+
+/* S1 選択肢内の分数 */
+
+.fraction-choice-option
+.fraction-display {
+  width: 46px !important;
+}
+
+
+.fraction-choice-option
+.fraction-display-numerator,
+
+.fraction-choice-option
+.fraction-display-denominator {
+  font-size: 19px !important;
+
+  line-height: 1 !important;
+}
+
+
+.fraction-choice-option
+.fraction-display-line {
+  margin:
+    2px
+    0 !important;
+
+  border-top-width: 2px !important;
+}
+
+
+/* =========================================================
+   S2 分数の大きさ
+========================================================= */
+
+.fraction-s2-options {
+  width: min(760px, 94%) !important;
+
+  gap: 8px !important;
+}
+
+
+.fraction-s2-option {
+  height: 34px !important;
+  min-height: 34px !important;
+
+  padding:
+    3px
+    8px !important;
+
+  gap: 6px !important;
+}
+
+
+.fraction-s2-option span {
+  font-size: 13px !important;
+
+  font-weight: 1000;
+}
+
+
+.fraction-s2-option strong {
+  font-size: 14px !important;
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   S3 同じ大きさの分数
+========================================================= */
+
+.fraction-equivalent-options {
+  width: min(780px, 94%) !important;
+
+  gap: 8px !important;
+}
+
+
+.fraction-equivalent-option {
+  height: 34px !important;
+  min-height: 34px !important;
+
+  padding:
+    3px
+    8px !important;
+
+  gap: 6px !important;
+}
+
+
+.fraction-equivalent-letter {
+  font-size: 13px !important;
+
+  font-weight: 1000;
+}
+
+
+.fraction-equivalent-value {
+  font-size: 13px !important;
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================================
+   S4 分数の大小
+========================================================= */
+
+.fraction-s4-options {
+  width: min(620px, 90%) !important;
+
+  gap: 10px !important;
+}
+
+
+.fraction-s4-option {
+  height: 40px !important;
+  min-height: 40px !important;
+
+  gap: 8px !important;
+}
+
+
+.fraction-s4-option span {
+  font-size: 14px !important;
+
+  font-weight: 1000;
+}
+
+
+.fraction-s4-option strong {
+  font-size: 22px !important;
+
+  font-weight: 1000;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .fraction-choice-option {
+    min-height: 40px !important;
+
+    padding:
+      3px
+      5px !important;
+
+    gap: 5px !important;
+  }
+
+
+  .fraction-choice-value {
+    font-size: 15px !important;
+  }
+
+
+  .fraction-s2-option,
+  .fraction-equivalent-option {
+    height: 30px !important;
+    min-height: 30px !important;
+  }
+
+
+  .fraction-s2-option strong,
+  .fraction-equivalent-value {
+    font-size: 11px !important;
+  }
+
+
+  .fraction-s4-option {
+    height: 34px !important;
+    min-height: 34px !important;
+  }
+
+
+  .fraction-s4-option strong {
+    font-size: 18px !important;
+  }
+}
+
+/* =========================================================
+   WORLD4 分数 S6
+   同分母の引き算＋文章題
+========================================================= */
+
+.question-card:has(.fraction-s6-layout) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+
+  padding:
+    8px
+    18px
+    6px !important;
+
+  overflow: hidden;
+
+  box-sizing: border-box;
+}
+
+
+.fraction-s6-layout {
+  width: min(900px, 96%);
+  height: 100%;
+
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+
+/* =========================================================
+   計算
+========================================================= */
+
+.fraction-s6-calc {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+}
+
+
+.fraction-s6-prompt {
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.1;
+
+  text-align: center;
+}
+
+
+.fraction-s6-expression {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+
+.fraction-s6-fraction {
+  width: 88px;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 3px;
+
+  padding:
+    7px
+    10px;
+
+  border:
+    3px solid
+    rgba(125,211,252,.75);
+
+  border-radius: 13px;
+
+  background:
+    rgba(255,255,255,.05);
+
+  box-sizing: border-box;
+}
+
+
+.fraction-s6-numerator,
+.fraction-s6-denominator {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      28px,
+      3vw,
+      40px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  text-align: center;
+}
+
+
+.fraction-s6-line {
+  width: 100%;
+  height: 0;
+
+  border-top:
+    3px solid
+    #fffdf2;
+}
+
+
+.fraction-s6-symbol {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      28px,
+      3vw,
+      40px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+}
+
+
+.fraction-s6-answer {
+  border-color: #fbbf24;
+}
+
+
+.fraction-s6-answer
+.fraction-s6-numerator {
+  color: #fde68a;
+}
+
+
+/* =========================================================
+   文章題
+========================================================= */
+
+.fraction-s6-word-layout {
+  width: 100%;
+  height: 150px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 36%)
+    minmax(0, 64%);
+
+  gap: 22px;
+
+  align-items: center;
+}
+
+
+.fraction-s6-word-visual {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+
+.fraction-s6-word-icon {
+  font-size:
+    clamp(
+      52px,
+      5.5vw,
+      78px
+    );
+
+  line-height: 1;
+}
+
+
+.fraction-s6-word-mini-expression {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+}
+
+
+.fraction-s6-word-mini-expression
+.fraction-s6-fraction {
+  width: 54px;
+
+  padding:
+    3px
+    6px;
+
+  border-width: 2px;
+}
+
+
+.fraction-s6-word-mini-expression
+.fraction-s6-numerator,
+
+.fraction-s6-word-mini-expression
+.fraction-s6-denominator {
+  font-size: 20px;
+}
+
+
+.fraction-s6-word-mini-expression
+.fraction-s6-line {
+  border-top-width: 2px;
+}
+
+
+.fraction-s6-word-mini-expression
+.fraction-s6-symbol {
+  font-size: 22px;
+}
+
+
+.fraction-s6-word-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.fraction-s6-word-text {
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      25px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.35;
+
+  white-space: pre-line;
+
+  text-align: left;
+}
+
+
+/* =========================================================
+   ヒント
+========================================================= */
+
+.fraction-s6-guide {
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      10px,
+      1vw,
+      13px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.15;
+
+  text-align: center;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .question-card:has(.fraction-s6-layout) {
+    padding:
+      6px
+      8px
+      5px !important;
+  }
+
+
+  .fraction-s6-expression {
+    gap: 8px;
+  }
+
+
+  .fraction-s6-fraction {
+    width: 62px;
+
+    padding:
+      4px
+      6px;
+  }
+
+
+  .fraction-s6-numerator,
+  .fraction-s6-denominator {
+    font-size:
+      clamp(
+        22px,
+        5vw,
+        28px
+      );
+  }
+
+
+  .fraction-s6-symbol {
+    font-size:
+      clamp(
+        22px,
+        5vw,
+        28px
+      );
+  }
+
+
+  .fraction-s6-word-layout {
+    grid-template-columns:
+      minmax(0, 32%)
+      minmax(0, 68%);
+
+    gap: 8px;
+  }
+
+
+  .fraction-s6-word-icon {
+    font-size:
+      clamp(
+        42px,
+        10vw,
+        58px
+      );
+  }
+
+
+  .fraction-s6-word-text {
+    font-size:
+      clamp(
+        15px,
+        3.6vw,
+        20px
+      );
+
+    line-height: 1.28;
+  }
+}

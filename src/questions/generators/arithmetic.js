@@ -155,34 +155,131 @@ function buildAdditionFlash() {
 /* ==================================================
    足し算の文章題
 ================================================== */
-
 function buildAdditionWord() {
   const a = r(2, 10);
   const b = r(1, 9);
 
   const patterns = [
-    `こうえんに ${a}人 いました。\nあとから ${b}人 きました。\nぜんぶで なん人？`,
 
-    `あかい ふうせんが ${a}こ、\nあおい ふうせんが ${b}こ あります。\nぜんぶで なんこ？`,
+    /* 0：公園 */
+    {
+      scene: "park",
+      mainIcon: "🌳",
+      subIcon: "🛝",
+      peopleIcon: "🧒",
+      firstCount: a,
+      secondCount: b,
 
-    `はこに えんぴつが ${a}本 あります。\nあとから ${b}本 いれました。\nぜんぶで なん本？`,
+      text:
+        `こうえんに ${a}人 いました。\n` +
+        `あとから ${b}人 きました。\n` +
+        `ぜんぶで なん人？`
+    },
 
-    `おさらに クッキーが ${a}こ あります。\n${b}こ ふやしました。\nぜんぶで なんこ？`,
 
-    `バスに ${a}人 のっています。\nつぎの ていりゅうじょで ${b}人 のりました。\nぜんぶで なん人？`
+    /* 1：風船 */
+    {
+      scene: "balloon",
+      mainIcon: "🎈",
+      secondIcon: "🎈",
+      firstCount: a,
+      secondCount: b,
+
+      text:
+        `あかい ふうせんが ${a}こ、\n` +
+        `あおい ふうせんが ${b}こ あります。\n` +
+        `ぜんぶで なんこ？`
+    },
+
+
+    /* 2：えんぴつ */
+    {
+      scene: "pencil",
+      mainIcon: "✏️",
+      subIcon: "📦",
+      firstCount: a,
+      secondCount: b,
+
+      text:
+        `はこに えんぴつが ${a}本 あります。\n` +
+        `あとから ${b}本 いれました。\n` +
+        `ぜんぶで なん本？`
+    },
+
+
+    /* 3：クッキー */
+    {
+      scene: "cookie",
+      mainIcon: "🍪",
+      subIcon: "🍽️",
+      firstCount: a,
+      secondCount: b,
+
+      text:
+        `おさらに クッキーが ${a}こ あります。\n` +
+        `${b}こ ふやしました。\n` +
+        `ぜんぶで なんこ？`
+    },
+
+
+    /* 4：バス */
+    {
+      scene: "bus",
+      mainIcon: "🚌",
+      subIcon: "🚏",
+      peopleIcon: "🧒",
+      firstCount: a,
+      secondCount: b,
+
+      text:
+        `バスに ${a}人 のっています。\n` +
+        `つぎの ていりゅうじょで ${b}人 のりました。\n` +
+        `ぜんぶで なん人？`
+    }
   ];
+
 
   const patternIndex =
     r(0, patterns.length - 1);
 
+
+  const selected =
+    patterns[patternIndex];
+
+
   return {
-    kind: "text",
+    /*
+      text ではなく、
+      足し算文章題専用rendererへ送る
+    */
+    kind: "addition_word_visual",
+
+    scene:
+      selected.scene,
+
+    mainIcon:
+      selected.mainIcon,
+
+    subIcon:
+      selected.subIcon ?? "",
+
+    secondIcon:
+      selected.secondIcon ?? "",
+
+    peopleIcon:
+      selected.peopleIcon ?? "",
+
+    firstCount:
+      selected.firstCount,
+
+    secondCount:
+      selected.secondCount,
 
     prompt:
-      patterns[patternIndex],
+      selected.text,
 
     label:
-      patterns[patternIndex],
+      selected.text,
 
     className:
       "addition-word-text",
@@ -194,8 +291,6 @@ function buildAdditionWord() {
       `addition_word_${a}_${b}_${patternIndex}`
   };
 }
-
-
 /* ==================================================
    足し算の王
 ================================================== */

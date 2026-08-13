@@ -4,16 +4,10 @@ export default {
   "world": 4,
   "unit": "decimal",
   "unitLabel": "小数",
-  "name": "レベル2",
+  "name": "1をこえる小数",
   "isBoss": false,
-  "type": "decimal_add",
-  "cardId": "050-tenths-pon",
+  "type": "decimal_over_one",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 2,
-  "decimalPlaces": 1
+  "presentation": "persistent",
+  "questionCount": 10
 };

@@ -4,16 +4,10 @@ export default {
   "world": 4,
   "unit": "decimal",
   "unitLabel": "小数",
-  "name": "レベル3",
+  "name": "小数と数直線",
   "isBoss": false,
-  "type": "decimal_add",
-  "cardId": "051-decimal-cat",
+  "type": "decimal_numberline",
   "rewardGems": 5,
-  "dropRates": {
-    "N": 0.7,
-    "SR": 0.25,
-    "UR": 0.05
-  },
-  "max": 5,
-  "decimalPlaces": 1
+  "presentation": "persistent",
+  "questionCount": 10
 };

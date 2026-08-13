@@ -122,9 +122,9 @@ function renderNumberLine(
     );
 
   return `
-    <div class="decimal-number-line">
+    <div class="decimal-number-line-s1">
 
-      <div class="decimal-line-grid">
+      <div class="decimal-number-line-s1-track">
 
         ${Array.from({
           length: 11
@@ -132,7 +132,7 @@ function renderNumberLine(
           (_, index) => `
             <div
               class="
-                decimal-line-point
+                decimal-number-line-s1-point
                 ${
                   index === safeValue
                     ? "is-current"
@@ -140,15 +140,20 @@ function renderNumberLine(
                 }
               "
             >
+
               ${
                 index === safeValue
-                  ? `<span class="decimal-line-dot">●</span>`
+                  ? `
+                    <span class="decimal-number-line-s1-dot">
+                      ●
+                    </span>
+                  `
                   : ""
               }
 
-              <span class="decimal-line-tick"></span>
+              <span class="decimal-number-line-s1-tick"></span>
 
-              <span class="decimal-line-label">
+              <span class="decimal-number-line-s1-label">
                 ${
                   index === 0
                     ? "0"
@@ -159,6 +164,7 @@ function renderNumberLine(
                         : ""
                 }
               </span>
+
             </div>
           `
         ).join("")}
