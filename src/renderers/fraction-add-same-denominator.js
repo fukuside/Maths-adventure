@@ -30,7 +30,10 @@ export default {
 
         <div class="fraction-s5-prompt">
 
-          ${question?.prompt ?? "□ に はいる 数は？"}
+          ${
+            question?.prompt ??
+            "答えの分数を 入れよう"
+          }
 
         </div>
 
@@ -78,7 +81,12 @@ export default {
           </div>
 
 
-          <div class="fraction-s5-fraction fraction-s5-answer">
+          <div
+            class="
+              fraction-s5-fraction
+              fraction-s5-answer
+            "
+          >
 
             <div class="fraction-s5-numerator">
               □
@@ -87,7 +95,7 @@ export default {
             <div class="fraction-s5-line"></div>
 
             <div class="fraction-s5-denominator">
-              ${denominator}
+              □
             </div>
 
           </div>
@@ -98,7 +106,10 @@ export default {
 
         <div class="fraction-s5-guide">
 
-          ${question?.guide ?? ""}
+          ${
+            question?.guide ??
+            ""
+          }
 
         </div>
 

@@ -281,36 +281,90 @@ if (a === "toggle-title-bgm") {
   }
 
   /*
-    時計以外の通常入力
+  時計以外の通常入力
+*/
+if (value === "clear") {
+
+  input = "";
+
+} else if (value === "back") {
+
+  input = input.slice(0, -1);
+
+} else if (input.length < 20) {
+
+  const isChoiceKey =
+    typeof value === "string" &&
+    /^[ABC]$/.test(value);
+
+
+  if (isChoiceKey) {
+
+    /*
+      A/B/C問題
+    */
+    input = value;
+
+  } else if (
+  currentStage?.keypad === "fraction"
+) {
+
+  /*
+    ================================
+    分数入力
+
+    入力順：
+    ① 分母
+    ② 「ぶんの」
+    ③ 分子
+
+    例：
+    6 → ぶんの → 4
+
+    内部値：
+    6/4
+
+    ※内部では
+      分母 / 分子
+      の順で保持する
+    ================================
   */
-  if (value === "clear") {
-    input = "";
 
-  } else if (value === "back") {
-    input = input.slice(0, -1);
+  if (value === "/") {
 
-  } else if (input.length < 20) {
-    const isChoiceKey =
-      typeof value === "string" &&
-      /^[ABC]$/.test(value);
-
-    if (isChoiceKey) {
-      /*
-        A/B/C問題は1文字だけ保持する。
-        別の文字を押したら、その文字へ置き換える。
-      */
-      input = value;
-
-    } else {
-      /*
-        数字・小数・分数などは従来どおり追記する。
-      */
-      input += value;
+    /*
+      分母がまだ無い場合は
+      「ぶんの」を押せない
+    */
+    if (
+      input === "" ||
+      input.includes("/")
+    ) {
+      render();
+      return;
     }
+
+
+    input += "/";
+
+  } else if (
+    /^[0-9]$/.test(value)
+  ) {
+
+    input += value;
   }
 
-  render();
-  return;
+  } else {
+
+    /*
+      通常の数字・小数など
+    */
+    input += value;
+  }
+}
+
+render();
+return;
 }
     if (a === "answer") {
       if (!inputEnabled || input === "") return;
@@ -320,12 +374,26 @@ const isChoiceAnswer =
   typeof question.answer === "string" &&
   /^[ABC]$/.test(question.answer);
 
-const isCorrect = isChoiceAnswer
-  ? input === question.answer
-  : Math.abs(
-      parseAnswerInput(input) -
-      Number(question.answer)
-    ) < 1e-9;
+const isFractionAnswer =
+  isFullFractionAnswerQuestion(
+    question
+  );
+
+
+const isCorrect =
+  isChoiceAnswer
+    ? input === question.answer
+
+    : isFractionAnswer
+      ? isCorrectFractionInput(
+          input,
+          question
+        )
+
+      : Math.abs(
+          parseAnswerInput(input) -
+          Number(question.answer)
+        ) < 1e-9;
 
 if (isCorrect) {
         input = "";
@@ -406,14 +474,42 @@ if (isCorrect) {
     if (a === "retry-stage") { questions = generateQuestions(currentStage, 10); qi = 0; input = ""; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; startQuestion(); return; }
     if (a === "zoom-card") { zoom = { card: getCard(t.dataset.cardId), rarity: t.dataset.rarity }; render(); return; }
     if (a === "close-zoom") { zoom = null; render(); return; }
-    if (a === "choose-partner") {
-      state.partnerKey = t.dataset.key;
-      state.partnerStudy = state.partnerStudy ?? {};
-      await persistState(state);
-      msg = "パートナーに せっていしました！";
-      render();
-      return;
-    }
+    if (
+  a ===
+  "choose-partner"
+) {
+
+  state.partnerKey =
+    t.dataset.key;
+
+
+  state.partnerStudy =
+    state.partnerStudy ?? {};
+
+
+  /*
+   * N / SR / UR の旧学習記録を
+   * 同一モンスターへ統合
+   */
+
+  ensurePartnerStudyRecord(
+    state.partnerKey
+  );
+
+
+  await persistState(
+    state
+  );
+
+
+  msg =
+    "パートナーに せっていしました！";
+
+
+  render();
+
+  return;
+}
     if (a === "remove-partner") {
       state.partnerKey = null;
       await persistState(state);
@@ -1822,20 +1918,25 @@ return `<section class="stack game-area">
 
 <div class="answer-display">
   ${
-    currentStage?.type === "clock_24h"
-      ? formatInput(input)
+    isFullFractionAnswerQuestion(q)
+  ? renderFractionAnswerInput(
+      input
+    )
 
-      : currentStage?.keypad === "clock" ||
-        currentStage?.type?.startsWith("clock_")
+      : currentStage?.type === "clock_24h"
         ? formatInput(input)
 
-        : input
+        : currentStage?.keypad === "clock" ||
+          currentStage?.type?.startsWith("clock_")
           ? formatInput(input)
 
-          : inputEnabled
-            ? "こたえを えらんでね"
+          : input
+            ? formatInput(input)
 
-            : "もんだいを みています"
+            : inputEnabled
+              ? "こたえを えらんでね"
+
+              : "もんだいを みています"
   }
 </div>
 
@@ -1845,9 +1946,292 @@ ${renderKeypad()}
   }
 
   function parseAnswerInput(value) {
-    const cleaned = String(value).replace(/[^0-9.\-]/g, "");
-    return cleaned === "" ? NaN : Number(cleaned);
+  const cleaned =
+    String(value)
+      .replace(
+        /[^0-9.\-]/g,
+        ""
+      );
+
+  return cleaned === ""
+    ? NaN
+    : Number(cleaned);
+}
+
+
+/* =========================================================
+   分数を丸ごと答える問題か
+========================================================= */
+
+function isFullFractionAnswerQuestion(
+  question
+) {
+
+  const kind =
+    String(
+      question?.kind ?? ""
+    );
+
+
+  return (
+    kind ===
+      "fraction-add-same-denominator"
+    ||
+    kind ===
+      "fraction-subtract-same-denominator"
+  );
+}
+
+/* =========================================================
+   分数入力を分解
+
+   入力順は
+
+   分母 → ぶんの → 分子
+
+   例：
+   6/4
+
+   ↓
+
+   denominator = 6
+   numerator   = 4
+========================================================= */
+
+function parseFractionInput(
+  value
+) {
+
+  const raw =
+    String(
+      value ?? ""
+    );
+
+
+  const parts =
+    raw.split("/");
+
+
+  return {
+
+    /*
+      ぶんの より前
+      ＝ 分母
+    */
+    denominator:
+      parts[0] ?? "",
+
+
+    /*
+      ぶんの より後
+      ＝ 分子
+    */
+    numerator:
+      parts.length >= 2
+        ? parts[1]
+        : "",
+
+
+    hasSeparator:
+      raw.includes("/")
+  };
+}
+
+/* =========================================================
+   分数正誤判定
+
+   例
+   正解 4/6
+
+   4だけ      → 不正解
+   4/         → 不正解
+   4/6        → 正解
+========================================================= */
+
+function isCorrectFractionInput(
+  value,
+  question
+) {
+
+  const parsed =
+    parseFractionInput(
+      value
+    );
+
+
+  if (
+    !parsed.hasSeparator
+  ) {
+    return false;
   }
+
+
+  if (
+    parsed.numerator === "" ||
+    parsed.denominator === ""
+  ) {
+    return false;
+  }
+
+
+  const numerator =
+    Number(
+      parsed.numerator
+    );
+
+
+  const denominator =
+    Number(
+      parsed.denominator
+    );
+
+
+  const correctNumerator =
+    Number(
+      question?.answer
+    );
+
+
+  const correctDenominator =
+    Number(
+      question?.denominator
+    );
+
+
+  return (
+    Number.isFinite(
+      numerator
+    )
+    &&
+    Number.isFinite(
+      denominator
+    )
+    &&
+    numerator ===
+      correctNumerator
+    &&
+    denominator ===
+      correctDenominator
+  );
+}
+
+/* =========================================================
+   分数回答表示
+
+   入力順
+
+   ① 分母
+   ② ぶんの
+   ③ 分子
+
+
+   最初
+
+        □ ・・・・②
+       ───
+        □ ・・・・①
+
+
+   6入力
+
+        □ ・・・・②
+       ───
+        6 ・・・・①
+
+
+   6 → ぶんの → 4
+
+        4 ・・・・②
+       ───
+        6 ・・・・①
+========================================================= */
+
+function renderFractionAnswerInput(
+  value
+) {
+
+  const parsed =
+    parseFractionInput(
+      value
+    );
+
+
+  return `
+    <div class="fraction-answer-input">
+
+
+      <div class="fraction-answer-label">
+        こたえ
+      </div>
+
+
+      <div class="fraction-answer-with-order">
+
+
+        <div class="fraction-answer-value">
+
+
+          <!-- 分子：② -->
+
+          <div class="fraction-answer-row">
+
+            <div class="fraction-answer-numerator">
+
+              ${
+                parsed.numerator !== ""
+                  ? escapeHtml(
+                      parsed.numerator
+                    )
+                  : "□"
+              }
+
+            </div>
+
+
+            <div class="fraction-answer-order">
+              ・・・・②
+            </div>
+
+          </div>
+
+
+          <div class="fraction-answer-line">
+          </div>
+
+
+          <!-- 分母：① -->
+
+          <div class="fraction-answer-row">
+
+            <div class="fraction-answer-denominator">
+
+              ${
+                parsed.denominator !== ""
+                  ? escapeHtml(
+                      parsed.denominator
+                    )
+                  : "□"
+              }
+
+            </div>
+
+
+            <div class="fraction-answer-order">
+              ・・・・①
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+  `;
+}
 
  function formatInput(value) {
   /*
@@ -1970,28 +2354,519 @@ ${renderKeypad()}
     }).filter(Boolean);
   }
 
-  function selectedPartner() {
-    return unlockedPartnerEntries().find(x => x.key === state.partnerKey) ?? null;
+  /* =========================================================
+   パートナー
+========================================================= */
+
+function selectedPartner() {
+
+  return (
+    unlockedPartnerEntries()
+      .find(
+        x =>
+          x.key ===
+          state.partnerKey
+      )
+    ?? null
+  );
+}
+
+
+/* =========================================================
+   パートナーのモンスターID取得
+
+   例：
+   073_N
+   073_SR
+   073_UR
+
+   ↓
+
+   073
+
+   実際にはcard.idをそのまま使用
+========================================================= */
+
+function getPartnerStudyId(
+  partnerKey
+) {
+
+  if (!partnerKey) {
+    return null;
   }
 
-  function incrementPartnerStudy() {
-    if (!state.partnerKey) return;
-    state.partnerStudy = state.partnerStudy ?? {};
-    state.partnerStudy[state.partnerKey] = Number(state.partnerStudy[state.partnerKey] ?? 0) + 1;
+
+  const split =
+    partnerKey.lastIndexOf(
+      "_"
+    );
+
+
+  if (
+    split <= 0
+  ) {
+    return partnerKey;
   }
 
-  function partnerPhrase() {
-    if (partnerMood === "correct") return "やったね！";
-    if (partnerMood === "encourage") return "だいじょうぶ！ もういっかい！";
-    if (partnerMood === "start") return "いっしょに がんばろう！";
-    return "みているよ！";
+
+  return partnerKey.slice(
+    0,
+    split
+  );
+}
+
+
+/* =========================================================
+   旧 N/SR/UR 個別記録を取得
+========================================================= */
+
+function getLegacyPartnerStudyTotal(
+  partnerId
+) {
+
+  if (!partnerId) {
+    return 0;
   }
 
-  function renderPartnerCompanion() {
-    const p = selectedPartner();
-    if (!p) return `<div class="partner-companion empty"><span>⭐</span><p>パートナーを えらぶと おうえんしてくれるよ！</p></div>`;
-    return `<div class="partner-companion mood-${partnerMood} rarity-${p.rarity}"><img src="${image(p.card,p.rarity)}" alt="${escapeHtml(p.card.name)}"><div><small>パートナー</small><strong>${escapeHtml(p.card.name)}</strong><p>${partnerPhrase()}</p></div></div>`;
+
+  const study =
+    state.partnerStudy ?? {};
+
+
+  let total = 0;
+
+
+  [
+    "N",
+    "SR",
+    "UR"
+  ].forEach(
+    rarity => {
+
+      total +=
+        Number(
+          study[
+            `${partnerId}_${rarity}`
+          ] ?? 0
+        );
+    }
+  );
+
+
+  return total;
+}
+
+
+/* =========================================================
+   新方式へ学習回数を統合
+
+   partnerStudy["073"]
+   のように、
+   レアリティなしで記録する
+========================================================= */
+
+function ensurePartnerStudyRecord(
+  partnerKey
+) {
+
+  if (!partnerKey) {
+    return;
   }
+
+
+  state.partnerStudy =
+    state.partnerStudy ?? {};
+
+
+  const partnerId =
+    getPartnerStudyId(
+      partnerKey
+    );
+
+
+  if (!partnerId) {
+    return;
+  }
+
+
+  /*
+   * すでに新方式の記録があるなら
+   * そのまま使う
+   */
+
+  if (
+    state.partnerStudy[
+      partnerId
+    ] !== undefined
+  ) {
+    return;
+  }
+
+
+  /*
+   * 旧方式
+   * 073_N / 073_SR / 073_UR
+   * を合計して引き継ぐ
+   */
+
+  state.partnerStudy[
+    partnerId
+  ] =
+    getLegacyPartnerStudyTotal(
+      partnerId
+    );
+}
+
+
+/* =========================================================
+   パートナー学習回数
+========================================================= */
+
+function getPartnerStudyCount(
+  partnerKey
+) {
+
+  if (!partnerKey) {
+    return 0;
+  }
+
+
+  const partnerId =
+    getPartnerStudyId(
+      partnerKey
+    );
+
+
+  if (!partnerId) {
+    return 0;
+  }
+
+
+  const sharedCount =
+    state.partnerStudy?.[
+      partnerId
+    ];
+
+
+  /*
+   * 新方式が存在するなら
+   * それを使用
+   */
+
+  if (
+    sharedCount !== undefined
+  ) {
+
+    return Number(
+      sharedCount ?? 0
+    );
+  }
+
+
+  /*
+   * 旧データ互換
+   */
+
+  return (
+    getLegacyPartnerStudyTotal(
+      partnerId
+    )
+  );
+}
+
+
+/* =========================================================
+   正解時
+   パートナー学習回数 +1
+========================================================= */
+
+function incrementPartnerStudy() {
+
+  if (
+    !state.partnerKey
+  ) {
+    return;
+  }
+
+
+  state.partnerStudy =
+    state.partnerStudy ?? {};
+
+
+  ensurePartnerStudyRecord(
+    state.partnerKey
+  );
+
+
+  const partnerId =
+    getPartnerStudyId(
+      state.partnerKey
+    );
+
+
+  if (!partnerId) {
+    return;
+  }
+
+
+  state.partnerStudy[
+    partnerId
+  ] =
+    Number(
+      state.partnerStudy[
+        partnerId
+      ] ?? 0
+    ) + 1;
+}
+
+
+/* =========================================================
+   パートナー称号
+========================================================= */
+
+function getPartnerTitle(
+  studyCount
+) {
+
+  const count =
+    Number(
+      studyCount ?? 0
+    );
+
+
+  if (
+    count >= 500
+  ) {
+    return "伝説の相棒";
+  }
+
+
+  if (
+    count >= 200
+  ) {
+    return "冒険の盟友";
+  }
+
+
+  if (
+    count >= 100
+  ) {
+    return "たよれる相棒";
+  }
+
+
+  if (
+    count >= 30
+  ) {
+    return "なかよしパートナー";
+  }
+
+
+  return "はじめての相棒";
+}
+
+
+/* =========================================================
+   次の称号
+========================================================= */
+
+function getNextPartnerTitle(
+  studyCount
+) {
+
+  const count =
+    Number(
+      studyCount ?? 0
+    );
+
+
+  if (
+    count < 30
+  ) {
+
+    return {
+      title:
+        "なかよしパートナー",
+
+      target:
+        30
+    };
+  }
+
+
+  if (
+    count < 100
+  ) {
+
+    return {
+      title:
+        "たよれる相棒",
+
+      target:
+        100
+    };
+  }
+
+
+  if (
+    count < 200
+  ) {
+
+    return {
+      title:
+        "冒険の盟友",
+
+      target:
+        200
+    };
+  }
+
+
+  if (
+    count < 500
+  ) {
+
+    return {
+      title:
+        "伝説の相棒",
+
+      target:
+        500
+    };
+  }
+
+
+  return null;
+}
+
+
+/* =========================================================
+   セリフ
+========================================================= */
+
+function partnerPhrase() {
+
+  if (
+    partnerMood ===
+    "correct"
+  ) {
+    return "やったね！";
+  }
+
+
+  if (
+    partnerMood ===
+    "encourage"
+  ) {
+    return "だいじょうぶ！ もういっかい！";
+  }
+
+
+  if (
+    partnerMood ===
+    "start"
+  ) {
+    return "いっしょに がんばろう！";
+  }
+
+
+  return "みているよ！";
+}
+
+
+/* =========================================================
+   ゲーム中パートナー表示
+========================================================= */
+
+function renderPartnerCompanion() {
+
+  const p =
+    selectedPartner();
+
+
+  if (!p) {
+
+    return `
+      <div
+        class="
+          partner-companion
+          empty
+        "
+      >
+
+        <span>
+          ⭐
+        </span>
+
+        <p>
+          パートナーを えらぶと
+          おうえんしてくれるよ！
+        </p>
+
+      </div>
+    `;
+  }
+
+
+  const studyCount =
+    getPartnerStudyCount(
+      p.key
+    );
+
+
+  const title =
+    getPartnerTitle(
+      studyCount
+    );
+
+
+  return `
+    <div
+      class="
+        partner-companion
+        mood-${partnerMood}
+        rarity-${p.rarity}
+      "
+    >
+
+      <img
+        src="${image(
+          p.card,
+          p.rarity
+        )}"
+        alt="${escapeHtml(
+          p.card.name
+        )}"
+      >
+
+
+      <div>
+
+        <small
+          class="partner-title"
+        >
+          ⭐ ${escapeHtml(
+            title
+          )}
+        </small>
+
+
+        <strong>
+          ${escapeHtml(
+            p.card.name
+          )}
+        </strong>
+
+
+        <p>
+          ${partnerPhrase()}
+        </p>
+
+      </div>
+
+    </div>
+  `;
+}
 
   function renderQuestion(question) {
     return renderQuestionByKind(question, { escapeHtml });
@@ -2173,14 +3048,317 @@ ${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
   `;
 }
   function partner() {
-    const entries = unlockedPartnerEntries();
-    const selected = selectedPartner();
-    return `<section class="stack"><div class="toolbar"><button class="button secondary small" data-action="go" data-screen="title">◀ もどる</button><h2>いっしょに べんきょうする パートナー</h2><span></span></div>
-      <div class="panel partner-intro">${selected ? `<div class="current-partner"><img src="${image(selected.card,selected.rarity)}"><div><small>いまの パートナー</small><h3>${escapeHtml(selected.card.name)}</h3><p>いっしょに といた もんだい：${Number(state.partnerStudy?.[selected.key] ?? 0)}もん</p><button class="button secondary small" data-action="remove-partner">はずす</button></div></div>` : `<p>カードずかんで てにいれた モンスターから、すきな 1たいを えらべます。</p>`}</div>
-      ${msg?`<div class="notice">${escapeHtml(msg)}</div>`:""}
-      <div class="partner-grid">${entries.length ? entries.map(x=>`<article class="partner-choice rarity-${x.rarity} ${state.partnerKey===x.key?"selected":""}"><img src="${image(x.card,x.rarity)}" alt="${escapeHtml(x.card.name)}"><div><small>${x.rarity}・No.${String(x.card.number).padStart(3,"0")}</small><h3>${escapeHtml(x.card.name)}</h3><p>${Number(state.partnerStudy?.[x.key] ?? 0)}もん いっしょに べんきょう</p><button class="button ${state.partnerKey===x.key?"secondary":"cyan"}" data-action="choose-partner" data-key="${escapeHtml(x.key)}">${state.partnerKey===x.key?"⭐ パートナーちゅう":"このこに する"}</button></div></article>`).join("") : `<div class="panel empty-partners"><p>まだ カードが ありません。</p><p>ステージを クリアして、パートナーを みつけよう！</p></div>`}</div>
-    </section>`;
-  }
+
+  const entries =
+    unlockedPartnerEntries();
+
+
+  const selected =
+    selectedPartner();
+
+
+  const selectedStudy =
+    selected
+      ? getPartnerStudyCount(
+          selected.key
+        )
+      : 0;
+
+
+  const selectedTitle =
+    selected
+      ? getPartnerTitle(
+          selectedStudy
+        )
+      : "";
+
+
+  const nextTitle =
+    selected
+      ? getNextPartnerTitle(
+          selectedStudy
+        )
+      : null;
+
+
+  return `
+    <section class="stack">
+
+
+      <div class="toolbar">
+
+        <button
+          class="button secondary small"
+          data-action="go"
+          data-screen="title"
+        >
+          ◀ もどる
+        </button>
+
+
+        <h2>
+          いっしょに べんきょうする パートナー
+        </h2>
+
+
+        <span></span>
+
+      </div>
+
+
+      <div class="panel partner-intro">
+
+        ${
+          selected
+            ? `
+              <div class="current-partner">
+
+
+                <img
+                  src="${image(
+                    selected.card,
+                    selected.rarity
+                  )}"
+                  alt="${escapeHtml(
+                    selected.card.name
+                  )}"
+                >
+
+
+                <div>
+
+
+                  <small>
+                    いまの パートナー
+                  </small>
+
+
+                  <div class="partner-title-badge">
+                    ⭐ ${escapeHtml(
+                      selectedTitle
+                    )}
+                  </div>
+
+
+                  <h3>
+                    ${escapeHtml(
+                      selected.card.name
+                    )}
+                  </h3>
+
+
+                  <p>
+                    いっしょに といた もんだい：
+                    <strong>
+                      ${selectedStudy}
+                    </strong>
+                    もん
+                  </p>
+
+
+                  ${
+                    nextTitle
+                      ? `
+                        <p class="partner-next-title">
+
+                          次の称号
+                          「${escapeHtml(
+                            nextTitle.title
+                          )}」まで
+
+                          <strong>
+                            ${
+                              Math.max(
+                                0,
+                                nextTitle.target -
+                                selectedStudy
+                              )
+                            }
+                          </strong>
+
+                          もん！
+
+                        </p>
+                      `
+                      : `
+                        <p class="partner-next-title max">
+                          👑 最高の称号になりました！
+                        </p>
+                      `
+                  }
+
+
+                  <button
+                    class="button secondary small"
+                    data-action="remove-partner"
+                  >
+                    はずす
+                  </button>
+
+
+                </div>
+
+              </div>
+            `
+
+            : `
+              <p>
+                カードずかんで
+                てにいれた モンスターから、
+                すきな 1たいを えらべます。
+              </p>
+            `
+        }
+
+      </div>
+
+
+      ${
+        msg
+          ? `
+            <div class="notice">
+              ${escapeHtml(msg)}
+            </div>
+          `
+          : ""
+      }
+
+
+      <div class="partner-grid">
+
+        ${
+          entries.length
+            ? entries.map(
+                x => {
+
+                  const studyCount =
+                    getPartnerStudyCount(
+                      x.key
+                    );
+
+
+                  const title =
+                    getPartnerTitle(
+                      studyCount
+                    );
+
+
+                  return `
+                    <article
+                      class="
+                        partner-choice
+                        rarity-${x.rarity}
+
+                        ${
+                          state.partnerKey === x.key
+                            ? "selected"
+                            : ""
+                        }
+                      "
+                    >
+
+
+                      <img
+                        src="${image(
+                          x.card,
+                          x.rarity
+                        )}"
+                        alt="${escapeHtml(
+                          x.card.name
+                        )}"
+                      >
+
+
+                      <div>
+
+
+                        <small>
+                          ${x.rarity}
+                          ・No.${
+                            String(
+                              x.card.number
+                            ).padStart(
+                              3,
+                              "0"
+                            )
+                          }
+                        </small>
+
+
+                        <div class="partner-title-mini">
+                          ⭐ ${escapeHtml(
+                            title
+                          )}
+                        </div>
+
+
+                        <h3>
+                          ${escapeHtml(
+                            x.card.name
+                          )}
+                        </h3>
+
+
+                        <p>
+                          ${studyCount}もん
+                          いっしょに べんきょう
+                        </p>
+
+
+                        <button
+                          class="
+                            button
+                            ${
+                              state.partnerKey === x.key
+                                ? "secondary"
+                                : "cyan"
+                            }
+                          "
+
+                          data-action="choose-partner"
+
+                          data-key="${escapeHtml(
+                            x.key
+                          )}"
+                        >
+
+                          ${
+                            state.partnerKey === x.key
+                              ? "⭐ パートナーちゅう"
+                              : "このこに する"
+                          }
+
+                        </button>
+
+
+                      </div>
+
+                    </article>
+                  `;
+                }
+              ).join("")
+
+            : `
+              <div class="panel empty-partners">
+
+                <p>
+                  まだ カードが ありません。
+                </p>
+
+                <p>
+                  ステージを クリアして、
+                  パートナーを みつけよう！
+                </p>
+
+              </div>
+            `
+        }
+
+      </div>
+
+    </section>
+  `;
+}
 
   function collection() {
   return `
