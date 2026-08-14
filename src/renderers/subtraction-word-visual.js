@@ -17,32 +17,9 @@ export default {
       );
 
 
-    const total =
-      Number(
-        question?.total ?? 0
-      );
-
-
-    const removed =
-      Number(
-        question?.removed ?? 0
-      );
-
-
-    const remaining =
-      Math.max(
-        0,
-        Number(
-          question?.remaining ??
-          total -
-          removed
-        )
-      );
-
-
     const icon =
       escapeHtml(
-        question?.icon ?? "●"
+        question?.icon ?? ""
       );
 
 
@@ -52,263 +29,88 @@ export default {
       );
 
 
-    function icons(
-      value,
-      count,
-      className = ""
-    ) {
-
-      return Array.from(
-        {
-          length:
-            Math.min(
-              count,
-              10
-            )
-        },
-
-        () =>
-          `<span class="subtraction-scene-item ${className}">
-            ${value}
-          </span>`
-      ).join("");
-    }
-
-
-    let visual = "";
-
-
     /* =====================================================
-       鳥
+       場面を表すイラスト
+       答えを絵から数えられないように1個だけ表示
     ===================================================== */
+
+    let sceneIcon = icon || "⭐";
+
 
     if (
       scene ===
       "bird"
     ) {
 
-      visual = `
-        <div class="subtraction-scene subtraction-bird-scene">
-
-          <div class="subtraction-flying-group">
-
-            ${icons(
-              "🐦",
-              removed,
-              "is-leaving"
-            )}
-
-            <span class="subtraction-motion-arrow">
-              →
-            </span>
-
-          </div>
-
-
-          <div class="subtraction-branch">
-
-            <div class="subtraction-remaining-items">
-
-              ${icons(
-                "🐦",
-                remaining
-              )}
-
-            </div>
-
-            <div class="subtraction-tree-line">
-              🌳━━━━━━━━
-            </div>
-
-          </div>
-
-        </div>
-      `;
+      sceneIcon = "🐦";
     }
 
-    /* =====================================================
-   バス
 
-   ① バスに total 人乗っている
-   ② ↓
-   ③ removed 人が降りる
+    else if (
+      scene ===
+      "bus"
+    ) {
 
-   ※ remaining は答えなので表示しない
-===================================================== */
+      sceneIcon = "🚌";
+    }
 
-else if (
-  scene ===
-  "bus"
-) {
-
-  visual = `
-    <div class="subtraction-scene subtraction-bus-scene">
-
-
-      <div class="subtraction-bus-start">
-
-        <div class="subtraction-bus-emoji">
-          🚌
-        </div>
-
-        <div class="subtraction-bus-total">
-          のっている ${total}人
-        </div>
-
-      </div>
-
-
-      <div class="subtraction-bus-down-arrow">
-        ↓
-      </div>
-
-
-      <div class="subtraction-bus-getoff">
-
-        <div class="subtraction-leaving-people">
-
-          ${icons(
-            "🧒",
-            removed,
-            "is-leaving"
-          )}
-
-        </div>
-
-        <div class="subtraction-bus-removed-count">
-          おりる ${removed}人
-        </div>
-
-      </div>
-
-
-    </div>
-  `;
-}
-
-    /* =====================================================
-       子ども
-    ===================================================== */
 
     else if (
       scene ===
       "children"
     ) {
 
-      visual = `
-        <div class="subtraction-scene subtraction-children-scene">
-
-          <div class="subtraction-remaining-items">
-
-            ${icons(
-              "🧒",
-              remaining
-            )}
-
-          </div>
-
-
-          <div class="subtraction-away-group">
-
-            <span class="subtraction-motion-arrow">
-              →
-            </span>
-
-            ${icons(
-              "🧒",
-              removed,
-              "is-leaving"
-            )}
-
-          </div>
-
-        </div>
-      `;
+      sceneIcon = "🧒";
     }
 
-
-    /* =====================================================
-       魚
-    ===================================================== */
 
     else if (
       scene ===
       "fish"
     ) {
 
-      visual = `
-        <div class="subtraction-scene subtraction-fish-scene">
-
-          <div class="subtraction-remaining-items">
-
-            ${icons(
-              "🐟",
-              remaining
-            )}
-
-          </div>
-
-
-          <div class="subtraction-away-group">
-
-            <span class="subtraction-motion-arrow">
-              →
-            </span>
-
-            ${icons(
-              "🐟",
-              removed,
-              "is-leaving"
-            )}
-
-          </div>
-
-        </div>
-      `;
+      sceneIcon = "🐟";
     }
 
 
     /* =====================================================
-       クッキー・鉛筆
+       表示
+       イラスト
+       □ － ○
+       ＋
+       文章
+
+       ※ remaining は絶対に画面へ表示しない
     ===================================================== */
-
-    else {
-
-      visual = `
-        <div class="subtraction-scene subtraction-object-scene">
-
-          <div class="subtraction-remaining-items">
-
-            ${icons(
-              icon,
-              remaining
-            )}
-
-          </div>
-
-
-          <div class="subtraction-used-group">
-
-            ${icons(
-              icon,
-              removed,
-              "is-removed"
-            )}
-
-          </div>
-
-        </div>
-      `;
-    }
-
 
     return `
       <div class="subtraction-word-layout">
 
-
         <div class="subtraction-word-visual-side">
 
-          ${visual}
+          <div class="word-operation-visual">
+
+            <div class="word-operation-icon">
+              ${sceneIcon}
+            </div>
+
+            <div class="word-operation-equation subtraction-operation-equation">
+
+              <span class="word-operation-box">
+                □
+              </span>
+
+              <span class="word-operation-symbol">
+                －
+              </span>
+
+              <span class="word-operation-circle">
+                ○
+              </span>
+
+            </div>
+
+          </div>
 
         </div>
 
@@ -320,7 +122,6 @@ else if (
           </div>
 
         </div>
-
 
       </div>
     `;

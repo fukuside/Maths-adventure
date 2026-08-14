@@ -12932,3 +12932,271 @@ img[src*="1000yen"],img[src*="5000yen"],img[src*="10000yen"] {
       19px;
   }
 }
+
+/* =========================================================
+   WORLD1 S5
+   足し算・引き算文章題
+   シンプルイラスト ＋ 式イメージ
+   2026-08-14
+========================================================= */
+
+
+/* =========================================================
+   共通
+   左：イラスト + □演算○
+   右：文章
+========================================================= */
+
+.addition-word-layout,
+.subtraction-word-layout {
+  width: min(900px, 96%);
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 38%)
+    minmax(0, 62%);
+
+  gap: 24px;
+
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 0 10px;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+
+/* 左 */
+
+.addition-word-visual-side,
+.subtraction-word-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+/* イラスト＋式 */
+
+.word-operation-visual {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 10px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* 場面イラスト */
+
+.word-operation-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  font-size:
+    clamp(
+      52px,
+      6vw,
+      82px
+    );
+
+  line-height: 1;
+
+  text-shadow: none;
+}
+
+
+/* □ ＋ ○ / □ － ○ */
+
+.word-operation-equation {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap:
+    clamp(
+      10px,
+      1.5vw,
+      18px
+    );
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      34px,
+      3.7vw,
+      50px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1;
+
+  white-space: nowrap;
+
+  text-shadow:
+    0 2px 0 #172033;
+}
+
+
+/* ＋ / － */
+
+.word-operation-symbol {
+  color: #fde68a;
+
+  font-weight: 1000;
+}
+
+
+/* □ */
+
+.word-operation-box {
+  color: #fffdf2;
+}
+
+
+/* ○ */
+
+.word-operation-circle {
+  color: #fffdf2;
+}
+
+
+/* =========================================================
+   右：文章
+========================================================= */
+
+.addition-word-text-side,
+.subtraction-word-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  overflow: hidden;
+}
+
+
+.addition-word-text,
+.subtraction-word-text {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      18px,
+      1.9vw,
+      26px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.35;
+
+  white-space: pre-line;
+
+  text-align: left;
+
+  transform: none !important;
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .addition-word-layout,
+  .subtraction-word-layout {
+
+    grid-template-columns:
+      minmax(0, 40%)
+      minmax(0, 60%);
+
+    gap: 7px;
+
+    padding: 0 3px;
+  }
+
+
+  .word-operation-visual {
+
+    gap: 6px;
+  }
+
+
+  .word-operation-icon {
+
+    font-size:
+      clamp(
+        42px,
+        11vw,
+        62px
+      );
+  }
+
+
+  .word-operation-equation {
+
+    gap: 6px;
+
+    font-size:
+      clamp(
+        28px,
+        7vw,
+        38px
+      );
+  }
+
+
+  .addition-word-text,
+  .subtraction-word-text {
+
+    font-size:
+      clamp(
+        15px,
+        3.6vw,
+        20px
+      );
+
+    line-height: 1.28;
+  }
+}
