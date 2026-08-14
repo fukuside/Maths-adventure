@@ -203,51 +203,86 @@ if (a === "toggle-title-bgm") {
     if (a === "stage") { currentStage = getStage(t.dataset.id); questions = generateQuestions(currentStage, 10); qi = 0; input = ""; earned = null; chestOpened = false; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; partnerMood = "start"; screen = "game"; startQuestion(); return; }
     if (a === "replay-flash") { if (usesFlash(currentStage) && !answerFeedback) startQuestion(); return; }
     if (a === "key") {
-  if (!inputEnabled) return;
 
-  const value = t.dataset.value;
+  if (!inputEnabled) {
+    return;
+  }
+
+
+  const value =
+    t.dataset.value;
+
+
+  const question =
+    questions[qi] ?? null;
+
+
+  /* =====================================================
+     時計入力
+  ===================================================== */
+
   const isClockStage =
-  currentStage?.keypad === "clock";
-  /*
-    時計専用入力
-  */
+    currentStage?.keypad === "clock" ||
+    currentStage?.type?.startsWith("clock_");
+
+
   if (isClockStage) {
+
     if (value === "clear") {
+
       input = "";
+
       render();
       return;
     }
+
 
     if (value === "back") {
-      /*
-        分の選択画面から、
-        時の選択画面へ戻す
-      */
+
       input = "";
+
       render();
       return;
     }
+
 
     if (
       typeof value === "string" &&
       value.startsWith("clock-hour:")
     ) {
-      const hour = value.slice("clock-hour:".length);
 
-      if (/^(?:[1-9]|1[0-2])$/.test(hour)) {
-        input = `${hour}|`;
+      const hour =
+        value.slice(
+          "clock-hour:".length
+        );
+
+
+      if (
+        /^(?:[1-9]|1[0-2])$/.test(
+          hour
+        )
+      ) {
+
+        input =
+          `${hour}|`;
       }
+
 
       render();
       return;
     }
 
+
     if (
       typeof value === "string" &&
       value.startsWith("clock-minute:")
     ) {
+
       const minute =
-        value.slice("clock-minute:".length);
+        value.slice(
+          "clock-minute:".length
+        );
+
 
       const minuteChoices = [
         "00",
@@ -264,108 +299,249 @@ if (a === "toggle-title-bgm") {
         "55"
       ];
 
+
       if (
         input.includes("|") &&
-        minuteChoices.includes(minute)
+        minuteChoices.includes(
+          minute
+        )
       ) {
-        const hour = input.split("|")[0];
 
-        input = `${hour}|${minute}`;
+        const hour =
+          input.split("|")[0];
+
+
+        input =
+          `${hour}|${minute}`;
       }
+
 
       render();
       return;
     }
+
 
     return;
   }
 
-  /*
-  時計以外の通常入力
-*/
-if (value === "clear") {
 
-  input = "";
+  /* =====================================================
+     全部消す
+  ===================================================== */
 
-} else if (value === "back") {
+  if (
+    value === "clear"
+  ) {
 
-  input = input.slice(0, -1);
+    input = "";
 
-} else if (input.length < 20) {
-
-  const isChoiceKey =
-    typeof value === "string" &&
-    /^[ABC]$/.test(value);
+    render();
+    return;
+  }
 
 
-  if (isChoiceKey) {
+  /* =====================================================
+     ひとつ戻す
+  ===================================================== */
 
-    /*
-      A/B/C問題
-    */
-    input = value;
+  if (
+    value === "back"
+  ) {
 
-  } else if (
-  currentStage?.keypad === "fraction"
-) {
+    input =
+      input.slice(
+        0,
+        -1
+      );
 
-  /*
-    ================================
-    分数入力
 
-    入力順：
-    ① 分母
-    ② 「ぶんの」
-    ③ 分子
+    render();
+    return;
+  }
 
-    例：
-    6 → ぶんの → 4
 
-    内部値：
-    6/4
+  /* =====================================================
+     A / B / C 問題
 
-    ※内部では
-      分母 / 分子
-      の順で保持する
-    ================================
-  */
+     Stageではなく
+     今表示しているQuestionを見る
+  ===================================================== */
 
-  if (value === "/") {
+  const isChoiceQuestion =
+    Array.isArray(
+      question?.choices
+    )
+    &&
+    question.choices.length > 0
+    &&
+    typeof question?.answer === "string"
+    &&
+    /^[ABC]$/.test(
+      question.answer
+    );
 
-    /*
-      分母がまだ無い場合は
-      「ぶんの」を押せない
-    */
+
+  if (isChoiceQuestion) {
+
     if (
-      input === "" ||
-      input.includes("/")
+      typeof value === "string" &&
+      /^[ABC]$/.test(value)
     ) {
+
+      input = value;
+    }
+
+
+    render();
+    return;
+  }
+
+
+  /* =====================================================
+     分数を丸ごと入力する問題
+  ===================================================== */
+
+  const isFractionInputQuestion =
+    question?.kind ===
+      "fraction-add-same-denominator"
+    ||
+    question?.kind ===
+      "fraction-subtract-same-denominator";
+
+
+  if (
+    isFractionInputQuestion
+  ) {
+
+    /* ---------------------------------
+       「ぶんの」
+    --------------------------------- */
+
+    if (
+      value === "/"
+    ) {
+
+      /*
+        最初に「ぶんの」は押せない
+      */
+
+      if (
+        input === ""
+      ) {
+
+        render();
+        return;
+      }
+
+
+      /*
+        2回「ぶんの」を入れない
+      */
+
+      if (
+        input.includes("/")
+      ) {
+
+        render();
+        return;
+      }
+
+
+      input += "/";
+
+
       render();
       return;
     }
 
 
-    input += "/";
+    /* ---------------------------------
+       数字
+    --------------------------------- */
 
-  } else if (
-    /^[0-9]$/.test(value)
+    if (
+      typeof value === "string" &&
+      /^[0-9]$/.test(value)
+    ) {
+
+      const parts =
+        input.split("/");
+
+
+      /*
+        ぶんの前
+        ＝ 分母
+      */
+
+      if (
+        parts.length === 1
+      ) {
+
+        const denominator =
+          parts[0] ?? "";
+
+
+        if (
+          denominator.length < 2
+        ) {
+
+          input += value;
+        }
+
+
+        render();
+        return;
+      }
+
+
+      /*
+        ぶんの後
+        ＝ 分子
+      */
+
+      const numerator =
+        parts[1] ?? "";
+
+
+      if (
+        numerator.length < 2
+      ) {
+
+        input += value;
+      }
+
+
+      render();
+      return;
+    }
+
+
+    /*
+      分数問題では
+      数字・ぶんの以外は無視
+    */
+
+    render();
+    return;
+  }
+
+
+  /* =====================================================
+     通常数字・小数
+  ===================================================== */
+
+  if (
+    input.length < 20
   ) {
 
     input += value;
   }
 
-  } else {
 
-    /*
-      通常の数字・小数など
-    */
-    input += value;
-  }
+  render();
+  return;
 }
 
-render();
-return;
-}
     if (a === "answer") {
       if (!inputEnabled || input === "") return;
       const question = questions[qi];
@@ -1958,6 +2134,65 @@ ${renderKeypad()}
     : Number(cleaned);
 }
 
+/* =========================================================
+   現在の問題
+========================================================= */
+
+function getCurrentQuestion() {
+
+  return (
+    questions[
+      qi
+    ] ?? null
+  );
+}
+
+
+/* =========================================================
+   現在の問題がA/B/C形式か
+========================================================= */
+
+function isCurrentChoiceQuestion() {
+
+  const question =
+    getCurrentQuestion();
+
+
+  return (
+    Array.isArray(
+      question?.choices
+    )
+    &&
+    question.choices.length > 0
+    &&
+    typeof question?.answer ===
+      "string"
+    &&
+    /^[ABC]$/.test(
+      question.answer
+    )
+  );
+}
+
+
+/* =========================================================
+   現在の問題が分数入力か
+========================================================= */
+
+function isCurrentFractionInputQuestion() {
+
+  const question =
+    getCurrentQuestion();
+
+
+  return (
+    question?.kind ===
+      "fraction-add-same-denominator"
+    ||
+    question?.kind ===
+      "fraction-subtract-same-denominator"
+  );
+}
 
 /* =========================================================
    分数を丸ごと答える問題か
@@ -2334,12 +2569,18 @@ function renderFractionAnswerInput(
 }
 
   function renderKeypad() {
+
+  const question =
+    questions[qi] ?? null;
+
+
   return renderKeypadForStage(
     currentStage,
     {
       escapeHtml,
       inputEnabled,
-      input
+      input,
+      question
     }
   );
 }

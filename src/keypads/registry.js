@@ -6,6 +6,7 @@ const coreModules = import.meta.glob(
   }
 );
 
+
 const packModules = import.meta.glob(
   "../content/packs/*/keypads/**/*.js",
   {
@@ -14,7 +15,10 @@ const packModules = import.meta.glob(
   }
 );
 
-const keypads = new Map();
+
+const keypads =
+  new Map();
+
 
 for (
   const [path, item]
@@ -23,6 +27,7 @@ for (
     ...packModules
   })
 ) {
+
   if (
     !item?.id ||
     typeof item.keys !== "function"
@@ -30,66 +35,209 @@ for (
     continue;
   }
 
-  if (keypads.has(item.id)) {
+
+  if (
+    keypads.has(
+      item.id
+    )
+  ) {
+
     throw new Error(
       `Keypad id is duplicated: ${item.id} (${path})`
     );
   }
 
-  keypads.set(item.id, item);
+
+  keypads.set(
+    item.id,
+    item
+  );
 }
 
 
-/* =========================================
-   ステージから使用するキーパッドを判定
-========================================= */
+/* =========================================================
+   問題からKeypadを判定
 
-export function inferKeypadType(stage) {
-  if (stage?.keypad) {
-    return stage.keypad;
+   優先順位
+
+   ① question.keypad
+   ② A/B/C問題なら choice
+   ③ 分数丸ごと入力なら fraction
+   ④ Stage.keypad
+   ⑤ Stage.type
+========================================================= */
+
+export function inferKeypadType(
+  stage,
+  question = null
+) {
+
+  /*
+    Question自身が
+    Keypadを指定している場合
+  */
+
+  if (
+    question?.keypad
+  ) {
+    return question.keypad;
   }
 
-  if (stage?.type?.startsWith("clock_")) {
-    return "clock";
+
+  /*
+    A / B / C の選択問題
+
+    Bossなどで
+    Stage内に複数形式が混ざっていても
+    自動でchoiceへ切り替える
+  */
+
+  const isChoiceQuestion =
+    Array.isArray(
+      question?.choices
+    )
+    &&
+    question.choices.length > 0
+    &&
+    typeof question?.answer ===
+      "string"
+    &&
+    /^[ABC]$/.test(
+      question.answer
+    );
+
+
+  if (
+    isChoiceQuestion
+  ) {
+    return "choice";
   }
 
-  if (stage?.type === "money_sum") {
-    return "money";
-  }
 
-  if (stage?.type?.startsWith("fraction_")) {
+  /*
+    分数を丸ごと入力する問題
+  */
+
+  const fractionKinds = [
+    "fraction-add-same-denominator",
+    "fraction-subtract-same-denominator"
+  ];
+
+
+  if (
+    fractionKinds.includes(
+      String(
+        question?.kind ?? ""
+      )
+    )
+  ) {
     return "fraction";
   }
 
-  if (stage?.type?.startsWith("decimal_")) {
+
+  /*
+    Stage指定
+  */
+
+  if (
+    stage?.keypad
+  ) {
+    return stage.keypad;
+  }
+
+
+  /*
+    時計
+  */
+
+  if (
+    stage?.type?.startsWith(
+      "clock_"
+    )
+  ) {
+    return "clock";
+  }
+
+
+  /*
+    お金
+  */
+
+  if (
+    stage?.type ===
+    "money_sum"
+  ) {
+    return "money";
+  }
+
+
+  /*
+    分数
+  */
+
+  if (
+    stage?.type?.startsWith(
+      "fraction_"
+    )
+  ) {
+    return "fraction";
+  }
+
+
+  /*
+    小数
+  */
+
+  if (
+    stage?.type?.startsWith(
+      "decimal_"
+    )
+  ) {
     return "decimal";
   }
+
 
   return "number";
 }
 
 
-/* =========================================
-   キーパッドを描画
-========================================= */
+/* =========================================================
+   キーパッド描画
+========================================================= */
 
 export function renderKeypadForStage(
   stage,
   {
     escapeHtml,
     inputEnabled,
-    input = ""
+    input = "",
+    question = null
   }
 ) {
-  const type = inferKeypadType(stage);
+
+  const type =
+    inferKeypadType(
+      stage,
+      question
+    );
+
 
   const def =
-    keypads.get(type) ??
-    keypads.get("number");
+    keypads.get(
+      type
+    )
+    ??
+    keypads.get(
+      "number"
+    );
 
-  if (!def) {
+
+  if (
+    !def
+  ) {
     return "";
   }
+
 
   const button = (
     value,
@@ -106,20 +254,28 @@ export function renderKeypadForStage(
     </button>
   `;
 
-  const keys = def.keys(
-    button,
-    {
-      input,
-      stage
-    }
-  );
+
+  const keys =
+    def.keys(
+      button,
+      {
+        input,
+        stage,
+        question
+      }
+    );
+
 
   return `
     <div
       class="
         keypad
         keypad-${type}
-        ${inputEnabled ? "" : "keypad-disabled"}
+        ${
+          inputEnabled
+            ? ""
+            : "keypad-disabled"
+        }
       "
     >
       ${keys.join("")}
