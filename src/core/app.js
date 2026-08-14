@@ -39,9 +39,8 @@ export function createApp(root) {
   let cardRevealed = false;
   let chestTimer = null;
 
-  let sync = "local";
-  let msg = "";
-  let err = "";
+  let sync = "local", msg = "", err = "";
+  let transferCode = "";
 
   let lives = 2;
   let gameOver = false;
@@ -216,23 +215,72 @@ if (a === "player-new") {
   return;
 }
 
-
 if (a === "player-select") {
-  try {
-    const playerId = t.dataset.playerId;
 
-    state = selectPlayer(playerId);
+  try {
+
+    const playerId =
+      t.dataset.playerId;
+
+
+    /*
+     * まずローカルの
+     * プレイヤーを切り替える
+     */
+
+    state =
+      selectPlayer(
+        playerId
+      );
+
 
     playerMessage = "";
     playerError = "";
 
-    screen = "title";
+
+    /*
+     * 選択したプレイヤー専用の
+     * Firebaseデータを読み込む
+     */
+
+    try {
+
+      state =
+        await initializeCloud(
+          state
+        );
+
+    } catch (cloudError) {
+
+      console.warn(
+        "プレイヤーのクラウド同期に失敗しました。",
+        cloudError
+      );
+
+      /*
+       * Firebaseが失敗しても
+       * ローカルデータでゲームは続ける
+       */
+
+    }
+
+
+    screen =
+      "title";
+
 
     render();
+
   } catch (error) {
-    playerError = error.message;
+
+    playerError =
+      error?.message ??
+      "プレイヤーを選べませんでした。";
+
+
     render();
   }
+
 
   return;
 }
@@ -863,29 +911,43 @@ if (isCorrect) {
       render();
       return;
     }
+    
     if (a === "transfer-create") {
+
   try {
+
     const activePlayer =
       getActivePlayer();
 
+
     if (!activePlayer) {
+
       throw new Error(
         "引っ越すプレイヤーが選ばれていません。"
       );
     }
 
+
     /*
       =========================================
-      引っ越しデータ
+      引っ越しデータ Version 2
 
-      state だけではなく、
-      nickname も一緒に保存する。
+      playerId も一緒に持たせる。
+
+      同じプレイヤーを再度引っ越した場合は
+      引っ越し先で更新できる。
       =========================================
     */
+
     const transferData = {
+
       version: 2,
 
       player: {
+
+        playerId:
+          activePlayer.playerId,
+
         nickname:
           activePlayer.nickname ??
           "プレイヤー",
@@ -894,26 +956,35 @@ if (isCorrect) {
       }
     };
 
-    const code =
+
+    transferCode =
       await createTransferCode(
         transferData
       );
 
-    msg =
-      `引っ越しコード：${code}`;
 
+    /*
+      一般メッセージ欄には
+      コードを入れない
+    */
+
+    msg = "";
     err = "";
 
+
   } catch (error) {
+
+    transferCode = "";
+
     err =
       error?.message ??
       "引っ越しコードを発行できませんでした。";
   }
 
+
   render();
   return;
 }
-
 
 if (a === "transfer-use") {
   const code =
@@ -947,14 +1018,19 @@ if (a === "transfer-use") {
       transferredData?.player?.state
     ) {
       const importedPlayer =
-        importTransferredPlayer({
-          nickname:
-            transferredData.player.nickname ??
-            "プレイヤー",
+  importTransferredPlayer({
 
-          state:
-            transferredData.player.state
-        });
+    playerId:
+      transferredData.player.playerId ??
+      null,
+
+    nickname:
+      transferredData.player.nickname ??
+      "プレイヤー",
+
+    state:
+      transferredData.player.state
+  });
 
       state =
         importedPlayer.state;
@@ -977,7 +1053,7 @@ if (a === "transfer-use") {
     }
 
     msg =
-      "データの引き継ぎが完了しました！";
+  `「${importedPlayer.nickname}」のデータを引き継ぎました！`;
 
     err = "";
 
@@ -4206,10 +4282,22 @@ function zoomModal() {
             </h3>
 
             <p>
-              今までの冒険を、
-              ほかの端末へ移すための
-              6桁のコードです。
-            </p>
+  今までの冒険を、
+  ほかの端末へ移すための
+  6桁のコードです。
+</p>
+
+<p class="transfer-player-guide">
+  👤 引っ越しコードは
+  <strong>プレイヤー1人につき1つ</strong>
+  発行します。
+</p>
+
+<p class="transfer-player-guide">
+  プレイヤーが2人以上いるときは、
+  それぞれのプレイヤーを選んで
+  引っ越しコードを発行してください。
+</p>
           </div>
 
         </div>
@@ -4308,6 +4396,37 @@ function zoomModal() {
             🔑 6桁コードを発行する
           </button>
 
+                    ${
+            transferCode
+              ? `
+                <div class="transfer-issued-code">
+
+                  <small>
+                    あなたの引っ越しコード
+                  </small>
+
+                  <strong>
+                    ${escapeHtml(
+                      transferCode
+                    )}
+                  </strong>
+
+                  <p>
+                    このコードを、
+                    新しい端末の
+                    「6桁の引っ越しコード」
+                    入力画面に入力してね。
+                  </p>
+
+                  <p class="transfer-code-expire">
+                    ⏰ このコードは
+                    10分間だけ使えます。
+                  </p>
+
+                </div>
+              `
+              : ""
+          }
 
           <p class="transfer-small-note">
             発行したコードを、
@@ -4441,6 +4560,25 @@ function zoomModal() {
             名前やカードが正しいか
             確認してください。
           </li>
+
+          <li>
+  プレイヤーが2人以上いる場合は、
+  1人ずつ引っ越しコードを発行して
+  新しい端末へ引き継いでください。
+</li>
+
+<li>
+  別のプレイヤーを引っ越しても、
+  すでに引き継いだプレイヤーの
+  データは消えません。
+</li>
+
+<li>
+  同じプレイヤーをもう一度
+  引っ越した場合は、
+  そのプレイヤーのデータが
+  新しい内容に更新されます。
+</li>
         </ul>
 
       </section>

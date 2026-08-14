@@ -393,20 +393,31 @@ export async function createTransferCode(
         version: 2,
 
         player: {
-          nickname:
-            String(
-              transferData.player.nickname ??
-              "プレイヤー"
-            )
-              .trim()
-              .slice(
-                0,
-                20
-              ),
 
-          state:
-            transferData.player.state
-        },
+  playerId:
+    typeof transferData.player.playerId ===
+      "string"
+
+      ? transferData.player.playerId
+
+      : null,
+
+
+  nickname:
+    String(
+      transferData.player.nickname ??
+      "プレイヤー"
+    )
+      .trim()
+      .slice(
+        0,
+        20
+      ),
+
+
+  state:
+    transferData.player.state
+},
 
         createdAtMs,
         expiresAtMs
@@ -576,20 +587,31 @@ export async function consumeTransferCode(
       version: 2,
 
       player: {
-        nickname:
-          String(
-            data.player.nickname ??
-            "プレイヤー"
-          )
-            .trim()
-            .slice(
-              0,
-              20
-            ),
 
-        state:
-          data.player.state
-      }
+  playerId:
+    typeof data.player.playerId ===
+      "string"
+
+      ? data.player.playerId
+
+      : null,
+
+
+  nickname:
+    String(
+      data.player.nickname ??
+      "プレイヤー"
+    )
+      .trim()
+      .slice(
+        0,
+        20
+      ),
+
+
+  state:
+    data.player.state
+}
     };
 
 

@@ -13200,3 +13200,588 @@ img[src*="1000yen"],img[src*="5000yen"],img[src*="10000yen"] {
     line-height: 1.28;
   }
 }
+
+/* =========================================================
+   引っ越し・設定画面
+========================================================= */
+
+.transfer-screen {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+
+
+/* =========================================================
+   共通セクション
+========================================================= */
+
+.transfer-section,
+.transfer-guide,
+.transfer-box,
+.transfer-notes {
+  position: relative;
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   プレイヤー設定
+========================================================= */
+
+.transfer-section {
+  display: grid;
+  gap: 18px;
+}
+
+
+.transfer-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+
+.transfer-section-icon {
+  display: grid;
+  place-items: center;
+
+  width: 52px;
+  height: 52px;
+
+  flex: 0 0 auto;
+
+  font-size: 28px;
+
+  border-radius: 16px;
+
+  background:
+    rgba(255, 255, 255, 0.08);
+}
+
+
+.transfer-section-heading h3 {
+  margin: 0;
+}
+
+
+.transfer-section-heading p {
+  margin: 4px 0 0;
+}
+
+
+.current-player-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+
+  min-height: 64px;
+
+  padding: 12px 18px;
+
+  border-radius: 16px;
+
+  font-size: clamp(
+    1.2rem,
+    3vw,
+    1.6rem
+  );
+
+  background:
+    rgba(255, 255, 255, 0.08);
+}
+
+
+.rename-player-form {
+  display: grid;
+
+  grid-template-columns:
+    minmax(0, 1fr)
+    auto;
+
+  gap: 12px;
+
+  align-items: center;
+}
+
+
+.nickname-input {
+  width: 100%;
+  min-width: 0;
+}
+
+
+/* =========================================================
+   引っ越しコード説明
+========================================================= */
+
+.transfer-guide {
+  display: grid;
+  gap: 18px;
+}
+
+
+.transfer-guide-title {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+
+.transfer-guide-icon {
+  display: grid;
+  place-items: center;
+
+  width: 56px;
+  height: 56px;
+
+  flex: 0 0 auto;
+
+  font-size: 32px;
+
+  border-radius: 18px;
+
+  background:
+    rgba(255, 255, 255, 0.08);
+}
+
+
+.transfer-guide-title h3 {
+  margin:
+    0
+    0
+    6px;
+}
+
+
+.transfer-guide-title p {
+  margin: 0;
+
+  line-height: 1.7;
+}
+
+
+.transfer-data-list {
+  display: grid;
+  gap: 12px;
+
+  padding: 16px;
+
+  border-radius: 16px;
+
+  background:
+    rgba(255, 255, 255, 0.06);
+}
+
+
+.transfer-data-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+
+.transfer-data-items span {
+  display: inline-flex;
+  align-items: center;
+
+  padding:
+    8px
+    12px;
+
+  border-radius: 999px;
+
+  font-size: 0.9rem;
+
+  background:
+    rgba(255, 255, 255, 0.09);
+}
+
+
+/* =========================================================
+   引っ越し操作
+========================================================= */
+
+.transfer-columns {
+  display: grid;
+
+  grid-template-columns:
+    repeat(
+      2,
+      minmax(0, 1fr)
+    );
+
+  gap: 18px;
+}
+
+
+.transfer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+
+  gap: 14px;
+
+  min-width: 0;
+
+  padding-top: 26px;
+
+  text-align: center;
+}
+
+
+.transfer-box h3 {
+  margin: 0;
+
+  font-size:
+    clamp(
+      1.25rem,
+      3vw,
+      1.55rem
+    );
+
+  line-height: 1.4;
+}
+
+
+.transfer-box > .muted {
+  margin:
+    0
+    auto;
+
+  max-width: 330px;
+
+  line-height: 1.65;
+}
+
+
+.transfer-step-number {
+  position: absolute;
+
+  top: 12px;
+  left: 12px;
+
+  display: grid;
+  place-items: center;
+
+  width: 34px;
+  height: 34px;
+
+  border-radius: 50%;
+
+  font-weight: 900;
+
+  background:
+    rgba(255, 255, 255, 0.14);
+}
+
+
+.transfer-box-icon {
+  font-size: 44px;
+  line-height: 1;
+}
+
+
+.transfer-player-preview {
+  display: grid;
+  gap: 6px;
+
+  margin-top: 4px;
+
+  padding: 14px;
+
+  border-radius: 16px;
+
+  background:
+    rgba(255, 255, 255, 0.07);
+}
+
+
+.transfer-player-preview small {
+  opacity: 0.75;
+}
+
+
+.transfer-player-preview strong {
+  font-size: 1.15rem;
+}
+
+
+/* =========================================================
+   コード入力
+========================================================= */
+
+.transfer-code-label {
+  margin-top: 4px;
+
+  font-weight: 800;
+
+  text-align: left;
+}
+
+
+.transfer-code-input {
+  width: 100%;
+
+  min-height: 62px;
+
+  padding:
+    10px
+    16px;
+
+  font-size: clamp(
+    1.6rem,
+    5vw,
+    2.2rem
+  );
+
+  font-weight: 900;
+
+  letter-spacing: 0.24em;
+
+  text-align: center;
+
+  font-variant-numeric:
+    tabular-nums;
+}
+
+
+.transfer-create-button,
+.transfer-use-button {
+  width: 100%;
+
+  min-height: 58px;
+
+  margin-top: auto;
+
+  font-size: 1.05rem;
+  font-weight: 900;
+}
+
+
+.transfer-small-note {
+  min-height: 44px;
+
+  margin: 0;
+
+  font-size: 0.86rem;
+
+  line-height: 1.6;
+
+  opacity: 0.75;
+}
+
+
+/* =========================================================
+   発行コード・エラー
+========================================================= */
+
+.transfer-message {
+  padding: 18px;
+
+  border-radius: 18px;
+
+  font-size: clamp(
+    1.05rem,
+    3vw,
+    1.35rem
+  );
+
+  font-weight: 900;
+
+  text-align: center;
+
+  overflow-wrap: anywhere;
+}
+
+
+.transfer-error {
+  text-align: center;
+}
+
+
+/* =========================================================
+   注意事項
+========================================================= */
+
+.transfer-notes h3 {
+  margin-top: 0;
+}
+
+
+.transfer-notes ul {
+  display: grid;
+  gap: 10px;
+
+  margin:
+    12px
+    0
+    0;
+
+  padding-left: 1.4em;
+}
+
+
+.transfer-notes li {
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   iPad・タブレット
+========================================================= */
+
+@media (
+  max-width: 820px
+) {
+
+  .transfer-columns {
+    grid-template-columns: 1fr;
+  }
+
+
+  .transfer-box {
+    padding-top: 24px;
+  }
+
+
+  .rename-player-form {
+    grid-template-columns: 1fr;
+  }
+
+
+  .rename-player-form .button {
+    width: 100%;
+  }
+
+
+  .transfer-data-items {
+    display: grid;
+
+    grid-template-columns:
+      repeat(
+        2,
+        minmax(0, 1fr)
+      );
+  }
+
+
+  .transfer-data-items span {
+    justify-content: center;
+
+    text-align: center;
+  }
+}
+
+
+/* =========================================================
+   スマホ・小さいiPad
+========================================================= */
+
+@media (
+  max-width: 540px
+) {
+
+  .transfer-guide-title {
+    align-items: center;
+  }
+
+
+  .transfer-guide-icon {
+    width: 48px;
+    height: 48px;
+
+    font-size: 27px;
+  }
+
+
+  .transfer-data-items {
+    grid-template-columns: 1fr;
+  }
+
+
+  .transfer-code-input {
+    letter-spacing: 0.16em;
+  }
+
+
+  .current-player-name {
+    font-size: 1.15rem;
+  }
+}
+
+/* =========================================================
+   発行された引っ越しコード
+========================================================= */
+
+.transfer-issued-code {
+  display: grid;
+  gap: 10px;
+
+  margin-top: 4px;
+  padding: 18px;
+
+  border-radius: 18px;
+
+  text-align: center;
+
+  background:
+    rgba(255, 255, 255, 0.09);
+
+  border:
+    2px solid
+    rgba(255, 255, 255, 0.16);
+}
+
+
+.transfer-issued-code small {
+  font-weight: 800;
+  opacity: 0.8;
+}
+
+
+.transfer-issued-code strong {
+  display: block;
+
+  padding:
+    10px
+    14px;
+
+  font-size:
+    clamp(
+      2rem,
+      7vw,
+      3rem
+    );
+
+  font-weight: 900;
+
+  letter-spacing: 0.18em;
+
+  font-variant-numeric:
+    tabular-nums;
+}
+
+
+.transfer-issued-code p {
+  margin: 0;
+
+  line-height: 1.7;
+}
+
+
+.transfer-code-expire {
+  font-size: 0.88rem;
+
+  opacity: 0.75;
+}
+
+
+.transfer-player-guide {
+  margin:
+    10px
+    0
+    0;
+
+  line-height: 1.7;
+}

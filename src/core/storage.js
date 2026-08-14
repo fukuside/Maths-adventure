@@ -1122,12 +1122,21 @@ export function renameActivePlayer(
   return player;
 }
 
-
 /* =========================================================
    引っ越しデータからプレイヤーを復元
+
+   ・同じplayerIdが存在
+       → そのプレイヤーを更新
+
+   ・存在しない
+       → 新しいプレイヤーとして追加
+
+   これにより複数プレイヤーを
+   1人ずつ安全に引っ越せる。
 ========================================================= */
 
 export function importTransferredPlayer({
+  playerId,
   nickname,
   state
 } = {}) {
@@ -1149,36 +1158,39 @@ export function importTransferredPlayer({
 
 
   /*
-   * 現在選択中のプレイヤーがいる場合は、
-   * そのプレイヤーへ引っ越しデータを上書きする。
-   *
-   * これにより
-   *
-   * PC「テスト②」
-   * ↓
-   * iPad「テスト」
-   *
-   * の場合も、
-   *
-   * iPad側を
-   * 「テスト②」
-   * に変更する。
-   */
+    =========================================
+    引っ越し元のplayerId
+    =========================================
+  */
 
-  const activePlayerId =
-    profiles.activePlayerId;
+  const safePlayerId =
+    typeof playerId === "string" &&
+    playerId.trim() !== ""
 
+      ? playerId.trim()
+
+      : null;
+
+
+  /*
+    =========================================
+    同じプレイヤーが
+    すでにこの端末に存在する
+
+    → 新規作成せず更新
+    =========================================
+  */
 
   if (
-    activePlayerId &&
+    safePlayerId &&
     profiles.players[
-      activePlayerId
+      safePlayerId
     ]
   ) {
 
     const player =
       profiles.players[
-        activePlayerId
+        safePlayerId
       ];
 
 
@@ -1194,6 +1206,10 @@ export function importTransferredPlayer({
       Date.now();
 
 
+    profiles.activePlayerId =
+      safePlayerId;
+
+
     saveProfiles(
       profiles
     );
@@ -1204,12 +1220,57 @@ export function importTransferredPlayer({
 
 
   /*
-   * プレイヤーがまだ存在しない端末では、
-   * 新しいプレイヤーとして作成する。
-   */
+    =========================================
+    新しいプレイヤーとして追加
 
-  return createPlayer(
-    safeNickname,
-    safeState
+    playerIdが引っ越しデータにあるなら
+    同じIDを引き継ぐ。
+    =========================================
+  */
+
+  const newPlayerId =
+    safePlayerId ??
+    createPlayerId();
+
+
+  const player = {
+
+    playerId:
+      newPlayerId,
+
+    nickname:
+      safeNickname,
+
+    createdAt:
+      Date.now(),
+
+    lastPlayedAt:
+      Date.now(),
+
+    state:
+      safeState
+  };
+
+
+  profiles.players[
+    newPlayerId
+  ] =
+    player;
+
+
+  /*
+    引っ越したプレイヤーを
+    現在のプレイヤーにする
+  */
+
+  profiles.activePlayerId =
+    newPlayerId;
+
+
+  saveProfiles(
+    profiles
   );
+
+
+  return player;
 }
