@@ -68,76 +68,593 @@ export async function ensureAnonymousUser() {
   });
 }
 
-export async function loadCloudSave(uid) {
-  if (!configured) return null;
+export async function loadCloudSave(
+  uid,
+  playerId
+) {
 
-  const snapshot = await getDoc(doc(db, "users", uid));
-  return snapshot.exists() ? snapshot.data() : null;
+  if (
+    !configured ||
+    !uid ||
+    !playerId
+  ) {
+    return null;
+  }
+
+
+  const snapshot =
+    await getDoc(
+      doc(
+        db,
+        "users",
+        uid,
+        "players",
+        playerId
+      )
+    );
+
+
+  return snapshot.exists()
+    ? snapshot.data()
+    : null;
 }
 
-export async function saveCloudSave(uid, state) {
-  if (!configured) return;
+export async function saveCloudSave(
+  uid,
+  playerId,
+  state
+) {
+
+  if (
+    !configured ||
+    !uid ||
+    !playerId
+  ) {
+    return;
+  }
+
 
   await setDoc(
-    doc(db, "users", uid),
+    doc(
+      db,
+      "users",
+      uid,
+      "players",
+      playerId
+    ),
     {
-      gems: state.gems,
-      unlockedCards: state.unlockedCards,
-      speedSetting: state.speedSetting,
-      totalExp: Number(state.totalExp ?? 0),
-      updatedAt: serverTimestamp()
+
+      /* =====================================
+         基本データ
+      ===================================== */
+
+      gems:
+        Number(
+          state?.gems ?? 0
+        ),
+
+
+      unlockedCards:
+        Array.isArray(
+          state?.unlockedCards
+        )
+          ? state.unlockedCards
+          : [],
+
+
+      speedSetting:
+        state?.speedSetting ??
+        "normal",
+
+
+      totalExp:
+        Number(
+          state?.totalExp ?? 0
+        ),
+
+
+      /* =====================================
+         パートナー
+      ===================================== */
+
+      partnerKey:
+        state?.partnerKey ??
+        null,
+
+
+      partnerStudy:
+        state?.partnerStudy &&
+        typeof state.partnerStudy ===
+          "object"
+
+          ? state.partnerStudy
+
+          : {},
+
+
+      /* =====================================
+         更新日時
+      ===================================== */
+
+      updatedAt:
+        serverTimestamp()
     },
-    { merge: true }
+
+    {
+      merge: true
+    }
   );
 }
 
-export async function createTransferCode(state) {
-  if (!configured) {
-    throw new Error("Firebase設定がまだ完了していません。");
+/* =========================================================
+   旧クラウドセーブ読み込み
+
+   旧方式：
+   users/{uid}
+
+   新方式：
+   users/{uid}/players/{playerId}
+========================================================= */
+
+export async function loadLegacyCloudSave(
+  uid
+) {
+
+  if (
+    !configured ||
+    !uid
+  ) {
+    return null;
   }
 
-  const code = String(Math.floor(100000 + Math.random() * 900000));
-  const expiresAt = Date.now() + 10 * 60 * 1000;
 
-  await setDoc(doc(db, "transferCodes", code), {
-    gems: state.gems,
-    unlockedCards: state.unlockedCards,
-    speedSetting: state.speedSetting,
-    totalExp: Number(state.totalExp ?? 0),
-    createdAtMs: Date.now(),
-    expiresAtMs: expiresAt
-  });
+  const snapshot =
+    await getDoc(
+      doc(
+        db,
+        "users",
+        uid
+      )
+    );
+
+
+  if (!snapshot.exists()) {
+    return null;
+  }
+
+
+  const data =
+    snapshot.data();
+
+
+  /*
+   * すでに新方式へ移行済みなら
+   * 旧データをもう使わない。
+   */
+
+  if (
+    data.legacyMigratedToPlayerId
+  ) {
+    return null;
+  }
+
+
+  /*
+   * 旧セーブらしいデータが
+   * 本当に存在するか確認
+   */
+
+  const hasLegacyState =
+    data.gems !== undefined ||
+    data.unlockedCards !== undefined ||
+    data.totalExp !== undefined ||
+    data.partnerKey !== undefined ||
+    data.partnerStudy !== undefined;
+
+
+  if (!hasLegacyState) {
+    return null;
+  }
+
+
+  return {
+
+    gems:
+      Number(
+        data.gems ?? 0
+      ),
+
+
+    unlockedCards:
+      Array.isArray(
+        data.unlockedCards
+      )
+        ? data.unlockedCards
+        : [],
+
+
+    speedSetting:
+      data.speedSetting ??
+      "normal",
+
+
+    totalExp:
+      Number(
+        data.totalExp ?? 0
+      ),
+
+
+    partnerKey:
+      data.partnerKey ??
+      null,
+
+
+    partnerStudy:
+      data.partnerStudy &&
+      typeof data.partnerStudy ===
+        "object"
+
+        ? data.partnerStudy
+
+        : {}
+  };
+}
+
+
+/* =========================================================
+   旧クラウドセーブ移行済み記録
+========================================================= */
+
+export async function markLegacyCloudSaveMigrated(
+  uid,
+  playerId
+) {
+
+  if (
+    !configured ||
+    !uid ||
+    !playerId
+  ) {
+    return;
+  }
+
+
+  await setDoc(
+    doc(
+      db,
+      "users",
+      uid
+    ),
+    {
+      legacyMigratedToPlayerId:
+        playerId,
+
+      legacyMigratedAt:
+        serverTimestamp()
+    },
+
+    {
+      merge: true
+    }
+  );
+}
+
+export async function createTransferCode(
+  transferData
+) {
+
+  if (!configured) {
+
+    throw new Error(
+      "Firebase設定がまだ完了していません。"
+    );
+  }
+
+
+  const code =
+    String(
+      Math.floor(
+        100000 +
+        Math.random() * 900000
+      )
+    );
+
+
+  const createdAtMs =
+    Date.now();
+
+
+  const expiresAtMs =
+    createdAtMs +
+    10 * 60 * 1000;
+
+
+  /*
+    =========================================
+    新方式 Version 2
+
+    nickname + state を
+    まとめて保存する
+    =========================================
+  */
+
+  if (
+    transferData?.version === 2 &&
+    transferData?.player?.state
+  ) {
+
+    await setDoc(
+      doc(
+        db,
+        "transferCodes",
+        code
+      ),
+      {
+        version: 2,
+
+        player: {
+          nickname:
+            String(
+              transferData.player.nickname ??
+              "プレイヤー"
+            )
+              .trim()
+              .slice(
+                0,
+                20
+              ),
+
+          state:
+            transferData.player.state
+        },
+
+        createdAtMs,
+        expiresAtMs
+      }
+    );
+
+
+    return code;
+  }
+
+
+  /*
+    =========================================
+    旧方式との互換
+
+    stateだけ渡された場合
+    =========================================
+  */
+
+  await setDoc(
+    doc(
+      db,
+      "transferCodes",
+      code
+    ),
+    {
+      gems:
+        Number(
+          transferData?.gems ?? 0
+        ),
+
+      unlockedCards:
+        Array.isArray(
+          transferData?.unlockedCards
+        )
+          ? transferData.unlockedCards
+          : [],
+
+      speedSetting:
+        transferData?.speedSetting ??
+        "normal",
+
+      totalExp:
+        Number(
+          transferData?.totalExp ?? 0
+        ),
+
+      partnerKey:
+        transferData?.partnerKey ??
+        null,
+
+      partnerStudy:
+        transferData?.partnerStudy &&
+        typeof transferData.partnerStudy ===
+          "object"
+          ? transferData.partnerStudy
+          : {},
+
+      createdAtMs,
+      expiresAtMs
+    }
+  );
+
 
   return code;
 }
 
-export async function consumeTransferCode(code) {
+export async function consumeTransferCode(
+  code
+) {
+
   if (!configured) {
-    throw new Error("Firebase設定がまだ完了していません。");
+
+    throw new Error(
+      "Firebase設定がまだ完了していません。"
+    );
   }
 
-  const ref = doc(db, "transferCodes", code);
-  const snapshot = await getDoc(ref);
 
-  if (!snapshot.exists()) {
-    throw new Error("コードが見つかりません。");
+  const safeCode =
+    String(
+      code ?? ""
+    )
+      .replace(
+        /\D/g,
+        ""
+      )
+      .slice(
+        0,
+        6
+      );
+
+
+  if (
+    safeCode.length !== 6
+  ) {
+
+    throw new Error(
+      "6桁の引っ越しコードを入力してください。"
+    );
   }
 
-  const data = snapshot.data();
 
-  if (!data.expiresAtMs || Date.now() > data.expiresAtMs) {
-    await deleteDoc(ref);
-    throw new Error("コードの有効期限が切れています。");
+  const ref =
+    doc(
+      db,
+      "transferCodes",
+      safeCode
+    );
+
+
+  const snapshot =
+    await getDoc(
+      ref
+    );
+
+
+  if (
+    !snapshot.exists()
+  ) {
+
+    throw new Error(
+      "コードが見つかりません。"
+    );
   }
 
-  await deleteDoc(ref);
 
-  return {
-    gems: Number(data.gems ?? 0),
-    unlockedCards: Array.isArray(data.unlockedCards)
-      ? data.unlockedCards
-      : [],
-    speedSetting: data.speedSetting ?? "normal",
-    totalExp: Number(data.totalExp ?? 0)
+  const data =
+    snapshot.data();
+
+
+  /*
+    =========================================
+    有効期限確認
+    =========================================
+  */
+
+  if (
+    !data.expiresAtMs ||
+    Date.now() >
+      data.expiresAtMs
+  ) {
+
+    await deleteDoc(
+      ref
+    );
+
+
+    throw new Error(
+      "コードの有効期限が切れています。"
+    );
+  }
+
+
+  /*
+    =========================================
+    新方式 Version 2
+    =========================================
+  */
+
+  if (
+    data.version === 2 &&
+    data.player?.state
+  ) {
+
+    const result = {
+      version: 2,
+
+      player: {
+        nickname:
+          String(
+            data.player.nickname ??
+            "プレイヤー"
+          )
+            .trim()
+            .slice(
+              0,
+              20
+            ),
+
+        state:
+          data.player.state
+      }
+    };
+
+
+    /*
+      正常に読み込めたあとで
+      コードを削除
+    */
+
+    await deleteDoc(
+      ref
+    );
+
+
+    return result;
+  }
+
+
+  /*
+    =========================================
+    旧方式
+
+    過去に発行したコードにも対応
+    =========================================
+  */
+
+  const result = {
+
+    gems:
+      Number(
+        data.gems ?? 0
+      ),
+
+    unlockedCards:
+      Array.isArray(
+        data.unlockedCards
+      )
+        ? data.unlockedCards
+        : [],
+
+    speedSetting:
+      data.speedSetting ??
+      "normal",
+
+    totalExp:
+      Number(
+        data.totalExp ?? 0
+      ),
+
+    partnerKey:
+      data.partnerKey ??
+      null,
+
+    partnerStudy:
+      data.partnerStudy &&
+      typeof data.partnerStudy ===
+        "object"
+        ? data.partnerStudy
+        : {}
   };
+
+
+  await deleteDoc(
+    ref
+  );
+
+
+  return result;
 }

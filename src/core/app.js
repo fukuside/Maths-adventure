@@ -13,55 +13,181 @@ import {
   createPlayer,
   selectPlayer,
   hasLegacySave,
-  migrateLegacySave
+  migrateLegacySave,
+  renameActivePlayer,
+  importTransferredPlayer
 } from "./storage.js";
 import { consumeTransferCode, createTransferCode, isFirebaseConfigured } from "./firebase.js";
 
 const rarityRows = [["UR", 0.08, 1.7], ["SR", 0.32, 1.3], ["N", 0.60, 1]];
 
 export function createApp(root) {
+
   let state = loadLocalState();
-  let screen = "landing", worldId = null, currentStage = null, questions = [], qi = 0, input = "";
+
+  let screen = "landing";
+  let worldId = null;
+  let currentStage = null;
+  let questions = [];
+  let qi = 0;
+  let input = "";
+
   let earned = null;
 
-let chestOpened = false;
-let chestOpening = false;
-let cardRevealed = false;
-let chestTimer = null;
+  let chestOpened = false;
+  let chestOpening = false;
+  let cardRevealed = false;
+  let chestTimer = null;
 
-let sync = "local", msg = "", err = "";
-  let lives = 2, gameOver = false, wrongMessage = "";
-  let flashVisible = true, inputEnabled = false, flashTimer = null, feedbackTimer = null, zoom = null;
+  let sync = "local";
+  let msg = "";
+  let err = "";
+
+  let lives = 2;
+  let gameOver = false;
+  let wrongMessage = "";
+
+  let flashVisible = true;
+  let inputEnabled = false;
+  let flashTimer = null;
+  let feedbackTimer = null;
+  let zoom = null;
+
   let answerFeedback = null;
   let feedbackPlaying = false;
   let partnerMood = "idle";
+
   let titleBgmPlaying = false;
+
   let playerMessage = "";
   let playerError = "";
 
-const titleBgm = new Audio("/audio/title-bgm.mp3");
-titleBgm.loop = true;
-titleBgm.volume = 0.35;
 
-  setSyncListener(x => { sync = x; render(); });
-  root.addEventListener("click", click);
-  root.addEventListener("input", onInput);
-  root.addEventListener("mousemove", tiltMouse);
-  root.addEventListener("touchmove", tiltTouch, { passive: false });
+  /* =========================================================
+     タイトルBGM
+  ========================================================= */
+
+  const titleBgm =
+    new Audio(
+      "/audio/title-bgm.mp3"
+    );
+
+  titleBgm.loop = true;
+  titleBgm.volume = 0.35;
+
+
+  /* =========================================================
+     イベント
+  ========================================================= */
+
+  setSyncListener(
+    x => {
+      sync = x;
+      render();
+    }
+  );
+
+
+  root.addEventListener(
+    "click",
+    click
+  );
+
+
+  root.addEventListener(
+    "input",
+    onInput
+  );
+
+
+  root.addEventListener(
+    "mousemove",
+    tiltMouse
+  );
+
+
+  root.addEventListener(
+    "touchmove",
+    tiltTouch,
+    {
+      passive: false
+    }
+  );
+
+
+  /* =========================================================
+     初期表示
+  ========================================================= */
+
   render();
-  initializeCloud(state).then(x => { state = x; render(); }).catch(() => { sync = "local"; render(); });
+
+
+  initializeCloud(
+    state
+  )
+    .then(
+      x => {
+        state = x;
+        render();
+      }
+    )
+    .catch(
+      () => {
+        sync = "local";
+        render();
+      }
+    );
+
+
+  /* =========================================================
+     INPUT
+  ========================================================= */
 
   function onInput(e) {
-  if (e.target.matches("[data-transfer-input]")) {
-    e.target.value = e.target.value
-      .replace(/\D/g, "")
-      .slice(0, 6);
+
+    /*
+      引っ越しコード
+      数字6桁だけ
+    */
+
+    if (
+      e.target.matches(
+        "[data-transfer-input]"
+      )
+    ) {
+
+      e.target.value =
+        e.target.value
+          .replace(
+            /\D/g,
+            ""
+          )
+          .slice(
+            0,
+            6
+          );
+    }
+
+
+    /*
+      ニックネーム
+      最大20文字
+    */
+
+    if (
+      e.target.matches(
+        "[data-nickname-input], [data-rename-input]"
+      )
+    ) {
+
+      e.target.value =
+        e.target.value.slice(
+          0,
+          20
+        );
+    }
   }
 
-  if (e.target.matches("[data-nickname-input]")) {
-    e.target.value = e.target.value.slice(0, 20);
-  }
-}
   async function click(e) {
     const t = e.target.closest("[data-action]"); if (!t) return;
     const a = t.dataset.action;
@@ -110,7 +236,6 @@ if (a === "player-select") {
 
   return;
 }
-
 
 if (a === "player-create-submit") {
   const nickname =
@@ -187,6 +312,52 @@ if (a === "toggle-title-bgm") {
   toggleTitleBgm();
   return;
 }
+
+if (a === "player-rename-submit") {
+  const nickname =
+    root.querySelector("[data-rename-input]")
+      ?.value
+      ?.trim() ?? "";
+
+  if (!nickname) {
+    playerError =
+      "新しいニックネームを入力してください。";
+
+    render();
+    return;
+  }
+
+  if (nickname.length > 20) {
+    playerError =
+      "ニックネームは20文字以内にしてください。";
+
+    render();
+    return;
+  }
+
+  try {
+    renameActivePlayer(nickname);
+
+    playerMessage =
+      `なまえを「${nickname}」にかえました！`;
+
+    playerError = "";
+
+    screen = "sync";
+
+    render();
+
+  } catch (error) {
+    playerError =
+      error?.message ??
+      "名前を変更できませんでした。";
+
+    render();
+  }
+
+  return;
+}
+
     if (
   feedbackPlaying &&
   ![
@@ -692,8 +863,137 @@ if (isCorrect) {
       render();
       return;
     }
-    if (a === "transfer-create") { try { msg = await createTransferCode(state); err = ""; } catch (x) { err = x.message; } render(); return; }
-    if (a === "transfer-use") { const code = root.querySelector("[data-transfer-input]")?.value ?? ""; try { state = await replaceState(await consumeTransferCode(code)); msg = "引き継ぎ完了"; err = ""; screen = "title"; } catch (x) { err = x.message; } render(); }
+    if (a === "transfer-create") {
+  try {
+    const activePlayer =
+      getActivePlayer();
+
+    if (!activePlayer) {
+      throw new Error(
+        "引っ越すプレイヤーが選ばれていません。"
+      );
+    }
+
+    /*
+      =========================================
+      引っ越しデータ
+
+      state だけではなく、
+      nickname も一緒に保存する。
+      =========================================
+    */
+    const transferData = {
+      version: 2,
+
+      player: {
+        nickname:
+          activePlayer.nickname ??
+          "プレイヤー",
+
+        state
+      }
+    };
+
+    const code =
+      await createTransferCode(
+        transferData
+      );
+
+    msg =
+      `引っ越しコード：${code}`;
+
+    err = "";
+
+  } catch (error) {
+    err =
+      error?.message ??
+      "引っ越しコードを発行できませんでした。";
+  }
+
+  render();
+  return;
+}
+
+
+if (a === "transfer-use") {
+  const code =
+    root.querySelector(
+      "[data-transfer-input]"
+    )?.value?.trim() ?? "";
+
+  if (!/^\d{6}$/.test(code)) {
+    err =
+      "6桁の引っ越しコードを入力してください。";
+
+    msg = "";
+
+    render();
+    return;
+  }
+
+  try {
+    const transferredData =
+      await consumeTransferCode(code);
+
+    /*
+      =========================================
+      新方式 Version 2
+
+      nickname + state をまとめて復元
+      =========================================
+    */
+    if (
+      transferredData?.version === 2 &&
+      transferredData?.player?.state
+    ) {
+      const importedPlayer =
+        importTransferredPlayer({
+          nickname:
+            transferredData.player.nickname ??
+            "プレイヤー",
+
+          state:
+            transferredData.player.state
+        });
+
+      state =
+        importedPlayer.state;
+    }
+
+    /*
+      =========================================
+      旧方式との互換
+
+      以前の引っ越しコードは
+      state だけが保存されているため、
+      そのまま復元する。
+      =========================================
+    */
+    else {
+      state =
+        await replaceState(
+          transferredData
+        );
+    }
+
+    msg =
+      "データの引き継ぎが完了しました！";
+
+    err = "";
+
+    screen = "title";
+
+  } catch (error) {
+    err =
+      error?.message ??
+      "データを引き継げませんでした。";
+
+    msg = "";
+  }
+
+  render();
+  return;
+}
   }
 
   function usesFlash(stage) {
@@ -3746,9 +4046,407 @@ function zoomModal() {
   function tiltMouse(e) { if (!zoom) return; const el=root.querySelector("[data-zoom-tilt]"); if(!el)return; const r=el.getBoundingClientRect(),x=e.clientX-r.left-r.width/2,y=e.clientY-r.top-r.height/2; el.style.transform=`rotateX(${-y/(r.height/2)*16}deg) rotateY(${x/(r.width/2)*16}deg) scale(1.03)`; }
   function tiltTouch(e) { if (!zoom||!e.touches.length)return; e.preventDefault(); const t=e.touches[0],el=root.querySelector("[data-zoom-tilt]"); if(!el)return; const r=el.getBoundingClientRect(),x=t.clientX-r.left-r.width/2,y=t.clientY-r.top-r.height/2; el.style.transform=`rotateX(${-y/(r.height/2)*16}deg) rotateY(${x/(r.width/2)*16}deg) scale(1.03)`; }
 
-  function transfer() { return `<section class="panel stack"><div class="toolbar"><button class="button secondary small" data-action="go" data-screen="landing">
-  ◀ トップへ
-</button>
-<h2>引っ越しコード</h2><span></span></div>${!isFirebaseConfigured()?'<div class="notice">Firebase設定が未入力です。</div>':""}<button class="button" data-action="transfer-create">6桁コードを発行</button><input class="input" data-transfer-input inputmode="numeric" maxlength="6" placeholder="123456"><button class="button cyan" data-action="transfer-use">データを引き継ぐ</button>${msg?`<div class="sync-code">${msg}</div>`:""}${err?`<div class="error">${err}</div>`:""}</section>`; }
+  function transfer() {
+  const activePlayer =
+    getActivePlayer();
+
+  return `
+    <section class="stack transfer-screen">
+
+      <!-- =========================
+           ヘッダー
+      ========================== -->
+
+      <div class="toolbar">
+
+        <button
+          class="button secondary small"
+          data-action="go"
+          data-screen="landing"
+        >
+          ◀ トップへ
+        </button>
+
+        <h2>
+          引っ越し・設定
+        </h2>
+
+        <span></span>
+
+      </div>
+
+
+      ${
+        !isFirebaseConfigured()
+          ? `
+            <div class="notice">
+              Firebase設定が未入力です。
+              引っ越しコード機能は現在利用できません。
+            </div>
+          `
+          : ""
+      }
+
+
+      <!-- =========================
+           プレイヤー設定
+      ========================== -->
+
+      ${
+        activePlayer
+          ? `
+            <section class="panel transfer-section">
+
+              <div class="transfer-section-heading">
+
+                <div class="transfer-section-icon">
+                  👤
+                </div>
+
+                <div>
+                  <h3>
+                    プレイヤー設定
+                  </h3>
+
+                  <p class="muted">
+                    今つかっている名前
+                  </p>
+                </div>
+
+              </div>
+
+
+              <div class="current-player-name">
+                🧙
+                <strong>
+                  ${escapeHtml(
+                    activePlayer.nickname ??
+                    "プレイヤー"
+                  )}
+                </strong>
+              </div>
+
+
+              <div class="rename-player-form">
+
+                <input
+                  class="input nickname-input"
+                  data-rename-input
+                  maxlength="20"
+                  autocomplete="off"
+                  placeholder="新しいニックネーム"
+                  value="${escapeHtml(
+                    activePlayer.nickname ?? ""
+                  )}"
+                >
+
+                <button
+                  class="button secondary"
+                  data-action="player-rename-submit"
+                >
+                  名前を変更する
+                </button>
+
+              </div>
+
+            </section>
+          `
+          : `
+            <section class="panel transfer-section">
+
+              <p class="muted">
+                プレイヤーを選ぶと、
+                名前の変更ができます。
+              </p>
+
+            </section>
+          `
+      }
+
+            ${
+        playerMessage
+          ? `
+            <div class="notice">
+              ${escapeHtml(
+                playerMessage
+              )}
+            </div>
+          `
+          : ""
+      }
+
+
+      ${
+        playerError
+          ? `
+            <div class="error">
+              ${escapeHtml(
+                playerError
+              )}
+            </div>
+          `
+          : ""
+      }
+
+      <!-- =========================
+           引っ越し説明
+      ========================== -->
+
+      <section class="panel transfer-guide">
+
+        <div class="transfer-guide-title">
+
+          <span class="transfer-guide-icon">
+            📱
+          </span>
+
+          <div>
+            <h3>
+              引っ越しコードとは？
+            </h3>
+
+            <p>
+              今までの冒険を、
+              ほかの端末へ移すための
+              6桁のコードです。
+            </p>
+          </div>
+
+        </div>
+
+
+        <div class="transfer-data-list">
+
+          <strong>
+            引き継がれるもの
+          </strong>
+
+          <div class="transfer-data-items">
+
+            <span>👤 なまえ</span>
+            <span>🗺️ 学習の進み具合</span>
+            <span>🃏 集めたカード</span>
+            <span>💎 ジェム</span>
+            <span>⭐ パートナー</span>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- =========================
+           2カラム
+      ========================== -->
+
+      <div class="transfer-columns">
+
+
+        <!-- -------------------------
+             この端末から
+        -------------------------- -->
+
+        <section class="panel transfer-box transfer-export">
+
+          <div class="transfer-step-number">
+            1
+          </div>
+
+          <div class="transfer-box-icon">
+            📤
+          </div>
+
+          <h3>
+            この端末から
+            <br>
+            引っ越す
+          </h3>
+
+          <p class="muted">
+            今まで遊んでいた端末で
+            こちらを使います。
+          </p>
+
+
+          ${
+            activePlayer
+              ? `
+                <div class="transfer-player-preview">
+
+                  <small>
+                    引っ越すプレイヤー
+                  </small>
+
+                  <strong>
+                    🧙 ${escapeHtml(
+                      activePlayer.nickname ??
+                      "プレイヤー"
+                    )}
+                  </strong>
+
+                </div>
+              `
+              : `
+                <div class="notice">
+                  先にプレイヤーを
+                  選んでください。
+                </div>
+              `
+          }
+
+
+          <button
+            class="button transfer-create-button"
+            data-action="transfer-create"
+            ${
+              !activePlayer
+                ? "disabled"
+                : ""
+            }
+          >
+            🔑 6桁コードを発行する
+          </button>
+
+
+          <p class="transfer-small-note">
+            発行したコードを、
+            新しい端末で入力してください。
+          </p>
+
+        </section>
+
+
+        <!-- -------------------------
+             この端末へ
+        -------------------------- -->
+
+        <section class="panel transfer-box transfer-import">
+
+          <div class="transfer-step-number">
+            2
+          </div>
+
+          <div class="transfer-box-icon">
+            📥
+          </div>
+
+          <h3>
+            この端末へ
+            <br>
+            引き継ぐ
+          </h3>
+
+          <p class="muted">
+            新しく使う端末で
+            こちらを使います。
+          </p>
+
+
+          <label
+            class="transfer-code-label"
+            for="transfer-code-input"
+          >
+            6桁の引っ越しコード
+          </label>
+
+
+          <input
+            id="transfer-code-input"
+            class="input transfer-code-input"
+            data-transfer-input
+            inputmode="numeric"
+            pattern="[0-9]*"
+            maxlength="6"
+            autocomplete="one-time-code"
+            placeholder="123456"
+          >
+
+
+          <button
+            class="button cyan transfer-use-button"
+            data-action="transfer-use"
+          >
+            📲 データを引き継ぐ
+          </button>
+
+
+          <p class="transfer-small-note">
+            引き継ぎが完了すると、
+            引っ越し元の名前も
+            一緒に復元されます。
+          </p>
+
+        </section>
+
+      </div>
+
+
+      <!-- =========================
+           メッセージ
+      ========================== -->
+
+      ${
+        msg
+          ? `
+            <div class="sync-code transfer-message">
+              ${escapeHtml(msg)}
+            </div>
+          `
+          : ""
+      }
+
+
+      ${
+        err
+          ? `
+            <div class="error transfer-error">
+              ${escapeHtml(err)}
+            </div>
+          `
+          : ""
+      }
+
+
+      <!-- =========================
+           注意事項
+      ========================== -->
+
+      <section class="panel transfer-notes">
+
+        <h3>
+          ⚠️ 引っ越しするときの注意
+        </h3>
+
+        <ul>
+          <li>
+            引っ越しコードは、
+            ほかの人に教えないでください。
+          </li>
+
+          <li>
+            新しい端末では
+            「この端末へ引き継ぐ」から
+            コードを入力します。
+          </li>
+
+          <li>
+            名前・カード・ジェム・
+            学習の進み具合などが
+            引き継がれます。
+          </li>
+
+          <li>
+            引っ越しが終わったら、
+            名前やカードが正しいか
+            確認してください。
+          </li>
+        </ul>
+
+      </section>
+
+    </section>
+  `;
 }
 const image=(c,r)=>c?.images?.[r]??c?.images?.N??c?.image??"";
+}

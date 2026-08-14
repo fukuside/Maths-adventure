@@ -2,7 +2,9 @@ import {
   ensureAnonymousUser,
   isFirebaseConfigured,
   loadCloudSave,
-  saveCloudSave
+  saveCloudSave,
+  loadLegacyCloudSave,
+  markLegacyCloudSaveMigrated
 } from "./firebase.js";
 
 
@@ -805,7 +807,7 @@ export async function initializeCloud(
 
   /*
    * プレイヤー未作成なら
-   * 同期しない
+   * クラウド同期しない
    */
 
   if (!activePlayer) {
@@ -818,15 +820,32 @@ export async function initializeCloud(
   }
 
 
-  const cloud =
-    await loadCloudSave(
-      cloudUid
+  const playerId =
+    activePlayer.playerId;
+
+
+  if (!playerId) {
+
+    syncListener(
+      "local"
     );
 
+    return state;
+  }
 
-  /* =====================================================
-     クラウドデータあり
-  ===================================================== */
+
+  /*
+   * =========================================
+   * 新方式のプレイヤー別クラウドデータ
+   * =========================================
+   */
+
+  const cloud =
+    await loadCloudSave(
+      cloudUid,
+      playerId
+    );
+
 
   if (cloud) {
 
@@ -837,23 +856,14 @@ export async function initializeCloud(
       );
 
 
-    /*
-     * 統合した状態を
-     * ローカル保存
-     */
-
     saveLocalState(
       mergedState
     );
 
 
-    /*
-     * Firebaseにも
-     * 統合結果を戻す
-     */
-
     await saveCloudSave(
       cloudUid,
+      playerId,
       mergedState
     );
 
@@ -867,12 +877,82 @@ export async function initializeCloud(
   }
 
 
-  /* =====================================================
-     クラウドデータなし
-  ===================================================== */
+  /*
+   * =========================================
+   * 新方式データがまだ無い場合
+   *
+   * 旧 users/{uid} を確認
+   * =========================================
+   */
+
+  const legacyCloud =
+    await loadLegacyCloudSave(
+      cloudUid
+    );
+
+
+  if (legacyCloud) {
+
+    const migratedState =
+      mergeState(
+        state,
+        legacyCloud
+      );
+
+
+    /*
+     * ローカルへ保存
+     */
+
+    saveLocalState(
+      migratedState
+    );
+
+
+    /*
+     * 新しいプレイヤー別領域へ保存
+     */
+
+    await saveCloudSave(
+      cloudUid,
+      playerId,
+      migratedState
+    );
+
+
+    /*
+     * 旧データを何度も
+     * 他プレイヤーへ移さないため
+     * 移行済みフラグを付ける
+     */
+
+    await markLegacyCloudSaveMigrated(
+      cloudUid,
+      playerId
+    );
+
+
+    syncListener(
+      "connected"
+    );
+
+
+    return migratedState;
+  }
+
+
+  /*
+   * =========================================
+   * クラウドに何もない
+   *
+   * 現在のローカルデータを
+   * 新規アップロード
+   * =========================================
+   */
 
   await saveCloudSave(
     cloudUid,
+    playerId,
     state
   );
 
@@ -885,7 +965,6 @@ export async function initializeCloud(
   return state;
 }
 
-
 /* =========================================================
    保存 + クラウド同期
 ========================================================= */
@@ -895,8 +974,7 @@ export async function persistState(
 ) {
 
   /*
-   * 最初に必ず
-   * ローカルへ保存
+   * 最初にローカル保存
    */
 
   saveLocalState(
@@ -905,6 +983,20 @@ export async function persistState(
 
 
   if (!cloudUid) {
+    return;
+  }
+
+
+  const activePlayer =
+    getActivePlayer();
+
+
+  const playerId =
+    activePlayer?.playerId ??
+    null;
+
+
+  if (!playerId) {
     return;
   }
 
@@ -918,6 +1010,7 @@ export async function persistState(
 
     await saveCloudSave(
       cloudUid,
+      playerId,
       state
     );
 
@@ -939,7 +1032,6 @@ export async function persistState(
   }
 }
 
-
 /* =========================================================
    状態置換
 ========================================================= */
@@ -960,4 +1052,164 @@ export async function replaceState(
 
 
   return safe;
+}
+
+/* =========================================================
+   プレイヤー名変更
+========================================================= */
+
+export function renameActivePlayer(
+  nickname
+) {
+
+  const safeNickname =
+    sanitizeNickname(
+      nickname
+    );
+
+
+  if (!safeNickname) {
+
+    throw new Error(
+      "新しいニックネームを入力してください。"
+    );
+  }
+
+
+  const profiles =
+    loadProfiles();
+
+
+  const playerId =
+    profiles.activePlayerId;
+
+
+  if (!playerId) {
+
+    throw new Error(
+      "プレイヤーが選ばれていません。"
+    );
+  }
+
+
+  const player =
+    profiles.players[
+      playerId
+    ];
+
+
+  if (!player) {
+
+    throw new Error(
+      "プレイヤーデータが見つかりません。"
+    );
+  }
+
+
+  player.nickname =
+    safeNickname;
+
+
+  player.lastPlayedAt =
+    Date.now();
+
+
+  saveProfiles(
+    profiles
+  );
+
+
+  return player;
+}
+
+
+/* =========================================================
+   引っ越しデータからプレイヤーを復元
+========================================================= */
+
+export function importTransferredPlayer({
+  nickname,
+  state
+} = {}) {
+
+  const safeNickname =
+    sanitizeNickname(
+      nickname
+    ) || "プレイヤー";
+
+
+  const safeState =
+    normalizeState(
+      state ?? {}
+    );
+
+
+  const profiles =
+    loadProfiles();
+
+
+  /*
+   * 現在選択中のプレイヤーがいる場合は、
+   * そのプレイヤーへ引っ越しデータを上書きする。
+   *
+   * これにより
+   *
+   * PC「テスト②」
+   * ↓
+   * iPad「テスト」
+   *
+   * の場合も、
+   *
+   * iPad側を
+   * 「テスト②」
+   * に変更する。
+   */
+
+  const activePlayerId =
+    profiles.activePlayerId;
+
+
+  if (
+    activePlayerId &&
+    profiles.players[
+      activePlayerId
+    ]
+  ) {
+
+    const player =
+      profiles.players[
+        activePlayerId
+      ];
+
+
+    player.nickname =
+      safeNickname;
+
+
+    player.state =
+      safeState;
+
+
+    player.lastPlayedAt =
+      Date.now();
+
+
+    saveProfiles(
+      profiles
+    );
+
+
+    return player;
+  }
+
+
+  /*
+   * プレイヤーがまだ存在しない端末では、
+   * 新しいプレイヤーとして作成する。
+   */
+
+  return createPlayer(
+    safeNickname,
+    safeState
+  );
 }
