@@ -151,146 +151,120 @@ function buildAdditionFlash() {
   };
 }
 
-
 /* ==================================================
    足し算の文章題
+   左：場面イラスト
+   右：文章
 ================================================== */
+
 function buildAdditionWord() {
-  const a = r(2, 10);
-  const b = r(1, 9);
+
+  const a =
+    r(2, 9);
+
+  const b =
+    r(1, 6);
+
 
   const patterns = [
 
-    /* 0：公園 */
     {
       scene: "park",
-      mainIcon: "🌳",
-      subIcon: "🛝",
-      peopleIcon: "🧒",
-      firstCount: a,
-      secondCount: b,
 
-      text:
-        `こうえんに ${a}人 いました。\n` +
-        `あとから ${b}人 きました。\n` +
-        `ぜんぶで なん人？`
+      icon:
+        "🧒",
+
+      prompt:
+        `こうえんに ${a}人 いました。\nあとから ${b}人 きました。\nぜんぶで なん人？`
     },
 
 
-    /* 1：風船 */
     {
       scene: "balloon",
-      mainIcon: "🎈",
-      secondIcon: "🎈",
-      firstCount: a,
-      secondCount: b,
 
-      text:
-        `あかい ふうせんが ${a}こ、\n` +
-        `あおい ふうせんが ${b}こ あります。\n` +
-        `ぜんぶで なんこ？`
+      icon:
+        "🎈",
+
+      prompt:
+        `あかい ふうせんが ${a}こ あります。\nあとから ${b}こ ふえました。\nぜんぶで なんこ？`
     },
 
 
-    /* 2：えんぴつ */
     {
       scene: "pencil",
-      mainIcon: "✏️",
-      subIcon: "📦",
-      firstCount: a,
-      secondCount: b,
 
-      text:
-        `はこに えんぴつが ${a}本 あります。\n` +
-        `あとから ${b}本 いれました。\n` +
-        `ぜんぶで なん本？`
+      icon:
+        "✏️",
+
+      prompt:
+        `はこに えんぴつが ${a}本 あります。\nあとから ${b}本 いれました。\nぜんぶで なん本？`
     },
 
 
-    /* 3：クッキー */
     {
       scene: "cookie",
-      mainIcon: "🍪",
-      subIcon: "🍽️",
-      firstCount: a,
-      secondCount: b,
 
-      text:
-        `おさらに クッキーが ${a}こ あります。\n` +
-        `${b}こ ふやしました。\n` +
-        `ぜんぶで なんこ？`
+      icon:
+        "🍪",
+
+      prompt:
+        `おさらに クッキーが ${a}こ あります。\nあとから ${b}こ ふえました。\nぜんぶで なんこ？`
     },
 
 
-    /* 4：バス */
     {
       scene: "bus",
-      mainIcon: "🚌",
-      subIcon: "🚏",
-      peopleIcon: "🧒",
-      firstCount: a,
-      secondCount: b,
 
-      text:
-        `バスに ${a}人 のっています。\n` +
-        `つぎの ていりゅうじょで ${b}人 のりました。\n` +
-        `ぜんぶで なん人？`
+      icon:
+        "🚌",
+
+      prompt:
+        `バスに ${a}人 のっています。\nつぎの ていりゅうじょで ${b}人 のりました。\nぜんぶで なん人？`
     }
   ];
 
 
   const patternIndex =
-    r(0, patterns.length - 1);
+    r(
+      0,
+      patterns.length - 1
+    );
 
 
   const selected =
-    patterns[patternIndex];
+    patterns[
+      patternIndex
+    ];
 
 
   return {
-    /*
-      text ではなく、
-      足し算文章題専用rendererへ送る
-    */
-    kind: "addition_word_visual",
+
+    kind:
+      "addition_word_visual",
 
     scene:
       selected.scene,
 
-    mainIcon:
-      selected.mainIcon,
-
-    subIcon:
-      selected.subIcon ?? "",
-
-    secondIcon:
-      selected.secondIcon ?? "",
-
-    peopleIcon:
-      selected.peopleIcon ?? "",
+    icon:
+      selected.icon,
 
     firstCount:
-      selected.firstCount,
+      a,
 
-    secondCount:
-      selected.secondCount,
+    addedCount:
+      b,
 
     prompt:
-      selected.text,
-
-    label:
-      selected.text,
-
-    className:
-      "addition-word-text",
+      selected.prompt,
 
     answer:
       a + b,
 
     uniqueKey:
-      `addition_word_${a}_${b}_${patternIndex}`
+      `addition_word_${patternIndex}_${a}_${b}`
   };
 }
+
 /* ==================================================
    足し算の王
 ================================================== */
@@ -498,75 +472,149 @@ function buildSubtractionFlash() {
 
 /* ==================================================
    引き算の文章題
+
+   左：
+   「減っている出来事」を視覚化
+
+   右：
+   文章
 ================================================== */
 
 function buildSubtractionWord() {
-  const total = r(6, 19);
+
+  const total =
+    r(
+      6,
+      15
+    );
+
 
   const removed =
     r(
       1,
       Math.min(
-        9,
+        6,
         total - 1
       )
     );
 
+
   const patterns = [
+
     {
-      icon: "🐟",
+      scene:
+        "fish",
+
+      icon:
+        "🐟",
+
       text:
         `さかなが ${total}ひき います。\n${removed}ひきが あそびに いきました。\nのこりは なんびき でしょうか？`
     },
 
-    {
-      icon: "🐦",
-      text:
-        `きの えだに とりが ${total}わ とまっています。\n${removed}わが とんで いきました。\nのこりは なんわ でしょうか？`
-    },
 
     {
-      icon: "🍪",
+      scene:
+        "children",
+
+      icon:
+        "🧒",
+
+      text:
+        `こうえんで ${total}人の こどもが あそんでいます。\n${removed}人が おうちに かえりました。\nのこりは なん人 でしょうか？`
+    },
+
+
+    {
+      scene:
+        "cookie",
+
+      icon:
+        "🍪",
+
       text:
         `おさらに クッキーが ${total}こ あります。\n${removed}こを たべました。\nのこりは なんこ でしょうか？`
     },
 
+
     {
-      icon: "✏️",
+      scene:
+        "pencil",
+
+      icon:
+        "✏️",
+
       text:
         `はこに えんぴつが ${total}本 あります。\n${removed}本を つかいました。\nのこりは なん本 でしょうか？`
     },
 
+
     {
-      icon: "🚌",
+      scene:
+        "bus",
+
+      icon:
+        "🚌",
+
       text:
         `バスに ${total}人の おきゃくさんが のっています。\n${removed}人が バスを おりました。\nのこりは なん人 でしょうか？`
+    },
+
+
+    {
+      scene:
+        "bird",
+
+      icon:
+        "🐦",
+
+      text:
+        `きの えだに とりが ${total}わ とまっています。\n${removed}わが とんで いきました。\nのこりは なんわ でしょうか？`
     }
   ];
 
+
   const patternIndex =
-    r(0, patterns.length - 1);
+    r(
+      0,
+      patterns.length - 1
+    );
+
 
   const selected =
-    patterns[patternIndex];
+    patterns[
+      patternIndex
+    ];
+
 
   return {
-    kind: "subtraction_word_visual",
+
+    kind:
+      "subtraction_word_visual",
+
+    scene:
+      selected.scene,
 
     icon:
       selected.icon,
 
+    total,
+
+    removed,
+
+    remaining:
+      total -
+      removed,
+
     prompt:
       selected.text,
 
-    className:
-      "subtraction-word-text",
-
     answer:
-      total - removed,
+      total -
+      removed,
 
     uniqueKey:
-      `subtraction_word_${total}_${removed}_${patternIndex}`
+      `subtraction_word_${patternIndex}_${total}_${removed}`
   };
 }
 

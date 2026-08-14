@@ -1,87 +1,181 @@
 export default {
-  kind: "addition_word_visual",
 
-  render(question, { escapeHtml }) {
+  kind:
+    "addition_word_visual",
+
+
+  render(
+    question,
+    {
+      escapeHtml
+    }
+  ) {
 
     const scene =
-      escapeHtml(
-        question.scene ?? ""
+      String(
+        question?.scene ?? ""
       );
 
-    const mainIcon =
-      escapeHtml(
-        question.mainIcon ?? "📘"
-      );
-
-    const subIcon =
-      escapeHtml(
-        question.subIcon ?? ""
-      );
-
-    const peopleIcon =
-      escapeHtml(
-        question.peopleIcon ?? "🧒"
-      );
 
     const firstCount =
-      Number(question.firstCount ?? 0);
+      Number(
+        question?.firstCount ?? 0
+      );
 
-    const secondCount =
-      Number(question.secondCount ?? 0);
+
+    const addedCount =
+      Number(
+        question?.addedCount ?? 0
+      );
+
 
     const text =
       escapeHtml(
-        question.prompt ?? ""
+        question?.prompt ?? ""
       );
 
 
-    /*
-      人数を全部並べると多すぎるので、
-      「人アイコン + 人数」で表示
-    */
-    const peopleBadge = (count) => `
-      <div class="addition-word-people-badge">
-        <span class="addition-word-person">
-          ${peopleIcon}
-        </span>
+    /* =====================================================
+       人
+    ===================================================== */
 
-        <span class="addition-word-count">
-          × ${count}人
-        </span>
-      </div>
-    `;
+    function people(
+      count,
+      className = ""
+    ) {
+
+      return Array.from(
+        {
+          length:
+            Math.min(
+              count,
+              10
+            )
+        },
+
+        () =>
+          `<span class="addition-word-person ${className}">
+            🧒
+          </span>`
+      ).join("");
+    }
 
 
-    /*
-      シーンごとの左側イラスト
-    */
+    /* =====================================================
+       アイテム
+    ===================================================== */
+
+    function items(
+      icon,
+      count,
+      className = ""
+    ) {
+
+      return Array.from(
+        {
+          length:
+            Math.min(
+              count,
+              10
+            )
+        },
+
+        () =>
+          `<span class="addition-word-scene-item ${className}">
+            ${icon}
+          </span>`
+      ).join("");
+    }
+
+
     let visual = "";
 
+/* =====================================================
+   公園
+   見切れ防止：
+   木を左、人数の計算を右にまとめる
+===================================================== */
 
-    /* バス */
-    if (scene === "bus") {
+if (
+  scene ===
+  "park"
+) {
+
+  visual = `
+    <div class="addition-word-scene addition-word-park">
+
+      <div class="addition-word-park-place">
+        🌳
+      </div>
+
+
+      <div class="addition-word-park-math">
+
+        <div class="addition-word-scene-group">
+
+          ${people(
+            firstCount
+          )}
+
+        </div>
+
+
+        <div class="addition-word-park-plus">
+          ＋
+        </div>
+
+
+        <div class="addition-word-scene-group">
+
+          ${people(
+            addedCount,
+            "is-added"
+          )}
+
+        </div>
+
+      </div>
+
+    </div>
+  `;
+}
+
+    /* =====================================================
+       バス
+    ===================================================== */
+
+    else if (
+      scene ===
+      "bus"
+    ) {
 
       visual = `
-        <div class="addition-word-scene addition-word-bus-scene">
+        <div class="addition-word-scene addition-word-bus">
 
-          <div class="addition-word-main-icon">
-            ${mainIcon}
+          <div class="addition-word-bus-body">
+            🚌
+
+            <div class="addition-word-count-badge">
+              🧒 × ${firstCount}
+            </div>
           </div>
 
-          <div class="addition-word-sub-icon">
-            ${subIcon}
-          </div>
 
-          <div class="addition-word-group">
-            ${peopleBadge(firstCount)}
-          </div>
+          <div class="addition-word-bus-stop">
 
-          <div class="addition-word-plus">
-            ＋
-          </div>
+            <span class="addition-word-arrow">
+              →
+            </span>
 
-          <div class="addition-word-group addition-word-new-group">
-            ${peopleBadge(secondCount)}
+            <div class="addition-word-added-people">
+
+              ${people(
+                addedCount,
+                "is-added"
+              )}
+
+            </div>
+
           </div>
 
         </div>
@@ -89,62 +183,45 @@ export default {
     }
 
 
-    /* 公園 */
-    else if (scene === "park") {
+    /* =====================================================
+       その他
+    ===================================================== */
 
-      visual = `
-        <div class="addition-word-scene addition-word-park-scene">
-
-          <div class="addition-word-main-icon">
-            ${mainIcon}
-          </div>
-
-          <div class="addition-word-sub-icon">
-            ${subIcon}
-          </div>
-
-          <div class="addition-word-group">
-            ${peopleBadge(firstCount)}
-          </div>
-
-          <div class="addition-word-plus">
-            ＋
-          </div>
-
-          <div class="addition-word-group addition-word-new-group">
-            ${peopleBadge(secondCount)}
-          </div>
-
-        </div>
-      `;
-    }
-
-
-    /* その他 */
     else {
 
-      visual = `
-        <div class="addition-word-scene">
+      const icon =
+        escapeHtml(
+          question?.icon ?? "●"
+        );
 
-          <div class="addition-word-main-icon">
-            ${mainIcon}
+
+      visual = `
+        <div class="addition-word-scene addition-word-items">
+
+          <div class="addition-word-item-group">
+
+            ${items(
+              icon,
+              firstCount
+            )}
+
           </div>
 
-          ${
-            subIcon
-              ? `
-                <div class="addition-word-sub-icon">
-                  ${subIcon}
-                </div>
-              `
-              : ""
-          }
 
-          <div class="addition-word-number-row">
-  <span class="addition-word-formula-box">□</span>
-  <span class="addition-word-plus">＋</span>
-  <span class="addition-word-formula-box">○</span>
-</div>
+          <div class="addition-word-plus-sign">
+            ＋
+          </div>
+
+
+          <div class="addition-word-item-group is-added">
+
+            ${items(
+              icon,
+              addedCount,
+              "is-added"
+            )}
+
+          </div>
 
         </div>
       `;
@@ -155,8 +232,11 @@ export default {
       <div class="addition-word-layout">
 
         <div class="addition-word-visual-side">
+
           ${visual}
+
         </div>
+
 
         <div class="addition-word-text-side">
 
