@@ -80,39 +80,44 @@ export function createApp(root) {
   ========================================================= */
 
   setSyncListener(
-    x => {
-      sync = x;
-      render();
-    }
-  );
+  x => {
+    sync = x;
+    render();
+  }
+);
 
 
-  root.addEventListener(
-    "click",
-    click
-  );
+/*
+  マウス・iPad・タッチ端末を
+  pointerup に統一
+
+  clickの遅延・座標ずれを避ける
+*/
+root.addEventListener(
+  "pointerup",
+  click
+);
 
 
-  root.addEventListener(
-    "input",
-    onInput
-  );
+root.addEventListener(
+  "input",
+  onInput
+);
 
 
-  root.addEventListener(
-    "mousemove",
-    tiltMouse
-  );
+root.addEventListener(
+  "mousemove",
+  tiltMouse
+);
 
 
-  root.addEventListener(
-    "touchmove",
-    tiltTouch,
-    {
-      passive: false
-    }
-  );
-
+root.addEventListener(
+  "touchmove",
+  tiltTouch,
+  {
+    passive: false
+  }
+);
 
   /* =========================================================
      初期表示
@@ -188,8 +193,30 @@ export function createApp(root) {
   }
 
   async function click(e) {
-    const t = e.target.closest("[data-action]"); if (!t) return;
-    const a = t.dataset.action;
+
+  const t =
+    e.target.closest(
+      "[data-action]"
+    );
+
+
+  if (!t) {
+    return;
+  }
+
+
+  /*
+    PointerEventでは
+    タッチ中のスクロールなどを
+    ボタン操作として誤認しにくくする
+  */
+
+  const a =
+    t.dataset.action;
+
+  if (!a) {
+    return;
+  }
     if (a === "landing-start") {
   stopTitleBgm();
 
