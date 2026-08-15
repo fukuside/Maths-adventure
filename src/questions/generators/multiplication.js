@@ -133,54 +133,167 @@ function buildMasterQuestion(stage) {
 ================================================== */
 
 function buildWordQuestion() {
+
   const each =
     r(2, 9);
 
   const groups =
     r(2, 8);
 
+
   const patterns = [
-  `1ふくろに ${each}この あめが 入っています。\n${groups}ふくろでは ぜんぶで なんこ？`,
 
-  `1はこに ${each}本の えんぴつが 入っています。\n${groups}はこでは ぜんぶで なん本？`,
+    {
+      icon: "🍬",
 
-  `1れつに ${each}人ずつ ならびます。\n${groups}れつでは ぜんぶで なん人？`,
+      text:
+        `1ふくろに ${each}この あめが 入っています。\n` +
+        `${groups}ふくろでは ぜんぶで なんこ？`
+    },
 
-  `1チーム ${each}人です。\n${groups}チームでは ぜんぶで なん人？`,
 
-  `1さらに ${each}この クッキーがあります。\n${groups}さらでは ぜんぶで なんこ？`,
+    {
+      icon: "✏️",
 
-  `1日に ${each}ページずつ 本を よみます。\n${groups}日では なんページ よむ？`,
+      text:
+        `1はこに ${each}本の えんぴつが 入っています。\n` +
+        `${groups}はこでは ぜんぶで なん本？`
+    },
 
-  `1だいの くるまに ${each}人 のります。\n${groups}だいでは なん人 のれる？`,
 
-  `1はこに ${each}この ボールがあります。\n${groups}はこでは ぜんぶで なんこ？`
-];
+    {
+      icon: "🧒",
+
+      text:
+        `1れつに ${each}人ずつ ならびます。\n` +
+        `${groups}れつでは ぜんぶで なん人？`
+    },
+
+
+    {
+      icon: "⚽",
+
+      text:
+        `1チーム ${each}人です。\n` +
+        `${groups}チームでは ぜんぶで なん人？`
+    },
+
+
+    {
+      icon: "🍪",
+
+      text:
+        `1さらに クッキーが ${each}こ あります。\n` +
+        `${groups}さらでは ぜんぶで なんこ？`
+    },
+
+
+    {
+      icon: "📚",
+
+      text:
+        `1日に 本を ${each}ページずつ よみます。\n` +
+        `${groups}日では なんページ よむ？`
+    },
+
+
+    {
+      icon: "🚗",
+
+      text:
+        `1だいの くるまに ${each}人 のります。\n` +
+        `${groups}だいでは ぜんぶで なん人 のれる？`
+    },
+
+
+    {
+      icon: "⚾",
+
+      text:
+        `1はこに ボールが ${each}こ 入っています。\n` +
+        `${groups}はこでは ぜんぶで なんこ？`
+    },
+
+
+    {
+      icon: "🐙",
+
+      text:
+        `1さらに たこやきが ${each}こ あります。\n` +
+        `${groups}さらでは ぜんぶで なんこ？`
+    },
+
+
+    {
+      icon: "🎮",
+
+      text:
+        `1チームに ${each}人ずつ 入って\n` +
+        `ゲームを します。\n` +
+        `${groups}チームでは ぜんぶで なん人？`
+    },
+
+
+    {
+      icon: "🍓",
+
+      text:
+        `1さらに いちごが ${each}こ あります。\n` +
+        `${groups}さらでは ぜんぶで なんこ？`
+    },
+
+
+    {
+      icon: "🎁",
+
+      text:
+        `1人に シールを ${each}まいずつ くばります。\n` +
+        `${groups}人では ぜんぶで なんまい いる？`
+    }
+  ];
+
 
   const patternIndex =
-    r(0, patterns.length - 1);
+    r(
+      0,
+      patterns.length - 1
+    );
+
+
+  const selected =
+    patterns[
+      patternIndex
+    ];
+
 
   return {
-  kind: "text",
 
-  prompt:
-    patterns[patternIndex],
+    /*
+      textではなく
+      掛け算文章題専用Rendererへ
+    */
 
-  label:
-    patterns[patternIndex],
+    kind:
+      "multiplication_word_visual",
 
-  className:
-    "multiply-word-text",
+    icon:
+      selected.icon,
 
-  answer:
-    each * groups,
+    each,
 
-  uniqueKey:
-    `multiply_word_${each}_${groups}_${patternIndex}`
-};
+    groups,
+
+    prompt:
+      selected.text,
+
+    answer:
+      each *
+      groups,
+
+    uniqueKey:
+      `multiply_word_${each}_${groups}_${patternIndex}`
+  };
 }
-
-
 /* ==================================================
    フラッシュ九九
 ================================================== */

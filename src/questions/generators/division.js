@@ -249,13 +249,15 @@ function buildDivisionSingle() {
 ================================================== */
 
 function buildDivisionWord() {
+
   const patterns = [
 
-    /* --------------------------
+    /* =====================================================
        クッキーを人数で分ける
-    -------------------------- */
+    ===================================================== */
 
     () => {
+
       const people =
         r(2, 5);
 
@@ -263,28 +265,65 @@ function buildDivisionWord() {
         r(2, 6);
 
       const total =
-        people * each;
+        people *
+        each;
 
       return {
         icon: "🍪",
 
         text:
-          `クッキーが ${total}こ あります。\n${people}人で おなじ数ずつ わけます。\n1人ぶんは なんこ でしょうか？`,
+          `クッキーが ${total}こ あります。\n` +
+          `${people}人で おなじ数ずつ わけます。\n` +
+          `1人ぶんは なんこ？`,
 
         answer:
           each,
 
         key:
-          `cookie_share_${total}_${people}`
+          `cookie-${total}-${people}`
       };
     },
 
 
-    /* --------------------------
-       りんごを袋へ
-    -------------------------- */
+    /* =====================================================
+       あめ
+    ===================================================== */
 
     () => {
+
+      const people =
+        r(2, 5);
+
+      const each =
+        r(2, 6);
+
+      const total =
+        people *
+        each;
+
+      return {
+        icon: "🍬",
+
+        text:
+          `あめが ${total}こ あります。\n` +
+          `${people}人で おなじ数ずつ わけます。\n` +
+          `1人ぶんは なんこ？`,
+
+        answer:
+          each,
+
+        key:
+          `candy-${total}-${people}`
+      };
+    },
+
+
+    /* =====================================================
+       りんごを袋へ
+    ===================================================== */
+
+    () => {
+
       const each =
         r(2, 5);
 
@@ -292,28 +331,32 @@ function buildDivisionWord() {
         r(2, 6);
 
       const total =
-        each * bags;
+        each *
+        bags;
 
       return {
         icon: "🍎",
 
         text:
-          `りんごが ${total}こ あります。\n1ふくろに ${each}こずつ いれます。\nなんふくろ できますか？`,
+          `りんごが ${total}こ あります。\n` +
+          `1ふくろに ${each}こずつ いれます。\n` +
+          `なんふくろ できますか？`,
 
         answer:
           bags,
 
         key:
-          `apple_bags_${total}_${each}`
+          `apple-${total}-${each}`
       };
     },
 
 
-    /* --------------------------
-       鉛筆を人数で分ける
-    -------------------------- */
+    /* =====================================================
+       えんぴつ
+    ===================================================== */
 
     () => {
+
       const people =
         r(2, 5);
 
@@ -321,28 +364,32 @@ function buildDivisionWord() {
         r(2, 6);
 
       const total =
-        people * each;
+        people *
+        each;
 
       return {
         icon: "✏️",
 
         text:
-          `えんぴつが ${total}本 あります。\n${people}人で おなじ数ずつ わけます。\n1人ぶんは なん本 でしょうか？`,
+          `えんぴつが ${total}本 あります。\n` +
+          `${people}人で おなじ数ずつ わけます。\n` +
+          `1人ぶんは なん本？`,
 
         answer:
           each,
 
         key:
-          `pencil_share_${total}_${people}`
+          `pencil-${total}-${people}`
       };
     },
 
 
-    /* --------------------------
-       魚を水そうへ
-    -------------------------- */
+    /* =====================================================
+       魚
+    ===================================================== */
 
     () => {
+
       const each =
         r(2, 5);
 
@@ -350,28 +397,32 @@ function buildDivisionWord() {
         r(2, 5);
 
       const total =
-        each * tanks;
+        each *
+        tanks;
 
       return {
         icon: "🐟",
 
         text:
-          `さかなが ${total}ひき います。\n1つの すいそうに ${each}ひきずつ いれます。\nすいそうは いくつ いりますか？`,
+          `さかなが ${total}ひき います。\n` +
+          `1つの すいそうに ${each}ひきずつ いれます。\n` +
+          `すいそうは いくつ いりますか？`,
 
         answer:
           tanks,
 
         key:
-          `fish_tanks_${total}_${each}`
+          `fish-${total}-${each}`
       };
     },
 
 
-    /* --------------------------
-       ボールを箱へ
-    -------------------------- */
+    /* =====================================================
+       ボール
+    ===================================================== */
 
     () => {
+
       const each =
         r(2, 6);
 
@@ -379,19 +430,121 @@ function buildDivisionWord() {
         r(2, 5);
 
       const total =
-        each * boxes;
+        each *
+        boxes;
 
       return {
         icon: "⚽",
 
         text:
-          `ボールが ${total}こ あります。\n1はこに ${each}こずつ いれます。\nはこは いくつ いりますか？`,
+          `ボールが ${total}こ あります。\n` +
+          `1はこに ${each}こずつ いれます。\n` +
+          `はこは いくつ いりますか？`,
 
         answer:
           boxes,
 
         key:
-          `ball_boxes_${total}_${each}`
+          `ball-${total}-${each}`
+      };
+    },
+
+
+    /* =====================================================
+       チーム分け
+    ===================================================== */
+
+    () => {
+
+      const each =
+        r(2, 5);
+
+      const teams =
+        r(2, 5);
+
+      const total =
+        each *
+        teams;
+
+      return {
+        icon: "🎮",
+
+        text:
+          `${total}人で ゲームを します。\n` +
+          `1チーム ${each}人ずつに わかれます。\n` +
+          `なんチーム できますか？`,
+
+        answer:
+          teams,
+
+        key:
+          `game-${total}-${each}`
+      };
+    },
+
+
+    /* =====================================================
+       ケーキ
+    ===================================================== */
+
+    () => {
+
+      const people =
+        r(2, 5);
+
+      const each =
+        r(2, 4);
+
+      const total =
+        people *
+        each;
+
+      return {
+        icon: "🍰",
+
+        text:
+          `ケーキが ${total}こ あります。\n` +
+          `${people}人で おなじ数ずつ わけます。\n` +
+          `1人ぶんは なんこ？`,
+
+        answer:
+          each,
+
+        key:
+          `cake-${total}-${people}`
+      };
+    },
+
+
+    /* =====================================================
+       シール
+    ===================================================== */
+
+    () => {
+
+      const people =
+        r(2, 6);
+
+      const each =
+        r(2, 5);
+
+      const total =
+        people *
+        each;
+
+      return {
+        icon: "⭐",
+
+        text:
+          `シールが ${total}まい あります。\n` +
+          `${people}人で おなじ数ずつ わけます。\n` +
+          `1人ぶんは なんまい？`,
+
+        answer:
+          each,
+
+        key:
+          `seal-${total}-${people}`
       };
     }
   ];
@@ -403,31 +556,34 @@ function buildDivisionWord() {
       patterns.length - 1
     );
 
-  const question =
-    patterns[patternIndex]();
+
+  const q =
+    patterns[
+      patternIndex
+    ]();
 
 
   return {
+
     kind:
       "division_word_visual",
 
     icon:
-      question.icon,
+      q.icon,
 
     prompt:
-      question.text,
+      q.text,
 
     className:
       "division-word-text",
 
     answer:
-      question.answer,
+      q.answer,
 
     uniqueKey:
-      `division_word_${question.key}`
+      `division_word_${q.key}`
   };
 }
-
 
 /* ==================================================
    フラッシュわり算

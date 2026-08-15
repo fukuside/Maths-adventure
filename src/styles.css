@@ -13944,3 +13944,215 @@ img[src*="1000yen"],img[src*="5000yen"],img[src*="10000yen"] {
   }
 
 }
+
+/* =========================================================
+   全文章題
+   小学生向け読みやすさ調整
+========================================================= */
+
+.addition-word-text,
+.subtraction-word-text,
+.multiplication-word-text,
+.division-word-text,
+.decimal-word-text {
+
+  width: 100%;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      23px,
+      2.3vw,
+      32px
+    ) !important;
+
+  font-weight:
+    900 !important;
+
+  line-height:
+    1.48 !important;
+
+  letter-spacing:
+    0.025em;
+
+  text-align:
+    left;
+
+  white-space:
+    pre-line;
+
+  word-break:
+    keep-all;
+
+  overflow-wrap:
+    normal;
+}
+
+
+/* =========================================================
+   掛け算文章題
+   左：イラスト＋□×○
+   右：文章
+========================================================= */
+
+.multiplication-word-layout {
+
+  width:
+    min(
+      900px,
+      96%
+    );
+
+  height:
+    100%;
+
+  display:
+    grid;
+
+  grid-template-columns:
+    minmax(0, 38%)
+    minmax(0, 62%);
+
+  gap:
+    24px;
+
+  align-items:
+    center;
+
+  margin:
+    0 auto;
+
+  padding:
+    0 10px;
+
+  box-sizing:
+    border-box;
+
+  overflow:
+    hidden;
+}
+
+
+.multiplication-word-visual-side {
+
+  width:
+    100%;
+
+  height:
+    100%;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    center;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+}
+
+
+.multiplication-word-text-side {
+
+  width:
+    100%;
+
+  height:
+    100%;
+
+  display:
+    flex;
+
+  align-items:
+    center;
+
+  justify-content:
+    flex-start;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  overflow:
+    hidden;
+}
+
+
+/* =========================================================
+   タブレット
+========================================================= */
+
+@media (
+  max-width: 1024px
+) {
+
+  .addition-word-text,
+  .subtraction-word-text,
+  .multiplication-word-text,
+  .division-word-text,
+  .decimal-word-text {
+
+    font-size:
+      clamp(
+        21px,
+        2.75vw,
+        28px
+      ) !important;
+
+    line-height:
+      1.44 !important;
+  }
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (
+  max-width: 760px
+) {
+
+  .addition-word-text,
+  .subtraction-word-text,
+  .multiplication-word-text,
+  .division-word-text,
+  .decimal-word-text {
+
+    font-size:
+      clamp(
+        18px,
+        4.1vw,
+        23px
+      ) !important;
+
+    line-height:
+      1.38 !important;
+
+    letter-spacing:
+      0.01em;
+  }
+
+
+  .multiplication-word-layout {
+
+    grid-template-columns:
+      minmax(0, 38%)
+      minmax(0, 62%);
+
+    gap:
+      7px;
+
+    padding:
+      0 3px;
+  }
+}

@@ -159,67 +159,267 @@ function buildAdditionFlash() {
 
 function buildAdditionWord() {
 
-  const a =
-    r(2, 9);
-
-  const b =
-    r(1, 6);
-
-
   const patterns = [
 
-    {
-      scene: "park",
+    /* =====================================================
+       公園
+    ===================================================== */
 
-      icon:
-        "🧒",
+    () => {
 
-      prompt:
-        `こうえんに ${a}人 いました。\nあとから ${b}人 きました。\nぜんぶで なん人？`
+      const firstCount =
+        r(2, 7);
+
+      const addedCount =
+        r(1, 5);
+
+      return {
+        scene: "park",
+        icon: "🌳",
+
+        firstCount,
+        addedCount,
+
+        prompt:
+          `こうえんで ${firstCount}人が あそんでいます。\n` +
+          `あとから ${addedCount}人が やってきました。\n` +
+          `みんなで なん人？`,
+
+        answer:
+          firstCount + addedCount,
+
+        key:
+          `park-${firstCount}-${addedCount}`
+      };
     },
 
 
-    {
-      scene: "balloon",
+    /* =====================================================
+       ふうせん
+    ===================================================== */
 
-      icon:
-        "🎈",
+    () => {
 
-      prompt:
-        `あかい ふうせんが ${a}こ あります。\nあとから ${b}こ ふえました。\nぜんぶで なんこ？`
+      const firstCount =
+        r(2, 8);
+
+      const addedCount =
+        r(1, 6);
+
+      return {
+        scene: "balloon",
+        icon: "🎈",
+
+        firstCount,
+        addedCount,
+
+        prompt:
+          `ふうせんが ${firstCount}こ あります。\n` +
+          `あとから ${addedCount}こ もらいました。\n` +
+          `ぜんぶで なんこ？`,
+
+        answer:
+          firstCount + addedCount,
+
+        key:
+          `balloon-${firstCount}-${addedCount}`
+      };
     },
 
 
-    {
-      scene: "pencil",
+    /* =====================================================
+       あめ
+    ===================================================== */
 
-      icon:
-        "✏️",
+    () => {
 
-      prompt:
-        `はこに えんぴつが ${a}本 あります。\nあとから ${b}本 いれました。\nぜんぶで なん本？`
+      const firstCount =
+        r(3, 8);
+
+      const addedCount =
+        r(1, 5);
+
+      return {
+        scene: "candy",
+        icon: "🍬",
+
+        firstCount,
+        addedCount,
+
+        prompt:
+          `あめが ${firstCount}こ あります。\n` +
+          `おともだちから ${addedCount}こ もらいました。\n` +
+          `ぜんぶで なんこ？`,
+
+        answer:
+          firstCount + addedCount,
+
+        key:
+          `candy-${firstCount}-${addedCount}`
+      };
     },
 
 
-    {
-      scene: "cookie",
+    /* =====================================================
+       ゲーム
+       ユーザー案
+    ===================================================== */
 
-      icon:
-        "🍪",
+    () => {
 
-      prompt:
-        `おさらに クッキーが ${a}こ あります。\nあとから ${b}こ ふえました。\nぜんぶで なんこ？`
+      const firstCount = 2;
+      const addedCount = 3;
+
+      return {
+        scene: "game",
+        icon: "🎮",
+
+        firstCount,
+        addedCount,
+
+        prompt:
+          `2人で ゲームを しています。\n` +
+          `じんろうくん、じんくん、ななちゃんが\n` +
+          `「いっしょに ゲームしよ！」と やってきました。\n` +
+          `みんなで なん人？`,
+
+        answer: 5,
+
+        key:
+          "game-friends-2-3"
+      };
     },
 
 
-    {
-      scene: "bus",
+    /* =====================================================
+       バス
+    ===================================================== */
 
-      icon:
-        "🚌",
+    () => {
 
-      prompt:
-        `バスに ${a}人 のっています。\nつぎの ていりゅうじょで ${b}人 のりました。\nぜんぶで なん人？`
+      const firstCount =
+        r(3, 8);
+
+      const addedCount =
+        r(1, 5);
+
+      return {
+        scene: "bus",
+        icon: "🚌",
+
+        firstCount,
+        addedCount,
+
+        prompt:
+          `バスに ${firstCount}人 のっています。\n` +
+          `つぎの ていりゅうじょで ${addedCount}人 のりました。\n` +
+          `ぜんぶで なん人？`,
+
+        answer:
+          firstCount + addedCount,
+
+        key:
+          `bus-${firstCount}-${addedCount}`
+      };
+    },
+
+
+    /* =====================================================
+       どうぶつ
+    ===================================================== */
+
+    () => {
+
+      const firstCount =
+        r(2, 7);
+
+      const addedCount =
+        r(1, 5);
+
+      return {
+        scene: "dog",
+        icon: "🐶",
+
+        firstCount,
+        addedCount,
+
+        prompt:
+          `こうえんに いぬが ${firstCount}ひき います。\n` +
+          `あとから ${addedCount}ひき やってきました。\n` +
+          `ぜんぶで なんびき？`,
+
+        answer:
+          firstCount + addedCount,
+
+        key:
+          `dog-${firstCount}-${addedCount}`
+      };
+    },
+
+
+    /* =====================================================
+       りんご
+    ===================================================== */
+
+    () => {
+
+      const firstCount =
+        r(2, 8);
+
+      const addedCount =
+        r(1, 5);
+
+      return {
+        scene: "apple",
+        icon: "🍎",
+
+        firstCount,
+        addedCount,
+
+        prompt:
+          `りんごが ${firstCount}こ あります。\n` +
+          `あとから ${addedCount}こ かってきました。\n` +
+          `ぜんぶで なんこ？`,
+
+        answer:
+          firstCount + addedCount,
+
+        key:
+          `apple-${firstCount}-${addedCount}`
+      };
+    },
+
+
+    /* =====================================================
+       本
+    ===================================================== */
+
+    () => {
+
+      const firstCount =
+        r(2, 8);
+
+      const addedCount =
+        r(1, 5);
+
+      return {
+        scene: "book",
+        icon: "📚",
+
+        firstCount,
+        addedCount,
+
+        prompt:
+          `ほんだなに 本が ${firstCount}さつ あります。\n` +
+          `${addedCount}さつ もどしました。\n` +
+          `ほんは ぜんぶで なんさつ？`,
+
+        answer:
+          firstCount + addedCount,
+
+        key:
+          `book-${firstCount}-${addedCount}`
+      };
     }
   ];
 
@@ -231,10 +431,10 @@ function buildAdditionWord() {
     );
 
 
-  const selected =
+  const q =
     patterns[
       patternIndex
-    ];
+    ]();
 
 
   return {
@@ -243,25 +443,25 @@ function buildAdditionWord() {
       "addition_word_visual",
 
     scene:
-      selected.scene,
+      q.scene,
 
     icon:
-      selected.icon,
+      q.icon,
 
     firstCount:
-      a,
+      q.firstCount,
 
     addedCount:
-      b,
+      q.addedCount,
 
     prompt:
-      selected.prompt,
+      q.prompt,
 
     answer:
-      a + b,
+      q.answer,
 
     uniqueKey:
-      `addition_word_${patternIndex}_${a}_${b}`
+      `addition_word_${q.key}`
   };
 }
 
@@ -482,94 +682,278 @@ function buildSubtractionFlash() {
 
 function buildSubtractionWord() {
 
-  const total =
-    r(
-      6,
-      15
-    );
-
-
-  const removed =
-    r(
-      1,
-      Math.min(
-        6,
-        total - 1
-      )
-    );
-
-
   const patterns = [
 
-    {
-      scene:
-        "fish",
+    /* =====================================================
+       鳥
+    ===================================================== */
 
-      icon:
-        "🐟",
+    () => {
 
-      text:
-        `さかなが ${total}ひき います。\n${removed}ひきが あそびに いきました。\nのこりは なんびき でしょうか？`
+      const total =
+        r(6, 12);
+
+      const removed =
+        r(
+          1,
+          Math.min(
+            5,
+            total - 1
+          )
+        );
+
+      return {
+        scene: "bird",
+        icon: "🐦",
+
+        total,
+        removed,
+
+        text:
+          `きの えだに とりが ${total}わ とまっています。\n` +
+          `${removed}わが とんで いきました。\n` +
+          `のこりは なんわ？`,
+
+        key:
+          `bird-${total}-${removed}`
+      };
     },
 
 
-    {
-      scene:
-        "children",
+    /* =====================================================
+       公園
+    ===================================================== */
 
-      icon:
-        "🧒",
+    () => {
 
-      text:
-        `こうえんで ${total}人の こどもが あそんでいます。\n${removed}人が おうちに かえりました。\nのこりは なん人 でしょうか？`
+      const total =
+        r(6, 12);
+
+      const removed =
+        r(
+          1,
+          Math.min(
+            5,
+            total - 1
+          )
+        );
+
+      return {
+        scene: "children",
+        icon: "🧒",
+
+        total,
+        removed,
+
+        text:
+          `こうえんで ${total}人が あそんでいます。\n` +
+          `${removed}人が おうちに かえりました。\n` +
+          `のこりは なん人？`,
+
+        key:
+          `children-${total}-${removed}`
+      };
     },
 
 
-    {
-      scene:
-        "cookie",
+    /* =====================================================
+       クッキー
+    ===================================================== */
 
-      icon:
-        "🍪",
+    () => {
 
-      text:
-        `おさらに クッキーが ${total}こ あります。\n${removed}こを たべました。\nのこりは なんこ でしょうか？`
+      const total =
+        r(6, 12);
+
+      const removed =
+        r(
+          1,
+          Math.min(
+            5,
+            total - 1
+          )
+        );
+
+      return {
+        scene: "cookie",
+        icon: "🍪",
+
+        total,
+        removed,
+
+        text:
+          `クッキーが ${total}こ あります。\n` +
+          `${removed}こ たべました。\n` +
+          `のこりは なんこ？`,
+
+        key:
+          `cookie-${total}-${removed}`
+      };
     },
 
 
-    {
-      scene:
-        "pencil",
+    /* =====================================================
+       ケーキ
+       2人に1個ずつ
+    ===================================================== */
 
-      icon:
-        "✏️",
+    () => {
 
-      text:
-        `はこに えんぴつが ${total}本 あります。\n${removed}本を つかいました。\nのこりは なん本 でしょうか？`
+      const total =
+        r(4, 10);
+
+      const removed = 2;
+
+      return {
+        scene: "cake",
+        icon: "🍰",
+
+        total,
+        removed,
+
+        text:
+          `ケーキが ${total}こ あります。\n` +
+          `たろうくんと はなこさんに\n` +
+          `1こずつ わけました。\n` +
+          `のこりは なんこ？`,
+
+        key:
+          `cake-share-${total}`
+      };
     },
 
 
-    {
-      scene:
-        "bus",
+    /* =====================================================
+       バス
+    ===================================================== */
 
-      icon:
-        "🚌",
+    () => {
 
-      text:
-        `バスに ${total}人の おきゃくさんが のっています。\n${removed}人が バスを おりました。\nのこりは なん人 でしょうか？`
+      const total =
+        r(7, 15);
+
+      const removed =
+        r(
+          1,
+          Math.min(
+            6,
+            total - 1
+          )
+        );
+
+      return {
+        scene: "bus",
+        icon: "🚌",
+
+        total,
+        removed,
+
+        text:
+          `バスに ${total}人 のっています。\n` +
+          `${removed}人が バスを おりました。\n` +
+          `のこりは なん人？`,
+
+        key:
+          `bus-${total}-${removed}`
+      };
     },
 
 
-    {
-      scene:
-        "bird",
+    /* =====================================================
+       新幹線
+       ユーザー案
+    ===================================================== */
 
-      icon:
-        "🐦",
+    () => {
 
-      text:
-        `きの えだに とりが ${total}わ とまっています。\n${removed}わが とんで いきました。\nのこりは なんわ でしょうか？`
+      return {
+        scene: "train",
+        icon: "🚄",
+
+        total: 3,
+        removed: 1,
+
+        text:
+          `こだま、ひかり、のぞみが\n` +
+          `えきに とまっています。\n` +
+          `ひかりが しゅっぱつしました。\n` +
+          `えきに のこっている しんかんせんは なんだい？`,
+
+        key:
+          "shinkansen-3-1"
+      };
+    },
+
+
+    /* =====================================================
+       あめ
+    ===================================================== */
+
+    () => {
+
+      const total =
+        r(6, 12);
+
+      const removed =
+        r(
+          1,
+          Math.min(
+            5,
+            total - 1
+          )
+        );
+
+      return {
+        scene: "candy",
+        icon: "🍬",
+
+        total,
+        removed,
+
+        text:
+          `あめが ${total}こ あります。\n` +
+          `${removed}こ たべました。\n` +
+          `のこりは なんこ？`,
+
+        key:
+          `candy-${total}-${removed}`
+      };
+    },
+
+
+    /* =====================================================
+       本
+    ===================================================== */
+
+    () => {
+
+      const total =
+        r(6, 12);
+
+      const removed =
+        r(
+          1,
+          Math.min(
+            5,
+            total - 1
+          )
+        );
+
+      return {
+        scene: "book",
+        icon: "📚",
+
+        total,
+        removed,
+
+        text:
+          `ほんだなに 本が ${total}さつ あります。\n` +
+          `${removed}さつ かりました。\n` +
+          `のこりは なんさつ？`,
+
+        key:
+          `book-${total}-${removed}`
+      };
     }
   ];
 
@@ -581,10 +965,10 @@ function buildSubtractionWord() {
     );
 
 
-  const selected =
+  const q =
     patterns[
       patternIndex
-    ];
+    ]();
 
 
   return {
@@ -593,28 +977,30 @@ function buildSubtractionWord() {
       "subtraction_word_visual",
 
     scene:
-      selected.scene,
+      q.scene,
 
     icon:
-      selected.icon,
+      q.icon,
 
-    total,
+    total:
+      q.total,
 
-    removed,
+    removed:
+      q.removed,
 
     remaining:
-      total -
-      removed,
+      q.total -
+      q.removed,
 
     prompt:
-      selected.text,
+      q.text,
 
     answer:
-      total -
-      removed,
+      q.total -
+      q.removed,
 
     uniqueKey:
-      `subtraction_word_${patternIndex}_${total}_${removed}`
+      `subtraction_word_${q.key}`
   };
 }
 

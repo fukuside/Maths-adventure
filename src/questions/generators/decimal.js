@@ -1019,29 +1019,29 @@ function buildWord() {
 
   const patterns = [
 
-    /* -----------------------------------------
-       ジュース・たし算
-    ----------------------------------------- */
+    /* =====================================================
+       ジュースを増やす
+    ===================================================== */
 
     () => {
 
       const first =
-        r(11, 15);
+        r(11, 18);
 
       const second =
-        r(1, 4);
+        r(1, 6);
 
       const total =
         first +
         second;
 
       return {
-
-        icon:
-          "🥤",
+        icon: "🥤",
 
         text:
-          `ジュースが ${decimalFromTenths(first)}L あります。\n${decimalFromTenths(second)}L ふやしました。\nぜんぶで なんL でしょうか？`,
+          `ジュースが ${decimalFromTenths(first)}L あります。\n` +
+          `${decimalFromTenths(second)}L ふやしました。\n` +
+          `ぜんぶで なんL？`,
 
         answer:
           Number(
@@ -1056,128 +1056,334 @@ function buildWord() {
     },
 
 
-    /* -----------------------------------------
-       水・ひき算
-    ----------------------------------------- */
+    /* =====================================================
+       水を使う
+    ===================================================== */
 
     () => {
 
       const start =
-        r(14, 19);
+        r(14, 25);
 
       const used =
         r(
           1,
           Math.min(
-            5,
+            6,
             start - 10
           )
         );
 
-      const remain =
-        start -
-        used;
-
       return {
-
-        icon:
-          "💧",
+        icon: "💧",
 
         text:
-          `水が ${decimalFromTenths(start)}L あります。\n${decimalFromTenths(used)}L つかいました。\nのこりは なんL でしょうか？`,
+          `水が ${decimalFromTenths(start)}L あります。\n` +
+          `${decimalFromTenths(used)}L つかいました。\n` +
+          `のこりは なんL？`,
 
         answer:
           Number(
             decimalFromTenths(
-              remain
+              start -
+              used
             )
           ),
 
         key:
-          `water-sub-${start}-${used}`
+          `water-${start}-${used}`
       };
     },
 
 
-    /* -----------------------------------------
-       リボン・たし算
-    ----------------------------------------- */
+    /* =====================================================
+       リボンをつなぐ
+    ===================================================== */
 
     () => {
 
       const first =
-        r(11, 15);
+        r(11, 20);
 
       const second =
-        r(1, 4);
-
-      const total =
-        first +
-        second;
+        r(1, 6);
 
       return {
-
-        icon:
-          "🎀",
+        icon: "🎀",
 
         text:
-          `リボンが ${decimalFromTenths(first)}m あります。\n${decimalFromTenths(second)}m つなぎました。\nぜんぶで なんm でしょうか？`,
+          `${decimalFromTenths(first)}mの リボンに\n` +
+          `${decimalFromTenths(second)}mの リボンを つなぎました。\n` +
+          `ぜんぶで なんm？`,
 
         answer:
           Number(
             decimalFromTenths(
-              total
+              first +
+              second
             )
           ),
 
         key:
-          `ribbon-add-${first}-${second}`
+          `ribbon-${first}-${second}`
       };
     },
 
 
-    /* -----------------------------------------
-       テープ・ひき算
-    ----------------------------------------- */
+    /* =====================================================
+       テープを使う
+    ===================================================== */
 
     () => {
 
       const start =
-        r(14, 19);
+        r(14, 25);
 
       const used =
         r(
           1,
           Math.min(
-            5,
+            6,
             start - 10
           )
         );
 
-      const remain =
-        start -
-        used;
-
       return {
-
-        icon:
-          "📏",
+        icon: "📏",
 
         text:
-          `テープが ${decimalFromTenths(start)}m あります。\n${decimalFromTenths(used)}m つかいました。\nのこりは なんm でしょうか？`,
+          `テープが ${decimalFromTenths(start)}m あります。\n` +
+          `${decimalFromTenths(used)}m つかいました。\n` +
+          `のこりは なんm？`,
 
         answer:
           Number(
             decimalFromTenths(
-              remain
+              start -
+              used
             )
           ),
 
         key:
-          `tape-sub-${start}-${used}`
+          `tape-${start}-${used}`
+      };
+    },
+
+
+    /* =====================================================
+       牛乳
+    ===================================================== */
+
+    () => {
+
+      const first =
+        r(11, 18);
+
+      const second =
+        r(1, 6);
+
+      return {
+        icon: "🥛",
+
+        text:
+          `ぎゅうにゅうが ${decimalFromTenths(first)}L あります。\n` +
+          `${decimalFromTenths(second)}L たしました。\n` +
+          `ぜんぶで なんL？`,
+
+        answer:
+          Number(
+            decimalFromTenths(
+              first +
+              second
+            )
+          ),
+
+        key:
+          `milk-${first}-${second}`
+      };
+    },
+
+
+    /* =====================================================
+       歩いた距離
+    ===================================================== */
+
+    () => {
+
+      const first =
+        r(11, 25);
+
+      const second =
+        r(1, 8);
+
+      return {
+        icon: "🚶",
+
+        text:
+          `${decimalFromTenths(first)}km あるきました。\n` +
+          `そのあと ${decimalFromTenths(second)}km あるきました。\n` +
+          `ぜんぶで なんkm？`,
+
+        answer:
+          Number(
+            decimalFromTenths(
+              first +
+              second
+            )
+          ),
+
+        key:
+          `walk-${first}-${second}`
+      };
+    },
+
+
+    /* =====================================================
+       自転車
+    ===================================================== */
+
+    () => {
+
+      const first =
+        r(12, 25);
+
+      const second =
+        r(2, 8);
+
+      return {
+        icon: "🚲",
+
+        text:
+          `じてんしゃで ${decimalFromTenths(first)}km すすみました。\n` +
+          `さらに ${decimalFromTenths(second)}km すすみました。\n` +
+          `ぜんぶで なんkm？`,
+
+        answer:
+          Number(
+            decimalFromTenths(
+              first +
+              second
+            )
+          ),
+
+        key:
+          `bike-${first}-${second}`
+      };
+    },
+
+
+    /* =====================================================
+       お米
+    ===================================================== */
+
+    () => {
+
+      const start =
+        r(15, 30);
+
+      const used =
+        r(
+          1,
+          Math.min(
+            8,
+            start - 10
+          )
+        );
+
+      return {
+        icon: "🍚",
+
+        text:
+          `おこめが ${decimalFromTenths(start)}kg あります。\n` +
+          `${decimalFromTenths(used)}kg つかいました。\n` +
+          `のこりは なんkg？`,
+
+        answer:
+          Number(
+            decimalFromTenths(
+              start -
+              used
+            )
+          ),
+
+        key:
+          `rice-${start}-${used}`
+      };
+    },
+
+
+    /* =====================================================
+       くだもの
+    ===================================================== */
+
+    () => {
+
+      const first =
+        r(11, 20);
+
+      const second =
+        r(1, 7);
+
+      return {
+        icon: "🍎",
+
+        text:
+          `りんごが ${decimalFromTenths(first)}kg あります。\n` +
+          `さらに ${decimalFromTenths(second)}kg かいました。\n` +
+          `ぜんぶで なんkg？`,
+
+        answer:
+          Number(
+            decimalFromTenths(
+              first +
+              second
+            )
+          ),
+
+        key:
+          `apple-weight-${first}-${second}`
+      };
+    },
+
+
+    /* =====================================================
+       ペットボトル
+    ===================================================== */
+
+    () => {
+
+      const start =
+        r(12, 20);
+
+      const drank =
+        r(
+          1,
+          Math.min(
+            6,
+            start - 10
+          )
+        );
+
+      return {
+        icon: "🧃",
+
+        text:
+          `ペットボトルに ${decimalFromTenths(start)}L あります。\n` +
+          `${decimalFromTenths(drank)}L のみました。\n` +
+          `のこりは なんL？`,
+
+        answer:
+          Number(
+            decimalFromTenths(
+              start -
+              drank
+            )
+          ),
+
+        key:
+          `drink-${start}-${drank}`
       };
     }
-
   ];
 
 
@@ -1212,7 +1418,6 @@ function buildWord() {
       `decimal-word-${q.key}`
   };
 }
-
 
 /* =========================================================
    BOSS
