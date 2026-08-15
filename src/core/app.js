@@ -218,7 +218,6 @@ root.addEventListener(
     return;
   }
     if (a === "landing-start") {
-  stopTitleBgm();
 
   const players = getPlayers();
 
@@ -446,7 +445,61 @@ if (a === "player-rename-submit") {
 }
     if (a === "go") { clearQuestionTimers(); screen = t.dataset.screen; render(); return; }
     if (a === "world") { worldId = Number(t.dataset.world); screen = "world"; render(); return; }
-    if (a === "stage") { currentStage = getStage(t.dataset.id); questions = generateQuestions(currentStage, 10); qi = 0; input = ""; earned = null; chestOpened = false; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; partnerMood = "start"; screen = "game"; startQuestion(); return; }
+    if (a === "stage") {
+
+  /*
+   * ステージ決定
+   */
+
+  currentStage =
+    getStage(
+      t.dataset.id
+    );
+
+
+  questions =
+    generateQuestions(
+      currentStage,
+      10
+    );
+
+
+  qi = 0;
+  input = "";
+  earned = null;
+
+  chestOpened = false;
+
+  lives = 2;
+  gameOver = false;
+
+  wrongMessage = "";
+  answerFeedback = null;
+
+  partnerMood = "start";
+
+
+  /*
+   * タイトルBGMを
+   * ゆっくりフェードアウト
+   */
+
+  await fadeOutTitleBgm(
+    1200
+  );
+
+
+  /*
+   * フェードアウト後に
+   * ステージ開始
+   */
+
+  screen = "game";
+
+  startQuestion();
+
+  return;
+}
     if (a === "replay-flash") { if (usesFlash(currentStage) && !answerFeedback) startQuestion(); return; }
     if (a === "key") {
 
@@ -2105,7 +2158,69 @@ function stopTitleBgm() {
   titleBgm.currentTime = 0;
   titleBgmPlaying = false;
 }
+function fadeOutTitleBgm(duration = 1200) {
 
+  if (
+    !titleBgmPlaying ||
+    titleBgm.paused
+  ) {
+    return Promise.resolve();
+  }
+
+  return new Promise(resolve => {
+
+    const startVolume =
+      titleBgm.volume;
+
+    const startTime =
+      performance.now();
+
+
+    function fade(now) {
+
+      const elapsed =
+        now - startTime;
+
+      const progress =
+        Math.min(
+          elapsed / duration,
+          1
+        );
+
+
+      titleBgm.volume =
+        startVolume *
+        (1 - progress);
+
+
+      if (progress < 1) {
+
+        requestAnimationFrame(
+          fade
+        );
+
+        return;
+      }
+
+
+      titleBgm.pause();
+
+      titleBgm.currentTime = 0;
+
+      titleBgm.volume = 0.35;
+
+      titleBgmPlaying = false;
+
+      resolve();
+    }
+
+
+    requestAnimationFrame(
+      fade
+    );
+
+  });
+}
 
 /* =========================
    新トップページ
