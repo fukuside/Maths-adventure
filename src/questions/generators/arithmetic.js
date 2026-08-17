@@ -181,9 +181,9 @@ function buildAdditionWord() {
         addedCount,
 
         prompt:
-          `こうえんで ${firstCount}人が あそんでいます。\n` +
-          `あとから ${addedCount}人が やってきました。\n` +
-          `みんなで なん人？`,
+          `こうえんで ${firstCount}にんが あそんでいます。\n` +
+          `あとから ${addedCount}にんが やってきました。\n` +
+          `みんなで なんにん？`,
 
         answer:
           firstCount + addedCount,
@@ -259,37 +259,131 @@ function buildAdditionWord() {
       };
     },
 
-
-    /* =====================================================
-       ゲーム
-       ユーザー案
-    ===================================================== */
-
     () => {
 
-      const firstCount = 2;
-      const addedCount = 3;
+  /* =====================================================
+     ゲーム
 
-      return {
-        scene: "game",
-        icon: "🎮",
+     はじめに 2〜4にん
+     あとから 2〜4にん やってくる
 
-        firstCount,
-        addedCount,
+     名前も毎回ランダム
+  ===================================================== */
 
-        prompt:
-          `2人で ゲームを しています。\n` +
-          `じんろうくん、じんくん、ななちゃんが\n` +
-          `「いっしょに ゲームしよ！」と やってきました。\n` +
-          `みんなで なん人？`,
+  const firstCount =
+    r(2, 4);
 
-        answer: 5,
 
-        key:
-          "game-friends-2-3"
-      };
-    },
+  const addedCount =
+    r(2, 4);
 
+
+  const names = [
+    "じんくん",
+    "ろうくん",
+    "ななちゃん",
+    "そらくん",
+    "ゆいちゃん",
+    "はるくん",
+    "りんちゃん",
+    "そうたくん",
+    "みおちゃん",
+    "れんくん"
+  ];
+
+
+  /* 名前をシャッフル */
+
+  const shuffledNames =
+    [...names];
+
+
+  for (
+    let i =
+      shuffledNames.length - 1;
+    i > 0;
+    i--
+  ) {
+
+    const j =
+      r(0, i);
+
+
+    [
+      shuffledNames[i],
+      shuffledNames[j]
+    ] = [
+      shuffledNames[j],
+      shuffledNames[i]
+    ];
+  }
+
+
+  /* 必要な人数だけ選ぶ */
+
+  const selectedNames =
+    shuffledNames.slice(
+      0,
+      addedCount
+    );
+
+
+  /* =====================================================
+     名前の文章を作る
+
+     2人：
+     じんくんと ななちゃん
+
+     3人：
+     じんくん、ろうくん、ななちゃん
+
+     4人：
+     じんくん、ろうくん、ななちゃん、そらくん
+  ===================================================== */
+
+  let nameText = "";
+
+
+  if (
+    selectedNames.length === 2
+  ) {
+
+    nameText =
+      `${selectedNames[0]}と ${selectedNames[1]}`;
+
+  } else {
+
+    nameText =
+      selectedNames.join("、");
+  }
+
+  const answer =
+    firstCount +
+    addedCount;
+
+  return {
+
+    scene:
+      "game",
+
+    icon:
+      "🎮",
+
+    firstCount,
+
+    addedCount,
+
+    prompt:
+      `${firstCount}にんで ゲームを しています。そこへ\n` +
+      `${nameText}が「いっしょに ゲームしよ！」と やってきました。\n` +
+      `みんなで なんにん？`,
+
+    answer,
+
+    key:
+      `game-${firstCount}-${addedCount}-${selectedNames.join("-")}`
+  };
+},
 
     /* =====================================================
        バス
@@ -311,9 +405,9 @@ function buildAdditionWord() {
         addedCount,
 
         prompt:
-          `バスに ${firstCount}人 のっています。\n` +
-          `つぎの ていりゅうじょで ${addedCount}人 のりました。\n` +
-          `ぜんぶで なん人？`,
+          `バスに ${firstCount}にん のっています。\n` +
+          `つぎの ていりゅうじょで ${addedCount}にん のりました。\n` +
+          `ぜんぶで なんにん？`,
 
         answer:
           firstCount + addedCount,
@@ -410,7 +504,7 @@ function buildAdditionWord() {
         addedCount,
 
         prompt:
-          `ほんだなに 本が ${firstCount}さつ あります。\n` +
+          `ほんだなに ほんが ${firstCount}さつ あります。\n` +
           `${addedCount}さつ もどしました。\n` +
           `ほんは ぜんぶで なんさつ？`,
 
@@ -439,30 +533,72 @@ function buildAdditionWord() {
 
   return {
 
-    kind:
-      "addition_word_visual",
+  kind:
+    "addition_word_visual",
 
-    scene:
-      q.scene,
 
-    icon:
-      q.icon,
+  /*
+    文章題は式入力
+  */
 
-    firstCount:
+  keypad:
+    "expression",
+
+
+  guide:
+    "しきから にゅうりょくしてね。",
+
+
+  scene:
+    q.scene,
+
+  icon:
+    q.icon,
+
+
+  firstCount:
+    q.firstCount,
+
+  addedCount:
+    q.addedCount,
+
+
+  prompt:
+    q.prompt,
+
+
+  answer:
+    q.answer,
+
+
+  expression: {
+
+    left:
       q.firstCount,
 
-    addedCount:
+    operator:
+      "+",
+
+    right:
       q.addedCount,
 
-    prompt:
-      q.prompt,
-
-    answer:
+    result:
       q.answer,
 
-    uniqueKey:
-      `addition_word_${q.key}`
-  };
+    /*
+      足し算は
+      5+3 と 3+5
+      どちらも正解
+    */
+
+    commutative:
+      true
+  },
+
+
+  uniqueKey:
+    `addition_word_${q.key}`
+};
 }
 
 /* ==================================================
@@ -746,9 +882,9 @@ function buildSubtractionWord() {
         removed,
 
         text:
-          `こうえんで ${total}人が あそんでいます。\n` +
-          `${removed}人が おうちに かえりました。\n` +
-          `のこりは なん人？`,
+          `こうえんで ${total}にんが あそんでいます。\n` +
+          `${removed}にんが おうちに かえりました。\n` +
+          `のこりは なんにん？`,
 
         key:
           `children-${total}-${removed}`
@@ -813,8 +949,7 @@ function buildSubtractionWord() {
 
         text:
           `ケーキが ${total}こ あります。\n` +
-          `たろうくんと はなこさんに\n` +
-          `1こずつ わけました。\n` +
+          `たろうくんと はなこさんに、1こずつ わけました。\n` +
           `のこりは なんこ？`,
 
         key:
@@ -849,41 +984,182 @@ function buildSubtractionWord() {
         removed,
 
         text:
-          `バスに ${total}人 のっています。\n` +
-          `${removed}人が バスを おりました。\n` +
-          `のこりは なん人？`,
+          `バスに ${total}にん のっています。\n` +
+          `${removed}にんが バスを おりました。\n` +
+          `のこりは なんにん？`,
 
         key:
           `bus-${total}-${removed}`
       };
     },
 
-
-    /* =====================================================
-       新幹線
-       ユーザー案
-    ===================================================== */
-
     () => {
 
-      return {
-        scene: "train",
-        icon: "🚄",
+  /* =====================================================
+     新幹線
 
-        total: 3,
-        removed: 1,
+     3〜4だいが えきに とまっている
+     そのうち 1〜2だいが しゅっぱつ
 
-        text:
-          `こだま、ひかり、のぞみが\n` +
-          `えきに とまっています。\n` +
-          `ひかりが しゅっぱつしました。\n` +
-          `えきに のこっている しんかんせんは なんだい？`,
+     新幹線の名前も毎回ランダム
+  ===================================================== */
 
-        key:
-          "shinkansen-3-1"
-      };
-    },
+  const trains = [
+    "こだま",
+    "ひかり",
+    "のぞみ",
+    "さくら",
+    "みずほ",
+    "つばめ"
+  ];
 
+
+  /* =====================================================
+     駅にいる台数
+
+     文章が長くなりすぎないよう
+     3〜4台にする
+  ===================================================== */
+
+  const total =
+    r(3, 4);
+
+
+  /* =====================================================
+     新幹線をシャッフル
+  ===================================================== */
+
+  const shuffledTrains =
+    [...trains];
+
+
+  for (
+    let i =
+      shuffledTrains.length - 1;
+    i > 0;
+    i--
+  ) {
+
+    const j =
+      r(0, i);
+
+
+    [
+      shuffledTrains[i],
+      shuffledTrains[j]
+    ] = [
+      shuffledTrains[j],
+      shuffledTrains[i]
+    ];
+  }
+
+
+  /* 駅に止まっている新幹線 */
+
+  const stoppedTrains =
+    shuffledTrains.slice(
+      0,
+      total
+    );
+
+
+  /* =====================================================
+     出発する台数
+
+     3台なら基本1台
+     4台なら1〜2台
+  ===================================================== */
+
+  const removed =
+    total === 3
+      ? 1
+      : r(1, 2);
+
+
+  /* =====================================================
+     出発する新幹線もランダム
+  ===================================================== */
+
+  const leavingCandidates =
+    [...stoppedTrains];
+
+
+  for (
+    let i =
+      leavingCandidates.length - 1;
+    i > 0;
+    i--
+  ) {
+
+    const j =
+      r(0, i);
+
+
+    [
+      leavingCandidates[i],
+      leavingCandidates[j]
+    ] = [
+      leavingCandidates[j],
+      leavingCandidates[i]
+    ];
+  }
+
+
+  const leavingTrains =
+    leavingCandidates.slice(
+      0,
+      removed
+    );
+
+
+  /* =====================================================
+     名前を文章にする
+  ===================================================== */
+
+  const stoppedText =
+    stoppedTrains.join("、");
+
+
+  let leavingText = "";
+
+
+  if (
+    leavingTrains.length === 1
+  ) {
+
+    leavingText =
+      leavingTrains[0];
+
+  } else {
+
+    leavingText =
+      leavingTrains.join("と ");
+  }
+
+
+  return {
+
+    scene:
+      "train",
+
+    icon:
+      "🚄",
+
+    total,
+
+    removed,
+
+
+    text:
+      `${stoppedText}が えきに とまっています。\n` +
+      `${leavingText}が しゅっぱつしました。\n` +
+      `えきに のこっている しんかんせんは なんだい？`,
+
+
+    key:
+      `shinkansen-${total}-${removed}-${stoppedTrains.join("-")}-${leavingTrains.join("-")}`
+  };
+},
 
     /* =====================================================
        あめ
@@ -947,7 +1223,7 @@ function buildSubtractionWord() {
         removed,
 
         text:
-          `ほんだなに 本が ${total}さつ あります。\n` +
+          `ほんだなに ほんが ${total}さつ あります。\n` +
           `${removed}さつ かりました。\n` +
           `のこりは なんさつ？`,
 
@@ -973,35 +1249,72 @@ function buildSubtractionWord() {
 
   return {
 
-    kind:
-      "subtraction_word_visual",
+  kind:
+    "subtraction_word_visual",
 
-    scene:
-      q.scene,
 
-    icon:
-      q.icon,
+  keypad:
+    "expression",
 
-    total:
+
+  guide:
+    "しきから にゅうりょくしてね。",
+
+
+  scene:
+    q.scene,
+
+  icon:
+    q.icon,
+
+
+  total:
+    q.total,
+
+  removed:
+    q.removed,
+
+  remaining:
+    q.total -
+    q.removed,
+
+
+  prompt:
+    q.text,
+
+
+  answer:
+    q.total -
+    q.removed,
+
+
+  expression: {
+
+    left:
       q.total,
 
-    removed:
+    operator:
+      "-",
+
+    right:
       q.removed,
 
-    remaining:
+    result:
       q.total -
       q.removed,
 
-    prompt:
-      q.text,
+    /*
+      引き算は順番固定
+    */
 
-    answer:
-      q.total -
-      q.removed,
+    commutative:
+      false
+  },
 
-    uniqueKey:
-      `subtraction_word_${q.key}`
-  };
+
+  uniqueKey:
+    `subtraction_word_${q.key}`
+};
 }
 
 /* ==================================================

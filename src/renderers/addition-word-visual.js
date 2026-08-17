@@ -29,18 +29,12 @@ export default {
       );
 
 
-    /* =====================================================
-       場面を表すイラスト
-       数を数えさせるためではなく、
-       文章の場面をイメージするための1個だけ
-    ===================================================== */
-
-    let sceneIcon = icon || "⭐";
+    let sceneIcon =
+      icon || "⭐";
 
 
     if (
-      scene ===
-      "park"
+      scene === "park"
     ) {
 
       sceneIcon = "🌳";
@@ -48,58 +42,58 @@ export default {
 
 
     else if (
-      scene ===
-      "bus"
+      scene === "bus"
     ) {
 
       sceneIcon = "🚌";
     }
 
 
-    /* =====================================================
-       表示
-       イラスト
-       □ ＋ ○
-       ＋
-       文章
-    ===================================================== */
-
     return `
-      <div class="addition-word-layout">
+      <div class="word-problem-shell">
 
-        <div class="addition-word-visual-side">
+        <div class="word-problem-top-guide">
+          しきから にゅうりょくしてね。
+        </div>
 
-          <div class="word-operation-visual">
 
-            <div class="word-operation-icon">
-              ${sceneIcon}
-            </div>
+        <div class="addition-word-layout">
 
-            <div class="word-operation-equation addition-operation-equation">
+          <div class="addition-word-visual-side">
 
-              <span class="word-operation-box">
-                □
-              </span>
+            <div class="word-operation-visual">
 
-              <span class="word-operation-symbol">
-                ＋
-              </span>
+              <div class="word-operation-icon">
+                ${sceneIcon}
+              </div>
 
-              <span class="word-operation-circle">
-                ○
-              </span>
+              <div class="word-operation-equation">
+
+                <span class="word-operation-box">
+                  □
+                </span>
+
+                <span class="word-operation-symbol">
+                  ＋
+                </span>
+
+                <span class="word-operation-circle">
+                  ○
+                </span>
+
+              </div>
 
             </div>
 
           </div>
 
-        </div>
 
+          <div class="addition-word-text-side">
 
-        <div class="addition-word-text-side">
+            <div class="addition-word-text">
+              ${text}
+            </div>
 
-          <div class="addition-word-text">
-            ${text}
           </div>
 
         </div>

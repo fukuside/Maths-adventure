@@ -14156,3 +14156,1790 @@ img[src*="1000yen"],img[src*="5000yen"],img[src*="10000yen"] {
       0 3px;
   }
 }
+
+/* =========================================================
+   全文章題
+   横幅拡張＋文字切れ防止
+========================================================= */
+
+.word-problem-shell {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+
+  padding: 0 10px 4px;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   上部ガイド
+========================================================= */
+
+.word-problem-top-guide {
+  width: 100%;
+
+  margin: 0 0 8px;
+
+  padding: 5px 10px;
+
+  box-sizing: border-box;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      24px
+    );
+
+  font-weight: 1000;
+
+  line-height: 1.15;
+
+  text-align: left;
+
+  letter-spacing: .03em;
+}
+
+
+/* =========================================================
+   共通レイアウト
+
+   左：イラスト
+   右：文章
+
+   以前より横幅を大きく使う
+========================================================= */
+
+.addition-word-layout,
+.subtraction-word-layout,
+.multiplication-word-layout,
+.division-word-layout,
+.decimal-word-layout {
+
+  width: 100%;
+  max-width: none;
+
+  flex: 1;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(180px, 30%)
+    minmax(0, 70%);
+
+  gap: 22px;
+
+  align-items: center;
+
+  margin: 0;
+
+  padding: 0 8px;
+
+  box-sizing: border-box;
+
+  overflow: hidden;
+}
+
+
+/* =========================================================
+   左側
+========================================================= */
+
+.addition-word-visual-side,
+.subtraction-word-visual-side,
+.multiplication-word-visual-side,
+.division-word-visual-side,
+.decimal-word-visual-side {
+
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;
+}
+
+
+.word-operation-visual {
+
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  overflow: hidden;
+}
+
+
+.word-operation-icon {
+
+  font-size:
+    clamp(
+      52px,
+      5.5vw,
+      78px
+    );
+
+  line-height: 1;
+}
+
+
+.word-operation-equation {
+
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+
+  font-size:
+    clamp(
+      30px,
+      3.2vw,
+      44px
+    );
+
+  line-height: 1;
+}
+
+
+.word-operation-symbol {
+
+  color: #fde68a;
+
+  font-weight: 1000;
+}
+
+
+/* =========================================================
+   右側
+========================================================= */
+
+.addition-word-text-side,
+.subtraction-word-text-side,
+.multiplication-word-text-side,
+.division-word-text-side,
+.decimal-word-text-side {
+
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  overflow: visible;
+}
+
+
+/* =========================================================
+   文章
+
+   切れ防止
+   横に広く使う
+========================================================= */
+
+.addition-word-text,
+.subtraction-word-text,
+.multiplication-word-text,
+.division-word-text,
+.decimal-word-text {
+
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      22px,
+      2.05vw,
+      29px
+    ) !important;
+
+  font-weight: 900 !important;
+
+  line-height:
+    1.34 !important;
+
+  letter-spacing: .015em;
+
+  text-align: left;
+
+  white-space: pre-line;
+
+  word-break: normal;
+
+  overflow-wrap: anywhere;
+
+  overflow: visible !important;
+
+  max-height: none !important;
+
+  transform: none !important;
+}
+
+
+/* =========================================================
+   タブレット
+========================================================= */
+
+@media (max-width: 1100px) {
+
+  .addition-word-layout,
+  .subtraction-word-layout,
+  .multiplication-word-layout,
+  .division-word-layout,
+  .decimal-word-layout {
+
+    grid-template-columns:
+      minmax(150px, 28%)
+      minmax(0, 72%);
+
+    gap: 16px;
+
+    padding: 0 4px;
+  }
+
+
+  .word-problem-top-guide {
+
+    font-size:
+      clamp(
+        17px,
+        2vw,
+        22px
+      );
+
+    margin-bottom: 6px;
+  }
+
+
+  .addition-word-text,
+  .subtraction-word-text,
+  .multiplication-word-text,
+  .division-word-text,
+  .decimal-word-text {
+
+    font-size:
+      clamp(
+        19px,
+        2.25vw,
+        25px
+      ) !important;
+
+    line-height:
+      1.3 !important;
+  }
+
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .word-problem-shell {
+
+    padding:
+      0 4px 2px;
+  }
+
+
+  .word-problem-top-guide {
+
+    padding:
+      4px 6px;
+
+    margin-bottom:
+      4px;
+
+    font-size:
+      clamp(
+        15px,
+        4vw,
+        19px
+      );
+  }
+
+
+  .addition-word-layout,
+  .subtraction-word-layout,
+  .multiplication-word-layout,
+  .division-word-layout,
+  .decimal-word-layout {
+
+    grid-template-columns:
+      minmax(105px, 30%)
+      minmax(0, 70%);
+
+    gap:
+      7px;
+
+    padding:
+      0 2px;
+  }
+
+
+  .word-operation-icon {
+
+    font-size:
+      clamp(
+        38px,
+        9vw,
+        54px
+      );
+  }
+
+
+  .word-operation-equation {
+
+    gap:
+      5px;
+
+    font-size:
+      clamp(
+        24px,
+        6vw,
+        34px
+      );
+  }
+
+
+  .addition-word-text,
+  .subtraction-word-text,
+  .multiplication-word-text,
+  .division-word-text,
+  .decimal-word-text {
+
+    font-size:
+      clamp(
+        16px,
+        3.8vw,
+        21px
+      ) !important;
+
+    line-height:
+      1.26 !important;
+  }
+
+}
+
+/* =========================================================
+   文章題レイアウト FINAL
+   ・全体は中央
+   ・中身は横幅を広く使う
+   ・左寄りにならない
+   ・文章切れ防止
+========================================================= */
+
+
+/* ---------------------------------------------------------
+   問題カード内の文章題全体
+--------------------------------------------------------- */
+
+.word-problem-shell {
+  width: 96% !important;
+  max-width: 980px !important;
+
+  height: 100% !important;
+
+  margin:
+    0 auto !important;
+
+  padding:
+    6px 0 4px !important;
+
+  display: grid !important;
+
+  grid-template-rows:
+    auto
+    minmax(0, 1fr);
+
+  box-sizing:
+    border-box;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* ---------------------------------------------------------
+   一番上
+   しきから にゅうりょくしてね。
+--------------------------------------------------------- */
+
+.word-problem-top-guide {
+  width: 100% !important;
+
+  margin:
+    0
+    0
+    6px !important;
+
+  padding:
+    0 12px !important;
+
+  box-sizing:
+    border-box;
+
+  color:
+    #fde68a;
+
+  font-size:
+    clamp(
+      18px,
+      1.7vw,
+      23px
+    ) !important;
+
+  font-weight:
+    1000;
+
+  line-height:
+    1.2;
+
+  text-align:
+    left !important;
+
+  letter-spacing:
+    .02em;
+}
+
+
+/* ---------------------------------------------------------
+   本体
+
+   全体そのものは中央
+   左32% / 右68%
+--------------------------------------------------------- */
+
+.addition-word-layout,
+.subtraction-word-layout,
+.multiplication-word-layout,
+.division-word-layout,
+.decimal-word-layout {
+
+  width: 100% !important;
+  max-width: 940px !important;
+
+  height: 100% !important;
+
+  margin:
+    0 auto !important;
+
+  padding:
+    0 12px !important;
+
+  display:
+    grid !important;
+
+  grid-template-columns:
+    minmax(180px, 32%)
+    minmax(0, 68%) !important;
+
+  gap:
+    24px !important;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    center !important;
+
+  box-sizing:
+    border-box;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* ---------------------------------------------------------
+   左側
+--------------------------------------------------------- */
+
+.addition-word-visual-side,
+.subtraction-word-visual-side,
+.multiplication-word-visual-side,
+.division-word-visual-side,
+.decimal-word-visual-side {
+
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  display:
+    flex !important;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    center !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* イラスト＋式 */
+
+.word-operation-visual {
+
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  display:
+    flex !important;
+
+  flex-direction:
+    column;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    center !important;
+
+  gap:
+    7px !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+}
+
+
+/* イラスト */
+
+.word-operation-icon {
+
+  font-size:
+    clamp(
+      52px,
+      5vw,
+      72px
+    ) !important;
+
+  line-height:
+    1 !important;
+}
+
+
+/* □ ＋ ○ など */
+
+.word-operation-equation {
+
+  display:
+    flex !important;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    center !important;
+
+  gap:
+    10px !important;
+
+  font-size:
+    clamp(
+      30px,
+      3vw,
+      42px
+    ) !important;
+
+  line-height:
+    1 !important;
+}
+
+
+/* ---------------------------------------------------------
+   右側
+--------------------------------------------------------- */
+
+.addition-word-text-side,
+.subtraction-word-text-side,
+.multiplication-word-text-side,
+.division-word-text-side,
+.decimal-word-text-side {
+
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  display:
+    flex !important;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    flex-start !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  overflow:
+    visible !important;
+}
+
+
+/* ---------------------------------------------------------
+   文章
+--------------------------------------------------------- */
+
+.addition-word-text,
+.subtraction-word-text,
+.multiplication-word-text,
+.division-word-text,
+.decimal-word-text {
+
+  width:
+    100% !important;
+
+  max-width:
+    100% !important;
+
+  height:
+    auto !important;
+
+  max-height:
+    none !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  color:
+    #fffdf2;
+
+  font-size:
+    clamp(
+      21px,
+      2vw,
+      28px
+    ) !important;
+
+  font-weight:
+    900 !important;
+
+  line-height:
+    1.32 !important;
+
+  letter-spacing:
+    .01em;
+
+  text-align:
+    left !important;
+
+  white-space:
+    pre-line !important;
+
+  word-break:
+    normal !important;
+
+  overflow-wrap:
+    break-word !important;
+
+  overflow:
+    visible !important;
+
+  transform:
+    none !important;
+}
+
+
+/* =========================================================
+   タブレット
+========================================================= */
+
+@media (max-width: 1100px) {
+
+  .word-problem-shell {
+
+    width:
+      98% !important;
+  }
+
+
+  .addition-word-layout,
+  .subtraction-word-layout,
+  .multiplication-word-layout,
+  .division-word-layout,
+  .decimal-word-layout {
+
+    max-width:
+      900px !important;
+
+    grid-template-columns:
+      minmax(150px, 30%)
+      minmax(0, 70%) !important;
+
+    gap:
+      18px !important;
+
+    padding:
+      0 8px !important;
+  }
+
+
+  .addition-word-text,
+  .subtraction-word-text,
+  .multiplication-word-text,
+  .division-word-text,
+  .decimal-word-text {
+
+    font-size:
+      clamp(
+        19px,
+        2.25vw,
+        25px
+      ) !important;
+
+    line-height:
+      1.28 !important;
+  }
+
+}
+
+
+/* =========================================================
+   スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+
+  .word-problem-shell {
+
+    width:
+      100% !important;
+
+    padding:
+      3px 0 !important;
+  }
+
+
+  .word-problem-top-guide {
+
+    margin-bottom:
+      4px !important;
+
+    padding:
+      0 5px !important;
+
+    font-size:
+      clamp(
+        15px,
+        4vw,
+        19px
+      ) !important;
+  }
+
+
+  .addition-word-layout,
+  .subtraction-word-layout,
+  .multiplication-word-layout,
+  .division-word-layout,
+  .decimal-word-layout {
+
+    grid-template-columns:
+      minmax(90px, 30%)
+      minmax(0, 70%) !important;
+
+    gap:
+      7px !important;
+
+    padding:
+      0 3px !important;
+  }
+
+
+  .word-operation-icon {
+
+    font-size:
+      clamp(
+        36px,
+        9vw,
+        50px
+      ) !important;
+  }
+
+
+  .word-operation-equation {
+
+    gap:
+      5px !important;
+
+    font-size:
+      clamp(
+        23px,
+        6vw,
+        31px
+      ) !important;
+  }
+
+
+  .addition-word-text,
+  .subtraction-word-text,
+  .multiplication-word-text,
+  .division-word-text,
+  .decimal-word-text {
+
+    font-size:
+      clamp(
+        15px,
+        3.7vw,
+        20px
+      ) !important;
+
+    line-height:
+      1.24 !important;
+  }
+
+}
+
+/* =========================================================
+   文章題・パートナー・決定ボタン
+   2026-08-17 調整
+========================================================= */
+
+
+/* =========================================================
+   文章題
+   ・カード内を上から使う
+   ・3～4行でも見切れにくくする
+   ・全体バランスは中央基準
+========================================================= */
+
+.question-card:has(.word-problem-shell) {
+  min-height: 220px !important;
+  height: 220px !important;
+  max-height: 220px !important;
+
+  padding:
+    8px
+    18px !important;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* 文章題全体 */
+
+.word-problem-shell {
+  width:
+    min(
+      100%,
+      980px
+    ) !important;
+
+  height:
+    100% !important;
+
+  margin:
+    0 auto !important;
+
+  padding:
+    0 !important;
+
+  display:
+    grid !important;
+
+  grid-template-rows:
+    28px
+    minmax(0, 1fr);
+
+  box-sizing:
+    border-box;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* =========================================================
+   「しきから にゅうりょくしてね。」
+========================================================= */
+
+.word-problem-top-guide {
+  width:
+    100% !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 6px !important;
+
+  display:
+    flex !important;
+
+  align-items:
+    flex-start !important;
+
+  justify-content:
+    flex-start !important;
+
+  color:
+    #fde68a;
+
+  font-size:
+    clamp(
+      17px,
+      1.55vw,
+      21px
+    ) !important;
+
+  font-weight:
+    1000;
+
+  line-height:
+    1.05 !important;
+
+  text-align:
+    left !important;
+
+  letter-spacing:
+    .02em;
+}
+
+
+/* =========================================================
+   文章題本体
+========================================================= */
+
+.addition-word-layout,
+.subtraction-word-layout,
+.multiplication-word-layout,
+.division-word-layout,
+.decimal-word-layout {
+  width:
+    min(
+      100%,
+      930px
+    ) !important;
+
+  height:
+    100% !important;
+
+  margin:
+    0 auto !important;
+
+  padding:
+    0 !important;
+
+  display:
+    grid !important;
+
+  grid-template-columns:
+    minmax(
+      185px,
+      31%
+    )
+    minmax(
+      0,
+      69%
+    ) !important;
+
+  column-gap:
+    24px !important;
+
+  align-items:
+    start !important;
+
+  box-sizing:
+    border-box;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* =========================================================
+   左：イラスト＋式
+========================================================= */
+
+.addition-word-visual-side,
+.subtraction-word-visual-side,
+.multiplication-word-visual-side,
+.division-word-visual-side,
+.decimal-word-visual-side {
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  padding:
+    8px 0 0 !important;
+
+  display:
+    flex !important;
+
+  align-items:
+    flex-start !important;
+
+  justify-content:
+    center !important;
+
+  overflow:
+    hidden !important;
+}
+
+
+.word-operation-visual {
+  width:
+    100% !important;
+
+  height:
+    auto !important;
+
+  display:
+    flex !important;
+
+  flex-direction:
+    column;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    flex-start !important;
+
+  gap:
+    6px !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+}
+
+
+.word-operation-icon {
+  font-size:
+    clamp(
+      48px,
+      4.5vw,
+      65px
+    ) !important;
+
+  line-height:
+    1 !important;
+}
+
+
+.word-operation-equation {
+  display:
+    flex !important;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    center !important;
+
+  gap:
+    9px !important;
+
+  font-size:
+    clamp(
+      28px,
+      2.75vw,
+      38px
+    ) !important;
+
+  line-height:
+    1 !important;
+}
+
+
+/* =========================================================
+   右：文章
+========================================================= */
+
+.addition-word-text-side,
+.subtraction-word-text-side,
+.multiplication-word-text-side,
+.division-word-text-side,
+.decimal-word-text-side {
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-width:
+    0;
+
+  min-height:
+    0;
+
+  padding:
+    7px 0 0 !important;
+
+  display:
+    flex !important;
+
+  align-items:
+    flex-start !important;
+
+  justify-content:
+    flex-start !important;
+
+  overflow:
+    visible !important;
+}
+
+
+.addition-word-text,
+.subtraction-word-text,
+.multiplication-word-text,
+.division-word-text,
+.decimal-word-text {
+  width:
+    100% !important;
+
+  max-width:
+    none !important;
+
+  height:
+    auto !important;
+
+  max-height:
+    none !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    0 !important;
+
+  color:
+    #fffdf2;
+
+  font-size:
+    clamp(
+      20px,
+      1.85vw,
+      27px
+    ) !important;
+
+  font-weight:
+    900 !important;
+
+  line-height:
+    1.23 !important;
+
+  letter-spacing:
+    .005em;
+
+  text-align:
+    left !important;
+
+  white-space:
+    pre-line !important;
+
+  word-break:
+    normal !important;
+
+  overflow-wrap:
+    break-word !important;
+
+  overflow:
+    visible !important;
+
+  transform:
+    none !important;
+}
+
+
+/* =========================================================
+   パートナー＋決定ボタン
+
+   割合イメージ
+   パートナー 6
+   決定ボタン 4
+========================================================= */
+
+.partner-answer-zone {
+  grid-area:
+    partner;
+
+  width:
+    100%;
+
+  height:
+    100%;
+
+  min-height:
+    0 !important;
+
+  display:
+    grid !important;
+
+  grid-template-rows:
+    minmax(0, 6fr)
+    minmax(0, 4fr);
+
+  gap:
+    10px !important;
+
+  align-items:
+    stretch;
+}
+
+
+/* =========================================================
+   パートナー枠
+========================================================= */
+
+.partner-answer-zone
+.partner-companion {
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-height:
+    0 !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    12px !important;
+
+  display:
+    flex !important;
+
+  align-items:
+    center !important;
+
+  gap:
+    12px !important;
+
+  border-radius:
+    1.25rem !important;
+
+  overflow:
+    hidden !important;
+}
+
+
+/* パートナー画像 */
+
+.partner-answer-zone
+.partner-companion
+img {
+  flex:
+    0 0 auto;
+
+  width:
+    clamp(
+      110px,
+      13vw,
+      155px
+    ) !important;
+
+  height:
+    clamp(
+      110px,
+      13vw,
+      155px
+    ) !important;
+
+  object-fit:
+    contain !important;
+}
+
+
+/* パートナー文字側 */
+
+.partner-answer-zone
+.partner-companion
+> div {
+  min-width:
+    0;
+
+  flex:
+    1;
+}
+
+
+/* 称号 */
+
+.partner-answer-zone
+.partner-companion
+small {
+  font-size:
+    0.66rem !important;
+
+  line-height:
+    1.15;
+}
+
+
+/* 名前 */
+
+.partner-answer-zone
+.partner-companion
+strong {
+  margin-top:
+    2px !important;
+
+  font-size:
+    clamp(
+      .92rem,
+      1.45vw,
+      1.08rem
+    ) !important;
+
+  line-height:
+    1.15;
+}
+
+
+/* 吹き出し */
+
+.partner-answer-zone
+.partner-companion
+p {
+  margin:
+    6px 0 0 !important;
+
+  padding:
+    7px
+    10px !important;
+
+  font-size:
+    clamp(
+      .86rem,
+      1.45vw,
+      1rem
+    ) !important;
+
+  line-height:
+    1.2 !important;
+
+  border-radius:
+    .9rem !important;
+}
+
+
+/* =========================================================
+   決定ボタン
+========================================================= */
+
+.partner-submit-button {
+  width:
+    100% !important;
+
+  height:
+    100% !important;
+
+  min-height:
+    0 !important;
+
+  margin:
+    0 !important;
+
+  padding:
+    8px
+    14px !important;
+
+  display:
+    flex !important;
+
+  flex-direction:
+    column !important;
+
+  align-items:
+    center !important;
+
+  justify-content:
+    center !important;
+
+  gap:
+    4px !important;
+
+  border-radius:
+    1.2rem !important;
+
+  font-weight:
+    1000 !important;
+
+  line-height:
+    1.05 !important;
+
+  text-align:
+    center !important;
+}
+
+
+/* 1行目
+   こたえの けってい
+*/
+
+.submit-answer-main {
+  display:
+    block;
+
+  font-size:
+    clamp(
+      18px,
+      1.8vw,
+      23px
+    ) !important;
+
+  font-weight:
+    900 !important;
+
+  line-height:
+    1.05 !important;
+}
+
+
+/* 2行目
+   このボタンを おしてね！
+   → こちらを強調
+*/
+
+.submit-answer-guide {
+  display:
+    block;
+
+  font-size:
+    clamp(
+      22px,
+      2.35vw,
+      31px
+    ) !important;
+
+  font-weight:
+    1000 !important;
+
+  line-height:
+    1.05 !important;
+
+  letter-spacing:
+    .02em;
+}
+
+/* =========================================================
+   文章題のときだけ
+   問題カードの高さを明示
+========================================================= */
+
+.game-area:has(.word-problem-shell) {
+  grid-template-rows:
+    auto
+    auto
+    220px
+    auto
+    minmax(
+      0,
+      1fr
+    ) !important;
+}
+
+
+/* =========================================================
+   高さが低めのPC
+========================================================= */
+
+@media (
+  max-height: 780px
+)
+and (
+  min-width: 761px
+) {
+
+  .question-card:has(.word-problem-shell) {
+    min-height:
+      205px !important;
+
+    height:
+      205px !important;
+
+    max-height:
+      205px !important;
+  }
+
+
+  .game-area:has(.word-problem-shell) {
+    grid-template-rows:
+      auto
+      auto
+      205px
+      auto
+      minmax(
+        0,
+        1fr
+      ) !important;
+  }
+
+
+  .partner-answer-zone {
+    gap:
+      8px !important;
+  }
+
+
+  .partner-answer-zone
+  .partner-companion {
+    padding:
+      9px !important;
+  }
+
+
+  .partner-answer-zone
+  .partner-companion
+  img {
+    width:
+      115px !important;
+
+    height:
+      115px !important;
+  }
+
+
+  .partner-answer-zone
+  .partner-companion
+  p {
+    padding:
+      6px
+      8px !important;
+
+    font-size:
+      .86rem !important;
+  }
+
+
+  .partner-submit-button {
+    font-size:
+      1.18rem !important;
+  }
+}
+
+
+/* =========================================================
+   タブレット・スマホ
+========================================================= */
+
+@media (
+  max-width: 760px
+) {
+
+  .question-card:has(.word-problem-shell) {
+    min-height:
+      215px !important;
+
+    height:
+      215px !important;
+
+    max-height:
+      215px !important;
+  }
+
+
+  .word-problem-shell {
+    grid-template-rows:
+      25px
+      minmax(
+        0,
+        1fr
+      );
+  }
+
+
+  .addition-word-layout,
+  .subtraction-word-layout,
+  .multiplication-word-layout,
+  .division-word-layout,
+  .decimal-word-layout {
+    grid-template-columns:
+      minmax(
+        100px,
+        30%
+      )
+      minmax(
+        0,
+        70%
+      ) !important;
+
+    column-gap:
+      7px !important;
+  }
+
+
+  .word-problem-top-guide {
+    font-size:
+      clamp(
+        14px,
+        3.8vw,
+        18px
+      ) !important;
+  }
+
+
+  .addition-word-text,
+  .subtraction-word-text,
+  .multiplication-word-text,
+  .division-word-text,
+  .decimal-word-text {
+    font-size:
+      clamp(
+        15px,
+        3.6vw,
+        19px
+      ) !important;
+
+    line-height:
+      1.2 !important;
+  }
+
+
+  .word-operation-icon {
+    font-size:
+      clamp(
+        36px,
+        8vw,
+        48px
+      ) !important;
+  }
+
+
+  .word-operation-equation {
+    font-size:
+      clamp(
+        22px,
+        5.5vw,
+        30px
+      ) !important;
+  }
+
+
+  /*
+    スマホでは縦積みになるため
+    6:4だと狭くなりすぎるので
+    高さを固定して安定させる
+  */
+
+  .partner-answer-zone {
+    display:
+      flex !important;
+
+    flex-direction:
+      column;
+
+    gap:
+      7px !important;
+  }
+
+
+  .partner-answer-zone
+  .partner-companion {
+    height:
+      120px !important;
+
+    min-height:
+      120px !important;
+  }
+
+
+  .partner-answer-zone
+  .partner-companion
+  img {
+    width:
+      82px !important;
+
+    height:
+      82px !important;
+  }
+
+
+  .partner-submit-button {
+    height:
+      60px !important;
+
+    min-height:
+      60px !important;
+
+    font-size:
+      1rem !important;
+  }
+}

@@ -29,17 +29,12 @@ export default {
       );
 
 
-    /* =====================================================
-       場面を表すイラスト
-       答えを絵から数えられないように1個だけ表示
-    ===================================================== */
-
-    let sceneIcon = icon || "⭐";
+    let sceneIcon =
+      icon || "⭐";
 
 
     if (
-      scene ===
-      "bird"
+      scene === "bird"
     ) {
 
       sceneIcon = "🐦";
@@ -47,8 +42,7 @@ export default {
 
 
     else if (
-      scene ===
-      "bus"
+      scene === "bus"
     ) {
 
       sceneIcon = "🚌";
@@ -56,8 +50,7 @@ export default {
 
 
     else if (
-      scene ===
-      "children"
+      scene === "children"
     ) {
 
       sceneIcon = "🧒";
@@ -65,60 +58,59 @@ export default {
 
 
     else if (
-      scene ===
-      "fish"
+      scene === "fish"
     ) {
 
       sceneIcon = "🐟";
     }
 
 
-    /* =====================================================
-       表示
-       イラスト
-       □ － ○
-       ＋
-       文章
-
-       ※ remaining は絶対に画面へ表示しない
-    ===================================================== */
-
     return `
-      <div class="subtraction-word-layout">
+      <div class="word-problem-shell">
 
-        <div class="subtraction-word-visual-side">
+        <div class="word-problem-top-guide">
+          しきから にゅうりょくしてね。
+        </div>
 
-          <div class="word-operation-visual">
 
-            <div class="word-operation-icon">
-              ${sceneIcon}
-            </div>
+        <div class="subtraction-word-layout">
 
-            <div class="word-operation-equation subtraction-operation-equation">
+          <div class="subtraction-word-visual-side">
 
-              <span class="word-operation-box">
-                □
-              </span>
+            <div class="word-operation-visual">
 
-              <span class="word-operation-symbol">
-                －
-              </span>
+              <div class="word-operation-icon">
+                ${sceneIcon}
+              </div>
 
-              <span class="word-operation-circle">
-                ○
-              </span>
+
+              <div class="word-operation-equation">
+
+                <span class="word-operation-box">
+                  □
+                </span>
+
+                <span class="word-operation-symbol">
+                  －
+                </span>
+
+                <span class="word-operation-circle">
+                  ○
+                </span>
+
+              </div>
 
             </div>
 
           </div>
 
-        </div>
 
+          <div class="subtraction-word-text-side">
 
-        <div class="subtraction-word-text-side">
+            <div class="subtraction-word-text">
+              ${text}
+            </div>
 
-          <div class="subtraction-word-text">
-            ${text}
           </div>
 
         </div>

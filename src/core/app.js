@@ -345,7 +345,6 @@ if (a === "player-create-submit") {
   return;
 }
 
-
 if (a === "legacy-migrate-submit") {
   const nickname =
     root.querySelector("[data-nickname-input]")
@@ -517,17 +516,21 @@ if (a === "player-rename-submit") {
 
 
   /* =====================================================
-     時計入力
+     時計
   ===================================================== */
 
   const isClockStage =
     currentStage?.keypad === "clock" ||
-    currentStage?.type?.startsWith("clock_");
+    currentStage?.type?.startsWith(
+      "clock_"
+    );
 
 
   if (isClockStage) {
 
-    if (value === "clear") {
+    if (
+      value === "clear"
+    ) {
 
       input = "";
 
@@ -536,7 +539,9 @@ if (a === "player-rename-submit") {
     }
 
 
-    if (value === "back") {
+    if (
+      value === "back"
+    ) {
 
       input = "";
 
@@ -547,7 +552,9 @@ if (a === "player-rename-submit") {
 
     if (
       typeof value === "string" &&
-      value.startsWith("clock-hour:")
+      value.startsWith(
+        "clock-hour:"
+      )
     ) {
 
       const hour =
@@ -574,7 +581,9 @@ if (a === "player-rename-submit") {
 
     if (
       typeof value === "string" &&
-      value.startsWith("clock-minute:")
+      value.startsWith(
+        "clock-minute:"
+      )
     ) {
 
       const minute =
@@ -625,7 +634,7 @@ if (a === "player-rename-submit") {
 
 
   /* =====================================================
-     全部消す
+     全消し
   ===================================================== */
 
   if (
@@ -660,10 +669,155 @@ if (a === "player-rename-submit") {
 
 
   /* =====================================================
-     A / B / C 問題
+     式入力
+  ===================================================== */
 
-     Stageではなく
-     今表示しているQuestionを見る
+  if (
+    question?.keypad ===
+      "expression"
+  ) {
+
+    /*
+      入力できる文字だけ許可
+    */
+
+    const allowed =
+      [
+        "+",
+        "-",
+        "*",
+        "/",
+        "=",
+        "."
+      ].includes(
+        value
+      )
+      ||
+      /^[0-9]$/.test(
+        value
+      );
+
+
+    if (!allowed) {
+
+      render();
+      return;
+    }
+
+
+    /*
+      最大30文字
+    */
+
+    if (
+      input.length >= 30
+    ) {
+
+      render();
+      return;
+    }
+
+
+    /*
+      演算記号は1個だけ
+
+      例
+      5+3
+    */
+
+    if (
+      [
+        "+",
+        "-",
+        "*",
+        "/"
+      ].includes(
+        value
+      )
+    ) {
+
+      if (
+        /[+\-*/]/.test(
+          input
+        )
+      ) {
+
+        render();
+        return;
+      }
+
+
+      /*
+        数字より先に
+        演算記号は押せない
+      */
+
+      if (
+        input === ""
+      ) {
+
+        render();
+        return;
+      }
+    }
+
+
+    /*
+      ＝は1回だけ
+    */
+
+    if (
+      value === "="
+    ) {
+
+      if (
+        input.includes("=")
+        ||
+        !/[+\-*/]/.test(
+          input
+        )
+      ) {
+
+        render();
+        return;
+      }
+    }
+
+
+    /*
+      ＝を入れたあとは
+      ＋－×÷を追加できない
+    */
+
+    if (
+      input.includes("=")
+      &&
+      [
+        "+",
+        "-",
+        "*",
+        "/",
+        "="
+      ].includes(
+        value
+      )
+    ) {
+
+      render();
+      return;
+    }
+
+
+    input += value;
+
+
+    render();
+    return;
+  }
+
+
+  /* =====================================================
+     A / B / C
   ===================================================== */
 
   const isChoiceQuestion =
@@ -671,20 +825,22 @@ if (a === "player-rename-submit") {
       question?.choices
     )
     &&
-    question.choices.length > 0
-    &&
-    typeof question?.answer === "string"
+    typeof question?.answer ===
+      "string"
     &&
     /^[ABC]$/.test(
       question.answer
     );
 
 
-  if (isChoiceQuestion) {
+  if (
+    isChoiceQuestion
+  ) {
 
     if (
-      typeof value === "string" &&
-      /^[ABC]$/.test(value)
+      /^[ABC]$/.test(
+        value
+      )
     ) {
 
       input = value;
@@ -697,7 +853,7 @@ if (a === "player-rename-submit") {
 
 
   /* =====================================================
-     分数を丸ごと入力する問題
+     分数
   ===================================================== */
 
   const isFractionInputQuestion =
@@ -712,32 +868,13 @@ if (a === "player-rename-submit") {
     isFractionInputQuestion
   ) {
 
-    /* ---------------------------------
-       「ぶんの」
-    --------------------------------- */
-
     if (
       value === "/"
     ) {
 
-      /*
-        最初に「ぶんの」は押せない
-      */
-
       if (
         input === ""
-      ) {
-
-        render();
-        return;
-      }
-
-
-      /*
-        2回「ぶんの」を入れない
-      */
-
-      if (
+        ||
         input.includes("/")
       ) {
 
@@ -748,77 +885,20 @@ if (a === "player-rename-submit") {
 
       input += "/";
 
-
       render();
       return;
     }
 
-
-    /* ---------------------------------
-       数字
-    --------------------------------- */
 
     if (
-      typeof value === "string" &&
-      /^[0-9]$/.test(value)
+      /^[0-9]$/.test(
+        value
+      )
     ) {
 
-      const parts =
-        input.split("/");
-
-
-      /*
-        ぶんの前
-        ＝ 分母
-      */
-
-      if (
-        parts.length === 1
-      ) {
-
-        const denominator =
-          parts[0] ?? "";
-
-
-        if (
-          denominator.length < 2
-        ) {
-
-          input += value;
-        }
-
-
-        render();
-        return;
-      }
-
-
-      /*
-        ぶんの後
-        ＝ 分子
-      */
-
-      const numerator =
-        parts[1] ?? "";
-
-
-      if (
-        numerator.length < 2
-      ) {
-
-        input += value;
-      }
-
-
-      render();
-      return;
+      input += value;
     }
 
-
-    /*
-      分数問題では
-      数字・ぶんの以外は無視
-    */
 
     render();
     return;
@@ -826,7 +906,7 @@ if (a === "player-rename-submit") {
 
 
   /* =====================================================
-     通常数字・小数
+     通常入力
   ===================================================== */
 
   if (
@@ -840,14 +920,18 @@ if (a === "player-rename-submit") {
   render();
   return;
 }
-
     if (a === "answer") {
       if (!inputEnabled || input === "") return;
       const question = questions[qi];
 
 const isChoiceAnswer =
-  typeof question.answer === "string" &&
-  /^[ABC]$/.test(question.answer);
+  typeof question?.answer ===
+    "string"
+  &&
+  /^[ABC]$/.test(
+    question.answer
+  );
+
 
 const isFractionAnswer =
   isFullFractionAnswerQuestion(
@@ -855,20 +939,52 @@ const isFractionAnswer =
   );
 
 
+const isExpressionAnswer =
+  question?.keypad ===
+    "expression"
+  &&
+  question?.expression;
+
+
+/* =========================================================
+   正誤判定
+
+   ① 式入力
+   ② A/B/C
+   ③ 分数
+   ④ 通常数字
+========================================================= */
+
 const isCorrect =
-  isChoiceAnswer
-    ? input === question.answer
 
-    : isFractionAnswer
-      ? isCorrectFractionInput(
-          input,
-          question
-        )
+  isExpressionAnswer
 
-      : Math.abs(
-          parseAnswerInput(input) -
-          Number(question.answer)
-        ) < 1e-9;
+    ? isCorrectExpressionInput(
+        input,
+        question
+      )
+
+    : isChoiceAnswer
+
+      ? input ===
+        question.answer
+
+      : isFractionAnswer
+
+        ? isCorrectFractionInput(
+            input,
+            question
+          )
+
+        : Math.abs(
+            parseAnswerInput(
+              input
+            )
+            -
+            Number(
+              question.answer
+            )
+          ) < 1e-9;
 
 if (isCorrect) {
         input = "";
@@ -2508,12 +2624,20 @@ function fadeOutTitleBgm(duration = 1200) {
 
 
 const guide =
+
   flashMode
+
     ? ""
-    : (
-        q?.guide ??
-        "問題をよく見て答えよう。"
-      );
+
+    : q?.keypad ===
+        "expression"
+
+      ? ""
+
+      : (
+          q?.guide ??
+          "問題をよく見て答えよう。"
+        );
 
 const rendererHasOwnGuide = (
   String(q?.kind ?? "").startsWith("fraction-") ||
@@ -2602,11 +2726,17 @@ return `<section class="stack game-area">
   ${renderPartnerCompanion()}
 
   <button
-    class="partner-submit-button ${inputEnabled ? "" : "disabled-button"}"
-    data-action="answer"
-  >
-    🐾 こたえを けってい！
-  </button>
+  class="partner-submit-button"
+  data-action="answer"
+>
+  <span class="submit-answer-main">
+    👣こたえの けってい
+  </span>
+
+  <span class="submit-answer-guide">
+    このボタンを おしてね！
+  </span>
+</button>
 
 </div>
 
@@ -2638,6 +2768,364 @@ ${renderKeypad()}
       ${answerFeedback === "correct" ? `<div class="correct-feedback" aria-live="polite"><div class="correct-feedback-card"><svg class="red-pen-svg" viewBox="0 0 240 240" aria-hidden="true"><path class="red-pen-stroke" d="M190 49 C147 10 75 18 38 69 C1 120 29 194 96 211 C158 227 218 182 218 116 C218 84 206 62 190 49"/><path class="red-pen-check" d="M70 119 L101 151 L167 78"/></svg><strong>せいかい！</strong><span class="correct-exp">✨ +10 EXP</span></div></div>` : ""}
     </section>`;
   }
+
+  /* =========================================================
+   文章題
+   式全体の正誤判定
+========================================================= */
+
+function isCorrectExpressionInput(
+  value,
+  question
+) {
+
+  const expected =
+    question?.expression;
+
+
+  if (!expected) {
+    return false;
+  }
+
+
+  /* =====================================================
+     記号を統一
+  ===================================================== */
+
+  const normalizeOperator =
+    operator => {
+
+      const raw =
+        String(
+          operator ?? ""
+        );
+
+
+      if (
+        raw === "+" ||
+        raw === "＋"
+      ) {
+        return "+";
+      }
+
+
+      if (
+        raw === "-" ||
+        raw === "−" ||
+        raw === "－"
+      ) {
+        return "-";
+      }
+
+
+      if (
+        raw === "*" ||
+        raw === "×"
+      ) {
+        return "*";
+      }
+
+
+      if (
+        raw === "/" ||
+        raw === "÷"
+      ) {
+        return "/";
+      }
+
+
+      return raw;
+    };
+
+
+  /* =====================================================
+     入力文字を内部形式へ
+  ===================================================== */
+
+  const raw =
+    String(
+      value ?? ""
+    )
+      .replace(/[０-９]/g, char =>
+        String.fromCharCode(
+          char.charCodeAt(0) -
+          0xFEE0
+        )
+      )
+      .replaceAll(
+        "＋",
+        "+"
+      )
+      .replaceAll(
+        "−",
+        "-"
+      )
+      .replaceAll(
+        "－",
+        "-"
+      )
+      .replaceAll(
+        "×",
+        "*"
+      )
+      .replaceAll(
+        "÷",
+        "/"
+      )
+      .replaceAll(
+        "＝",
+        "="
+      )
+      .replaceAll(
+        "．",
+        "."
+      )
+      .replace(
+        /\s+/g,
+        ""
+      );
+
+
+  /* =====================================================
+     式を分解
+
+     3+3=6
+     1.2+0.5=1.7
+     12/3=4
+  ===================================================== */
+
+  const match =
+    raw.match(
+      /^(\d+(?:\.\d+)?)([+\-*/])(\d+(?:\.\d+)?)=(\d+(?:\.\d+)?)$/
+    );
+
+
+  if (!match) {
+    return false;
+  }
+
+
+  const left =
+    Number(
+      match[1]
+    );
+
+
+  const operator =
+    normalizeOperator(
+      match[2]
+    );
+
+
+  const right =
+    Number(
+      match[3]
+    );
+
+
+  const result =
+    Number(
+      match[4]
+    );
+
+
+  const expectedLeft =
+    Number(
+      expected.left
+    );
+
+
+  const expectedOperator =
+    normalizeOperator(
+      expected.operator
+    );
+
+
+  const expectedRight =
+    Number(
+      expected.right
+    );
+
+
+  const expectedResult =
+    Number(
+      expected.result
+    );
+
+
+  /* =====================================================
+     数値比較
+  ===================================================== */
+
+  const sameNumber =
+    (
+      a,
+      b
+    ) => {
+
+      return (
+        Number.isFinite(a)
+        &&
+        Number.isFinite(b)
+        &&
+        Math.abs(
+          a - b
+        ) < 1e-9
+      );
+    };
+
+
+  /* =====================================================
+     入力した式そのものが正しいか
+  ===================================================== */
+
+  let calculated;
+
+
+  if (
+    operator === "+"
+  ) {
+
+    calculated =
+      left +
+      right;
+
+  } else if (
+    operator === "-"
+  ) {
+
+    calculated =
+      left -
+      right;
+
+  } else if (
+    operator === "*"
+  ) {
+
+    calculated =
+      left *
+      right;
+
+  } else if (
+    operator === "/"
+  ) {
+
+    if (
+      right === 0
+    ) {
+      return false;
+    }
+
+
+    calculated =
+      left /
+      right;
+
+  } else {
+
+    return false;
+  }
+
+
+  /*
+    3+3=7 のような式は×
+  */
+
+  if (
+    !sameNumber(
+      calculated,
+      result
+    )
+  ) {
+
+    return false;
+  }
+
+
+  /* =====================================================
+     演算記号が合っているか
+  ===================================================== */
+
+  if (
+    operator !==
+    expectedOperator
+  ) {
+
+    return false;
+  }
+
+
+  /* =====================================================
+     答えが合っているか
+  ===================================================== */
+
+  if (
+    !sameNumber(
+      result,
+      expectedResult
+    )
+  ) {
+
+    return false;
+  }
+
+
+  /* =====================================================
+     通常の順番
+  ===================================================== */
+
+  const normalOrder =
+    sameNumber(
+      left,
+      expectedLeft
+    )
+    &&
+    sameNumber(
+      right,
+      expectedRight
+    );
+
+
+  if (
+    normalOrder
+  ) {
+
+    return true;
+  }
+
+
+  /* =====================================================
+     足し算・掛け算は左右交換OK
+  ===================================================== */
+
+  if (
+    expected.commutative ===
+      true
+  ) {
+
+    const reversedOrder =
+      sameNumber(
+        left,
+        expectedRight
+      )
+      &&
+      sameNumber(
+        right,
+        expectedLeft
+      );
+
+
+    if (
+      reversedOrder
+    ) {
+
+      return true;
+    }
+  }
+
+
+  return false;
+}
 
   function parseAnswerInput(value) {
   const cleaned =

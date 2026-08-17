@@ -241,7 +241,6 @@ function buildDivisionSingle() {
   };
 }
 
-
 /* ==================================================
    わり算の文章題
 
@@ -276,6 +275,12 @@ function buildDivisionWord() {
           `${people}人で おなじ数ずつ わけます。\n` +
           `1人ぶんは なんこ？`,
 
+           left:
+            total,
+            
+           right:
+            people,
+
         answer:
           each,
 
@@ -308,6 +313,12 @@ function buildDivisionWord() {
           `あめが ${total}こ あります。\n` +
           `${people}人で おなじ数ずつ わけます。\n` +
           `1人ぶんは なんこ？`,
+
+           left:
+            total,
+            
+           right:
+            people,
 
         answer:
           each,
@@ -342,6 +353,12 @@ function buildDivisionWord() {
           `1ふくろに ${each}こずつ いれます。\n` +
           `なんふくろ できますか？`,
 
+           left:
+            total,
+            
+           right:
+            each,
+
         answer:
           bags,
 
@@ -374,6 +391,12 @@ function buildDivisionWord() {
           `えんぴつが ${total}本 あります。\n` +
           `${people}人で おなじ数ずつ わけます。\n` +
           `1人ぶんは なん本？`,
+
+        left:
+          total,
+          
+        right:
+          people,
 
         answer:
           each,
@@ -408,6 +431,12 @@ function buildDivisionWord() {
           `1つの すいそうに ${each}ひきずつ いれます。\n` +
           `すいそうは いくつ いりますか？`,
 
+        left:
+          total,
+          
+        right:
+          each,
+
         answer:
           tanks,
 
@@ -440,6 +469,12 @@ function buildDivisionWord() {
           `ボールが ${total}こ あります。\n` +
           `1はこに ${each}こずつ いれます。\n` +
           `はこは いくつ いりますか？`,
+
+        left:
+          total,
+          
+        right:
+          each,
 
         answer:
           boxes,
@@ -474,6 +509,12 @@ function buildDivisionWord() {
           `1チーム ${each}人ずつに わかれます。\n` +
           `なんチーム できますか？`,
 
+          left:
+          total,
+          
+        right:
+          each,
+
         answer:
           teams,
 
@@ -507,6 +548,12 @@ function buildDivisionWord() {
           `${people}人で おなじ数ずつ わけます。\n` +
           `1人ぶんは なんこ？`,
 
+          left:
+          total,
+          
+        right:
+          each,
+
         answer:
           each,
 
@@ -539,7 +586,7 @@ function buildDivisionWord() {
           `シールが ${total}まい あります。\n` +
           `${people}人で おなじ数ずつ わけます。\n` +
           `1人ぶんは なんまい？`,
-
+        
         answer:
           each,
 
@@ -565,24 +612,60 @@ function buildDivisionWord() {
 
   return {
 
-    kind:
-      "division_word_visual",
+  kind:
+    "division_word_visual",
 
-    icon:
-      q.icon,
 
-    prompt:
-      q.text,
+  keypad:
+    "expression",
 
-    className:
-      "division-word-text",
 
-    answer:
+  guide:
+    "しきから にゅうりょくしてね。",
+
+
+  icon:
+    q.icon,
+
+
+  prompt:
+    q.text,
+
+
+  className:
+    "division-word-text",
+
+
+  answer:
+    q.answer,
+
+
+  expression: {
+
+    left:
+      q.left,
+
+    operator:
+      "/",
+
+    right:
+      q.right,
+
+    result:
       q.answer,
 
-    uniqueKey:
-      `division_word_${q.key}`
-  };
+    /*
+      割り算は順番固定
+    */
+
+    commutative:
+      false
+  },
+
+
+  uniqueKey:
+    `division_word_${q.key}`
+};
 }
 
 /* ==================================================

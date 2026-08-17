@@ -20,6 +20,10 @@ const keypads =
   new Map();
 
 
+/* =========================================================
+   Keypad自動登録
+========================================================= */
+
 for (
   const [path, item]
   of Object.entries({
@@ -56,15 +60,15 @@ for (
 
 
 /* =========================================================
-   問題からKeypadを判定
+   使用するKeypadを判定
 
    優先順位
 
    ① question.keypad
-   ② A/B/C問題なら choice
-   ③ 分数丸ごと入力なら fraction
-   ④ Stage.keypad
-   ⑤ Stage.type
+   ② A/B/C問題
+   ③ 分数丸ごと入力
+   ④ stage.keypad
+   ⑤ stage.type
 ========================================================= */
 
 export function inferKeypadType(
@@ -72,25 +76,29 @@ export function inferKeypadType(
   question = null
 ) {
 
-  /*
-    Question自身が
-    Keypadを指定している場合
-  */
+  /* =====================================================
+     ① Question自身の指定を最優先
+
+     文章題：
+     keypad: "expression"
+
+     など
+  ===================================================== */
 
   if (
-    question?.keypad
+    typeof question?.keypad ===
+      "string"
+    &&
+    question.keypad !== ""
   ) {
+
     return question.keypad;
   }
 
 
-  /*
-    A / B / C の選択問題
-
-    Bossなどで
-    Stage内に複数形式が混ざっていても
-    自動でchoiceへ切り替える
-  */
+  /* =====================================================
+     ② A/B/C問題
+  ===================================================== */
 
   const isChoiceQuestion =
     Array.isArray(
@@ -110,99 +118,113 @@ export function inferKeypadType(
   if (
     isChoiceQuestion
   ) {
+
     return "choice";
   }
 
 
-  /*
-    分数を丸ごと入力する問題
-  */
+  /* =====================================================
+     ③ 分数丸ごと入力
+  ===================================================== */
 
-  const fractionKinds = [
-    "fraction-add-same-denominator",
-    "fraction-subtract-same-denominator"
-  ];
+  const questionKind =
+    String(
+      question?.kind ?? ""
+    );
 
 
   if (
-    fractionKinds.includes(
-      String(
-        question?.kind ?? ""
-      )
-    )
+    questionKind ===
+      "fraction-add-same-denominator"
+    ||
+    questionKind ===
+      "fraction-subtract-same-denominator"
   ) {
+
     return "fraction";
   }
 
 
-  /*
-    Stage指定
-  */
+  /* =====================================================
+     ④ StageがKeypadを明示指定
+  ===================================================== */
 
   if (
-    stage?.keypad
+    typeof stage?.keypad ===
+      "string"
+    &&
+    stage.keypad !== ""
   ) {
+
     return stage.keypad;
   }
 
 
-  /*
-    時計
-  */
+  /* =====================================================
+     ⑤ Stage.typeから推測
+  ===================================================== */
+
+  const stageType =
+    String(
+      stage?.type ?? ""
+    );
+
+
+  /* 時計 */
 
   if (
-    stage?.type?.startsWith(
+    stageType.startsWith(
       "clock_"
     )
   ) {
+
     return "clock";
   }
 
 
-  /*
-    お金
-  */
+  /* お金 */
 
   if (
-    stage?.type ===
-    "money_sum"
+    stageType ===
+      "money_sum"
   ) {
+
     return "money";
   }
 
 
-  /*
-    分数
-  */
+  /* 分数 */
 
   if (
-    stage?.type?.startsWith(
+    stageType.startsWith(
       "fraction_"
     )
   ) {
+
     return "fraction";
   }
 
 
-  /*
-    小数
-  */
+  /* 小数 */
 
   if (
-    stage?.type?.startsWith(
+    stageType.startsWith(
       "decimal_"
     )
   ) {
+
     return "decimal";
   }
 
+
+  /* その他 */
 
   return "number";
 }
 
 
 /* =========================================================
-   キーパッド描画
+   Keypad描画
 ========================================================= */
 
 export function renderKeypadForStage(
@@ -222,6 +244,11 @@ export function renderKeypadForStage(
     );
 
 
+  /*
+    該当Keypadがなければ
+    numberへフォールバック
+  */
+
   const def =
     keypads.get(
       type
@@ -232,12 +259,19 @@ export function renderKeypadForStage(
     );
 
 
-  if (
-    !def
-  ) {
+  if (!def) {
+
+    console.warn(
+      `Keypad not found: ${type}`
+    );
+
     return "";
   }
 
+
+  /* =====================================================
+     ボタン生成
+  ===================================================== */
 
   const button = (
     value,
@@ -255,6 +289,10 @@ export function renderKeypadForStage(
   `;
 
 
+  /* =====================================================
+     Key一覧生成
+  ===================================================== */
+
   const keys =
     def.keys(
       button,
@@ -266,11 +304,15 @@ export function renderKeypadForStage(
     );
 
 
+  /* =====================================================
+     HTML
+  ===================================================== */
+
   return `
     <div
       class="
         keypad
-        keypad-${type}
+        keypad-${escapeHtml(type)}
         ${
           inputEnabled
             ? ""

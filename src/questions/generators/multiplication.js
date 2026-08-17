@@ -259,41 +259,73 @@ function buildWordQuestion() {
       patterns.length - 1
     );
 
-
   const selected =
     patterns[
       patternIndex
     ];
 
-
   return {
 
-    /*
-      textではなく
-      掛け算文章題専用Rendererへ
-    */
+  kind:
+    "multiplication_word_visual",
 
-    kind:
-      "multiplication_word_visual",
 
-    icon:
-      selected.icon,
+  keypad:
+    "expression",
 
-    each,
 
+  guide:
+    "しきから にゅうりょくしてね。",
+
+
+  icon:
+    selected.icon,
+
+
+  each,
+
+  groups,
+
+
+  prompt:
+    selected.text,
+
+
+  answer:
+    each *
     groups,
 
-    prompt:
-      selected.text,
 
-    answer:
+  expression: {
+
+    left:
+      each,
+
+    operator:
+      "*",
+
+    right:
+      groups,
+
+    result:
       each *
       groups,
 
-    uniqueKey:
-      `multiply_word_${each}_${groups}_${patternIndex}`
-  };
+    /*
+      3×4 / 4×3
+      どちらも正解
+    */
+
+    commutative:
+      true
+  },
+
+
+  uniqueKey:
+    `multiply_word_${each}_${groups}_${patternIndex}`
+};
 }
+
 /* ==================================================
    フラッシュ九九
 ================================================== */

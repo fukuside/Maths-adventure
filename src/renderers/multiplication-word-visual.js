@@ -24,42 +24,51 @@ export default {
 
 
     return `
-      <div class="multiplication-word-layout">
+      <div class="word-problem-shell">
 
-        <div class="multiplication-word-visual-side">
-
-          <div class="word-operation-visual">
-
-            <div class="word-operation-icon">
-              ${icon}
-            </div>
+        <div class="word-problem-top-guide">
+          しきから にゅうりょくしてね。
+        </div>
 
 
-            <div class="word-operation-equation">
+        <div class="multiplication-word-layout">
 
-              <span class="word-operation-box">
-                □
-              </span>
+          <div class="multiplication-word-visual-side">
 
-              <span class="word-operation-symbol">
-                ×
-              </span>
+            <div class="word-operation-visual">
 
-              <span class="word-operation-circle">
-                ○
-              </span>
+              <div class="word-operation-icon">
+                ${icon}
+              </div>
+
+
+              <div class="word-operation-equation">
+
+                <span class="word-operation-box">
+                  □
+                </span>
+
+                <span class="word-operation-symbol">
+                  ×
+                </span>
+
+                <span class="word-operation-circle">
+                  ○
+                </span>
+
+              </div>
 
             </div>
 
           </div>
 
-        </div>
 
+          <div class="multiplication-word-text-side">
 
-        <div class="multiplication-word-text-side">
+            <div class="multiplication-word-text">
+              ${text}
+            </div>
 
-          <div class="multiplication-word-text">
-            ${text}
           </div>
 
         </div>

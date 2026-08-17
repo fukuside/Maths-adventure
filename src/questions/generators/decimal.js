@@ -1009,10 +1009,18 @@ function buildSubtract() {
   };
 }
 
-
 /* =========================================================
    S6
    小数の文章題
+
+   文章
+   ↓
+   式を自分で入力
+   ↓
+   答えまで入力
+
+   例：
+   1.4 ＋ 0.3 ＝ 1.7
 ========================================================= */
 
 function buildWord() {
@@ -1020,7 +1028,7 @@ function buildWord() {
   const patterns = [
 
     /* =====================================================
-       ジュースを増やす
+       ジュース・たし算
     ===================================================== */
 
     () => {
@@ -1031,24 +1039,53 @@ function buildWord() {
       const second =
         r(1, 6);
 
-      const total =
+      const result =
         first +
         second;
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            first
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            second
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            result
+          )
+        );
+
+
       return {
-        icon: "🥤",
+
+        icon:
+          "🥤",
 
         text:
-          `ジュースが ${decimalFromTenths(first)}L あります。\n` +
-          `${decimalFromTenths(second)}L ふやしました。\n` +
+          `ジュースが ${left}L あります。\n` +
+          `${right}L ふやしました。\n` +
           `ぜんぶで なんL？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              total
-            )
-          ),
+        left,
+
+        operator:
+          "+",
+
+        right,
+
+        answer,
 
         key:
           `juice-add-${first}-${second}`
@@ -1057,13 +1094,14 @@ function buildWord() {
 
 
     /* =====================================================
-       水を使う
+       水・ひき算
     ===================================================== */
 
     () => {
 
       const start =
         r(14, 25);
+
 
       const used =
         r(
@@ -1074,30 +1112,59 @@ function buildWord() {
           )
         );
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            start
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            used
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            start -
+            used
+          )
+        );
+
+
       return {
-        icon: "💧",
+
+        icon:
+          "💧",
 
         text:
-          `水が ${decimalFromTenths(start)}L あります。\n` +
-          `${decimalFromTenths(used)}L つかいました。\n` +
+          `水が ${left}L あります。\n` +
+          `${right}L つかいました。\n` +
           `のこりは なんL？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              start -
-              used
-            )
-          ),
+        left,
+
+        operator:
+          "-",
+
+        right,
+
+        answer,
 
         key:
-          `water-${start}-${used}`
+          `water-sub-${start}-${used}`
       };
     },
 
 
     /* =====================================================
-       リボンをつなぐ
+       リボン・たし算
     ===================================================== */
 
     () => {
@@ -1105,39 +1172,70 @@ function buildWord() {
       const first =
         r(11, 20);
 
+
       const second =
         r(1, 6);
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            first
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            second
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            first +
+            second
+          )
+        );
+
+
       return {
-        icon: "🎀",
+
+        icon:
+          "🎀",
 
         text:
-          `${decimalFromTenths(first)}mの リボンに\n` +
-          `${decimalFromTenths(second)}mの リボンを つなぎました。\n` +
+          `${left}mの リボンに\n` +
+          `${right}mの リボンを つなぎました。\n` +
           `ぜんぶで なんm？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              first +
-              second
-            )
-          ),
+        left,
+
+        operator:
+          "+",
+
+        right,
+
+        answer,
 
         key:
-          `ribbon-${first}-${second}`
+          `ribbon-add-${first}-${second}`
       };
     },
 
 
     /* =====================================================
-       テープを使う
+       テープ・ひき算
     ===================================================== */
 
     () => {
 
       const start =
         r(14, 25);
+
 
       const used =
         r(
@@ -1148,30 +1246,59 @@ function buildWord() {
           )
         );
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            start
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            used
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            start -
+            used
+          )
+        );
+
+
       return {
-        icon: "📏",
+
+        icon:
+          "📏",
 
         text:
-          `テープが ${decimalFromTenths(start)}m あります。\n` +
-          `${decimalFromTenths(used)}m つかいました。\n` +
+          `テープが ${left}m あります。\n` +
+          `${right}m つかいました。\n` +
           `のこりは なんm？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              start -
-              used
-            )
-          ),
+        left,
+
+        operator:
+          "-",
+
+        right,
+
+        answer,
 
         key:
-          `tape-${start}-${used}`
+          `tape-sub-${start}-${used}`
       };
     },
 
 
     /* =====================================================
-       牛乳
+       ぎゅうにゅう・たし算
     ===================================================== */
 
     () => {
@@ -1179,33 +1306,63 @@ function buildWord() {
       const first =
         r(11, 18);
 
+
       const second =
         r(1, 6);
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            first
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            second
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            first +
+            second
+          )
+        );
+
+
       return {
-        icon: "🥛",
+
+        icon:
+          "🥛",
 
         text:
-          `ぎゅうにゅうが ${decimalFromTenths(first)}L あります。\n` +
-          `${decimalFromTenths(second)}L たしました。\n` +
+          `ぎゅうにゅうが ${left}L あります。\n` +
+          `${right}L たしました。\n` +
           `ぜんぶで なんL？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              first +
-              second
-            )
-          ),
+        left,
+
+        operator:
+          "+",
+
+        right,
+
+        answer,
 
         key:
-          `milk-${first}-${second}`
+          `milk-add-${first}-${second}`
       };
     },
 
 
     /* =====================================================
-       歩いた距離
+       あるいた きょり・たし算
     ===================================================== */
 
     () => {
@@ -1213,33 +1370,63 @@ function buildWord() {
       const first =
         r(11, 25);
 
+
       const second =
         r(1, 8);
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            first
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            second
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            first +
+            second
+          )
+        );
+
+
       return {
-        icon: "🚶",
+
+        icon:
+          "🚶",
 
         text:
-          `${decimalFromTenths(first)}km あるきました。\n` +
-          `そのあと ${decimalFromTenths(second)}km あるきました。\n` +
+          `${left}km あるきました。\n` +
+          `そのあと ${right}km あるきました。\n` +
           `ぜんぶで なんkm？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              first +
-              second
-            )
-          ),
+        left,
+
+        operator:
+          "+",
+
+        right,
+
+        answer,
 
         key:
-          `walk-${first}-${second}`
+          `walk-add-${first}-${second}`
       };
     },
 
 
     /* =====================================================
-       自転車
+       じてんしゃ・たし算
     ===================================================== */
 
     () => {
@@ -1247,39 +1434,70 @@ function buildWord() {
       const first =
         r(12, 25);
 
+
       const second =
         r(2, 8);
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            first
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            second
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            first +
+            second
+          )
+        );
+
+
       return {
-        icon: "🚲",
+
+        icon:
+          "🚲",
 
         text:
-          `じてんしゃで ${decimalFromTenths(first)}km すすみました。\n` +
-          `さらに ${decimalFromTenths(second)}km すすみました。\n` +
+          `じてんしゃで ${left}km すすみました。\n` +
+          `さらに ${right}km すすみました。\n` +
           `ぜんぶで なんkm？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              first +
-              second
-            )
-          ),
+        left,
+
+        operator:
+          "+",
+
+        right,
+
+        answer,
 
         key:
-          `bike-${first}-${second}`
+          `bike-add-${first}-${second}`
       };
     },
 
 
     /* =====================================================
-       お米
+       おこめ・ひき算
     ===================================================== */
 
     () => {
 
       const start =
         r(15, 30);
+
 
       const used =
         r(
@@ -1290,30 +1508,59 @@ function buildWord() {
           )
         );
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            start
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            used
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            start -
+            used
+          )
+        );
+
+
       return {
-        icon: "🍚",
+
+        icon:
+          "🍚",
 
         text:
-          `おこめが ${decimalFromTenths(start)}kg あります。\n` +
-          `${decimalFromTenths(used)}kg つかいました。\n` +
+          `おこめが ${left}kg あります。\n` +
+          `${right}kg つかいました。\n` +
           `のこりは なんkg？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              start -
-              used
-            )
-          ),
+        left,
+
+        operator:
+          "-",
+
+        right,
+
+        answer,
 
         key:
-          `rice-${start}-${used}`
+          `rice-sub-${start}-${used}`
       };
     },
 
 
     /* =====================================================
-       くだもの
+       りんごの おもさ・たし算
     ===================================================== */
 
     () => {
@@ -1321,39 +1568,70 @@ function buildWord() {
       const first =
         r(11, 20);
 
+
       const second =
         r(1, 7);
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            first
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            second
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            first +
+            second
+          )
+        );
+
+
       return {
-        icon: "🍎",
+
+        icon:
+          "🍎",
 
         text:
-          `りんごが ${decimalFromTenths(first)}kg あります。\n` +
-          `さらに ${decimalFromTenths(second)}kg かいました。\n` +
+          `りんごが ${left}kg あります。\n` +
+          `さらに ${right}kg かいました。\n` +
           `ぜんぶで なんkg？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              first +
-              second
-            )
-          ),
+        left,
+
+        operator:
+          "+",
+
+        right,
+
+        answer,
 
         key:
-          `apple-weight-${first}-${second}`
+          `apple-weight-add-${first}-${second}`
       };
     },
 
 
     /* =====================================================
-       ペットボトル
+       ペットボトル・ひき算
     ===================================================== */
 
     () => {
 
       const start =
         r(12, 20);
+
 
       const drank =
         r(
@@ -1364,28 +1642,62 @@ function buildWord() {
           )
         );
 
+
+      const left =
+        Number(
+          decimalFromTenths(
+            start
+          )
+        );
+
+
+      const right =
+        Number(
+          decimalFromTenths(
+            drank
+          )
+        );
+
+
+      const answer =
+        Number(
+          decimalFromTenths(
+            start -
+            drank
+          )
+        );
+
+
       return {
-        icon: "🧃",
+
+        icon:
+          "🧃",
 
         text:
-          `ペットボトルに ${decimalFromTenths(start)}L あります。\n` +
-          `${decimalFromTenths(drank)}L のみました。\n` +
+          `ペットボトルに ${left}L あります。\n` +
+          `${right}L のみました。\n` +
           `のこりは なんL？`,
 
-        answer:
-          Number(
-            decimalFromTenths(
-              start -
-              drank
-            )
-          ),
+        left,
+
+        operator:
+          "-",
+
+        right,
+
+        answer,
 
         key:
-          `drink-${start}-${drank}`
+          `drink-sub-${start}-${drank}`
       };
     }
+
   ];
 
+
+  /* =====================================================
+     ランダム選択
+  ===================================================== */
 
   const pattern =
     patterns[
@@ -1400,19 +1712,78 @@ function buildWord() {
     pattern();
 
 
+  /* =====================================================
+     Question
+  ===================================================== */
+
   return {
 
     kind:
       "decimal-word",
 
+
+    /*
+      式を最初から入力する
+    */
+
+    keypad:
+      "expression",
+
+
+    guide:
+      "しきから にゅうりょくしてね。",
+
+
     icon:
       q.icon,
+
 
     prompt:
       q.text,
 
+
+    /*
+      最終的な答え
+    */
+
     answer:
       q.answer,
+
+
+    /*
+      正しい式
+    */
+
+    expression: {
+
+      left:
+        q.left,
+
+      operator:
+        q.operator,
+
+      right:
+        q.right,
+
+      result:
+        q.answer,
+
+
+      /*
+        足し算なら
+
+        1.2 + 0.5
+        0.5 + 1.2
+
+        どちらも○
+
+        引き算は順番固定
+      */
+
+      commutative:
+        q.operator === "+"
+    },
+
 
     uniqueKey:
       `decimal-word-${q.key}`

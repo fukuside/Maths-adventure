@@ -1,7 +1,7 @@
 export default {
   id: "w2-money-1",
 
-  sort: 2,
+  sort: 1,
 
   world: 2,
 
