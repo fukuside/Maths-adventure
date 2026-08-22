@@ -87,12 +87,6 @@ export default {
               )}
             </div>
 
-            <div class="decimal-place-question-guide">
-              ${escapeHtml(
-                question.guide ?? ""
-              )}
-            </div>
-
             <div class="decimal-place-question-options">
 
               ${choices.map(
