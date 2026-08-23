@@ -456,6 +456,13 @@ if (a === "player-rename-submit") {
     );
 
 
+  /*
+   * ゲーム画面で使う
+   * 現在のパートナー画像を先読み
+   */
+
+  preloadCurrentPartnerImage();
+
   questions =
     generateQuestions(
       currentStage,
@@ -1307,6 +1314,78 @@ if (a === "transfer-use") {
 
   function usesFlash(stage) {
   return stage?.presentation === "flash";
+}
+
+/* =========================================================
+   モンスター画像の先読み
+========================================================= */
+
+const preloadedMonsterImages =
+  new Set();
+
+
+function preloadMonsterImage(
+  src
+) {
+
+  if (
+    typeof src !== "string" ||
+    src === "" ||
+    preloadedMonsterImages.has(src)
+  ) {
+    return;
+  }
+
+
+  const img =
+    new Image();
+
+
+  img.decoding =
+    "async";
+
+
+  try {
+
+    img.fetchPriority =
+      "high";
+
+  } catch {
+    // 未対応ブラウザはそのまま
+  }
+
+
+  img.src =
+    src;
+
+
+  preloadedMonsterImages.add(
+    src
+  );
+}
+
+
+/* =========================================================
+   現在のパートナー画像を先読み
+========================================================= */
+
+function preloadCurrentPartnerImage() {
+
+  const p =
+    selectedPartner();
+
+
+  if (!p) {
+    return;
+  }
+
+
+  preloadMonsterImage(
+    image(
+      p.card,
+      p.rarity
+    )
+  );
 }
 
 /* =========================================================
@@ -4426,15 +4505,17 @@ function renderPartnerCompanion() {
     >
 
       <img
-        src="${image(
-          p.card,
-          p.rarity
-        )}"
-        alt="${escapeHtml(
-          p.card.name
-        )}"
-      >
-
+  src="${image(
+    p.card,
+    p.rarity
+  )}"
+  alt="${escapeHtml(
+    p.card.name
+  )}"
+  decoding="async"
+  fetchpriority="high"
+  loading="eager"
+>
 
       <div>
 
@@ -4615,8 +4696,15 @@ function renderPartnerCompanion() {
 
   <img
   class="card-image"
-  src="${image(earned.card, earned.rarity)}"
-  alt="${earned.card.name}"
+  src="${image(
+    earned.card,
+    earned.rarity
+  )}"
+  alt="${escapeHtml(
+    earned.card.name
+  )}"
+  decoding="async"
+  fetchpriority="high"
 >
 
 ${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
@@ -4709,17 +4797,17 @@ ${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
             ? `
               <div class="current-partner">
 
-
                 <img
-                  src="${image(
-                    selected.card,
-                    selected.rarity
-                  )}"
-                  alt="${escapeHtml(
-                    selected.card.name
-                  )}"
-                >
-
+  src="${image(
+    selected.card,
+    selected.rarity
+  )}"
+  alt="${escapeHtml(
+    selected.card.name
+  )}"
+  fetchpriority="high"
+  decoding="async"
+>
 
                 <div>
 
@@ -4853,20 +4941,19 @@ ${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
                       "
                     >
 
-
                       <img
-                        src="${image(
-                          x.card,
-                          x.rarity
-                        )}"
-                        alt="${escapeHtml(
-                          x.card.name
-                        )}"
-                      >
-
+  src="${image(
+    x.card,
+    x.rarity
+  )}"
+  alt="${escapeHtml(
+    x.card.name
+  )}"
+  loading="lazy"
+  decoding="async"
+>
 
                       <div>
-
 
                         <small>
                           ${x.rarity}
@@ -4992,10 +5079,12 @@ ${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
                       <div class="holo-layer"></div>
 
                       <img
-                        class="card-image"
-                        src="${image(c, r)}"
-                        alt="${c.name}"
-                      >
+  class="card-image"
+  src="${image(c, r)}"
+  alt="${escapeHtml(c.name)}"
+  loading="lazy"
+  decoding="async"
+>
 
                       <div class="card-body">
                         <small>
@@ -5068,10 +5157,12 @@ function zoomModal() {
           </div>
 
           <img
-            class="zoom-card-image"
-            src="${image(c, r)}"
-            alt="${c.name}"
-          >
+  class="zoom-card-image"
+  src="${image(c, r)}"
+  alt="${escapeHtml(c.name)}"
+  decoding="async"
+  fetchpriority="high"
+>
 
           <div class="zoom-card-body">
             <div class="card-meta">
