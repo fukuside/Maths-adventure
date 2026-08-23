@@ -101,11 +101,12 @@ export default {
         ${choice.moneyItems.map(item=>`
 
           <img
-            class="money-choice-money-image"
-            src="${item.image}"
-            alt="${item.value}円"
-          >
-
+  class="money-choice-money-image"
+  src="${item.image}"
+  alt="${item.value}円"
+  decoding="async"
+  fetchpriority="high"
+>
         `).join("")}
 
       </div>

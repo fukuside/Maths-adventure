@@ -1272,27 +1272,275 @@ if (a === "transfer-use") {
   return stage?.presentation === "flash";
 }
 
-  function startQuestion() {
-    clearFlash();
-    clearFeedback();
-    answerFeedback = null;
+/* =========================================================
+   問題画像の先読み
+========================================================= */
 
-    if (!usesFlash(currentStage)) {
-      flashVisible = true;
-      inputEnabled = true;
-      render();
-      return;
-    }
+const preloadedQuestionImages =
+  new Set();
 
-    flashVisible = true;
-    inputEnabled = false;
-    render();
-    flashTimer = setTimeout(() => {
-      flashVisible = false;
-      inputEnabled = true;
-      render();
-    }, flashDuration());
+
+function preloadQuestionImage(
+  src
+) {
+
+  if (
+    typeof src !==
+      "string"
+    ||
+    src === ""
+    ||
+    preloadedQuestionImages.has(
+      src
+    )
+  ) {
+    return;
   }
+
+
+  const img =
+    new Image();
+
+
+  /*
+    問題表示用なので
+    lazyにはしない
+  */
+
+  img.decoding =
+    "async";
+
+
+  /*
+    ブラウザが対応していれば
+    優先度を上げる
+  */
+
+  try {
+
+    img.fetchPriority =
+      "high";
+
+  } catch {
+    // 未対応ブラウザはそのまま
+  }
+
+
+  img.src =
+    src;
+
+
+  preloadedQuestionImages.add(
+    src
+  );
+}
+
+
+/* =========================================================
+   1問分の画像を探して先読み
+========================================================= */
+
+function preloadQuestionImages(
+  question
+) {
+
+  if (!question) {
+    return;
+  }
+
+
+  /* -----------------------------------------------------
+     money問題
+  ----------------------------------------------------- */
+
+  if (
+    Array.isArray(
+      question.items
+    )
+  ) {
+
+    question.items.forEach(
+      item => {
+
+        if (
+          item?.image
+        ) {
+
+          preloadQuestionImage(
+            item.image
+          );
+        }
+
+      }
+    );
+  }
+
+
+  /* -----------------------------------------------------
+     money-choiceなど
+     選択肢の中にもお金画像がある
+  ----------------------------------------------------- */
+
+  if (
+    Array.isArray(
+      question.choices
+    )
+  ) {
+
+    question.choices.forEach(
+      choice => {
+
+        if (
+          choice?.image
+        ) {
+
+          preloadQuestionImage(
+            choice.image
+          );
+        }
+
+
+        if (
+          Array.isArray(
+            choice?.moneyItems
+          )
+        ) {
+
+          choice.moneyItems.forEach(
+            item => {
+
+              if (
+                item?.image
+              ) {
+
+                preloadQuestionImage(
+                  item.image
+                );
+              }
+
+            }
+          );
+        }
+
+      }
+    );
+  }
+
+
+  /* -----------------------------------------------------
+     将来の問題画像にも対応
+  ----------------------------------------------------- */
+
+  [
+    question.image,
+    question.imageSrc,
+    question.iconImage
+  ].forEach(
+    src => {
+
+      if (
+        typeof src ===
+          "string"
+      ) {
+
+        preloadQuestionImage(
+          src
+        );
+      }
+
+    }
+  );
+}
+
+
+/* =========================================================
+   現在＋次の問題を先読み
+========================================================= */
+
+function preloadNearbyQuestions() {
+
+  preloadQuestionImages(
+    questions[
+      qi
+    ]
+  );
+
+
+  preloadQuestionImages(
+    questions[
+      qi + 1
+    ]
+  );
+
+
+  preloadQuestionImages(
+    questions[
+      qi + 2
+    ]
+  );
+}
+
+  function startQuestion() {
+
+  clearFlash();
+  clearFeedback();
+
+  answerFeedback =
+    null;
+
+
+  /*
+    現在の問題＋
+    次の2問の画像を先読み
+  */
+
+  preloadNearbyQuestions();
+
+
+  if (
+    !usesFlash(
+      currentStage
+    )
+  ) {
+
+    flashVisible =
+      true;
+
+    inputEnabled =
+      true;
+
+    render();
+
+    return;
+  }
+
+
+  flashVisible =
+    true;
+
+  inputEnabled =
+    false;
+
+
+  render();
+
+
+  flashTimer =
+    setTimeout(
+      () => {
+
+        flashVisible =
+          false;
+
+        inputEnabled =
+          true;
+
+        render();
+
+      },
+      flashDuration()
+    );
+}
 
   function clearFlash() {
     if (flashTimer) clearTimeout(flashTimer);
