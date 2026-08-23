@@ -462,6 +462,20 @@ if (a === "player-rename-submit") {
       10
     );
 
+    /*
+  ステージ開始前に
+  問題画像をまとめて先読み
+*/
+
+questions.forEach(
+  question => {
+
+    preloadQuestionImages(
+      question
+    );
+
+  }
+);
 
   qi = 0;
   input = "";
@@ -516,17 +530,40 @@ if (a === "player-rename-submit") {
 
 
   /* =====================================================
-     時計
-  ===================================================== */
+   時計入力
 
-  const isClockStage =
-    currentStage?.keypad === "clock" ||
+   Stageではなく
+   現在のQuestionを最優先する。
+
+   ボス戦で
+   ・通常時計 → clock
+   ・24時間表記 → number
+
+   を切り替えられるようにする。
+===================================================== */
+
+const activeKeypad =
+  question?.keypad
+  ??
+  currentStage?.keypad
+  ??
+  (
     currentStage?.type?.startsWith(
       "clock_"
-    );
+    )
+      ? "clock"
+      : "number"
+  );
 
 
-  if (isClockStage) {
+const isClockInputQuestion =
+  activeKeypad ===
+  "clock";
+
+
+if (
+  isClockInputQuestion
+) {
 
     if (
       value === "clear"
@@ -3722,24 +3759,51 @@ function renderFractionAnswerInput(
   `;
 }
 
- function formatInput(value) {
-  /*
-    朝・夜の24時間表記ステージ
-  */
+ function formatInput(
+  value
+) {
+
+  const question =
+    questions[
+      qi
+    ] ?? null;
+
+
+  /* =====================================================
+     24時間表記
+
+     通常ステージでも
+     ボス戦でも
+     question.mode で判定する
+  ===================================================== */
+
   if (
-    currentStage?.type ===
-    "clock_24h"
+    question?.mode ===
+    "24h"
   ) {
+
     const hour =
-      String(value ?? "");
+      String(
+        value ?? ""
+      );
+
 
     return `
-      <span class="clock-answer-value clock-24h-answer">
+      <span
+        class="
+          clock-answer-value
+          clock-24h-answer
+        "
+      >
+
         <span class="clock-answer-part">
+
           <strong>
             ${
               hour !== ""
-                ? escapeHtml(hour)
+                ? escapeHtml(
+                    hour
+                  )
                 : "ーー"
             }
           </strong>
@@ -3747,43 +3811,71 @@ function renderFractionAnswerInput(
           <small>
             じ
           </small>
+
         </span>
+
       </span>
     `;
   }
 
-  /*
-    通常の時計ステージ
-  */
-  const isClockStage =
-    currentStage?.keypad === "clock" ||
-    currentStage?.type?.startsWith(
-      "clock_"
-    );
 
-  if (isClockStage) {
+  /* =====================================================
+     通常時計
+
+     「○じ ○ふん」
+
+     ボス戦でも
+     question.kind / modeで判定
+  ===================================================== */
+
+  const isClockQuestion =
+    question?.kind ===
+      "clock"
+    &&
+    question?.mode !==
+      "24h";
+
+
+  if (
+    isClockQuestion
+  ) {
+
     const rawValue =
-      String(value ?? "");
+      String(
+        value ?? ""
+      );
+
 
     const [
       hour = "",
       minute = ""
     ] =
-      rawValue.split("|");
+      rawValue.split(
+        "|"
+      );
+
 
     const hourDisplay =
       hour !== ""
-        ? escapeHtml(hour)
+        ? escapeHtml(
+            hour
+          )
         : "ーー";
+
 
     const minuteDisplay =
       minute !== ""
-        ? escapeHtml(minute)
+        ? escapeHtml(
+            minute
+          )
         : "ーー";
+
 
     return `
       <span class="clock-answer-value">
+
         <span class="clock-answer-part">
+
           <strong>
             ${hourDisplay}
           </strong>
@@ -3791,9 +3883,12 @@ function renderFractionAnswerInput(
           <small>
             じ
           </small>
+
         </span>
 
+
         <span class="clock-answer-part">
+
           <strong>
             ${minuteDisplay}
           </strong>
@@ -3801,16 +3896,22 @@ function renderFractionAnswerInput(
           <small>
             ふん
           </small>
+
         </span>
+
       </span>
     `;
   }
 
-  /*
-    時計以外
-  */
+
+  /* =====================================================
+     時計以外
+  ===================================================== */
+
   return escapeHtml(
-    String(value)
+    String(
+      value
+    )
       .replaceAll(
         "morning",
         "☀ あさ "

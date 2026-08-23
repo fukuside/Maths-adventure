@@ -16451,3 +16451,287 @@ and (
 
   transform: none !important;
 }
+
+/* =========================================================
+   WORLD2 時刻
+   S4 分の読み方
+   S5/S6 時間の前後
+========================================================= */
+
+
+/* ---------------------------------------------------------
+   時計の問題文
+--------------------------------------------------------- */
+
+.clock-learning-prompt {
+  font-size:
+    clamp(
+      20px,
+      2vw,
+      28px
+    ) !important;
+
+  font-weight:
+    1000 !important;
+
+  line-height:
+    1.35 !important;
+}
+
+
+/* ---------------------------------------------------------
+   モード名
+--------------------------------------------------------- */
+
+.clock-mode-title {
+  margin-bottom:
+    6px;
+
+  color:
+    #fde68a;
+
+  font-size:
+    clamp(
+      14px,
+      1.3vw,
+      18px
+    );
+
+  font-weight:
+    1000;
+
+  text-align:
+    center;
+}
+
+
+/* ---------------------------------------------------------
+   ヒント
+--------------------------------------------------------- */
+
+.clock-learning-guide {
+  margin-top:
+    10px;
+
+  padding:
+    7px
+    10px;
+
+  border-radius:
+    10px;
+
+  background:
+    rgba(
+      15,
+      23,
+      42,
+      .55
+    );
+
+  color:
+    #fde68a;
+
+  font-size:
+    clamp(
+      13px,
+      1.25vw,
+      17px
+    );
+
+  font-weight:
+    900;
+
+  line-height:
+    1.35;
+
+  text-align:
+    center;
+}
+
+
+/* =========================================================
+   S4
+   分の読み方
+========================================================= */
+
+.clock-mode-minute-read
+.clock-learning-layout {
+  grid-template-columns:
+    minmax(
+      250px,
+      38%
+    )
+    minmax(
+      300px,
+      62%
+    );
+}
+
+
+.clock-mode-minute-read
+.clock-learning-clock {
+  overflow:
+    visible;
+}
+
+
+/* 時計を少し大きく */
+
+.clock-mode-minute-read
+.clock-learning-svg {
+  width:
+    min(
+      300px,
+      100%
+    ) !important;
+
+  height:
+    auto !important;
+}
+
+
+/* 分の読み方の補足 */
+
+.clock-minute-reading-tip {
+  margin-top:
+    5px;
+
+  display:
+    flex;
+
+  flex-direction:
+    column;
+
+  align-items:
+    center;
+
+  gap:
+    3px;
+
+  color:
+    #e0f2fe;
+
+  font-size:
+    clamp(
+      12px,
+      1.15vw,
+      15px
+    );
+
+  font-weight:
+    900;
+
+  line-height:
+    1.25;
+}
+
+
+.clock-minute-reading-tip
+strong {
+  color:
+    #7dd3fc;
+
+  font-size:
+    1.05em;
+}
+
+
+/* =========================================================
+   S5 / S6
+   文章題
+========================================================= */
+
+.clock-mode-elapsed
+.clock-learning-info {
+  padding:
+    5px
+    10px;
+
+  justify-content:
+    center;
+}
+
+
+.clock-mode-elapsed
+.clock-learning-prompt {
+  font-size:
+    clamp(
+      19px,
+      1.9vw,
+      26px
+    ) !important;
+
+  line-height:
+    1.38 !important;
+
+  text-align:
+    left !important;
+}
+
+
+/* 「いまのじこく」 */
+
+.clock-current-time-label {
+  margin-top:
+    3px;
+
+  color:
+    #fde68a;
+
+  font-size:
+    clamp(
+      12px,
+      1.15vw,
+      15px
+    );
+
+  font-weight:
+    900;
+}
+
+
+/* =========================================================
+   タブレット
+========================================================= */
+
+@media (
+  max-width: 1000px
+) {
+
+  .clock-mode-minute-read
+  .clock-learning-layout,
+
+  .clock-mode-elapsed
+  .clock-learning-layout {
+    grid-template-columns:
+      minmax(
+        210px,
+        40%
+      )
+      minmax(
+        260px,
+        60%
+      );
+  }
+
+
+  .clock-mode-elapsed
+  .clock-learning-prompt {
+    font-size:
+      clamp(
+        17px,
+        2.2vw,
+        22px
+      ) !important;
+  }
+
+
+  .clock-learning-guide {
+    font-size:
+      clamp(
+        12px,
+        1.6vw,
+        15px
+      );
+  }
+}
