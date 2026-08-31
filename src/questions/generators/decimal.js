@@ -1731,15 +1731,14 @@ function buildWord() {
 
 
     guide:
-      "しきから にゅうりょくしてね。",
+  "",
 
 
     icon:
       q.icon,
 
-
-    prompt:
-      q.text,
+prompt:
+  `${q.text}\nしきから にゅうりょくしよう。`,
 
 
     /*

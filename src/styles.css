@@ -4273,29 +4273,29 @@ img[src*="1000yen"],img[src*="5000yen"],img[src*="10000yen"] {
 .clock-learning-prompt {
   width: 100%;
   margin: 0;
-  padding: 0.75rem 0.9rem;
-  border: 2px solid rgba(
-      255,
-      255,
-      255,
-      0.32
-    );
-  border-radius: 0.95rem;
+
+  padding: 4px 12px;
+
+  border: 0;
+  border-radius: 0;
+
   color: #fffdf2;
-  background: rgba(
-      2,
-      6,
-      23,
-      0.24
-    );
+  background: transparent;
+
+  box-shadow: none;
+
   box-sizing: border-box;
+
   font-size: clamp(
       1rem,
       2.2vw,
       1.35rem
     );
+
   font-weight: 900;
+
   line-height: 1.4;
+
   text-align: center;
 }
 
@@ -16635,60 +16635,219 @@ strong {
     1.05em;
 }
 
+/* =========================================================
+   S5 / S6
+   問題カードの高さとゲーム側の行高さを一致
+========================================================= */
+
+.game-area:has(.clock-mode-elapsed) {
+  grid-template-rows:
+    auto
+    auto
+    280px
+    58px
+    minmax(190px, 1fr) !important;
+}
 
 /* =========================================================
    S5 / S6
-   文章題
+   今から○分後・今から○分前
+   文章題レイアウト
+========================================================= */
+
+/* S5/S6は問題カードの高さを少し確保する */
+.game-area >
+.question-card:has(.clock-mode-elapsed) {
+  min-height: 280px !important;
+  height: 280px !important;
+  max-height: 280px !important;
+
+  padding:
+    10px
+    18px !important;
+
+  overflow: hidden !important;
+}
+
+
+/* =========================================================
+   全体
+   左：問題文
+   右：時計
+========================================================= */
+
+.clock-mode-elapsed
+.clock-learning-layout {
+  width: 100%;
+  height: 100%;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(420px, 1.35fr)
+    minmax(260px, 0.65fr) !important;
+
+  align-items: center;
+
+  gap:
+    clamp(
+      22px,
+      3vw,
+      44px
+    );
+
+  padding:
+    0px
+    28px;
+
+  box-sizing: border-box;
+}
+
+/* =========================================================
+   S5 / S6
+   左側：見出し・本文・ヒント
 ========================================================= */
 
 .clock-mode-elapsed
 .clock-learning-info {
-  padding:
-    5px
-    10px;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
 
-  justify-content:
-    center;
+  padding: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: stretch;
+  justify-content: center;
+
+  gap: 10px;
+
+  box-sizing: border-box;
+}
+
+
+/* =========================================================
+   見出し
+========================================================= */
+
+.clock-mode-elapsed
+.clock-learning-title {
+  width: 100%;
+
+  margin: 0;
+  padding: 0;
+
+  background: none;
+  border: 0;
+  border-radius: 0;
+
+  color: #fde68a;
+
+  font-size:
+    clamp(
+      17px,
+      1.55vw,
+      21px
+    ) !important;
+
+  font-weight: 1000;
+
+  line-height: 1.25;
+
+  letter-spacing: 0.04em;
+
+  text-align: center;
 }
 
 
 .clock-mode-elapsed
+.clock-learning-title strong {
+  font-size: inherit !important;
+  font-weight: 1000;
+}
+
+
+/* =========================================================
+   問題文
+   枠なし・カード中央配置
+========================================================= */
+
+.clock-mode-elapsed
 .clock-learning-prompt {
+  width: 100%;
+
+  margin: 0;
+  padding: 4px 12px !important;
+
+  display: block;
+
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  color: #fffdf2;
+
   font-size:
     clamp(
-      19px,
-      1.9vw,
-      26px
+      22px,
+      2.1vw,
+      29px
     ) !important;
 
+  font-weight: 900;
+
   line-height:
-    1.38 !important;
+    1.5 !important;
+
+  letter-spacing:
+    0.035em;
 
   text-align:
     left !important;
+
+  white-space: pre-line;
+
+  box-sizing: border-box;
 }
 
 
-/* 「いまのじこく」 */
+/* =========================================================
+   ヒント
+========================================================= */
 
-.clock-current-time-label {
-  margin-top:
-    3px;
+.clock-mode-elapsed
+.clock-learning-guide {
+  width: 100%;
 
-  color:
-    #fde68a;
+  margin: 0;
+  padding: 4px 8px;
+
+  border: 0 !important;
+  border-radius: 0 !important;
+
+  background: transparent !important;
+
+  color: #fde68a;
 
   font-size:
     clamp(
-      12px,
-      1.15vw,
-      15px
-    );
+      13px,
+      1.2vw,
+      16px
+    ) !important;
 
-  font-weight:
-    900;
+  font-weight: 900;
+
+  line-height: 1.35;
+
+  text-align: center;
 }
-
 
 /* =========================================================
    タブレット
@@ -16699,21 +16858,17 @@ strong {
 ) {
 
   .clock-mode-minute-read
-  .clock-learning-layout,
-
-  .clock-mode-elapsed
-  .clock-learning-layout {
-    grid-template-columns:
-      minmax(
-        210px,
-        40%
-      )
-      minmax(
-        260px,
-        60%
-      );
-  }
-
+.clock-learning-layout {
+  grid-template-columns:
+    minmax(
+      210px,
+      40%
+    )
+    minmax(
+      260px,
+      60%
+    );
+}
 
   .clock-mode-elapsed
   .clock-learning-prompt {
@@ -16734,4 +16889,845 @@ strong {
         15px
       );
   }
+}
+
+/* =========================================================
+   保護者向け学習レポート
+   通知方法カード
+========================================================= */
+
+.parent-report-option-title {
+  margin-top: 22px;
+  margin-bottom: 10px;
+
+  font-size: 14px;
+  font-weight: 800;
+
+  color: var(--text, #f3f6fb);
+}
+
+
+.parent-report-options {
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+
+/* =========================================================
+   1項目
+========================================================= */
+
+.parent-report-option-card {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns:
+    28px
+    48px
+    minmax(0, 1fr)
+    auto;
+
+  align-items: center;
+
+  gap: 12px;
+
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 15px 16px;
+
+  border:
+    1px solid
+    rgba(148, 163, 184, 0.22);
+
+  border-radius: 14px;
+
+  background:
+    rgba(255, 255, 255, 0.035);
+
+  cursor: pointer;
+
+  transition:
+    border-color 0.18s ease,
+    background 0.18s ease,
+    transform 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+
+.parent-report-option-card:hover {
+  border-color:
+    rgba(45, 212, 191, 0.48);
+
+  background:
+    rgba(45, 212, 191, 0.05);
+}
+
+
+/* =========================================================
+   選択中
+========================================================= */
+
+.parent-report-option-card.selected {
+  border-color: #2dd4bf;
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(45, 212, 191, 0.10),
+      rgba(56, 189, 248, 0.055)
+    );
+
+  box-shadow:
+    0 0 0 1px
+    rgba(45, 212, 191, 0.08);
+}
+
+
+/* =========================================================
+   本物のradioは非表示
+========================================================= */
+
+.parent-report-option-card
+input[type="radio"] {
+  position: absolute;
+
+  opacity: 0;
+
+  pointer-events: none;
+}
+
+
+/* =========================================================
+   丸い選択マーク
+========================================================= */
+
+.parent-report-radio-mark {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 22px;
+  height: 22px;
+
+  border:
+    2px solid
+    rgba(203, 213, 225, 0.42);
+
+  border-radius: 50%;
+
+  box-sizing: border-box;
+}
+
+
+.parent-report-option-card.selected
+.parent-report-radio-mark {
+  border-color: #2dd4bf;
+}
+
+
+.parent-report-option-card.selected
+.parent-report-radio-mark::after {
+  content: "";
+
+  display: block;
+
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background: #2dd4bf;
+
+  box-shadow:
+    0 0 10px
+    rgba(45, 212, 191, 0.55);
+}
+
+
+/* =========================================================
+   アイコン
+========================================================= */
+
+.parent-report-option-icon {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 46px;
+  height: 46px;
+
+  border-radius: 12px;
+
+  background:
+    rgba(255, 255, 255, 0.07);
+
+  font-size: 24px;
+}
+
+
+/* =========================================================
+   中央の文章
+========================================================= */
+
+.parent-report-option-content {
+  display: flex;
+
+  flex-direction: column;
+
+  min-width: 0;
+
+  gap: 5px;
+}
+
+
+.parent-report-option-heading {
+  display: flex;
+
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  gap: 8px;
+}
+
+
+.parent-report-option-heading strong {
+  font-size: 15px;
+
+  line-height: 1.4;
+
+  color: var(--text, #f4f7fb);
+}
+
+
+.parent-report-option-content small {
+  display: block;
+
+  font-size: 12px;
+
+  line-height: 1.65;
+
+  color:
+    rgba(203, 213, 225, 0.72);
+}
+
+
+/* =========================================================
+   おすすめ
+========================================================= */
+
+.parent-report-recommend {
+  display: inline-flex;
+
+  align-items: center;
+
+  padding: 3px 8px;
+
+  border-radius: 7px;
+
+  background:
+    rgba(45, 212, 191, 0.16);
+
+  color: #5eead4;
+
+  font-size: 11px;
+
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   右側バッジ
+========================================================= */
+
+.parent-report-option-badge {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  white-space: nowrap;
+
+  padding: 6px 9px;
+
+  border-radius: 8px;
+
+  background:
+    rgba(56, 189, 248, 0.10);
+
+  color: #67e8f9;
+
+  font-size: 11px;
+
+  font-weight: 800;
+}
+
+
+/* =========================================================
+   スマホ・iPad縦
+========================================================= */
+
+@media (
+  max-width: 650px
+) {
+
+  .parent-report-option-card {
+    grid-template-columns:
+      24px
+      42px
+      minmax(0, 1fr);
+
+    padding:
+      14px
+      12px;
+
+    gap: 10px;
+  }
+
+
+  .parent-report-option-icon {
+    width: 40px;
+    height: 40px;
+
+    font-size: 21px;
+  }
+
+
+  .parent-report-option-badge {
+    grid-column:
+      3;
+
+    justify-self:
+      start;
+
+    margin-top:
+      2px;
+  }
+
+
+  .parent-report-option-heading strong {
+    font-size:
+      14px;
+  }
+
+
+  .parent-report-option-content small {
+    font-size:
+      11px;
+  }
+
+}
+
+/* =========================================================
+   Maths-Adventure
+   問題カード共通レイアウト整理ブロック
+   2026-08-31
+
+   目的
+   ・文章題のレイアウトを四則＋小数で共通化
+   ・「しきから にゅうりょくしてね。」を問題直上に配置
+   ・フラッシュ掛け算／割り算を完全中央配置
+   ・旧3段レイアウト（タイトル／問題／下ガイド）を文章題・フラッシュから排除
+
+   注意
+   ・保護者向け学習レポートCSSには触れない
+   ・このブロックは、既存の文章題FINAL系・FLASH QUESTION系を整理置換するためのもの
+========================================================= */
+
+/* =========================================================
+   01. フラッシュ問題 共通
+========================================================= */
+
+.question-card.flash-card,
+.question-card:has(.multiply-flash-text),
+.question-card:has(.division-flash-text),
+.question-card:has(.addition-flash-text),
+.question-card:has(.subtraction-flash-text) {
+  position: relative;
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+  padding: 8px 18px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.question-card.flash-card > div,
+.question-card:has(.multiply-flash-text) > div,
+.question-card:has(.division-flash-text) > div,
+.question-card:has(.addition-flash-text) > div,
+.question-card:has(.subtraction-flash-text) > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.question-card.flash-card .question,
+.question-card:has(.multiply-flash-text) .question,
+.question-card:has(.division-flash-text) .question,
+.question-card:has(.addition-flash-text) .question,
+.question-card:has(.subtraction-flash-text) .question {
+  width: 100%;
+  height: 100%;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  overflow: visible;
+}
+
+.multiply-flash-text,
+.division-flash-text,
+.addition-flash-text,
+.subtraction-flash-text {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fffdf2;
+  font-size: clamp(60px, 6.3vw, 86px);
+  font-weight: 1000;
+  line-height: 1;
+  text-align: center;
+  transform: none;
+}
+
+.question-card.flash-card .text-question {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  color: inherit;
+  font: inherit;
+  line-height: inherit;
+  text-align: center;
+  visibility: visible;
+  opacity: 1;
+}
+
+.question-card.flash-card.hidden-question .question {
+  color: #fffdf2;
+}
+
+/* =========================================================
+   02. 文章題 共通カード
+========================================================= */
+
+.question-card:has(.word-problem-shell),
+.question-card:has(.addition-word-layout),
+.question-card:has(.subtraction-word-layout),
+.question-card:has(.multiplication-word-layout),
+.question-card:has(.division-word-layout),
+.question-card:has(.decimal-word-layout),
+.question-card:has(.addition-word-text),
+.question-card:has(.subtraction-word-text),
+.question-card:has(.multiply-word-text),
+.question-card:has(.multiplication-word-text),
+.question-card:has(.division-word-text),
+.question-card:has(.decimal-word-text) {
+  height: 220px;
+  min-height: 220px;
+  max-height: 220px;
+  padding: 8px 18px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* 旧「タイトル／本文／下ガイド」の3段固定を解除 */
+.question-card:has(.word-problem-shell) > div,
+.question-card:has(.addition-word-layout) > div,
+.question-card:has(.subtraction-word-layout) > div,
+.question-card:has(.multiplication-word-layout) > div,
+.question-card:has(.division-word-layout) > div,
+.question-card:has(.decimal-word-layout) > div,
+.question-card:has(.addition-word-text) > div,
+.question-card:has(.subtraction-word-text) > div,
+.question-card:has(.multiply-word-text) > div,
+.question-card:has(.multiplication-word-text) > div,
+.question-card:has(.division-word-text) > div,
+.question-card:has(.decimal-word-text) > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.question-card:has(.word-problem-shell) .question,
+.question-card:has(.addition-word-layout) .question,
+.question-card:has(.subtraction-word-layout) .question,
+.question-card:has(.multiplication-word-layout) .question,
+.question-card:has(.division-word-layout) .question,
+.question-card:has(.decimal-word-layout) .question,
+.question-card:has(.addition-word-text) .question,
+.question-card:has(.subtraction-word-text) .question,
+.question-card:has(.multiply-word-text) .question,
+.question-card:has(.multiplication-word-text) .question,
+.question-card:has(.division-word-text) .question,
+.question-card:has(.decimal-word-text) .question {
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* =========================================================
+   03. 文章題シェル
+========================================================= */
+
+.word-problem-shell {
+  width: min(100%, 1040px);
+  height: 100%;
+  margin: 0 auto;
+  padding: 4px 6px;
+  display: grid;
+
+grid-template-rows:
+  minmax(0, 1fr);
+
+align-items: center;
+  gap: 4px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* 「しきから にゅうりょくしてね。」は問題の直上 */
+.word-problem-top-guide {
+  display: none !important;
+}
+
+/* app.js側の旧共通下ガイドが残っていても文章題では表示しない */
+.question-card:has(.word-problem-shell) > div > .flash-guide,
+.question-card:has(.addition-word-layout) > div > .flash-guide,
+.question-card:has(.subtraction-word-layout) > div > .flash-guide,
+.question-card:has(.multiplication-word-layout) > div > .flash-guide,
+.question-card:has(.division-word-layout) > div > .flash-guide,
+.question-card:has(.decimal-word-layout) > div > .flash-guide {
+  display: none;
+}
+
+/* =========================================================
+   04. 文章題 左右レイアウト
+========================================================= */
+
+.addition-word-layout,
+.subtraction-word-layout,
+.multiplication-word-layout,
+.division-word-layout,
+.decimal-word-layout {
+  width: 100%;
+  max-width: 1040px;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  margin: 0 auto;
+  padding: 0 8px;
+
+  display: grid;
+
+  grid-template-columns:
+    minmax(135px, 24%)
+    minmax(0, 76%);
+
+  gap: 24px;
+
+  align-items: center;
+  align-self: center;
+
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.addition-word-visual-side,
+.subtraction-word-visual-side,
+.multiplication-word-visual-side,
+.division-word-visual-side,
+.decimal-word-visual-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  justify-content: center;
+
+  align-self: center;
+
+  overflow: hidden;
+}
+
+.addition-word-text-side,
+.subtraction-word-text-side,
+.multiplication-word-text-side,
+.division-word-text-side,
+.decimal-word-text-side {
+  width: 100%;
+  height: 100%;
+
+  min-width: 0;
+  min-height: 0;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: flex-start;
+
+  align-self: center;
+
+  overflow: visible;
+}
+
+/* =========================================================
+   05. 文章題 左側イラスト／式
+========================================================= */
+
+.addition-word-icon,
+.subtraction-word-icon,
+.multiplication-word-icon,
+.division-word-icon,
+.decimal-word-icon,
+.word-operation-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-size: clamp(58px, 6.2vw, 90px);
+  line-height: 1;
+}
+
+.word-operation-equation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: #fffdf2;
+  font-size: clamp(30px, 3vw, 44px);
+  font-weight: 1000;
+  line-height: 1;
+}
+
+.word-operation-symbol {
+  color: #fde68a;
+  font-weight: 1000;
+}
+
+/* =========================================================
+   06. 文章題 本文
+========================================================= */
+
+.addition-word-text,
+.subtraction-word-text,
+.multiply-word-text,
+.multiplication-word-text,
+.division-word-text,
+.decimal-word-text {
+  width: 100%;
+  max-width: 100%;
+
+  height: auto;
+  max-height: none;
+
+  margin: 0;
+  padding: 0;
+
+  color: #fffdf2;
+
+  font-size:
+    clamp(
+      26px,
+      2.5vw,
+      35px
+    );
+
+  font-weight: 900;
+
+  line-height: 1.48;
+
+  letter-spacing: 0.045em;
+
+  text-align: left;
+
+  white-space: pre-line;
+
+  word-break: normal;
+  overflow-wrap: break-word;
+
+  overflow: visible;
+
+  transform: none;
+}
+
+/* イラストなしの旧文章題も横幅を広く使う */
+.question-card:has(.addition-word-text) .addition-word-text,
+.question-card:has(.multiply-word-text) .multiply-word-text,
+.question-card:has(.subtraction-word-text) .subtraction-word-text {
+  width: min(100%, 980px);
+  margin: 0 auto;
+  text-align: left;
+}
+
+/* =========================================================
+   07. タブレット
+========================================================= */
+
+@media (max-width: 1100px) {
+  .word-problem-shell {
+    width: 100%;
+    padding-inline: 2px;
+  }
+
+  .addition-word-layout,
+  .subtraction-word-layout,
+  .multiplication-word-layout,
+  .division-word-layout,
+  .decimal-word-layout {
+    grid-template-columns: minmax(135px, 28%) minmax(0, 72%);
+    gap: 16px;
+    padding: 0 5px;
+  }
+
+  .word-problem-top-guide {
+    font-size: clamp(17px, 2vw, 22px);
+  }
+
+  .addition-word-text,
+.subtraction-word-text,
+.multiply-word-text,
+.multiplication-word-text,
+.division-word-text,
+.decimal-word-text {
+  font-size:
+    clamp(
+      23px,
+      2.45vw,
+      31px
+    );
+
+  line-height: 1.46;
+
+  letter-spacing: 0.04em;
+}
+}
+
+/* =========================================================
+   08. スマホ
+========================================================= */
+
+@media (max-width: 760px) {
+  .question-card.flash-card,
+  .question-card:has(.multiply-flash-text),
+  .question-card:has(.division-flash-text),
+  .question-card:has(.addition-flash-text),
+  .question-card:has(.subtraction-flash-text),
+  .question-card:has(.word-problem-shell),
+  .question-card:has(.addition-word-layout),
+  .question-card:has(.subtraction-word-layout),
+  .question-card:has(.multiplication-word-layout),
+  .question-card:has(.division-word-layout),
+  .question-card:has(.decimal-word-layout),
+  .question-card:has(.addition-word-text),
+  .question-card:has(.subtraction-word-text),
+  .question-card:has(.multiply-word-text),
+  .question-card:has(.multiplication-word-text),
+  .question-card:has(.division-word-text),
+  .question-card:has(.decimal-word-text) {
+    height: 250px;
+    min-height: 250px;
+    max-height: 250px;
+    padding: 7px 8px;
+  }
+
+  .multiply-flash-text,
+  .division-flash-text,
+  .addition-flash-text,
+  .subtraction-flash-text {
+    font-size: clamp(48px, 12vw, 70px);
+  }
+
+  .word-problem-shell {
+    width: 100%;
+    padding: 3px 0;
+    gap: 3px;
+  }
+
+  .word-problem-top-guide {
+    padding: 0 4px;
+    font-size: clamp(15px, 4vw, 19px);
+  }
+
+  .addition-word-layout,
+  .subtraction-word-layout,
+  .multiplication-word-layout,
+  .division-word-layout,
+  .decimal-word-layout {
+    grid-template-columns: minmax(88px, 27%) minmax(0, 73%);
+    gap: 7px;
+    padding: 0 2px;
+  }
+
+  .addition-word-icon,
+  .subtraction-word-icon,
+  .multiplication-word-icon,
+  .division-word-icon,
+  .decimal-word-icon,
+  .word-operation-icon {
+    font-size: clamp(40px, 10vw, 58px);
+  }
+
+  .word-operation-equation {
+    gap: 5px;
+    font-size: clamp(23px, 6vw, 32px);
+  }
+
+  .addition-word-text,
+.subtraction-word-text,
+.multiply-word-text,
+.multiplication-word-text,
+.division-word-text,
+.decimal-word-text {
+  font-size:
+    clamp(
+      18px,
+      4.2vw,
+      23px
+    );
+
+  line-height: 1.44;
+
+  letter-spacing: 0.035em;
+}
 }

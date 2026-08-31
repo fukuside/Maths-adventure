@@ -275,7 +275,7 @@ function buildWordQuestion() {
 
 
   guide:
-    "しきから にゅうりょくしてね。",
+  "",
 
 
   icon:
@@ -286,10 +286,8 @@ function buildWordQuestion() {
 
   groups,
 
-
   prompt:
-    selected.text,
-
+  `${selected.text}\nしきから にゅうりょくしよう。`,
 
   answer:
     each *

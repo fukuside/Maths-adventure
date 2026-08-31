@@ -546,7 +546,7 @@ function buildAdditionWord() {
 
 
   guide:
-    "しきから にゅうりょくしてね。",
+  "",
 
 
   scene:
@@ -564,7 +564,7 @@ function buildAdditionWord() {
 
 
   prompt:
-    q.prompt,
+  `${q.prompt}\nしきから にゅうりょくしよう。`,
 
 
   answer:
@@ -1258,7 +1258,7 @@ function buildSubtractionWord() {
 
 
   guide:
-    "しきから にゅうりょくしてね。",
+  "",
 
 
   scene:
@@ -1280,7 +1280,7 @@ function buildSubtractionWord() {
 
 
   prompt:
-    q.text,
+  `${q.text}\nしきから にゅうりょくしよう。`,
 
 
   answer:

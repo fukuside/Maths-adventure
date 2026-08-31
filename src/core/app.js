@@ -17,7 +17,16 @@ import {
   renameActivePlayer,
   importTransferredPlayer
 } from "./storage.js";
-import { consumeTransferCode, createTransferCode, isFirebaseConfigured } from "./firebase.js";
+import {
+  consumeTransferCode,
+  createTransferCode,
+  isFirebaseConfigured,
+  recordLearningResult,
+  loadParentReportSettings,
+  saveParentReportSettings,
+  updateLearningReportSchedule,
+  requestParentEmailVerification,
+} from "./firebase.js";
 
 const rarityRows = [["UR", 0.08, 1.7], ["SR", 0.32, 1.3], ["N", 0.60, 1]];
 
@@ -42,7 +51,7 @@ export function createApp(root) {
   let sync = "local", msg = "", err = "";
   let transferCode = "";
 
-  let lives = 2;
+  let lives = 3;
   let gameOver = false;
   let wrongMessage = "";
 
@@ -58,8 +67,431 @@ export function createApp(root) {
 
   let titleBgmPlaying = false;
 
-  let playerMessage = "";
+    let playerMessage = "";
   let playerError = "";
+
+    /* =========================================================
+     保護者向け学習レポート設定
+  ========================================================= */
+
+  let parentReportSettings = {
+
+    email: "",
+
+    reportMode:
+      "weekly",
+
+    emailVerified:
+      false
+  };
+
+
+  let parentReportMessage =
+    "";
+
+
+  let parentReportError =
+    "";
+
+      async function loadCurrentParentReportSettings() {
+
+    const activePlayer =
+      getActivePlayer();
+
+
+    if (
+      !activePlayer?.playerId
+    ) {
+
+      parentReportSettings = {
+
+        email: "",
+
+        reportMode:
+          "weekly",
+
+        emailVerified:
+          false
+      };
+
+
+      return;
+    }
+
+
+    try {
+
+      parentReportSettings =
+        await loadParentReportSettings(
+          activePlayer.playerId
+        );
+
+
+      parentReportError =
+        "";
+
+    } catch (error) {
+
+      console.error(
+        "保護者向けレポート設定を読み込めませんでした。",
+        error
+      );
+
+
+      parentReportError =
+        "学習レポート設定を読み込めませんでした。";
+    }
+  }
+
+
+  /* =========================================================
+     学習レポート：初期テスト用
+
+     まずは最初の通常ステージ1つだけで
+     Firestore保存テストをする
+  ========================================================= */
+
+  let learningSessionStartedAt =
+    null;
+
+  /*
+   * このセッションで
+   * 一度でも回答した問題番号
+   */
+
+  let learningAttemptedQuestions =
+    new Set();
+
+
+  /*
+   * 最初の回答で正解した問題番号
+   */
+
+  let learningFirstAttemptCorrectQuestions =
+    new Set();
+
+
+  let learningSessionSaved =
+    false;
+
+    function resetLearningSession() {
+
+    learningSessionStartedAt =
+      Date.now();
+
+
+    learningAttemptedQuestions =
+      new Set();
+
+
+    learningFirstAttemptCorrectQuestions =
+      new Set();
+
+
+    learningSessionSaved =
+      false;
+  }
+
+     function shouldRecordLearning() {
+
+    /*
+     * 通常ステージ・ボス戦
+     * すべて学習記録対象
+     */
+
+    return Boolean(
+      currentStage?.id
+    );
+  }
+
+
+  /* =========================================================
+     保護者向け学習レポート表示名
+
+     通常ステージ：
+       引き算：フラッシュ引き算
+       時計：分の読み方
+
+     ボス戦：
+       WORLD1：ボス戦
+       WORLD2：ボス戦
+  ========================================================= */
+
+  function buildLearningUnitName(stage) {
+
+    if (!stage) {
+      return "";
+    }
+
+
+    /*
+     * ボス戦
+     */
+
+    if (stage.isBoss) {
+
+      return `WORLD${stage.world}：ボス戦`;
+    }
+
+
+    /*
+     * 通常ステージ
+     */
+
+    const unitLabel =
+      String(
+        stage.unitLabel ??
+        stage.unit ??
+        ""
+      ).trim();
+
+
+    const stageName =
+      String(
+        stage.name ??
+        ""
+      ).trim();
+
+
+    /*
+     * 単元名とステージ名が両方ある場合
+     */
+
+    if (
+      unitLabel &&
+      stageName &&
+      unitLabel !== stageName
+    ) {
+
+      return `${unitLabel}：${stageName}`;
+    }
+
+
+    /*
+     * 片方だけの場合
+     */
+
+    return (
+      stageName ||
+      unitLabel ||
+      `WORLD${stage.world}`
+    );
+  }
+
+    /* =========================================================
+     この問題が
+     「最初の回答」かどうかを判定
+
+     true
+       → この問題への最初の回答
+
+     false
+       → 一度間違えた後の再回答
+  ========================================================= */
+
+  function markLearningQuestionAttempted() {
+
+    if (
+      !shouldRecordLearning()
+    ) {
+      return false;
+    }
+
+
+    const isFirstAttempt =
+      !learningAttemptedQuestions.has(
+        qi
+      );
+
+
+    learningAttemptedQuestions.add(
+      qi
+    );
+
+
+    return isFirstAttempt;
+  }
+
+     /* =========================================================
+     最初の回答で正解した問題を記録
+  ========================================================= */
+
+  function markLearningQuestionCorrect(
+    isFirstAttempt
+  ) {
+
+    if (
+      !shouldRecordLearning() ||
+      !isFirstAttempt
+    ) {
+      return;
+    }
+
+
+    learningFirstAttemptCorrectQuestions.add(
+      qi
+    );
+  }
+
+    async function saveLearningSession() {
+
+    console.log(
+      "学習記録：保存処理を開始",
+      {
+        stageId:
+          currentStage?.id,
+
+        stageName:
+          currentStage?.name,
+
+        isBoss:
+          currentStage?.isBoss,
+
+        startedAt:
+          learningSessionStartedAt,
+
+        attemptedQuestions:
+          learningAttemptedQuestions.size,
+
+        firstAttemptCorrectAnswers:
+          learningFirstAttemptCorrectQuestions.size
+      }
+    );
+
+
+    if (
+      !shouldRecordLearning() ||
+      learningSessionSaved ||
+      !learningSessionStartedAt
+    ) {
+
+      console.log(
+        "学習記録：保存対象外",
+        {
+          shouldRecordLearning:
+            shouldRecordLearning(),
+
+          learningSessionSaved,
+
+          learningSessionStartedAt
+        }
+      );
+
+      return;
+    }
+
+    const activePlayer =
+      getActivePlayer();
+
+
+    if (
+      !activePlayer?.playerId
+    ) {
+
+      console.warn(
+        "学習記録：アクティブプレイヤーが見つかりません。"
+      );
+
+      return;
+    }
+
+
+    const studySeconds =
+      Math.max(
+        1,
+        Math.floor(
+          (
+            Date.now() -
+            learningSessionStartedAt
+          ) / 1000
+        )
+      );
+
+
+    const totalQuestions =
+      learningAttemptedQuestions.size;
+
+
+    const firstAttemptCorrectAnswers =
+      learningFirstAttemptCorrectQuestions.size;
+
+
+    if (
+      totalQuestions <= 0
+    ) {
+      return;
+    }
+
+
+    learningSessionSaved =
+      true;
+
+
+    try {
+
+            const learningLabel =
+        buildLearningUnitName(
+          currentStage
+        );
+
+
+      await recordLearningResult({
+
+        playerId:
+          activePlayer.playerId,
+
+        studySeconds,
+
+        totalQuestions,
+
+        firstAttemptCorrectAnswers,
+
+        unitName:
+          learningLabel,
+
+        stageId:
+          currentStage?.id ??
+          "",
+
+        stageLabel:
+          learningLabel
+      });
+
+            /*
+       * 学習が終わった時点でも
+       * 15分後へ送信予定を更新
+       */
+
+      await updateLearningReportSchedule(
+        activePlayer.playerId
+      );
+
+            console.log(
+        "学習記録 保存完了",
+        {
+          stageId:
+            currentStage?.id,
+
+          studySeconds,
+
+          totalQuestions,
+
+          firstAttemptCorrectAnswers
+        }
+      );
+
+    } catch (error) {
+
+      learningSessionSaved =
+        false;
+
+
+            console.error(
+        "学習記録の保存に失敗しました。",
+        error
+      );
+    }
+  }
 
 
   /* =========================================================
@@ -442,7 +874,39 @@ if (a === "player-rename-submit") {
 ) {
   return;
 }
-    if (a === "go") { clearQuestionTimers(); screen = t.dataset.screen; render(); return; }
+    if (
+  a === "go"
+) {
+
+  clearQuestionTimers();
+
+
+  const nextScreen =
+    t.dataset.screen;
+
+
+  /*
+   * 引っ越し・設定画面を開くとき
+   * 保護者レポート設定も読み込む
+   */
+
+  if (
+    nextScreen ===
+    "sync"
+  ) {
+
+    await loadCurrentParentReportSettings();
+  }
+
+
+  screen =
+    nextScreen;
+
+
+  render();
+
+  return;
+}
     if (a === "world") { worldId = Number(t.dataset.world); screen = "world"; render(); return; }
     if (a === "stage") {
 
@@ -490,14 +954,39 @@ questions.forEach(
 
   chestOpened = false;
 
-  lives = 2;
+  lives = 3;
   gameOver = false;
 
   wrongMessage = "";
   answerFeedback = null;
 
-  partnerMood = "start";
+    partnerMood = "start";
 
+
+  /*
+   * 学習レポート用
+   * ステージ開始時に計測開始
+   */
+
+  resetLearningSession();
+
+    /*
+   * 保護者向け学習レポート
+   * 学習開始時に送信予定を15分後へ更新
+   */
+
+  const activeLearningPlayer =
+    getActivePlayer();
+
+
+  if (
+    activeLearningPlayer?.playerId
+  ) {
+
+    void updateLearningReportSchedule(
+      activeLearningPlayer.playerId
+    );
+  }
 
   /*
    * タイトルBGMを
@@ -968,6 +1457,14 @@ if (
       if (!inputEnabled || input === "") return;
       const question = questions[qi];
 
+            /*
+       * この問題への
+       * 最初の回答かどうか
+       */
+
+      const isFirstLearningAttempt =
+        markLearningQuestionAttempted();
+
 const isChoiceAnswer =
   typeof question?.answer ===
     "string"
@@ -989,6 +1486,77 @@ const isExpressionAnswer =
   &&
   question?.expression;
 
+/* =========================================================
+   保護者向け学習レポート表示名
+========================================================= */
+
+function buildLearningUnitName(
+  stage
+) {
+
+  if (
+    !stage
+  ) {
+    return "";
+  }
+
+
+  /* =====================================================
+     ボス戦
+
+     WORLD1：ボス戦
+     WORLD2：ボス戦
+  ===================================================== */
+
+  if (
+    stage.isBoss
+  ) {
+
+    return (
+      `WORLD${stage.world}：ボス戦`
+    );
+  }
+
+
+  /* =====================================================
+     通常ステージ
+  ===================================================== */
+
+  const unitLabel =
+    String(
+      stage.unitLabel ??
+      stage.unit ??
+      ""
+    )
+      .trim();
+
+
+  const stageName =
+    String(
+      stage.name ??
+      ""
+    )
+      .trim();
+
+
+  if (
+    unitLabel &&
+    stageName &&
+    unitLabel !== stageName
+  ) {
+
+    return (
+      `${unitLabel}：${stageName}`
+    );
+  }
+
+
+  return (
+    stageName ||
+    unitLabel ||
+    `WORLD${stage.world}`
+  );
+}
 
 /* =========================================================
    正誤判定
@@ -1031,6 +1599,16 @@ const isCorrect =
           ) < 1e-9;
 
 if (isCorrect) {
+
+        /*
+         * 学習レポート用
+         * 正解した問題数 +1
+         */
+
+        markLearningQuestionCorrect(
+          isFirstLearningAttempt
+        );
+
         input = "";
         inputEnabled = false;
         wrongMessage = "";
@@ -1059,12 +1637,20 @@ if (isCorrect) {
           wrongMessage = "バリアが ひとつ こわれた！ もういちど やってみよう。";
           partnerMood = "encourage";
           startQuestion();
-        } else {
+                } else {
           gameOver = true;
           inputEnabled = false;
           flashVisible = false;
           clearQuestionTimers();
           wrongMessage = "";
+
+          /*
+           * 学習レポート用
+           * ゲームオーバーでも途中結果を保存
+           */
+
+          void saveLearningSession();
+
           render();
         }
       }
@@ -1106,7 +1692,33 @@ if (isCorrect) {
   return;
 }
 
-    if (a === "retry-stage") { questions = generateQuestions(currentStage, 10); qi = 0; input = ""; lives = 2; gameOver = false; wrongMessage = ""; answerFeedback = null; startQuestion(); return; }
+        if (a === "retry-stage") {
+
+      questions =
+        generateQuestions(
+          currentStage,
+          10
+        );
+
+      qi = 0;
+      input = "";
+      lives = 3;
+      gameOver = false;
+      wrongMessage = "";
+      answerFeedback = null;
+
+
+      /*
+       * 再挑戦は新しい学習セッションとして計測
+       */
+
+      resetLearningSession();
+
+
+      startQuestion();
+
+      return;
+    }
     if (a === "zoom-card") { zoom = { card: getCard(t.dataset.cardId), rarity: t.dataset.rarity }; render(); return; }
     if (a === "close-zoom") { zoom = null; render(); return; }
     if (
@@ -1151,6 +1763,217 @@ if (isCorrect) {
       render();
       return;
     }
+
+    if (
+  a ===
+  "parent-report-save"
+) {
+
+  const activePlayer =
+    getActivePlayer();
+
+
+  if (
+    !activePlayer?.playerId
+  ) {
+
+    parentReportError =
+      "先にプレイヤーを選んでください。";
+
+
+    parentReportMessage =
+      "";
+
+
+    render();
+
+    return;
+  }
+
+
+  const email =
+    root.querySelector(
+      "[data-parent-report-email]"
+    )
+      ?.value
+      ?.trim()
+      ?? "";
+
+
+  const reportMode =
+    root.querySelector(
+      'input[name="parent-report-mode"]:checked'
+    )
+      ?.value
+      ?? "weekly";
+
+
+  try {
+
+    parentReportSettings =
+      await saveParentReportSettings({
+
+        playerId:
+          activePlayer.playerId,
+
+        email,
+
+        reportMode
+      });
+
+
+    parentReportMessage =
+      "学習レポートの設定を保存しました。";
+
+
+    parentReportError =
+      "";
+
+
+  } catch (error) {
+
+    parentReportMessage =
+      "";
+
+
+    parentReportError =
+      error?.message ??
+      "設定を保存できませんでした。";
+  }
+
+
+  render();
+
+  return;
+}
+
+/* =========================================================
+   保護者メールアドレス確認メール
+========================================================= */
+
+if (
+  a ===
+  "parent-report-verify"
+) {
+
+  const activePlayer =
+    getActivePlayer();
+
+
+  if (
+    !activePlayer?.playerId
+  ) {
+
+    parentReportMessage =
+      "";
+
+    parentReportError =
+      "先にプレイヤーを選んでください。";
+
+    render();
+
+    return;
+  }
+
+
+  const email =
+    String(
+      parentReportSettings.email ??
+      ""
+    )
+      .trim();
+
+
+  if (
+    !email
+  ) {
+
+    parentReportMessage =
+      "";
+
+    parentReportError =
+      "先にメールアドレスを保存してください。";
+
+    render();
+
+    return;
+  }
+
+
+  parentReportMessage =
+    "確認メールを送信しています…";
+
+
+  parentReportError =
+    "";
+
+
+  render();
+
+
+  try {
+
+    const result =
+      await requestParentEmailVerification({
+
+        playerId:
+          activePlayer.playerId,
+
+        email
+      });
+
+
+    if (
+      result?.alreadyVerified ===
+      true
+    ) {
+
+      parentReportSettings = {
+        ...parentReportSettings,
+
+        emailVerified:
+          true
+      };
+
+
+      parentReportMessage =
+        "このメールアドレスは確認済みです。";
+
+    } else {
+
+      parentReportMessage =
+        "確認メールを送信しました。メール内の「メールアドレスを確認」を押してください。";
+    }
+
+
+    parentReportError =
+      "";
+
+
+  } catch (
+    error
+  ) {
+
+    console.error(
+      "確認メールを送信できませんでした。",
+      error
+    );
+
+
+    parentReportMessage =
+      "";
+
+
+    parentReportError =
+      error?.message ??
+      "確認メールを送信できませんでした。";
+  }
+
+
+  render();
+
+  return;
+}
     
     if (a === "transfer-create") {
 
@@ -2151,6 +2974,14 @@ function sample(arr){
   }
 
 
+  /*
+   * 学習レポート用
+   * ステージクリア時の学習結果を保存
+   */
+
+  void saveLearningSession();
+
+
   persistState(state);
 
   screen = "result";
@@ -2978,7 +3809,7 @@ function fadeOutTitleBgm(duration = 1200) {
     const showQuestion = flashMode ? flashVisible : true;
 
     if (gameOver) {
-      return `<section class="stack"><div class="panel hero game-over-panel"><div class="hero-icon">💥</div><h2>バリアがなくなった！</h2><p class="muted">${qi} / ${questions.length} 問まで進みました。</p></div><div class="life-display game-over-life"><span>💥</span><span>💥</span></div><button class="button cyan" data-action="retry-stage">同じステージにもう一度挑戦</button><button class="button secondary" data-action="go" data-screen="world">ワールドへ戻る</button></section>`;
+      return `<section class="stack"><div class="panel hero game-over-panel"><div class="hero-icon">💥</div><h2>バリアがなくなった！</h2><p class="muted">${qi} / ${questions.length} 問まで進みました。</p></div><div class="life-display game-over-life"><span>💥</span><span>💥</span><span>💥</span></div><button class="button cyan" data-action="retry-stage">同じステージにもう一度挑戦</button><button class="button secondary" data-action="go" data-screen="world">ワールドへ戻る</button></section>`;
     }
 
     const questionAction =
@@ -2986,27 +3817,6 @@ function fadeOutTitleBgm(duration = 1200) {
     ? `data-action="replay-flash"`
     : "";
 
-
-const guide =
-
-  flashMode
-
-    ? ""
-
-    : q?.keypad ===
-        "expression"
-
-      ? ""
-
-      : (
-          q?.guide ??
-          "問題をよく見て答えよう。"
-        );
-
-const rendererHasOwnGuide = (
-  String(q?.kind ?? "").startsWith("fraction-") ||
-  String(q?.kind ?? "").startsWith("decimal-")
-);
 
 return `<section class="stack game-area">
 
@@ -3041,16 +3851,10 @@ return `<section class="stack game-area">
     <div class="game-status">
 
       <div class="life-display">
-
-        <span>
-          ${lives >= 1 ? "🛡️" : "💥"}
-        </span>
-
-        <span>
-          ${lives >= 2 ? "🛡️" : "💥"}
-        </span>
-
-      </div>
+  <span>${lives >= 1 ? "🛡️" : "💥"}</span>
+  <span>${lives >= 2 ? "🛡️" : "💥"}</span>
+  <span>${lives >= 3 ? "🛡️" : "💥"}</span>
+</div>
 
       <strong>
         ${qi + 1}/${questions.length}
@@ -3068,20 +3872,12 @@ return `<section class="stack game-area">
   <div>
 
     <div class="question">
-      ${
-        showQuestion
-          ? renderQuestion(q)
-          : "？"
-      }
-    </div>
-
-    ${
-  currentStage?.type?.startsWith("clock_") ||
-  rendererHasOwnGuide ||
-  !guide
-    ? ""
-    : `<p class="flash-guide">${guide}</p>`
-}
+  ${
+    showQuestion
+      ? renderQuestion(q)
+      : "？"
+  }
+</div>
 
   </div>
 </button>
@@ -5330,6 +6126,395 @@ function zoomModal() {
                 playerError
               )}
             </div>
+          `
+          : ""
+      }
+
+            <!-- =========================
+           保護者向け学習レポート
+      ========================== -->
+
+      ${
+        activePlayer
+          ? `
+            <section class="panel transfer-section">
+
+              <div class="transfer-section-heading">
+
+                <div class="transfer-section-icon">
+                  📊
+                </div>
+
+                <div>
+
+                  <h3>
+                    保護者向け学習レポート
+                  </h3>
+
+                  <p class="muted">
+                    学習結果をメールで受け取れます。
+                  </p>
+
+                </div>
+
+              </div>
+
+
+              <label>
+                保護者メールアドレス
+              </label>
+
+
+              <input
+                class="input"
+                type="email"
+                data-parent-report-email
+                autocomplete="email"
+                placeholder="parent@example.com"
+                value="${escapeHtml(
+                  parentReportSettings.email ??
+                  ""
+                )}"
+              >
+
+<div class="parent-report-option-title">
+  受け取るレポートを選んでください
+</div>
+
+
+<div class="parent-report-options">
+
+
+  <!-- 学習終了後 -->
+
+  <label
+    class="
+      parent-report-option-card
+      ${
+        parentReportSettings.reportMode ===
+        "after_learning"
+          ? "selected"
+          : ""
+      }
+    "
+  >
+
+    <input
+      type="radio"
+      name="parent-report-mode"
+      value="after_learning"
+      ${
+        parentReportSettings.reportMode ===
+        "after_learning"
+          ? "checked"
+          : ""
+      }
+    >
+
+
+    <span class="parent-report-radio-mark">
+    </span>
+
+
+    <span class="parent-report-option-icon">
+      ✉️
+    </span>
+
+
+    <span class="parent-report-option-content">
+
+      <span class="parent-report-option-heading">
+
+        <strong>
+          学習終了後に受け取る
+        </strong>
+
+        <span class="parent-report-recommend">
+          おすすめ
+        </span>
+
+      </span>
+
+
+      <small>
+        最後の学習から約15分後に、
+        その日の学習内容をメールでお届けします。
+      </small>
+
+    </span>
+
+
+    <span class="parent-report-option-badge">
+      学習後
+    </span>
+
+  </label>
+
+
+
+  <!-- 1週間まとめ -->
+
+  <label
+    class="
+      parent-report-option-card
+      ${
+        parentReportSettings.reportMode ===
+        "weekly"
+          ? "selected"
+          : ""
+      }
+    "
+  >
+
+    <input
+      type="radio"
+      name="parent-report-mode"
+      value="weekly"
+      ${
+        parentReportSettings.reportMode ===
+        "weekly"
+          ? "checked"
+          : ""
+      }
+    >
+
+
+    <span class="parent-report-radio-mark">
+    </span>
+
+
+    <span class="parent-report-option-icon">
+      📅
+    </span>
+
+
+    <span class="parent-report-option-content">
+
+      <span class="parent-report-option-heading">
+
+        <strong>
+          1週間まとめて受け取る
+        </strong>
+
+      </span>
+
+
+      <small>
+        毎週日曜日に、
+        1週間の学習内容をまとめてお届けします。
+      </small>
+
+    </span>
+
+
+    <span class="parent-report-option-badge">
+      毎週日曜
+    </span>
+
+  </label>
+
+
+
+  <!-- 学習終了後＋週間 -->
+
+  <label
+    class="
+      parent-report-option-card
+      ${
+        parentReportSettings.reportMode ===
+        "after_learning_and_weekly"
+          ? "selected"
+          : ""
+      }
+    "
+  >
+
+    <input
+      type="radio"
+      name="parent-report-mode"
+      value="after_learning_and_weekly"
+      ${
+        parentReportSettings.reportMode ===
+        "after_learning_and_weekly"
+          ? "checked"
+          : ""
+      }
+    >
+
+
+    <span class="parent-report-radio-mark">
+    </span>
+
+
+    <span class="parent-report-option-icon">
+      📊
+    </span>
+
+
+    <span class="parent-report-option-content">
+
+      <span class="parent-report-option-heading">
+
+        <strong>
+          学習終了後＋1週間まとめ
+        </strong>
+
+      </span>
+
+
+      <small>
+        学習後のレポートと、
+        毎週日曜日の週間レポートを
+        両方受け取ります。
+      </small>
+
+    </span>
+
+
+    <span class="parent-report-option-badge">
+      両方
+    </span>
+
+  </label>
+
+
+
+  <!-- 通知OFF -->
+
+  <label
+    class="
+      parent-report-option-card
+      ${
+        parentReportSettings.reportMode ===
+        "off"
+          ? "selected"
+          : ""
+      }
+    "
+  >
+
+    <input
+      type="radio"
+      name="parent-report-mode"
+      value="off"
+      ${
+        parentReportSettings.reportMode ===
+        "off"
+          ? "checked"
+          : ""
+      }
+    >
+
+
+    <span class="parent-report-radio-mark">
+    </span>
+
+
+    <span class="parent-report-option-icon">
+      🔕
+    </span>
+
+
+    <span class="parent-report-option-content">
+
+      <span class="parent-report-option-heading">
+
+        <strong>
+          受け取らない
+        </strong>
+
+      </span>
+
+
+      <small>
+        保護者向け学習レポートの
+        メール通知を停止します。
+      </small>
+
+    </span>
+
+
+    <span class="parent-report-option-badge">
+      OFF
+    </span>
+
+  </label>
+
+
+</div>
+              ${
+                parentReportMessage
+                  ? `
+                    <div class="notice">
+                      ${escapeHtml(
+                        parentReportMessage
+                      )}
+                    </div>
+                  `
+                  : ""
+              }
+
+
+              ${
+                parentReportError
+                  ? `
+                    <div class="error">
+                      ${escapeHtml(
+                        parentReportError
+                      )}
+                    </div>
+                  `
+                  : ""
+              }
+
+
+              <button
+                class="button cyan"
+                data-action="parent-report-save"
+              >
+                学習レポート設定を保存
+              </button>
+
+
+              ${
+                parentReportSettings.email
+                  ? `
+                    <div class="parent-report-verification">
+
+                      ${
+                        parentReportSettings.emailVerified
+                          ? `
+                          
+    <div class="notice">
+      ✅ メールアドレス確認済み
+    </div>
+  `
+                          : `
+                            <div class="notice">
+                              📩 メールアドレスはまだ確認されていません。
+                            </div>
+
+                            <button
+                              class="button secondary"
+                              data-action="parent-report-verify"
+                            >
+                              ✉️ 確認メールを送る
+                            </button>
+
+                            <p class="muted">
+                              確認メールにある
+                              「メールアドレスを確認」
+                              を押してください。
+                            </p>
+                          `
+                      }
+
+                    </div>
+                  `
+                  : ""
+              }
+
+            </section>
           `
           : ""
       }

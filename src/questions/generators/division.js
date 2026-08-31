@@ -621,7 +621,7 @@ function buildDivisionWord() {
 
 
   guide:
-    "しきから にゅうりょくしてね。",
+  "",
 
 
   icon:
@@ -629,7 +629,7 @@ function buildDivisionWord() {
 
 
   prompt:
-    q.text,
+  `${q.text}\nしきから にゅうりょくしよう。`,
 
 
   className:
