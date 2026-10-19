@@ -1,0 +1,1 @@
+export default {"id":"e3-unit-basic-kg_g","world":3,"type":"unit_basic_kg_g","name":"kgとgの基本","unit":"curriculum-単位の基本","unitLabel":"単位の基本","sort":156,"questionCount":10,"presentation":"persistent","isBoss":false,"rewardGems":5};

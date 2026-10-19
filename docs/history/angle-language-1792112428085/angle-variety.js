@@ -1,0 +1,14 @@
+const r=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
+export function angleLesson(index){
+ const variant=['right','straight','turn','join','repeat'][Number.isInteger(index)?index%5:r(0,4)];let total,a,b,answer,prompt,guide,segments;
+ if(['right','straight','turn'].includes(variant)){total={right:90,straight:180,turn:360}[variant];a=variant==='right'?r(3,15)*5:variant==='straight'?r(3,33)*5:r(3,33)*10;answer=total-a;const name={right:'直角',straight:'一直線（半回転）',turn:'一回転'}[variant];prompt='全体は'+name+'で'+total+'°。オレンジ色の角は何度？';guide='2つの角をあわせると'+total+'°。全体から青い角の大きさをひこう。';segments=[{degrees:a,label:a+'°',color:'#c8efff'},{degrees:answer,label:'？°',color:'#ffe2a5'}];}
+ else if(variant==='join'){a=r(4,16)*5;b=r(4,16)*5;total=a+b;answer=total;prompt='2つの角をあわせた、外側の赤い弧の角度は何度？';guide='となり合った2つの角。青い角と黄色い角の大きさをたそう。';segments=[{degrees:a,label:a+'°',color:'#c8efff'},{degrees:b,label:b+'°',color:'#ffe2a5'}];}
+ else{a=r(6,10)*5;b=r(2,3);total=a*b;answer=total;prompt='1つ'+a+'°の同じ角が'+b+'こ。外側の赤い弧の角度は何度？';guide='同じ角を'+b+'こ分あわせるよ。'+a+'を'+b+'回たすか、かけ算で考えよう。';segments=Array.from({length:b},(_,i)=>({degrees:a,label:a+'°',color:i%2?'#d1f0dc':'#c8efff'}));}
+ return {kind:'geometry-input',model:'angle',angleVariant:variant,a,b,total,segments,answer,prompt,guide,unit:'度',keypad:'number',uniqueKey:'angle:'+variant+':'+a+':'+(b??total)};
+}
+export function angleLessonSvg(q){
+ const cx=210,cy=140,R=92,point=(angle,radius=R)=>[cx+radius*Math.cos(angle*Math.PI/180),cy-radius*Math.sin(angle*Math.PI/180)],text=(x,y,s)=>'<text x="'+x+'" y="'+y+'" text-anchor="middle" style="font-size:17px">'+s+'</text>';
+ let start=0,art='';for(const segment of q.segments){const end=start+segment.degrees,p=point(start),t=point(end),mid=point((start+end)/2,60),a=point(start,78),b=point(end,78);art+='<path d="M'+cx+' '+cy+' L'+p.join(' ')+' A'+R+' '+R+' 0 '+(segment.degrees>180?1:0)+' 0 '+t.join(' ')+' Z" style="fill:'+segment.color+';stroke:#25637e;stroke-width:2"/><path d="M'+a.join(' ')+' A78 78 0 '+(segment.degrees>180?1:0)+' 0 '+b.join(' ')+'" style="fill:none;stroke:#527c92;stroke-width:2"/>'+text(mid[0],mid[1]+5,segment.label);start=end;}
+ if(['join','repeat'].includes(q.angleVariant)){const p=point(0,110),t=point(q.total,110),mid=point(q.total/2,127);art+='<path d="M'+p.join(' ')+' A110 110 0 0 0 '+t.join(' ')+'" style="fill:none;stroke:#c34754;stroke-width:3"/>'+text(mid[0],mid[1]+5,'？°');}
+ const caption={right:'直角＝90°',straight:'一直線（半回転）＝180°',turn:'一回転＝360°',join:'赤い弧：2つの角をあわせた角',repeat:'赤い弧：同じ角を全部あわせた角'}[q.angleVariant];return art+text(210,265,caption);
+}

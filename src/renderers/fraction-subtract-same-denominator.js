@@ -146,7 +146,7 @@ function renderWordProblem(question) {
 
 
   return `
-    <div class="fraction-s6-word-layout">
+    <div class="curriculum-question fraction-lesson-layout fraction-s6-word-layout">
 
 
       <div class="fraction-s6-word-visual">
@@ -212,7 +212,7 @@ export default {
     ) {
 
       return `
-        <div class="fraction-s6-layout">
+        <div class="curriculum-question fraction-lesson-layout fraction-s6-layout">
 
           ${renderWordProblem(
             question
@@ -228,7 +228,7 @@ export default {
 
 
     return `
-      <div class="fraction-s6-layout">
+      <div class="curriculum-question fraction-lesson-layout fraction-s6-layout">
 
         ${renderCalculation(
           question

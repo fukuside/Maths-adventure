@@ -1,0 +1,1 @@
+export default { id: "k3-s2", world: 103, sort: 2, unit: "k-shapes", unitLabel: "かたちの くに", name: "さんかくを みつけよう", type: "k3_triangle", course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: false };

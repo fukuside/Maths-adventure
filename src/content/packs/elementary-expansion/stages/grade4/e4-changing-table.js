@@ -1,0 +1,1 @@
+export default {id:'e4-changing-table',sort:297,world:4,unit:'curriculum-変化と関係',unitLabel:'変化と関係',name:'変わり方を表で調べよう',type:'changing_table',isBoss:false,presentation:'persistent',questionCount:10,rewardGems:5};

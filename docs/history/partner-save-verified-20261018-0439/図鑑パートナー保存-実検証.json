@@ -1,0 +1,169 @@
+{
+  "verifiedAt": "2026-10-17T19:37:21.671Z",
+  "checked": [
+    {
+      "id": "001-plus-rabbit",
+      "rarity": "N",
+      "name": "プラスラビット"
+    },
+    {
+      "id": "002-sum-slime",
+      "rarity": "N",
+      "name": "サムスライム"
+    },
+    {
+      "id": "006-sum-lion",
+      "rarity": "N",
+      "name": "サムライオン"
+    },
+    {
+      "id": "006-sum-lion",
+      "rarity": "UR",
+      "name": "サムライオン"
+    },
+    {
+      "id": "008-minus-fox",
+      "rarity": "N",
+      "name": "マイナスフォックス"
+    },
+    {
+      "id": "011-diff-bird",
+      "rarity": "UR",
+      "name": "ディフバード"
+    },
+    {
+      "id": "015-minute-mouse",
+      "rarity": "N",
+      "name": "ミニットマウス"
+    },
+    {
+      "id": "019-time-rabbit",
+      "rarity": "N",
+      "name": "タイムラビット"
+    },
+    {
+      "id": "024-wallet-bear",
+      "rarity": "SR",
+      "name": "ウォレットベア"
+    },
+    {
+      "id": "029-waterpon",
+      "rarity": "N",
+      "name": "ウォータポン"
+    },
+    {
+      "id": "032-clover-turtle",
+      "rarity": "N",
+      "name": "クローバータートル"
+    },
+    {
+      "id": "038-massive-golem",
+      "rarity": "N",
+      "name": "マッシブ・ゴーレム"
+    },
+    {
+      "id": "040-divine-phoenix",
+      "rarity": "N",
+      "name": "ディバイン・フェニックス"
+    },
+    {
+      "id": "042-half-penguin",
+      "rarity": "N",
+      "name": "ハーフペンギン"
+    },
+    {
+      "id": "046-remainder-cat",
+      "rarity": "SR",
+      "name": "リメインダーキャット"
+    },
+    {
+      "id": "050-tenths-pon",
+      "rarity": "N",
+      "name": "テンスポン"
+    },
+    {
+      "id": "054-point-dragon",
+      "rarity": "SR",
+      "name": "ポイントドラゴン"
+    },
+    {
+      "id": "058-quarter-rabbit",
+      "rarity": "N",
+      "name": "クォータービット"
+    },
+    {
+      "id": "058-quarter-rabbit",
+      "rarity": "SR",
+      "name": "クォータービット"
+    },
+    {
+      "id": "063-proper-monster",
+      "rarity": "N",
+      "name": "プロバーモンスター"
+    },
+    {
+      "id": "065-small-knight",
+      "rarity": "SR",
+      "name": "スモールナイト"
+    },
+    {
+      "id": "066-percent-devil",
+      "rarity": "SR",
+      "name": "パーセントデビル"
+    },
+    {
+      "id": "073-unit-fenrir",
+      "rarity": "SR",
+      "name": "ユニットフェンリル"
+    },
+    {
+      "id": "077-average-archangel",
+      "rarity": "SR",
+      "name": "アベレージアークエンジェル"
+    },
+    {
+      "id": "081-geometric-demon",
+      "rarity": "SR",
+      "name": "ジオメトリックデーモン"
+    },
+    {
+      "id": "085-graph-sphinx",
+      "rarity": "N",
+      "name": "グラフスフィンクス"
+    },
+    {
+      "id": "085-graph-sphinx",
+      "rarity": "SR",
+      "name": "グラフスフィンクス"
+    },
+    {
+      "id": "092-equation-samurai",
+      "rarity": "N",
+      "name": "方程式の侍"
+    },
+    {
+      "id": "096-solid-geometry-shield-general",
+      "rarity": "SR",
+      "name": "空間図形の盾将"
+    },
+    {
+      "id": "097-linear-function-chief",
+      "rarity": "N",
+      "name": "一次関数の筆頭"
+    },
+    {
+      "id": "098-simultaneous-equation-dual-swords",
+      "rarity": "UR",
+      "name": "連立方程式の双剣士"
+    }
+  ],
+  "rarities": [
+    "N",
+    "UR",
+    "SR"
+  ],
+  "chosen": "001-plus-rabbit_N",
+  "partnerSurvivesReload": true,
+  "collectionSurvivesReload": true,
+  "errors": []
+}

@@ -10,8 +10,8 @@ export default {
   stats: { hp: 147, atk: 53 },
   description: "引き算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/009-take-cat/n.png",
-    SR: "/pictures/monsters/009-take-cat/sr.png",
-    UR: "/pictures/monsters/009-take-cat/ur.png"
+    N: "/pictures/monsters/009-take-cat/n.webp",
+    SR: "/pictures/monsters/009-take-cat/sr.webp",
+    UR: "/pictures/monsters/009-take-cat/ur.webp"
   }
 };

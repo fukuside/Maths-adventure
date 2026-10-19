@@ -10,8 +10,8 @@ export default {
   stats: { hp: 183, atk: 77 },
   description: "時刻の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/021-chrono-king/n.png",
-    SR: "/pictures/monsters/021-chrono-king/sr.png",
-    UR: "/pictures/monsters/021-chrono-king/ur.png"
+    N: "/pictures/monsters/021-chrono-king/n.webp",
+    SR: "/pictures/monsters/021-chrono-king/sr.webp",
+    UR: "/pictures/monsters/021-chrono-king/ur.webp"
   }
 };

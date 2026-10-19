@@ -1,0 +1,1 @@
+export default { id: "k1-boss", world: 101, sort: 7, unit: "k-foundation", unitLabel: "かずと なかよし", name: "K1 まとめ", type: "k_summary", questionTypes: ["k_match", "k_count_3", "k_count_5", "k_number_group", "k_more", "k_less"], course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: true };

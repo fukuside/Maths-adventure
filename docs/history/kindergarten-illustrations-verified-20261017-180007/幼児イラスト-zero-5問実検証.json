@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-17",
+  "stageId": "k6-s2",
+  "report": [
+    {
+      "question": 1,
+      "choice": "C"
+    },
+    {
+      "question": 2,
+      "choice": "C"
+    },
+    {
+      "question": 3,
+      "choice": "C"
+    },
+    {
+      "question": 4,
+      "choice": "C"
+    },
+    {
+      "question": 5,
+      "choice": "C"
+    }
+  ],
+  "errors": [],
+  "cleared": true,
+  "noBarriers": true
+}

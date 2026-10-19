@@ -10,8 +10,8 @@ export default {
   stats: { hp: 240, atk: 115 },
   description: "掛け算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/040-divine-phoenix/n.png",
-    SR: "/pictures/monsters/040-divine-phoenix/sr.png",
-    UR: "/pictures/monsters/040-divine-phoenix/ur.png"
+    N: "/pictures/monsters/040-divine-phoenix/n.webp",
+    SR: "/pictures/monsters/040-divine-phoenix/sr.webp",
+    UR: "/pictures/monsters/040-divine-phoenix/ur.webp"
   }
 };

@@ -10,8 +10,8 @@ export default {
   stats: { hp: 159, atk: 61 },
   description: "引き算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/013-sub-wolf/n.png",
-    SR: "/pictures/monsters/013-sub-wolf/sr.png",
-    UR: "/pictures/monsters/013-sub-wolf/ur.png"
+    N: "/pictures/monsters/013-sub-wolf/n.webp",
+    SR: "/pictures/monsters/013-sub-wolf/sr.webp",
+    UR: "/pictures/monsters/013-sub-wolf/ur.webp"
   }
 };

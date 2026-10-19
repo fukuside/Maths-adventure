@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-17",
+  "stage": "e2-unit-basic-dl_ml",
+  "cleared": true,
+  "errors": [],
+  "report": [
+    {
+      "question": 1,
+      "answer": 100,
+      "mode": "choice",
+      "text": "1dL＝ □ mL。□に入る数は？\nA\n\n0\n\nB\n\n100\n\nC\n\n200\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 2,
+      "answer": 1,
+      "mode": "choice",
+      "text": "100mL＝ □ dL。□に入る数は？\nA\n\n2\n\nB\n\n0\n\nC\n\n1\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 3,
+      "answer": 6,
+      "mode": "choice",
+      "text": "600mL＝ □ dL。□に入る数は？\nA\n\n5\n\nB\n\n7\n\nC\n\n6\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 4,
+      "answer": 7,
+      "mode": "numeric",
+      "text": "700mL＝ □ dL。□に入る数は？\n\nここからは、数字で答えてみよう！\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 5,
+      "answer": 4,
+      "mode": "numeric",
+      "text": "400mL＝ □ dL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 6,
+      "answer": 2,
+      "mode": "numeric",
+      "text": "200mL＝ □ dL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 7,
+      "answer": 8,
+      "mode": "numeric",
+      "text": "800mL＝ □ dL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 8,
+      "answer": 700,
+      "mode": "numeric",
+      "text": "7dL＝ □ mL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 9,
+      "answer": 800,
+      "mode": "numeric",
+      "text": "8dL＝ □ mL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 10,
+      "answer": 500,
+      "mode": "numeric",
+      "text": "5dL＝ □ mL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    }
+  ]
+}

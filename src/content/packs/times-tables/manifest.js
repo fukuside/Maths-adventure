@@ -1,0 +1,1 @@
+export default {"id":"times-tables","name":"九九を段ごとに冒険","version":"1.0.0","type":"question-pack","enabled":true};

@@ -10,8 +10,8 @@ export default {
   stats: { hp: 237, atk: 113 },
   description: "掛け算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/039-lightning-fang/n.png",
-    SR: "/pictures/monsters/039-lightning-fang/sr.png",
-    UR: "/pictures/monsters/039-lightning-fang/ur.png"
+    N: "/pictures/monsters/039-lightning-fang/n.webp",
+    SR: "/pictures/monsters/039-lightning-fang/sr.webp",
+    UR: "/pictures/monsters/039-lightning-fang/ur.webp"
   }
 };

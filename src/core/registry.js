@@ -1,3 +1,4 @@
+import { placeElementaryStage } from "./elementary-placement.js";
 import { packs } from "./pack-loader.js";
 
 const worldModules = import.meta.glob("../content/packs/*/worlds/**/*.js", { eager: true, import: "default" });
@@ -12,7 +13,7 @@ function packIdFromPath(path) {
 function normalize(modules, type) {
   const values = Object.entries(modules).map(([path, item]) => {
     if (!item || typeof item !== "object" || item.id === undefined) throw new Error(`${type} definition is invalid: ${path}`);
-    return Object.freeze({ ...item, packId: item.packId ?? packIdFromPath(path) });
+    return Object.freeze({ ...(type === "stage" ? placeElementaryStage(item) : item), packId: item.packId ?? packIdFromPath(path) });
   });
   const ids = new Map();
 

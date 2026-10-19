@@ -1,0 +1,698 @@
+{
+  "date": "2026-10-16",
+  "stages": 44,
+  "report": [
+    {
+      "id": "e5-average",
+      "name": "平均",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "average"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-circumference",
+      "name": "円周",
+      "world": 5,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "decimal"
+      ],
+      "types": [
+        "circumference"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-congruent",
+      "name": "合同な図形",
+      "world": 5,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "congruent"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-curriculum-boss",
+      "name": "5年生の冒険まとめ",
+      "world": 5,
+      "kinds": [
+        "geometry-input",
+        "curriculum-choice",
+        "written-calculation"
+      ],
+      "keypads": [
+        "number",
+        "decimal"
+      ],
+      "types": [
+        "trapezoidArea",
+        "divisor",
+        "triangleArea",
+        "congruent",
+        "written-calculation",
+        "average",
+        "percent",
+        "unitAmount",
+        "curriculum-choice",
+        "fractionAdd5",
+        "speed",
+        "multiple",
+        "volume5",
+        "reduce",
+        "parallelogramArea",
+        "ratio5"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-decimalDivide5",
+      "name": "小数÷小数",
+      "world": 5,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "written-calculation"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-decimalMultiply5",
+      "name": "小数×小数",
+      "world": 5,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "written-calculation"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-divisor",
+      "name": "最大公約数",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "divisor"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-fractionAdd5",
+      "name": "異分母の足し算",
+      "world": 5,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "fractionAdd5"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-fractionSub5",
+      "name": "異分母の引き算",
+      "world": 5,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "fractionSub5"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-multiple",
+      "name": "最小公倍数",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "multiple"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-parallelogramArea",
+      "name": "平行四辺形の面積",
+      "world": 5,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "parallelogramArea"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-percent",
+      "name": "百分率",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "percent"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-percentData",
+      "name": "割合の表",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-ratio5",
+      "name": "割合を小数で表す",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "decimal"
+      ],
+      "types": [
+        "ratio5"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-reduce",
+      "name": "約分",
+      "world": 5,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "reduce"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-rhombusArea",
+      "name": "ひし形の面積",
+      "world": 5,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "rhombusArea"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-speed",
+      "name": "速さを求めよう",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "speed"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-trapezoidArea",
+      "name": "台形の面積",
+      "world": 5,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "trapezoidArea"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-triangleArea",
+      "name": "三角形の面積",
+      "world": 5,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "triangleArea"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-unitAmount",
+      "name": "単位量あたり",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "unitAmount"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-volume5",
+      "name": "直方体の体積",
+      "world": 5,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "volume5"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-circleArea",
+      "name": "円の面積",
+      "world": 6,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "decimal"
+      ],
+      "types": [
+        "circleArea"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-combinations",
+      "name": "場合の数",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-curriculum-boss",
+      "name": "6年生の冒険まとめ",
+      "world": 6,
+      "kinds": [
+        "written-calculation",
+        "curriculum-choice",
+        "geometry-input"
+      ],
+      "keypads": [
+        "number",
+        "decimal"
+      ],
+      "types": [
+        "fractionMultiply",
+        "fractionTimesInt",
+        "curriculum-choice",
+        "cylinderVolume",
+        "letter",
+        "ratio6",
+        "fractionDivideInt",
+        "symmetry",
+        "scale",
+        "prismVolume",
+        "fractionDivide",
+        "fractionDecimal"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-cylinderVolume",
+      "name": "円柱の体積",
+      "world": 6,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "decimal"
+      ],
+      "types": [
+        "cylinderVolume"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-fractionDecimal",
+      "name": "分数と小数の混合",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "decimal"
+      ],
+      "types": [
+        "fractionDecimal"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-fractionDivide",
+      "name": "分数÷分数",
+      "world": 6,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "fractionDivide"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-fractionDivideInt",
+      "name": "分数÷整数",
+      "world": 6,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "fractionDivideInt"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-fractionMultiply",
+      "name": "分数×分数",
+      "world": 6,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "fractionMultiply"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-fractionTimesInt",
+      "name": "分数×整数",
+      "world": 6,
+      "kinds": [
+        "written-calculation"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "fractionTimesInt"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-frequency",
+      "name": "度数分布と柱状グラフ",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-inverse",
+      "name": "反比例",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-letter",
+      "name": "文字を使った式",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "letter"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-median",
+      "name": "中央値",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "decimal"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-mode",
+      "name": "最頻値",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-prismVolume",
+      "name": "角柱の体積",
+      "world": 6,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "prismVolume"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-proportion",
+      "name": "比例",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-ratio6",
+      "name": "比の利用",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "ratio6"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-scale",
+      "name": "拡大図",
+      "world": 6,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "scale"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-symmetry",
+      "name": "線対称と点対称",
+      "world": 6,
+      "kinds": [
+        "geometry-input"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "symmetry"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-ratio_share",
+      "name": "比で分けよう",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e6-scale_map",
+      "name": "縮図から道のりを求めよう",
+      "world": 6,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-speed_distance",
+      "name": "道のりを求めよう",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    },
+    {
+      "id": "e5-speed_time",
+      "name": "時間を求めよう",
+      "world": 5,
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "keypads": [
+        "number"
+      ],
+      "types": [
+        "curriculum-choice"
+      ],
+      "choiceQuestions": 0
+    }
+  ]
+}

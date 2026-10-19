@@ -1,0 +1,1 @@
+export default {"id":"e3-unit-basic-km_m","world":3,"type":"unit_basic_km_m","name":"kmとmの基本","unit":"curriculum-単位の基本","unitLabel":"単位の基本","sort":155,"questionCount":10,"presentation":"persistent","isBoss":false,"rewardGems":5};

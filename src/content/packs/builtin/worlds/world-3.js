@@ -1,12 +1,20 @@
 export default {
   "id": 3,
   "grade": "3年生",
-  "title": "計算マスター",
+  "title": "計算と測定の冒険",
   "icon": "⚔️",
-  "description": "掛け算と割り算",
+  "description": "わり算・小数・分数・測定",
   "units": [
-    "multiplication",
-    "division"
+    "curriculum-数",
+    "curriculum-かけ算の筆算",
+    "curriculum-わり算",
+    "curriculum-長さ",
+    "curriculum-重さ",
+    "curriculum-時間",
+    "curriculum-図形",
+    "curriculum-データ",
+    "curriculum-式",
+    "curriculum-分数"
   ],
   "available": true
 };

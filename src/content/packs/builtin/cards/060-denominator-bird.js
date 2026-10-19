@@ -10,8 +10,8 @@ export default {
   stats: { hp: 300, atk: 155 },
   description: "分数の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/060-denominator-bird/n.png",
-    SR: "/pictures/monsters/060-denominator-bird/sr.png",
-    UR: "/pictures/monsters/060-denominator-bird/ur.png"
+    N: "/pictures/monsters/060-denominator-bird/n.webp",
+    SR: "/pictures/monsters/060-denominator-bird/sr.webp",
+    UR: "/pictures/monsters/060-denominator-bird/ur.webp"
   }
 };

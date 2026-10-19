@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-17",
+  "stageId": "e6-scale",
+  "report": [
+    {
+      "question": 1,
+      "mode": "construction",
+      "answer": 26
+    },
+    {
+      "question": 2,
+      "mode": "length",
+      "answer": 14
+    },
+    {
+      "question": 3,
+      "mode": "construction",
+      "answer": 48
+    },
+    {
+      "question": 4,
+      "mode": "length",
+      "answer": 8
+    },
+    {
+      "question": 5,
+      "mode": "construction",
+      "answer": 22
+    },
+    {
+      "question": 6,
+      "mode": "length",
+      "answer": 56
+    },
+    {
+      "question": 7,
+      "mode": "construction",
+      "answer": 42
+    },
+    {
+      "question": 8,
+      "mode": "length",
+      "answer": 24
+    },
+    {
+      "question": 9,
+      "mode": "construction",
+      "answer": 11
+    },
+    {
+      "question": 10,
+      "mode": "length",
+      "answer": 6
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

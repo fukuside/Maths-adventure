@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-18T19:01:53.759Z",
+  "report": [
+    {
+      "question": 1,
+      "kind": "shape-lesson",
+      "answer": "A"
+    },
+    {
+      "question": 2,
+      "kind": "shape-lesson",
+      "answer": 3
+    },
+    {
+      "question": 3,
+      "kind": "shape-lesson",
+      "answer": 3
+    },
+    {
+      "question": 4,
+      "kind": "curriculum-choice",
+      "answer": "B"
+    },
+    {
+      "question": 5,
+      "kind": "shape-lesson",
+      "answer": 4
+    },
+    {
+      "question": 6,
+      "kind": "shape-lesson",
+      "answer": "C"
+    },
+    {
+      "question": 7,
+      "kind": "shape-lesson",
+      "answer": 4
+    },
+    {
+      "question": 8,
+      "kind": "shape-lesson",
+      "answer": 4
+    },
+    {
+      "question": 9,
+      "kind": "box-lesson",
+      "mode": "faces",
+      "answer": 6
+    },
+    {
+      "question": 10,
+      "kind": "box-lesson",
+      "mode": "corners",
+      "answer": 8
+    }
+  ],
+  "errors": [],
+  "scope": "前8問は生成器の正答で進行。箱2問は描画要素を独立計数。"
+}

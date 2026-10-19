@@ -1,0 +1,13 @@
+001-waterpon/n.png → 029-waterpon/n.png
+002-twinbird/n.png → 030-twinbird/n.png
+003-firesaurus/n.png → 031-firesaurus/n.png
+004-clover-turtle/n.png → 032-clover-turtle/n.png
+005-star-wolf/n.png → 033-star-wolf/n.png
+006-six-speaker/n.png → 034-six-speaker/n.png
+007-rainbow-dragon/n.png → 035-rainbow-dragon/n.png
+008-octopal/n.png → 036-octopal/n.png
+009-shine-pegasus/n.png → 037-shine-pegasus/n.png
+010-massive-golem/n.png → 038-massive-golem/n.png
+011-lightning-fang/n.png → 039-lightning-fang/n.png
+012-divine-phoenix/n.png → 040-divine-phoenix/n.png
+000-king-gold/n.png → 041-kuku-king-gold/n.png

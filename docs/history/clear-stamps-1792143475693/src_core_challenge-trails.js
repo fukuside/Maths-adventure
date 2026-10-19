@@ -1,0 +1,7 @@
+export function normalizeTrails(value){
+ const out={};if(!value||typeof value!=='object'||Array.isArray(value))return out;
+ for(const [stage,runs]of Object.entries(value)){if(!/^[a-zA-Z0-9_-]+$/.test(stage)||!runs||typeof runs!=='object'||Array.isArray(runs))continue;const ids=Object.keys(runs).filter(id=>/^[a-zA-Z0-9_-]+$/.test(id)&&runs[id]===true);if(ids.length)out[stage]=Object.fromEntries(ids.map(id=>[id,true]));}return out;
+}
+export function mergeTrails(a,b){const out=normalizeTrails(a);for(const [s,r]of Object.entries(normalizeTrails(b)))out[s]={...out[s],...r};return out;}
+export function recordTrail(state,stage,runId,completed,total){if(!stage||stage.world>=101||total!==10||completed!==total||!runId)return false;const trails=normalizeTrails(state.challengeTrails);const previous=trails[stage.id]||{};if(previous[runId])return false;trails[stage.id]={...previous,[runId]:true};state.challengeTrails=trails;return true;}
+export function renderTrail(state,stage){if(stage.world>=101)return '';const n=Object.keys(normalizeTrails(state.challengeTrails)[stage.id]||{}).length;if(!n)return '<span class="stage-trail stage-trail-empty">10問クリアで 足跡がふえるよ</span>';const medium=Math.floor(n/10),small=n%10;return '<span class="stage-trail" aria-label="10問クリア '+n+'回"><span class="trail-swords" aria-hidden="true">'+(medium?'<span class="trail-medium">⚔️<small>×'+medium+'</small></span>':'')+Array.from({length:small},()=>'<span class="trail-small">⚔️</span>').join('')+'</span><span class="trail-count">10問クリア '+n+'回</span></span>';}

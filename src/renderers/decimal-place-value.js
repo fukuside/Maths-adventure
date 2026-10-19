@@ -15,7 +15,7 @@ export default {
     return `
       <div
         class="
-          decimal-place-stage
+          curriculum-question decimal-place-stage
           ${
             showTutorial
               ? "is-tutorial"

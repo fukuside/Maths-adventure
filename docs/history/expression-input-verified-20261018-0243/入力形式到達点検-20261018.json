@@ -1,0 +1,3582 @@
+{
+  "verifiedAt": "2026-10-17T17:38:02.211Z",
+  "scope": "表示対象の全定義と20生成セット/ステージ。実操作検証ではない。",
+  "stages": 226,
+  "generated": 41000,
+  "expressionStages": [
+    {
+      "id": "w1-addition-5",
+      "world": 1,
+      "type": "addition_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "addition_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w1-addition-boss",
+      "world": 1,
+      "type": "addition_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default",
+        "expression"
+      ],
+      "kinds": [
+        "text",
+        "addition_groups",
+        "addition_increase",
+        "addition_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w1-subtraction-5",
+      "world": 1,
+      "type": "subtraction_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "subtraction_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w1-subtraction-boss",
+      "world": 1,
+      "type": "subtraction_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default",
+        "expression"
+      ],
+      "kinds": [
+        "text",
+        "subtraction_compare",
+        "subtraction_word_visual",
+        "subtraction_take"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w3-division-5",
+      "world": 3,
+      "type": "division_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "division_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w3-division-boss",
+      "world": 3,
+      "type": "division_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default",
+        "expression"
+      ],
+      "kinds": [
+        "text",
+        "division_group",
+        "division_fact_family",
+        "division_share",
+        "division_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w3-multiplication-6",
+      "world": 2,
+      "type": "multiply_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "multiplication_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w3-multiplication-boss",
+      "world": 2,
+      "type": "multiply_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default",
+        "expression"
+      ],
+      "kinds": [
+        "multiply_groups",
+        "multiplication_word_visual",
+        "text"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w4-decimal-8",
+      "world": 3,
+      "type": "decimal_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "decimal-word"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w4-decimal-boss",
+      "world": 3,
+      "type": "decimal_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression",
+        "default"
+      ],
+      "kinds": [
+        "decimal-word",
+        "decimal-calculation",
+        "decimal-over-one",
+        "decimal-compare"
+      ],
+      "expression": true
+    },
+    {
+      "id": "e2-curriculum-boss",
+      "world": 2,
+      "type": "curriculum_large2",
+      "questionTypes": [
+        "curriculum_large2",
+        "curriculum_writtenAdd",
+        "curriculum_writtenSubtract",
+        "curriculum_length2",
+        "curriculum_capacity",
+        "curriculum_half2",
+        "curriculum_rectangle2",
+        "multiply_basics",
+        "multiply_word",
+        "clock_read"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "default",
+        "keyboard",
+        "expression",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "multiply_visual_equation",
+        "clock",
+        "text",
+        "multiplication_word_visual",
+        "written-calculation"
+      ],
+      "expression": true
+    }
+  ],
+  "records": [
+    {
+      "id": "w1-addition-1",
+      "world": 1,
+      "type": "addition_meaning",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "addition_increase",
+        "addition_groups"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w1-addition-2",
+      "world": 1,
+      "type": "addition_single",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w1-addition-3",
+      "world": 1,
+      "type": "addition_mixed",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w1-addition-4",
+      "world": 1,
+      "type": "addition_flash",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w1-addition-5",
+      "world": 1,
+      "type": "addition_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "addition_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w1-addition-boss",
+      "world": 1,
+      "type": "addition_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default",
+        "expression"
+      ],
+      "kinds": [
+        "text",
+        "addition_groups",
+        "addition_increase",
+        "addition_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w1-subtraction-1",
+      "world": 1,
+      "type": "subtraction_meaning",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "subtraction_take",
+        "subtraction_compare"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w1-subtraction-2",
+      "world": 1,
+      "type": "subtraction_single",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w1-subtraction-3",
+      "world": 1,
+      "type": "subtraction_teens",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w1-subtraction-4",
+      "world": 1,
+      "type": "subtraction_flash",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w1-subtraction-5",
+      "world": 1,
+      "type": "subtraction_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "subtraction_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w1-subtraction-boss",
+      "world": 1,
+      "type": "subtraction_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default",
+        "expression"
+      ],
+      "kinds": [
+        "text",
+        "subtraction_compare",
+        "subtraction_word_visual",
+        "subtraction_take"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w2-money-1",
+      "world": 2,
+      "type": "money_sum",
+      "questionTypes": [],
+      "stageKeypad": "money",
+      "modes": [
+        "money"
+      ],
+      "kinds": [
+        "money"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-money-2",
+      "world": 2,
+      "type": "money_exact_pay",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "money-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-money-3",
+      "world": 2,
+      "type": "money_add",
+      "questionTypes": [],
+      "stageKeypad": "money",
+      "modes": [
+        "money"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-money-4",
+      "world": 2,
+      "type": "money_sub",
+      "questionTypes": [],
+      "stageKeypad": "money",
+      "modes": [
+        "money"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-money-5",
+      "world": 2,
+      "type": "money_sum",
+      "questionTypes": [],
+      "stageKeypad": "money",
+      "modes": [
+        "money"
+      ],
+      "kinds": [
+        "money"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-money-boss",
+      "world": 2,
+      "type": "money_boss",
+      "questionTypes": [],
+      "stageKeypad": "money",
+      "modes": [
+        "money"
+      ],
+      "kinds": [
+        "money",
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-money-can-buy-1",
+      "world": 2,
+      "type": "money_can_buy",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "money-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-money-change-1",
+      "world": 2,
+      "type": "money_change",
+      "questionTypes": [],
+      "stageKeypad": "money",
+      "modes": [
+        "money"
+      ],
+      "kinds": [
+        "money"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-money-shopping-1",
+      "world": 2,
+      "type": "money_shopping",
+      "questionTypes": [],
+      "stageKeypad": "money",
+      "modes": [
+        "money"
+      ],
+      "kinds": [
+        "money"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-time-1",
+      "world": 1,
+      "type": "clock_read",
+      "questionTypes": [],
+      "stageKeypad": "clock",
+      "modes": [
+        "clock"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-time-2",
+      "world": 1,
+      "type": "clock_read",
+      "questionTypes": [],
+      "stageKeypad": "clock",
+      "modes": [
+        "clock"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-time-3",
+      "world": 1,
+      "type": "clock_read",
+      "questionTypes": [],
+      "stageKeypad": "clock",
+      "modes": [
+        "clock"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-time-4",
+      "world": 1,
+      "type": "clock_minute_read",
+      "questionTypes": [],
+      "stageKeypad": "clock",
+      "modes": [
+        "clock"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-time-5",
+      "world": 2,
+      "type": "clock_elapsed_after",
+      "questionTypes": [],
+      "stageKeypad": "clock",
+      "modes": [
+        "clock"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-time-6",
+      "world": 2,
+      "type": "clock_elapsed_before",
+      "questionTypes": [],
+      "stageKeypad": "clock",
+      "modes": [
+        "clock"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-time-7",
+      "world": 2,
+      "type": "clock_24h",
+      "questionTypes": [],
+      "stageKeypad": "number",
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w2-time-boss",
+      "world": 2,
+      "type": "clock_boss",
+      "questionTypes": [],
+      "stageKeypad": "clock",
+      "modes": [
+        "clock",
+        "number"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-division-1",
+      "world": 3,
+      "type": "division_meaning",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "division_share",
+        "division_group"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-division-2",
+      "world": 3,
+      "type": "division_basic",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-division-3",
+      "world": 3,
+      "type": "division_fact_family",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "division_fact_family"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-division-4",
+      "world": 3,
+      "type": "division_single",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-division-5",
+      "world": 3,
+      "type": "division_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "division_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w3-division-6",
+      "world": 3,
+      "type": "division_flash",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-division-boss",
+      "world": 3,
+      "type": "division_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default",
+        "expression"
+      ],
+      "kinds": [
+        "text",
+        "division_group",
+        "division_fact_family",
+        "division_share",
+        "division_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w3-multiplication-1",
+      "world": 2,
+      "type": "multiply_meaning",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "multiply_groups"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-multiplication-2",
+      "world": 2,
+      "type": "multiply_basics",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "multiply_visual_equation",
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-multiplication-3",
+      "world": 2,
+      "type": "multiply_master",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-multiplication-4",
+      "world": 2,
+      "type": "multiply_master",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-multiplication-5",
+      "world": 2,
+      "type": "multiply_master",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-multiplication-6",
+      "world": 2,
+      "type": "multiply_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "multiplication_word_visual"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w3-multiplication-7",
+      "world": 2,
+      "type": "multiply_flash",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w3-multiplication-boss",
+      "world": 2,
+      "type": "multiply_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default",
+        "expression"
+      ],
+      "kinds": [
+        "multiply_groups",
+        "multiplication_word_visual",
+        "text"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w4-decimal-1",
+      "world": 3,
+      "type": "decimal_visual_basic",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "decimal-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-decimal-2",
+      "world": 3,
+      "type": "decimal_over_one",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "decimal-over-one"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-decimal-3",
+      "world": 3,
+      "type": "decimal_numberline",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "decimal-numberline"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-decimal-4",
+      "world": 3,
+      "type": "decimal_compare",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "decimal-compare"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-decimal-5",
+      "world": 3,
+      "type": "decimal_place_value",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "decimal-place-value"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-decimal-6",
+      "world": 3,
+      "type": "decimal_add",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "decimal-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-decimal-7",
+      "world": 3,
+      "type": "decimal_subtract",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "decimal-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-decimal-8",
+      "world": 3,
+      "type": "decimal_word",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression"
+      ],
+      "kinds": [
+        "decimal-word"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w4-decimal-boss",
+      "world": 3,
+      "type": "decimal_boss",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "expression",
+        "default"
+      ],
+      "kinds": [
+        "decimal-word",
+        "decimal-calculation",
+        "decimal-over-one",
+        "decimal-compare"
+      ],
+      "expression": true
+    },
+    {
+      "id": "w4-fraction-1",
+      "world": 3,
+      "type": "fraction_visual_basic",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "fraction-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-fraction-2",
+      "world": 4,
+      "type": "fraction_compare_visual",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "fraction-compare-visual"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-fraction-3",
+      "world": 4,
+      "type": "fraction_equivalent",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "fraction-equivalent-visual"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-fraction-4",
+      "world": 4,
+      "type": "fraction_compare_symbol",
+      "questionTypes": [],
+      "stageKeypad": "choice",
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "fraction-compare-symbol"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-fraction-5",
+      "world": 3,
+      "type": "fraction_add_same_denominator",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "fraction-add-same-denominator"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-fraction-6",
+      "world": 3,
+      "type": "fraction_subtract_same_denominator",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "fraction-subtract-same-denominator"
+      ],
+      "expression": false
+    },
+    {
+      "id": "w4-fraction-boss",
+      "world": 4,
+      "type": "fraction_mixed",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "fraction-subtract-same-denominator",
+        "fraction-add-same-denominator"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-compareLength",
+      "world": 1,
+      "type": "curriculum_compareLength",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-curriculum-boss",
+      "world": 1,
+      "type": "curriculum_number20",
+      "questionTypes": [
+        "curriculum_number20",
+        "curriculum_number100",
+        "curriculum_order",
+        "curriculum_compareLength",
+        "curriculum_shapeCount",
+        "curriculum_pictureData",
+        "addition_meaning",
+        "addition_single",
+        "subtraction_meaning",
+        "subtraction_single"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "number",
+        "choice",
+        "default"
+      ],
+      "kinds": [
+        "shape-build",
+        "curriculum-choice",
+        "text",
+        "subtraction_compare",
+        "addition_increase",
+        "subtraction_take",
+        "addition_groups"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-number100",
+      "world": 1,
+      "type": "curriculum_number100",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-number20",
+      "world": 1,
+      "type": "curriculum_number20",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-order",
+      "world": 1,
+      "type": "curriculum_order",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-pictureData",
+      "world": 1,
+      "type": "curriculum_pictureData",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-shapeCount",
+      "world": 1,
+      "type": "curriculum_shapeCount",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number",
+        "choice"
+      ],
+      "kinds": [
+        "shape-build"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-capacity",
+      "world": 2,
+      "type": "curriculum_capacity",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-curriculum-boss",
+      "world": 2,
+      "type": "curriculum_large2",
+      "questionTypes": [
+        "curriculum_large2",
+        "curriculum_writtenAdd",
+        "curriculum_writtenSubtract",
+        "curriculum_length2",
+        "curriculum_capacity",
+        "curriculum_half2",
+        "curriculum_rectangle2",
+        "multiply_basics",
+        "multiply_word",
+        "clock_read"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "default",
+        "keyboard",
+        "expression",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "multiply_visual_equation",
+        "clock",
+        "text",
+        "multiplication_word_visual",
+        "written-calculation"
+      ],
+      "expression": true
+    },
+    {
+      "id": "e2-half2",
+      "world": 2,
+      "type": "curriculum_half2",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-large2",
+      "world": 2,
+      "type": "curriculum_large2",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "keyboard"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-length2",
+      "world": 2,
+      "type": "curriculum_length2",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-writtenAdd",
+      "world": 2,
+      "type": "curriculum_writtenAdd",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-writtenSubtract",
+      "world": 2,
+      "type": "curriculum_writtenSubtract",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-barData",
+      "world": 3,
+      "type": "curriculum_barData",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-boxEquation",
+      "world": 3,
+      "type": "curriculum_boxEquation",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-circle",
+      "world": 3,
+      "type": "curriculum_circle",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-curriculum-boss",
+      "world": 3,
+      "type": "curriculum_large3",
+      "questionTypes": [
+        "curriculum_large3",
+        "curriculum_writtenMultiply",
+        "curriculum_remainder",
+        "curriculum_length3",
+        "curriculum_weight",
+        "curriculum_seconds",
+        "curriculum_circle",
+        "curriculum_triangle3",
+        "curriculum_barData",
+        "curriculum_boxEquation",
+        "curriculum_fractionCompare3"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "number",
+        "keyboard",
+        "choice"
+      ],
+      "kinds": [
+        "geometry-input",
+        "written-calculation",
+        "text",
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-fractionCompare3",
+      "world": 3,
+      "type": "curriculum_fractionCompare3",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-isosceles-sides",
+      "world": 3,
+      "type": "curriculum_isosceles",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-large3",
+      "world": 3,
+      "type": "curriculum_large3",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "keyboard"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-length3",
+      "world": 3,
+      "type": "curriculum_length3",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-remainder",
+      "world": 3,
+      "type": "curriculum_remainder",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-seconds",
+      "world": 3,
+      "type": "curriculum_seconds",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-triangle3",
+      "world": 3,
+      "type": "curriculum_triangle3",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-weight",
+      "world": 3,
+      "type": "curriculum_weight",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-writtenMultiply",
+      "world": 3,
+      "type": "curriculum_writtenMultiply",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-angle",
+      "world": 4,
+      "type": "curriculum_angle",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-areaRectangle",
+      "world": 4,
+      "type": "curriculum_areaRectangle",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-cube_net",
+      "world": 4,
+      "type": "cube_net",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "cube-net"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-curriculum-boss",
+      "world": 4,
+      "type": "curriculum_large4",
+      "questionTypes": [
+        "curriculum_large4",
+        "curriculum_rounding",
+        "curriculum_writtenDivide",
+        "curriculum_decimalPlaces4",
+        "curriculum_decimalIntMultiply",
+        "curriculum_decimalIntDivide",
+        "curriculum_mixedFraction4",
+        "curriculum_angle",
+        "curriculum_areaRectangle",
+        "curriculum_lineData",
+        "curriculum_orderOperations"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "number",
+        "keyboard",
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "text",
+        "geometry-input",
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-decimalIntDivide",
+      "world": 4,
+      "type": "curriculum_decimalIntDivide",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-decimalIntMultiply",
+      "world": 4,
+      "type": "curriculum_decimalIntMultiply",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-decimalPlaces4",
+      "world": 4,
+      "type": "curriculum_decimalPlaces4",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-large4",
+      "world": 4,
+      "type": "curriculum_large4",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "keyboard"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-lineData",
+      "world": 4,
+      "type": "curriculum_lineData",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-mixedFraction4",
+      "world": 4,
+      "type": "curriculum_mixedFraction4",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-orderOperations",
+      "world": 4,
+      "type": "curriculum_orderOperations",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-writtenDivide",
+      "world": 4,
+      "type": "curriculum_writtenDivide",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-average",
+      "world": 5,
+      "type": "curriculum_average",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-circumference",
+      "world": 5,
+      "type": "curriculum_circumference",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "decimal",
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-congruent",
+      "world": 5,
+      "type": "curriculum_congruent",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "mirror-grid",
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-curriculum-boss",
+      "world": 5,
+      "type": "curriculum_decimalMultiply5",
+      "questionTypes": [
+        "curriculum_decimalMultiply5",
+        "curriculum_decimalDivide5",
+        "curriculum_multiple",
+        "curriculum_divisor",
+        "curriculum_reduce",
+        "curriculum_fractionAdd5",
+        "curriculum_fractionSub5",
+        "curriculum_ratio5",
+        "curriculum_percent",
+        "curriculum_unitAmount",
+        "curriculum_speed",
+        "curriculum_average",
+        "curriculum_triangleArea",
+        "curriculum_parallelogramArea",
+        "curriculum_trapezoidArea",
+        "curriculum_rhombusArea",
+        "curriculum_volume5",
+        "curriculum_circumference",
+        "curriculum_congruent",
+        "curriculum_percentData"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "number",
+        "decimal"
+      ],
+      "kinds": [
+        "written-calculation",
+        "geometry-input",
+        "curriculum-choice",
+        "mirror-grid"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-decimalDivide5",
+      "world": 5,
+      "type": "curriculum_decimalDivide5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-decimalMultiply5",
+      "world": 5,
+      "type": "curriculum_decimalMultiply5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-divisor",
+      "world": 5,
+      "type": "curriculum_divisor",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-fractionAdd5",
+      "world": 5,
+      "type": "curriculum_fractionAdd5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-fractionSub5",
+      "world": 5,
+      "type": "curriculum_fractionSub5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-multiple",
+      "world": 5,
+      "type": "curriculum_multiple",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-parallelogramArea",
+      "world": 5,
+      "type": "curriculum_parallelogramArea",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-percent",
+      "world": 5,
+      "type": "curriculum_percent",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-percentData",
+      "world": 5,
+      "type": "curriculum_percentData",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-ratio5",
+      "world": 5,
+      "type": "curriculum_ratio5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "decimal"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-reduce",
+      "world": 5,
+      "type": "curriculum_reduce",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-rhombusArea",
+      "world": 5,
+      "type": "curriculum_rhombusArea",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-speed",
+      "world": 5,
+      "type": "curriculum_speed",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-trapezoidArea",
+      "world": 5,
+      "type": "curriculum_trapezoidArea",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-triangleArea",
+      "world": 5,
+      "type": "curriculum_triangleArea",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-unitAmount",
+      "world": 5,
+      "type": "curriculum_unitAmount",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-volume5",
+      "world": 5,
+      "type": "curriculum_volume5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-circleArea",
+      "world": 6,
+      "type": "curriculum_circleArea",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "decimal"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-combinations",
+      "world": 6,
+      "type": "curriculum_combinations",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-curriculum-boss",
+      "world": 6,
+      "type": "curriculum_fractionTimesInt",
+      "questionTypes": [
+        "curriculum_fractionTimesInt",
+        "curriculum_fractionDivideInt",
+        "curriculum_fractionMultiply",
+        "curriculum_fractionDivide",
+        "curriculum_fractionDecimal",
+        "curriculum_ratio6",
+        "curriculum_proportion",
+        "curriculum_inverse",
+        "curriculum_letter",
+        "curriculum_circleArea",
+        "curriculum_scale",
+        "curriculum_symmetry",
+        "curriculum_prismVolume",
+        "curriculum_cylinderVolume",
+        "curriculum_combinations",
+        "curriculum_median",
+        "curriculum_mode"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "number",
+        "decimal"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "mirror-grid",
+        "geometry-input",
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-cylinderVolume",
+      "world": 6,
+      "type": "curriculum_cylinderVolume",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "decimal"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-fractionDecimal",
+      "world": 6,
+      "type": "curriculum_fractionDecimal",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "decimal"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-fractionDivide",
+      "world": 6,
+      "type": "curriculum_fractionDivide",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-fractionDivideInt",
+      "world": 6,
+      "type": "curriculum_fractionDivideInt",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-fractionMultiply",
+      "world": 6,
+      "type": "curriculum_fractionMultiply",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-fractionTimesInt",
+      "world": 6,
+      "type": "curriculum_fractionTimesInt",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-frequency",
+      "world": 6,
+      "type": "curriculum_frequency",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-inverse",
+      "world": 6,
+      "type": "curriculum_inverse",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-letter",
+      "world": 6,
+      "type": "curriculum_letter",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-median",
+      "world": 6,
+      "type": "curriculum_median",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "decimal"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-mode",
+      "world": 6,
+      "type": "curriculum_mode",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-prismVolume",
+      "world": 6,
+      "type": "curriculum_prismVolume",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-proportion",
+      "world": 6,
+      "type": "curriculum_proportion",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-ratio6",
+      "world": 6,
+      "type": "curriculum_ratio6",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-scale",
+      "world": 6,
+      "type": "curriculum_scale",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "mirror-grid",
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-symmetry",
+      "world": 6,
+      "type": "curriculum_symmetry",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "mirror-grid",
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-graph_line_change",
+      "world": 4,
+      "type": "graph_line_change",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "line-graph-lesson"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-graph_line_read",
+      "world": 4,
+      "type": "graph_line_read",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "line-graph-lesson"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k1-boss",
+      "world": 101,
+      "type": "k_summary",
+      "questionTypes": [
+        "k_match",
+        "k_count_3",
+        "k_count_5",
+        "k_number_group",
+        "k_more",
+        "k_less"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k1-s1",
+      "world": 101,
+      "type": "k_match",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k1-s2",
+      "world": 101,
+      "type": "k_count_3",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k1-s3",
+      "world": 101,
+      "type": "k_count_5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k1-s4",
+      "world": 101,
+      "type": "k_number_group",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k1-s5",
+      "world": 101,
+      "type": "k_more",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k1-s6",
+      "world": 101,
+      "type": "k_less",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k2-boss",
+      "world": 102,
+      "type": "k_summary",
+      "questionTypes": [
+        "k2_count",
+        "k2_numeral",
+        "k2_number_group",
+        "k2_increase",
+        "k2_decrease",
+        "k2_next"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k2-s1",
+      "world": 102,
+      "type": "k2_count",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k2-s2",
+      "world": 102,
+      "type": "k2_numeral",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k2-s3",
+      "world": 102,
+      "type": "k2_number_group",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k2-s4",
+      "world": 102,
+      "type": "k2_increase",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k2-s5",
+      "world": 102,
+      "type": "k2_decrease",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k2-s6",
+      "world": 102,
+      "type": "k2_next",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k3-boss",
+      "world": 103,
+      "type": "k_summary",
+      "questionTypes": [
+        "k3_circle",
+        "k3_triangle",
+        "k3_square",
+        "k3_match",
+        "k3_combine",
+        "k3_group"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k3-s1",
+      "world": 103,
+      "type": "k3_circle",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k3-s2",
+      "world": 103,
+      "type": "k3_triangle",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k3-s3",
+      "world": 103,
+      "type": "k3_square",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k3-s4",
+      "world": 103,
+      "type": "k3_match",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k3-s5",
+      "world": 103,
+      "type": "k3_combine",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k3-s6",
+      "world": 103,
+      "type": "k3_group",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k4-boss",
+      "world": 104,
+      "type": "k_summary",
+      "questionTypes": [
+        "k4_size",
+        "k4_length",
+        "k4_height",
+        "k4_weight",
+        "k4_quantity",
+        "k4_same"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k4-s1",
+      "world": 104,
+      "type": "k4_size",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k4-s2",
+      "world": 104,
+      "type": "k4_length",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k4-s3",
+      "world": 104,
+      "type": "k4_height",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k4-s4",
+      "world": 104,
+      "type": "k4_weight",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k4-s5",
+      "world": 104,
+      "type": "k4_quantity",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k4-s6",
+      "world": 104,
+      "type": "k4_same",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k5-boss",
+      "world": 105,
+      "type": "k_summary",
+      "questionTypes": [
+        "k5_alternate",
+        "k5_shape_pattern",
+        "k5_size_order",
+        "k5_group",
+        "k5_odd",
+        "k5_path"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k5-s1",
+      "world": 105,
+      "type": "k5_alternate",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k5-s2",
+      "world": 105,
+      "type": "k5_shape_pattern",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k5-s3",
+      "world": 105,
+      "type": "k5_size_order",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k5-s4",
+      "world": 105,
+      "type": "k5_group",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k5-s5",
+      "world": 105,
+      "type": "k5_odd",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k5-s6",
+      "world": 105,
+      "type": "k5_path",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k6-boss",
+      "world": 106,
+      "type": "k_summary",
+      "questionTypes": [
+        "k6_count",
+        "k6_zero",
+        "k6_make5",
+        "k6_make10",
+        "k6_change",
+        "k6_position"
+      ],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k6-s1",
+      "world": 106,
+      "type": "k6_count",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k6-s2",
+      "world": 106,
+      "type": "k6_zero",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k6-s3",
+      "world": 106,
+      "type": "k6_make5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k6-s4",
+      "world": 106,
+      "type": "k6_make10",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k6-s5",
+      "world": 106,
+      "type": "k6_change",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "k6-s6",
+      "world": 106,
+      "type": "k6_position",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "default"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-line-relations",
+      "world": 4,
+      "type": "line_relations",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "line-relations"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-measure_decompose",
+      "world": 1,
+      "type": "measure_decompose",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-measure_number200",
+      "world": 1,
+      "type": "measure_number200",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-measure_capacity_ml",
+      "world": 2,
+      "type": "measure_capacity_ml",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-measure_l_ml",
+      "world": 2,
+      "type": "measure_l_ml",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-measure_m_cm",
+      "world": 2,
+      "type": "measure_m_cm",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-measure_offset",
+      "world": 2,
+      "type": "measure_offset",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-measure_ruler_cm",
+      "world": 2,
+      "type": "measure_ruler_cm",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-measure_ruler_mm",
+      "world": 2,
+      "type": "measure_ruler_mm",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-ratio_share",
+      "world": 6,
+      "type": "ratio_share",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e6-scale_map",
+      "world": 6,
+      "type": "scale_map",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-shape_compare_area",
+      "world": 1,
+      "type": "shape_compare_area",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-shape_compare_capacity",
+      "world": 1,
+      "type": "shape_compare_capacity",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-shape_compare_length",
+      "world": 1,
+      "type": "shape_compare_length",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e1-shape_match_outline",
+      "world": 1,
+      "type": "shape_match_outline",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-shape_polygon2",
+      "world": 2,
+      "type": "shape_polygon2",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "shape-lesson",
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-composite-area",
+      "world": 4,
+      "type": "curriculum_compositeArea",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-quadrilateral-properties",
+      "world": 4,
+      "type": "shape_quadrilateral4",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-speed_distance",
+      "world": 5,
+      "type": "speed_distance",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e5-speed_time",
+      "world": 5,
+      "type": "speed_time",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-1",
+      "world": 2,
+      "type": "times_table_1",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-2",
+      "world": 2,
+      "type": "times_table_2",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-3",
+      "world": 2,
+      "type": "times_table_3",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-4",
+      "world": 2,
+      "type": "times_table_4",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-5",
+      "world": 2,
+      "type": "times_table_5",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-6",
+      "world": 2,
+      "type": "times_table_6",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-7",
+      "world": 2,
+      "type": "times_table_7",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-8",
+      "world": 2,
+      "type": "times_table_8",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-times-table-9",
+      "world": 2,
+      "type": "times_table_9",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-unit-basic-cm_mm",
+      "world": 2,
+      "type": "unit_basic_cm_mm",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-unit-basic-dl_ml",
+      "world": 2,
+      "type": "unit_basic_dl_ml",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-unit-basic-kg_g",
+      "world": 3,
+      "type": "unit_basic_kg_g",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-unit-basic-km_m",
+      "world": 3,
+      "type": "unit_basic_km_m",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-unit-basic-l_dl",
+      "world": 2,
+      "type": "unit_basic_l_dl",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-unit-basic-l_ml",
+      "world": 2,
+      "type": "unit_basic_l_ml",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e2-unit-basic-m_cm",
+      "world": 2,
+      "type": "unit_basic_m_cm",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-unit-basic-t_kg",
+      "world": 3,
+      "type": "unit_basic_t_kg",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice",
+        "number"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-upper_mul2",
+      "world": 3,
+      "type": "upper_mul2",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-upper_mul3",
+      "world": 3,
+      "type": "upper_mul3",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e3-upper_weight_t",
+      "world": 3,
+      "type": "upper_weight_t",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-upper_decimal_add",
+      "world": 4,
+      "type": "upper_decimal_add",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-upper_decimal_sub",
+      "world": 4,
+      "type": "upper_decimal_sub",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "number"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "expression": false
+    },
+    {
+      "id": "e4-upper_thousandths",
+      "world": 4,
+      "type": "upper_thousandths",
+      "questionTypes": [],
+      "stageKeypad": null,
+      "modes": [
+        "choice"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "expression": false
+    }
+  ]
+}

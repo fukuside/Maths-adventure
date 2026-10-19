@@ -10,8 +10,8 @@ export default {
   stats: { hp: 285, atk: 145 },
   description: "小数の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/055-decimal-king/n.png",
-    SR: "/pictures/monsters/055-decimal-king/sr.png",
-    UR: "/pictures/monsters/055-decimal-king/ur.png"
+    N: "/pictures/monsters/055-decimal-king/n.webp",
+    SR: "/pictures/monsters/055-decimal-king/sr.webp",
+    UR: "/pictures/monsters/055-decimal-king/ur.webp"
   }
 };

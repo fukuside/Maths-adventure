@@ -10,8 +10,8 @@ export default {
   stats: { hp: 225, atk: 105 },
   description: "掛け算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/035-rainbow-dragon/n.png",
-    SR: "/pictures/monsters/035-rainbow-dragon/sr.png",
-    UR: "/pictures/monsters/035-rainbow-dragon/ur.png"
+    N: "/pictures/monsters/035-rainbow-dragon/n.webp",
+    SR: "/pictures/monsters/035-rainbow-dragon/sr.webp",
+    UR: "/pictures/monsters/035-rainbow-dragon/ur.webp"
   }
 };

@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-17",
+  "report": [
+    {
+      "question": 1,
+      "aligned": true,
+      "answer": 29,
+      "mode": "choice"
+    },
+    {
+      "question": 2,
+      "aligned": true,
+      "answer": 80,
+      "mode": "choice"
+    },
+    {
+      "question": 3,
+      "aligned": true,
+      "answer": 15,
+      "mode": "choice"
+    },
+    {
+      "question": 4,
+      "aligned": true,
+      "answer": 94,
+      "mode": "numeric"
+    },
+    {
+      "question": 5,
+      "aligned": true,
+      "answer": 32,
+      "mode": "numeric"
+    },
+    {
+      "question": 6,
+      "aligned": true,
+      "answer": 39,
+      "mode": "numeric"
+    },
+    {
+      "question": 7,
+      "aligned": true,
+      "answer": 38,
+      "mode": "numeric"
+    },
+    {
+      "question": 8,
+      "aligned": true,
+      "answer": 85,
+      "mode": "numeric"
+    },
+    {
+      "question": 9,
+      "aligned": true,
+      "answer": 16,
+      "mode": "numeric"
+    },
+    {
+      "question": 10,
+      "aligned": true,
+      "answer": 42,
+      "mode": "numeric"
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

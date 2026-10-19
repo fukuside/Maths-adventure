@@ -1,0 +1,14 @@
+.k-game { width: min(100%, 720px); margin-inline: auto; }
+.k-game .k-question-panel { padding: clamp(12px, 3vw, 24px); }
+.k-question { text-align: center; }
+.k-question h2 { font-size: clamp(21px, 4vw, 30px); margin: 8px 0 16px; }
+.k-objects { display: flex; justify-content: center; align-items: center; gap: 8px; min-height: 92px; margin: 12px auto 20px; }
+.k-symbol { width: clamp(42px, 11vw, 68px); height: clamp(42px, 11vw, 68px); flex: 0 0 auto; }
+.k-layout-group { display: grid; grid-template-columns: repeat(3, min-content); gap: 8px; width: max-content; }
+.k-choices { display: flex; justify-content: center; gap: 12px; }
+.k-choice-button { display: flex; align-items: center; justify-content: center; width: clamp(76px, 23vw, 120px); min-height: 84px; padding: 10px; border: 3px solid #42a4dc; border-radius: 16px; background: #fff; color: #163653; font-size: 40px; font-weight: 800; cursor: pointer; }
+.k-choice-button:focus-visible { outline: 4px solid #e79a10; outline-offset: 3px; }
+.k-choice-button:disabled { opacity: .65; cursor: default; }
+.k-feedback { min-height: 32px; margin: 0; text-align: center; font-weight: 700; font-size: 20px; }
+.k-feedback-correct { color: #207a41; }
+.landing-start-button + .landing-start-button { margin-top: 12px; }

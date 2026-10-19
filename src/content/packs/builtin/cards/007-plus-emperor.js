@@ -10,8 +10,8 @@ export default {
   stats: { hp: 141, atk: 49 },
   description: "足し算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/007-plus-emperor/n.png",
-    SR: "/pictures/monsters/007-plus-emperor/sr.png",
-    UR: "/pictures/monsters/007-plus-emperor/ur.png"
+    N: "/pictures/monsters/007-plus-emperor/n.webp",
+    SR: "/pictures/monsters/007-plus-emperor/sr.webp",
+    UR: "/pictures/monsters/007-plus-emperor/ur.webp"
   }
 };

@@ -237,6 +237,7 @@ export function renderKeypadForStage(
   }
 ) {
 
+  if(question?.keypad==='keyboard') return '<label class="large-number-input-label">数字を入力してね<input data-large-number-input type="text" inputmode="numeric" autocomplete="off" maxlength="20" aria-label="大きな数の答え" value="'+escapeHtml(input)+'" '+(inputEnabled?'':'disabled')+'></label>';
   const type =
     inferKeypadType(
       stage,

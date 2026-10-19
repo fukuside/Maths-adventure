@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-18T22:09:42.982Z",
+  "report": [
+    {
+      "question": 1,
+      "kind": "shape-build",
+      "answer": "2"
+    },
+    {
+      "question": 2,
+      "kind": "shape-build",
+      "answer": "C"
+    },
+    {
+      "question": 3,
+      "kind": "shape-build",
+      "answer": "1"
+    },
+    {
+      "question": 4,
+      "kind": "shape-build",
+      "answer": "B"
+    },
+    {
+      "question": 5,
+      "kind": "shape-build",
+      "answer": "1"
+    },
+    {
+      "question": 6,
+      "kind": "shape-build",
+      "answer": "B"
+    },
+    {
+      "question": 7,
+      "kind": "shape-build",
+      "answer": "2"
+    },
+    {
+      "question": 8,
+      "kind": "shape-build",
+      "answer": "B"
+    },
+    {
+      "question": 9,
+      "kind": "first-shapes",
+      "mode": "solid",
+      "answer": "A"
+    },
+    {
+      "question": 10,
+      "kind": "first-shapes",
+      "mode": "position",
+      "answer": 1
+    }
+  ],
+  "errors": [],
+  "scope": "前8問と立体選択は生成器正答。左右の位置は実描画の並びから独立計数。"
+}

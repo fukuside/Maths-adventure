@@ -10,8 +10,8 @@ export default {
   stats: { hp: 243, atk: 117 },
   description: "掛け算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/041-kuku-king-gold/n.png",
-    SR: "/pictures/monsters/041-kuku-king-gold/sr.png",
-    UR: "/pictures/monsters/041-kuku-king-gold/ur.png"
+    N: "/pictures/monsters/041-kuku-king-gold/n.webp",
+    SR: "/pictures/monsters/041-kuku-king-gold/sr.webp",
+    UR: "/pictures/monsters/041-kuku-king-gold/ur.webp"
   }
 };

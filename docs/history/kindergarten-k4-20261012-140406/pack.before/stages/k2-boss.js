@@ -1,0 +1,1 @@
+export default { id: "k2-boss", world: 102, sort: 7, unit: "k-counting", unitLabel: "もっと かぞえよう", name: "K2 まとめ", type: "k_summary", questionTypes: ["k2_count", "k2_numeral", "k2_number_group", "k2_increase", "k2_decrease", "k2_next"], course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: true };

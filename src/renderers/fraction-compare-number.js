@@ -27,7 +27,7 @@ export default {
 
 
     return `
-      <div class="fraction-s4-layout">
+      <div class="curriculum-question fraction-lesson-layout fraction-s4-layout">
 
         <div class="fraction-s4-prompt">
           ${escapeHtml(

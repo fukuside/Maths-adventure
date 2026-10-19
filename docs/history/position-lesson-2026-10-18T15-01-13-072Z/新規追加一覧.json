@@ -1,0 +1,6 @@
+[
+  "src/core/position-lesson.js",
+  "src/renderers/position-lesson.js",
+  "src/content/packs/elementary-expansion/generators/position-lesson.js",
+  "src/content/packs/elementary-expansion/stages/grade4/e4-position.js"
+]

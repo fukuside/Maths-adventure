@@ -1,0 +1,1 @@
+export default {id:"e4-line-relations",world:4,type:"line_relations",name:"平行と垂直を見分けよう",unit:"curriculum-図形",unitLabel:"図形",sort:440,questionCount:10,presentation:"persistent",isBoss:false,rewardGems:5};

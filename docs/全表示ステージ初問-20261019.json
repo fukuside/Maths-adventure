@@ -1,0 +1,18 @@
+{
+  "verifiedAt": "2026-10-18T21:08:33.177Z",
+  "stages": 229,
+  "views": 458,
+  "widths": [
+    1024,
+    390
+  ],
+  "horizontalOverflow": 0,
+  "outsideElements": 0,
+  "errors": [],
+  "scope": "表示全ステージの初問。各10問/5問の実回答や全乱数、全要素の縦方向見切れ、実機操作の成功ではない。",
+  "reports": [
+    "1〜4年生実画面点検.json",
+    "5・6年生実画面点検.json",
+    "幼児実画面点検.json"
+  ]
+}

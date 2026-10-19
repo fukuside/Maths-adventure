@@ -25,7 +25,7 @@ export default {
 
 
     return `
-      <div class="fraction-s5-layout">
+      <div class="curriculum-question fraction-lesson-layout fraction-s5-layout">
 
 
         <div class="fraction-s5-prompt">

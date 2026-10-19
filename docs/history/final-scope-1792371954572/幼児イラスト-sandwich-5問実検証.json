@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-17",
+  "stageId": "k3-s5",
+  "report": [
+    {
+      "question": 1,
+      "choice": "B"
+    },
+    {
+      "question": 2,
+      "choice": "C"
+    },
+    {
+      "question": 3,
+      "choice": "B"
+    },
+    {
+      "question": 4,
+      "choice": "B"
+    },
+    {
+      "question": 5,
+      "choice": "A"
+    }
+  ],
+  "errors": [],
+  "cleared": true,
+  "noBarriers": true
+}

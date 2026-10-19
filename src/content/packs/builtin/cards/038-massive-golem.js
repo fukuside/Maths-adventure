@@ -10,8 +10,8 @@ export default {
   stats: { hp: 234, atk: 111 },
   description: "掛け算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/038-massive-golem/n.png",
-    SR: "/pictures/monsters/038-massive-golem/sr.png",
-    UR: "/pictures/monsters/038-massive-golem/ur.png"
+    N: "/pictures/monsters/038-massive-golem/n.webp",
+    SR: "/pictures/monsters/038-massive-golem/sr.webp",
+    UR: "/pictures/monsters/038-massive-golem/ur.webp"
   }
 };

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-17",
+  "stage": "e2-unit-basic-m_cm",
+  "cleared": true,
+  "errors": [],
+  "report": [
+    {
+      "question": 1,
+      "answer": 100,
+      "mode": "choice",
+      "text": "1m＝ □ cm。□に入る数は？\nA\n\n200\n\nB\n\n100\n\nC\n\n0\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 2,
+      "answer": 1,
+      "mode": "choice",
+      "text": "100cm＝ □ m。□に入る数は？\nA\n\n2\n\nB\n\n1\n\nC\n\n0\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 3,
+      "answer": 800,
+      "mode": "choice",
+      "text": "8m＝ □ cm。□に入る数は？\nA\n\n900\n\nB\n\n800\n\nC\n\n700\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 4,
+      "answer": 300,
+      "mode": "numeric",
+      "text": "3m＝ □ cm。□に入る数は？\n\nここからは、数字で答えてみよう！\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 5,
+      "answer": 3,
+      "mode": "numeric",
+      "text": "300cm＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 6,
+      "answer": 200,
+      "mode": "numeric",
+      "text": "2m＝ □ cm。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 7,
+      "answer": 500,
+      "mode": "numeric",
+      "text": "5m＝ □ cm。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 8,
+      "answer": 9,
+      "mode": "numeric",
+      "text": "900cm＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 9,
+      "answer": 7,
+      "mode": "numeric",
+      "text": "700cm＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 10,
+      "answer": 6,
+      "mode": "numeric",
+      "text": "600cm＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    }
+  ]
+}

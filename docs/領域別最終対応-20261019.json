@@ -1,0 +1,1235 @@
+{
+  "verifiedAt": "2026-10-19T01:04:14.438Z",
+  "source": "https://www.mext.go.jp/content/20211102-mxt_kyoiku02-100002607_04.pdf",
+  "sourceScope": "PDF17〜20ページの学年/領域概要および追加照合時の詳細説明。公式文面の転載ではなく現行アプリの対応範囲を要約。",
+  "stages": 230,
+  "rows": 24,
+  "report": [
+    {
+      "grade": 1,
+      "domain": "A 数と計算",
+      "scope": "数・順番・分解・加減",
+      "activity": "図や数の比較、まとまり、式と場面の計算",
+      "stages": [
+        {
+          "id": "e1-number100",
+          "name": "100までの数",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "e1-order",
+          "name": "数の順番",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "e1-measure_number200",
+          "name": "100をこえる数",
+          "kinds": [
+            "measurement-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "e1-measure_decompose",
+          "name": "いくつといくつ",
+          "kinds": [
+            "measurement-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "w1-addition-5",
+          "name": "足し算の文章題",
+          "kinds": [
+            "addition_word_visual"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "w1-subtraction-5",
+          "name": "引き算の文章題",
+          "kinds": [
+            "subtraction_word_visual"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 1,
+      "domain": "B 図形",
+      "scope": "平面/立体の観察、構成、位置",
+      "activity": "回転ピースと数え分け、箱/筒/球、左右からの順番",
+      "stages": [
+        {
+          "id": "e1-shapeCount",
+          "name": "形のなかま",
+          "kinds": [
+            "shape-build",
+            "first-shapes"
+          ],
+          "forms": [
+            "ピースを回して構成",
+            "実図から形を数える",
+            "選択",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e1-shape_match_outline",
+          "name": "同じ形を見つけよう",
+          "kinds": [
+            "shape-lesson"
+          ],
+          "forms": [
+            "選択"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 1,
+      "domain": "C 測定",
+      "scope": "直接比較と時刻",
+      "activity": "長さ/広さ/かさを比較。時刻は既存の発展問題も含む",
+      "stages": [
+        {
+          "id": "e1-shape_compare_length",
+          "name": "長さを見てくらべよう",
+          "kinds": [
+            "shape-lesson"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "e1-shape_compare_area",
+          "name": "広さを見てくらべよう",
+          "kinds": [
+            "shape-lesson"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "e1-shape_compare_capacity",
+          "name": "水の量をくらべよう",
+          "kinds": [
+            "shape-lesson"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "w2-time-1",
+          "name": "なんじなんぷん？",
+          "kinds": [
+            "clock"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 1,
+      "domain": "D データ",
+      "scope": "絵や表から個数を読む",
+      "activity": "人数の表の読み。児童自身の調査活動とは区別",
+      "stages": [
+        {
+          "id": "e1-pictureData",
+          "name": "絵と人数の表",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 2,
+      "domain": "A 数と計算",
+      "scope": "位取り・加減・九九・簡単な分数",
+      "activity": "筆算枠、同数のまとまり、半分。各段は1〜9の専用ステージ",
+      "stages": [
+        {
+          "id": "e2-large2",
+          "name": "10000までの数",
+          "kinds": [
+            "text"
+          ],
+          "forms": [
+            "直接数値入力"
+          ]
+        },
+        {
+          "id": "e2-writtenAdd",
+          "name": "3けたの足し算",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e2-writtenSubtract",
+          "name": "3けたの引き算",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e2-times-table-6",
+          "name": "6の段であそぼう",
+          "kinds": [
+            "times-table"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e2-half2",
+          "name": "半分に分けよう",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 2,
+      "domain": "B 図形",
+      "scope": "三角形/四角形/直角と箱",
+      "activity": "名称/辺/頂点/直角、箱の面と骨組み",
+      "stages": [
+        {
+          "id": "e2-shape_polygon2",
+          "name": "形・辺・かどを調べよう",
+          "kinds": [
+            "shape-lesson",
+            "curriculum-choice",
+            "box-lesson"
+          ],
+          "forms": [
+            "選択",
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 2,
+      "domain": "C 測定",
+      "scope": "長さ・かさの単位と時刻時間",
+      "activity": "ものさしの0合わせ、水位、単位基本関係と換算、時間の前後",
+      "stages": [
+        {
+          "id": "e2-measure_ruler_mm",
+          "name": "ものさしのmmを読もう",
+          "kinds": [
+            "measurement-choice"
+          ],
+          "forms": [
+            "ものさしの0合わせと読取り"
+          ]
+        },
+        {
+          "id": "e2-measure_m_cm",
+          "name": "mとcm",
+          "kinds": [
+            "measurement-choice"
+          ],
+          "forms": [
+            "選択",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e2-capacity",
+          "name": "LとdL",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e2-measure_capacity_ml",
+          "name": "水のかさを読もう",
+          "kinds": [
+            "measurement-choice"
+          ],
+          "forms": [
+            "選択",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "w2-time-5",
+          "name": "今からなん分後？",
+          "kinds": [
+            "clock"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 2,
+      "domain": "D データ",
+      "scope": "分類と簡単な表/図",
+      "activity": "人数/合計/差/分類した空欄/同数までの人数",
+      "stages": [
+        {
+          "id": "e2-data-table",
+          "name": "表と図で人数を調べよう",
+          "kinds": [
+            "elementary-data"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 3,
+      "domain": "A 数と計算",
+      "scope": "万・位取り・乗除筆算・小数分数・式・そろばん",
+      "activity": "万/倍率/1/10、そろばん、計算。範囲の細分は個別形式台帳を参照",
+      "stages": [
+        {
+          "id": "e3-large3",
+          "name": "万の位",
+          "kinds": [
+            "text",
+            "number-scale",
+            "abacus-lesson"
+          ],
+          "forms": [
+            "直接数値入力",
+            "数値等の入力",
+            "そろばんの読み",
+            "そろばんの珠を操作"
+          ]
+        },
+        {
+          "id": "e3-upper_mul3",
+          "name": "3けた×1けた",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e3-upper_mul2",
+          "name": "2けた×2けた",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e3-remainder",
+          "name": "あまりのあるわり算",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "w4-decimal-6",
+          "name": "小数のたし算",
+          "kinds": [
+            "decimal-calculation"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "w4-fraction-5",
+          "name": "同分母の足し算",
+          "kinds": [
+            "fraction-add-same-denominator"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e3-boxEquation",
+          "name": "□を使った式",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 3,
+      "domain": "B 図形",
+      "scope": "三角形と円/球",
+      "activity": "辺の性質、半径/直径、円と球の観察",
+      "stages": [
+        {
+          "id": "e3-isosceles-sides",
+          "name": "二等辺三角形の辺を見つけよう",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e3-triangle3",
+          "name": "正三角形の辺",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e3-circle",
+          "name": "円と球の半径・直径",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 3,
+      "domain": "C 測定",
+      "scope": "長さ・重さ・時刻時間",
+      "activity": "km/m、kg/g/t、分と秒。各単位の基本ステージも保持",
+      "stages": [
+        {
+          "id": "e3-length3",
+          "name": "kmとm",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e3-weight",
+          "name": "kgとg",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "e3-upper_weight_t",
+          "name": "tとkg",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        },
+        {
+          "id": "e3-seconds",
+          "name": "分と秒",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 3,
+      "domain": "D データ",
+      "scope": "棒グラフと整理",
+      "activity": "人数/合計/差などの読み。自由な調査/グラフ制作とは区別",
+      "stages": [
+        {
+          "id": "e3-barData",
+          "name": "棒グラフを読もう",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "選択"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 4,
+      "domain": "A 数と計算",
+      "scope": "億兆概数・四則・小数分数・そろばん",
+      "activity": "大きな数/四捨五入、筆算、帯分数/仮分数と計算順序",
+      "stages": [
+        {
+          "id": "e4-large4",
+          "name": "億・兆・概数を調べよう",
+          "kinds": [
+            "text",
+            "abacus-lesson"
+          ],
+          "forms": [
+            "直接数値入力",
+            "そろばんの珠を操作"
+          ]
+        },
+        {
+          "id": "e4-writtenDivide",
+          "name": "2けたでわる",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e4-upper_decimal_add",
+          "name": "100分の1までの足し算",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e4-upper_decimal_sub",
+          "name": "100分の1までの引き算",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e4-mixedFraction4",
+          "name": "帯分数と仮分数",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e4-orderOperations",
+          "name": "計算の順序",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 4,
+      "domain": "B 図形",
+      "scope": "角・四角形・面積・箱・位置",
+      "activity": "角の合成/分割、面積単位と合成図形、展開図の面選択、2/3要素の位置",
+      "stages": [
+        {
+          "id": "e4-angle",
+          "name": "角の大きさ",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e4-quadrilateral-properties",
+          "name": "平行四辺形・ひし形・台形",
+          "kinds": [
+            "shape-lesson"
+          ],
+          "forms": [
+            "選択",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e4-areaRectangle",
+          "name": "正方形・長方形の面積",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e4-composite-area",
+          "name": "組み合わせた図形の面積",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e4-cube_net",
+          "name": "箱を組み立てよう・展開図",
+          "kinds": [
+            "cube-net"
+          ],
+          "forms": [
+            "展開図の面を選ぶ"
+          ]
+        },
+        {
+          "id": "e4-position",
+          "name": "地図と空間の位置",
+          "kinds": [
+            "position-lesson"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 4,
+      "domain": "C 変化と関係",
+      "scope": "伴って変わる二つの数量",
+      "activity": "合計一定/増加量/初期量つき/逆算を表で読む。形式的な関数の定義ではない",
+      "stages": [
+        {
+          "id": "e4-changing-table",
+          "name": "変わり方を表で調べよう",
+          "kinds": [
+            "changing-table"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 4,
+      "domain": "D データ",
+      "scope": "二次元表と折れ線",
+      "activity": "2条件の分類と合計/空欄、時間と値の変化",
+      "stages": [
+        {
+          "id": "e4-two-way-table",
+          "name": "2つの決まりで本を調べよう",
+          "kinds": [
+            "two-way-table"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e4-graph_line_change",
+          "name": "折れ線グラフの変化を読もう",
+          "kinds": [
+            "line-graph-lesson"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e4-graph_line_read",
+          "name": "折れ線グラフを調べよう",
+          "kinds": [
+            "line-graph-lesson"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 5,
+      "domain": "A 数と計算",
+      "scope": "整数の性質・小数計算・分数計算",
+      "activity": "偶数奇数/倍数約数/位取り、筆算/通分枠",
+      "stages": [
+        {
+          "id": "e5-multiple",
+          "name": "倍数・偶数と奇数",
+          "kinds": [
+            "curriculum-choice",
+            "parity-lesson"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-divisor",
+          "name": "約数と数のしくみ",
+          "kinds": [
+            "curriculum-choice",
+            "number-scale"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-decimalMultiply5",
+          "name": "小数×小数",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e5-decimalDivide5",
+          "name": "小数÷小数",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e5-reduce",
+          "name": "約分",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e5-fractionAdd5",
+          "name": "異分母の足し算",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e5-fractionSub5",
+          "name": "異分母の引き算",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 5,
+      "domain": "B 図形",
+      "scope": "合同・角・正多角形・面積・体積と立体",
+      "activity": "頂点構成、角の和、図から面積、角柱円柱の展開観察。自由作図/工作とは区別",
+      "stages": [
+        {
+          "id": "e5-congruent",
+          "name": "合同と図形の角",
+          "kinds": [
+            "mirror-grid",
+            "geometry-input"
+          ],
+          "forms": [
+            "方眼で頂点を構成",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-circumference",
+          "name": "円周と正多角形",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-triangleArea",
+          "name": "三角形の面積",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-parallelogramArea",
+          "name": "平行四辺形の面積",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-trapezoidArea",
+          "name": "台形の面積",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-rhombusArea",
+          "name": "ひし形の面積",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-volume5",
+          "name": "体積と立体のしくみ",
+          "kinds": [
+            "geometry-input",
+            "solid-net"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 5,
+      "domain": "C 変化と関係",
+      "scope": "割合・単位量・速さ",
+      "activity": "全体/部分/割合の逆算、1あたり、速さ/道のり/時間",
+      "stages": [
+        {
+          "id": "e5-percent",
+          "name": "百分率",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-ratio5",
+          "name": "割合を小数で表す",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-unitAmount",
+          "name": "単位量あたり",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-speed",
+          "name": "速さを求めよう",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-speed_distance",
+          "name": "道のりを求めよう",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-speed_time",
+          "name": "時間を求めよう",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 5,
+      "domain": "D データ",
+      "scope": "平均と割合のグラフ",
+      "activity": "平均/合計/欠けた値、円/帯グラフ。調査計画の自由活動とは区別",
+      "stages": [
+        {
+          "id": "e5-average",
+          "name": "平均",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e5-percentData",
+          "name": "割合の表",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 6,
+      "domain": "A 数と計算",
+      "scope": "分数の乗除と文字式",
+      "activity": "整数を含む分数計算と文字への代入/逆算",
+      "stages": [
+        {
+          "id": "e6-fractionTimesInt",
+          "name": "分数×整数",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e6-fractionDivideInt",
+          "name": "分数÷整数",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e6-fractionMultiply",
+          "name": "分数×分数",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e6-fractionDivide",
+          "name": "分数÷分数",
+          "kinds": [
+            "written-calculation"
+          ],
+          "forms": [
+            "筆算/通分の枠入力"
+          ]
+        },
+        {
+          "id": "e6-fractionDecimal",
+          "name": "分数と小数の混合",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-letter",
+          "name": "文字を使った式",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 6,
+      "domain": "B 図形",
+      "scope": "対称・拡大縮小・円/概形と立体体積",
+      "activity": "点/頂点操作、縮尺、近似面積と厳密な面積の区別、底面積×高さ",
+      "stages": [
+        {
+          "id": "e6-symmetry",
+          "name": "線対称と点対称",
+          "kinds": [
+            "mirror-grid",
+            "geometry-input"
+          ],
+          "forms": [
+            "方眼で対称点を選ぶ",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-scale",
+          "name": "拡大図",
+          "kinds": [
+            "mirror-grid",
+            "geometry-input"
+          ],
+          "forms": [
+            "方眼で頂点を構成",
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-scale_map",
+          "name": "縮図から道のりを求めよう",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-circleArea",
+          "name": "円とおよその面積",
+          "kinds": [
+            "geometry-input",
+            "rough-area"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-prismVolume",
+          "name": "角柱の体積",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-cylinderVolume",
+          "name": "円柱の体積",
+          "kinds": [
+            "geometry-input"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 6,
+      "domain": "C 変化と関係",
+      "scope": "比例反比例と比",
+      "activity": "表/グラフ、比1つ分、比による分配",
+      "stages": [
+        {
+          "id": "e6-proportion",
+          "name": "比例",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-inverse",
+          "name": "反比例",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-ratio6",
+          "name": "比の利用",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-ratio_share",
+          "name": "比で分けよう",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    },
+    {
+      "grade": 6,
+      "domain": "D データ",
+      "scope": "分布・代表値・場合の数",
+      "activity": "度数表/柱状/ドット、中央値/最頻値、系統的な場合分け",
+      "stages": [
+        {
+          "id": "e6-frequency",
+          "name": "度数分布とドットプロット",
+          "kinds": [
+            "curriculum-choice",
+            "dot-plot-lesson"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-median",
+          "name": "中央値",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-mode",
+          "name": "最頻値",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        },
+        {
+          "id": "e6-combinations",
+          "name": "場合の数",
+          "kinds": [
+            "curriculum-choice"
+          ],
+          "forms": [
+            "数値等の入力"
+          ]
+        }
+      ],
+      "status": "指定した観察/入力/操作の到達先を確認。領域全体の全活動充足を意味しない"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "verifiedAt": "2026-10-18T05:59:22.551Z",
+  "stageId": "e5-divisor",
+  "report": [
+    {
+      "question": 1,
+      "answer": 5,
+      "mode": "divisor"
+    },
+    {
+      "question": 2,
+      "answer": 2,
+      "mode": "divisor"
+    },
+    {
+      "question": 3,
+      "answer": 6,
+      "mode": "divisor"
+    },
+    {
+      "question": 4,
+      "answer": 4,
+      "mode": "divisor"
+    },
+    {
+      "question": 5,
+      "answer": 2,
+      "mode": "divisor"
+    },
+    {
+      "question": 6,
+      "answer": 10,
+      "mode": "divisor"
+    },
+    {
+      "question": 7,
+      "answer": 6,
+      "mode": "divisor"
+    },
+    {
+      "question": 8,
+      "answer": 3,
+      "mode": "divisor"
+    },
+    {
+      "question": 9,
+      "answer": 800,
+      "mode": "scale-up"
+    },
+    {
+      "question": 10,
+      "answer": 5.8,
+      "mode": "scale-down"
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

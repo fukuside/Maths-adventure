@@ -1,0 +1,510 @@
+{
+  "verifiedAt": "2026-10-18T22:06:38.080Z",
+  "scope": "元の追加72単元と現行表示ステージの対応。単元内の全学習内容の充足判定ではない。",
+  "report": [
+    {
+      "grade": 1,
+      "name": "20までの数",
+      "unit": "数",
+      "stage": "e1-number20",
+      "currentName": "20までの数"
+    },
+    {
+      "grade": 1,
+      "name": "100までの数",
+      "unit": "数",
+      "stage": "e1-number100",
+      "currentName": "100までの数"
+    },
+    {
+      "grade": 1,
+      "name": "数の順番",
+      "unit": "数",
+      "stage": "e1-order",
+      "currentName": "数の順番"
+    },
+    {
+      "grade": 1,
+      "name": "長さをくらべよう",
+      "unit": "測定",
+      "stage": "e1-compareLength",
+      "currentName": "長さをくらべよう"
+    },
+    {
+      "grade": 1,
+      "name": "形のなかま",
+      "unit": "図形",
+      "stage": "e1-shapeCount",
+      "currentName": "形のなかま"
+    },
+    {
+      "grade": 1,
+      "name": "絵と人数の表",
+      "unit": "データ",
+      "stage": "e1-pictureData",
+      "currentName": "絵と人数の表"
+    },
+    {
+      "grade": 2,
+      "name": "10000までの数",
+      "unit": "数",
+      "stage": "e2-large2",
+      "currentName": "10000までの数"
+    },
+    {
+      "grade": 2,
+      "name": "3けたの足し算",
+      "unit": "筆算",
+      "stage": "e2-writtenAdd",
+      "currentName": "3けたの足し算"
+    },
+    {
+      "grade": 2,
+      "name": "3けたの引き算",
+      "unit": "筆算",
+      "stage": "e2-writtenSubtract",
+      "currentName": "3けたの引き算"
+    },
+    {
+      "grade": 2,
+      "name": "cmとmm",
+      "unit": "長さ",
+      "stage": "e2-length2",
+      "currentName": "cmとmm"
+    },
+    {
+      "grade": 2,
+      "name": "LとdL",
+      "unit": "かさ",
+      "stage": "e2-capacity",
+      "currentName": "LとdL"
+    },
+    {
+      "grade": 2,
+      "name": "半分に分けよう",
+      "unit": "分数の入口",
+      "stage": "e2-half2",
+      "currentName": "半分に分けよう"
+    },
+    {
+      "grade": 2,
+      "name": "長方形の角",
+      "unit": "図形",
+      "stage": "e2-shape_polygon2",
+      "currentName": "形・辺・かどを調べよう"
+    },
+    {
+      "grade": 3,
+      "name": "万の位",
+      "unit": "数",
+      "stage": "e3-large3",
+      "currentName": "万の位"
+    },
+    {
+      "grade": 3,
+      "name": "2けた×1けた",
+      "unit": "かけ算の筆算",
+      "stage": "e3-writtenMultiply",
+      "currentName": "2けた×1けた"
+    },
+    {
+      "grade": 3,
+      "name": "あまりのあるわり算",
+      "unit": "わり算",
+      "stage": "e3-remainder",
+      "currentName": "あまりのあるわり算"
+    },
+    {
+      "grade": 3,
+      "name": "kmとm",
+      "unit": "長さ",
+      "stage": "e3-length3",
+      "currentName": "kmとm"
+    },
+    {
+      "grade": 3,
+      "name": "kgとg",
+      "unit": "重さ",
+      "stage": "e3-weight",
+      "currentName": "kgとg"
+    },
+    {
+      "grade": 3,
+      "name": "分と秒",
+      "unit": "時間",
+      "stage": "e3-seconds",
+      "currentName": "分と秒"
+    },
+    {
+      "grade": 3,
+      "name": "円の半径と直径",
+      "unit": "図形",
+      "stage": "e3-circle",
+      "currentName": "円と球の半径・直径"
+    },
+    {
+      "grade": 3,
+      "name": "正三角形の辺",
+      "unit": "図形",
+      "stage": "e3-triangle3",
+      "currentName": "正三角形の辺"
+    },
+    {
+      "grade": 3,
+      "name": "棒グラフを読もう",
+      "unit": "データ",
+      "stage": "e3-barData",
+      "currentName": "棒グラフを読もう"
+    },
+    {
+      "grade": 3,
+      "name": "□を使った式",
+      "unit": "式",
+      "stage": "e3-boxEquation",
+      "currentName": "□を使った式"
+    },
+    {
+      "grade": 3,
+      "name": "同じ分母の分数を比べよう",
+      "unit": "分数",
+      "stage": "e3-fractionCompare3",
+      "currentName": "同じ分母の分数を比べよう"
+    },
+    {
+      "grade": 4,
+      "name": "億のまとまり",
+      "unit": "数",
+      "stage": "e4-large4",
+      "currentName": "億・兆・概数を調べよう"
+    },
+    {
+      "grade": 4,
+      "name": "概数と四捨五入",
+      "unit": "数",
+      "stage": "e4-large4",
+      "currentName": "億・兆・概数を調べよう"
+    },
+    {
+      "grade": 4,
+      "name": "2けたでわる",
+      "unit": "わり算の筆算",
+      "stage": "e4-writtenDivide",
+      "currentName": "2けたでわる"
+    },
+    {
+      "grade": 4,
+      "name": "100分の1の位",
+      "unit": "小数の発展",
+      "stage": "e4-decimalPlaces4",
+      "currentName": "100分の1の位"
+    },
+    {
+      "grade": 4,
+      "name": "小数×整数",
+      "unit": "小数の発展",
+      "stage": "e4-decimalIntMultiply",
+      "currentName": "小数×整数"
+    },
+    {
+      "grade": 4,
+      "name": "小数÷整数",
+      "unit": "小数の発展",
+      "stage": "e4-decimalIntDivide",
+      "currentName": "小数÷整数"
+    },
+    {
+      "grade": 4,
+      "name": "帯分数と仮分数",
+      "unit": "分数の発展",
+      "stage": "e4-mixedFraction4",
+      "currentName": "帯分数と仮分数"
+    },
+    {
+      "grade": 4,
+      "name": "角の大きさ",
+      "unit": "図形",
+      "stage": "e4-angle",
+      "currentName": "角の大きさ"
+    },
+    {
+      "grade": 4,
+      "name": "長方形の面積",
+      "unit": "面積",
+      "stage": "e4-areaRectangle",
+      "currentName": "正方形・長方形の面積"
+    },
+    {
+      "grade": 4,
+      "name": "気温の変化",
+      "unit": "データ",
+      "stage": "e4-lineData",
+      "currentName": "気温の変化"
+    },
+    {
+      "grade": 4,
+      "name": "計算の順序",
+      "unit": "式",
+      "stage": "e4-orderOperations",
+      "currentName": "計算の順序"
+    },
+    {
+      "grade": 5,
+      "name": "小数×小数",
+      "unit": "小数",
+      "stage": "e5-decimalMultiply5",
+      "currentName": "小数×小数"
+    },
+    {
+      "grade": 5,
+      "name": "小数÷小数",
+      "unit": "小数",
+      "stage": "e5-decimalDivide5",
+      "currentName": "小数÷小数"
+    },
+    {
+      "grade": 5,
+      "name": "最小公倍数",
+      "unit": "整数の性質",
+      "stage": "e5-multiple",
+      "currentName": "倍数・偶数と奇数"
+    },
+    {
+      "grade": 5,
+      "name": "最大公約数",
+      "unit": "整数の性質",
+      "stage": "e5-divisor",
+      "currentName": "約数と数のしくみ"
+    },
+    {
+      "grade": 5,
+      "name": "約分",
+      "unit": "分数",
+      "stage": "e5-reduce",
+      "currentName": "約分"
+    },
+    {
+      "grade": 5,
+      "name": "異分母の足し算",
+      "unit": "分数",
+      "stage": "e5-fractionAdd5",
+      "currentName": "異分母の足し算"
+    },
+    {
+      "grade": 5,
+      "name": "異分母の引き算",
+      "unit": "分数",
+      "stage": "e5-fractionSub5",
+      "currentName": "異分母の引き算"
+    },
+    {
+      "grade": 5,
+      "name": "割合を小数で表す",
+      "unit": "割合",
+      "stage": "e5-ratio5",
+      "currentName": "割合を小数で表す"
+    },
+    {
+      "grade": 5,
+      "name": "百分率",
+      "unit": "割合",
+      "stage": "e5-percent",
+      "currentName": "百分率"
+    },
+    {
+      "grade": 5,
+      "name": "単位量あたり",
+      "unit": "単位量と速さ",
+      "stage": "e5-unitAmount",
+      "currentName": "単位量あたり"
+    },
+    {
+      "grade": 5,
+      "name": "速さを求めよう",
+      "unit": "単位量と速さ",
+      "stage": "e5-speed",
+      "currentName": "速さを求めよう"
+    },
+    {
+      "grade": 5,
+      "name": "平均",
+      "unit": "データ",
+      "stage": "e5-average",
+      "currentName": "平均"
+    },
+    {
+      "grade": 5,
+      "name": "三角形の面積",
+      "unit": "面積",
+      "stage": "e5-triangleArea",
+      "currentName": "三角形の面積"
+    },
+    {
+      "grade": 5,
+      "name": "平行四辺形の面積",
+      "unit": "面積",
+      "stage": "e5-parallelogramArea",
+      "currentName": "平行四辺形の面積"
+    },
+    {
+      "grade": 5,
+      "name": "台形の面積",
+      "unit": "面積",
+      "stage": "e5-trapezoidArea",
+      "currentName": "台形の面積"
+    },
+    {
+      "grade": 5,
+      "name": "ひし形の面積",
+      "unit": "面積",
+      "stage": "e5-rhombusArea",
+      "currentName": "ひし形の面積"
+    },
+    {
+      "grade": 5,
+      "name": "直方体の体積",
+      "unit": "体積",
+      "stage": "e5-volume5",
+      "currentName": "体積と立体のしくみ"
+    },
+    {
+      "grade": 5,
+      "name": "円周",
+      "unit": "図形",
+      "stage": "e5-circumference",
+      "currentName": "円周と正多角形"
+    },
+    {
+      "grade": 5,
+      "name": "合同な図形",
+      "unit": "図形",
+      "stage": "e5-congruent",
+      "currentName": "合同と図形の角"
+    },
+    {
+      "grade": 5,
+      "name": "割合の表",
+      "unit": "データ",
+      "stage": "e5-percentData",
+      "currentName": "割合の表"
+    },
+    {
+      "grade": 6,
+      "name": "分数×整数",
+      "unit": "分数",
+      "stage": "e6-fractionTimesInt",
+      "currentName": "分数×整数"
+    },
+    {
+      "grade": 6,
+      "name": "分数÷整数",
+      "unit": "分数",
+      "stage": "e6-fractionDivideInt",
+      "currentName": "分数÷整数"
+    },
+    {
+      "grade": 6,
+      "name": "分数×分数",
+      "unit": "分数",
+      "stage": "e6-fractionMultiply",
+      "currentName": "分数×分数"
+    },
+    {
+      "grade": 6,
+      "name": "分数÷分数",
+      "unit": "分数",
+      "stage": "e6-fractionDivide",
+      "currentName": "分数÷分数"
+    },
+    {
+      "grade": 6,
+      "name": "分数と小数の混合",
+      "unit": "分数",
+      "stage": "e6-fractionDecimal",
+      "currentName": "分数と小数の混合"
+    },
+    {
+      "grade": 6,
+      "name": "比の利用",
+      "unit": "比",
+      "stage": "e6-ratio6",
+      "currentName": "比の利用"
+    },
+    {
+      "grade": 6,
+      "name": "比例",
+      "unit": "比例と反比例",
+      "stage": "e6-proportion",
+      "currentName": "比例"
+    },
+    {
+      "grade": 6,
+      "name": "反比例",
+      "unit": "比例と反比例",
+      "stage": "e6-inverse",
+      "currentName": "反比例"
+    },
+    {
+      "grade": 6,
+      "name": "文字を使った式",
+      "unit": "式",
+      "stage": "e6-letter",
+      "currentName": "文字を使った式"
+    },
+    {
+      "grade": 6,
+      "name": "円の面積",
+      "unit": "図形",
+      "stage": "e6-circleArea",
+      "currentName": "円とおよその面積"
+    },
+    {
+      "grade": 6,
+      "name": "拡大図",
+      "unit": "図形",
+      "stage": "e6-scale",
+      "currentName": "拡大図"
+    },
+    {
+      "grade": 6,
+      "name": "線対称な図形",
+      "unit": "図形",
+      "stage": "e6-symmetry",
+      "currentName": "線対称と点対称"
+    },
+    {
+      "grade": 6,
+      "name": "角柱の体積",
+      "unit": "体積",
+      "stage": "e6-prismVolume",
+      "currentName": "角柱の体積"
+    },
+    {
+      "grade": 6,
+      "name": "円柱の体積",
+      "unit": "体積",
+      "stage": "e6-cylinderVolume",
+      "currentName": "円柱の体積"
+    },
+    {
+      "grade": 6,
+      "name": "場合の数",
+      "unit": "データ",
+      "stage": "e6-combinations",
+      "currentName": "場合の数"
+    },
+    {
+      "grade": 6,
+      "name": "中央値",
+      "unit": "データ",
+      "stage": "e6-median",
+      "currentName": "中央値"
+    },
+    {
+      "grade": 6,
+      "name": "最頻値",
+      "unit": "データ",
+      "stage": "e6-mode",
+      "currentName": "最頻値"
+    }
+  ]
+}

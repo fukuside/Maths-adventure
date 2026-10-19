@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-17",
+  "stageId": "e5-circumference",
+  "report": [
+    {
+      "question": 1,
+      "mode": "circumference",
+      "answer": 12.56
+    },
+    {
+      "question": 2,
+      "mode": "sides",
+      "answer": 3
+    },
+    {
+      "question": 3,
+      "mode": "circumference",
+      "answer": 28.26
+    },
+    {
+      "question": 4,
+      "mode": "center-angle",
+      "answer": 120
+    },
+    {
+      "question": 5,
+      "mode": "circumference",
+      "answer": 18.84
+    },
+    {
+      "question": 6,
+      "mode": "perimeter",
+      "answer": 21
+    },
+    {
+      "question": 7,
+      "mode": "circumference",
+      "answer": 31.4
+    },
+    {
+      "question": 8,
+      "mode": "sides",
+      "answer": 12
+    },
+    {
+      "question": 9,
+      "mode": "circumference",
+      "answer": 15.7
+    },
+    {
+      "question": 10,
+      "mode": "center-angle",
+      "answer": 30
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

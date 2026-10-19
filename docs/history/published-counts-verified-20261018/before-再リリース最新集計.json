@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-17",
+  "baseline": {
+    "path": "C:/Users/user/子育てプロジェクト/backups/before-organize-20261012-123020/maths-adventure-v1.4",
+    "verifiedAsPublishedVersion": false,
+    "stages": 60,
+    "monsters": 62,
+    "rarityVariants": 186
+  },
+  "registered": 230,
+  "visible": 226,
+  "elementary": 184,
+  "kindergarten": 42,
+  "hiddenLegacyIds": [
+    "e2-rectangle2",
+    "e4-rounding",
+    "e2-shape_rectangle2",
+    "e4-upper_trillion"
+  ],
+  "monsters": 106,
+  "rarityVariants": 318,
+  "increase": {
+    "registered": 170,
+    "visible": 166,
+    "elementary": 124,
+    "kindergarten": 42,
+    "monsters": 44,
+    "rarityVariants": 132
+  },
+  "onePassQuestionOpportunities": {
+    "before": 600,
+    "now": 2050,
+    "meaning": "全表示ステージを1回ずつ完走したときの出題機会。固定の異なる収録問題数ではない。"
+  },
+  "originalStageIdsRetained": 60,
+  "originalStageIdsRemoved": 0
+}

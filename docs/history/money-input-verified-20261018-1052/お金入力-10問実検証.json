@@ -1,0 +1,112 @@
+{
+  "verifiedAt": "2026-10-18T01:50:38.290Z",
+  "stageId": "w2-money-1",
+  "report": [
+    {
+      "question": 1,
+      "amounts": [
+        500,
+        50,
+        50
+      ],
+      "answer": 600,
+      "unitKey": true
+    },
+    {
+      "question": 2,
+      "amounts": [
+        5,
+        10
+      ],
+      "answer": 15,
+      "unitKey": false
+    },
+    {
+      "question": 3,
+      "amounts": [
+        5,
+        1,
+        1,
+        1
+      ],
+      "answer": 8,
+      "unitKey": true
+    },
+    {
+      "question": 4,
+      "amounts": [
+        10,
+        10,
+        500,
+        5
+      ],
+      "answer": 525,
+      "unitKey": false
+    },
+    {
+      "question": 5,
+      "amounts": [
+        1,
+        10
+      ],
+      "answer": 11,
+      "unitKey": true
+    },
+    {
+      "question": 6,
+      "amounts": [
+        50,
+        100,
+        1,
+        5
+      ],
+      "answer": 156,
+      "unitKey": false
+    },
+    {
+      "question": 7,
+      "amounts": [
+        500,
+        10,
+        500,
+        10,
+        100
+      ],
+      "answer": 1120,
+      "unitKey": true
+    },
+    {
+      "question": 8,
+      "amounts": [
+        1,
+        1
+      ],
+      "answer": 2,
+      "unitKey": false
+    },
+    {
+      "question": 9,
+      "amounts": [
+        5,
+        5,
+        1,
+        10
+      ],
+      "answer": 21,
+      "unitKey": true
+    },
+    {
+      "question": 10,
+      "amounts": [
+        500,
+        500,
+        10,
+        100
+      ],
+      "answer": 1110,
+      "unitKey": false
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

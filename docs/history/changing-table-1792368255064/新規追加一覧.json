@@ -1,0 +1,6 @@
+[
+  "src/core/changing-table.js",
+  "src/renderers/changing-table.js",
+  "src/content/packs/elementary-expansion/generators/changing-table.js",
+  "src/content/packs/elementary-expansion/stages/grade4/e4-changing-table.js"
+]

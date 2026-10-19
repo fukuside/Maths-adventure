@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-17",
+  "stage": "e6-symmetry",
+  "report": [
+    {
+      "question": 1,
+      "mode": "grid",
+      "answer": 71
+    },
+    {
+      "question": 2,
+      "mode": "distance",
+      "answer": 6
+    },
+    {
+      "question": 3,
+      "mode": "grid",
+      "answer": 70
+    },
+    {
+      "question": 4,
+      "mode": "distance",
+      "answer": 6
+    },
+    {
+      "question": 5,
+      "mode": "grid",
+      "answer": 47
+    },
+    {
+      "question": 6,
+      "mode": "distance",
+      "answer": 22
+    },
+    {
+      "question": 7,
+      "mode": "grid",
+      "answer": 59
+    },
+    {
+      "question": 8,
+      "mode": "distance",
+      "answer": 22
+    },
+    {
+      "question": 9,
+      "mode": "grid",
+      "answer": 55
+    },
+    {
+      "question": 10,
+      "mode": "distance",
+      "answer": 8
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

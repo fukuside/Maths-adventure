@@ -1,0 +1,1 @@
+export default { id: "k3-s5", world: 103, sort: 5, unit: "k-shapes", unitLabel: "かたちの くに", name: "かたちを くみあわせよう", type: "k3_combine", course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: false };

@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-17",
+  "report": [
+    {
+      "question": 1,
+      "mode": "rotate-build",
+      "answer": 0
+    },
+    {
+      "question": 2,
+      "mode": "count-shapes",
+      "answer": 2
+    },
+    {
+      "question": 3,
+      "mode": "rotate-build",
+      "answer": 3
+    },
+    {
+      "question": 4,
+      "mode": "count-shapes",
+      "answer": 2
+    },
+    {
+      "question": 5,
+      "mode": "rotate-build",
+      "answer": 2
+    },
+    {
+      "question": 6,
+      "mode": "count-shapes",
+      "answer": 4
+    },
+    {
+      "question": 7,
+      "mode": "rotate-build",
+      "answer": 3
+    },
+    {
+      "question": 8,
+      "mode": "count-shapes",
+      "answer": 2
+    },
+    {
+      "question": 9,
+      "mode": "rotate-build",
+      "answer": 3
+    },
+    {
+      "question": 10,
+      "mode": "count-shapes",
+      "answer": 2
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

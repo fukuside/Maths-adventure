@@ -1,0 +1,11 @@
+{
+  "verifiedAt": "2026-10-17T20:36:23.798Z",
+  "partialRunsExcluded": 10,
+  "kindergartenExcluded": true,
+  "clearCountsChecked": 100,
+  "duplicateRunIdExcluded": true,
+  "jsonRoundtrip": true,
+  "mergeIdempotent": true,
+  "mergeOrderIndependent": true,
+  "meaning": "純粋関数検証。別端末Firebase実同期・実ブラウザー100回クリアではない。"
+}

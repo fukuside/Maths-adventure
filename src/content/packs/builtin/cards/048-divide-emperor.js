@@ -10,8 +10,8 @@ export default {
   stats: { hp: 264, atk: 131 },
   description: "割り算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/048-divide-emperor/n.png",
-    SR: "/pictures/monsters/048-divide-emperor/sr.png",
-    UR: "/pictures/monsters/048-divide-emperor/ur.png"
+    N: "/pictures/monsters/048-divide-emperor/n.webp",
+    SR: "/pictures/monsters/048-divide-emperor/sr.webp",
+    UR: "/pictures/monsters/048-divide-emperor/ur.webp"
   }
 };

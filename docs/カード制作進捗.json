@@ -1,0 +1,3720 @@
+{
+  "summary": {
+    "date": "2026-10-13",
+    "elementaryReady": 100,
+    "pendingNumbers": [],
+    "kindergartenReady": 6
+  },
+  "records": [
+    {
+      "id": "001-plus-rabbit",
+      "number": 1,
+      "name": "プラスラビット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/001-plus-rabbit/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 67704
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/001-plus-rabbit/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 159152
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/001-plus-rabbit/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 345862
+        }
+      ]
+    },
+    {
+      "id": "002-sum-slime",
+      "number": 2,
+      "name": "サムスライム",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/002-sum-slime/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 70910
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/002-sum-slime/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 156052
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/002-sum-slime/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 440840
+        }
+      ]
+    },
+    {
+      "id": "003-pair-bird",
+      "number": 3,
+      "name": "ペアバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/003-pair-bird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 112224
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/003-pair-bird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 200486
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/003-pair-bird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 464518
+        }
+      ]
+    },
+    {
+      "id": "004-apple-bear",
+      "number": 4,
+      "name": "アップルベア",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/004-apple-bear/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 91002
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/004-apple-bear/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 188402
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/004-apple-bear/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 378568
+        }
+      ]
+    },
+    {
+      "id": "005-carry-fox",
+      "number": 5,
+      "name": "キャリーフォックス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/005-carry-fox/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 98856
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/005-carry-fox/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 172192
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/005-carry-fox/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 344042
+        }
+      ]
+    },
+    {
+      "id": "006-sum-lion",
+      "number": 6,
+      "name": "サムライオン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/006-sum-lion/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 122226
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/006-sum-lion/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 240992
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/006-sum-lion/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 427626
+        }
+      ]
+    },
+    {
+      "id": "007-plus-emperor",
+      "number": 7,
+      "name": "プラス・エンペラー",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/007-plus-emperor/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 104238
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/007-plus-emperor/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 247078
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/007-plus-emperor/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 462668
+        }
+      ]
+    },
+    {
+      "id": "008-minus-fox",
+      "number": 8,
+      "name": "マイナスフォックス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/008-minus-fox/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 62808
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/008-minus-fox/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 152294
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/008-minus-fox/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 387732
+        }
+      ]
+    },
+    {
+      "id": "009-take-cat",
+      "number": 9,
+      "name": "テイクキャット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/009-take-cat/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 57300
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/009-take-cat/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 131462
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/009-take-cat/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 320894
+        }
+      ]
+    },
+    {
+      "id": "010-remove-mole",
+      "number": 10,
+      "name": "リムーブモール",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/010-remove-mole/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 75880
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/010-remove-mole/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 216318
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/010-remove-mole/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 359724
+        }
+      ]
+    },
+    {
+      "id": "011-diff-bird",
+      "number": 11,
+      "name": "ディフバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/011-diff-bird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 143780
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/011-diff-bird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 291398
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/011-diff-bird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 497332
+        }
+      ]
+    },
+    {
+      "id": "012-back-bear",
+      "number": 12,
+      "name": "バックベア",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/012-back-bear/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 76532
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/012-back-bear/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 159268
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/012-back-bear/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 358076
+        }
+      ]
+    },
+    {
+      "id": "013-sub-wolf",
+      "number": 13,
+      "name": "サブウルフ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/013-sub-wolf/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 95130
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/013-sub-wolf/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 188824
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/013-sub-wolf/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 379556
+        }
+      ]
+    },
+    {
+      "id": "014-minus-king",
+      "number": 14,
+      "name": "マイナス・キング",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/014-minus-king/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 121690
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/014-minus-king/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 251318
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/014-minus-king/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 414002
+        }
+      ]
+    },
+    {
+      "id": "015-minute-mouse",
+      "number": 15,
+      "name": "ミニットマウス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/015-minute-mouse/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 89066
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/015-minute-mouse/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 193502
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/015-minute-mouse/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 414392
+        }
+      ]
+    },
+    {
+      "id": "016-hour-owl",
+      "number": 16,
+      "name": "アワーフクロウ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/016-hour-owl/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 118086
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/016-hour-owl/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 240706
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/016-hour-owl/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 488680
+        }
+      ]
+    },
+    {
+      "id": "017-clock-cat",
+      "number": 17,
+      "name": "クロックキャット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/017-clock-cat/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 122422
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/017-clock-cat/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 260500
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/017-clock-cat/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 469992
+        }
+      ]
+    },
+    {
+      "id": "018-bell-bird",
+      "number": 18,
+      "name": "ベルバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/018-bell-bird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 115022
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/018-bell-bird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 219270
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/018-bell-bird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 374750
+        }
+      ]
+    },
+    {
+      "id": "019-time-rabbit",
+      "number": 19,
+      "name": "タイムラビット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/019-time-rabbit/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 82026
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/019-time-rabbit/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 191840
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/019-time-rabbit/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 373636
+        }
+      ]
+    },
+    {
+      "id": "020-chrono-wolf",
+      "number": 20,
+      "name": "クロノウルフ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/020-chrono-wolf/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 104932
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/020-chrono-wolf/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 311112
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/020-chrono-wolf/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 468834
+        }
+      ]
+    },
+    {
+      "id": "021-chrono-king",
+      "number": 21,
+      "name": "時空王クロノス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/021-chrono-king/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 208064
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/021-chrono-king/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 384300
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/021-chrono-king/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 583508
+        }
+      ]
+    },
+    {
+      "id": "022-coin-rabbit",
+      "number": 22,
+      "name": "コインラビット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/022-coin-rabbit/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 114348
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/022-coin-rabbit/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 212634
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/022-coin-rabbit/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 457868
+        }
+      ]
+    },
+    {
+      "id": "023-yen-cat",
+      "number": 23,
+      "name": "イェンキャット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/023-yen-cat/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 132668
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/023-yen-cat/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 229202
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/023-yen-cat/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 443418
+        }
+      ]
+    },
+    {
+      "id": "024-wallet-bear",
+      "number": 24,
+      "name": "ウォレットベア",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/024-wallet-bear/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 113778
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/024-wallet-bear/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 217142
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/024-wallet-bear/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 436534
+        }
+      ]
+    },
+    {
+      "id": "025-change-fox",
+      "number": 25,
+      "name": "チェンジフォックス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/025-change-fox/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 96240
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/025-change-fox/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 200688
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/025-change-fox/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 412750
+        }
+      ]
+    },
+    {
+      "id": "026-shop-bird",
+      "number": 26,
+      "name": "ショップバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/026-shop-bird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 105446
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/026-shop-bird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 205088
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/026-shop-bird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 409618
+        }
+      ]
+    },
+    {
+      "id": "027-gold-panda",
+      "number": 27,
+      "name": "ゴールドパンダ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/027-gold-panda/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 114420
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/027-gold-panda/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 210206
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/027-gold-panda/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 447332
+        }
+      ]
+    },
+    {
+      "id": "028-money-king",
+      "number": 28,
+      "name": "貨幣王マネリオン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/028-money-king/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 187976
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/028-money-king/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 285438
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/028-money-king/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 486846
+        }
+      ]
+    },
+    {
+      "id": "029-waterpon",
+      "number": 29,
+      "name": "ウォータポン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/029-waterpon/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 155344
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/029-waterpon/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 211644
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/029-waterpon/ur.webp",
+          "exists": true,
+          "width": 1024,
+          "height": 1024,
+          "format": "webp",
+          "bytes": 426340
+        }
+      ]
+    },
+    {
+      "id": "030-twinbird",
+      "number": 30,
+      "name": "ツインバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/030-twinbird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 125500
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/030-twinbird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 224208
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/030-twinbird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 415750
+        }
+      ]
+    },
+    {
+      "id": "031-firesaurus",
+      "number": 31,
+      "name": "ファイアサウルス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/031-firesaurus/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 165718
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/031-firesaurus/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 276310
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/031-firesaurus/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 431672
+        }
+      ]
+    },
+    {
+      "id": "032-clover-turtle",
+      "number": 32,
+      "name": "クローバータートル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/032-clover-turtle/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 130096
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/032-clover-turtle/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 256634
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/032-clover-turtle/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 487172
+        }
+      ]
+    },
+    {
+      "id": "033-star-wolf",
+      "number": 33,
+      "name": "スターウルフ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/033-star-wolf/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 110262
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/033-star-wolf/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 282038
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/033-star-wolf/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 434820
+        }
+      ]
+    },
+    {
+      "id": "034-six-speaker",
+      "number": 34,
+      "name": "シックススピーカー",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/034-six-speaker/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 75030
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/034-six-speaker/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 185892
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/034-six-speaker/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 390972
+        }
+      ]
+    },
+    {
+      "id": "035-rainbow-dragon",
+      "number": 35,
+      "name": "レインボードラゴン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/035-rainbow-dragon/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 131656
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/035-rainbow-dragon/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 292026
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/035-rainbow-dragon/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 468696
+        }
+      ]
+    },
+    {
+      "id": "036-octopal",
+      "number": 36,
+      "name": "オクトパル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/036-octopal/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 168098
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/036-octopal/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 273078
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/036-octopal/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 459888
+        }
+      ]
+    },
+    {
+      "id": "037-shine-pegasus",
+      "number": 37,
+      "name": "シャインペガサス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/037-shine-pegasus/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 107354
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/037-shine-pegasus/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 265578
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/037-shine-pegasus/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 394014
+        }
+      ]
+    },
+    {
+      "id": "038-massive-golem",
+      "number": 38,
+      "name": "マッシブ・ゴーレム",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/038-massive-golem/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 198866
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/038-massive-golem/sr.webp",
+          "exists": true,
+          "width": 512,
+          "height": 512,
+          "format": "webp",
+          "bytes": 3496
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/038-massive-golem/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 521954
+        }
+      ]
+    },
+    {
+      "id": "039-lightning-fang",
+      "number": 39,
+      "name": "ライトニング・ファング",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/039-lightning-fang/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 99936
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/039-lightning-fang/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 213864
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/039-lightning-fang/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 445924
+        }
+      ]
+    },
+    {
+      "id": "040-divine-phoenix",
+      "number": 40,
+      "name": "ディバイン・フェニックス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/040-divine-phoenix/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 110294
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/040-divine-phoenix/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 218762
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/040-divine-phoenix/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 405302
+        }
+      ]
+    },
+    {
+      "id": "041-kuku-king-gold",
+      "number": 41,
+      "name": "九九キング・ゴールド",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/041-kuku-king-gold/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 172920
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/041-kuku-king-gold/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 281604
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/041-kuku-king-gold/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 407018
+        }
+      ]
+    },
+    {
+      "id": "042-half-penguin",
+      "number": 42,
+      "name": "ハーフペンギン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/042-half-penguin/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 80948
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/042-half-penguin/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 195450
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/042-half-penguin/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 477022
+        }
+      ]
+    },
+    {
+      "id": "043-divide-bird",
+      "number": 43,
+      "name": "ディバイドバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/043-divide-bird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 72748
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/043-divide-bird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 319198
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/043-divide-bird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 418734
+        }
+      ]
+    },
+    {
+      "id": "044-share-rabbit",
+      "number": 44,
+      "name": "シェアラビット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/044-share-rabbit/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 72668
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/044-share-rabbit/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 271240
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/044-share-rabbit/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 400770
+        }
+      ]
+    },
+    {
+      "id": "045-group-golem",
+      "number": 45,
+      "name": "グループゴーレム",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/045-group-golem/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 142846
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/045-group-golem/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 276128
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/045-group-golem/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 454986
+        }
+      ]
+    },
+    {
+      "id": "046-remainder-cat",
+      "number": 46,
+      "name": "リメインダーキャット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/046-remainder-cat/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 123238
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/046-remainder-cat/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 225706
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/046-remainder-cat/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 457412
+        }
+      ]
+    },
+    {
+      "id": "047-quotient-wolf",
+      "number": 47,
+      "name": "クオシェントウルフ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/047-quotient-wolf/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 92686
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/047-quotient-wolf/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 203232
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/047-quotient-wolf/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 471820
+        }
+      ]
+    },
+    {
+      "id": "048-divide-emperor",
+      "number": 48,
+      "name": "ディバイド・エンペラー",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/048-divide-emperor/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 115474
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/048-divide-emperor/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 224656
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/048-divide-emperor/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 473588
+        }
+      ]
+    },
+    {
+      "id": "049-point-slime",
+      "number": 49,
+      "name": "ポイントスライム",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/049-point-slime/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 76560
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/049-point-slime/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 148910
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/049-point-slime/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 353958
+        }
+      ]
+    },
+    {
+      "id": "050-tenths-pon",
+      "number": 50,
+      "name": "テンスポン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/050-tenths-pon/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 58806
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/050-tenths-pon/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 120094
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/050-tenths-pon/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 302352
+        }
+      ]
+    },
+    {
+      "id": "051-decimal-cat",
+      "number": 51,
+      "name": "デシマルキャット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/051-decimal-cat/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 162746
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/051-decimal-cat/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 274972
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/051-decimal-cat/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 458084
+        }
+      ]
+    },
+    {
+      "id": "052-dot-bird",
+      "number": 52,
+      "name": "ドットバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/052-dot-bird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 117414
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/052-dot-bird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 232956
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/052-dot-bird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 423978
+        }
+      ]
+    },
+    {
+      "id": "053-zero-tenths-bear",
+      "number": 53,
+      "name": "ゼロテンベア",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/053-zero-tenths-bear/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 124216
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/053-zero-tenths-bear/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 246342
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/053-zero-tenths-bear/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 427114
+        }
+      ]
+    },
+    {
+      "id": "054-point-dragon",
+      "number": 54,
+      "name": "ポイントドラゴン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/054-point-dragon/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 85472
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/054-point-dragon/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 170620
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/054-point-dragon/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 466286
+        }
+      ]
+    },
+    {
+      "id": "055-decimal-king",
+      "number": 55,
+      "name": "小数王デシマロン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/055-decimal-king/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 259218
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/055-decimal-king/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 365272
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/055-decimal-king/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 484620
+        }
+      ]
+    },
+    {
+      "id": "056-half-moon",
+      "number": 56,
+      "name": "ハーフムーン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/056-half-moon/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 186928
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/056-half-moon/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 330318
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/056-half-moon/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 483992
+        }
+      ]
+    },
+    {
+      "id": "057-third-bird",
+      "number": 57,
+      "name": "サードバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/057-third-bird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 294384
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/057-third-bird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 405454
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/057-third-bird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 501558
+        }
+      ]
+    },
+    {
+      "id": "058-quarter-rabbit",
+      "number": 58,
+      "name": "クォータービット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/058-quarter-rabbit/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 260332
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/058-quarter-rabbit/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 364420
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/058-quarter-rabbit/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 513750
+        }
+      ]
+    },
+    {
+      "id": "059-numerator-rabbit",
+      "number": 59,
+      "name": "ニュメラビット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/059-numerator-rabbit/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 283290
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/059-numerator-rabbit/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 366538
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/059-numerator-rabbit/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 517586
+        }
+      ]
+    },
+    {
+      "id": "060-denominator-bird",
+      "number": 60,
+      "name": "デノミバード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/060-denominator-bird/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 285128
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/060-denominator-bird/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 372896
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/060-denominator-bird/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 519902
+        }
+      ]
+    },
+    {
+      "id": "061-fraction-fairy",
+      "number": 61,
+      "name": "フラクションフェアリー",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/061-fraction-fairy/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 283318
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/061-fraction-fairy/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 380212
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/061-fraction-fairy/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 491786
+        }
+      ]
+    },
+    {
+      "id": "062-fraction-king",
+      "number": 62,
+      "name": "分数皇ラショナル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/062-fraction-king/n.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 310010
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/062-fraction-king/sr.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 424714
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/062-fraction-king/ur.webp",
+          "exists": true,
+          "width": 1254,
+          "height": 1254,
+          "format": "webp",
+          "bytes": 600728
+        }
+      ]
+    },
+    {
+      "id": "063-proper-monster",
+      "number": 63,
+      "name": "プロバーモンスター",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/063-proper-monster/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 134404
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/063-proper-monster/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 256126
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/063-proper-monster/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 364372
+        }
+      ]
+    },
+    {
+      "id": "064-equal-king",
+      "number": 64,
+      "name": "イコールキング",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/064-equal-king/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 171482
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/064-equal-king/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 230864
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/064-equal-king/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 367030
+        }
+      ]
+    },
+    {
+      "id": "065-small-knight",
+      "number": 65,
+      "name": "スモールナイト",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/065-small-knight/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 129240
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/065-small-knight/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 163836
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/065-small-knight/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 346522
+        }
+      ]
+    },
+    {
+      "id": "066-percent-devil",
+      "number": 66,
+      "name": "パーセントデビル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/066-percent-devil/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 101848
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/066-percent-devil/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 256042
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/066-percent-devil/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 346926
+        }
+      ]
+    },
+    {
+      "id": "067-ratio-seraphim",
+      "number": 67,
+      "name": "レシオセラフィム",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/067-ratio-seraphim/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 124422
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/067-ratio-seraphim/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 210838
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/067-ratio-seraphim/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 370998
+        }
+      ]
+    },
+    {
+      "id": "068-average-goddess",
+      "number": 68,
+      "name": "アベレージゴッデス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/068-average-goddess/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 179792
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/068-average-goddess/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 230144
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/068-average-goddess/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 425998
+        }
+      ]
+    },
+    {
+      "id": "069-balance-cerberus",
+      "number": 69,
+      "name": "バランスケルベロス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/069-balance-cerberus/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 143136
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/069-balance-cerberus/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 219938
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/069-balance-cerberus/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 430478
+        }
+      ]
+    },
+    {
+      "id": "070-speed-valkyrie",
+      "number": 70,
+      "name": "スピードヴァルキリー",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/070-speed-valkyrie/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 125734
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/070-speed-valkyrie/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 191408
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/070-speed-valkyrie/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 417502
+        }
+      ]
+    },
+    {
+      "id": "071-distance-griffon",
+      "number": 71,
+      "name": "ディスタンスグリフォン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/071-distance-griffon/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 93664
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/071-distance-griffon/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 204152
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/071-distance-griffon/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 418434
+        }
+      ]
+    },
+    {
+      "id": "072-time-chrono-demon",
+      "number": 72,
+      "name": "タイムクロノデーモン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/072-time-chrono-demon/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 85460
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/072-time-chrono-demon/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 205858
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/072-time-chrono-demon/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 397106
+        }
+      ]
+    },
+    {
+      "id": "073-unit-fenrir",
+      "number": 73,
+      "name": "ユニットフェンリル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/073-unit-fenrir/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 225230
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/073-unit-fenrir/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 272252
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/073-unit-fenrir/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 307654
+        }
+      ]
+    },
+    {
+      "id": "074-density-titan",
+      "number": 74,
+      "name": "デンシティタイタン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/074-density-titan/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 230682
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/074-density-titan/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 269092
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/074-density-titan/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 316538
+        }
+      ]
+    },
+    {
+      "id": "075-rate-mercury",
+      "number": 75,
+      "name": "レートマーキュリー",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/075-rate-mercury/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 217372
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/075-rate-mercury/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 215820
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/075-rate-mercury/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 275862
+        }
+      ]
+    },
+    {
+      "id": "076-proportion-succubus",
+      "number": 76,
+      "name": "プロポーションサキュバス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/076-proportion-succubus/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 312632
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/076-proportion-succubus/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 375104
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/076-proportion-succubus/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 392308
+        }
+      ]
+    },
+    {
+      "id": "077-average-archangel",
+      "number": 77,
+      "name": "アベレージアークエンジェル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/077-average-archangel/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 326564
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/077-average-archangel/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 338570
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/077-average-archangel/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 336736
+        }
+      ]
+    },
+    {
+      "id": "078-ratio-twin-dragon",
+      "number": 78,
+      "name": "レシオツインドラゴン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/078-ratio-twin-dragon/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 386108
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/078-ratio-twin-dragon/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 396682
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/078-ratio-twin-dragon/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 380514
+        }
+      ]
+    },
+    {
+      "id": "079-proportion-unicorn",
+      "number": 79,
+      "name": "プロポーションユニコーン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/079-proportion-unicorn/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 306548
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/079-proportion-unicorn/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 320278
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/079-proportion-unicorn/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 386662
+        }
+      ]
+    },
+    {
+      "id": "080-scale-fairy",
+      "number": 80,
+      "name": "スケールフェアリー",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/080-scale-fairy/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 329808
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/080-scale-fairy/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 353312
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/080-scale-fairy/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 359998
+        }
+      ]
+    },
+    {
+      "id": "081-geometric-demon",
+      "number": 81,
+      "name": "ジオメトリックデーモン",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/081-geometric-demon/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 271024
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/081-geometric-demon/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 336878
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/081-geometric-demon/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 384114
+        }
+      ]
+    },
+    {
+      "id": "082-polygon-chimera",
+      "number": 82,
+      "name": "ポリゴンキマイラ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/082-polygon-chimera/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 367674
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/082-polygon-chimera/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 428096
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/082-polygon-chimera/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 380322
+        }
+      ]
+    },
+    {
+      "id": "083-circle-goddess",
+      "number": 83,
+      "name": "サークルゴッデス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/083-circle-goddess/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 376750
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/083-circle-goddess/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 368366
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/083-circle-goddess/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 401286
+        }
+      ]
+    },
+    {
+      "id": "084-angle-archangel",
+      "number": 84,
+      "name": "アングルアークエンジェル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/084-angle-archangel/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 247408
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/084-angle-archangel/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 305336
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/084-angle-archangel/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 364858
+        }
+      ]
+    },
+    {
+      "id": "085-graph-sphinx",
+      "number": 85,
+      "name": "グラフスフィンクス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/085-graph-sphinx/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 295454
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/085-graph-sphinx/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 284218
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/085-graph-sphinx/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 332990
+        }
+      ]
+    },
+    {
+      "id": "086-data-oracle",
+      "number": 86,
+      "name": "データオラクル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/086-data-oracle/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 350426
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/086-data-oracle/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 354986
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/086-data-oracle/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 411434
+        }
+      ]
+    },
+    {
+      "id": "087-alphabet-witch",
+      "number": 87,
+      "name": "アルファベットウィッチ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/087-alphabet-witch/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 248302
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/087-alphabet-witch/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 309066
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/087-alphabet-witch/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 323576
+        }
+      ]
+    },
+    {
+      "id": "088-algebra-devil-lord",
+      "number": 88,
+      "name": "アルジェブラデビルロード",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/088-algebra-devil-lord/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 353776
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/088-algebra-devil-lord/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 334390
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/088-algebra-devil-lord/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 396482
+        }
+      ]
+    },
+    {
+      "id": "089-zeus-proportional",
+      "number": 89,
+      "name": "ゼウス・プロポーショナル",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/089-zeus-proportional/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 259896
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/089-zeus-proportional/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 249292
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/089-zeus-proportional/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 294860
+        }
+      ]
+    },
+    {
+      "id": "090-signed-swordsman",
+      "number": 90,
+      "name": "正負の剣士",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/090-signed-swordsman/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 325170
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/090-signed-swordsman/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 291740
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/090-signed-swordsman/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 371838
+        }
+      ]
+    },
+    {
+      "id": "091-expression-ninja",
+      "number": 91,
+      "name": "文字式の忍",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/091-expression-ninja/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 248242
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/091-expression-ninja/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 290804
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/091-expression-ninja/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 289720
+        }
+      ]
+    },
+    {
+      "id": "092-equation-samurai",
+      "number": 92,
+      "name": "方程式の侍",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/092-equation-samurai/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 346362
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/092-equation-samurai/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 339380
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/092-equation-samurai/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 341968
+        }
+      ]
+    },
+    {
+      "id": "093-proportion-archer-princess",
+      "number": 93,
+      "name": "比例の弓姫",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/093-proportion-archer-princess/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 230394
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/093-proportion-archer-princess/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 338254
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/093-proportion-archer-princess/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 348312
+        }
+      ]
+    },
+    {
+      "id": "094-data-strategist",
+      "number": 94,
+      "name": "資料の軍師",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/094-data-strategist/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 283258
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/094-data-strategist/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 315542
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/094-data-strategist/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 339546
+        }
+      ]
+    },
+    {
+      "id": "095-plane-geometry-lancer",
+      "number": 95,
+      "name": "平面図形の槍兵",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/095-plane-geometry-lancer/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 270674
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/095-plane-geometry-lancer/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 296560
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/095-plane-geometry-lancer/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 322928
+        }
+      ]
+    },
+    {
+      "id": "096-solid-geometry-shield-general",
+      "number": 96,
+      "name": "空間図形の盾将",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/096-solid-geometry-shield-general/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 365082
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/096-solid-geometry-shield-general/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 385024
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/096-solid-geometry-shield-general/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 391422
+        }
+      ]
+    },
+    {
+      "id": "097-linear-function-chief",
+      "number": 97,
+      "name": "一次関数の筆頭",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/097-linear-function-chief/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 363746
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/097-linear-function-chief/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 345474
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/097-linear-function-chief/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 405062
+        }
+      ]
+    },
+    {
+      "id": "098-simultaneous-equation-dual-swords",
+      "number": 98,
+      "name": "連立方程式の双剣士",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/098-simultaneous-equation-dual-swords/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 348370
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/098-simultaneous-equation-dual-swords/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 335564
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/098-simultaneous-equation-dual-swords/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 377142
+        }
+      ]
+    },
+    {
+      "id": "099-inequality-general",
+      "number": 99,
+      "name": "不等式の大将",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/099-inequality-general/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 327070
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/099-inequality-general/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 329188
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/099-inequality-general/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 325334
+        }
+      ]
+    },
+    {
+      "id": "100-number-goddess-hikari",
+      "number": 100,
+      "name": "数の女神ヒカリ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/pictures/monsters/100-number-goddess-hikari/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 373868
+        },
+        {
+          "rarity": "SR",
+          "url": "/pictures/monsters/100-number-goddess-hikari/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 366192
+        },
+        {
+          "rarity": "UR",
+          "url": "/pictures/monsters/100-number-goddess-hikari/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 379598
+        }
+      ]
+    },
+    {
+      "id": "kg-001",
+      "number": "K001",
+      "name": "かずりん",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/packs/kindergarten/monsters/kg-001/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 102134
+        },
+        {
+          "rarity": "SR",
+          "url": "/packs/kindergarten/monsters/kg-001/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 152500
+        },
+        {
+          "rarity": "UR",
+          "url": "/packs/kindergarten/monsters/kg-001/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 279308
+        }
+      ]
+    },
+    {
+      "id": "kg-002",
+      "number": "K002",
+      "name": "かぞえラビ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/packs/kindergarten/monsters/kg-002/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 131956
+        },
+        {
+          "rarity": "SR",
+          "url": "/packs/kindergarten/monsters/kg-002/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 175312
+        },
+        {
+          "rarity": "UR",
+          "url": "/packs/kindergarten/monsters/kg-002/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 284580
+        }
+      ]
+    },
+    {
+      "id": "kg-003",
+      "number": "K003",
+      "name": "かたちフォックス",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/packs/kindergarten/monsters/kg-003/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 162604
+        },
+        {
+          "rarity": "SR",
+          "url": "/packs/kindergarten/monsters/kg-003/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 244200
+        },
+        {
+          "rarity": "UR",
+          "url": "/packs/kindergarten/monsters/kg-003/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 351590
+        }
+      ]
+    },
+    {
+      "id": "kg-004",
+      "number": "K004",
+      "name": "くらべベア",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/packs/kindergarten/monsters/kg-004/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 189952
+        },
+        {
+          "rarity": "SR",
+          "url": "/packs/kindergarten/monsters/kg-004/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 212076
+        },
+        {
+          "rarity": "UR",
+          "url": "/packs/kindergarten/monsters/kg-004/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 340416
+        }
+      ]
+    },
+    {
+      "id": "kg-005",
+      "number": "K005",
+      "name": "きまりキャット",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/packs/kindergarten/monsters/kg-005/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 165512
+        },
+        {
+          "rarity": "SR",
+          "url": "/packs/kindergarten/monsters/kg-005/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 231546
+        },
+        {
+          "rarity": "UR",
+          "url": "/packs/kindergarten/monsters/kg-005/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 335026
+        }
+      ]
+    },
+    {
+      "id": "kg-006",
+      "number": "K006",
+      "name": "にじドラ",
+      "ready": true,
+      "images": [
+        {
+          "rarity": "N",
+          "url": "/packs/kindergarten/monsters/kg-006/n.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 119028
+        },
+        {
+          "rarity": "SR",
+          "url": "/packs/kindergarten/monsters/kg-006/sr.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 215030
+        },
+        {
+          "rarity": "UR",
+          "url": "/packs/kindergarten/monsters/kg-006/ur.webp",
+          "exists": true,
+          "width": 1080,
+          "height": 1080,
+          "format": "webp",
+          "bytes": 278602
+        }
+      ]
+    }
+  ]
+}

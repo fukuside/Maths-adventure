@@ -1,0 +1,13 @@
+{
+  "verifiedAt": "2026-10-19T01:46:08.813Z",
+  "history": [
+    "/test-vocal.mp3",
+    "/test-menu.mp3",
+    ""
+  ],
+  "checks": [
+    "track changes stop old audio before loading next",
+    "missing top track never falls back to menu",
+    "muted/empty track does not start"
+  ]
+}

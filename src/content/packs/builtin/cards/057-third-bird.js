@@ -10,8 +10,8 @@ export default {
   stats: { hp: 291, atk: 149 },
   description: "分数の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/057-third-bird/n.png",
-    SR: "/pictures/monsters/057-third-bird/sr.png",
-    UR: "/pictures/monsters/057-third-bird/ur.png"
+    N: "/pictures/monsters/057-third-bird/n.webp",
+    SR: "/pictures/monsters/057-third-bird/sr.webp",
+    UR: "/pictures/monsters/057-third-bird/ur.webp"
   }
 };

@@ -1,0 +1,7 @@
+const r=(a,b)=>a+Math.floor(Math.random()*(b-a+1));
+export function divideGridQuestion(){
+ const divisor=r(11,39),quotient=r(11,24),remainder=r(0,divisor-1),a=divisor*quotient+remainder,first=Math.floor(a/10),last=a%10,tens=Math.floor(first/divisor),product1=divisor*tens,rest1=first-product1,brought=rest1*10+last,ones=Math.floor(brought/divisor),product2=divisor*ones,rest2=brought-product2,slots=[];
+ const add=(value,label)=>{const index=slots.length;slots.push({value,label});return {slot:index};},row=(v,start,length,label)=>{const cells=Array(3).fill(null);for(let p=0;p<length;p++)cells[p+start]=add(Math.floor(v/10**p)%10,label+'：'+['一','十','百'][p]+'の位');return cells;};
+ const quotientCells=[null,add(tens,'商の十の位をたてよう'),null];const p1=row(product1,1,2,'わる数×商の十の位'),r1=row(rest1,1,2,'最初のひき算');r1[0]=add(last,'一の位の数字を下ろそう');quotientCells[0]=add(ones,'商の一の位をたてよう');const p2=row(product2,0,3,'わる数×商の一の位'),r2=row(rest2,0,2,'最後のひき算・あまり');
+ return {kind:'written-calculation',multiplicationGrid:true,division:true,a,b:divisor,width:3,slots,rows:[{label:'商',cells:quotientCells},{label:divisor+' ）',cells:Array.from({length:3},(_,p)=>({text:Math.floor(a/10**p)%10})),bracket:true},{label:'−',cells:p1,rule:true},{label:'下ろす',cells:r1},{label:'−',cells:p2,rule:true},{label:'あまり',cells:r2}],answer:slots.map(s=>s.value).join(''),solution:quotient+' あまり '+remainder,keypad:'number',uniqueKey:'divide-grid:'+a+':'+divisor,prompt:'商をたてる → かける → ひく → 下ろす。順番にひっ算をしよう。'};
+}

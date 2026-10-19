@@ -1,0 +1,69 @@
+{
+  "verifiedAt": "2026-10-18T03:51:59.639Z",
+  "stageId": "w4-fraction-5",
+  "report": [
+    {
+      "question": 1,
+      "denominator": 5,
+      "numerator": 4,
+      "input": "5/4"
+    },
+    {
+      "question": 2,
+      "denominator": 7,
+      "numerator": 4,
+      "input": "7/4"
+    },
+    {
+      "question": 3,
+      "denominator": 3,
+      "numerator": 2,
+      "input": "3/2"
+    },
+    {
+      "question": 4,
+      "denominator": 5,
+      "numerator": 5,
+      "input": "5/5"
+    },
+    {
+      "question": 5,
+      "denominator": 4,
+      "numerator": 3,
+      "input": "4/3"
+    },
+    {
+      "question": 6,
+      "denominator": 7,
+      "numerator": 5,
+      "input": "7/5"
+    },
+    {
+      "question": 7,
+      "denominator": 4,
+      "numerator": 2,
+      "input": "4/2"
+    },
+    {
+      "question": 8,
+      "denominator": 4,
+      "numerator": 4,
+      "input": "4/4"
+    },
+    {
+      "question": 9,
+      "denominator": 3,
+      "numerator": 3,
+      "input": "3/3"
+    },
+    {
+      "question": 10,
+      "denominator": 6,
+      "numerator": 6,
+      "input": "6/6"
+    }
+  ],
+  "errors": [],
+  "incompleteSubmitChecked": true,
+  "cleared": true
+}

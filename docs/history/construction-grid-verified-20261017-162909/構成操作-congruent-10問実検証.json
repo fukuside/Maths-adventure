@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-17",
+  "stageId": "e5-congruent",
+  "report": [
+    {
+      "question": 1,
+      "mode": "construction",
+      "answer": 24
+    },
+    {
+      "question": 2,
+      "mode": "length",
+      "answer": 6
+    },
+    {
+      "question": 3,
+      "mode": "construction",
+      "answer": 43
+    },
+    {
+      "question": 4,
+      "mode": "length",
+      "answer": 16
+    },
+    {
+      "question": 5,
+      "mode": "construction",
+      "answer": 33
+    },
+    {
+      "question": 6,
+      "mode": "length",
+      "answer": 24
+    },
+    {
+      "question": 7,
+      "mode": "construction",
+      "answer": 39
+    },
+    {
+      "question": 8,
+      "mode": "length",
+      "answer": 20
+    },
+    {
+      "question": 9,
+      "mode": "construction",
+      "answer": 34
+    },
+    {
+      "question": 10,
+      "mode": "length",
+      "answer": 14
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

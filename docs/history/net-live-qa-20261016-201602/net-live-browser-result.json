@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-16",
+  "isolatedProfile": true,
+  "firstWrongRetry": true,
+  "twoBarriersAfterWrong": true,
+  "netInsideSection": true,
+  "mobileNoHorizontalOverflow": true,
+  "completedQuestions": 10,
+  "result": "⚔️ Maths-adventure\n💾 ローカル\n💎 5\n🎉\nクエストクリア！\n\n宝箱を開けて報酬を受け取ろう。\n\n🎁\nタップして宝箱を開ける",
+  "buttons": [
+    {
+      "action": "open-chest",
+      "text": "🎁\nタップして宝箱を開ける"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-17",
+  "stage": "e3-unit-basic-km_m",
+  "cleared": true,
+  "errors": [],
+  "report": [
+    {
+      "question": 1,
+      "answer": 1000,
+      "mode": "choice",
+      "text": "1km＝ □ m。□に入る数は？\nA\n\n0\n\nB\n\n2000\n\nC\n\n1000\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 2,
+      "answer": 1,
+      "mode": "choice",
+      "text": "1000m＝ □ km。□に入る数は？\nA\n\n0\n\nB\n\n2\n\nC\n\n1\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 3,
+      "answer": 9,
+      "mode": "choice",
+      "text": "9000m＝ □ km。□に入る数は？\nA\n\n9\n\nB\n\n8\n\nC\n\n10\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 4,
+      "answer": 3,
+      "mode": "numeric",
+      "text": "3000m＝ □ km。□に入る数は？\n\nここからは、数字で答えてみよう！\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 5,
+      "answer": 7000,
+      "mode": "numeric",
+      "text": "7km＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 6,
+      "answer": 2000,
+      "mode": "numeric",
+      "text": "2km＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 7,
+      "answer": 5000,
+      "mode": "numeric",
+      "text": "5km＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 8,
+      "answer": 4000,
+      "mode": "numeric",
+      "text": "4km＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 9,
+      "answer": 6000,
+      "mode": "numeric",
+      "text": "6km＝ □ m。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 10,
+      "answer": 2,
+      "mode": "numeric",
+      "text": "2000m＝ □ km。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    }
+  ]
+}

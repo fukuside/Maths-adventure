@@ -1,0 +1,16 @@
+{
+  "verifiedAt": "2026-10-19T02:20:29.833Z",
+  "offPersists": true,
+  "onPersists": true,
+  "muteSkipsCorrectSound": true,
+  "muteStopsActiveOutput": true,
+  "muteSkipsChestAndDelayedReveal": true,
+  "onRestoresCorrectAndChestSounds": true,
+  "gameAndResultBgmPaused": true,
+  "beforeMutedChest": 3,
+  "beforeEnabledChest": 33,
+  "afterEnabledChest": 39,
+  "peak": 0.08406008034944534,
+  "errors": [],
+  "scope": "実メディア状態と発音処理・音量ゲートを確認。スピーカーでの聴取ではない。"
+}

@@ -1,0 +1,12 @@
+{
+  "verifiedAt": "2026-10-19T01:27:09.389Z",
+  "report": [
+    "1200ms fade decreases volume and stops",
+    "game/result playback blocked",
+    "pending play is cancelled; stale promise preserves newer play",
+    "interrupted fade resolves and replaced app disposes old audio",
+    "tabs claim one owner; stage start silences peers; hidden page pauses",
+    "all existing screen/function names preserved"
+  ],
+  "scope": "制御と競合の隔離テスト。スピーカーでの聴取ではない。"
+}

@@ -10,8 +10,8 @@ export default {
   stats: { hp: 204, atk: 91 },
   description: "お金の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/028-money-king/n.png",
-    SR: "/pictures/monsters/028-money-king/sr.png",
-    UR: "/pictures/monsters/028-money-king/ur.png"
+    N: "/pictures/monsters/028-money-king/n.webp",
+    SR: "/pictures/monsters/028-money-king/sr.webp",
+    UR: "/pictures/monsters/028-money-king/ur.webp"
   }
 };

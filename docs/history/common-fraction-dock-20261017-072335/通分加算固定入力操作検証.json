@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-17",
+  "stage": "e5-fractionAdd5",
+  "operands": [
+    [
+      1,
+      2
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "inputCount": 5,
+  "incompleteSubmitNoLifeLoss": true,
+  "advancedToQuestion2": true,
+  "errors": [],
+  "steps": [
+    {
+      "active": {
+        "top": 373.0625,
+        "bottom": 424.0625
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 373.0625,
+        "bottom": 424.0625
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 225.0625,
+        "bottom": 276.0625
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 282.0625,
+        "bottom": 333.0625
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": null,
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    }
+  ]
+}

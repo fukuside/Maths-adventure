@@ -1,0 +1,58 @@
+{
+  "verifiedAt": "2026-10-18T08:02:10.901Z",
+  "stageId": "e5-volume5",
+  "report": [
+    {
+      "question": 1,
+      "answer": 36,
+      "mode": "volume"
+    },
+    {
+      "question": 2,
+      "answer": 3,
+      "mode": "volume"
+    },
+    {
+      "question": 3,
+      "answer": 3,
+      "mode": "volume"
+    },
+    {
+      "question": 4,
+      "answer": 24,
+      "mode": "volume"
+    },
+    {
+      "question": 5,
+      "answer": 2,
+      "mode": "volume"
+    },
+    {
+      "question": 6,
+      "answer": 5,
+      "mode": "volume"
+    },
+    {
+      "question": 7,
+      "answer": 60,
+      "mode": "volume"
+    },
+    {
+      "question": 8,
+      "answer": 8,
+      "mode": "prism-faces"
+    },
+    {
+      "question": 9,
+      "answer": 2,
+      "mode": "cylinder"
+    },
+    {
+      "question": 10,
+      "answer": 10,
+      "mode": "prism-vertices"
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

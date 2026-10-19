@@ -10,8 +10,8 @@ export default {
   stats: { hp: 267, atk: 133 },
   description: "小数の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/049-point-slime/n.png",
-    SR: "/pictures/monsters/049-point-slime/sr.png",
-    UR: "/pictures/monsters/049-point-slime/ur.png"
+    N: "/pictures/monsters/049-point-slime/n.webp",
+    SR: "/pictures/monsters/049-point-slime/sr.webp",
+    UR: "/pictures/monsters/049-point-slime/ur.webp"
   }
 };

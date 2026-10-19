@@ -9,7 +9,7 @@ export default {
         : [];
 
     return `
-      <div class="decimal-compare-simple">
+      <div class="curriculum-question decimal-compare-simple">
 
         <div class="decimal-compare-simple-prompt">
           ${escapeHtml(

@@ -1,0 +1,1 @@
+export default {id:'e4-composite-area',world:4,type:'curriculum_compositeArea',name:'組み合わせた図形の面積',unit:'curriculum-図形',unitLabel:'図形',sort:329,questionCount:10,presentation:'persistent',isBoss:false,rewardGems:5};

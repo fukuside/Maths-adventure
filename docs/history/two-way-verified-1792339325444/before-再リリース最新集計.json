@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-18",
+  "baseline": {
+    "path": "C:/Users/user/子育てプロジェクト/backups/before-organize-20261012-123020/maths-adventure-v1.4",
+    "verifiedAsPublishedVersion": false,
+    "stages": 60,
+    "monsters": 62,
+    "rarityVariants": 186
+  },
+  "registered": 232,
+  "visible": 228,
+  "elementary": 186,
+  "kindergarten": 42,
+  "hiddenLegacyIds": [
+    "e2-rectangle2",
+    "e4-rounding",
+    "e2-shape_rectangle2",
+    "e4-upper_trillion"
+  ],
+  "monsters": 106,
+  "rarityVariants": 318,
+  "increase": {
+    "registered": 172,
+    "visible": 168,
+    "elementary": 126,
+    "kindergarten": 42,
+    "monsters": 44,
+    "rarityVariants": 132
+  },
+  "onePassQuestionOpportunities": {
+    "before": 600,
+    "now": 2070,
+    "meaning": "全表示ステージを1回ずつ完走したときの出題機会。固定の異なる収録問題数ではない。"
+  },
+  "originalStageIdsRetained": 60,
+  "originalStageIdsRemoved": 0,
+  "publishedBaseline": {
+    "url": "https://maths-adventure-psi.vercel.app/",
+    "verifiedAt": "2026-10-18T12:40:14.637Z",
+    "bundle": "/assets/index-CatjP_ix.js",
+    "sha256": "6defd811ef8525e08d86e6b91678128c5dc96c457612105ff8f39f18c5d8d4a6",
+    "stages": 60,
+    "monsters": 62,
+    "rarityVariants": 186,
+    "backupStageAndCardIdsMatch": true,
+    "scope": "公開配信の定義数とIDを確認。バックアップ全ファイルの同一性の判定ではない。"
+  },
+  "verifiedAt": "2026-10-18T15:02:28.460Z"
+}

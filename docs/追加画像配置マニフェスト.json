@@ -1,0 +1,302 @@
+[
+  {
+    "number": 63,
+    "name": "プロバーモンスター",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\63\\ChatGPT Image 2026年7月20日 09_08_42.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\063-proper-monster\\n.png",
+    "target": "public/pictures/monsters/063-proper-monster/n.png",
+    "sha256": "b0a3677b8b1f31b4484f540ca26bd2beb4403d243ea04bc23a4b2e468d28b1d5",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 63,
+    "name": "プロバーモンスター",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\63\\ChatGPT Image 2026年7月20日 09_08_34.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\063-proper-monster\\sr.png",
+    "target": "public/pictures/monsters/063-proper-monster/sr.png",
+    "sha256": "8b7bce625d97e9e7c55dc49ba40d22e349a6357af13a558bee48700da7794601",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 63,
+    "name": "プロバーモンスター",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\63\\ChatGPT Image 2026年7月20日 09_08_28.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\063-proper-monster\\ur.png",
+    "target": "public/pictures/monsters/063-proper-monster/ur.png",
+    "sha256": "44468e65b37ca8718fe9c67b1d36e92757de69483551d8a0747d6b371d8e3db5",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 64,
+    "name": "イコールキング",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\64\\ChatGPT Image 2026年7月20日 09_09_25.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\064-equal-king\\n.png",
+    "target": "public/pictures/monsters/064-equal-king/n.png",
+    "sha256": "bf1fb3a4e21c9b42a2dc1ac3ba023b2d99007c4afd5b2da54453a932fdc24647",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 64,
+    "name": "イコールキング",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\64\\ChatGPT Image 2026年7月20日 09_09_33.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\064-equal-king\\sr.png",
+    "target": "public/pictures/monsters/064-equal-king/sr.png",
+    "sha256": "c37522445daaf22ff5ca4f85d375cd0d958cf978af40da44e47664077981299f",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 64,
+    "name": "イコールキング",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\64\\ChatGPT Image 2026年7月20日 09_09_39.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\064-equal-king\\ur.png",
+    "target": "public/pictures/monsters/064-equal-king/ur.png",
+    "sha256": "0a85ac199281260e589b39cf7bab11b07e737c3ce0325c324ba3d05878187d9c",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 65,
+    "name": "スモールナイト",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\65\\ChatGPT Image 2026年7月20日 08_47_58.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\065-small-knight\\n.png",
+    "target": "public/pictures/monsters/065-small-knight/n.png",
+    "sha256": "2e19a9ba61bc62d86eb06c7804bcfd54d371713804d001ce9ceae78909e049a0",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 65,
+    "name": "スモールナイト",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\65\\ChatGPT Image 2026年7月20日 09_07_17.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\065-small-knight\\sr.png",
+    "target": "public/pictures/monsters/065-small-knight/sr.png",
+    "sha256": "82bbf591621e13512472603585891f8c4447de8ae27f4ab226a7f656f20cb166",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 65,
+    "name": "スモールナイト",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\65\\ChatGPT Image 2026年7月20日 09_07_11.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\065-small-knight\\ur.png",
+    "target": "public/pictures/monsters/065-small-knight/ur.png",
+    "sha256": "c42cd6d007512149420cdbf0f58d091c5dd1572eaefd5bd889a288604144dc01",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 66,
+    "name": "パーセントデビル",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\66\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\066-percent-devil\\n.png",
+    "target": "public/pictures/monsters/066-percent-devil/n.png",
+    "sha256": "1b3b75fe5ea466fc8c49202e2ffbf9b3d6537385fb37e20a60c0dc7d30cd7fc1",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 66,
+    "name": "パーセントデビル",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\66\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\066-percent-devil\\sr.png",
+    "target": "public/pictures/monsters/066-percent-devil/sr.png",
+    "sha256": "867e10a6af108be2e019be9d6be30f28f50d35ea345395cb9755bb5aadbcb8fd",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 66,
+    "name": "パーセントデビル",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\66\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\066-percent-devil\\ur.png",
+    "target": "public/pictures/monsters/066-percent-devil/ur.png",
+    "sha256": "ac98943bb2a758d05ed07b06844699ae6e43ca6c9d876869f4b2296114298266",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 67,
+    "name": "レシオセラフィム",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\67\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\067-ratio-seraphim\\n.png",
+    "target": "public/pictures/monsters/067-ratio-seraphim/n.png",
+    "sha256": "4af633c9aac61f4f6ce6bf17b466b8510252777813543d90b5f7e072aa257c0f",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 67,
+    "name": "レシオセラフィム",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\67\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\067-ratio-seraphim\\sr.png",
+    "target": "public/pictures/monsters/067-ratio-seraphim/sr.png",
+    "sha256": "d905d30fff2a295372f12145f1d1d5f38063323cd89c6b008c0e06cd84a710c0",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 67,
+    "name": "レシオセラフィム",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\67\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\067-ratio-seraphim\\ur.png",
+    "target": "public/pictures/monsters/067-ratio-seraphim/ur.png",
+    "sha256": "58736d0ae3866a546f47b8797966b5e236487c793cfb250b0fdb0fe487747d05",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 68,
+    "name": "アベレージゴッデス",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\68\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\068-average-goddess\\n.png",
+    "target": "public/pictures/monsters/068-average-goddess/n.png",
+    "sha256": "75e0b2c574e9263c69f92ce84b89ba62a14b93ab8e544931cd9dc169a55fbe0f",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 68,
+    "name": "アベレージゴッデス",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\68\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\068-average-goddess\\sr.png",
+    "target": "public/pictures/monsters/068-average-goddess/sr.png",
+    "sha256": "0dc9b11afa480fa6a61488dfb9fd18e1dfd23dc48807588c1fd0fda3ee366f2a",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 68,
+    "name": "アベレージゴッデス",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\68\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\068-average-goddess\\ur.png",
+    "target": "public/pictures/monsters/068-average-goddess/ur.png",
+    "sha256": "ae821cfde644a68aa851cbb337f88558b1210ad9613490e614e99277b059757b",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 69,
+    "name": "バランスケルベロス",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\69\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\069-balance-cerberus\\n.png",
+    "target": "public/pictures/monsters/069-balance-cerberus/n.png",
+    "sha256": "da721f0a8d6566d6b33104f466369e365144f72a73ec088651adfdc831001305",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 69,
+    "name": "バランスケルベロス",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\69\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\069-balance-cerberus\\sr.png",
+    "target": "public/pictures/monsters/069-balance-cerberus/sr.png",
+    "sha256": "193fdb788b154e9cc58ef20915923135b82922c578221e1533efe82e675c2c46",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 69,
+    "name": "バランスケルベロス",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\69\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\069-balance-cerberus\\ur.png",
+    "target": "public/pictures/monsters/069-balance-cerberus/ur.png",
+    "sha256": "72ed42326557e92f49f936707d1a8f4bfb4bd519328062dec07013eb172de9d6",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 70,
+    "name": "スピードヴァルキリー",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\70\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\070-speed-valkyrie\\n.png",
+    "target": "public/pictures/monsters/070-speed-valkyrie/n.png",
+    "sha256": "62b327212dc5f70cab73915b029266a20fdce818b4bef559b401052cbce92858",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 70,
+    "name": "スピードヴァルキリー",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\70\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\070-speed-valkyrie\\sr.png",
+    "target": "public/pictures/monsters/070-speed-valkyrie/sr.png",
+    "sha256": "2a771f6ab1a259daaa915a5a93cae3a4bba397813a7c351c046486ed52b3a611",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 70,
+    "name": "スピードヴァルキリー",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\70\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\070-speed-valkyrie\\ur.png",
+    "target": "public/pictures/monsters/070-speed-valkyrie/ur.png",
+    "sha256": "f062889f081d0e058f2b457fc085b4d9d5feb9a149be7163b5012cbcf2f721d5",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 71,
+    "name": "ディスタンスグリフォン",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\71\\ChatGPT Image 2026年7月28日 13_59_54.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\071-distance-griffon\\n.png",
+    "target": "public/pictures/monsters/071-distance-griffon/n.png",
+    "sha256": "97748178182b2c1853079a1d004947f43e412c7c46962da818dd650ac2111794",
+    "note": "NはSR・URと外見が大きく異なるため確認事項"
+  },
+  {
+    "number": 71,
+    "name": "ディスタンスグリフォン",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\71\\ChatGPT Image 2026年7月28日 13_59_44.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\071-distance-griffon\\sr.png",
+    "target": "public/pictures/monsters/071-distance-griffon/sr.png",
+    "sha256": "2166c199b2fdf98564595c67f5b4448c35e1841872eef22ad4cd03fd5fe118ce",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 71,
+    "name": "ディスタンスグリフォン",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\71\\ChatGPT Image 2026年7月28日 13_59_34.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\071-distance-griffon\\ur.png",
+    "target": "public/pictures/monsters/071-distance-griffon/ur.png",
+    "sha256": "6f18c20a4128ed9215d10d66c8fbad48050fa171af8d2117a14b451c1ae56284",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 72,
+    "name": "タイムクロノデーモン",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\72\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\072-time-chrono-demon\\n.png",
+    "target": "public/pictures/monsters/072-time-chrono-demon/n.png",
+    "sha256": "87fb7dab240257b7370d63c9680ddb399ab04b9c603a0932ce95d0dffa2028f9",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 72,
+    "name": "タイムクロノデーモン",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\72\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\072-time-chrono-demon\\sr.png",
+    "target": "public/pictures/monsters/072-time-chrono-demon/sr.png",
+    "sha256": "2efae9f5223fc242b741bfd74a7f34d10ff7576adbcc5fc93f0cedcb31f8921e",
+    "note": "内容を見てレア度を対応付け"
+  },
+  {
+    "number": 72,
+    "name": "タイムクロノデーモン",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\子育てプロジェクト\\assets-source\\モンスター素材\\72\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\既存追加画像\\072-time-chrono-demon\\ur.png",
+    "target": "public/pictures/monsters/072-time-chrono-demon/ur.png",
+    "sha256": "9325c9b36647d5807b2d8ea71eeb6c1bfd2a3f155848af8c8214eff842f05ded",
+    "note": "内容を見てレア度を対応付け"
+  }
+]

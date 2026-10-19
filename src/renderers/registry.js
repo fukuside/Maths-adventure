@@ -1,3 +1,5 @@
+import {makeInlineChoices} from '../core/inline-choices.js';
+import {formatFractionHtml} from '../core/fraction-text.js';
 const coreModules = import.meta.glob("./*.js", { eager: true, import: "default" });
 const packModules = import.meta.glob("../content/packs/*/renderers/**/*.js", { eager: true, import: "default" });
 const renderers = new Map();
@@ -8,5 +10,7 @@ for (const [path, item] of Object.entries({ ...coreModules, ...packModules })) {
 }
 export function renderQuestionByKind(question, context) {
   const renderer = renderers.get(question?.kind ?? "text") ?? renderers.get("text");
-  return renderer(question, context);
+  const html=renderer(question, context);
+  const formatted=question?.kind==='curriculum-choice'||question?.kind==='text'?formatFractionHtml(html):html;
+  return makeInlineChoices(formatted,question,context);
 }

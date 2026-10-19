@@ -10,8 +10,8 @@ export default {
   stats: { hp: 303, atk: 157 },
   description: "分数の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/061-fraction-fairy/n.png",
-    SR: "/pictures/monsters/061-fraction-fairy/sr.png",
-    UR: "/pictures/monsters/061-fraction-fairy/ur.png"
+    N: "/pictures/monsters/061-fraction-fairy/n.webp",
+    SR: "/pictures/monsters/061-fraction-fairy/sr.webp",
+    UR: "/pictures/monsters/061-fraction-fairy/ur.webp"
   }
 };

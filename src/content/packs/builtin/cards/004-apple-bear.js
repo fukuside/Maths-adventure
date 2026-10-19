@@ -10,8 +10,8 @@ export default {
   stats: { hp: 132, atk: 43 },
   description: "足し算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/004-apple-bear/n.png",
-    SR: "/pictures/monsters/004-apple-bear/sr.png",
-    UR: "/pictures/monsters/004-apple-bear/ur.png"
+    N: "/pictures/monsters/004-apple-bear/n.webp",
+    SR: "/pictures/monsters/004-apple-bear/sr.webp",
+    UR: "/pictures/monsters/004-apple-bear/ur.webp"
   }
 };

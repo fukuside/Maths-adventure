@@ -1,0 +1,12 @@
+export default {kind:'geometry-input',render(q,{escapeHtml:e}){
+ const t=(x,y,s)=>'<text x="'+x+'" y="'+y+'" text-anchor="middle">'+e(s)+'</text>';
+ const line=(x1,y1,x2,y2,dash=false)=>'<line x1="'+x1+'" y1="'+y1+'" x2="'+x2+'" y2="'+y2+'" '+(dash?'stroke-dasharray="6 5" class="geometry-height"':'')+'/>';
+ let art='';const polygon=points=>'<polygon points="'+points+'"/>';
+ if(q.model==='isosceles'){const h=Math.sqrt(q.a*q.a-q.b*q.b/4),scale=Math.min(260/q.b,175/h),dx=q.b*scale/2,top=215-h*scale;art=polygon((210-dx)+',215 '+(210+dx)+',215 210,'+top)+t(210,245,q.b+'cm')+t(210-dx/2-25,(215+top)/2,q.a+'cm')+t(210+dx/2+30,(215+top)/2,q.missing?'？':q.a+'cm')+line(210-dx/2-6,(215+top)/2-3,210-dx/2+6,(215+top)/2+3)+line(210+dx/2-6,(215+top)/2+3,210+dx/2+6,(215+top)/2-3);}
+ else if(['circle','circleArea','circumference'].includes(q.model)){art='<circle cx="210" cy="125" r="80"/>'+line(q.model==='circumference'?130:210,125,290,125)+t(235,112,(q.model==='circumference'?'直径':'半径')+q.a+'cm')+'<circle cx="210" cy="125" r="3" class="geometry-center"/>';}
+ else if(q.model==='angle'){const rad=q.a*Math.PI/180;art=line(95,205,310,205)+line(95,205,95,30)+line(95,205,95+180*Math.cos(rad),205-180*Math.sin(rad))+'<path d="M95 185 H115 V205" fill="none"/>'+t(260,180,q.a+'°')+t(130,120,'？');}
+ else if(q.model==='rhombusArea'){art=polygon('210,30 350,125 210,220 70,125')+line(70,125,350,125,true)+line(210,30,210,220,true)+t(270,110,q.a+'cm')+t(175,170,q.b+'cm');}
+ else if(q.model==='triangle3'){art=polygon('70,215 350,215 210,40')+t(210,245,q.a+'cm')+t(115,110,q.a+'cm')+t(310,110,q.a+'cm');}
+ else {const tri=q.model==='triangleArea',para=q.model==='parallelogramArea',trap=q.model==='trapezoidArea';art=polygon(tri?'70,215 350,215 190,40':para?'60,215 300,215 350,45 110,45':trap?'60,215 350,215 285,45 135,45':'80,215 340,215 340,45 80,45');art+=t(210,245,(trap?q.c:q.a)+'cm');if(trap)art+=t(210,30,q.a+'cm');art+=line(tri?190:trap?135:para?110:80,45,tri?190:trap?135:para?110:80,215,true)+t(45,130,q.b+'cm');}
+ return '<div class="curriculum-question geometry-question"><div class="text-question">'+e(q.prompt)+'</div><svg viewBox="0 0 420 270" role="img" aria-label="'+e(q.prompt)+'">'+art+'</svg><p class="muted">図を見て、数字で答えよう。単位：'+e(q.unit)+'</p></div>';
+}};

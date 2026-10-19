@@ -1,0 +1,164 @@
+[
+  {
+    "id": "kg-001",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-300cbfa5-da9e-4589-865f-848448029278.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-001\\original\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-001\\n.png",
+    "target": "public/packs/kindergarten/monsters/kg-001/n.png",
+    "sha256": "4bceb5eb86e28734afd2d8b7e2f6947b7474748b2b33fb70c3e1e520efec8758"
+  },
+  {
+    "id": "kg-001",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5dfda54b-ceb2-4c32-a85a-6f36a1ff73f6.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-001\\original\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-001\\sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-001/sr.png",
+    "sha256": "1d273b8e850ee7a13276da6e94d4514854ffb5ca5c1b1dfd8ac5f7b0988a7205"
+  },
+  {
+    "id": "kg-001",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-07c384c6-03ef-4475-9c75-258d639706fd.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-001\\original\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-001\\ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-001/ur.png",
+    "sha256": "75f6c545f13e8a6d5a40b414e71d504270519457554d318a4769044e239e4254"
+  },
+  {
+    "id": "kg-002",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ad86ba31-c604-4273-aca4-44d30663e0e9.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-002\\original\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-002\\n.png",
+    "target": "public/packs/kindergarten/monsters/kg-002/n.png",
+    "sha256": "21b634172dd39d2981c0c8fc64d4b78f30be4adb7c79920705f2958d6b80ec3e"
+  },
+  {
+    "id": "kg-002",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d7d13de4-6e7f-4693-be33-9b84f108c4a9.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-002\\original\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-002\\sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-002/sr.png",
+    "sha256": "26b5fd8c325ea0c3e1d54c1c34bd7917f2575c33c6ce785f2977bcd6a812a9de"
+  },
+  {
+    "id": "kg-002",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d3bc3363-d44e-4306-941b-a7683791bbfd.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-002\\original\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-002\\ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-002/ur.png",
+    "sha256": "cef70d8ee1dbd3ce329934d9879a4637c9d4742ed9cd88e6bfe8575a59a89c21"
+  },
+  {
+    "id": "kg-003",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d8c706c5-9e87-455f-b473-7fb2700430cd.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-003\\original\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-003\\n.png",
+    "target": "public/packs/kindergarten/monsters/kg-003/n.png",
+    "sha256": "5a88dca8f4d6957ca95e2c65c358a0b75d69c7af435f32903daf98ef78f60e75"
+  },
+  {
+    "id": "kg-003",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8962eea9-cf71-4fa0-8742-d9dffbc2ff40.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-003\\original\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-003\\sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-003/sr.png",
+    "sha256": "f1e1a1dc8ca860a9064c1ba17fd67a3298fa204b5227747d442b96afd1a77864"
+  },
+  {
+    "id": "kg-003",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9a954c43-e4e2-424c-a059-0a564dd21335.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-003\\original\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-003\\ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-003/ur.png",
+    "sha256": "95ec6986122263a4879e53f0ef3188739d9351d6536683275292d9a98ca7ae63"
+  },
+  {
+    "id": "kg-004",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-30c81397-4c8e-447b-8482-7eb25242bd1c.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-004\\original\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-004\\n.png",
+    "target": "public/packs/kindergarten/monsters/kg-004/n.png",
+    "sha256": "ef931477809b93ac37f8fd0a45c9c069ed25b6110b9b96a9d388143a8410cc69"
+  },
+  {
+    "id": "kg-004",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8cddc294-6e9c-408b-a2d0-657cad43054f.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-004\\original\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-004\\sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-004/sr.png",
+    "sha256": "6a8fd58a6b08c7902b031173fed7291be09e82200a78852933feab56aa7d5959"
+  },
+  {
+    "id": "kg-004",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e8bb3589-4736-4d7b-96b5-e95cea8404c0.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-004\\original\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-004\\ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-004/ur.png",
+    "sha256": "5bbc3be1b068bf6afc7d3eff62188ab101291fb208f5ea97444fc457fb6bc3e8"
+  },
+  {
+    "id": "kg-005",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0030c032-c529-464e-bff4-822c16b65e37.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-005\\original\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-005\\n.png",
+    "target": "public/packs/kindergarten/monsters/kg-005/n.png",
+    "sha256": "a698463155e71b455bf67376d77b605bd4eeb254946b07977238c8d87982a9c4"
+  },
+  {
+    "id": "kg-005",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4a1b95be-8714-4f74-bca9-ad6de7c00b34.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-005\\original\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-005\\sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-005/sr.png",
+    "sha256": "8fc368da2a43b1b2eb2bd0138cbc35650567e5b6a7eabe9595c53c32181a5192"
+  },
+  {
+    "id": "kg-005",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f0c91624-40d2-4e62-8f29-4d020b97960c.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-005\\original\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-005\\ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-005/ur.png",
+    "sha256": "90fb3e433c5a25ead7648f4a2118d696863cafb1ddfce5f400fb5af3dace807c"
+  },
+  {
+    "id": "kg-006",
+    "rarity": "N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c7693e2b-53bc-47e2-a17f-07e9bfc90b08.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-006\\original\\n.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-006\\n.png",
+    "target": "public/packs/kindergarten/monsters/kg-006/n.png",
+    "sha256": "6be2d27694161be69020660ae093362c2251683483bddd14ffff802d99538e82"
+  },
+  {
+    "id": "kg-006",
+    "rarity": "SR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d818d032-41f9-4e67-a28a-cc67a191ddbf.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-006\\original\\sr.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-006\\sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-006/sr.png",
+    "sha256": "50cc65eac638d52f2644e74e319f4f9879036d0f490c2c990bd294b8c1fee57d"
+  },
+  {
+    "id": "kg-006",
+    "rarity": "UR",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9380907b-3a6b-464c-89f9-6aba620198ac.png",
+    "original": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-006\\original\\ur.png",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\幼児カード素材\\kg-006\\ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-006/ur.png",
+    "sha256": "70e8fdfe7bf0076ab2dadc06739f3865ae8a3df87a05b96812c72affba69fd5e"
+  }
+]

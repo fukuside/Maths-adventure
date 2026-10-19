@@ -10,8 +10,8 @@ export default {
   stats: { hp: 288, atk: 147 },
   description: "分数の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/056-half-moon/n.png",
-    SR: "/pictures/monsters/056-half-moon/sr.png",
-    UR: "/pictures/monsters/056-half-moon/ur.png"
+    N: "/pictures/monsters/056-half-moon/n.webp",
+    SR: "/pictures/monsters/056-half-moon/sr.webp",
+    UR: "/pictures/monsters/056-half-moon/ur.webp"
   }
 };

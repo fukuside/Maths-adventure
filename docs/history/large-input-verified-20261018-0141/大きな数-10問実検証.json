@@ -1,0 +1,91 @@
+{
+  "verifiedAt": "2026-10-17T16:38:34.552Z",
+  "stageId": "e4-large4",
+  "report": [
+    {
+      "question": 1,
+      "mode": "zero-count",
+      "prompt": "星の図書館で、数のなぞを解こう！\n300000000に数字の0は何個ありますか？",
+      "answer": 8,
+      "source": "８",
+      "submit": "enter"
+    },
+    {
+      "question": 2,
+      "mode": "zero-count",
+      "prompt": "数の探検隊、出発！\n7000000000000に数字の0は何個ありますか？",
+      "answer": 12,
+      "source": "12",
+      "submit": "button"
+    },
+    {
+      "question": 3,
+      "mode": "rounding",
+      "prompt": "771を十の位までの概数にします。四捨五入すると？",
+      "answer": 770,
+      "source": "７７０",
+      "submit": "enter"
+    },
+    {
+      "question": 4,
+      "mode": "zero-count",
+      "prompt": "星の図書館で、数のなぞを解こう！\n20000000000に数字の0は何個ありますか？",
+      "answer": 10,
+      "source": "10",
+      "submit": "button"
+    },
+    {
+      "question": 5,
+      "mode": "large-number",
+      "prompt": "数の探検隊、出発！\n1百兆を数字で書こう。",
+      "answer": 100000000000000,
+      "source": "１００００００００００００００",
+      "submit": "enter"
+    },
+    {
+      "question": 6,
+      "mode": "rounding",
+      "prompt": "349を十の位までの概数にします。四捨五入すると？",
+      "answer": 350,
+      "source": "350",
+      "submit": "button"
+    },
+    {
+      "question": 7,
+      "mode": "large-number",
+      "prompt": "星の図書館で、数のなぞを解こう！\n9百億を数字で書こう。",
+      "answer": 90000000000,
+      "source": "９００００００００００",
+      "submit": "enter"
+    },
+    {
+      "question": 8,
+      "mode": "zero-count",
+      "prompt": "星の図書館で、数のなぞを解こう！\n20000000000000に数字の0は何個ありますか？",
+      "answer": 13,
+      "source": "13",
+      "submit": "button"
+    },
+    {
+      "question": 9,
+      "mode": "rounding",
+      "prompt": "839を十の位までの概数にします。四捨五入すると？",
+      "answer": 840,
+      "source": "８４０",
+      "submit": "enter"
+    },
+    {
+      "question": 10,
+      "mode": "large-number",
+      "prompt": "数の探検隊、出発！\n1十億と5を数字で書こう。",
+      "answer": 1000000005,
+      "source": "1,000,000,005",
+      "submit": "button"
+    }
+  ],
+  "errors": [],
+  "emptySubmitChecked": true,
+  "normalizedFullwidth": true,
+  "normalizedSeparators": true,
+  "cleared": true
+}

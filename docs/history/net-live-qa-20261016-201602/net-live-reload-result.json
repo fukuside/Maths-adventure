@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-16",
+  "isolatedProfile": true,
+  "rewardImages": [
+    {
+      "src": "/pictures/monsters/006-sum-lion/n.webp",
+      "complete": true,
+      "width": 1254
+    }
+  ],
+  "trailAfterReload": {
+    "text": "⚔️\n箱を組み立てよう・展開図\n10問クリア 1回",
+    "stars": 1,
+    "medals": 0
+  },
+  "extraTrailOnReload": false
+}

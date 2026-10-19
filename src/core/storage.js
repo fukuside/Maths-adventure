@@ -1,3 +1,4 @@
+import {normalizeTrails,mergeTrails} from './challenge-trails.js';
 import {
   ensureAnonymousUser,
   isFirebaseConfigured,
@@ -71,6 +72,7 @@ function normalizeState(
 
   return {
 
+    challengeTrails: normalizeTrails(state.challengeTrails),
     gems:
       Number(
         state.gems ?? 0
@@ -249,6 +251,7 @@ function mergeState(
   return normalizeState({
 
     ...base,
+    challengeTrails: mergeTrails(local.challengeTrails,cloud.challengeTrails),
 
     unlockedCards,
 

@@ -1,0 +1,19 @@
+{
+  "verifiedAt": "2026-10-18T04:57:16.047Z",
+  "stageId": "w2-money-1",
+  "before": {
+    "trail": "10問クリア 1回",
+    "gems": "💎 190"
+  },
+  "after": {
+    "trail": "10問クリア 1回",
+    "gems": "💎 190"
+  },
+  "wrongThenAbandon": true,
+  "noClearTrailAdded": true,
+  "noGemsAwarded": true,
+  "reentryFreshBarriers": true,
+  "reentryFirstQuestion": true,
+  "errors": [],
+  "scope": "実ゲームの誤答→中断→再挑戦。学習レポート保存やFirebase別端末の成功判定ではない。"
+}

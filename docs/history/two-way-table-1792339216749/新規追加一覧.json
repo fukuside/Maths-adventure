@@ -1,0 +1,6 @@
+[
+  "src/core/two-way-table.js",
+  "src/renderers/two-way-table.js",
+  "src/content/packs/elementary-expansion/generators/two-way-table.js",
+  "src/content/packs/elementary-expansion/stages/grade4/e4-two-way-table.js"
+]

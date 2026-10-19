@@ -1,0 +1,1682 @@
+[
+  {
+    "source": "public/pictures/monsters/001-plus-rabbit/n.png",
+    "target": "public/pictures/monsters/001-plus-rabbit/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\001-plus-rabbit\\n.webp",
+    "originalBytes": 1546132,
+    "webpBytes": 67704
+  },
+  {
+    "source": "public/pictures/monsters/001-plus-rabbit/sr.png",
+    "target": "public/pictures/monsters/001-plus-rabbit/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "originalBytes": 2097173,
+    "webpBytes": 159152
+  },
+  {
+    "source": "public/pictures/monsters/001-plus-rabbit/ur.png",
+    "target": "public/pictures/monsters/001-plus-rabbit/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "originalBytes": 2838011,
+    "webpBytes": 345862
+  },
+  {
+    "source": "public/pictures/monsters/002-sum-slime/n.png",
+    "target": "public/pictures/monsters/002-sum-slime/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\002-sum-slime\\n.webp",
+    "originalBytes": 1298952,
+    "webpBytes": 70910
+  },
+  {
+    "source": "public/pictures/monsters/002-sum-slime/sr.png",
+    "target": "public/pictures/monsters/002-sum-slime/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "originalBytes": 1965483,
+    "webpBytes": 156052
+  },
+  {
+    "source": "public/pictures/monsters/002-sum-slime/ur.png",
+    "target": "public/pictures/monsters/002-sum-slime/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "originalBytes": 3180006,
+    "webpBytes": 440840
+  },
+  {
+    "source": "public/pictures/monsters/003-pair-bird/n.png",
+    "target": "public/pictures/monsters/003-pair-bird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\003-pair-bird\\n.webp",
+    "originalBytes": 1945894,
+    "webpBytes": 112224
+  },
+  {
+    "source": "public/pictures/monsters/003-pair-bird/sr.png",
+    "target": "public/pictures/monsters/003-pair-bird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\003-pair-bird\\sr.webp",
+    "originalBytes": 2238301,
+    "webpBytes": 200486
+  },
+  {
+    "source": "public/pictures/monsters/003-pair-bird/ur.png",
+    "target": "public/pictures/monsters/003-pair-bird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\003-pair-bird\\ur.webp",
+    "originalBytes": 3295450,
+    "webpBytes": 464518
+  },
+  {
+    "source": "public/pictures/monsters/004-apple-bear/n.png",
+    "target": "public/pictures/monsters/004-apple-bear/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\004-apple-bear\\n.webp",
+    "originalBytes": 1821679,
+    "webpBytes": 91002
+  },
+  {
+    "source": "public/pictures/monsters/004-apple-bear/sr.png",
+    "target": "public/pictures/monsters/004-apple-bear/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "originalBytes": 2316414,
+    "webpBytes": 188402
+  },
+  {
+    "source": "public/pictures/monsters/004-apple-bear/ur.png",
+    "target": "public/pictures/monsters/004-apple-bear/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\004-apple-bear\\ur.webp",
+    "originalBytes": 2960156,
+    "webpBytes": 378568
+  },
+  {
+    "source": "public/pictures/monsters/005-carry-fox/n.png",
+    "target": "public/pictures/monsters/005-carry-fox/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\005-carry-fox\\n.webp",
+    "originalBytes": 1547231,
+    "webpBytes": 98856
+  },
+  {
+    "source": "public/pictures/monsters/005-carry-fox/sr.png",
+    "target": "public/pictures/monsters/005-carry-fox/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\005-carry-fox\\sr.webp",
+    "originalBytes": 2024258,
+    "webpBytes": 172192
+  },
+  {
+    "source": "public/pictures/monsters/005-carry-fox/ur.png",
+    "target": "public/pictures/monsters/005-carry-fox/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\005-carry-fox\\ur.webp",
+    "originalBytes": 2770010,
+    "webpBytes": 344042
+  },
+  {
+    "source": "public/pictures/monsters/006-sum-lion/n.png",
+    "target": "public/pictures/monsters/006-sum-lion/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\006-sum-lion\\n.webp",
+    "originalBytes": 1633877,
+    "webpBytes": 122226
+  },
+  {
+    "source": "public/pictures/monsters/006-sum-lion/sr.png",
+    "target": "public/pictures/monsters/006-sum-lion/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\006-sum-lion\\sr.webp",
+    "originalBytes": 2244624,
+    "webpBytes": 240992
+  },
+  {
+    "source": "public/pictures/monsters/006-sum-lion/ur.png",
+    "target": "public/pictures/monsters/006-sum-lion/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\006-sum-lion\\ur.webp",
+    "originalBytes": 2978266,
+    "webpBytes": 427626
+  },
+  {
+    "source": "public/pictures/monsters/007-plus-emperor/n.png",
+    "target": "public/pictures/monsters/007-plus-emperor/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\007-plus-emperor\\n.webp",
+    "originalBytes": 1482068,
+    "webpBytes": 104238
+  },
+  {
+    "source": "public/pictures/monsters/007-plus-emperor/sr.png",
+    "target": "public/pictures/monsters/007-plus-emperor/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\007-plus-emperor\\sr.webp",
+    "originalBytes": 2305998,
+    "webpBytes": 247078
+  },
+  {
+    "source": "public/pictures/monsters/007-plus-emperor/ur.png",
+    "target": "public/pictures/monsters/007-plus-emperor/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\007-plus-emperor\\ur.webp",
+    "originalBytes": 3224184,
+    "webpBytes": 462668
+  },
+  {
+    "source": "public/pictures/monsters/008-minus-fox/n.png",
+    "target": "public/pictures/monsters/008-minus-fox/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\008-minus-fox\\n.webp",
+    "originalBytes": 1332557,
+    "webpBytes": 62808
+  },
+  {
+    "source": "public/pictures/monsters/008-minus-fox/sr.png",
+    "target": "public/pictures/monsters/008-minus-fox/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\008-minus-fox\\sr.webp",
+    "originalBytes": 1855202,
+    "webpBytes": 152294
+  },
+  {
+    "source": "public/pictures/monsters/008-minus-fox/ur.png",
+    "target": "public/pictures/monsters/008-minus-fox/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\008-minus-fox\\ur.webp",
+    "originalBytes": 2958137,
+    "webpBytes": 387732
+  },
+  {
+    "source": "public/pictures/monsters/009-take-cat/n.png",
+    "target": "public/pictures/monsters/009-take-cat/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\009-take-cat\\n.webp",
+    "originalBytes": 1261334,
+    "webpBytes": 57300
+  },
+  {
+    "source": "public/pictures/monsters/009-take-cat/sr.png",
+    "target": "public/pictures/monsters/009-take-cat/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\009-take-cat\\sr.webp",
+    "originalBytes": 1874889,
+    "webpBytes": 131462
+  },
+  {
+    "source": "public/pictures/monsters/009-take-cat/ur.png",
+    "target": "public/pictures/monsters/009-take-cat/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\009-take-cat\\ur.webp",
+    "originalBytes": 2802042,
+    "webpBytes": 320894
+  },
+  {
+    "source": "public/pictures/monsters/010-remove-mole/n.png",
+    "target": "public/pictures/monsters/010-remove-mole/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\010-remove-mole\\n.webp",
+    "originalBytes": 1392184,
+    "webpBytes": 75880
+  },
+  {
+    "source": "public/pictures/monsters/010-remove-mole/sr.png",
+    "target": "public/pictures/monsters/010-remove-mole/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\010-remove-mole\\sr.webp",
+    "originalBytes": 2333418,
+    "webpBytes": 216318
+  },
+  {
+    "source": "public/pictures/monsters/010-remove-mole/ur.png",
+    "target": "public/pictures/monsters/010-remove-mole/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\010-remove-mole\\ur.webp",
+    "originalBytes": 2892420,
+    "webpBytes": 359724
+  },
+  {
+    "source": "public/pictures/monsters/011-diff-bird/n.png",
+    "target": "public/pictures/monsters/011-diff-bird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\011-diff-bird\\n.webp",
+    "originalBytes": 1760772,
+    "webpBytes": 143780
+  },
+  {
+    "source": "public/pictures/monsters/011-diff-bird/sr.png",
+    "target": "public/pictures/monsters/011-diff-bird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\011-diff-bird\\sr.webp",
+    "originalBytes": 2404938,
+    "webpBytes": 291398
+  },
+  {
+    "source": "public/pictures/monsters/011-diff-bird/ur.png",
+    "target": "public/pictures/monsters/011-diff-bird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\011-diff-bird\\ur.webp",
+    "originalBytes": 3111351,
+    "webpBytes": 497332
+  },
+  {
+    "source": "public/pictures/monsters/012-back-bear/n.png",
+    "target": "public/pictures/monsters/012-back-bear/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\012-back-bear\\n.webp",
+    "originalBytes": 1384725,
+    "webpBytes": 76532
+  },
+  {
+    "source": "public/pictures/monsters/012-back-bear/sr.png",
+    "target": "public/pictures/monsters/012-back-bear/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\012-back-bear\\sr.webp",
+    "originalBytes": 2017337,
+    "webpBytes": 159268
+  },
+  {
+    "source": "public/pictures/monsters/012-back-bear/ur.png",
+    "target": "public/pictures/monsters/012-back-bear/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\012-back-bear\\ur.webp",
+    "originalBytes": 2880723,
+    "webpBytes": 358076
+  },
+  {
+    "source": "public/pictures/monsters/013-sub-wolf/n.png",
+    "target": "public/pictures/monsters/013-sub-wolf/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\013-sub-wolf\\n.webp",
+    "originalBytes": 1526664,
+    "webpBytes": 95130
+  },
+  {
+    "source": "public/pictures/monsters/013-sub-wolf/sr.png",
+    "target": "public/pictures/monsters/013-sub-wolf/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\013-sub-wolf\\sr.webp",
+    "originalBytes": 2021188,
+    "webpBytes": 188824
+  },
+  {
+    "source": "public/pictures/monsters/013-sub-wolf/ur.png",
+    "target": "public/pictures/monsters/013-sub-wolf/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\013-sub-wolf\\ur.webp",
+    "originalBytes": 2890535,
+    "webpBytes": 379556
+  },
+  {
+    "source": "public/pictures/monsters/014-minus-king/n.png",
+    "target": "public/pictures/monsters/014-minus-king/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\014-minus-king\\n.webp",
+    "originalBytes": 1525526,
+    "webpBytes": 121690
+  },
+  {
+    "source": "public/pictures/monsters/014-minus-king/sr.png",
+    "target": "public/pictures/monsters/014-minus-king/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\014-minus-king\\sr.webp",
+    "originalBytes": 2339453,
+    "webpBytes": 251318
+  },
+  {
+    "source": "public/pictures/monsters/014-minus-king/ur.png",
+    "target": "public/pictures/monsters/014-minus-king/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\014-minus-king\\ur.webp",
+    "originalBytes": 3025052,
+    "webpBytes": 414002
+  },
+  {
+    "source": "public/pictures/monsters/015-minute-mouse/n.png",
+    "target": "public/pictures/monsters/015-minute-mouse/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\015-minute-mouse\\n.webp",
+    "originalBytes": 1481969,
+    "webpBytes": 89066
+  },
+  {
+    "source": "public/pictures/monsters/015-minute-mouse/sr.png",
+    "target": "public/pictures/monsters/015-minute-mouse/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\015-minute-mouse\\sr.webp",
+    "originalBytes": 2025210,
+    "webpBytes": 193502
+  },
+  {
+    "source": "public/pictures/monsters/015-minute-mouse/ur.png",
+    "target": "public/pictures/monsters/015-minute-mouse/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\015-minute-mouse\\ur.webp",
+    "originalBytes": 3098649,
+    "webpBytes": 414392
+  },
+  {
+    "source": "public/pictures/monsters/016-hour-owl/n.png",
+    "target": "public/pictures/monsters/016-hour-owl/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\016-hour-owl\\n.webp",
+    "originalBytes": 1557984,
+    "webpBytes": 118086
+  },
+  {
+    "source": "public/pictures/monsters/016-hour-owl/sr.png",
+    "target": "public/pictures/monsters/016-hour-owl/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\016-hour-owl\\sr.webp",
+    "originalBytes": 2244326,
+    "webpBytes": 240706
+  },
+  {
+    "source": "public/pictures/monsters/016-hour-owl/ur.png",
+    "target": "public/pictures/monsters/016-hour-owl/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\016-hour-owl\\ur.webp",
+    "originalBytes": 3358098,
+    "webpBytes": 488680
+  },
+  {
+    "source": "public/pictures/monsters/017-clock-cat/n.png",
+    "target": "public/pictures/monsters/017-clock-cat/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\017-clock-cat\\n.webp",
+    "originalBytes": 1650959,
+    "webpBytes": 122422
+  },
+  {
+    "source": "public/pictures/monsters/017-clock-cat/sr.png",
+    "target": "public/pictures/monsters/017-clock-cat/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\017-clock-cat\\sr.webp",
+    "originalBytes": 2374109,
+    "webpBytes": 260500
+  },
+  {
+    "source": "public/pictures/monsters/017-clock-cat/ur.png",
+    "target": "public/pictures/monsters/017-clock-cat/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\017-clock-cat\\ur.webp",
+    "originalBytes": 3277961,
+    "webpBytes": 469992
+  },
+  {
+    "source": "public/pictures/monsters/018-bell-bird/n.png",
+    "target": "public/pictures/monsters/018-bell-bird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\018-bell-bird\\n.webp",
+    "originalBytes": 1913346,
+    "webpBytes": 115022
+  },
+  {
+    "source": "public/pictures/monsters/018-bell-bird/sr.png",
+    "target": "public/pictures/monsters/018-bell-bird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\018-bell-bird\\sr.webp",
+    "originalBytes": 2401409,
+    "webpBytes": 219270
+  },
+  {
+    "source": "public/pictures/monsters/018-bell-bird/ur.png",
+    "target": "public/pictures/monsters/018-bell-bird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\018-bell-bird\\ur.webp",
+    "originalBytes": 3050337,
+    "webpBytes": 374750
+  },
+  {
+    "source": "public/pictures/monsters/019-time-rabbit/n.png",
+    "target": "public/pictures/monsters/019-time-rabbit/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\019-time-rabbit\\n.webp",
+    "originalBytes": 1703680,
+    "webpBytes": 82026
+  },
+  {
+    "source": "public/pictures/monsters/019-time-rabbit/sr.png",
+    "target": "public/pictures/monsters/019-time-rabbit/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\019-time-rabbit\\sr.webp",
+    "originalBytes": 2368607,
+    "webpBytes": 191840
+  },
+  {
+    "source": "public/pictures/monsters/019-time-rabbit/ur.png",
+    "target": "public/pictures/monsters/019-time-rabbit/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\019-time-rabbit\\ur.webp",
+    "originalBytes": 3073170,
+    "webpBytes": 373636
+  },
+  {
+    "source": "public/pictures/monsters/020-chrono-wolf/n.png",
+    "target": "public/pictures/monsters/020-chrono-wolf/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\020-chrono-wolf\\n.webp",
+    "originalBytes": 1783857,
+    "webpBytes": 104932
+  },
+  {
+    "source": "public/pictures/monsters/020-chrono-wolf/sr.png",
+    "target": "public/pictures/monsters/020-chrono-wolf/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\020-chrono-wolf\\sr.webp",
+    "originalBytes": 2757776,
+    "webpBytes": 311112
+  },
+  {
+    "source": "public/pictures/monsters/020-chrono-wolf/ur.png",
+    "target": "public/pictures/monsters/020-chrono-wolf/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\020-chrono-wolf\\ur.webp",
+    "originalBytes": 3350542,
+    "webpBytes": 468834
+  },
+  {
+    "source": "public/pictures/monsters/021-chrono-king/n.png",
+    "target": "public/pictures/monsters/021-chrono-king/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\021-chrono-king\\n.webp",
+    "originalBytes": 2469230,
+    "webpBytes": 208064
+  },
+  {
+    "source": "public/pictures/monsters/021-chrono-king/sr.png",
+    "target": "public/pictures/monsters/021-chrono-king/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\021-chrono-king\\sr.webp",
+    "originalBytes": 3112360,
+    "webpBytes": 384300
+  },
+  {
+    "source": "public/pictures/monsters/021-chrono-king/ur.png",
+    "target": "public/pictures/monsters/021-chrono-king/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\021-chrono-king\\ur.webp",
+    "originalBytes": 3608887,
+    "webpBytes": 583508
+  },
+  {
+    "source": "public/pictures/monsters/022-coin-rabbit/n.png",
+    "target": "public/pictures/monsters/022-coin-rabbit/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\022-coin-rabbit\\n.webp",
+    "originalBytes": 2031480,
+    "webpBytes": 114348
+  },
+  {
+    "source": "public/pictures/monsters/022-coin-rabbit/sr.png",
+    "target": "public/pictures/monsters/022-coin-rabbit/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\022-coin-rabbit\\sr.webp",
+    "originalBytes": 2485258,
+    "webpBytes": 212634
+  },
+  {
+    "source": "public/pictures/monsters/022-coin-rabbit/ur.png",
+    "target": "public/pictures/monsters/022-coin-rabbit/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\022-coin-rabbit\\ur.webp",
+    "originalBytes": 3286248,
+    "webpBytes": 457868
+  },
+  {
+    "source": "public/pictures/monsters/023-yen-cat/n.png",
+    "target": "public/pictures/monsters/023-yen-cat/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\023-yen-cat\\n.webp",
+    "originalBytes": 2203211,
+    "webpBytes": 132668
+  },
+  {
+    "source": "public/pictures/monsters/023-yen-cat/sr.png",
+    "target": "public/pictures/monsters/023-yen-cat/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\023-yen-cat\\sr.webp",
+    "originalBytes": 2645967,
+    "webpBytes": 229202
+  },
+  {
+    "source": "public/pictures/monsters/023-yen-cat/ur.png",
+    "target": "public/pictures/monsters/023-yen-cat/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\023-yen-cat\\ur.webp",
+    "originalBytes": 3210140,
+    "webpBytes": 443418
+  },
+  {
+    "source": "public/pictures/monsters/024-wallet-bear/n.png",
+    "target": "public/pictures/monsters/024-wallet-bear/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\024-wallet-bear\\n.webp",
+    "originalBytes": 2156129,
+    "webpBytes": 113778
+  },
+  {
+    "source": "public/pictures/monsters/024-wallet-bear/sr.png",
+    "target": "public/pictures/monsters/024-wallet-bear/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\024-wallet-bear\\sr.webp",
+    "originalBytes": 2560282,
+    "webpBytes": 217142
+  },
+  {
+    "source": "public/pictures/monsters/024-wallet-bear/ur.png",
+    "target": "public/pictures/monsters/024-wallet-bear/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\024-wallet-bear\\ur.webp",
+    "originalBytes": 3178194,
+    "webpBytes": 436534
+  },
+  {
+    "source": "public/pictures/monsters/025-change-fox/n.png",
+    "target": "public/pictures/monsters/025-change-fox/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\025-change-fox\\n.webp",
+    "originalBytes": 1982516,
+    "webpBytes": 96240
+  },
+  {
+    "source": "public/pictures/monsters/025-change-fox/sr.png",
+    "target": "public/pictures/monsters/025-change-fox/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\025-change-fox\\sr.webp",
+    "originalBytes": 2416102,
+    "webpBytes": 200688
+  },
+  {
+    "source": "public/pictures/monsters/025-change-fox/ur.png",
+    "target": "public/pictures/monsters/025-change-fox/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\025-change-fox\\ur.webp",
+    "originalBytes": 3128457,
+    "webpBytes": 412750
+  },
+  {
+    "source": "public/pictures/monsters/026-shop-bird/n.png",
+    "target": "public/pictures/monsters/026-shop-bird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\026-shop-bird\\n.webp",
+    "originalBytes": 2043044,
+    "webpBytes": 105446
+  },
+  {
+    "source": "public/pictures/monsters/026-shop-bird/sr.png",
+    "target": "public/pictures/monsters/026-shop-bird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\026-shop-bird\\sr.webp",
+    "originalBytes": 2475445,
+    "webpBytes": 205088
+  },
+  {
+    "source": "public/pictures/monsters/026-shop-bird/ur.png",
+    "target": "public/pictures/monsters/026-shop-bird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\026-shop-bird\\ur.webp",
+    "originalBytes": 3161002,
+    "webpBytes": 409618
+  },
+  {
+    "source": "public/pictures/monsters/027-gold-panda/n.png",
+    "target": "public/pictures/monsters/027-gold-panda/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\027-gold-panda\\n.webp",
+    "originalBytes": 1700319,
+    "webpBytes": 114420
+  },
+  {
+    "source": "public/pictures/monsters/027-gold-panda/sr.png",
+    "target": "public/pictures/monsters/027-gold-panda/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\027-gold-panda\\sr.webp",
+    "originalBytes": 2291771,
+    "webpBytes": 210206
+  },
+  {
+    "source": "public/pictures/monsters/027-gold-panda/ur.png",
+    "target": "public/pictures/monsters/027-gold-panda/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\027-gold-panda\\ur.webp",
+    "originalBytes": 3293073,
+    "webpBytes": 447332
+  },
+  {
+    "source": "public/pictures/monsters/028-money-king/n.png",
+    "target": "public/pictures/monsters/028-money-king/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\028-money-king\\n.webp",
+    "originalBytes": 2098016,
+    "webpBytes": 187976
+  },
+  {
+    "source": "public/pictures/monsters/028-money-king/sr.png",
+    "target": "public/pictures/monsters/028-money-king/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\028-money-king\\sr.webp",
+    "originalBytes": 2633905,
+    "webpBytes": 285438
+  },
+  {
+    "source": "public/pictures/monsters/028-money-king/ur.png",
+    "target": "public/pictures/monsters/028-money-king/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\028-money-king\\ur.webp",
+    "originalBytes": 3303214,
+    "webpBytes": 486846
+  },
+  {
+    "source": "public/pictures/monsters/029-waterpon/n.png",
+    "target": "public/pictures/monsters/029-waterpon/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\029-waterpon\\n.webp",
+    "originalBytes": 3076738,
+    "webpBytes": 155344
+  },
+  {
+    "source": "public/pictures/monsters/029-waterpon/sr.png",
+    "target": "public/pictures/monsters/029-waterpon/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\029-waterpon\\sr.webp",
+    "originalBytes": 2292233,
+    "webpBytes": 211644
+  },
+  {
+    "source": "public/pictures/monsters/029-waterpon/ur.png",
+    "target": "public/pictures/monsters/029-waterpon/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\029-waterpon\\ur.webp",
+    "originalBytes": 2711971,
+    "webpBytes": 426340
+  },
+  {
+    "source": "public/pictures/monsters/030-twinbird/n.png",
+    "target": "public/pictures/monsters/030-twinbird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\030-twinbird\\n.webp",
+    "originalBytes": 1828426,
+    "webpBytes": 125500
+  },
+  {
+    "source": "public/pictures/monsters/030-twinbird/sr.png",
+    "target": "public/pictures/monsters/030-twinbird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\030-twinbird\\sr.webp",
+    "originalBytes": 2347539,
+    "webpBytes": 224208
+  },
+  {
+    "source": "public/pictures/monsters/030-twinbird/ur.png",
+    "target": "public/pictures/monsters/030-twinbird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\030-twinbird\\ur.webp",
+    "originalBytes": 3217868,
+    "webpBytes": 415750
+  },
+  {
+    "source": "public/pictures/monsters/031-firesaurus/n.png",
+    "target": "public/pictures/monsters/031-firesaurus/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\031-firesaurus\\n.webp",
+    "originalBytes": 1998940,
+    "webpBytes": 165718
+  },
+  {
+    "source": "public/pictures/monsters/031-firesaurus/sr.png",
+    "target": "public/pictures/monsters/031-firesaurus/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\031-firesaurus\\sr.webp",
+    "originalBytes": 2532979,
+    "webpBytes": 276310
+  },
+  {
+    "source": "public/pictures/monsters/031-firesaurus/ur.png",
+    "target": "public/pictures/monsters/031-firesaurus/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\031-firesaurus\\ur.webp",
+    "originalBytes": 3042963,
+    "webpBytes": 431672
+  },
+  {
+    "source": "public/pictures/monsters/032-clover-turtle/n.png",
+    "target": "public/pictures/monsters/032-clover-turtle/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\032-clover-turtle\\n.webp",
+    "originalBytes": 1851930,
+    "webpBytes": 130096
+  },
+  {
+    "source": "public/pictures/monsters/032-clover-turtle/sr.png",
+    "target": "public/pictures/monsters/032-clover-turtle/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\032-clover-turtle\\sr.webp",
+    "originalBytes": 2515731,
+    "webpBytes": 256634
+  },
+  {
+    "source": "public/pictures/monsters/032-clover-turtle/ur.png",
+    "target": "public/pictures/monsters/032-clover-turtle/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\032-clover-turtle\\ur.webp",
+    "originalBytes": 3244786,
+    "webpBytes": 487172
+  },
+  {
+    "source": "public/pictures/monsters/033-star-wolf/n.png",
+    "target": "public/pictures/monsters/033-star-wolf/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\033-star-wolf\\n.webp",
+    "originalBytes": 2017036,
+    "webpBytes": 110262
+  },
+  {
+    "source": "public/pictures/monsters/033-star-wolf/sr.png",
+    "target": "public/pictures/monsters/033-star-wolf/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\033-star-wolf\\sr.webp",
+    "originalBytes": 2703744,
+    "webpBytes": 282038
+  },
+  {
+    "source": "public/pictures/monsters/033-star-wolf/ur.png",
+    "target": "public/pictures/monsters/033-star-wolf/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\033-star-wolf\\ur.webp",
+    "originalBytes": 3197277,
+    "webpBytes": 434820
+  },
+  {
+    "source": "public/pictures/monsters/034-six-speaker/n.png",
+    "target": "public/pictures/monsters/034-six-speaker/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\034-six-speaker\\n.webp",
+    "originalBytes": 1265772,
+    "webpBytes": 75030
+  },
+  {
+    "source": "public/pictures/monsters/034-six-speaker/sr.png",
+    "target": "public/pictures/monsters/034-six-speaker/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\034-six-speaker\\sr.webp",
+    "originalBytes": 1990520,
+    "webpBytes": 185892
+  },
+  {
+    "source": "public/pictures/monsters/034-six-speaker/ur.png",
+    "target": "public/pictures/monsters/034-six-speaker/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\034-six-speaker\\ur.webp",
+    "originalBytes": 2925309,
+    "webpBytes": 390972
+  },
+  {
+    "source": "public/pictures/monsters/035-rainbow-dragon/n.png",
+    "target": "public/pictures/monsters/035-rainbow-dragon/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\035-rainbow-dragon\\n.webp",
+    "originalBytes": 1682780,
+    "webpBytes": 131656
+  },
+  {
+    "source": "public/pictures/monsters/035-rainbow-dragon/sr.png",
+    "target": "public/pictures/monsters/035-rainbow-dragon/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\035-rainbow-dragon\\sr.webp",
+    "originalBytes": 2749847,
+    "webpBytes": 292026
+  },
+  {
+    "source": "public/pictures/monsters/035-rainbow-dragon/ur.png",
+    "target": "public/pictures/monsters/035-rainbow-dragon/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\035-rainbow-dragon\\ur.webp",
+    "originalBytes": 3293488,
+    "webpBytes": 468696
+  },
+  {
+    "source": "public/pictures/monsters/036-octopal/n.png",
+    "target": "public/pictures/monsters/036-octopal/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\036-octopal\\n.webp",
+    "originalBytes": 2341935,
+    "webpBytes": 168098
+  },
+  {
+    "source": "public/pictures/monsters/036-octopal/sr.png",
+    "target": "public/pictures/monsters/036-octopal/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\036-octopal\\sr.webp",
+    "originalBytes": 2692082,
+    "webpBytes": 273078
+  },
+  {
+    "source": "public/pictures/monsters/036-octopal/ur.png",
+    "target": "public/pictures/monsters/036-octopal/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\036-octopal\\ur.webp",
+    "originalBytes": 3285997,
+    "webpBytes": 459888
+  },
+  {
+    "source": "public/pictures/monsters/037-shine-pegasus/n.png",
+    "target": "public/pictures/monsters/037-shine-pegasus/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\037-shine-pegasus\\n.webp",
+    "originalBytes": 1508040,
+    "webpBytes": 107354
+  },
+  {
+    "source": "public/pictures/monsters/037-shine-pegasus/sr.png",
+    "target": "public/pictures/monsters/037-shine-pegasus/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\037-shine-pegasus\\sr.webp",
+    "originalBytes": 2594114,
+    "webpBytes": 265578
+  },
+  {
+    "source": "public/pictures/monsters/037-shine-pegasus/ur.png",
+    "target": "public/pictures/monsters/037-shine-pegasus/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\037-shine-pegasus\\ur.webp",
+    "originalBytes": 3066769,
+    "webpBytes": 394014
+  },
+  {
+    "source": "public/pictures/monsters/038-massive-golem/n.png",
+    "target": "public/pictures/monsters/038-massive-golem/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\038-massive-golem\\n.webp",
+    "originalBytes": 2246033,
+    "webpBytes": 198866
+  },
+  {
+    "source": "public/pictures/monsters/038-massive-golem/sr.png",
+    "target": "public/pictures/monsters/038-massive-golem/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\038-massive-golem\\sr.webp",
+    "originalBytes": 5058,
+    "webpBytes": 3496
+  },
+  {
+    "source": "public/pictures/monsters/038-massive-golem/u.png",
+    "target": "public/pictures/monsters/038-massive-golem/u.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\038-massive-golem\\u.webp",
+    "originalBytes": 2955661,
+    "webpBytes": 362982
+  },
+  {
+    "source": "public/pictures/monsters/038-massive-golem/ur.png",
+    "target": "public/pictures/monsters/038-massive-golem/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\038-massive-golem\\ur.webp",
+    "originalBytes": 3446190,
+    "webpBytes": 521954
+  },
+  {
+    "source": "public/pictures/monsters/039-lightning-fang/n.png",
+    "target": "public/pictures/monsters/039-lightning-fang/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\039-lightning-fang\\n.webp",
+    "originalBytes": 1881763,
+    "webpBytes": 99936
+  },
+  {
+    "source": "public/pictures/monsters/039-lightning-fang/SR.png",
+    "target": "public/pictures/monsters/039-lightning-fang/SR.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\039-lightning-fang\\SR.webp",
+    "originalBytes": 2324727,
+    "webpBytes": 213864
+  },
+  {
+    "source": "public/pictures/monsters/039-lightning-fang/UR.png",
+    "target": "public/pictures/monsters/039-lightning-fang/UR.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\039-lightning-fang\\UR.webp",
+    "originalBytes": 3182996,
+    "webpBytes": 445924
+  },
+  {
+    "source": "public/pictures/monsters/040-divine-phoenix/n.png",
+    "target": "public/pictures/monsters/040-divine-phoenix/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\040-divine-phoenix\\n.webp",
+    "originalBytes": 1890998,
+    "webpBytes": 110294
+  },
+  {
+    "source": "public/pictures/monsters/040-divine-phoenix/sr.png",
+    "target": "public/pictures/monsters/040-divine-phoenix/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\040-divine-phoenix\\sr.webp",
+    "originalBytes": 2283936,
+    "webpBytes": 218762
+  },
+  {
+    "source": "public/pictures/monsters/040-divine-phoenix/UR.png",
+    "target": "public/pictures/monsters/040-divine-phoenix/UR.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\040-divine-phoenix\\UR.webp",
+    "originalBytes": 2907004,
+    "webpBytes": 405302
+  },
+  {
+    "source": "public/pictures/monsters/041-kuku-king-gold/n.png",
+    "target": "public/pictures/monsters/041-kuku-king-gold/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\041-kuku-king-gold\\n.webp",
+    "originalBytes": 2316599,
+    "webpBytes": 172920
+  },
+  {
+    "source": "public/pictures/monsters/041-kuku-king-gold/sr.png",
+    "target": "public/pictures/monsters/041-kuku-king-gold/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\041-kuku-king-gold\\sr.webp",
+    "originalBytes": 2616445,
+    "webpBytes": 281604
+  },
+  {
+    "source": "public/pictures/monsters/041-kuku-king-gold/ur.png",
+    "target": "public/pictures/monsters/041-kuku-king-gold/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\041-kuku-king-gold\\ur.webp",
+    "originalBytes": 3013381,
+    "webpBytes": 407018
+  },
+  {
+    "source": "public/pictures/monsters/042-half-penguin/n.png",
+    "target": "public/pictures/monsters/042-half-penguin/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\042-half-penguin\\n.webp",
+    "originalBytes": 1432498,
+    "webpBytes": 80948
+  },
+  {
+    "source": "public/pictures/monsters/042-half-penguin/sr.png",
+    "target": "public/pictures/monsters/042-half-penguin/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\042-half-penguin\\sr.webp",
+    "originalBytes": 2035519,
+    "webpBytes": 195450
+  },
+  {
+    "source": "public/pictures/monsters/042-half-penguin/ur.png",
+    "target": "public/pictures/monsters/042-half-penguin/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\042-half-penguin\\ur.webp",
+    "originalBytes": 3219859,
+    "webpBytes": 477022
+  },
+  {
+    "source": "public/pictures/monsters/043-divide-bird/n.png",
+    "target": "public/pictures/monsters/043-divide-bird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\043-divide-bird\\n.webp",
+    "originalBytes": 1417132,
+    "webpBytes": 72748
+  },
+  {
+    "source": "public/pictures/monsters/043-divide-bird/sr.png",
+    "target": "public/pictures/monsters/043-divide-bird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\043-divide-bird\\sr.webp",
+    "originalBytes": 2878100,
+    "webpBytes": 319198
+  },
+  {
+    "source": "public/pictures/monsters/043-divide-bird/ur.png",
+    "target": "public/pictures/monsters/043-divide-bird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\043-divide-bird\\ur.webp",
+    "originalBytes": 3171857,
+    "webpBytes": 418734
+  },
+  {
+    "source": "public/pictures/monsters/044-share-rabbit/n.png",
+    "target": "public/pictures/monsters/044-share-rabbit/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\044-share-rabbit\\n.webp",
+    "originalBytes": 1423182,
+    "webpBytes": 72668
+  },
+  {
+    "source": "public/pictures/monsters/044-share-rabbit/sr.png",
+    "target": "public/pictures/monsters/044-share-rabbit/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\044-share-rabbit\\sr.webp",
+    "originalBytes": 2757067,
+    "webpBytes": 271240
+  },
+  {
+    "source": "public/pictures/monsters/044-share-rabbit/ur.png",
+    "target": "public/pictures/monsters/044-share-rabbit/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\044-share-rabbit\\ur.webp",
+    "originalBytes": 3146798,
+    "webpBytes": 400770
+  },
+  {
+    "source": "public/pictures/monsters/045-group-golem/n.png",
+    "target": "public/pictures/monsters/045-group-golem/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\045-group-golem\\n.webp",
+    "originalBytes": 1830165,
+    "webpBytes": 142846
+  },
+  {
+    "source": "public/pictures/monsters/045-group-golem/sr.png",
+    "target": "public/pictures/monsters/045-group-golem/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\045-group-golem\\sr.webp",
+    "originalBytes": 2650688,
+    "webpBytes": 276128
+  },
+  {
+    "source": "public/pictures/monsters/045-group-golem/ur.png",
+    "target": "public/pictures/monsters/045-group-golem/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\045-group-golem\\ur.webp",
+    "originalBytes": 3314424,
+    "webpBytes": 454986
+  },
+  {
+    "source": "public/pictures/monsters/046-remainder-cat/n.png",
+    "target": "public/pictures/monsters/046-remainder-cat/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\046-remainder-cat\\n.webp",
+    "originalBytes": 1721975,
+    "webpBytes": 123238
+  },
+  {
+    "source": "public/pictures/monsters/046-remainder-cat/sr.png",
+    "target": "public/pictures/monsters/046-remainder-cat/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\046-remainder-cat\\sr.webp",
+    "originalBytes": 2237319,
+    "webpBytes": 225706
+  },
+  {
+    "source": "public/pictures/monsters/046-remainder-cat/ur.png",
+    "target": "public/pictures/monsters/046-remainder-cat/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\046-remainder-cat\\ur.webp",
+    "originalBytes": 3372689,
+    "webpBytes": 457412
+  },
+  {
+    "source": "public/pictures/monsters/047-quotient-wolf/n.png",
+    "target": "public/pictures/monsters/047-quotient-wolf/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\047-quotient-wolf\\n.webp",
+    "originalBytes": 1502430,
+    "webpBytes": 92686
+  },
+  {
+    "source": "public/pictures/monsters/047-quotient-wolf/sr.png",
+    "target": "public/pictures/monsters/047-quotient-wolf/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\047-quotient-wolf\\sr.webp",
+    "originalBytes": 2172549,
+    "webpBytes": 203232
+  },
+  {
+    "source": "public/pictures/monsters/047-quotient-wolf/ur.png",
+    "target": "public/pictures/monsters/047-quotient-wolf/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\047-quotient-wolf\\ur.webp",
+    "originalBytes": 3352463,
+    "webpBytes": 471820
+  },
+  {
+    "source": "public/pictures/monsters/048-divide-emperor/n.png",
+    "target": "public/pictures/monsters/048-divide-emperor/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\048-divide-emperor\\n.webp",
+    "originalBytes": 1603485,
+    "webpBytes": 115474
+  },
+  {
+    "source": "public/pictures/monsters/048-divide-emperor/sr.png",
+    "target": "public/pictures/monsters/048-divide-emperor/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\048-divide-emperor\\sr.webp",
+    "originalBytes": 2284448,
+    "webpBytes": 224656
+  },
+  {
+    "source": "public/pictures/monsters/048-divide-emperor/ur.png",
+    "target": "public/pictures/monsters/048-divide-emperor/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\048-divide-emperor\\ur.webp",
+    "originalBytes": 3354298,
+    "webpBytes": 473588
+  },
+  {
+    "source": "public/pictures/monsters/049-point-slime/n.png",
+    "target": "public/pictures/monsters/049-point-slime/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\049-point-slime\\n.webp",
+    "originalBytes": 1350330,
+    "webpBytes": 76560
+  },
+  {
+    "source": "public/pictures/monsters/049-point-slime/sr.png",
+    "target": "public/pictures/monsters/049-point-slime/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\049-point-slime\\sr.webp",
+    "originalBytes": 1783488,
+    "webpBytes": 148910
+  },
+  {
+    "source": "public/pictures/monsters/049-point-slime/ur.png",
+    "target": "public/pictures/monsters/049-point-slime/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\049-point-slime\\ur.webp",
+    "originalBytes": 2741236,
+    "webpBytes": 353958
+  },
+  {
+    "source": "public/pictures/monsters/050-tenths-pon/n.png",
+    "target": "public/pictures/monsters/050-tenths-pon/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\050-tenths-pon\\n.webp",
+    "originalBytes": 1408130,
+    "webpBytes": 58806
+  },
+  {
+    "source": "public/pictures/monsters/050-tenths-pon/sr.png",
+    "target": "public/pictures/monsters/050-tenths-pon/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\050-tenths-pon\\sr.webp",
+    "originalBytes": 1886218,
+    "webpBytes": 120094
+  },
+  {
+    "source": "public/pictures/monsters/050-tenths-pon/ur.png",
+    "target": "public/pictures/monsters/050-tenths-pon/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\050-tenths-pon\\ur.webp",
+    "originalBytes": 2883521,
+    "webpBytes": 302352
+  },
+  {
+    "source": "public/pictures/monsters/051-decimal-cat/n.png",
+    "target": "public/pictures/monsters/051-decimal-cat/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\051-decimal-cat\\n.webp",
+    "originalBytes": 2310315,
+    "webpBytes": 162746
+  },
+  {
+    "source": "public/pictures/monsters/051-decimal-cat/sr.png",
+    "target": "public/pictures/monsters/051-decimal-cat/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\051-decimal-cat\\sr.webp",
+    "originalBytes": 2745883,
+    "webpBytes": 274972
+  },
+  {
+    "source": "public/pictures/monsters/051-decimal-cat/ur.png",
+    "target": "public/pictures/monsters/051-decimal-cat/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\051-decimal-cat\\ur.webp",
+    "originalBytes": 3325641,
+    "webpBytes": 458084
+  },
+  {
+    "source": "public/pictures/monsters/052-dot-bird/n.png",
+    "target": "public/pictures/monsters/052-dot-bird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\052-dot-bird\\n.webp",
+    "originalBytes": 1796895,
+    "webpBytes": 117414
+  },
+  {
+    "source": "public/pictures/monsters/052-dot-bird/sr.png",
+    "target": "public/pictures/monsters/052-dot-bird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\052-dot-bird\\sr.webp",
+    "originalBytes": 2407960,
+    "webpBytes": 232956
+  },
+  {
+    "source": "public/pictures/monsters/052-dot-bird/ur.png",
+    "target": "public/pictures/monsters/052-dot-bird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\052-dot-bird\\ur.webp",
+    "originalBytes": 3069727,
+    "webpBytes": 423978
+  },
+  {
+    "source": "public/pictures/monsters/053-zero-tenths-bear/n.png",
+    "target": "public/pictures/monsters/053-zero-tenths-bear/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\053-zero-tenths-bear\\n.webp",
+    "originalBytes": 1915387,
+    "webpBytes": 124216
+  },
+  {
+    "source": "public/pictures/monsters/053-zero-tenths-bear/sr.png",
+    "target": "public/pictures/monsters/053-zero-tenths-bear/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\053-zero-tenths-bear\\sr.webp",
+    "originalBytes": 2383700,
+    "webpBytes": 246342
+  },
+  {
+    "source": "public/pictures/monsters/053-zero-tenths-bear/ur.png",
+    "target": "public/pictures/monsters/053-zero-tenths-bear/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\053-zero-tenths-bear\\ur.webp",
+    "originalBytes": 3114011,
+    "webpBytes": 427114
+  },
+  {
+    "source": "public/pictures/monsters/054-point-dragon/n.png",
+    "target": "public/pictures/monsters/054-point-dragon/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\054-point-dragon\\n.webp",
+    "originalBytes": 2039764,
+    "webpBytes": 85472
+  },
+  {
+    "source": "public/pictures/monsters/054-point-dragon/sr.png",
+    "target": "public/pictures/monsters/054-point-dragon/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\054-point-dragon\\sr.webp",
+    "originalBytes": 2339326,
+    "webpBytes": 170620
+  },
+  {
+    "source": "public/pictures/monsters/054-point-dragon/ur.png",
+    "target": "public/pictures/monsters/054-point-dragon/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\054-point-dragon\\ur.webp",
+    "originalBytes": 3359978,
+    "webpBytes": 466286
+  },
+  {
+    "source": "public/pictures/monsters/055-decimal-king/n.png",
+    "target": "public/pictures/monsters/055-decimal-king/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\055-decimal-king\\n.webp",
+    "originalBytes": 2591630,
+    "webpBytes": 259218
+  },
+  {
+    "source": "public/pictures/monsters/055-decimal-king/sr.png",
+    "target": "public/pictures/monsters/055-decimal-king/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\055-decimal-king\\sr.webp",
+    "originalBytes": 2964139,
+    "webpBytes": 365272
+  },
+  {
+    "source": "public/pictures/monsters/055-decimal-king/ur.png",
+    "target": "public/pictures/monsters/055-decimal-king/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\055-decimal-king\\ur.webp",
+    "originalBytes": 3316069,
+    "webpBytes": 484620
+  },
+  {
+    "source": "public/pictures/monsters/056-half-moon/n.png",
+    "target": "public/pictures/monsters/056-half-moon/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\056-half-moon\\n.webp",
+    "originalBytes": 2455365,
+    "webpBytes": 186928
+  },
+  {
+    "source": "public/pictures/monsters/056-half-moon/sr.png",
+    "target": "public/pictures/monsters/056-half-moon/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\056-half-moon\\sr.webp",
+    "originalBytes": 2932103,
+    "webpBytes": 330318
+  },
+  {
+    "source": "public/pictures/monsters/056-half-moon/ur.png",
+    "target": "public/pictures/monsters/056-half-moon/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\056-half-moon\\ur.webp",
+    "originalBytes": 3373294,
+    "webpBytes": 483992
+  },
+  {
+    "source": "public/pictures/monsters/057-third-bird/n.png",
+    "target": "public/pictures/monsters/057-third-bird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\057-third-bird\\n.webp",
+    "originalBytes": 2815426,
+    "webpBytes": 294384
+  },
+  {
+    "source": "public/pictures/monsters/057-third-bird/sr.png",
+    "target": "public/pictures/monsters/057-third-bird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\057-third-bird\\sr.webp",
+    "originalBytes": 3149004,
+    "webpBytes": 405454
+  },
+  {
+    "source": "public/pictures/monsters/057-third-bird/ur.png",
+    "target": "public/pictures/monsters/057-third-bird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\057-third-bird\\ur.webp",
+    "originalBytes": 3442974,
+    "webpBytes": 501558
+  },
+  {
+    "source": "public/pictures/monsters/058-quarter-rabbit/n.png",
+    "target": "public/pictures/monsters/058-quarter-rabbit/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\058-quarter-rabbit\\n.webp",
+    "originalBytes": 2698151,
+    "webpBytes": 260332
+  },
+  {
+    "source": "public/pictures/monsters/058-quarter-rabbit/sr.png",
+    "target": "public/pictures/monsters/058-quarter-rabbit/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\058-quarter-rabbit\\sr.webp",
+    "originalBytes": 2959862,
+    "webpBytes": 364420
+  },
+  {
+    "source": "public/pictures/monsters/058-quarter-rabbit/ur.png",
+    "target": "public/pictures/monsters/058-quarter-rabbit/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\058-quarter-rabbit\\ur.webp",
+    "originalBytes": 3419154,
+    "webpBytes": 513750
+  },
+  {
+    "source": "public/pictures/monsters/059-numerator-rabbit/n.png",
+    "target": "public/pictures/monsters/059-numerator-rabbit/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\059-numerator-rabbit\\n.webp",
+    "originalBytes": 2768245,
+    "webpBytes": 283290
+  },
+  {
+    "source": "public/pictures/monsters/059-numerator-rabbit/sr.png",
+    "target": "public/pictures/monsters/059-numerator-rabbit/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\059-numerator-rabbit\\sr.webp",
+    "originalBytes": 3003673,
+    "webpBytes": 366538
+  },
+  {
+    "source": "public/pictures/monsters/059-numerator-rabbit/ur.png",
+    "target": "public/pictures/monsters/059-numerator-rabbit/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\059-numerator-rabbit\\ur.webp",
+    "originalBytes": 3413276,
+    "webpBytes": 517586
+  },
+  {
+    "source": "public/pictures/monsters/060-denominator-bird/n.png",
+    "target": "public/pictures/monsters/060-denominator-bird/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\060-denominator-bird\\n.webp",
+    "originalBytes": 2751817,
+    "webpBytes": 285128
+  },
+  {
+    "source": "public/pictures/monsters/060-denominator-bird/sr.png",
+    "target": "public/pictures/monsters/060-denominator-bird/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\060-denominator-bird\\sr.webp",
+    "originalBytes": 3064921,
+    "webpBytes": 372896
+  },
+  {
+    "source": "public/pictures/monsters/060-denominator-bird/ur.png",
+    "target": "public/pictures/monsters/060-denominator-bird/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\060-denominator-bird\\ur.webp",
+    "originalBytes": 3449231,
+    "webpBytes": 519902
+  },
+  {
+    "source": "public/pictures/monsters/061-fraction-fairy/n.png",
+    "target": "public/pictures/monsters/061-fraction-fairy/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\061-fraction-fairy\\n.webp",
+    "originalBytes": 2836128,
+    "webpBytes": 283318
+  },
+  {
+    "source": "public/pictures/monsters/061-fraction-fairy/sr.png",
+    "target": "public/pictures/monsters/061-fraction-fairy/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\061-fraction-fairy\\sr.webp",
+    "originalBytes": 3113579,
+    "webpBytes": 380212
+  },
+  {
+    "source": "public/pictures/monsters/061-fraction-fairy/ur.png",
+    "target": "public/pictures/monsters/061-fraction-fairy/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\061-fraction-fairy\\ur.webp",
+    "originalBytes": 3389286,
+    "webpBytes": 491786
+  },
+  {
+    "source": "public/pictures/monsters/062-fraction-king/n.png",
+    "target": "public/pictures/monsters/062-fraction-king/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\062-fraction-king\\n.webp",
+    "originalBytes": 2749967,
+    "webpBytes": 310010
+  },
+  {
+    "source": "public/pictures/monsters/062-fraction-king/sr.png",
+    "target": "public/pictures/monsters/062-fraction-king/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\062-fraction-king\\sr.webp",
+    "originalBytes": 3182774,
+    "webpBytes": 424714
+  },
+  {
+    "source": "public/pictures/monsters/062-fraction-king/ur.png",
+    "target": "public/pictures/monsters/062-fraction-king/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\062-fraction-king\\ur.webp",
+    "originalBytes": 3670220,
+    "webpBytes": 600728
+  },
+  {
+    "source": "public/pictures/monsters/063-proper-monster/n.png",
+    "target": "public/pictures/monsters/063-proper-monster/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\063-proper-monster\\n.webp",
+    "originalBytes": 2593127,
+    "webpBytes": 134404
+  },
+  {
+    "source": "public/pictures/monsters/063-proper-monster/sr.png",
+    "target": "public/pictures/monsters/063-proper-monster/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\063-proper-monster\\sr.webp",
+    "originalBytes": 3192480,
+    "webpBytes": 256126
+  },
+  {
+    "source": "public/pictures/monsters/063-proper-monster/ur.png",
+    "target": "public/pictures/monsters/063-proper-monster/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\063-proper-monster\\ur.webp",
+    "originalBytes": 3274173,
+    "webpBytes": 364372
+  },
+  {
+    "source": "public/pictures/monsters/064-equal-king/n.png",
+    "target": "public/pictures/monsters/064-equal-king/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\064-equal-king\\n.webp",
+    "originalBytes": 2029036,
+    "webpBytes": 171482
+  },
+  {
+    "source": "public/pictures/monsters/064-equal-king/sr.png",
+    "target": "public/pictures/monsters/064-equal-king/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\064-equal-king\\sr.webp",
+    "originalBytes": 2613092,
+    "webpBytes": 230864
+  },
+  {
+    "source": "public/pictures/monsters/064-equal-king/ur.png",
+    "target": "public/pictures/monsters/064-equal-king/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\064-equal-king\\ur.webp",
+    "originalBytes": 3292028,
+    "webpBytes": 367030
+  },
+  {
+    "source": "public/pictures/monsters/065-small-knight/n.png",
+    "target": "public/pictures/monsters/065-small-knight/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\065-small-knight\\n.webp",
+    "originalBytes": 2122198,
+    "webpBytes": 129240
+  },
+  {
+    "source": "public/pictures/monsters/065-small-knight/sr.png",
+    "target": "public/pictures/monsters/065-small-knight/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\065-small-knight\\sr.webp",
+    "originalBytes": 2135951,
+    "webpBytes": 163836
+  },
+  {
+    "source": "public/pictures/monsters/065-small-knight/ur.png",
+    "target": "public/pictures/monsters/065-small-knight/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\065-small-knight\\ur.webp",
+    "originalBytes": 3387082,
+    "webpBytes": 346522
+  },
+  {
+    "source": "public/pictures/monsters/066-percent-devil/n.png",
+    "target": "public/pictures/monsters/066-percent-devil/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\066-percent-devil\\n.webp",
+    "originalBytes": 1381721,
+    "webpBytes": 101848
+  },
+  {
+    "source": "public/pictures/monsters/066-percent-devil/sr.png",
+    "target": "public/pictures/monsters/066-percent-devil/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\066-percent-devil\\sr.webp",
+    "originalBytes": 2605078,
+    "webpBytes": 256042
+  },
+  {
+    "source": "public/pictures/monsters/066-percent-devil/ur.png",
+    "target": "public/pictures/monsters/066-percent-devil/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\066-percent-devil\\ur.webp",
+    "originalBytes": 2968301,
+    "webpBytes": 346926
+  },
+  {
+    "source": "public/pictures/monsters/067-ratio-seraphim/n.png",
+    "target": "public/pictures/monsters/067-ratio-seraphim/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\067-ratio-seraphim\\n.webp",
+    "originalBytes": 1603087,
+    "webpBytes": 124422
+  },
+  {
+    "source": "public/pictures/monsters/067-ratio-seraphim/sr.png",
+    "target": "public/pictures/monsters/067-ratio-seraphim/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\067-ratio-seraphim\\sr.webp",
+    "originalBytes": 2260738,
+    "webpBytes": 210838
+  },
+  {
+    "source": "public/pictures/monsters/067-ratio-seraphim/ur.png",
+    "target": "public/pictures/monsters/067-ratio-seraphim/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\067-ratio-seraphim\\ur.webp",
+    "originalBytes": 3341477,
+    "webpBytes": 370998
+  },
+  {
+    "source": "public/pictures/monsters/068-average-goddess/n.png",
+    "target": "public/pictures/monsters/068-average-goddess/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\068-average-goddess\\n.webp",
+    "originalBytes": 2067742,
+    "webpBytes": 179792
+  },
+  {
+    "source": "public/pictures/monsters/068-average-goddess/sr.png",
+    "target": "public/pictures/monsters/068-average-goddess/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\068-average-goddess\\sr.webp",
+    "originalBytes": 2256621,
+    "webpBytes": 230144
+  },
+  {
+    "source": "public/pictures/monsters/068-average-goddess/ur.png",
+    "target": "public/pictures/monsters/068-average-goddess/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\068-average-goddess\\ur.webp",
+    "originalBytes": 3345136,
+    "webpBytes": 425998
+  },
+  {
+    "source": "public/pictures/monsters/069-balance-cerberus/n.png",
+    "target": "public/pictures/monsters/069-balance-cerberus/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\069-balance-cerberus\\n.webp",
+    "originalBytes": 1658382,
+    "webpBytes": 143136
+  },
+  {
+    "source": "public/pictures/monsters/069-balance-cerberus/sr.png",
+    "target": "public/pictures/monsters/069-balance-cerberus/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\069-balance-cerberus\\sr.webp",
+    "originalBytes": 2180155,
+    "webpBytes": 219938
+  },
+  {
+    "source": "public/pictures/monsters/069-balance-cerberus/ur.png",
+    "target": "public/pictures/monsters/069-balance-cerberus/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\069-balance-cerberus\\ur.webp",
+    "originalBytes": 3401366,
+    "webpBytes": 430478
+  },
+  {
+    "source": "public/pictures/monsters/070-speed-valkyrie/n.png",
+    "target": "public/pictures/monsters/070-speed-valkyrie/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\070-speed-valkyrie\\n.webp",
+    "originalBytes": 1536512,
+    "webpBytes": 125734
+  },
+  {
+    "source": "public/pictures/monsters/070-speed-valkyrie/sr.png",
+    "target": "public/pictures/monsters/070-speed-valkyrie/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\070-speed-valkyrie\\sr.webp",
+    "originalBytes": 2233151,
+    "webpBytes": 191408
+  },
+  {
+    "source": "public/pictures/monsters/070-speed-valkyrie/ur.png",
+    "target": "public/pictures/monsters/070-speed-valkyrie/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\070-speed-valkyrie\\ur.webp",
+    "originalBytes": 3348280,
+    "webpBytes": 417502
+  },
+  {
+    "source": "public/pictures/monsters/071-distance-griffon/n.png",
+    "target": "public/pictures/monsters/071-distance-griffon/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\071-distance-griffon\\n.webp",
+    "originalBytes": 1307645,
+    "webpBytes": 93664
+  },
+  {
+    "source": "public/pictures/monsters/071-distance-griffon/sr.png",
+    "target": "public/pictures/monsters/071-distance-griffon/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\071-distance-griffon\\sr.webp",
+    "originalBytes": 2307114,
+    "webpBytes": 204152
+  },
+  {
+    "source": "public/pictures/monsters/071-distance-griffon/ur.png",
+    "target": "public/pictures/monsters/071-distance-griffon/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\071-distance-griffon\\ur.webp",
+    "originalBytes": 3380127,
+    "webpBytes": 418434
+  },
+  {
+    "source": "public/pictures/monsters/072-time-chrono-demon/n.png",
+    "target": "public/pictures/monsters/072-time-chrono-demon/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\072-time-chrono-demon\\n.webp",
+    "originalBytes": 1513066,
+    "webpBytes": 85460
+  },
+  {
+    "source": "public/pictures/monsters/072-time-chrono-demon/sr.png",
+    "target": "public/pictures/monsters/072-time-chrono-demon/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\072-time-chrono-demon\\sr.webp",
+    "originalBytes": 2313377,
+    "webpBytes": 205858
+  },
+  {
+    "source": "public/pictures/monsters/072-time-chrono-demon/ur.png",
+    "target": "public/pictures/monsters/072-time-chrono-demon/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\072-time-chrono-demon\\ur.webp",
+    "originalBytes": 3400369,
+    "webpBytes": 397106
+  },
+  {
+    "source": "public/pictures/monsters/073-unit-fenrir/n.png",
+    "target": "public/pictures/monsters/073-unit-fenrir/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\073-unit-fenrir\\n.webp",
+    "originalBytes": 3004437,
+    "webpBytes": 225230
+  },
+  {
+    "source": "public/pictures/monsters/073-unit-fenrir/sr.png",
+    "target": "public/pictures/monsters/073-unit-fenrir/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\073-unit-fenrir\\sr.webp",
+    "originalBytes": 2944132,
+    "webpBytes": 272252
+  },
+  {
+    "source": "public/pictures/monsters/073-unit-fenrir/ur.png",
+    "target": "public/pictures/monsters/073-unit-fenrir/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\pictures\\monsters\\073-unit-fenrir\\ur.webp",
+    "originalBytes": 3068133,
+    "webpBytes": 307654
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-001/n.png",
+    "target": "public/packs/kindergarten/monsters/kg-001/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-001\\n.webp",
+    "originalBytes": 2876284,
+    "webpBytes": 102134
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-001/sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-001/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-001\\sr.webp",
+    "originalBytes": 3136080,
+    "webpBytes": 152500
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-001/ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-001/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-001\\ur.webp",
+    "originalBytes": 3307439,
+    "webpBytes": 279308
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-002/n.png",
+    "target": "public/packs/kindergarten/monsters/kg-002/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-002\\n.webp",
+    "originalBytes": 2649696,
+    "webpBytes": 131956
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-002/sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-002/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-002\\sr.webp",
+    "originalBytes": 2762839,
+    "webpBytes": 175312
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-002/ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-002/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-002\\ur.webp",
+    "originalBytes": 3287739,
+    "webpBytes": 284580
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-003/n.png",
+    "target": "public/packs/kindergarten/monsters/kg-003/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-003\\n.webp",
+    "originalBytes": 3163831,
+    "webpBytes": 162604
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-003/sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-003/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-003\\sr.webp",
+    "originalBytes": 3238564,
+    "webpBytes": 244200
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-003/ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-003/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-003\\ur.webp",
+    "originalBytes": 3272485,
+    "webpBytes": 351590
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-004/n.png",
+    "target": "public/packs/kindergarten/monsters/kg-004/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-004\\n.webp",
+    "originalBytes": 3046348,
+    "webpBytes": 189952
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-004/sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-004/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-004\\sr.webp",
+    "originalBytes": 3124134,
+    "webpBytes": 212076
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-004/ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-004/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-004\\ur.webp",
+    "originalBytes": 3259094,
+    "webpBytes": 340416
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-005/n.png",
+    "target": "public/packs/kindergarten/monsters/kg-005/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-005\\n.webp",
+    "originalBytes": 2994981,
+    "webpBytes": 165512
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-005/sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-005/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-005\\sr.webp",
+    "originalBytes": 3125537,
+    "webpBytes": 231546
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-005/ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-005/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-005\\ur.webp",
+    "originalBytes": 3197710,
+    "webpBytes": 335026
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-006/n.png",
+    "target": "public/packs/kindergarten/monsters/kg-006/n.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-006\\n.webp",
+    "originalBytes": 2629863,
+    "webpBytes": 119028
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-006/sr.png",
+    "target": "public/packs/kindergarten/monsters/kg-006/sr.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-006\\sr.webp",
+    "originalBytes": 2900555,
+    "webpBytes": 215030
+  },
+  {
+    "source": "public/packs/kindergarten/monsters/kg-006/ur.png",
+    "target": "public/packs/kindergarten/monsters/kg-006/ur.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\packs\\kindergarten\\monsters\\kg-006\\ur.webp",
+    "originalBytes": 3007880,
+    "webpBytes": 278602
+  },
+  {
+    "source": "public/images/banners/elementary-adventure.png",
+    "target": "public/images/banners/elementary-adventure.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\images\\banners\\elementary-adventure.webp",
+    "originalBytes": 2925253,
+    "webpBytes": 328070
+  },
+  {
+    "source": "public/images/banners/kindergarten-adventure.png",
+    "target": "public/images/banners/kindergarten-adventure.webp",
+    "output": "C:\\Users\\user\\.codex\\.chatgpt-projects\\g-p-6a562b5cf3b081918351a3703589ebac\\webp-assets\\public\\images\\banners\\kindergarten-adventure.webp",
+    "originalBytes": 2515370,
+    "webpBytes": 240122
+  }
+]

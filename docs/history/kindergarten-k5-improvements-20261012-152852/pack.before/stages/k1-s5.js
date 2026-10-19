@@ -1,0 +1,1 @@
+export default { id: "k1-s5", world: 101, sort: 5, unit: "k-foundation", unitLabel: "かずと なかよし", name: "おおいのは どっち？", type: "k_more", course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: false };

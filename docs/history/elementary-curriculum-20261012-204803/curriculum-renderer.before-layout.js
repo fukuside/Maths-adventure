@@ -1,0 +1,11 @@
+export default {
+  kind: 'curriculum-choice',
+  render(q,{escapeHtml:e}) {
+    let visual='';
+    if(q.visual?.table) visual=`<table style="margin:16px auto;border-collapse:collapse">${q.visual.table.map((row,i)=>`<tr>${row.map(v=>`<${i?'td':'th'} style="padding:8px 16px;border:1px solid #8197b0">${e(v)}</${i?'td':'th'}>`).join('')}</tr>`).join('')}</table>`;
+    if(q.visual?.bars) visual=`<div style="max-width:440px;margin:16px auto">${q.visual.bars.map(([name,n])=>`<div style="display:flex;align-items:center;gap:12px;margin:8px"><span>${e(name)}</span><span style="height:22px;background:#46c8d5;width:${n*12}px"></span><strong>${n}冊</strong></div>`).join('')}</div>`;
+    if(q.visual?.rectangle) {const [a,b]=q.visual.rectangle;visual=`<svg viewBox="0 0 320 180" width="100%" style="max-width:360px" role="img" aria-label="たて${a}cm、横${b}cmの長方形"><rect x="75" y="35" width="190" height="110" fill="#c7eef3" stroke="#4489a0" stroke-width="3"/><text x="170" y="25" text-anchor="middle" fill="currentColor">${b}cm</text><text x="15" y="100" fill="currentColor">${a}cm</text></svg>`;}
+    if(q.visual?.triangle) {const [a,b]=q.visual.triangle;visual=`<svg viewBox="0 0 320 190" width="100%" style="max-width:360px" role="img" aria-label="底辺${a}cm、高さ${b}cmの三角形"><path d="M55 145 L265 145 L155 35 Z" fill="#c7eef3" stroke="#4489a0" stroke-width="3"/><path d="M155 35 V145" stroke="#b9545a" stroke-width="2" stroke-dasharray="5 4"/><text x="180" y="90" fill="currentColor">高さ${b}cm</text><text x="160" y="175" text-anchor="middle" fill="currentColor">底辺${a}cm</text></svg>`;}
+    return `<div class="text-question" style="white-space:pre-line">${e(q.prompt)}</div>${visual}<div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:20px 0">${q.choices.map(c=>`<div class="panel" style="text-align:center;padding:16px 8px;overflow-wrap:anywhere"><strong>${e(c.id)}</strong><p style="font-size:clamp(18px,3vw,28px);margin:8px 0">${e(c.label)}</p></div>`).join('')}</div><p class="muted">A・B・Cから選んで「こたえる」を押そう。</p>`;
+  }
+};

@@ -10,8 +10,8 @@ export default {
   stats: { hp: 282, atk: 143 },
   description: "小数の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/054-point-dragon/n.png",
-    SR: "/pictures/monsters/054-point-dragon/sr.png",
-    UR: "/pictures/monsters/054-point-dragon/ur.png"
+    N: "/pictures/monsters/054-point-dragon/n.webp",
+    SR: "/pictures/monsters/054-point-dragon/sr.webp",
+    UR: "/pictures/monsters/054-point-dragon/ur.webp"
   }
 };

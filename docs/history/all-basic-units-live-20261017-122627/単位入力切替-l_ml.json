@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-17",
+  "stage": "e2-unit-basic-l_ml",
+  "cleared": true,
+  "errors": [],
+  "report": [
+    {
+      "question": 1,
+      "answer": 1000,
+      "mode": "choice",
+      "text": "1L＝ □ mL。□に入る数は？\nA\n\n0\n\nB\n\n2000\n\nC\n\n1000\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 2,
+      "answer": 1,
+      "mode": "choice",
+      "text": "1000mL＝ □ L。□に入る数は？\nA\n\n0\n\nB\n\n1\n\nC\n\n2\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 3,
+      "answer": 9000,
+      "mode": "choice",
+      "text": "9L＝ □ mL。□に入る数は？\nA\n\n9000\n\nB\n\n8000\n\nC\n\n10000\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 4,
+      "answer": 2,
+      "mode": "numeric",
+      "text": "2000mL＝ □ L。□に入る数は？\n\nここからは、数字で答えてみよう！\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 5,
+      "answer": 4,
+      "mode": "numeric",
+      "text": "4000mL＝ □ L。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 6,
+      "answer": 7,
+      "mode": "numeric",
+      "text": "7000mL＝ □ L。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 7,
+      "answer": 7000,
+      "mode": "numeric",
+      "text": "7L＝ □ mL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 8,
+      "answer": 3000,
+      "mode": "numeric",
+      "text": "3L＝ □ mL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 9,
+      "answer": 8000,
+      "mode": "numeric",
+      "text": "8L＝ □ mL。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 10,
+      "answer": 6,
+      "mode": "numeric",
+      "text": "6000mL＝ □ L。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    }
+  ]
+}

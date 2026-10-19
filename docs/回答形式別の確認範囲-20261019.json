@@ -1,0 +1,318 @@
+{
+  "createdAt": "2026-10-19T01:05:13.201Z",
+  "meaning": "確認証跡の索引。entriesは実行記録の行数であり、合格問数や独立正答件数の合算には使わない。clearedRecorded=falseは未クリア判定ではなく元JSONにcleared:true欄がないことを表す。",
+  "rows": [
+    {
+      "file": "およその面積-10問実検証.json",
+      "stage": "e6-circleArea",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17T22:40:50.429Z"
+    },
+    {
+      "file": "お金入力-10問実検証.json",
+      "stage": "w2-money-1",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T01:50:38.290Z"
+    },
+    {
+      "file": "そろばん-3-10問実検証.json",
+      "stage": "e3-large3",
+      "entries": 10,
+      "clearedRecorded": false,
+      "scope": "前半は生成器の正答。そろばんは表示珠から読み/珠ボタンで加減。",
+      "verifiedAt": "2026-10-18T23:01:48.301Z"
+    },
+    {
+      "file": "そろばん-4-10問実検証.json",
+      "stage": "e4-large4",
+      "entries": 10,
+      "clearedRecorded": false,
+      "scope": "前半は生成器の正答。そろばんは表示珠から読み/珠ボタンで加減。",
+      "verifiedAt": "2026-10-18T20:02:49.077Z"
+    },
+    {
+      "file": "ものさし操作-cm-10問実検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "ものさし操作-mm-10問実検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "中断と足跡-実検証.json",
+      "stage": "w2-money-1",
+      "entries": null,
+      "clearedRecorded": false,
+      "scope": "実ゲームの誤答→中断→再挑戦。学習レポート保存やFirebase別端末の成功判定ではない。",
+      "verifiedAt": "2026-10-18T04:57:16.047Z"
+    },
+    {
+      "file": "乗算筆算10問実操作検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "乗算筆算低画面10問実操作検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "偶数奇数-10問実検証.json",
+      "stage": "e5-multiple",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17T23:45:58.664Z"
+    },
+    {
+      "file": "分数旧入力-10問実検証.json",
+      "stage": "w4-fraction-5",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T03:51:59.639Z"
+    },
+    {
+      "file": "分数旧引き算入力-10問実検証.json",
+      "stage": "w4-fraction-6",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T07:00:57.182Z"
+    },
+    {
+      "file": "単位入力切替実操作検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "図形の角-合同-10問実検証.json",
+      "stage": "e5-congruent",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "図鑑パートナー保存-実検証.json",
+      "stage": "",
+      "entries": null,
+      "clearedRecorded": false,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17T19:37:21.671Z"
+    },
+    {
+      "file": "大きな数-10問実検証.json",
+      "stage": "e4-large4",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17T16:38:34.552Z"
+    },
+    {
+      "file": "容器入力-10問実検証.json",
+      "stage": "e2-measure_capacity_ml",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T02:55:05.734Z"
+    },
+    {
+      "file": "対称点操作10問実検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "小1立体と位置-10問実検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": false,
+      "scope": "前8問と立体選択は生成器正答。左右の位置は実描画の並びから独立計数。",
+      "verifiedAt": "2026-10-18T22:09:42.982Z"
+    },
+    {
+      "file": "小2データ-10問実検証.json",
+      "stage": "e2-data-table",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T13:02:58.896Z"
+    },
+    {
+      "file": "小2箱-10問実検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": false,
+      "scope": "前8問は生成器の正答で進行。箱2問は描画要素を独立計数。",
+      "verifiedAt": "2026-10-18T19:01:53.759Z"
+    },
+    {
+      "file": "小2箱-描画実検証.json",
+      "stage": "",
+      "entries": 12,
+      "clearedRecorded": false,
+      "scope": "隔離ブラウザーの実問題枠へ生成器の描画を表示。回答・採点・クリアの検証ではない。",
+      "verifiedAt": "2026-10-18T18:02:27.677Z"
+    },
+    {
+      "file": "小4二次元表-10問実検証.json",
+      "stage": "e4-two-way-table",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T16:01:00.209Z"
+    },
+    {
+      "file": "小4位置-10問実検証.json",
+      "stage": "e4-position",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T15:03:02.371Z"
+    },
+    {
+      "file": "小4変わり方-10問実検証.json",
+      "stage": "e4-changing-table",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-19T00:05:00.690Z"
+    },
+    {
+      "file": "小6ドット-10問実検証.json",
+      "stage": "e6-frequency",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T17:01:12.606Z"
+    },
+    {
+      "file": "幼児イラスト-count-5問実検証.json",
+      "stage": "k6-s1",
+      "entries": 5,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "幼児イラスト-sandwich-5問実検証.json",
+      "stage": "k3-s5",
+      "entries": 5,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "幼児イラスト-weight-5問実検証.json",
+      "stage": "k4-s4",
+      "entries": 5,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "幼児イラスト-zero-5問実検証.json",
+      "stage": "k6-s2",
+      "entries": 5,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "形づくり10問実操作検証.json",
+      "stage": "",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "数のしくみ-10問実検証.json",
+      "stage": "e5-divisor",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T05:59:22.551Z"
+    },
+    {
+      "file": "旧式入力-10問実検証.json",
+      "stage": "w1-addition-5",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17T17:40:45.659Z"
+    },
+    {
+      "file": "時計入力-10問実検証.json",
+      "stage": "w2-time-1",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17T15:35:28.844Z"
+    },
+    {
+      "file": "構成操作-congruent-10問実検証.json",
+      "stage": "e5-congruent",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "構成操作-scale-10問実検証.json",
+      "stage": "e6-scale",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "正多角形-10問実検証.json",
+      "stage": "e5-circumference",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17"
+    },
+    {
+      "file": "立体のしくみ-10問実検証.json",
+      "stage": "e5-volume5",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-18T08:02:10.901Z"
+    },
+    {
+      "file": "面積単位-10問実検証.json",
+      "stage": "e4-areaRectangle",
+      "entries": 10,
+      "clearedRecorded": true,
+      "scope": "詳しい範囲は元JSONと制作記録を参照",
+      "verifiedAt": "2026-10-17T14:37:24.651Z"
+    }
+  ]
+}

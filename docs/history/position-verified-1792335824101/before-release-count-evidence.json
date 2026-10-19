@@ -1,0 +1,4789 @@
+{
+  "before": {
+    "root": "C:/Users/user/子育てプロジェクト/backups/before-organize-20261012-123020/maths-adventure-v1.4",
+    "counts": [
+      {
+        "pack": "builtin",
+        "stages": 60,
+        "cards": 62,
+        "worlds": 6
+      }
+    ],
+    "stageCount": 60,
+    "cardCount": 62,
+    "worldCount": 6,
+    "stages": [
+      {
+        "id": "w1-addition-1",
+        "world": 1,
+        "type": "addition_meaning",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-2",
+        "world": 1,
+        "type": "addition_single",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-3",
+        "world": 1,
+        "type": "addition_mixed",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-4",
+        "world": 1,
+        "type": "addition_flash",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-5",
+        "world": 1,
+        "type": "addition_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-boss",
+        "world": 1,
+        "type": "addition_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-1",
+        "world": 1,
+        "type": "subtraction_meaning",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-2",
+        "world": 1,
+        "type": "subtraction_single",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-3",
+        "world": 1,
+        "type": "subtraction_teens",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-4",
+        "world": 1,
+        "type": "subtraction_flash",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-5",
+        "world": 1,
+        "type": "subtraction_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-boss",
+        "world": 1,
+        "type": "subtraction_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-1",
+        "world": 2,
+        "type": "money_sum",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-2",
+        "world": 2,
+        "type": "money_exact_pay",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-3",
+        "world": 2,
+        "type": "money_add",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-4",
+        "world": 2,
+        "type": "money_sub",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-5",
+        "world": 2,
+        "type": "money_sum",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-boss",
+        "world": 2,
+        "type": "money_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-can-buy-1",
+        "world": 2,
+        "type": "money_can_buy",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-change-1",
+        "world": 2,
+        "type": "money_change",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-shopping-1",
+        "world": 2,
+        "type": "money_shopping",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-1",
+        "world": 2,
+        "type": "clock_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-2",
+        "world": 2,
+        "type": "clock_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-3",
+        "world": 2,
+        "type": "clock_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-4",
+        "world": 2,
+        "type": "clock_minute_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-5",
+        "world": 2,
+        "type": "clock_elapsed_after",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-6",
+        "world": 2,
+        "type": "clock_elapsed_before",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-7",
+        "world": 2,
+        "type": "clock_24h",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-boss",
+        "world": 2,
+        "type": "clock_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-1",
+        "world": 3,
+        "type": "division_meaning",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-2",
+        "world": 3,
+        "type": "division_basic",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-3",
+        "world": 3,
+        "type": "division_fact_family",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-4",
+        "world": 3,
+        "type": "division_single",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-5",
+        "world": 3,
+        "type": "division_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-6",
+        "world": 3,
+        "type": "division_flash",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-boss",
+        "world": 3,
+        "type": "division_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-1",
+        "world": 3,
+        "type": "multiply_meaning",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-2",
+        "world": 3,
+        "type": "multiply_basics",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-3",
+        "world": 3,
+        "type": "multiply_master",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-4",
+        "world": 3,
+        "type": "multiply_master",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-5",
+        "world": 3,
+        "type": "multiply_master",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-6",
+        "world": 3,
+        "type": "multiply_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-7",
+        "world": 3,
+        "type": "multiply_flash",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-boss",
+        "world": 3,
+        "type": "multiply_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-1",
+        "world": 4,
+        "type": "decimal_visual_basic",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-2",
+        "world": 4,
+        "type": "decimal_over_one",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-3",
+        "world": 4,
+        "type": "decimal_numberline",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-4",
+        "world": 4,
+        "type": "decimal_compare",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-5",
+        "world": 4,
+        "type": "decimal_place_value",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-6",
+        "world": 4,
+        "type": "decimal_add",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-7",
+        "world": 4,
+        "type": "decimal_subtract",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-8",
+        "world": 4,
+        "type": "decimal_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-boss",
+        "world": 4,
+        "type": "decimal_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-1",
+        "world": 4,
+        "type": "fraction_visual_basic",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-2",
+        "world": 4,
+        "type": "fraction_compare_visual",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-3",
+        "world": 4,
+        "type": "fraction_equivalent",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-4",
+        "world": 4,
+        "type": "fraction_compare_symbol",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-5",
+        "world": 4,
+        "type": "fraction_add_same_denominator",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-6",
+        "world": 4,
+        "type": "fraction_subtract_same_denominator",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-boss",
+        "world": 4,
+        "type": "fraction_mixed",
+        "hiddenFromWorld": false
+      }
+    ],
+    "cards": [
+      {
+        "id": "001-plus-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "002-sum-slime",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "003-pair-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "004-apple-bear",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "005-carry-fox",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "006-sum-lion",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "007-plus-emperor",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "008-minus-fox",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "009-take-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "010-remove-mole",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "011-diff-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "012-back-bear",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "013-sub-wolf",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "014-minus-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "015-minute-mouse",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "016-hour-owl",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "017-clock-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "018-bell-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "019-time-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "020-chrono-wolf",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "021-chrono-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "022-coin-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "023-yen-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "024-wallet-bear",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "025-change-fox",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "026-shop-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "027-gold-panda",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "028-money-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "029-waterpon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "030-twinbird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "031-firesaurus",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "032-clover-turtle",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "033-star-wolf",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "034-six-speaker",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "035-rainbow-dragon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "036-octopal",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "037-shine-pegasus",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "038-massive-golem",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "039-lightning-fang",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "040-divine-phoenix",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "041-kuku-king-gold",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "042-half-penguin",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "043-divide-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "044-share-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "045-group-golem",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "046-remainder-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "047-quotient-wolf",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "048-divide-emperor",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "049-point-slime",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "050-tenths-pon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "051-decimal-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "052-dot-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "053-zero-tenths-bear",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "054-point-dragon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "055-decimal-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "056-half-moon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "057-third-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "058-quarter-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "059-numerator-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "060-denominator-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "061-fraction-fairy",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "062-fraction-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      }
+    ]
+  },
+  "now": {
+    "root": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4",
+    "counts": [
+      {
+        "pack": "builtin",
+        "stages": 60,
+        "cards": 100,
+        "worlds": 6
+      },
+      {
+        "pack": "elementary-expansion",
+        "stages": 82,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "graph-lessons",
+        "stages": 2,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "kindergarten",
+        "stages": 42,
+        "cards": 6,
+        "worlds": 6
+      },
+      {
+        "pack": "line-relations",
+        "stages": 1,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "measurement-pack",
+        "stages": 8,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "ratio-scale",
+        "stages": 2,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "shape-pack",
+        "stages": 8,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "speed-extension",
+        "stages": 2,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "times-tables",
+        "stages": 9,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "unit-basics",
+        "stages": 8,
+        "cards": 0,
+        "worlds": 0
+      },
+      {
+        "pack": "upper-basics",
+        "stages": 7,
+        "cards": 0,
+        "worlds": 0
+      }
+    ],
+    "stageCount": 231,
+    "cardCount": 106,
+    "worldCount": 12,
+    "stages": [
+      {
+        "id": "w1-addition-1",
+        "world": 1,
+        "type": "addition_meaning",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-2",
+        "world": 1,
+        "type": "addition_single",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-3",
+        "world": 1,
+        "type": "addition_mixed",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-4",
+        "world": 1,
+        "type": "addition_flash",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-5",
+        "world": 1,
+        "type": "addition_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-addition-boss",
+        "world": 1,
+        "type": "addition_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-1",
+        "world": 1,
+        "type": "subtraction_meaning",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-2",
+        "world": 1,
+        "type": "subtraction_single",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-3",
+        "world": 1,
+        "type": "subtraction_teens",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-4",
+        "world": 1,
+        "type": "subtraction_flash",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-5",
+        "world": 1,
+        "type": "subtraction_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w1-subtraction-boss",
+        "world": 1,
+        "type": "subtraction_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-1",
+        "world": 2,
+        "type": "money_sum",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-2",
+        "world": 2,
+        "type": "money_exact_pay",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-3",
+        "world": 2,
+        "type": "money_add",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-4",
+        "world": 2,
+        "type": "money_sub",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-5",
+        "world": 2,
+        "type": "money_sum",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-boss",
+        "world": 2,
+        "type": "money_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-can-buy-1",
+        "world": 2,
+        "type": "money_can_buy",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-change-1",
+        "world": 2,
+        "type": "money_change",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-money-shopping-1",
+        "world": 2,
+        "type": "money_shopping",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-1",
+        "world": 2,
+        "type": "clock_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-2",
+        "world": 2,
+        "type": "clock_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-3",
+        "world": 2,
+        "type": "clock_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-4",
+        "world": 2,
+        "type": "clock_minute_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-5",
+        "world": 2,
+        "type": "clock_elapsed_after",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-6",
+        "world": 2,
+        "type": "clock_elapsed_before",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-7",
+        "world": 2,
+        "type": "clock_24h",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w2-time-boss",
+        "world": 2,
+        "type": "clock_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-1",
+        "world": 3,
+        "type": "division_meaning",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-2",
+        "world": 3,
+        "type": "division_basic",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-3",
+        "world": 3,
+        "type": "division_fact_family",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-4",
+        "world": 3,
+        "type": "division_single",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-5",
+        "world": 3,
+        "type": "division_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-6",
+        "world": 3,
+        "type": "division_flash",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-division-boss",
+        "world": 3,
+        "type": "division_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-1",
+        "world": 3,
+        "type": "multiply_meaning",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-2",
+        "world": 3,
+        "type": "multiply_basics",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-3",
+        "world": 3,
+        "type": "multiply_master",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-4",
+        "world": 3,
+        "type": "multiply_master",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-5",
+        "world": 3,
+        "type": "multiply_master",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-6",
+        "world": 3,
+        "type": "multiply_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-7",
+        "world": 3,
+        "type": "multiply_flash",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w3-multiplication-boss",
+        "world": 3,
+        "type": "multiply_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-1",
+        "world": 4,
+        "type": "decimal_visual_basic",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-2",
+        "world": 4,
+        "type": "decimal_over_one",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-3",
+        "world": 4,
+        "type": "decimal_numberline",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-4",
+        "world": 4,
+        "type": "decimal_compare",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-5",
+        "world": 4,
+        "type": "decimal_place_value",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-6",
+        "world": 4,
+        "type": "decimal_add",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-7",
+        "world": 4,
+        "type": "decimal_subtract",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-8",
+        "world": 4,
+        "type": "decimal_word",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-decimal-boss",
+        "world": 4,
+        "type": "decimal_boss",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-1",
+        "world": 4,
+        "type": "fraction_visual_basic",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-2",
+        "world": 4,
+        "type": "fraction_compare_visual",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-3",
+        "world": 4,
+        "type": "fraction_equivalent",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-4",
+        "world": 4,
+        "type": "fraction_compare_symbol",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-5",
+        "world": 4,
+        "type": "fraction_add_same_denominator",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-6",
+        "world": 4,
+        "type": "fraction_subtract_same_denominator",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "w4-fraction-boss",
+        "world": 4,
+        "type": "fraction_mixed",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-compareLength",
+        "world": 1,
+        "type": "curriculum_compareLength",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-curriculum-boss",
+        "world": 1,
+        "type": "curriculum_number20",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-number100",
+        "world": 1,
+        "type": "curriculum_number100",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-number20",
+        "world": 1,
+        "type": "curriculum_number20",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-order",
+        "world": 1,
+        "type": "curriculum_order",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-pictureData",
+        "world": 1,
+        "type": "curriculum_pictureData",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-shapeCount",
+        "world": 1,
+        "type": "curriculum_shapeCount",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-capacity",
+        "world": 2,
+        "type": "curriculum_capacity",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-curriculum-boss",
+        "world": 2,
+        "type": "curriculum_large2",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-data-table",
+        "world": 2,
+        "type": "elementary_data_table",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-half2",
+        "world": 2,
+        "type": "curriculum_half2",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-large2",
+        "world": 2,
+        "type": "curriculum_large2",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-length2",
+        "world": 2,
+        "type": "curriculum_length2",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-rectangle2",
+        "world": 2,
+        "type": "curriculum_rectangle2",
+        "hiddenFromWorld": true
+      },
+      {
+        "id": "e2-writtenAdd",
+        "world": 2,
+        "type": "curriculum_writtenAdd",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-writtenSubtract",
+        "world": 2,
+        "type": "curriculum_writtenSubtract",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-barData",
+        "world": 3,
+        "type": "curriculum_barData",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-boxEquation",
+        "world": 3,
+        "type": "curriculum_boxEquation",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-circle",
+        "world": 3,
+        "type": "curriculum_circle",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-curriculum-boss",
+        "world": 3,
+        "type": "curriculum_large3",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-fractionCompare3",
+        "world": 3,
+        "type": "curriculum_fractionCompare3",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-isosceles-sides",
+        "world": 3,
+        "type": "curriculum_isosceles",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-large3",
+        "world": 3,
+        "type": "curriculum_large3",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-length3",
+        "world": 3,
+        "type": "curriculum_length3",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-remainder",
+        "world": 3,
+        "type": "curriculum_remainder",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-seconds",
+        "world": 3,
+        "type": "curriculum_seconds",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-triangle3",
+        "world": 3,
+        "type": "curriculum_triangle3",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-weight",
+        "world": 3,
+        "type": "curriculum_weight",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-writtenMultiply",
+        "world": 3,
+        "type": "curriculum_writtenMultiply",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-angle",
+        "world": 4,
+        "type": "curriculum_angle",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-areaRectangle",
+        "world": 4,
+        "type": "curriculum_areaRectangle",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-cube_net",
+        "world": 4,
+        "type": "cube_net",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-curriculum-boss",
+        "world": 4,
+        "type": "curriculum_large4",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-decimalIntDivide",
+        "world": 4,
+        "type": "curriculum_decimalIntDivide",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-decimalIntMultiply",
+        "world": 4,
+        "type": "curriculum_decimalIntMultiply",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-decimalPlaces4",
+        "world": 4,
+        "type": "curriculum_decimalPlaces4",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-large4",
+        "world": 4,
+        "type": "curriculum_large4",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-lineData",
+        "world": 4,
+        "type": "curriculum_lineData",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-mixedFraction4",
+        "world": 4,
+        "type": "curriculum_mixedFraction4",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-orderOperations",
+        "world": 4,
+        "type": "curriculum_orderOperations",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-rounding",
+        "world": 4,
+        "type": "curriculum_rounding",
+        "hiddenFromWorld": true
+      },
+      {
+        "id": "e4-writtenDivide",
+        "world": 4,
+        "type": "curriculum_writtenDivide",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-average",
+        "world": 5,
+        "type": "curriculum_average",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-circumference",
+        "world": 5,
+        "type": "curriculum_circumference",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-congruent",
+        "world": 5,
+        "type": "curriculum_congruent",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-curriculum-boss",
+        "world": 5,
+        "type": "curriculum_decimalMultiply5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-decimalDivide5",
+        "world": 5,
+        "type": "curriculum_decimalDivide5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-decimalMultiply5",
+        "world": 5,
+        "type": "curriculum_decimalMultiply5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-divisor",
+        "world": 5,
+        "type": "curriculum_divisor",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-fractionAdd5",
+        "world": 5,
+        "type": "curriculum_fractionAdd5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-fractionSub5",
+        "world": 5,
+        "type": "curriculum_fractionSub5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-multiple",
+        "world": 5,
+        "type": "curriculum_multiple",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-parallelogramArea",
+        "world": 5,
+        "type": "curriculum_parallelogramArea",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-percent",
+        "world": 5,
+        "type": "curriculum_percent",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-percentData",
+        "world": 5,
+        "type": "curriculum_percentData",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-ratio5",
+        "world": 5,
+        "type": "curriculum_ratio5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-reduce",
+        "world": 5,
+        "type": "curriculum_reduce",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-rhombusArea",
+        "world": 5,
+        "type": "curriculum_rhombusArea",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-speed",
+        "world": 5,
+        "type": "curriculum_speed",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-trapezoidArea",
+        "world": 5,
+        "type": "curriculum_trapezoidArea",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-triangleArea",
+        "world": 5,
+        "type": "curriculum_triangleArea",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-unitAmount",
+        "world": 5,
+        "type": "curriculum_unitAmount",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-volume5",
+        "world": 5,
+        "type": "curriculum_volume5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-circleArea",
+        "world": 6,
+        "type": "curriculum_circleArea",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-combinations",
+        "world": 6,
+        "type": "curriculum_combinations",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-curriculum-boss",
+        "world": 6,
+        "type": "curriculum_fractionTimesInt",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-cylinderVolume",
+        "world": 6,
+        "type": "curriculum_cylinderVolume",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-fractionDecimal",
+        "world": 6,
+        "type": "curriculum_fractionDecimal",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-fractionDivide",
+        "world": 6,
+        "type": "curriculum_fractionDivide",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-fractionDivideInt",
+        "world": 6,
+        "type": "curriculum_fractionDivideInt",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-fractionMultiply",
+        "world": 6,
+        "type": "curriculum_fractionMultiply",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-fractionTimesInt",
+        "world": 6,
+        "type": "curriculum_fractionTimesInt",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-frequency",
+        "world": 6,
+        "type": "curriculum_frequency",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-inverse",
+        "world": 6,
+        "type": "curriculum_inverse",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-letter",
+        "world": 6,
+        "type": "curriculum_letter",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-median",
+        "world": 6,
+        "type": "curriculum_median",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-mode",
+        "world": 6,
+        "type": "curriculum_mode",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-prismVolume",
+        "world": 6,
+        "type": "curriculum_prismVolume",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-proportion",
+        "world": 6,
+        "type": "curriculum_proportion",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-ratio6",
+        "world": 6,
+        "type": "curriculum_ratio6",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-scale",
+        "world": 6,
+        "type": "curriculum_scale",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-symmetry",
+        "world": 6,
+        "type": "curriculum_symmetry",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-graph_line_change",
+        "world": 4,
+        "type": "graph_line_change",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-graph_line_read",
+        "world": 4,
+        "type": "graph_line_read",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k1-boss",
+        "world": 101,
+        "type": "k_summary",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k1-s1",
+        "world": 101,
+        "type": "k_match",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k1-s2",
+        "world": 101,
+        "type": "k_count_3",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k1-s3",
+        "world": 101,
+        "type": "k_count_5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k1-s4",
+        "world": 101,
+        "type": "k_number_group",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k1-s5",
+        "world": 101,
+        "type": "k_more",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k1-s6",
+        "world": 101,
+        "type": "k_less",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k2-boss",
+        "world": 102,
+        "type": "k_summary",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k2-s1",
+        "world": 102,
+        "type": "k2_count",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k2-s2",
+        "world": 102,
+        "type": "k2_numeral",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k2-s3",
+        "world": 102,
+        "type": "k2_number_group",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k2-s4",
+        "world": 102,
+        "type": "k2_increase",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k2-s5",
+        "world": 102,
+        "type": "k2_decrease",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k2-s6",
+        "world": 102,
+        "type": "k2_next",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k3-boss",
+        "world": 103,
+        "type": "k_summary",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k3-s1",
+        "world": 103,
+        "type": "k3_circle",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k3-s2",
+        "world": 103,
+        "type": "k3_triangle",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k3-s3",
+        "world": 103,
+        "type": "k3_square",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k3-s4",
+        "world": 103,
+        "type": "k3_match",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k3-s5",
+        "world": 103,
+        "type": "k3_combine",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k3-s6",
+        "world": 103,
+        "type": "k3_group",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k4-boss",
+        "world": 104,
+        "type": "k_summary",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k4-s1",
+        "world": 104,
+        "type": "k4_size",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k4-s2",
+        "world": 104,
+        "type": "k4_length",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k4-s3",
+        "world": 104,
+        "type": "k4_height",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k4-s4",
+        "world": 104,
+        "type": "k4_weight",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k4-s5",
+        "world": 104,
+        "type": "k4_quantity",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k4-s6",
+        "world": 104,
+        "type": "k4_same",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k5-boss",
+        "world": 105,
+        "type": "k_summary",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k5-s1",
+        "world": 105,
+        "type": "k5_alternate",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k5-s2",
+        "world": 105,
+        "type": "k5_shape_pattern",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k5-s3",
+        "world": 105,
+        "type": "k5_size_order",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k5-s4",
+        "world": 105,
+        "type": "k5_group",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k5-s5",
+        "world": 105,
+        "type": "k5_odd",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k5-s6",
+        "world": 105,
+        "type": "k5_path",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k6-boss",
+        "world": 106,
+        "type": "k_summary",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k6-s1",
+        "world": 106,
+        "type": "k6_count",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k6-s2",
+        "world": 106,
+        "type": "k6_zero",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k6-s3",
+        "world": 106,
+        "type": "k6_make5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k6-s4",
+        "world": 106,
+        "type": "k6_make10",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k6-s5",
+        "world": 106,
+        "type": "k6_change",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "k6-s6",
+        "world": 106,
+        "type": "k6_position",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-line-relations",
+        "world": 4,
+        "type": "line_relations",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-measure_decompose",
+        "world": 1,
+        "type": "measure_decompose",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-measure_number200",
+        "world": 1,
+        "type": "measure_number200",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-measure_capacity_ml",
+        "world": 2,
+        "type": "measure_capacity_ml",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-measure_l_ml",
+        "world": 2,
+        "type": "measure_l_ml",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-measure_m_cm",
+        "world": 2,
+        "type": "measure_m_cm",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-measure_offset",
+        "world": 2,
+        "type": "measure_offset",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-measure_ruler_cm",
+        "world": 2,
+        "type": "measure_ruler_cm",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-measure_ruler_mm",
+        "world": 2,
+        "type": "measure_ruler_mm",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-ratio_share",
+        "world": 6,
+        "type": "ratio_share",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e6-scale_map",
+        "world": 6,
+        "type": "scale_map",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-shape_compare_area",
+        "world": 1,
+        "type": "shape_compare_area",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-shape_compare_capacity",
+        "world": 1,
+        "type": "shape_compare_capacity",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-shape_compare_length",
+        "world": 1,
+        "type": "shape_compare_length",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e1-shape_match_outline",
+        "world": 1,
+        "type": "shape_match_outline",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-shape_polygon2",
+        "world": 2,
+        "type": "shape_polygon2",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-shape_rectangle2",
+        "world": 2,
+        "type": "shape_rectangle2",
+        "hiddenFromWorld": true
+      },
+      {
+        "id": "e4-composite-area",
+        "world": 4,
+        "type": "curriculum_compositeArea",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-quadrilateral-properties",
+        "world": 4,
+        "type": "shape_quadrilateral4",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-speed_distance",
+        "world": 5,
+        "type": "speed_distance",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e5-speed_time",
+        "world": 5,
+        "type": "speed_time",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-1",
+        "world": 2,
+        "type": "times_table_1",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-2",
+        "world": 2,
+        "type": "times_table_2",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-3",
+        "world": 2,
+        "type": "times_table_3",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-4",
+        "world": 2,
+        "type": "times_table_4",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-5",
+        "world": 2,
+        "type": "times_table_5",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-6",
+        "world": 2,
+        "type": "times_table_6",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-7",
+        "world": 2,
+        "type": "times_table_7",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-8",
+        "world": 2,
+        "type": "times_table_8",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-times-table-9",
+        "world": 2,
+        "type": "times_table_9",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-unit-basic-cm_mm",
+        "world": 2,
+        "type": "unit_basic_cm_mm",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-unit-basic-dl_ml",
+        "world": 2,
+        "type": "unit_basic_dl_ml",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-unit-basic-kg_g",
+        "world": 3,
+        "type": "unit_basic_kg_g",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-unit-basic-km_m",
+        "world": 3,
+        "type": "unit_basic_km_m",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-unit-basic-l_dl",
+        "world": 2,
+        "type": "unit_basic_l_dl",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-unit-basic-l_ml",
+        "world": 2,
+        "type": "unit_basic_l_ml",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e2-unit-basic-m_cm",
+        "world": 2,
+        "type": "unit_basic_m_cm",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-unit-basic-t_kg",
+        "world": 3,
+        "type": "unit_basic_t_kg",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-upper_mul2",
+        "world": 3,
+        "type": "upper_mul2",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-upper_mul3",
+        "world": 3,
+        "type": "upper_mul3",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e3-upper_weight_t",
+        "world": 3,
+        "type": "upper_weight_t",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-upper_decimal_add",
+        "world": 4,
+        "type": "upper_decimal_add",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-upper_decimal_sub",
+        "world": 4,
+        "type": "upper_decimal_sub",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-upper_thousandths",
+        "world": 4,
+        "type": "upper_thousandths",
+        "hiddenFromWorld": false
+      },
+      {
+        "id": "e4-upper_trillion",
+        "world": 4,
+        "type": "upper_trillion",
+        "hiddenFromWorld": true
+      }
+    ],
+    "cards": [
+      {
+        "id": "001-plus-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "002-sum-slime",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "003-pair-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "004-apple-bear",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "005-carry-fox",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "006-sum-lion",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "007-plus-emperor",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "008-minus-fox",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "009-take-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "010-remove-mole",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "011-diff-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "012-back-bear",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "013-sub-wolf",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "014-minus-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "015-minute-mouse",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "016-hour-owl",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "017-clock-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "018-bell-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "019-time-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "020-chrono-wolf",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "021-chrono-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "022-coin-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "023-yen-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "024-wallet-bear",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "025-change-fox",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "026-shop-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "027-gold-panda",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "028-money-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "029-waterpon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "030-twinbird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "031-firesaurus",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "032-clover-turtle",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "033-star-wolf",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "034-six-speaker",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "035-rainbow-dragon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "036-octopal",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "037-shine-pegasus",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "038-massive-golem",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "039-lightning-fang",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "040-divine-phoenix",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "041-kuku-king-gold",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "042-half-penguin",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "043-divide-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "044-share-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "045-group-golem",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "046-remainder-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "047-quotient-wolf",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "048-divide-emperor",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "049-point-slime",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "050-tenths-pon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "051-decimal-cat",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "052-dot-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "053-zero-tenths-bear",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "054-point-dragon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "055-decimal-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "056-half-moon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "057-third-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "058-quarter-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "059-numerator-rabbit",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "060-denominator-bird",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "061-fraction-fairy",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "062-fraction-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "063-proper-monster",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "064-equal-king",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "065-small-knight",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "066-percent-devil",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "067-ratio-seraphim",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "068-average-goddess",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "069-balance-cerberus",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "070-speed-valkyrie",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "071-distance-griffon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "072-time-chrono-demon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "073-unit-fenrir",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "074-density-titan",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "075-rate-mercury",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "076-proportion-succubus",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "077-average-archangel",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "078-ratio-twin-dragon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "079-proportion-unicorn",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "080-scale-fairy",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "081-geometric-demon",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "082-polygon-chimera",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "083-circle-goddess",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "084-angle-archangel",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "085-graph-sphinx",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "086-data-oracle",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "087-alphabet-witch",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "088-algebra-devil-lord",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "089-zeus-proportional",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "090-signed-swordsman",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "091-expression-ninja",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "092-equation-samurai",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "093-proportion-archer-princess",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "094-data-strategist",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "095-plane-geometry-lancer",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "096-solid-geometry-shield-general",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "097-linear-function-chief",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "098-simultaneous-equation-dual-swords",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "099-inequality-general",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "100-number-goddess-hikari",
+        "ready": true,
+        "images": [
+          "N",
+          "SR",
+          "UR"
+        ]
+      },
+      {
+        "id": "kg-001",
+        "ready": true,
+        "images": [
+          "N",
+          "UR",
+          "SR"
+        ]
+      },
+      {
+        "id": "kg-002",
+        "ready": true,
+        "images": [
+          "N",
+          "UR",
+          "SR"
+        ]
+      },
+      {
+        "id": "kg-003",
+        "ready": true,
+        "images": [
+          "N",
+          "UR",
+          "SR"
+        ]
+      },
+      {
+        "id": "kg-004",
+        "ready": true,
+        "images": [
+          "N",
+          "UR",
+          "SR"
+        ]
+      },
+      {
+        "id": "kg-005",
+        "ready": true,
+        "images": [
+          "N",
+          "UR",
+          "SR"
+        ]
+      },
+      {
+        "id": "kg-006",
+        "ready": true,
+        "images": [
+          "N",
+          "UR",
+          "SR"
+        ]
+      }
+    ]
+  },
+  "addedStages": [
+    {
+      "id": "e1-compareLength",
+      "world": 1,
+      "type": "curriculum_compareLength",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-curriculum-boss",
+      "world": 1,
+      "type": "curriculum_number20",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-number100",
+      "world": 1,
+      "type": "curriculum_number100",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-number20",
+      "world": 1,
+      "type": "curriculum_number20",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-order",
+      "world": 1,
+      "type": "curriculum_order",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-pictureData",
+      "world": 1,
+      "type": "curriculum_pictureData",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-shapeCount",
+      "world": 1,
+      "type": "curriculum_shapeCount",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-capacity",
+      "world": 2,
+      "type": "curriculum_capacity",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-curriculum-boss",
+      "world": 2,
+      "type": "curriculum_large2",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-data-table",
+      "world": 2,
+      "type": "elementary_data_table",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-half2",
+      "world": 2,
+      "type": "curriculum_half2",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-large2",
+      "world": 2,
+      "type": "curriculum_large2",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-length2",
+      "world": 2,
+      "type": "curriculum_length2",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-rectangle2",
+      "world": 2,
+      "type": "curriculum_rectangle2",
+      "hiddenFromWorld": true
+    },
+    {
+      "id": "e2-writtenAdd",
+      "world": 2,
+      "type": "curriculum_writtenAdd",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-writtenSubtract",
+      "world": 2,
+      "type": "curriculum_writtenSubtract",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-barData",
+      "world": 3,
+      "type": "curriculum_barData",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-boxEquation",
+      "world": 3,
+      "type": "curriculum_boxEquation",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-circle",
+      "world": 3,
+      "type": "curriculum_circle",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-curriculum-boss",
+      "world": 3,
+      "type": "curriculum_large3",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-fractionCompare3",
+      "world": 3,
+      "type": "curriculum_fractionCompare3",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-isosceles-sides",
+      "world": 3,
+      "type": "curriculum_isosceles",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-large3",
+      "world": 3,
+      "type": "curriculum_large3",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-length3",
+      "world": 3,
+      "type": "curriculum_length3",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-remainder",
+      "world": 3,
+      "type": "curriculum_remainder",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-seconds",
+      "world": 3,
+      "type": "curriculum_seconds",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-triangle3",
+      "world": 3,
+      "type": "curriculum_triangle3",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-weight",
+      "world": 3,
+      "type": "curriculum_weight",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-writtenMultiply",
+      "world": 3,
+      "type": "curriculum_writtenMultiply",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-angle",
+      "world": 4,
+      "type": "curriculum_angle",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-areaRectangle",
+      "world": 4,
+      "type": "curriculum_areaRectangle",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-cube_net",
+      "world": 4,
+      "type": "cube_net",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-curriculum-boss",
+      "world": 4,
+      "type": "curriculum_large4",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-decimalIntDivide",
+      "world": 4,
+      "type": "curriculum_decimalIntDivide",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-decimalIntMultiply",
+      "world": 4,
+      "type": "curriculum_decimalIntMultiply",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-decimalPlaces4",
+      "world": 4,
+      "type": "curriculum_decimalPlaces4",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-large4",
+      "world": 4,
+      "type": "curriculum_large4",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-lineData",
+      "world": 4,
+      "type": "curriculum_lineData",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-mixedFraction4",
+      "world": 4,
+      "type": "curriculum_mixedFraction4",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-orderOperations",
+      "world": 4,
+      "type": "curriculum_orderOperations",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-rounding",
+      "world": 4,
+      "type": "curriculum_rounding",
+      "hiddenFromWorld": true
+    },
+    {
+      "id": "e4-writtenDivide",
+      "world": 4,
+      "type": "curriculum_writtenDivide",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-average",
+      "world": 5,
+      "type": "curriculum_average",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-circumference",
+      "world": 5,
+      "type": "curriculum_circumference",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-congruent",
+      "world": 5,
+      "type": "curriculum_congruent",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-curriculum-boss",
+      "world": 5,
+      "type": "curriculum_decimalMultiply5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-decimalDivide5",
+      "world": 5,
+      "type": "curriculum_decimalDivide5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-decimalMultiply5",
+      "world": 5,
+      "type": "curriculum_decimalMultiply5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-divisor",
+      "world": 5,
+      "type": "curriculum_divisor",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-fractionAdd5",
+      "world": 5,
+      "type": "curriculum_fractionAdd5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-fractionSub5",
+      "world": 5,
+      "type": "curriculum_fractionSub5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-multiple",
+      "world": 5,
+      "type": "curriculum_multiple",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-parallelogramArea",
+      "world": 5,
+      "type": "curriculum_parallelogramArea",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-percent",
+      "world": 5,
+      "type": "curriculum_percent",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-percentData",
+      "world": 5,
+      "type": "curriculum_percentData",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-ratio5",
+      "world": 5,
+      "type": "curriculum_ratio5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-reduce",
+      "world": 5,
+      "type": "curriculum_reduce",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-rhombusArea",
+      "world": 5,
+      "type": "curriculum_rhombusArea",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-speed",
+      "world": 5,
+      "type": "curriculum_speed",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-trapezoidArea",
+      "world": 5,
+      "type": "curriculum_trapezoidArea",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-triangleArea",
+      "world": 5,
+      "type": "curriculum_triangleArea",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-unitAmount",
+      "world": 5,
+      "type": "curriculum_unitAmount",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-volume5",
+      "world": 5,
+      "type": "curriculum_volume5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-circleArea",
+      "world": 6,
+      "type": "curriculum_circleArea",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-combinations",
+      "world": 6,
+      "type": "curriculum_combinations",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-curriculum-boss",
+      "world": 6,
+      "type": "curriculum_fractionTimesInt",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-cylinderVolume",
+      "world": 6,
+      "type": "curriculum_cylinderVolume",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-fractionDecimal",
+      "world": 6,
+      "type": "curriculum_fractionDecimal",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-fractionDivide",
+      "world": 6,
+      "type": "curriculum_fractionDivide",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-fractionDivideInt",
+      "world": 6,
+      "type": "curriculum_fractionDivideInt",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-fractionMultiply",
+      "world": 6,
+      "type": "curriculum_fractionMultiply",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-fractionTimesInt",
+      "world": 6,
+      "type": "curriculum_fractionTimesInt",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-frequency",
+      "world": 6,
+      "type": "curriculum_frequency",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-inverse",
+      "world": 6,
+      "type": "curriculum_inverse",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-letter",
+      "world": 6,
+      "type": "curriculum_letter",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-median",
+      "world": 6,
+      "type": "curriculum_median",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-mode",
+      "world": 6,
+      "type": "curriculum_mode",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-prismVolume",
+      "world": 6,
+      "type": "curriculum_prismVolume",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-proportion",
+      "world": 6,
+      "type": "curriculum_proportion",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-ratio6",
+      "world": 6,
+      "type": "curriculum_ratio6",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-scale",
+      "world": 6,
+      "type": "curriculum_scale",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-symmetry",
+      "world": 6,
+      "type": "curriculum_symmetry",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-graph_line_change",
+      "world": 4,
+      "type": "graph_line_change",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-graph_line_read",
+      "world": 4,
+      "type": "graph_line_read",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k1-boss",
+      "world": 101,
+      "type": "k_summary",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k1-s1",
+      "world": 101,
+      "type": "k_match",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k1-s2",
+      "world": 101,
+      "type": "k_count_3",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k1-s3",
+      "world": 101,
+      "type": "k_count_5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k1-s4",
+      "world": 101,
+      "type": "k_number_group",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k1-s5",
+      "world": 101,
+      "type": "k_more",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k1-s6",
+      "world": 101,
+      "type": "k_less",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k2-boss",
+      "world": 102,
+      "type": "k_summary",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k2-s1",
+      "world": 102,
+      "type": "k2_count",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k2-s2",
+      "world": 102,
+      "type": "k2_numeral",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k2-s3",
+      "world": 102,
+      "type": "k2_number_group",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k2-s4",
+      "world": 102,
+      "type": "k2_increase",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k2-s5",
+      "world": 102,
+      "type": "k2_decrease",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k2-s6",
+      "world": 102,
+      "type": "k2_next",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k3-boss",
+      "world": 103,
+      "type": "k_summary",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k3-s1",
+      "world": 103,
+      "type": "k3_circle",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k3-s2",
+      "world": 103,
+      "type": "k3_triangle",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k3-s3",
+      "world": 103,
+      "type": "k3_square",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k3-s4",
+      "world": 103,
+      "type": "k3_match",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k3-s5",
+      "world": 103,
+      "type": "k3_combine",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k3-s6",
+      "world": 103,
+      "type": "k3_group",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k4-boss",
+      "world": 104,
+      "type": "k_summary",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k4-s1",
+      "world": 104,
+      "type": "k4_size",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k4-s2",
+      "world": 104,
+      "type": "k4_length",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k4-s3",
+      "world": 104,
+      "type": "k4_height",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k4-s4",
+      "world": 104,
+      "type": "k4_weight",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k4-s5",
+      "world": 104,
+      "type": "k4_quantity",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k4-s6",
+      "world": 104,
+      "type": "k4_same",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k5-boss",
+      "world": 105,
+      "type": "k_summary",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k5-s1",
+      "world": 105,
+      "type": "k5_alternate",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k5-s2",
+      "world": 105,
+      "type": "k5_shape_pattern",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k5-s3",
+      "world": 105,
+      "type": "k5_size_order",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k5-s4",
+      "world": 105,
+      "type": "k5_group",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k5-s5",
+      "world": 105,
+      "type": "k5_odd",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k5-s6",
+      "world": 105,
+      "type": "k5_path",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k6-boss",
+      "world": 106,
+      "type": "k_summary",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k6-s1",
+      "world": 106,
+      "type": "k6_count",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k6-s2",
+      "world": 106,
+      "type": "k6_zero",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k6-s3",
+      "world": 106,
+      "type": "k6_make5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k6-s4",
+      "world": 106,
+      "type": "k6_make10",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k6-s5",
+      "world": 106,
+      "type": "k6_change",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "k6-s6",
+      "world": 106,
+      "type": "k6_position",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-line-relations",
+      "world": 4,
+      "type": "line_relations",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-measure_decompose",
+      "world": 1,
+      "type": "measure_decompose",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-measure_number200",
+      "world": 1,
+      "type": "measure_number200",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-measure_capacity_ml",
+      "world": 2,
+      "type": "measure_capacity_ml",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-measure_l_ml",
+      "world": 2,
+      "type": "measure_l_ml",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-measure_m_cm",
+      "world": 2,
+      "type": "measure_m_cm",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-measure_offset",
+      "world": 2,
+      "type": "measure_offset",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-measure_ruler_cm",
+      "world": 2,
+      "type": "measure_ruler_cm",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-measure_ruler_mm",
+      "world": 2,
+      "type": "measure_ruler_mm",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-ratio_share",
+      "world": 6,
+      "type": "ratio_share",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e6-scale_map",
+      "world": 6,
+      "type": "scale_map",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-shape_compare_area",
+      "world": 1,
+      "type": "shape_compare_area",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-shape_compare_capacity",
+      "world": 1,
+      "type": "shape_compare_capacity",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-shape_compare_length",
+      "world": 1,
+      "type": "shape_compare_length",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e1-shape_match_outline",
+      "world": 1,
+      "type": "shape_match_outline",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-shape_polygon2",
+      "world": 2,
+      "type": "shape_polygon2",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-shape_rectangle2",
+      "world": 2,
+      "type": "shape_rectangle2",
+      "hiddenFromWorld": true
+    },
+    {
+      "id": "e4-composite-area",
+      "world": 4,
+      "type": "curriculum_compositeArea",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-quadrilateral-properties",
+      "world": 4,
+      "type": "shape_quadrilateral4",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-speed_distance",
+      "world": 5,
+      "type": "speed_distance",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e5-speed_time",
+      "world": 5,
+      "type": "speed_time",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-1",
+      "world": 2,
+      "type": "times_table_1",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-2",
+      "world": 2,
+      "type": "times_table_2",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-3",
+      "world": 2,
+      "type": "times_table_3",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-4",
+      "world": 2,
+      "type": "times_table_4",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-5",
+      "world": 2,
+      "type": "times_table_5",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-6",
+      "world": 2,
+      "type": "times_table_6",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-7",
+      "world": 2,
+      "type": "times_table_7",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-8",
+      "world": 2,
+      "type": "times_table_8",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-times-table-9",
+      "world": 2,
+      "type": "times_table_9",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-unit-basic-cm_mm",
+      "world": 2,
+      "type": "unit_basic_cm_mm",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-unit-basic-dl_ml",
+      "world": 2,
+      "type": "unit_basic_dl_ml",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-unit-basic-kg_g",
+      "world": 3,
+      "type": "unit_basic_kg_g",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-unit-basic-km_m",
+      "world": 3,
+      "type": "unit_basic_km_m",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-unit-basic-l_dl",
+      "world": 2,
+      "type": "unit_basic_l_dl",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-unit-basic-l_ml",
+      "world": 2,
+      "type": "unit_basic_l_ml",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e2-unit-basic-m_cm",
+      "world": 2,
+      "type": "unit_basic_m_cm",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-unit-basic-t_kg",
+      "world": 3,
+      "type": "unit_basic_t_kg",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-upper_mul2",
+      "world": 3,
+      "type": "upper_mul2",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-upper_mul3",
+      "world": 3,
+      "type": "upper_mul3",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e3-upper_weight_t",
+      "world": 3,
+      "type": "upper_weight_t",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-upper_decimal_add",
+      "world": 4,
+      "type": "upper_decimal_add",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-upper_decimal_sub",
+      "world": 4,
+      "type": "upper_decimal_sub",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-upper_thousandths",
+      "world": 4,
+      "type": "upper_thousandths",
+      "hiddenFromWorld": false
+    },
+    {
+      "id": "e4-upper_trillion",
+      "world": 4,
+      "type": "upper_trillion",
+      "hiddenFromWorld": true
+    }
+  ],
+  "removedStages": [],
+  "addedCards": [
+    {
+      "id": "063-proper-monster",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "064-equal-king",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "065-small-knight",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "066-percent-devil",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "067-ratio-seraphim",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "068-average-goddess",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "069-balance-cerberus",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "070-speed-valkyrie",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "071-distance-griffon",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "072-time-chrono-demon",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "073-unit-fenrir",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "074-density-titan",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "075-rate-mercury",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "076-proportion-succubus",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "077-average-archangel",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "078-ratio-twin-dragon",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "079-proportion-unicorn",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "080-scale-fairy",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "081-geometric-demon",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "082-polygon-chimera",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "083-circle-goddess",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "084-angle-archangel",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "085-graph-sphinx",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "086-data-oracle",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "087-alphabet-witch",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "088-algebra-devil-lord",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "089-zeus-proportional",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "090-signed-swordsman",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "091-expression-ninja",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "092-equation-samurai",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "093-proportion-archer-princess",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "094-data-strategist",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "095-plane-geometry-lancer",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "096-solid-geometry-shield-general",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "097-linear-function-chief",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "098-simultaneous-equation-dual-swords",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "099-inequality-general",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "100-number-goddess-hikari",
+      "ready": true,
+      "images": [
+        "N",
+        "SR",
+        "UR"
+      ]
+    },
+    {
+      "id": "kg-001",
+      "ready": true,
+      "images": [
+        "N",
+        "UR",
+        "SR"
+      ]
+    },
+    {
+      "id": "kg-002",
+      "ready": true,
+      "images": [
+        "N",
+        "UR",
+        "SR"
+      ]
+    },
+    {
+      "id": "kg-003",
+      "ready": true,
+      "images": [
+        "N",
+        "UR",
+        "SR"
+      ]
+    },
+    {
+      "id": "kg-004",
+      "ready": true,
+      "images": [
+        "N",
+        "UR",
+        "SR"
+      ]
+    },
+    {
+      "id": "kg-005",
+      "ready": true,
+      "images": [
+        "N",
+        "UR",
+        "SR"
+      ]
+    },
+    {
+      "id": "kg-006",
+      "ready": true,
+      "images": [
+        "N",
+        "UR",
+        "SR"
+      ]
+    }
+  ]
+}

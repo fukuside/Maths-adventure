@@ -10,8 +10,8 @@ export default {
   stats: { hp: 129, atk: 41 },
   description: "足し算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/003-pair-bird/n.png",
-    SR: "/pictures/monsters/003-pair-bird/sr.png",
-    UR: "/pictures/monsters/003-pair-bird/ur.png"
+    N: "/pictures/monsters/003-pair-bird/n.webp",
+    SR: "/pictures/monsters/003-pair-bird/sr.webp",
+    UR: "/pictures/monsters/003-pair-bird/ur.webp"
   }
 };

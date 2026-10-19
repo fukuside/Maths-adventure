@@ -1,0 +1,4631 @@
+{
+  "date": "2026-10-17",
+  "meaning": "各ステージ1セットの現在の生成形式。学習指導要領全項目の充足判定ではない。",
+  "stages": 229,
+  "totals": {
+    "1": 29,
+    "2": 50,
+    "3": 38,
+    "4": 26,
+    "5": 23,
+    "6": 21,
+    "101": 7,
+    "102": 7,
+    "103": 7,
+    "104": 7,
+    "105": 7,
+    "106": 7
+  },
+  "report": [
+    {
+      "id": "w1-addition-1",
+      "world": 1,
+      "name": "足し算ってなに？",
+      "unit": "足し算",
+      "type": "addition_meaning",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "addition_increase",
+        "addition_groups"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-addition-2",
+      "world": 1,
+      "name": "1けた＋1けた",
+      "unit": "足し算",
+      "type": "addition_single",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-addition-3",
+      "world": 1,
+      "name": "1けた＋2けた",
+      "unit": "足し算",
+      "type": "addition_mixed",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-addition-4",
+      "world": 1,
+      "name": "フラッシュ足し算",
+      "unit": "足し算",
+      "type": "addition_flash",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-addition-5",
+      "world": 1,
+      "name": "足し算の文章題",
+      "unit": "足し算",
+      "type": "addition_word",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "addition_word_visual"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-addition-boss",
+      "world": 1,
+      "name": "足し算の王",
+      "unit": "足し算",
+      "type": "addition_boss",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text",
+        "addition_word_visual",
+        "addition_groups"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-subtraction-1",
+      "world": 1,
+      "name": "引き算ってなに？",
+      "unit": "引き算",
+      "type": "subtraction_meaning",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "subtraction_take",
+        "subtraction_compare"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-subtraction-2",
+      "world": 1,
+      "name": "1けた−1けた",
+      "unit": "引き算",
+      "type": "subtraction_single",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-subtraction-3",
+      "world": 1,
+      "name": "10〜19−1けた",
+      "unit": "引き算",
+      "type": "subtraction_teens",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-subtraction-4",
+      "world": 1,
+      "name": "フラッシュ引き算",
+      "unit": "引き算",
+      "type": "subtraction_flash",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-subtraction-5",
+      "world": 1,
+      "name": "引き算の文章題",
+      "unit": "引き算",
+      "type": "subtraction_word",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "subtraction_word_visual"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w1-subtraction-boss",
+      "world": 1,
+      "name": "引き算の王",
+      "unit": "引き算",
+      "type": "subtraction_boss",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text",
+        "subtraction_take",
+        "subtraction_compare",
+        "subtraction_word_visual"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-1",
+      "world": 2,
+      "name": "いくら あるかな？",
+      "unit": "お金",
+      "type": "money_sum",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "money"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-2",
+      "world": 2,
+      "name": "ちょうど はらおう",
+      "unit": "お金",
+      "type": "money_exact_pay",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "money-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-3",
+      "world": 2,
+      "name": "お金の たしざん",
+      "unit": "お金",
+      "type": "money_add",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-4",
+      "world": 2,
+      "name": "お金の ひきざん",
+      "unit": "お金",
+      "type": "money_sub",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-5",
+      "world": 2,
+      "name": "お札と硬貨を 数えよう",
+      "unit": "お金",
+      "type": "money_sum",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "money"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-boss",
+      "world": 2,
+      "name": "おかいもの ボス戦",
+      "unit": "お金",
+      "type": "money_boss",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "money",
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-can-buy-1",
+      "world": 2,
+      "name": "どれが買えるかな？",
+      "unit": "お金",
+      "type": "money_can_buy",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "money-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-change-1",
+      "world": 2,
+      "name": "おつりはいくら？",
+      "unit": "お金",
+      "type": "money_change",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "money"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-money-shopping-1",
+      "world": 2,
+      "name": "おかいもの2つ買おう",
+      "unit": "お金",
+      "type": "money_shopping",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "money"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-time-1",
+      "world": 1,
+      "name": "なんじなんぷん？",
+      "unit": "時刻",
+      "type": "clock_read",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-time-2",
+      "world": 1,
+      "name": "30分の時刻",
+      "unit": "時刻",
+      "type": "clock_read",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-time-3",
+      "world": 1,
+      "name": "15分・45分の時刻",
+      "unit": "時刻",
+      "type": "clock_read",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-time-4",
+      "world": 1,
+      "name": "分の読み方",
+      "unit": "時刻",
+      "type": "clock_minute_read",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-time-5",
+      "world": 2,
+      "name": "今からなん分後？",
+      "unit": "時刻",
+      "type": "clock_elapsed_after",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-time-6",
+      "world": 2,
+      "name": "今からなん分前？",
+      "unit": "時刻",
+      "type": "clock_elapsed_before",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-time-7",
+      "world": 2,
+      "name": "朝と夜の24時間表記",
+      "unit": "時刻",
+      "type": "clock_24h",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w2-time-boss",
+      "world": 2,
+      "name": "時刻マスター",
+      "unit": "時刻",
+      "type": "clock_boss",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-division-1",
+      "world": 3,
+      "name": "わり算ってなに？",
+      "unit": "わり算",
+      "type": "division_meaning",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "division_group",
+        "division_share"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-division-2",
+      "world": 3,
+      "name": "わり算のきほん",
+      "unit": "わり算",
+      "type": "division_basic",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-division-3",
+      "world": 3,
+      "name": "九九をつかってわり算",
+      "unit": "わり算",
+      "type": "division_fact_family",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "division_fact_family"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-division-4",
+      "world": 3,
+      "name": "1けたでわる",
+      "unit": "わり算",
+      "type": "division_single",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-division-5",
+      "world": 3,
+      "name": "わり算の文章題",
+      "unit": "わり算",
+      "type": "division_word",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "division_word_visual"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-division-6",
+      "world": 3,
+      "name": "フラッシュわり算",
+      "unit": "わり算",
+      "type": "division_flash",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-division-boss",
+      "world": 3,
+      "name": "わり算の王",
+      "unit": "わり算",
+      "type": "division_boss",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "division_word_visual",
+        "text",
+        "division_share",
+        "division_group",
+        "division_fact_family"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-multiplication-1",
+      "world": 2,
+      "name": "かけ算ってなに？",
+      "unit": "掛け算",
+      "type": "multiply_meaning",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "multiply_groups"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-multiplication-2",
+      "world": 2,
+      "name": "九九のきほん",
+      "unit": "掛け算",
+      "type": "multiply_basics",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text",
+        "multiply_visual_equation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-multiplication-3",
+      "world": 2,
+      "name": "九九をマスター①",
+      "unit": "掛け算",
+      "type": "multiply_master",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-multiplication-4",
+      "world": 2,
+      "name": "九九をマスター②",
+      "unit": "掛け算",
+      "type": "multiply_master",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-multiplication-5",
+      "world": 2,
+      "name": "九九をマスター③",
+      "unit": "掛け算",
+      "type": "multiply_master",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-multiplication-6",
+      "world": 2,
+      "name": "かけ算の文章題",
+      "unit": "掛け算",
+      "type": "multiply_word",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "multiplication_word_visual"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-multiplication-7",
+      "world": 2,
+      "name": "フラッシュ九九",
+      "unit": "掛け算",
+      "type": "multiply_flash",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w3-multiplication-boss",
+      "world": 2,
+      "name": "九九の王",
+      "unit": "掛け算",
+      "type": "multiply_boss",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-1",
+      "world": 3,
+      "name": "小数をみつけよう",
+      "unit": "小数",
+      "type": "decimal_visual_basic",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "decimal-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-2",
+      "world": 3,
+      "name": "1をこえる小数",
+      "unit": "小数",
+      "type": "decimal_over_one",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "decimal-over-one"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-3",
+      "world": 3,
+      "name": "小数と数直線",
+      "unit": "小数",
+      "type": "decimal_numberline",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "decimal-numberline"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-4",
+      "world": 3,
+      "name": "小数の大小",
+      "unit": "小数",
+      "type": "decimal_compare",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "decimal-compare"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-5",
+      "world": 3,
+      "name": "小数の位",
+      "unit": "小数",
+      "type": "decimal_place_value",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "decimal-place-value"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-6",
+      "world": 3,
+      "name": "小数のたし算",
+      "unit": "小数",
+      "type": "decimal_add",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "decimal-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-7",
+      "world": 3,
+      "name": "小数のひき算",
+      "unit": "小数",
+      "type": "decimal_subtract",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "decimal-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-8",
+      "world": 3,
+      "name": "小数の文章題",
+      "unit": "小数",
+      "type": "decimal_word",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "decimal-word"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-decimal-boss",
+      "world": 3,
+      "name": "小数の王",
+      "unit": "小数",
+      "type": "decimal_boss",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力",
+        "選択"
+      ],
+      "answerModes": [
+        "キー入力",
+        "三択"
+      ],
+      "kinds": [
+        "decimal-over-one",
+        "decimal-compare",
+        "decimal-calculation",
+        "decimal-word"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-fraction-1",
+      "world": 3,
+      "name": "分数をみつけよう",
+      "unit": "分数",
+      "type": "fraction_visual_basic",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "fraction-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-fraction-2",
+      "world": 4,
+      "name": "分数の大きさ",
+      "unit": "分数",
+      "type": "fraction_compare_visual",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "fraction-compare-visual"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-fraction-3",
+      "world": 4,
+      "name": "同じ大きさの分数",
+      "unit": "分数",
+      "type": "fraction_equivalent",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "fraction-equivalent-visual"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-fraction-4",
+      "world": 4,
+      "name": "分数の大小",
+      "unit": "分数",
+      "type": "fraction_compare_symbol",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "fraction-compare-symbol"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-fraction-5",
+      "world": 3,
+      "name": "同分母の足し算",
+      "unit": "分数",
+      "type": "fraction_add_same_denominator",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "fraction-add-same-denominator"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-fraction-6",
+      "world": 3,
+      "name": "同分母の引き算",
+      "unit": "分数",
+      "type": "fraction_subtract_same_denominator",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "fraction-subtract-same-denominator"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "w4-fraction-boss",
+      "world": 4,
+      "name": "ボス戦",
+      "unit": "分数",
+      "type": "fraction_mixed",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "fraction-add-same-denominator",
+        "fraction-subtract-same-denominator"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-compareLength",
+      "world": 1,
+      "name": "長さをくらべよう",
+      "unit": "測定",
+      "type": "curriculum_compareLength",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-curriculum-boss",
+      "world": 1,
+      "name": "1年生の冒険まとめ",
+      "unit": "学年まとめ",
+      "type": "curriculum_number20",
+      "questionTypes": [
+        "curriculum_number20",
+        "curriculum_number100",
+        "curriculum_order",
+        "curriculum_compareLength",
+        "curriculum_shapeCount",
+        "curriculum_pictureData",
+        "addition_meaning",
+        "addition_single",
+        "subtraction_meaning",
+        "subtraction_single"
+      ],
+      "forms": [
+        "選択",
+        "数値等の入力",
+        "ピースを回して構成"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力",
+        "図への操作"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "text",
+        "shape-build",
+        "subtraction_compare",
+        "addition_increase"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-number100",
+      "world": 1,
+      "name": "100までの数",
+      "unit": "数",
+      "type": "curriculum_number100",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-number20",
+      "world": 1,
+      "name": "20までの数",
+      "unit": "数",
+      "type": "curriculum_number20",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-order",
+      "world": 1,
+      "name": "数の順番",
+      "unit": "数",
+      "type": "curriculum_order",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-pictureData",
+      "world": 1,
+      "name": "絵と人数の表",
+      "unit": "データ",
+      "type": "curriculum_pictureData",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-shapeCount",
+      "world": 1,
+      "name": "形のなかま",
+      "unit": "図形",
+      "type": "curriculum_shapeCount",
+      "questionTypes": [],
+      "forms": [
+        "ピースを回して構成",
+        "実図から形を数える",
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "図への操作",
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "shape-build",
+        "first-shapes"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-capacity",
+      "world": 2,
+      "name": "LとdL",
+      "unit": "かさ",
+      "type": "curriculum_capacity",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-curriculum-boss",
+      "world": 2,
+      "name": "2年生の冒険まとめ",
+      "unit": "学年まとめ",
+      "type": "curriculum_large2",
+      "questionTypes": [
+        "curriculum_large2",
+        "curriculum_writtenAdd",
+        "curriculum_writtenSubtract",
+        "curriculum_length2",
+        "curriculum_capacity",
+        "curriculum_half2",
+        "curriculum_rectangle2",
+        "multiply_basics",
+        "multiply_word",
+        "clock_read"
+      ],
+      "forms": [
+        "数値等の入力",
+        "選択",
+        "筆算/通分の枠入力",
+        "直接数値入力"
+      ],
+      "answerModes": [
+        "キー入力",
+        "三択",
+        "筆算・途中枠",
+        "直接数値入力"
+      ],
+      "kinds": [
+        "text",
+        "curriculum-choice",
+        "written-calculation",
+        "multiplication_word_visual",
+        "clock"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-data-table",
+      "world": 2,
+      "name": "表と図で人数を調べよう",
+      "unit": "データ",
+      "type": "elementary_data_table",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "elementary-data"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-half2",
+      "world": 2,
+      "name": "半分に分けよう",
+      "unit": "分数の入口",
+      "type": "curriculum_half2",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-large2",
+      "world": 2,
+      "name": "10000までの数",
+      "unit": "数",
+      "type": "curriculum_large2",
+      "questionTypes": [],
+      "forms": [
+        "直接数値入力"
+      ],
+      "answerModes": [
+        "直接数値入力"
+      ],
+      "kinds": [
+        "text"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-length2",
+      "world": 2,
+      "name": "cmとmm",
+      "unit": "長さ",
+      "type": "curriculum_length2",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-writtenAdd",
+      "world": 2,
+      "name": "3けたの足し算",
+      "unit": "筆算",
+      "type": "curriculum_writtenAdd",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-writtenSubtract",
+      "world": 2,
+      "name": "3けたの引き算",
+      "unit": "筆算",
+      "type": "curriculum_writtenSubtract",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-barData",
+      "world": 3,
+      "name": "棒グラフを読もう",
+      "unit": "データ",
+      "type": "curriculum_barData",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-boxEquation",
+      "world": 3,
+      "name": "□を使った式",
+      "unit": "式",
+      "type": "curriculum_boxEquation",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-circle",
+      "world": 3,
+      "name": "円と球の半径・直径",
+      "unit": "図形",
+      "type": "curriculum_circle",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-curriculum-boss",
+      "world": 3,
+      "name": "3年生の冒険まとめ",
+      "unit": "学年まとめ",
+      "type": "curriculum_large3",
+      "questionTypes": [
+        "curriculum_large3",
+        "curriculum_writtenMultiply",
+        "curriculum_remainder",
+        "curriculum_length3",
+        "curriculum_weight",
+        "curriculum_seconds",
+        "curriculum_circle",
+        "curriculum_triangle3",
+        "curriculum_barData",
+        "curriculum_boxEquation",
+        "curriculum_fractionCompare3"
+      ],
+      "forms": [
+        "選択",
+        "直接数値入力",
+        "数値等の入力",
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "三択",
+        "直接数値入力",
+        "キー入力",
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "text",
+        "geometry-input",
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-fractionCompare3",
+      "world": 3,
+      "name": "同じ分母の分数を比べよう",
+      "unit": "分数",
+      "type": "curriculum_fractionCompare3",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-isosceles-sides",
+      "world": 3,
+      "name": "二等辺三角形の辺を見つけよう",
+      "unit": "図形",
+      "type": "curriculum_isosceles",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-large3",
+      "world": 3,
+      "name": "万の位",
+      "unit": "数",
+      "type": "curriculum_large3",
+      "questionTypes": [],
+      "forms": [
+        "直接数値入力",
+        "そろばんの読み",
+        "そろばんの珠を操作"
+      ],
+      "answerModes": [
+        "直接数値入力",
+        "図への操作"
+      ],
+      "kinds": [
+        "text",
+        "abacus-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-length3",
+      "world": 3,
+      "name": "kmとm",
+      "unit": "長さ",
+      "type": "curriculum_length3",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-remainder",
+      "world": 3,
+      "name": "あまりのあるわり算",
+      "unit": "わり算",
+      "type": "curriculum_remainder",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-seconds",
+      "world": 3,
+      "name": "分と秒",
+      "unit": "時間",
+      "type": "curriculum_seconds",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-triangle3",
+      "world": 3,
+      "name": "正三角形の辺",
+      "unit": "図形",
+      "type": "curriculum_triangle3",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-weight",
+      "world": 3,
+      "name": "kgとg",
+      "unit": "重さ",
+      "type": "curriculum_weight",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-writtenMultiply",
+      "world": 3,
+      "name": "2けた×1けた",
+      "unit": "かけ算の筆算",
+      "type": "curriculum_writtenMultiply",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-angle",
+      "world": 4,
+      "name": "角の大きさ",
+      "unit": "図形",
+      "type": "curriculum_angle",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-areaRectangle",
+      "world": 4,
+      "name": "正方形・長方形の面積",
+      "unit": "面積",
+      "type": "curriculum_areaRectangle",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-cube_net",
+      "world": 4,
+      "name": "箱を組み立てよう・展開図",
+      "unit": "立体と展開図",
+      "type": "cube_net",
+      "questionTypes": [],
+      "forms": [
+        "展開図の面を選ぶ"
+      ],
+      "answerModes": [
+        "図への操作"
+      ],
+      "kinds": [
+        "cube-net"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-curriculum-boss",
+      "world": 4,
+      "name": "4年生の冒険まとめ",
+      "unit": "学年まとめ",
+      "type": "curriculum_large4",
+      "questionTypes": [
+        "curriculum_large4",
+        "curriculum_rounding",
+        "curriculum_writtenDivide",
+        "curriculum_decimalPlaces4",
+        "curriculum_decimalIntMultiply",
+        "curriculum_decimalIntDivide",
+        "curriculum_mixedFraction4",
+        "curriculum_angle",
+        "curriculum_areaRectangle",
+        "curriculum_lineData",
+        "curriculum_orderOperations"
+      ],
+      "forms": [
+        "数値等の入力",
+        "筆算/通分の枠入力",
+        "直接数値入力",
+        "選択"
+      ],
+      "answerModes": [
+        "キー入力",
+        "筆算・途中枠",
+        "直接数値入力",
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "written-calculation",
+        "text",
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-decimalIntDivide",
+      "world": 4,
+      "name": "小数÷整数",
+      "unit": "小数の発展",
+      "type": "curriculum_decimalIntDivide",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-decimalIntMultiply",
+      "world": 4,
+      "name": "小数×整数",
+      "unit": "小数の発展",
+      "type": "curriculum_decimalIntMultiply",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-decimalPlaces4",
+      "world": 4,
+      "name": "100分の1の位",
+      "unit": "小数の発展",
+      "type": "curriculum_decimalPlaces4",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-large4",
+      "world": 4,
+      "name": "億・兆・概数を調べよう",
+      "unit": "数",
+      "type": "curriculum_large4",
+      "questionTypes": [],
+      "forms": [
+        "直接数値入力",
+        "そろばんの珠を操作"
+      ],
+      "answerModes": [
+        "直接数値入力",
+        "図への操作"
+      ],
+      "kinds": [
+        "text",
+        "abacus-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-lineData",
+      "world": 4,
+      "name": "気温の変化",
+      "unit": "データ",
+      "type": "curriculum_lineData",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-mixedFraction4",
+      "world": 4,
+      "name": "帯分数と仮分数",
+      "unit": "分数の発展",
+      "type": "curriculum_mixedFraction4",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-orderOperations",
+      "world": 4,
+      "name": "計算の順序",
+      "unit": "式",
+      "type": "curriculum_orderOperations",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-position",
+      "world": 4,
+      "name": "地図と空間の位置",
+      "unit": "図形",
+      "type": "position_lesson",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "position-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-two-way-table",
+      "world": 4,
+      "name": "2つの決まりで本を調べよう",
+      "unit": "データ",
+      "type": "two_way_table",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "two-way-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-writtenDivide",
+      "world": 4,
+      "name": "2けたでわる",
+      "unit": "数",
+      "type": "curriculum_writtenDivide",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-average",
+      "world": 5,
+      "name": "平均",
+      "unit": "データ",
+      "type": "curriculum_average",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-circumference",
+      "world": 5,
+      "name": "円周と正多角形",
+      "unit": "図形",
+      "type": "curriculum_circumference",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-congruent",
+      "world": 5,
+      "name": "合同と図形の角",
+      "unit": "図形",
+      "type": "curriculum_congruent",
+      "questionTypes": [],
+      "forms": [
+        "方眼で頂点を構成",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "図への操作",
+        "キー入力"
+      ],
+      "kinds": [
+        "mirror-grid",
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-curriculum-boss",
+      "world": 5,
+      "name": "5年生の冒険まとめ",
+      "unit": "学年まとめ",
+      "type": "curriculum_decimalMultiply5",
+      "questionTypes": [
+        "curriculum_decimalMultiply5",
+        "curriculum_decimalDivide5",
+        "curriculum_multiple",
+        "curriculum_divisor",
+        "curriculum_reduce",
+        "curriculum_fractionAdd5",
+        "curriculum_fractionSub5",
+        "curriculum_ratio5",
+        "curriculum_percent",
+        "curriculum_unitAmount",
+        "curriculum_speed",
+        "curriculum_average",
+        "curriculum_triangleArea",
+        "curriculum_parallelogramArea",
+        "curriculum_trapezoidArea",
+        "curriculum_rhombusArea",
+        "curriculum_volume5",
+        "curriculum_circumference",
+        "curriculum_congruent",
+        "curriculum_percentData"
+      ],
+      "forms": [
+        "筆算/通分の枠入力",
+        "数値等の入力",
+        "方眼で頂点を構成"
+      ],
+      "answerModes": [
+        "筆算・途中枠",
+        "キー入力",
+        "図への操作"
+      ],
+      "kinds": [
+        "written-calculation",
+        "geometry-input",
+        "curriculum-choice",
+        "mirror-grid"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-decimalDivide5",
+      "world": 5,
+      "name": "小数÷小数",
+      "unit": "小数",
+      "type": "curriculum_decimalDivide5",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-decimalMultiply5",
+      "world": 5,
+      "name": "小数×小数",
+      "unit": "小数",
+      "type": "curriculum_decimalMultiply5",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-divisor",
+      "world": 5,
+      "name": "約数と数のしくみ",
+      "unit": "整数の性質",
+      "type": "curriculum_divisor",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "number-scale"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-fractionAdd5",
+      "world": 5,
+      "name": "異分母の足し算",
+      "unit": "分数",
+      "type": "curriculum_fractionAdd5",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-fractionSub5",
+      "world": 5,
+      "name": "異分母の引き算",
+      "unit": "分数",
+      "type": "curriculum_fractionSub5",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-multiple",
+      "world": 5,
+      "name": "倍数・偶数と奇数",
+      "unit": "整数の性質",
+      "type": "curriculum_multiple",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "parity-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-parallelogramArea",
+      "world": 5,
+      "name": "平行四辺形の面積",
+      "unit": "面積",
+      "type": "curriculum_parallelogramArea",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-percent",
+      "world": 5,
+      "name": "百分率",
+      "unit": "割合",
+      "type": "curriculum_percent",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-percentData",
+      "world": 5,
+      "name": "割合の表",
+      "unit": "データ",
+      "type": "curriculum_percentData",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-ratio5",
+      "world": 5,
+      "name": "割合を小数で表す",
+      "unit": "割合",
+      "type": "curriculum_ratio5",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-reduce",
+      "world": 5,
+      "name": "約分",
+      "unit": "分数",
+      "type": "curriculum_reduce",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-rhombusArea",
+      "world": 5,
+      "name": "ひし形の面積",
+      "unit": "面積",
+      "type": "curriculum_rhombusArea",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-speed",
+      "world": 5,
+      "name": "速さを求めよう",
+      "unit": "単位量と速さ",
+      "type": "curriculum_speed",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-trapezoidArea",
+      "world": 5,
+      "name": "台形の面積",
+      "unit": "面積",
+      "type": "curriculum_trapezoidArea",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-triangleArea",
+      "world": 5,
+      "name": "三角形の面積",
+      "unit": "面積",
+      "type": "curriculum_triangleArea",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-unitAmount",
+      "world": 5,
+      "name": "単位量あたり",
+      "unit": "単位量と速さ",
+      "type": "curriculum_unitAmount",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-volume5",
+      "world": 5,
+      "name": "体積と立体のしくみ",
+      "unit": "体積",
+      "type": "curriculum_volume5",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input",
+        "solid-net"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-circleArea",
+      "world": 6,
+      "name": "円とおよその面積",
+      "unit": "図形",
+      "type": "curriculum_circleArea",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input",
+        "rough-area"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-combinations",
+      "world": 6,
+      "name": "場合の数",
+      "unit": "データ",
+      "type": "curriculum_combinations",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-curriculum-boss",
+      "world": 6,
+      "name": "6年生の冒険まとめ",
+      "unit": "学年まとめ",
+      "type": "curriculum_fractionTimesInt",
+      "questionTypes": [
+        "curriculum_fractionTimesInt",
+        "curriculum_fractionDivideInt",
+        "curriculum_fractionMultiply",
+        "curriculum_fractionDivide",
+        "curriculum_fractionDecimal",
+        "curriculum_ratio6",
+        "curriculum_proportion",
+        "curriculum_inverse",
+        "curriculum_letter",
+        "curriculum_circleArea",
+        "curriculum_scale",
+        "curriculum_symmetry",
+        "curriculum_prismVolume",
+        "curriculum_cylinderVolume",
+        "curriculum_combinations",
+        "curriculum_median",
+        "curriculum_mode"
+      ],
+      "forms": [
+        "筆算/通分の枠入力",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠",
+        "キー入力"
+      ],
+      "kinds": [
+        "written-calculation",
+        "curriculum-choice",
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-cylinderVolume",
+      "world": 6,
+      "name": "円柱の体積",
+      "unit": "体積",
+      "type": "curriculum_cylinderVolume",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-fractionDecimal",
+      "world": 6,
+      "name": "分数と小数の混合",
+      "unit": "分数",
+      "type": "curriculum_fractionDecimal",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-fractionDivide",
+      "world": 6,
+      "name": "分数÷分数",
+      "unit": "分数",
+      "type": "curriculum_fractionDivide",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-fractionDivideInt",
+      "world": 6,
+      "name": "分数÷整数",
+      "unit": "分数",
+      "type": "curriculum_fractionDivideInt",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-fractionMultiply",
+      "world": 6,
+      "name": "分数×分数",
+      "unit": "分数",
+      "type": "curriculum_fractionMultiply",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-fractionTimesInt",
+      "world": 6,
+      "name": "分数×整数",
+      "unit": "分数",
+      "type": "curriculum_fractionTimesInt",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-frequency",
+      "world": 6,
+      "name": "度数分布とドットプロット",
+      "unit": "データ",
+      "type": "curriculum_frequency",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice",
+        "dot-plot-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-inverse",
+      "world": 6,
+      "name": "反比例",
+      "unit": "比例と反比例",
+      "type": "curriculum_inverse",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-letter",
+      "world": 6,
+      "name": "文字を使った式",
+      "unit": "式",
+      "type": "curriculum_letter",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-median",
+      "world": 6,
+      "name": "中央値",
+      "unit": "データ",
+      "type": "curriculum_median",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-mode",
+      "world": 6,
+      "name": "最頻値",
+      "unit": "データ",
+      "type": "curriculum_mode",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-prismVolume",
+      "world": 6,
+      "name": "角柱の体積",
+      "unit": "体積",
+      "type": "curriculum_prismVolume",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-proportion",
+      "world": 6,
+      "name": "比例",
+      "unit": "比例と反比例",
+      "type": "curriculum_proportion",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-ratio6",
+      "world": 6,
+      "name": "比の利用",
+      "unit": "比",
+      "type": "curriculum_ratio6",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-scale",
+      "world": 6,
+      "name": "拡大図",
+      "unit": "図形",
+      "type": "curriculum_scale",
+      "questionTypes": [],
+      "forms": [
+        "方眼で頂点を構成",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "図への操作",
+        "キー入力"
+      ],
+      "kinds": [
+        "mirror-grid",
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-symmetry",
+      "world": 6,
+      "name": "線対称と点対称",
+      "unit": "図形",
+      "type": "curriculum_symmetry",
+      "questionTypes": [],
+      "forms": [
+        "方眼で対称点を選ぶ",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "図への操作",
+        "キー入力"
+      ],
+      "kinds": [
+        "mirror-grid",
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-graph_line_change",
+      "world": 4,
+      "name": "折れ線グラフの変化を読もう",
+      "unit": "データ",
+      "type": "graph_line_change",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "line-graph-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-graph_line_read",
+      "world": 4,
+      "name": "折れ線グラフを調べよう",
+      "unit": "データ",
+      "type": "graph_line_read",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "line-graph-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "k1-boss",
+      "world": 101,
+      "name": "K1 まとめ",
+      "unit": "かずと なかよし",
+      "type": "k_summary",
+      "questionTypes": [
+        "k_match",
+        "k_count_3",
+        "k_count_5",
+        "k_number_group",
+        "k_more",
+        "k_less"
+      ],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k1-s1",
+      "world": 101,
+      "name": "おなじ ものを みつけよう",
+      "unit": "かずと なかよし",
+      "type": "k_match",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k1-s2",
+      "world": 101,
+      "name": "1〜3を かぞえよう",
+      "unit": "かずと なかよし",
+      "type": "k_count_3",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k1-s3",
+      "world": 101,
+      "name": "1〜5を かぞえよう",
+      "unit": "かずと なかよし",
+      "type": "k_count_5",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k1-s4",
+      "world": 101,
+      "name": "すうじと かずを あわせよう",
+      "unit": "かずと なかよし",
+      "type": "k_number_group",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k1-s5",
+      "world": 101,
+      "name": "おおいのは どっち？",
+      "unit": "かずと なかよし",
+      "type": "k_more",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k1-s6",
+      "world": 101,
+      "name": "すくないのは どっち？",
+      "unit": "かずと なかよし",
+      "type": "k_less",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k2-boss",
+      "world": 102,
+      "name": "K2 まとめ",
+      "unit": "もっと かぞえよう",
+      "type": "k_summary",
+      "questionTypes": [
+        "k2_count",
+        "k2_numeral",
+        "k2_number_group",
+        "k2_increase",
+        "k2_decrease",
+        "k2_next"
+      ],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k2-s1",
+      "world": 102,
+      "name": "6〜10を かぞえよう",
+      "unit": "もっと かぞえよう",
+      "type": "k2_count",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k2-s2",
+      "world": 102,
+      "name": "おなじ すうじを みつけよう",
+      "unit": "もっと かぞえよう",
+      "type": "k2_numeral",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k2-s3",
+      "world": 102,
+      "name": "すうじと かずを あわせよう",
+      "unit": "もっと かぞえよう",
+      "type": "k2_number_group",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k2-s4",
+      "world": 102,
+      "name": "1こ ふえたら？",
+      "unit": "もっと かぞえよう",
+      "type": "k2_increase",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k2-s5",
+      "world": 102,
+      "name": "1こ へったら？",
+      "unit": "もっと かぞえよう",
+      "type": "k2_decrease",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k2-s6",
+      "world": 102,
+      "name": "つぎの かずは？",
+      "unit": "もっと かぞえよう",
+      "type": "k2_next",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k2-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k3-boss",
+      "world": 103,
+      "name": "K3 まとめ",
+      "unit": "かたちの くに",
+      "type": "k_summary",
+      "questionTypes": [
+        "k3_circle",
+        "k3_triangle",
+        "k3_square",
+        "k3_match",
+        "k3_combine",
+        "k3_group"
+      ],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k3-s1",
+      "world": 103,
+      "name": "まるを みつけよう",
+      "unit": "かたちの くに",
+      "type": "k3_circle",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k3-s2",
+      "world": 103,
+      "name": "さんかくを みつけよう",
+      "unit": "かたちの くに",
+      "type": "k3_triangle",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k3-s3",
+      "world": 103,
+      "name": "しかくを みつけよう",
+      "unit": "かたちの くに",
+      "type": "k3_square",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k3-s4",
+      "world": 103,
+      "name": "おなじ かたちは どれ？",
+      "unit": "かたちの くに",
+      "type": "k3_match",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k3-s5",
+      "world": 103,
+      "name": "かたちを くみあわせよう",
+      "unit": "かたちの くに",
+      "type": "k3_combine",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k3-s6",
+      "world": 103,
+      "name": "かたちの なかまを みつけよう",
+      "unit": "かたちの くに",
+      "type": "k3_group",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k3-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k4-boss",
+      "world": 104,
+      "name": "K4 まとめ",
+      "unit": "くらべてみよう",
+      "type": "k_summary",
+      "questionTypes": [
+        "k4_size",
+        "k4_length",
+        "k4_height",
+        "k4_weight",
+        "k4_quantity",
+        "k4_same"
+      ],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k4-s1",
+      "world": 104,
+      "name": "おおきい おさらは？",
+      "unit": "くらべてみよう",
+      "type": "k4_size",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k4-s2",
+      "world": 104,
+      "name": "ながい えんぴつは？",
+      "unit": "くらべてみよう",
+      "type": "k4_length",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k4-s3",
+      "world": 104,
+      "name": "たかい つみきは？",
+      "unit": "くらべてみよう",
+      "type": "k4_height",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k4-s4",
+      "world": 104,
+      "name": "おもいのは どっち？",
+      "unit": "くらべてみよう",
+      "type": "k4_weight",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k4-s5",
+      "world": 104,
+      "name": "おおい・すくない",
+      "unit": "くらべてみよう",
+      "type": "k4_quantity",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k4-s6",
+      "world": 104,
+      "name": "おなじ ながさは？",
+      "unit": "くらべてみよう",
+      "type": "k4_same",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k4-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k5-boss",
+      "world": 105,
+      "name": "K5 まとめ",
+      "unit": "ならびかた・きまり",
+      "type": "k_summary",
+      "questionTypes": [
+        "k5_alternate",
+        "k5_shape_pattern",
+        "k5_size_order",
+        "k5_group",
+        "k5_odd",
+        "k5_path"
+      ],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k5-s1",
+      "world": 105,
+      "name": "こうごに ならべよう",
+      "unit": "ならびかた・きまり",
+      "type": "k5_alternate",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k5-s2",
+      "world": 105,
+      "name": "かたちの きまり",
+      "unit": "ならびかた・きまり",
+      "type": "k5_shape_pattern",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k5-s3",
+      "world": 105,
+      "name": "おおきさの じゅんばん",
+      "unit": "ならびかた・きまり",
+      "type": "k5_size_order",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k5-s4",
+      "world": 105,
+      "name": "なかまを みつけよう",
+      "unit": "ならびかた・きまり",
+      "type": "k5_group",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k5-s5",
+      "world": 105,
+      "name": "ちがう ものは？",
+      "unit": "ならびかた・きまり",
+      "type": "k5_odd",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k5-s6",
+      "world": 105,
+      "name": "おうちへの みち",
+      "unit": "ならびかた・きまり",
+      "type": "k5_path",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k5-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k6-boss",
+      "world": 106,
+      "name": "K6 まとめ",
+      "unit": "しょうがっこうへの ぼうけん",
+      "type": "k_summary",
+      "questionTypes": [
+        "k6_count",
+        "k6_zero",
+        "k6_make5",
+        "k6_make10",
+        "k6_change",
+        "k6_position"
+      ],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k6-s1",
+      "world": 106,
+      "name": "1〜10を かぞえよう",
+      "unit": "しょうがっこうへの ぼうけん",
+      "type": "k6_count",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k6-s2",
+      "world": 106,
+      "name": "からっぽは 0",
+      "unit": "しょうがっこうへの ぼうけん",
+      "type": "k6_zero",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k6-s3",
+      "world": 106,
+      "name": "5こに するには？",
+      "unit": "しょうがっこうへの ぼうけん",
+      "type": "k6_make5",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k6-s4",
+      "world": 106,
+      "name": "10こに するには？",
+      "unit": "しょうがっこうへの ぼうけん",
+      "type": "k6_make10",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k6-s5",
+      "world": 106,
+      "name": "1こ ふえる・へる",
+      "unit": "しょうがっこうへの ぼうけん",
+      "type": "k6_change",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "k6-s6",
+      "world": 106,
+      "name": "おなじ ばしょは？",
+      "unit": "しょうがっこうへの ぼうけん",
+      "type": "k6_position",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "k6-choice"
+      ],
+      "questionCount": 5,
+      "sampled": true
+    },
+    {
+      "id": "e4-line-relations",
+      "world": 4,
+      "name": "平行と垂直を見分けよう",
+      "unit": "図形",
+      "type": "line_relations",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "line-relations"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-measure_decompose",
+      "world": 1,
+      "name": "いくつといくつ",
+      "unit": "数",
+      "type": "measure_decompose",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-measure_number200",
+      "world": 1,
+      "name": "100をこえる数",
+      "unit": "数",
+      "type": "measure_number200",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-measure_capacity_ml",
+      "world": 2,
+      "name": "水のかさを読もう",
+      "unit": "かさ",
+      "type": "measure_capacity_ml",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-measure_l_ml",
+      "world": 2,
+      "name": "LとmL",
+      "unit": "かさ",
+      "type": "measure_l_ml",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-measure_m_cm",
+      "world": 2,
+      "name": "mとcm",
+      "unit": "長さ",
+      "type": "measure_m_cm",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-measure_offset",
+      "world": 2,
+      "name": "0から置かれていない長さ",
+      "unit": "長さ",
+      "type": "measure_offset",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-measure_ruler_cm",
+      "world": 2,
+      "name": "ものさしで長さを読もう",
+      "unit": "長さ",
+      "type": "measure_ruler_cm",
+      "questionTypes": [],
+      "forms": [
+        "ものさしの0合わせと読取り"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-measure_ruler_mm",
+      "world": 2,
+      "name": "ものさしのmmを読もう",
+      "unit": "長さ",
+      "type": "measure_ruler_mm",
+      "questionTypes": [],
+      "forms": [
+        "ものさしの0合わせと読取り"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "measurement-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-ratio_share",
+      "world": 6,
+      "name": "比で分けよう",
+      "unit": "比",
+      "type": "ratio_share",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e6-scale_map",
+      "world": 6,
+      "name": "縮図から道のりを求めよう",
+      "unit": "図形",
+      "type": "scale_map",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-shape_compare_area",
+      "world": 1,
+      "name": "広さを見てくらべよう",
+      "unit": "比較",
+      "type": "shape_compare_area",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-shape_compare_capacity",
+      "world": 1,
+      "name": "水の量をくらべよう",
+      "unit": "比較",
+      "type": "shape_compare_capacity",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-shape_compare_length",
+      "world": 1,
+      "name": "長さを見てくらべよう",
+      "unit": "比較",
+      "type": "shape_compare_length",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e1-shape_match_outline",
+      "world": 1,
+      "name": "同じ形を見つけよう",
+      "unit": "図形",
+      "type": "shape_match_outline",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-shape_polygon2",
+      "world": 2,
+      "name": "形・辺・かどを調べよう",
+      "unit": "図形",
+      "type": "shape_polygon2",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "shape-lesson",
+        "curriculum-choice",
+        "box-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-composite-area",
+      "world": 4,
+      "name": "組み合わせた図形の面積",
+      "unit": "図形",
+      "type": "curriculum_compositeArea",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "geometry-input"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-quadrilateral-properties",
+      "world": 4,
+      "name": "平行四辺形・ひし形・台形",
+      "unit": "図形",
+      "type": "shape_quadrilateral4",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "shape-lesson"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-speed_distance",
+      "world": 5,
+      "name": "道のりを求めよう",
+      "unit": "単位量と速さ",
+      "type": "speed_distance",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e5-speed_time",
+      "world": 5,
+      "name": "時間を求めよう",
+      "unit": "単位量と速さ",
+      "type": "speed_time",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-1",
+      "world": 2,
+      "name": "1の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_1",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-2",
+      "world": 2,
+      "name": "2の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_2",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-3",
+      "world": 2,
+      "name": "3の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_3",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-4",
+      "world": 2,
+      "name": "4の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_4",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-5",
+      "world": 2,
+      "name": "5の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_5",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-6",
+      "world": 2,
+      "name": "6の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_6",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-7",
+      "world": 2,
+      "name": "7の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_7",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-8",
+      "world": 2,
+      "name": "8の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_8",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-times-table-9",
+      "world": 2,
+      "name": "9の段であそぼう",
+      "unit": "九九の段別練習",
+      "type": "times_table_9",
+      "questionTypes": [],
+      "forms": [
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "キー入力"
+      ],
+      "kinds": [
+        "times-table"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-unit-basic-cm_mm",
+      "world": 2,
+      "name": "cmとmmの基本",
+      "unit": "単位の基本",
+      "type": "unit_basic_cm_mm",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-unit-basic-dl_ml",
+      "world": 2,
+      "name": "dLとmLの基本",
+      "unit": "単位の基本",
+      "type": "unit_basic_dl_ml",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-unit-basic-kg_g",
+      "world": 3,
+      "name": "kgとgの基本",
+      "unit": "単位の基本",
+      "type": "unit_basic_kg_g",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-unit-basic-km_m",
+      "world": 3,
+      "name": "kmとmの基本",
+      "unit": "単位の基本",
+      "type": "unit_basic_km_m",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-unit-basic-l_dl",
+      "world": 2,
+      "name": "LとdLの基本",
+      "unit": "単位の基本",
+      "type": "unit_basic_l_dl",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-unit-basic-l_ml",
+      "world": 2,
+      "name": "LとmLの基本",
+      "unit": "単位の基本",
+      "type": "unit_basic_l_ml",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e2-unit-basic-m_cm",
+      "world": 2,
+      "name": "mとcmの基本",
+      "unit": "単位の基本",
+      "type": "unit_basic_m_cm",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-unit-basic-t_kg",
+      "world": 3,
+      "name": "tとkgの基本",
+      "unit": "単位の基本",
+      "type": "unit_basic_t_kg",
+      "questionTypes": [],
+      "forms": [
+        "選択",
+        "数値等の入力"
+      ],
+      "answerModes": [
+        "三択",
+        "キー入力"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-upper_mul2",
+      "world": 3,
+      "name": "2けた×2けた",
+      "unit": "かけ算の筆算",
+      "type": "upper_mul2",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-upper_mul3",
+      "world": 3,
+      "name": "3けた×1けた",
+      "unit": "かけ算の筆算",
+      "type": "upper_mul3",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e3-upper_weight_t",
+      "world": 3,
+      "name": "tとkg",
+      "unit": "重さ",
+      "type": "upper_weight_t",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-upper_decimal_add",
+      "world": 4,
+      "name": "100分の1までの足し算",
+      "unit": "小数の発展",
+      "type": "upper_decimal_add",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-upper_decimal_sub",
+      "world": 4,
+      "name": "100分の1までの引き算",
+      "unit": "小数の発展",
+      "type": "upper_decimal_sub",
+      "questionTypes": [],
+      "forms": [
+        "筆算/通分の枠入力"
+      ],
+      "answerModes": [
+        "筆算・途中枠"
+      ],
+      "kinds": [
+        "written-calculation"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    },
+    {
+      "id": "e4-upper_thousandths",
+      "world": 4,
+      "name": "1000分の1の位",
+      "unit": "小数の発展",
+      "type": "upper_thousandths",
+      "questionTypes": [],
+      "forms": [
+        "選択"
+      ],
+      "answerModes": [
+        "三択"
+      ],
+      "kinds": [
+        "curriculum-choice"
+      ],
+      "questionCount": 10,
+      "sampled": true
+    }
+  ]
+}

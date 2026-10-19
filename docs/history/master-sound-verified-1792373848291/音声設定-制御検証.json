@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-19T01:34:38.933Z",
+  "checks": [
+    "default enabled and explicit state",
+    "separate output gate mutes active envelopes",
+    "on restores gate",
+    "setting persists across reload",
+    "storage event synchronizes other windows"
+  ],
+  "changes": [
+    false,
+    true,
+    false
+  ]
+}

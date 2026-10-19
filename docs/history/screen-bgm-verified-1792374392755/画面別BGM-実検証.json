@@ -1,0 +1,61 @@
+{
+  "verifiedAt": "2026-10-19T01:45:16.675Z",
+  "top": {
+    "playing": false,
+    "pending": false,
+    "paused": true,
+    "volume": 0.35,
+    "fading": false,
+    "track": null
+  },
+  "player": {
+    "playing": true,
+    "pending": false,
+    "paused": false,
+    "volume": 0.35,
+    "fading": false,
+    "track": "/audio/title-bgm.mp3"
+  },
+  "course": {
+    "playing": true,
+    "pending": false,
+    "paused": false,
+    "volume": 0.35,
+    "fading": false,
+    "track": "/audio/title-bgm.mp3"
+  },
+  "selecting": {
+    "playing": true,
+    "pending": false,
+    "paused": false,
+    "volume": 0.2569583333298564,
+    "fading": true,
+    "track": "/audio/title-bgm.mp3"
+  },
+  "selected": {
+    "playing": false,
+    "pending": false,
+    "paused": true,
+    "volume": 0.35,
+    "fading": false,
+    "track": "/audio/title-bgm.mp3"
+  },
+  "returned": {
+    "playing": true,
+    "pending": false,
+    "paused": false,
+    "volume": 0.35,
+    "fading": false,
+    "track": "/audio/title-bgm.mp3"
+  },
+  "returnedTop": {
+    "playing": false,
+    "pending": false,
+    "paused": true,
+    "volume": 0.35,
+    "fading": false,
+    "track": null
+  },
+  "errors": [],
+  "scope": "トップ用の歌あり音源は未指定。トップでコース曲を流さないこと、コース曲と問題一覧進入時のフェードを実メディアで確認。"
+}

@@ -10,8 +10,8 @@ export default {
   stats: { hp: 171, atk: 69 },
   description: "時刻の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/017-clock-cat/n.png",
-    SR: "/pictures/monsters/017-clock-cat/sr.png",
-    UR: "/pictures/monsters/017-clock-cat/ur.png"
+    N: "/pictures/monsters/017-clock-cat/n.webp",
+    SR: "/pictures/monsters/017-clock-cat/sr.webp",
+    UR: "/pictures/monsters/017-clock-cat/ur.webp"
   }
 };

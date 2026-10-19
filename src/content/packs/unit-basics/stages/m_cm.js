@@ -1,0 +1,1 @@
+export default {"id":"e2-unit-basic-m_cm","world":2,"type":"unit_basic_m_cm","name":"mとcmの基本","unit":"curriculum-単位の基本","unitLabel":"単位の基本","sort":151,"questionCount":10,"presentation":"persistent","isBoss":false,"rewardGems":5};

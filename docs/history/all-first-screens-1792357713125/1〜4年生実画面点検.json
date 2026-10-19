@@ -1,0 +1,2873 @@
+{
+  "date": "2026-10-19",
+  "verifiedAt": "2026-10-18T21:08:33.138Z",
+  "isolatedProfile": true,
+  "stages": 143,
+  "viewports": [
+    1024,
+    390
+  ],
+  "errors": [],
+  "report": [
+    {
+      "id": "w1-addition-1",
+      "name": "⚔️ 足し算ってなに？",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍎\n🍎\n＋\n🍎\n🍎\n🍎\n🍎\n🍎\n2こと 5こを あわせます。\nぜんぶで なんこ？",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-1",
+      "name": "⚔️ 足し算ってなに？",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍎\n🍎\n＋\n🍎\n🍎\n🍎\n🍎\n🍎\n2こと 5こを あわせます。\nぜんぶで なんこ？",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-2",
+      "name": "⚔️ 1けた＋1けた",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "2 ＋ 6",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-2",
+      "name": "⚔️ 1けた＋1けた",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2 ＋ 6",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-3",
+      "name": "⚔️ 1けた＋2けた",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "4 ＋ 13",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-3",
+      "name": "⚔️ 1けた＋2けた",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "4 ＋ 13",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-4",
+      "name": "⚔️ フラッシュ足し算",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "8 ＋ 15",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-4",
+      "name": "⚔️ フラッシュ足し算",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "8 ＋ 15",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-5",
+      "name": "⚔️ 足し算の文章題",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "📚\n□\n＋\n○\n\nほんだなに ほんが 6さつ あります。\n2さつ もどしました。\nほんは ぜんぶで なんさつ？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-5",
+      "name": "⚔️ 足し算の文章題",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "📚\n□\n＋\n○\n\nほんだなに ほんが 6さつ あります。\n2さつ もどしました。\nほんは ぜんぶで なんさつ？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-boss",
+      "name": "👑 足し算の王",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "8 ＋ 5",
+      "outside": []
+    },
+    {
+      "id": "w1-addition-boss",
+      "name": "👑 足し算の王",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "8 ＋ 5",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-1",
+      "name": "⚔️ 引き算ってなに？",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\nりんごが 8こ あります。\n6こを たべました。\nのこりは なんこ でしょうか？",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-1",
+      "name": "⚔️ 引き算ってなに？",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\nりんごが 8こ あります。\n6こを たべました。\nのこりは なんこ でしょうか？",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-2",
+      "name": "⚔️ 1けた−1けた",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1 − 0",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-2",
+      "name": "⚔️ 1けた−1けた",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1 − 0",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-3",
+      "name": "⚔️ 10〜19−1けた",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "13 − 9",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-3",
+      "name": "⚔️ 10〜19−1けた",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "13 − 9",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-4",
+      "name": "⚔️ フラッシュ引き算",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1 − 1",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-4",
+      "name": "⚔️ フラッシュ引き算",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1 − 1",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-5",
+      "name": "⚔️ 引き算の文章題",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍬\n□\n－\n○\n\nあめが 12こ あります。\n3こ たべました。\nのこりは なんこ？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-5",
+      "name": "⚔️ 引き算の文章題",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍬\n□\n－\n○\n\nあめが 12こ あります。\n3こ たべました。\nのこりは なんこ？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-boss",
+      "name": "👑 引き算の王",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "14 − 3",
+      "outside": []
+    },
+    {
+      "id": "w1-subtraction-boss",
+      "name": "👑 引き算の王",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "14 − 3",
+      "outside": []
+    },
+    {
+      "id": "w2-time-1",
+      "name": "⚔️ なんじなんぷん？",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "とけいを よもう\n\nこの とけいは、なんじ なんぷん？\n\n💡 みじかい はりが「じ」、ながい はりが「ふん」を あらわします。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-1",
+      "name": "⚔️ なんじなんぷん？",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "とけいを よもう\nこの とけいは、なんじ なんぷん？\n💡 みじかい はりが「じ」、ながい はりが「ふん」を あらわします。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-2",
+      "name": "⚔️ 30分の時刻",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "とけいを よもう\n\nこの とけいは、なんじ なんぷん？\n\n💡 みじかい はりと、ながい はりを よく みよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-2",
+      "name": "⚔️ 30分の時刻",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "とけいを よもう\nこの とけいは、なんじ なんぷん？\n💡 みじかい はりと、ながい はりを よく みよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-3",
+      "name": "⚔️ 15分・45分の時刻",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "とけいを よもう\n\nこの とけいは、なんじ なんぷん？\n\n💡 みじかい はりと、ながい はりを よく みよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-3",
+      "name": "⚔️ 15分・45分の時刻",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "とけいを よもう\nこの とけいは、なんじ なんぷん？\n💡 みじかい はりと、ながい はりを よく みよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-4",
+      "name": "⚔️ 分の読み方",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "ふんの よみかた\n\nこの とけいは\nなんじ なんぷん？\n\n💡 ながい はりは、数字を1つ すすむと 5ふん すすむよ。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n0\nながい はり\n1 → 5ふん ・ 2 → 10ふん ・ 3 → 15ふん",
+      "outside": []
+    },
+    {
+      "id": "w2-time-4",
+      "name": "⚔️ 分の読み方",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "ふんの よみかた\nこの とけいは\nなんじ なんぷん？\n💡 ながい はりは、数字を1つ すすむと 5ふん すすむよ。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n5\n10\n15\n20\n25\n30\n35\n40\n45\n50\n55\n0\nながい はり\n1 → 5ふん ・ 2 → 10ふん ・ 3 → 15ふん",
+      "outside": []
+    },
+    {
+      "id": "e1-number20",
+      "name": "⚔️ 20までの数",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "10と6をあわせた数は？\nA\n\n16\n\nB\n\n18\n\nC\n\n17\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-number20",
+      "name": "⚔️ 20までの数",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "10と6をあわせた数は？\nA\n\n16\n\nB\n\n18\n\nC\n\n17\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-number100",
+      "name": "⚔️ 100までの数",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "10が6こ、1が2こ。いくつ？\nA\n\n64\n\nB\n\n62\n\nC\n\n63\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-number100",
+      "name": "⚔️ 100までの数",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "10が6こ、1が2こ。いくつ？\nA\n\n64\n\nB\n\n62\n\nC\n\n63\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-order",
+      "name": "⚔️ 数の順番",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "77の次の数は？\nA\n\n80\n\nB\n\n79\n\nC\n\n78\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-order",
+      "name": "⚔️ 数の順番",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "77の次の数は？\nA\n\n80\n\nB\n\n79\n\nC\n\n78\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-measure_decompose",
+      "name": "⚔️ いくつといくつ",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "6は 1と いくつ？\nA\n\n4\n\nB\n\n5\n\nC\n\n6\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-measure_decompose",
+      "name": "⚔️ いくつといくつ",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "6は 1と いくつ？\nA\n\n4\n\nB\n\n5\n\nC\n\n6\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-measure_number200",
+      "name": "⚔️ 100をこえる数",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "10のまとまりが12こ、ばらが1こ。いくつ？\nA\n\n122\n\nB\n\n120\n\nC\n\n121\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-measure_number200",
+      "name": "⚔️ 100をこえる数",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "10のまとまりが12こ、ばらが1こ。いくつ？\nA\n\n122\n\nB\n\n120\n\nC\n\n121\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-compareLength",
+      "name": "⚔️ 長さをくらべよう",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "同じ大きさのブロックを、赤のリボンには5こ、青には2こ並べました。長いほうには何こ並んでいますか？\nA\n\n6\n\nB\n\n5\n\nC\n\n7\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-compareLength",
+      "name": "⚔️ 長さをくらべよう",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "同じ大きさのブロックを、赤のリボンには5こ、青には2こ並べました。長いほうには何こ並んでいますか？\nA\n\n6\n\nB\n\n5\n\nC\n\n7\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-shapeCount",
+      "name": "⚔️ 形のなかま",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "さんかくを あわせて、しかくを つくろう。\n\n↻ ピースを まわす\n\nみずいろは うごかないよ。オレンジを まわして、すきまを うめよう。\n\nできたら「こたえの けってい」を おそう。",
+      "outside": []
+    },
+    {
+      "id": "e1-shapeCount",
+      "name": "⚔️ 形のなかま",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "さんかくを あわせて、しかくを つくろう。\n\n↻ ピースを まわす\n\nみずいろは うごかないよ。オレンジを まわして、すきまを うめよう。\n\nできたら「こたえの けってい」を おそう。",
+      "outside": []
+    },
+    {
+      "id": "e1-shape_match_outline",
+      "name": "⚔️ 同じ形を見つけよう",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "おてほんと おなじ かたちは どれ？\n\nA\n\nまる\n\nB\n\nさんかく\n\nC\n\nしかく\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-shape_match_outline",
+      "name": "⚔️ 同じ形を見つけよう",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "おてほんと おなじ かたちは どれ？\n\nA\n\nまる\n\nB\n\nさんかく\n\nC\n\nしかく\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-pictureData",
+      "name": "⚔️ 絵と人数の表",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "好きなくだもの調べ：りんご 8人、みかん 8人。あわせて何人？\nくだもの\t人数\nりんご\t8\nみかん\t8\nA\n\n18\n\nB\n\n16\n\nC\n\n17\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-pictureData",
+      "name": "⚔️ 絵と人数の表",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "好きなくだもの調べ：りんご 8人、みかん 8人。あわせて何人？\nくだもの\t人数\nりんご\t8\nみかん\t8\nA\n\n18\n\nB\n\n16\n\nC\n\n17\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-shape_compare_length",
+      "name": "⚔️ 長さを見てくらべよう",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "どちらが ながい？\nあか\nあお\n\nA\n\nあお\n\nB\n\nおなじ\n\nC\n\nあか\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-shape_compare_length",
+      "name": "⚔️ 長さを見てくらべよう",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "どちらが ながい？\nあか\nあお\n\nA\n\nあお\n\nB\n\nおなじ\n\nC\n\nあか\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-shape_compare_area",
+      "name": "⚔️ 広さを見てくらべよう",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "どちらが ひろい？\nあか\nあお\n\n紙ぜんたいの広さをくらべよう。たてと横に広がる、同じ大きさのますが手がかりだよ。\n\nA\n\nおなじ\n\nB\n\nあか\n\nC\n\nあお\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-shape_compare_area",
+      "name": "⚔️ 広さを見てくらべよう",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "どちらが ひろい？\nあか\nあお\n\n紙ぜんたいの広さをくらべよう。たてと横に広がる、同じ大きさのますが手がかりだよ。\n\nA\n\nおなじ\n\nB\n\nあか\n\nC\n\nあお\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-shape_compare_capacity",
+      "name": "⚔️ 水の量をくらべよう",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "どちらの 水が おおい？\n\n🐟 おさかなの おみずを じゅんびしよう\n\nあか\nあお\n💧 おなじ うつわに うつしてみよう\n\nまよったら「おなじ うつわに うつしてみよう」を おしてね。下の図で、水のたかさを くらべよう。\n\nA\n\nあお\n\nB\n\nおなじ\n\nC\n\nあか\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-shape_compare_capacity",
+      "name": "⚔️ 水の量をくらべよう",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "どちらの 水が おおい？\n\n🐟 おさかなの おみずを じゅんびしよう\n\nあか\nあお\n💧 おなじ うつわに うつしてみよう\n\nまよったら「おなじ うつわに うつしてみよう」を おしてね。下の図で、水のたかさを くらべよう。\n\nA\n\nあお\n\nB\n\nおなじ\n\nC\n\nあか\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e1-curriculum-boss",
+      "name": "👑 1年生の冒険まとめ",
+      "world": 1,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍪\n🍪\n🍪\n🍪\n↑\nこのぶんが ちがう\nりんごと クッキーの かずを くらべてみよう。\nりんごのほうが なんこ おおい？",
+      "outside": []
+    },
+    {
+      "id": "e1-curriculum-boss",
+      "name": "👑 1年生の冒険まとめ",
+      "world": 1,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍪\n🍪\n🍪\n🍪\n↑\nこのぶんが ちがう\nりんごと クッキーの かずを くらべてみよう。\nりんごのほうが なんこ おおい？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-1",
+      "name": "⚔️ いくら あるかな？",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "ぜんぶで いくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-1",
+      "name": "⚔️ いくら あるかな？",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "ぜんぶで いくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-can-buy-1",
+      "name": "⚔️ どれが買えるかな？",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "370円で ちょうど かえる セットは どれ？\n👛 もっているお金\nA\n📘＋🍞\nノート＋しょくパン\n330円\nB\n🍊＋🥐\nみかん＋メロンパン\n380円\nC\n🍌＋🍵\nバナナ＋おちゃ\n370円\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w2-money-can-buy-1",
+      "name": "⚔️ どれが買えるかな？",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "370円で ちょうど かえる セットは どれ？\n👛 もっているお金\nA\n📘＋🍞\nノート＋しょくパン\n330円\nB\n🍊＋🥐\nみかん＋メロンパン\n380円\nC\n🍌＋🍵\nバナナ＋おちゃ\n370円\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w2-money-2",
+      "name": "⚔️ ちょうど はらおう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "パンやさんです。 🍞 しょくパンは 180円です。 ちょうど はらえるのは どれ？\n👛 もっているお金\nA\nB\nC\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w2-money-2",
+      "name": "⚔️ ちょうど はらおう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "パンやさんです。 🍞 しょくパンは 180円です。 ちょうど はらえるのは どれ？\n👛 もっているお金\nA\nB\nC\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w2-money-3",
+      "name": "⚔️ お金の たしざん",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "80円 ＋ 20円 ＝ ？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-3",
+      "name": "⚔️ お金の たしざん",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "80円 ＋ 20円 ＝ ？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-4",
+      "name": "⚔️ お金の ひきざん",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "500円 − 350円 ＝ ？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-4",
+      "name": "⚔️ お金の ひきざん",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "500円 − 350円 ＝ ？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-5",
+      "name": "⚔️ お札と硬貨を 数えよう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "ぜんぶで いくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-5",
+      "name": "⚔️ お札と硬貨を 数えよう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "ぜんぶで いくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-change-1",
+      "name": "⚔️ おつりはいくら？",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "📘 ノートは 60円。100円を出しました。おつりはいくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-change-1",
+      "name": "⚔️ おつりはいくら？",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "📘 ノートは 60円。100円を出しました。おつりはいくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-shopping-1",
+      "name": "⚔️ おかいもの2つ買おう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍩 ドーナツ 270円 と 🥤 ジュース 520円。1000円を出したら、おつりはいくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-shopping-1",
+      "name": "⚔️ おかいもの2つ買おう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍩 ドーナツ 270円 と 🥤 ジュース 520円。1000円を出したら、おつりはいくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-boss",
+      "name": "👑 おかいもの ボス戦",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "ぜんぶで いくら？",
+      "outside": []
+    },
+    {
+      "id": "w2-money-boss",
+      "name": "👑 おかいもの ボス戦",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "ぜんぶで いくら？",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-1",
+      "name": "⚔️ かけ算ってなに？",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n4こずつの まとまりが 5つあります。\nぜんぶで なんこ？",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-1",
+      "name": "⚔️ かけ算ってなに？",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n4こずつの まとまりが 5つあります。\nぜんぶで なんこ？",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-2",
+      "name": "⚔️ 九九のきほん",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n5 × 3 ＝ ？\nまとまりを見て こたえよう",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-2",
+      "name": "⚔️ 九九のきほん",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n5 × 3 ＝ ？\nまとまりを見て こたえよう",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-3",
+      "name": "⚔️ 九九をマスター①",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "2 × 3",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-3",
+      "name": "⚔️ 九九をマスター①",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2 × 3",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-4",
+      "name": "⚔️ 九九をマスター②",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "5 × 1",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-4",
+      "name": "⚔️ 九九をマスター②",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "5 × 1",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-5",
+      "name": "⚔️ 九九をマスター③",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "7 × 2",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-5",
+      "name": "⚔️ 九九をマスター③",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "7 × 2",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-6",
+      "name": "⚔️ かけ算の文章題",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🚗\n□\n×\n○\n\n1だいの くるまに 6人 のります。\n7だいでは ぜんぶで なん人 のれる？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-6",
+      "name": "⚔️ かけ算の文章題",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🚗\n□\n×\n○\n\n1だいの くるまに 6人 のります。\n7だいでは ぜんぶで なん人 のれる？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-7",
+      "name": "⚔️ フラッシュ九九",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "8 × 5",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-7",
+      "name": "⚔️ フラッシュ九九",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "8 × 5",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-boss",
+      "name": "👑 九九の王",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "7 × 9",
+      "outside": []
+    },
+    {
+      "id": "w3-multiplication-boss",
+      "name": "👑 九九の王",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "7 × 9",
+      "outside": []
+    },
+    {
+      "id": "w2-time-5",
+      "name": "⚔️ 今からなん分後？",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "じかんを すすめよう\n\nみおちゃんは 15分あとに\nスイミングから かえってきます。\nなんじ なんぷんに かえってくる？\n\n💡 いまの じこくから、とけいを すすめて かんがえよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nいまの じこくから すすめよう",
+      "outside": []
+    },
+    {
+      "id": "w2-time-5",
+      "name": "⚔️ 今からなん分後？",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "じかんを すすめよう\nみおちゃんは 15分あとに\nスイミングから かえってきます。\nなんじ なんぷんに かえってくる？\n💡 いまの じこくから、とけいを すすめて かんがえよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nいまの じこくから すすめよう",
+      "outside": []
+    },
+    {
+      "id": "w2-time-6",
+      "name": "⚔️ 今からなん分前？",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "じかんを もどそう\n\nそらくんは 2時間まえに\nおふろに はいりました。\nなんじ なんぷんに はいった？\n\n💡 いまの じこくから、とけいを もどして かんがえよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nいまの じこくから もどそう",
+      "outside": []
+    },
+    {
+      "id": "w2-time-6",
+      "name": "⚔️ 今からなん分前？",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "じかんを もどそう\nそらくんは 2時間まえに\nおふろに はいりました。\nなんじ なんぷんに はいった？\n💡 いまの じこくから、とけいを もどして かんがえよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\nいまの じこくから もどそう",
+      "outside": []
+    },
+    {
+      "id": "w2-time-7",
+      "name": "⚔️ 朝と夜の24時間表記",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "☀️\nあさ\nあさと よるの 24じかんひょうき\n\nあさの じかんです。24じかんひょうきでは、なんじ？\n\n💡 あさの じこくは、とけいに かかれた じこくを よもう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-7",
+      "name": "⚔️ 朝と夜の24時間表記",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "☀️\nあさ\nあさと よるの 24じかんひょうき\nあさの じかんです。24じかんひょうきでは、なんじ？\n💡 あさの じこくは、とけいに かかれた じこくを よもう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-boss",
+      "name": "👑 時刻マスター",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🌙\nよる\nあさと よるの 24じかんひょうき\n\nよるの じかんです。24じかんひょうきでは、なんじ？\n\n💡 よるの じこくは、ひるの12じより あとの じこくで かんがえよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "w2-time-boss",
+      "name": "👑 時刻マスター",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🌙\nよる\nあさと よるの 24じかんひょうき\nよるの じかんです。24じかんひょうきでは、なんじ？\n💡 よるの じこくは、ひるの12じより あとの じこくで かんがえよう。\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-cm_mm",
+      "name": "⚔️ cmとmmの基本",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1cm＝ □ mm。□に入る数は？\nA\n\n20\n\nB\n\n10\n\nC\n\n0\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-cm_mm",
+      "name": "⚔️ cmとmmの基本",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1cm＝ □ mm。□に入る数は？\nA\n\n20\n\nB\n\n10\n\nC\n\n0\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-m_cm",
+      "name": "⚔️ mとcmの基本",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1m＝ □ cm。□に入る数は？\nA\n\n0\n\nB\n\n100\n\nC\n\n200\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-m_cm",
+      "name": "⚔️ mとcmの基本",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1m＝ □ cm。□に入る数は？\nA\n\n0\n\nB\n\n100\n\nC\n\n200\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-l_dl",
+      "name": "⚔️ LとdLの基本",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1L＝ □ dL。□に入る数は？\nA\n\n10\n\nB\n\n0\n\nC\n\n20\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-l_dl",
+      "name": "⚔️ LとdLの基本",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1L＝ □ dL。□に入る数は？\nA\n\n10\n\nB\n\n0\n\nC\n\n20\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-dl_ml",
+      "name": "⚔️ dLとmLの基本",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1dL＝ □ mL。□に入る数は？\nA\n\n200\n\nB\n\n0\n\nC\n\n100\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-dl_ml",
+      "name": "⚔️ dLとmLの基本",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1dL＝ □ mL。□に入る数は？\nA\n\n200\n\nB\n\n0\n\nC\n\n100\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-l_ml",
+      "name": "⚔️ LとmLの基本",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1L＝ □ mL。□に入る数は？\nA\n\n2000\n\nB\n\n0\n\nC\n\n1000\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-unit-basic-l_ml",
+      "name": "⚔️ LとmLの基本",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1L＝ □ mL。□に入る数は？\nA\n\n2000\n\nB\n\n0\n\nC\n\n1000\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-large2",
+      "name": "⚔️ 10000までの数",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "宝箱の番号を読んでみよう！\n100に数字の0は何個ありますか？",
+      "outside": []
+    },
+    {
+      "id": "e2-large2",
+      "name": "⚔️ 10000までの数",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "宝箱の番号を読んでみよう！\n100に数字の0は何個ありますか？",
+      "outside": []
+    },
+    {
+      "id": "e2-writtenAdd",
+      "name": "⚔️ 3けたの足し算",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "位をそろえて、一の位からひっ算をしよう。\n\n百の位\n十の位\n一の位\nくり上がり\n□\n□\n2\n8\n9\n＋\n2\n5\n0\n□\n□\n□\n\n一の位を計算して、青い答えの枠に1けた入れよう。\n\n一の位 → 十の位 → 百の位。まちがえて入力したら「ひとつもどす」で直せるよ。",
+      "outside": []
+    },
+    {
+      "id": "e2-writtenAdd",
+      "name": "⚔️ 3けたの足し算",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "位をそろえて、一の位からひっ算をしよう。\n\n百の位\n十の位\n一の位\nくり上がり\n□\n□\n2\n8\n9\n＋\n2\n5\n0\n□\n□\n□\n\n一の位を計算して、青い答えの枠に1けた入れよう。\n\n一の位 → 十の位 → 百の位。まちがえて入力したら「ひとつもどす」で直せるよ。",
+      "outside": []
+    },
+    {
+      "id": "e2-writtenSubtract",
+      "name": "⚔️ 3けたの引き算",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "位をそろえて、一の位からひっ算をしよう。\n\n百の位\n十の位\n一の位\nかりた数\n□\n□\n8\n4\n8\n−\n2\n8\n8\n□\n□\n□\n\n一の位を計算して、青い答えの枠に1けた入れよう。\n\n一の位 → 十の位 → 百の位。まちがえて入力したら「ひとつもどす」で直せるよ。",
+      "outside": []
+    },
+    {
+      "id": "e2-writtenSubtract",
+      "name": "⚔️ 3けたの引き算",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "位をそろえて、一の位からひっ算をしよう。\n\n百の位\n十の位\n一の位\nかりた数\n□\n□\n8\n4\n8\n−\n2\n8\n8\n□\n□\n□\n\n一の位を計算して、青い答えの枠に1けた入れよう。\n\n一の位 → 十の位 → 百の位。まちがえて入力したら「ひとつもどす」で直せるよ。",
+      "outside": []
+    },
+    {
+      "id": "e2-length2",
+      "name": "⚔️ cmとmm",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "6cm 1mmは何mm？\nA\n\n62\n\nB\n\n61\n\nC\n\n63\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-length2",
+      "name": "⚔️ cmとmm",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "6cm 1mmは何mm？\nA\n\n62\n\nB\n\n61\n\nC\n\n63\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_ruler_cm",
+      "name": "⚔️ ものさしで長さを読もう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "えんぴつの ながさは なんcm？\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\ncm\n↔ 0を 左のはしに あわせる\n\nまず、ものさしの0を あわせて はかろう。\n\nA\n\n4\n\nB\n\n2\n\nC\n\n3\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_ruler_cm",
+      "name": "⚔️ ものさしで長さを読もう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "えんぴつの ながさは なんcm？\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10\n11\n12\n13\n14\n15\n16\n17\n18\n19\n20\ncm\n↔ 0を 左のはしに あわせる\n\nまず、ものさしの0を あわせて はかろう。\n\nA\n\n4\n\nB\n\n2\n\nC\n\n3\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_ruler_mm",
+      "name": "⚔️ ものさしのmmを読もう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "リボンの長さは何mm？\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nmm\n↔ 0を 左のはしに あわせる\n\nまず、ものさしの0を あわせて はかろう。\n\nA\n\n84\n\nB\n\n85\n\nC\n\n83\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_ruler_mm",
+      "name": "⚔️ ものさしのmmを読もう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "リボンの長さは何mm？\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nmm\n↔ 0を 左のはしに あわせる\n\nまず、ものさしの0を あわせて はかろう。\n\nA\n\n84\n\nB\n\n85\n\nC\n\n83\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_offset",
+      "name": "⚔️ 0から置かれていない長さ",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "リボンは0から置かれていません。長さは何mm？\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nmm\nA\n\n6\n\nB\n\n5\n\nC\n\n7\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_offset",
+      "name": "⚔️ 0から置かれていない長さ",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "リボンは0から置かれていません。長さは何mm？\n0\n10\n20\n30\n40\n50\n60\n70\n80\n90\n100\nmm\nA\n\n6\n\nB\n\n5\n\nC\n\n7\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_m_cm",
+      "name": "⚔️ mとcm",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "7m 82cmは何cm？\nA\n\n783\n\nB\n\n782\n\nC\n\n781\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_m_cm",
+      "name": "⚔️ mとcm",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "7m 82cmは何cm？\nA\n\n783\n\nB\n\n782\n\nC\n\n781\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-capacity",
+      "name": "⚔️ LとdL",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "2L 6dLは何dL？\nA\n\n28\n\nB\n\n27\n\nC\n\n26\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-capacity",
+      "name": "⚔️ LとdL",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2L 6dLは何dL？\nA\n\n28\n\nB\n\n27\n\nC\n\n26\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_capacity_ml",
+      "name": "⚔️ 水のかさを読もう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "容器の水のかさは何mL？（小さい目もりは50mL）\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\nmL\nA\n\n451\n\nB\n\n449\n\nC\n\n450\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_capacity_ml",
+      "name": "⚔️ 水のかさを読もう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "容器の水のかさは何mL？（小さい目もりは50mL）\n0\n100\n200\n300\n400\n500\n600\n700\n800\n900\n1000\nmL\nA\n\n451\n\nB\n\n449\n\nC\n\n450\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_l_ml",
+      "name": "⚔️ LとmL",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "7L 700mLは何mL？\nA\n\n7699\n\nB\n\n7701\n\nC\n\n7700\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-measure_l_ml",
+      "name": "⚔️ LとmL",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "7L 700mLは何mL？\nA\n\n7699\n\nB\n\n7701\n\nC\n\n7700\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-half2",
+      "name": "⚔️ 半分に分けよう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "同じ大きさの折り紙22まいを、2人で半分ずつ分けます。1人は何まい？\nA\n\n11\n\nB\n\n12\n\nC\n\n13\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-half2",
+      "name": "⚔️ 半分に分けよう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "同じ大きさの折り紙22まいを、2人で半分ずつ分けます。1人は何まい？\nA\n\n11\n\nB\n\n12\n\nC\n\n13\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-1",
+      "name": "⚔️ 1の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1×9はいくつ？\n\n1こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-1",
+      "name": "⚔️ 1の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1×9はいくつ？\n\n1こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-2",
+      "name": "⚔️ 2の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "2×2はいくつ？\n\n2こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-2",
+      "name": "⚔️ 2の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2×2はいくつ？\n\n2こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-3",
+      "name": "⚔️ 3の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "3×1はいくつ？\n\n3こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-3",
+      "name": "⚔️ 3の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "3×1はいくつ？\n\n3こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-4",
+      "name": "⚔️ 4の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "宝石が1つの宝箱に4こ。宝箱が7こあると、全部で何こ？\n\n4こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-4",
+      "name": "⚔️ 4の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "宝石が1つの宝箱に4こ。宝箱が7こあると、全部で何こ？\n\n4こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-5",
+      "name": "⚔️ 5の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "りんごが1つのかごに5こ。かごが3こあると、全部で何こ？\n\n5こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-5",
+      "name": "⚔️ 5の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "りんごが1つのかごに5こ。かごが3こあると、全部で何こ？\n\n5こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-6",
+      "name": "⚔️ 6の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "宝石が1つの宝箱に6こ。宝箱が8こあると、全部で何こ？\n\n6こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-6",
+      "name": "⚔️ 6の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "宝石が1つの宝箱に6こ。宝箱が8こあると、全部で何こ？\n\n6こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-7",
+      "name": "⚔️ 7の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "お花が1つの花だんに7こ。花だんが6こあると、全部で何こ？\n\n7こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-7",
+      "name": "⚔️ 7の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "お花が1つの花だんに7こ。花だんが6こあると、全部で何こ？\n\n7こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-8",
+      "name": "⚔️ 8の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "8×4はいくつ？\n\n8こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-8",
+      "name": "⚔️ 8の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "8×4はいくつ？\n\n8こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-9",
+      "name": "⚔️ 9の段であそぼう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "9×8はいくつ？\n\n9こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-times-table-9",
+      "name": "⚔️ 9の段であそぼう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "9×8はいくつ？\n\n9こずつのまとまりを見つけよう。",
+      "outside": []
+    },
+    {
+      "id": "e2-data-table",
+      "name": "⚔️ 表と図で人数を調べよう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "りんごがすきな人は何人？\n\nすきなくだもの調べ（1人1つ）\n\nくだもの\t1こ＝1人\n🍎 りんご\t\n●\n●\n●\n●\n●\n\n🍊 みかん\t\n●\n●\n●\n●\n●\n●\n\n🍇 ぶどう\t\n●\n●\n●\n●\n\n青い丸1こが1人分。行とくだものの名前を合わせて見よう。\n\n数字で答えよう。単位：人",
+      "outside": []
+    },
+    {
+      "id": "e2-data-table",
+      "name": "⚔️ 表と図で人数を調べよう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "りんごがすきな人は何人？\n\nすきなくだもの調べ（1人1つ）\n\nくだもの\t1こ＝1人\n🍎 りんご\t\n●\n●\n●\n●\n●\n\n🍊 みかん\t\n●\n●\n●\n●\n●\n●\n\n🍇 ぶどう\t\n●\n●\n●\n●\n\n青い丸1こが1人分。行とくだものの名前を合わせて見よう。\n\n数字で答えよう。単位：人",
+      "outside": []
+    },
+    {
+      "id": "e2-shape_polygon2",
+      "name": "⚔️ 形・辺・かどを調べよう",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図を見て、形のなまえをえらぼう。\n\nA\n\n三角形\n\nB\n\n正方形\n\nC\n\n長方形（正方形以外）\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-shape_polygon2",
+      "name": "⚔️ 形・辺・かどを調べよう",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図を見て、形のなまえをえらぼう。\n\nA\n\n三角形\n\nB\n\n正方形\n\nC\n\n長方形（正方形以外）\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-curriculum-boss",
+      "name": "👑 2年生の冒険まとめ",
+      "world": 2,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "紙のかどと ぴったり かさなる「直角」は どれ？\n\nおてほん：紙のかど\n\nこれが「直角」だよ\n\nA\n\nB\n\nC\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e2-curriculum-boss",
+      "name": "👑 2年生の冒険まとめ",
+      "world": 2,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "紙のかどと ぴったり かさなる「直角」は どれ？\n\nおてほん：紙のかど\n\nこれが「直角」だよ\n\nA\n\nB\n\nC\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w3-division-1",
+      "name": "⚔️ わり算ってなに？",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\nりんごが 16こ あります。\n4こずつに わけます。\nいくつの まとまりが できますか？",
+      "outside": []
+    },
+    {
+      "id": "w3-division-1",
+      "name": "⚔️ わり算ってなに？",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\n🍎\nりんごが 16こ あります。\n4こずつに わけます。\nいくつの まとまりが できますか？",
+      "outside": []
+    },
+    {
+      "id": "w3-division-2",
+      "name": "⚔️ わり算のきほん",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "12 ÷ 3",
+      "outside": []
+    },
+    {
+      "id": "w3-division-2",
+      "name": "⚔️ わり算のきほん",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "12 ÷ 3",
+      "outside": []
+    },
+    {
+      "id": "w3-division-3",
+      "name": "⚔️ 九九をつかってわり算",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "九九を思い出そう\n2 × 4 ＝ 8\n↓\nだから\n8 ÷ 2 ＝ ？",
+      "outside": []
+    },
+    {
+      "id": "w3-division-3",
+      "name": "⚔️ 九九をつかってわり算",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "九九を思い出そう\n2 × 4 ＝ 8\n↓\nだから\n8 ÷ 2 ＝ ？",
+      "outside": []
+    },
+    {
+      "id": "w3-division-4",
+      "name": "⚔️ 1けたでわる",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "42 ÷ 6",
+      "outside": []
+    },
+    {
+      "id": "w3-division-4",
+      "name": "⚔️ 1けたでわる",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "42 ÷ 6",
+      "outside": []
+    },
+    {
+      "id": "w3-division-5",
+      "name": "⚔️ わり算の文章題",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🍎\n□\n÷\n○\n\nりんごが 10こ あります。\n1ふくろに 5こずつ いれます。\nなんふくろ できますか？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w3-division-5",
+      "name": "⚔️ わり算の文章題",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🍎\n□\n÷\n○\n\nりんごが 10こ あります。\n1ふくろに 5こずつ いれます。\nなんふくろ できますか？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w3-division-6",
+      "name": "⚔️ フラッシュわり算",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "25 ÷ 5",
+      "outside": []
+    },
+    {
+      "id": "w3-division-6",
+      "name": "⚔️ フラッシュわり算",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "25 ÷ 5",
+      "outside": []
+    },
+    {
+      "id": "w3-division-boss",
+      "name": "👑 わり算の王",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "✏️\n□\n÷\n○\n\nえんぴつが 20本 あります。\n4人で おなじ数ずつ わけます。\n1人ぶんは なん本？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w3-division-boss",
+      "name": "👑 わり算の王",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "✏️\n□\n÷\n○\n\nえんぴつが 20本 あります。\n4人で おなじ数ずつ わけます。\n1人ぶんは なん本？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-1",
+      "name": "⚔️ 小数をみつけよう",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "この図に合う小数は？\n10こに分けたうち、色がついた数を見よう。\nA\n0.7\nB\n0.8\nC\n8.0\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-1",
+      "name": "⚔️ 小数をみつけよう",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "この図に合う小数は？\n10こに分けたうち、色がついた数を見よう。\nA\n0.7\nB\n0.8\nC\n8.0\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-2",
+      "name": "⚔️ 1をこえる小数",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1\n1\n1\n1\n0.1ずつ\n4\n＋\n0.6\n＝\n？\n\n\n4 と 0.1が 6こ あります。\nあわせた数は？\n\n\n0.1が6こで 0.6 です。\n数字を入力してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-2",
+      "name": "⚔️ 1をこえる小数",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1\n1\n1\n1\n0.1ずつ\n4\n＋\n0.6\n＝\n？\n\n\n4 と 0.1が 6こ あります。\nあわせた数は？\n\n\n0.1が6こで 0.6 です。\n数字を入力してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-3",
+      "name": "⚔️ 小数と数直線",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "2\n●\n2.5\n3\n●のところの数は？\n1目もりは 0.1 です。\n数字を入力してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-3",
+      "name": "⚔️ 小数と数直線",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2\n●\n2.5\n3\n●のところの数は？\n1目もりは 0.1 です。\n数字を入力してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-4",
+      "name": "⚔️ 小数の大小",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "小さい順にならんでいるのは どれ？\n左から、小さい数になるように見よう。\nA\n0.9 → 0.8 → 1.2\nB\n1.2 → 0.9 → 0.8\nC\n0.8 → 0.9 → 1.2\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-4",
+      "name": "⚔️ 小数の大小",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "小さい順にならんでいるのは どれ？\n左から、小さい数になるように見よう。\nA\n0.9 → 0.8 → 1.2\nB\n1.2 → 0.9 → 0.8\nC\n0.8 → 0.9 → 1.2\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-5",
+      "name": "⚔️ 小数の位",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "位のならび\n十の位\n2\n一の位\n4\n10分の1の位\n6\n100分の1の位\n3\n24.63\n3.5\n3.5 の 5 は 何の位の数字？\nA\n10分の1の位\nB\n10の位\nC\n一の位\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-5",
+      "name": "⚔️ 小数の位",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "位のならび\n十の位\n2\n一の位\n4\n10分の1の位\n6\n100分の1の位\n3\n24.63\n3.5\n3.5 の 5 は 何の位の数字？\nA\n10分の1の位\nB\n10の位\nC\n一の位\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-6",
+      "name": "⚔️ 小数のたし算",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "小数のたし算をしよう。\n1.3\n＋\n0.4\n＝\n？\n小数点の場所をそろえて考えよう。",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-6",
+      "name": "⚔️ 小数のたし算",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "小数のたし算をしよう。\n1.3\n＋\n0.4\n＝\n？\n小数点の場所をそろえて考えよう。",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-7",
+      "name": "⚔️ 小数のひき算",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "小数のひき算をしよう。\n1.4\n−\n0.1\n＝\n？\n小数点の場所をそろえて考えよう。",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-7",
+      "name": "⚔️ 小数のひき算",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "小数のひき算をしよう。\n1.4\n−\n0.1\n＝\n？\n小数点の場所をそろえて考えよう。",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-8",
+      "name": "⚔️ 小数の文章題",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "🚲\n\nじてんしゃで 1.9km すすみました。\nさらに 0.6km すすみました。\nぜんぶで なんkm？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-8",
+      "name": "⚔️ 小数の文章題",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "🚲\n\nじてんしゃで 1.9km すすみました。\nさらに 0.6km すすみました。\nぜんぶで なんkm？\nしきから にゅうりょくしよう。\n",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-boss",
+      "name": "👑 小数の王",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1\n1\n1\n1\n0.1ずつ\n4\n＋\n0.9\n＝\n？\n\n\n4 と 0.1が 9こ あります。\nあわせた数は？\n\n\n0.1が9こで 0.9 です。\n数字を入力してね",
+      "outside": []
+    },
+    {
+      "id": "w4-decimal-boss",
+      "name": "👑 小数の王",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1\n1\n1\n1\n0.1ずつ\n4\n＋\n0.9\n＝\n？\n\n\n4 と 0.1が 9こ あります。\nあわせた数は？\n\n\n0.1が9こで 0.9 です。\n数字を入力してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-1",
+      "name": "⚔️ 分数をみつけよう",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "5つに わけたうちの 3つぶんは？\n5\nこに分けたうち\n3\nこぶん\n下の数字は、ぜんぶを何こに分けたか。上の数字は、そのうち何こぶんか。\nA\n2\n5\nB\n5\n3\nC\n3\n5\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-1",
+      "name": "⚔️ 分数をみつけよう",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "5つに わけたうちの 3つぶんは？\n5\nこに分けたうち\n3\nこぶん\n下の数字は、ぜんぶを何こに分けたか。上の数字は、そのうち何こぶんか。\nA\n2\n5\nB\n5\n3\nC\n3\n5\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-5",
+      "name": "⚔️ 同分母の足し算",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "□ に はいる 数は？\n2\n5\n＋\n3\n5\n＝\n□\n□\n分母が同じときは、分子どうしをたそう。",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-5",
+      "name": "⚔️ 同分母の足し算",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "□ に はいる 数は？\n2\n5\n＋\n3\n5\n＝\n□\n□\n分母が同じときは、分子どうしをたそう。",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-6",
+      "name": "⚔️ 同分母の引き算",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "□ に はいる 数は？\n2\n3\n−\n1\n3\n＝\n□\n3\n分母が同じときは、分子どうしをひこう。",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-6",
+      "name": "⚔️ 同分母の引き算",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "□ に はいる 数は？\n2\n3\n−\n1\n3\n＝\n□\n3\n分母が同じときは、分子どうしをひこう。",
+      "outside": []
+    },
+    {
+      "id": "e3-unit-basic-km_m",
+      "name": "⚔️ kmとmの基本",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1km＝ □ m。□に入る数は？\nA\n\n0\n\nB\n\n1000\n\nC\n\n2000\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-unit-basic-km_m",
+      "name": "⚔️ kmとmの基本",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1km＝ □ m。□に入る数は？\nA\n\n0\n\nB\n\n1000\n\nC\n\n2000\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-unit-basic-kg_g",
+      "name": "⚔️ kgとgの基本",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1kg＝ □ g。□に入る数は？\nA\n\n0\n\nB\n\n1000\n\nC\n\n2000\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-unit-basic-kg_g",
+      "name": "⚔️ kgとgの基本",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1kg＝ □ g。□に入る数は？\nA\n\n0\n\nB\n\n1000\n\nC\n\n2000\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-unit-basic-t_kg",
+      "name": "⚔️ tとkgの基本",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1t＝ □ kg。□に入る数は？\nA\n\n1000\n\nB\n\n2000\n\nC\n\n0\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-unit-basic-t_kg",
+      "name": "⚔️ tとkgの基本",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1t＝ □ kg。□に入る数は？\nA\n\n1000\n\nB\n\n2000\n\nC\n\n0\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-large3",
+      "name": "⚔️ 万の位",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "数の探検隊、出発！\n2万と1を数字で書こう。",
+      "outside": []
+    },
+    {
+      "id": "e3-large3",
+      "name": "⚔️ 万の位",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "数の探検隊、出発！\n2万と1を数字で書こう。",
+      "outside": []
+    },
+    {
+      "id": "e3-writtenMultiply",
+      "name": "⚔️ 2けた×1けた",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "位をそろえて、一の位からひっ算をしよう。\n\n百の位\n十の位\n一の位\nくり上がり\n□\n□\n9\n1\n×\n2\n□\n□\n□\n\n一の位を計算して、青い答えの枠に1けた入れよう。\n\n一の位 → 十の位 → 百の位。まちがえて入力したら「ひとつもどす」で直せるよ。",
+      "outside": []
+    },
+    {
+      "id": "e3-writtenMultiply",
+      "name": "⚔️ 2けた×1けた",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "位をそろえて、一の位からひっ算をしよう。\n\n百の位\n十の位\n一の位\nくり上がり\n□\n□\n9\n1\n×\n2\n□\n□\n□\n\n一の位を計算して、青い答えの枠に1けた入れよう。\n\n一の位 → 十の位 → 百の位。まちがえて入力したら「ひとつもどす」で直せるよ。",
+      "outside": []
+    },
+    {
+      "id": "e3-upper_mul3",
+      "name": "⚔️ 3けた×1けた",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "一の位から、かけ算のひっ算をしよう。\n\n3\n5\n1\n×\n7\nくり上がり\n□\n0\n答え\n□\n□\n□\n□\n\n一の位の数でかける：一の位の答えを青い枠へ。\n\nかけた答えに、前の位からのくり上がりをたそう。",
+      "outside": []
+    },
+    {
+      "id": "e3-upper_mul3",
+      "name": "⚔️ 3けた×1けた",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "一の位から、かけ算のひっ算をしよう。\n\n3\n5\n1\n×\n7\nくり上がり\n□\n0\n答え\n□\n□\n□\n□\n\n一の位の数でかける：一の位の答えを青い枠へ。\n\nかけた答えに、前の位からのくり上がりをたそう。",
+      "outside": []
+    },
+    {
+      "id": "e3-upper_mul2",
+      "name": "⚔️ 2けた×2けた",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "一の位から、かけ算のひっ算をしよう。\n\n8\n0\n×\n7\n8\nくり上がり\n0\n一の位で×\n□\n□\n□\nくり上がり\n0\n十の位で×\n□\n□\n□\nくり上がり\n□\n0\n0\n全部の答え\n□\n□\n□\n□\n\n一の位の数でかける：一の位の答えを青い枠へ。\n\n十の位でかけた答えは、1けた左にずらして書くよ。",
+      "outside": []
+    },
+    {
+      "id": "e3-upper_mul2",
+      "name": "⚔️ 2けた×2けた",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "一の位から、かけ算のひっ算をしよう。\n\n8\n0\n×\n7\n8\nくり上がり\n0\n一の位で×\n□\n□\n□\nくり上がり\n0\n十の位で×\n□\n□\n□\nくり上がり\n□\n0\n0\n全部の答え\n□\n□\n□\n□\n\n一の位の数でかける：一の位の答えを青い枠へ。\n\n十の位でかけた答えは、1けた左にずらして書くよ。",
+      "outside": []
+    },
+    {
+      "id": "e3-remainder",
+      "name": "⚔️ あまりのあるわり算",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "22÷8のあまりは？\nA\n\n6\n\nB\n\n7\n\nC\n\n8\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-remainder",
+      "name": "⚔️ あまりのあるわり算",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "22÷8のあまりは？\nA\n\n6\n\nB\n\n7\n\nC\n\n8\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-length3",
+      "name": "⚔️ kmとm",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "4km 800mは何m？\nA\n\n4800\n\nB\n\n4802\n\nC\n\n4801\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-length3",
+      "name": "⚔️ kmとm",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "4km 800mは何m？\nA\n\n4800\n\nB\n\n4802\n\nC\n\n4801\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-weight",
+      "name": "⚔️ kgとg",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "1kg 100gは何g？\nA\n\n1102\n\nB\n\n1101\n\nC\n\n1100\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-weight",
+      "name": "⚔️ kgとg",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "1kg 100gは何g？\nA\n\n1102\n\nB\n\n1101\n\nC\n\n1100\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-upper_weight_t",
+      "name": "⚔️ tとkg",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "9t 600kgは何kg？\nA\n\n9601\n\nB\n\n9600\n\nC\n\n9602\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-upper_weight_t",
+      "name": "⚔️ tとkg",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "9t 600kgは何kg？\nA\n\n9601\n\nB\n\n9600\n\nC\n\n9602\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-seconds",
+      "name": "⚔️ 分と秒",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "8分7秒は何秒？\nA\n\n488\n\nB\n\n489\n\nC\n\n487\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-seconds",
+      "name": "⚔️ 分と秒",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "8分7秒は何秒？\nA\n\n488\n\nB\n\n489\n\nC\n\n487\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-circle",
+      "name": "⚔️ 円と球の半径・直径",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の円の直径は何cm？\n半径 18cm\n円：平らな図形\n\n中心からはしまでが半径。直径は、半径2つ分の長さだよ。\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e3-circle",
+      "name": "⚔️ 円と球の半径・直径",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の円の直径は何cm？\n半径 18cm\n円：平らな図形\n\n中心からはしまでが半径。直径は、半径2つ分の長さだよ。\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e3-triangle3",
+      "name": "⚔️ 正三角形の辺",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "正三角形の3つの辺の長さを全部たすと、何cm？\n14cm\n14cm\n14cm\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e3-triangle3",
+      "name": "⚔️ 正三角形の辺",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "正三角形の3つの辺の長さを全部たすと、何cm？\n14cm\n14cm\n14cm\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e3-isosceles-sides",
+      "name": "⚔️ 二等辺三角形の辺を見つけよう",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "同じ印の辺は同じ長さです。？の辺は何cm？\n14cm\n10cm\n？\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e3-isosceles-sides",
+      "name": "⚔️ 二等辺三角形の辺を見つけよう",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "同じ印の辺は同じ長さです。？の辺は何cm？\n14cm\n10cm\n？\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e3-barData",
+      "name": "⚔️ 棒グラフを読もう",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図書室で借りた本：月曜13冊、火曜4冊、水曜14冊。いちばん多い日は何冊？\n月\n13冊\n火\n4冊\n水\n14冊\nA\n\n16\n\nB\n\n14\n\nC\n\n15\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-barData",
+      "name": "⚔️ 棒グラフを読もう",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図書室で借りた本：月曜13冊、火曜4冊、水曜14冊。いちばん多い日は何冊？\n月\n13冊\n火\n4冊\n水\n14冊\nA\n\n16\n\nB\n\n14\n\nC\n\n15\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-boxEquation",
+      "name": "⚔️ □を使った式",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "□＋41＝43。□はいくつ？\nA\n\n2\n\nB\n\n3\n\nC\n\n4\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-boxEquation",
+      "name": "⚔️ □を使った式",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "□＋41＝43。□はいくつ？\nA\n\n2\n\nB\n\n3\n\nC\n\n4\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-fractionCompare3",
+      "name": "⚔️ 同じ分母の分数を比べよう",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "3\n6\nと\n1\n6\nを比べます。大きいほうの分子はいくつ？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e3-fractionCompare3",
+      "name": "⚔️ 同じ分母の分数を比べよう",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "3\n6\nと\n1\n6\nを比べます。大きいほうの分子はいくつ？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e3-curriculum-boss",
+      "name": "👑 3年生の冒険まとめ",
+      "world": 3,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "65÷8のあまりは？\nA\n\n3\n\nB\n\n1\n\nC\n\n2\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e3-curriculum-boss",
+      "name": "👑 3年生の冒険まとめ",
+      "world": 3,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "65÷8のあまりは？\nA\n\n3\n\nB\n\n1\n\nC\n\n2\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-2",
+      "name": "⚔️ 分数の大きさ",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "どちらの分数が 大きい？\n1\n3\nと\n2\n6\n分け方がちがっても、色のついた大きさが同じことがあります。\nA\n左の分数\nB\nおなじ\nC\n右の分数\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-2",
+      "name": "⚔️ 分数の大きさ",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "どちらの分数が 大きい？\n1\n3\nと\n2\n6\n分け方がちがっても、色のついた大きさが同じことがあります。\nA\n左の分数\nB\nおなじ\nC\n右の分数\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-3",
+      "name": "⚔️ 同じ大きさの分数",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "2つの分数は 同じ大きさ？\n4\n6\n＝？\n2\n4\n分け方がちがっても、色のついた大きさに注目しよう。\nA\nちがう大きさ\nB\n同じ大きさ\nC\n右のほうが大きい\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-3",
+      "name": "⚔️ 同じ大きさの分数",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2つの分数は 同じ大きさ？\n4\n6\n＝？\n2\n4\n分け方がちがっても、色のついた大きさに注目しよう。\nA\nちがう大きさ\nB\n同じ大きさ\nC\n右のほうが大きい\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-4",
+      "name": "⚔️ 分数の大小",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "□ に はいる きごうは どれ？\n3\n6\n□\n3\n5\n分子が同じときは、1こ分の大きさを考えよう。\nA\n＜\nB\n＝\nC\n＞\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-4",
+      "name": "⚔️ 分数の大小",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "□ に はいる きごうは どれ？\n3\n6\n□\n3\n5\n分子が同じときは、1こ分の大きさを考えよう。\nA\n＜\nB\n＝\nC\n＞\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-boss",
+      "name": "👑 ボス戦",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "□ に はいる 数は？\n2\n6\n＋\n1\n6\n＝\n□\n□\n分母が同じときは、分子どうしをたそう。",
+      "outside": []
+    },
+    {
+      "id": "w4-fraction-boss",
+      "name": "👑 ボス戦",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "□ に はいる 数は？\n2\n6\n＋\n1\n6\n＝\n□\n□\n分母が同じときは、分子どうしをたそう。",
+      "outside": []
+    },
+    {
+      "id": "e4-large4",
+      "name": "⚔️ 億・兆・概数を調べよう",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "宝箱の番号を読んでみよう！\n90000000000に数字の0は何個ありますか？",
+      "outside": []
+    },
+    {
+      "id": "e4-large4",
+      "name": "⚔️ 億・兆・概数を調べよう",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "宝箱の番号を読んでみよう！\n90000000000に数字の0は何個ありますか？",
+      "outside": []
+    },
+    {
+      "id": "e4-writtenDivide",
+      "name": "⚔️ 2けたでわる",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "587 ÷ 38 を、ひっ算で計算しよう。\n\n38\n−\n−\n7\n8\n5\nあまり\n\n商の十の位をたてようを青い枠へ。\n\nたてる → かける → ひく → 下ろす。数字の位をそろえよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-writtenDivide",
+      "name": "⚔️ 2けたでわる",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "587 ÷ 38 を、ひっ算で計算しよう。\n\n38\n−\n−\n7\n8\n5\nあまり\n\n商の十の位をたてようを青い枠へ。\n\nたてる → かける → ひく → 下ろす。数字の位をそろえよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-decimalPlaces4",
+      "name": "⚔️ 100分の1の位",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "9.36の100分の1の位の数字は？\nA\n\n7\n\nB\n\n8\n\nC\n\n6\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e4-decimalPlaces4",
+      "name": "⚔️ 100分の1の位",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "9.36の100分の1の位の数字は？\nA\n\n7\n\nB\n\n8\n\nC\n\n6\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e4-decimalIntMultiply",
+      "name": "⚔️ 小数×整数",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "3.4 × 3 を、ひっ算で計算しよう。\n\n3\n4\n×\n3\nくり上がり\n□\n答え\n□\n□\n□\n\n一の位の数でかける：一の位の答えを青い枠へ。\n\n整数として計算した答えを10分の1に戻すので、小数点の位置にも注目しよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-decimalIntMultiply",
+      "name": "⚔️ 小数×整数",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "3.4 × 3 を、ひっ算で計算しよう。\n\n3\n4\n×\n3\nくり上がり\n□\n答え\n□\n□\n□\n\n一の位の数でかける：一の位の答えを青い枠へ。\n\n整数として計算した答えを10分の1に戻すので、小数点の位置にも注目しよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-decimalIntDivide",
+      "name": "⚔️ 小数÷整数",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "12.4 ÷ 4 を、ひっ算で計算しよう。\n\n4\n−\n−\n4\n2\n1\nあまり\n\n商の十の位をたてようを青い枠へ。\n\n商の小数点は、わられる数の小数点の真上にそろえよう。 たてる → かける → ひく → 下ろす。数字の位をそろえよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-decimalIntDivide",
+      "name": "⚔️ 小数÷整数",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "12.4 ÷ 4 を、ひっ算で計算しよう。\n\n4\n−\n−\n4\n2\n1\nあまり\n\n商の十の位をたてようを青い枠へ。\n\n商の小数点は、わられる数の小数点の真上にそろえよう。 たてる → かける → ひく → 下ろす。数字の位をそろえよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-upper_thousandths",
+      "name": "⚔️ 1000分の1の位",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "4.751の1000分の1の位の数字は？\nA\n\n3\n\nB\n\n2\n\nC\n\n1\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e4-upper_thousandths",
+      "name": "⚔️ 1000分の1の位",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "4.751の1000分の1の位の数字は？\nA\n\n3\n\nB\n\n2\n\nC\n\n1\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e4-upper_decimal_add",
+      "name": "⚔️ 100分の1までの足し算",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "小数点をそろえて、同じ位どうしをひっ算しよう。\n\n位をそろえる\n4\n5\n8\n0\n＋\n3\n8\n6\n5\nくり上がり\n□\n□\n0\n答え\n□\n□\n□\n□\n\n100分の1の位を計算しようを青い枠へ。\n\n小数点は同じ位置。100分の1、10分の1、一の位の順に計算しよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-upper_decimal_add",
+      "name": "⚔️ 100分の1までの足し算",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "小数点をそろえて、同じ位どうしをひっ算しよう。\n\n位をそろえる\n4\n5\n8\n0\n＋\n3\n8\n6\n5\nくり上がり\n□\n□\n0\n答え\n□\n□\n□\n□\n\n100分の1の位を計算しようを青い枠へ。\n\n小数点は同じ位置。100分の1、10分の1、一の位の順に計算しよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-upper_decimal_sub",
+      "name": "⚔️ 100分の1までの引き算",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "小数点をそろえて、同じ位どうしをひっ算しよう。\n\n位をそろえる\n7\n3\n5\n7\n−\n1\n8\n8\n5\nかりた数\n□\n□\n0\n答え\n□\n□\n□\n□\n\n100分の1の位を計算しようを青い枠へ。\n\n小数点は同じ位置。100分の1、10分の1、一の位の順に計算しよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-upper_decimal_sub",
+      "name": "⚔️ 100分の1までの引き算",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "小数点をそろえて、同じ位どうしをひっ算しよう。\n\n位をそろえる\n7\n3\n5\n7\n−\n1\n8\n8\n5\nかりた数\n□\n□\n0\n答え\n□\n□\n□\n□\n\n100分の1の位を計算しようを青い枠へ。\n\n小数点は同じ位置。100分の1、10分の1、一の位の順に計算しよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-mixedFraction4",
+      "name": "⚔️ 帯分数と仮分数",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "3と\n10\n11\n−1と\n3\n11\n。答えを分母11の分数で表すと、分子はいくつ？\n計算する式\t答え（分母はそのまま）\n3と\n10\n11\n−1と\n3\n11\n\t\n□\n11\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e4-mixedFraction4",
+      "name": "⚔️ 帯分数と仮分数",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "3と\n10\n11\n−1と\n3\n11\n。答えを分母11の分数で表すと、分子はいくつ？\n計算する式\t答え（分母はそのまま）\n3と\n10\n11\n−1と\n3\n11\n\t\n□\n11\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e4-angle",
+      "name": "⚔️ 角の大きさ",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "全体は直角で90°。オレンジ色の角は何度？\n75°\n？°\n直角＝90°\n\n2つの角をあわせると90°。全体から青い角の大きさをひこう。\n\n図を見て、数字で答えよう。単位：度",
+      "outside": []
+    },
+    {
+      "id": "e4-angle",
+      "name": "⚔️ 角の大きさ",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "全体は直角で90°。オレンジ色の角は何度？\n75°\n？°\n直角＝90°\n\n2つの角をあわせると90°。全体から青い角の大きさをひこう。\n\n図を見て、数字で答えよう。単位：度",
+      "outside": []
+    },
+    {
+      "id": "e4-position",
+      "name": "⚔️ 地図と空間の位置",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "地図の赤い点の場所を、右・上の2つの数で表そう。\n0\n0\n1\n1\n2\n2\n3\n3\n4\n4\n右\n上\nはじめ\n（右 □、上 2）\n\n□に入る数はいくつ？ 1目もりは1。\n\n線が交わる場所を見よう。青い「はじめ」から、右と上へ数えよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-position",
+      "name": "⚔️ 地図と空間の位置",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "地図の赤い点の場所を、右・上の2つの数で表そう。\n0\n0\n1\n1\n2\n2\n3\n3\n4\n4\n右\n上\nはじめ\n（右 □、上 2）\n\n□に入る数はいくつ？ 1目もりは1。\n\n線が交わる場所を見よう。青い「はじめ」から、右と上へ数えよう。",
+      "outside": []
+    },
+    {
+      "id": "e4-quadrilateral-properties",
+      "name": "⚔️ 平行四辺形・ひし形・台形",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "向かい合う辺と、辺の長さを見よう。図はどの形？\n\nA\n\nひし形\n\nB\n\n台形\n\nC\n\n平行四辺形（ひし形以外）\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e4-quadrilateral-properties",
+      "name": "⚔️ 平行四辺形・ひし形・台形",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "向かい合う辺と、辺の長さを見よう。図はどの形？\n\nA\n\nひし形\n\nB\n\n台形\n\nC\n\n平行四辺形（ひし形以外）\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e4-composite-area",
+      "name": "⚔️ 組み合わせた図形の面積",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "2つの長方形を組み合わせた図です。色のついた部分の面積は何cm²？\n3cm\n9cm\n4cm\n3cm\nはじめのヒント：面積の求め方\n\n点線で2つの長方形に分けよう。青は横9cm×たて3cm、オレンジは横3cm×たて4cm。それぞれの面積を求め、最後にたそう。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e4-composite-area",
+      "name": "⚔️ 組み合わせた図形の面積",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2つの長方形を組み合わせた図です。色のついた部分の面積は何cm²？\n3cm\n9cm\n4cm\n3cm\nはじめのヒント：面積の求め方\n\n点線で2つの長方形に分けよう。青は横9cm×たて3cm、オレンジは横3cm×たて4cm。それぞれの面積を求め、最後にたそう。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e4-line-relations",
+      "name": "⚔️ 平行と垂直を見分けよう",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "赤と青の2本の直線の関係は？\nA\n\n平行\n\nB\n\n垂直\n\nC\n\nどちらでもない\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e4-line-relations",
+      "name": "⚔️ 平行と垂直を見分けよう",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "赤と青の2本の直線の関係は？\nA\n\n平行\n\nB\n\n垂直\n\nC\n\nどちらでもない\n\n答えのボタンを押してね",
+      "outside": []
+    },
+    {
+      "id": "e4-areaRectangle",
+      "name": "⚔️ 正方形・長方形の面積",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の長方形の面積は何cm²？\n1ます＝1cm²\n横 8cm\nたて\n3cm\nはじめのヒント：面積の求め方\n\n面積は、図形の中に1cm²の正方形が何こ入るかという広さ。横に8こ、たてに3列なら、8×3で求められるよ。辺をたすのではなく、かけ算しよう。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e4-areaRectangle",
+      "name": "⚔️ 正方形・長方形の面積",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の長方形の面積は何cm²？\n1ます＝1cm²\n横 8cm\nたて\n3cm\nはじめのヒント：面積の求め方\n\n面積は、図形の中に1cm²の正方形が何こ入るかという広さ。横に8こ、たてに3列なら、8×3で求められるよ。辺をたすのではなく、かけ算しよう。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e4-lineData",
+      "name": "⚔️ 気温の変化",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "気温が朝6℃から昼31℃へ上がりました。何℃上がった？\n時間\t気温\n朝\t6℃\n昼\t31℃\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e4-lineData",
+      "name": "⚔️ 気温の変化",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "気温が朝6℃から昼31℃へ上がりました。何℃上がった？\n時間\t気温\n朝\t6℃\n昼\t31℃\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e4-two-way-table",
+      "name": "⚔️ 2つの決まりで本を調べよう",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "物語で、本だなに分けられた本は何さつ？\n\n📚 図書室の本調べ（単位：さつ）\n\nしゅるい\tかし出し中\t本だな\t合計\n絵本\t6\t4\t10\n物語\t2\t8\t10\n合計\t8\t12\t20\n\n本は、しゅるいと今ある場所で分けています。\n行のしゅるいと、列の場所を合わせて読もう。",
+      "outside": []
+    },
+    {
+      "id": "e4-two-way-table",
+      "name": "⚔️ 2つの決まりで本を調べよう",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "物語で、本だなに分けられた本は何さつ？\n\n📚 図書室の本調べ（単位：さつ）\n\nしゅるい\tかし出し中\t本だな\t合計\n絵本\t6\t4\t10\n物語\t2\t8\t10\n合計\t8\t12\t20\n\n本は、しゅるいと今ある場所で分けています。\n行のしゅるいと、列の場所を合わせて読もう。",
+      "outside": []
+    },
+    {
+      "id": "e4-graph_line_read",
+      "name": "⚔️ 折れ線グラフを調べよう",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "15時の水そうの水の量は何L？\n\n🐠 水そうの水を調べよう\n\nL\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n22\n24\n9時\n11時\n13時\n15時\n\nたての1目もりは2L。時刻の上にある点から、左の目もりへたどろう。 答えの単位：L",
+      "outside": []
+    },
+    {
+      "id": "e4-graph_line_read",
+      "name": "⚔️ 折れ線グラフを調べよう",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "15時の水そうの水の量は何L？\n\n🐠 水そうの水を調べよう\n\nL\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n22\n24\n9時\n11時\n13時\n15時\n\nたての1目もりは2L。時刻の上にある点から、左の目もりへたどろう。 答えの単位：L",
+      "outside": []
+    },
+    {
+      "id": "e4-graph_line_change",
+      "name": "⚔️ 折れ線グラフの変化を読もう",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "9時と15時の気温の差は何℃？\n\n🌤 お天気調査隊\n\n℃\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n22\n24\n9時\n11時\n13時\n15時\n\nたての1目もりは2℃。2つの時刻の値を読み、大きい方から小さい方をひこう。 答えの単位：℃",
+      "outside": []
+    },
+    {
+      "id": "e4-graph_line_change",
+      "name": "⚔️ 折れ線グラフの変化を読もう",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "9時と15時の気温の差は何℃？\n\n🌤 お天気調査隊\n\n℃\n0\n2\n4\n6\n8\n10\n12\n14\n16\n18\n20\n22\n24\n9時\n11時\n13時\n15時\n\nたての1目もりは2℃。2つの時刻の値を読み、大きい方から小さい方をひこう。 答えの単位：℃",
+      "outside": []
+    },
+    {
+      "id": "e4-orderOperations",
+      "name": "⚔️ 計算の順序",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "4＋2×5はいくつ？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e4-orderOperations",
+      "name": "⚔️ 計算の順序",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "4＋2×5はいくつ？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e4-cube_net",
+      "name": "⚔️ 箱を組み立てよう・展開図",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "箱を組み立てると、面3と向かい合う面はどれ？\n\n展開図の面を押して選び、「こたえの決定」を押そう。数字入力でも答えられるよ。\n\n5\n2\n1\n3\n6\n4\n箱の組み立て方のヒント",
+      "outside": []
+    },
+    {
+      "id": "e4-cube_net",
+      "name": "⚔️ 箱を組み立てよう・展開図",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "箱を組み立てると、面3と向かい合う面はどれ？\n\n展開図の面を押して選び、「こたえの決定」を押そう。数字入力でも答えられるよ。\n\n5\n2\n1\n3\n6\n4\n箱の組み立て方のヒント",
+      "outside": []
+    },
+    {
+      "id": "e4-curriculum-boss",
+      "name": "👑 4年生の冒険まとめ",
+      "world": 4,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "9＋6×3はいくつ？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e4-curriculum-boss",
+      "name": "👑 4年生の冒険まとめ",
+      "world": 4,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "9＋6×3はいくつ？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    }
+  ]
+}

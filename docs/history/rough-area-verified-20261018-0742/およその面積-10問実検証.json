@@ -1,0 +1,58 @@
+{
+  "verifiedAt": "2026-10-17T22:40:50.429Z",
+  "stageId": "e6-circleArea",
+  "report": [
+    {
+      "question": 1,
+      "answer": 50.24,
+      "mode": "circle"
+    },
+    {
+      "question": 2,
+      "answer": 78.5,
+      "mode": "circle"
+    },
+    {
+      "question": 3,
+      "answer": 379.94,
+      "mode": "circle"
+    },
+    {
+      "question": 4,
+      "answer": 153.86,
+      "mode": "circle"
+    },
+    {
+      "question": 5,
+      "answer": 200.96,
+      "mode": "circle"
+    },
+    {
+      "question": 6,
+      "answer": 113.04,
+      "mode": "circle"
+    },
+    {
+      "question": 7,
+      "answer": 314,
+      "mode": "circle"
+    },
+    {
+      "question": 8,
+      "answer": 12.56,
+      "mode": "circle"
+    },
+    {
+      "question": 9,
+      "answer": 12,
+      "mode": "grid-estimate"
+    },
+    {
+      "question": 10,
+      "answer": 36,
+      "mode": "enclosing-rectangle"
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

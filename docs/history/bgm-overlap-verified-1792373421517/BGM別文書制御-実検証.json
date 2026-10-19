@@ -1,0 +1,28 @@
+{
+  "verifiedAt": "2026-10-19T01:29:08.615Z",
+  "otherOwner": {
+    "first": {
+      "playing": false,
+      "pending": false,
+      "paused": true,
+      "volume": 0.35,
+      "fading": false
+    },
+    "second": {
+      "playing": true,
+      "pending": false,
+      "paused": false,
+      "volume": 0.35,
+      "fading": false
+    }
+  },
+  "silenced": {
+    "playing": false,
+    "pending": false,
+    "paused": true,
+    "volume": 0.35,
+    "fading": false
+  },
+  "errors": [],
+  "scope": "同一オリジンの別Windowで実AudioとBroadcastChannelを使用。既に開かれている旧版タブは対象外。"
+}

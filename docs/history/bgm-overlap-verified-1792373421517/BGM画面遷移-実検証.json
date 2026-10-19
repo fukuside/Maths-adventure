@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-10-19T01:28:23.409Z",
+  "start": {
+    "playing": true,
+    "pending": false,
+    "paused": false,
+    "volume": 0.35,
+    "fading": false
+  },
+  "course": {
+    "playing": true,
+    "pending": false,
+    "paused": false,
+    "volume": 0.35,
+    "fading": false
+  },
+  "fading": {
+    "playing": true,
+    "pending": false,
+    "paused": false,
+    "volume": 0.23884583334028722,
+    "fading": true
+  },
+  "game": {
+    "playing": false,
+    "pending": false,
+    "paused": true,
+    "volume": 0.35,
+    "fading": false
+  },
+  "chest": {
+    "music": {
+      "playing": false,
+      "pending": false,
+      "paused": true,
+      "volume": 0.35,
+      "fading": false
+    },
+    "effectNotes": 7
+  },
+  "errors": [],
+  "scope": "実メディア再生状態、フェード、問題10問、宝箱の発音処理を確認。スピーカーで音を聴いた結果ではない。"
+}

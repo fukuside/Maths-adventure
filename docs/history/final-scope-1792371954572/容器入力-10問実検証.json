@@ -1,0 +1,59 @@
+{
+  "verifiedAt": "2026-10-18T02:55:05.734Z",
+  "stageId": "e2-measure_capacity_ml",
+  "report": [
+    {
+      "question": 1,
+      "answer": 750,
+      "mode": "choice"
+    },
+    {
+      "question": 2,
+      "answer": 850,
+      "mode": "choice"
+    },
+    {
+      "question": 3,
+      "answer": 400,
+      "mode": "choice"
+    },
+    {
+      "question": 4,
+      "answer": 250,
+      "mode": "numeric"
+    },
+    {
+      "question": 5,
+      "answer": 1000,
+      "mode": "numeric"
+    },
+    {
+      "question": 6,
+      "answer": 50,
+      "mode": "numeric"
+    },
+    {
+      "question": 7,
+      "answer": 600,
+      "mode": "numeric"
+    },
+    {
+      "question": 8,
+      "answer": 100,
+      "mode": "numeric"
+    },
+    {
+      "question": 9,
+      "answer": 200,
+      "mode": "numeric"
+    },
+    {
+      "question": 10,
+      "answer": 150,
+      "mode": "numeric"
+    }
+  ],
+  "errors": [],
+  "wrongRecoveryChecked": true,
+  "cleared": true
+}

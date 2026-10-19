@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-17",
+  "stage": "e6-fractionDivide",
+  "operands": [
+    [
+      3,
+      4
+    ],
+    [
+      4,
+      6
+    ]
+  ],
+  "inputCount": 2,
+  "incompleteSubmitNoLifeLoss": true,
+  "advancedToQuestion2": true,
+  "errors": [],
+  "steps": [
+    {
+      "active": {
+        "top": 273.0625,
+        "bottom": 324.0625
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": null,
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    }
+  ]
+}

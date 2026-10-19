@@ -10,8 +10,8 @@ export default {
   stats: { hp: 219, atk: 101 },
   description: "掛け算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/033-star-wolf/n.png",
-    SR: "/pictures/monsters/033-star-wolf/sr.png",
-    UR: "/pictures/monsters/033-star-wolf/ur.png"
+    N: "/pictures/monsters/033-star-wolf/n.webp",
+    SR: "/pictures/monsters/033-star-wolf/sr.webp",
+    UR: "/pictures/monsters/033-star-wolf/ur.webp"
   }
 };

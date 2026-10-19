@@ -1,0 +1,115 @@
+{
+  "verifiedAt": "2026-10-18T18:02:27.677Z",
+  "scope": "隔離ブラウザーの実問題枠へ生成器の描画を表示。回答・採点・クリアの検証ではない。",
+  "report": [
+    {
+      "width": 1024,
+      "mode": "faces",
+      "cube": false,
+      "overflow": false,
+      "edges": 12,
+      "corners": 0,
+      "faces": 6
+    },
+    {
+      "width": 1024,
+      "mode": "faces",
+      "cube": true,
+      "overflow": false,
+      "edges": 12,
+      "corners": 0,
+      "faces": 6
+    },
+    {
+      "width": 1024,
+      "mode": "corners",
+      "cube": false,
+      "overflow": false,
+      "edges": 12,
+      "corners": 8,
+      "faces": 0
+    },
+    {
+      "width": 1024,
+      "mode": "corners",
+      "cube": true,
+      "overflow": false,
+      "edges": 12,
+      "corners": 8,
+      "faces": 0
+    },
+    {
+      "width": 1024,
+      "mode": "edges",
+      "cube": false,
+      "overflow": false,
+      "edges": 12,
+      "corners": 0,
+      "faces": 0
+    },
+    {
+      "width": 1024,
+      "mode": "edges",
+      "cube": true,
+      "overflow": false,
+      "edges": 12,
+      "corners": 0,
+      "faces": 0
+    },
+    {
+      "width": 390,
+      "mode": "faces",
+      "cube": false,
+      "overflow": false,
+      "edges": 12,
+      "corners": 0,
+      "faces": 6
+    },
+    {
+      "width": 390,
+      "mode": "faces",
+      "cube": true,
+      "overflow": false,
+      "edges": 12,
+      "corners": 0,
+      "faces": 6
+    },
+    {
+      "width": 390,
+      "mode": "corners",
+      "cube": false,
+      "overflow": false,
+      "edges": 12,
+      "corners": 8,
+      "faces": 0
+    },
+    {
+      "width": 390,
+      "mode": "corners",
+      "cube": true,
+      "overflow": false,
+      "edges": 12,
+      "corners": 8,
+      "faces": 0
+    },
+    {
+      "width": 390,
+      "mode": "edges",
+      "cube": false,
+      "overflow": false,
+      "edges": 12,
+      "corners": 0,
+      "faces": 0
+    },
+    {
+      "width": 390,
+      "mode": "edges",
+      "cube": true,
+      "overflow": false,
+      "edges": 12,
+      "corners": 0,
+      "faces": 0
+    }
+  ],
+  "errors": []
+}

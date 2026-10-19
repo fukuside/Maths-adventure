@@ -1,0 +1,39 @@
+{
+  "verifiedAt": "2026-10-18T09:58:45.377Z",
+  "source": "src/core/app.js reset/attempt/correct/save functions",
+  "tenAttemptedSevenFirstCorrect": true,
+  "retriesNotDoubleCounted": true,
+  "emptySessionNotSaved": true,
+  "saveOnce": true,
+  "writeFailureCanRetry": true,
+  "records": [
+    {
+      "playerId": "isolated-test",
+      "studySeconds": 1,
+      "totalQuestions": 10,
+      "firstAttemptCorrectAnswers": 7,
+      "unitName": "算数：確認",
+      "stageId": "qa-stage",
+      "stageLabel": "算数：確認"
+    },
+    {
+      "playerId": "isolated-test",
+      "studySeconds": 1,
+      "totalQuestions": 1,
+      "firstAttemptCorrectAnswers": 0,
+      "unitName": "算数：確認",
+      "stageId": "qa-stage",
+      "stageLabel": "算数：確認"
+    },
+    {
+      "playerId": "isolated-test",
+      "studySeconds": 1,
+      "totalQuestions": 1,
+      "firstAttemptCorrectAnswers": 1,
+      "unitName": "算数：確認",
+      "stageId": "qa-stage",
+      "stageLabel": "算数：確認"
+    }
+  ],
+  "scope": "本体関数を抽出し保存APIと送信予定更新を模擬。Firebase書込/メール送信/別端末同期は実施しない。途中離脱を新たな保存対象には変更しない。"
+}

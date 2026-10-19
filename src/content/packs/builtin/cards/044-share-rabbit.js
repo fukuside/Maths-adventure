@@ -10,8 +10,8 @@ export default {
   stats: { hp: 252, atk: 123 },
   description: "割り算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/044-share-rabbit/n.png",
-    SR: "/pictures/monsters/044-share-rabbit/sr.png",
-    UR: "/pictures/monsters/044-share-rabbit/ur.png"
+    N: "/pictures/monsters/044-share-rabbit/n.webp",
+    SR: "/pictures/monsters/044-share-rabbit/sr.webp",
+    UR: "/pictures/monsters/044-share-rabbit/ur.webp"
   }
 };

@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-17",
+  "stage": "e4-upper_decimal_sub",
+  "operands": [
+    8203,
+    2541
+  ],
+  "inputCount": 6,
+  "incompleteSubmitNoLifeLoss": true,
+  "advancedToQuestion2": true,
+  "errors": [],
+  "steps": [
+    {
+      "active": {
+        "top": 384.15625,
+        "bottom": 427.953125
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 343.0625,
+        "bottom": 377.0625
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 384.15625,
+        "bottom": 427.953125
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 343.0625,
+        "bottom": 377.0625
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 384.15625,
+        "bottom": 427.953125
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": null,
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "verifiedAt": "2026-10-18T20:02:49.077Z",
+  "stageId": "e4-large4",
+  "report": [
+    {
+      "question": 1,
+      "kind": "text",
+      "answer": 500000006
+    },
+    {
+      "question": 2,
+      "kind": "text",
+      "answer": 12
+    },
+    {
+      "question": 3,
+      "kind": "text",
+      "answer": 880
+    },
+    {
+      "question": 4,
+      "kind": "text",
+      "answer": 6000000004
+    },
+    {
+      "question": 5,
+      "kind": "text",
+      "answer": 14
+    },
+    {
+      "question": 6,
+      "kind": "text",
+      "answer": 940
+    },
+    {
+      "question": 7,
+      "kind": "text",
+      "answer": 700000000003
+    },
+    {
+      "question": 8,
+      "kind": "text",
+      "answer": 10000000000000
+    },
+    {
+      "question": 9,
+      "kind": "abacus-lesson",
+      "mode": "operate",
+      "scale": 100,
+      "unit": "",
+      "answer": 0.69
+    },
+    {
+      "question": 10,
+      "kind": "abacus-lesson",
+      "mode": "operate",
+      "scale": 1,
+      "unit": "兆",
+      "answer": 28
+    }
+  ],
+  "errors": [],
+  "scope": "前半は生成器の正答。そろばんは表示珠から読み/珠ボタンで加減。"
+}

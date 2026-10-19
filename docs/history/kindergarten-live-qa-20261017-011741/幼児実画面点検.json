@@ -1,0 +1,768 @@
+{
+  "date": "2026-10-16",
+  "isolatedProfile": true,
+  "stages": 42,
+  "viewports": [
+    1024,
+    390
+  ],
+  "errors": [],
+  "report": [
+    {
+      "id": "k1-s1",
+      "name": "⚔️ おなじ ものを みつけよう",
+      "world": "101",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k1-s1",
+      "name": "⚔️ おなじ ものを みつけよう",
+      "world": "101",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k1-s2",
+      "name": "⚔️ 1〜3を かぞえよう",
+      "world": "101",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k1-s2",
+      "name": "⚔️ 1〜3を かぞえよう",
+      "world": "101",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k1-s3",
+      "name": "⚔️ 1〜5を かぞえよう",
+      "world": "101",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k1-s3",
+      "name": "⚔️ 1〜5を かぞえよう",
+      "world": "101",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k1-s4",
+      "name": "⚔️ すうじと かずを あわせよう",
+      "world": "101",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k1-s4",
+      "name": "⚔️ すうじと かずを あわせよう",
+      "world": "101",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k1-s5",
+      "name": "⚔️ おおいのは どっち？",
+      "world": "101",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k1-s5",
+      "name": "⚔️ おおいのは どっち？",
+      "world": "101",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k1-s6",
+      "name": "⚔️ すくないのは どっち？",
+      "world": "101",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k1-s6",
+      "name": "⚔️ すくないのは どっち？",
+      "world": "101",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k1-boss",
+      "name": "👑 K1 まとめ",
+      "world": "101",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k1-boss",
+      "name": "👑 K1 まとめ",
+      "world": "101",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k2-s1",
+      "name": "⚔️ 6〜10を かぞえよう",
+      "world": "102",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k2-s1",
+      "name": "⚔️ 6〜10を かぞえよう",
+      "world": "102",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k2-s2",
+      "name": "⚔️ おなじ すうじを みつけよう",
+      "world": "102",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k2-s2",
+      "name": "⚔️ おなじ すうじを みつけよう",
+      "world": "102",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k2-s3",
+      "name": "⚔️ すうじと かずを あわせよう",
+      "world": "102",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k2-s3",
+      "name": "⚔️ すうじと かずを あわせよう",
+      "world": "102",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k2-s4",
+      "name": "⚔️ 1こ ふえたら？",
+      "world": "102",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k2-s4",
+      "name": "⚔️ 1こ ふえたら？",
+      "world": "102",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k2-s5",
+      "name": "⚔️ 1こ へったら？",
+      "world": "102",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k2-s5",
+      "name": "⚔️ 1こ へったら？",
+      "world": "102",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k2-s6",
+      "name": "⚔️ つぎの かずは？",
+      "world": "102",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k2-s6",
+      "name": "⚔️ つぎの かずは？",
+      "world": "102",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k2-boss",
+      "name": "👑 K2 まとめ",
+      "world": "102",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k2-boss",
+      "name": "👑 K2 まとめ",
+      "world": "102",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k3-s1",
+      "name": "⚔️ まるを みつけよう",
+      "world": "103",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k3-s1",
+      "name": "⚔️ まるを みつけよう",
+      "world": "103",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k3-s2",
+      "name": "⚔️ さんかくを みつけよう",
+      "world": "103",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k3-s2",
+      "name": "⚔️ さんかくを みつけよう",
+      "world": "103",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k3-s3",
+      "name": "⚔️ しかくを みつけよう",
+      "world": "103",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k3-s3",
+      "name": "⚔️ しかくを みつけよう",
+      "world": "103",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k3-s4",
+      "name": "⚔️ おなじ かたちは どれ？",
+      "world": "103",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k3-s4",
+      "name": "⚔️ おなじ かたちは どれ？",
+      "world": "103",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k3-s5",
+      "name": "⚔️ かたちを くみあわせよう",
+      "world": "103",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k3-s5",
+      "name": "⚔️ かたちを くみあわせよう",
+      "world": "103",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k3-s6",
+      "name": "⚔️ かたちの なかまを みつけよう",
+      "world": "103",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k3-s6",
+      "name": "⚔️ かたちの なかまを みつけよう",
+      "world": "103",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k3-boss",
+      "name": "👑 K3 まとめ",
+      "world": "103",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k3-boss",
+      "name": "👑 K3 まとめ",
+      "world": "103",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k4-s1",
+      "name": "⚔️ おおきい おさらは？",
+      "world": "104",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k4-s1",
+      "name": "⚔️ おおきい おさらは？",
+      "world": "104",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k4-s2",
+      "name": "⚔️ ながい えんぴつは？",
+      "world": "104",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k4-s2",
+      "name": "⚔️ ながい えんぴつは？",
+      "world": "104",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k4-s3",
+      "name": "⚔️ たかい つみきは？",
+      "world": "104",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k4-s3",
+      "name": "⚔️ たかい つみきは？",
+      "world": "104",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k4-s4",
+      "name": "⚔️ おもいのは どっち？",
+      "world": "104",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k4-s4",
+      "name": "⚔️ おもいのは どっち？",
+      "world": "104",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k4-s5",
+      "name": "⚔️ おおい・すくない",
+      "world": "104",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k4-s5",
+      "name": "⚔️ おおい・すくない",
+      "world": "104",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k4-s6",
+      "name": "⚔️ おなじ ながさは？",
+      "world": "104",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k4-s6",
+      "name": "⚔️ おなじ ながさは？",
+      "world": "104",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k4-boss",
+      "name": "👑 K4 まとめ",
+      "world": "104",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k4-boss",
+      "name": "👑 K4 まとめ",
+      "world": "104",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k5-s1",
+      "name": "⚔️ こうごに ならべよう",
+      "world": "105",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k5-s1",
+      "name": "⚔️ こうごに ならべよう",
+      "world": "105",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k5-s2",
+      "name": "⚔️ かたちの きまり",
+      "world": "105",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k5-s2",
+      "name": "⚔️ かたちの きまり",
+      "world": "105",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k5-s3",
+      "name": "⚔️ おおきさの じゅんばん",
+      "world": "105",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k5-s3",
+      "name": "⚔️ おおきさの じゅんばん",
+      "world": "105",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k5-s4",
+      "name": "⚔️ なかまを みつけよう",
+      "world": "105",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k5-s4",
+      "name": "⚔️ なかまを みつけよう",
+      "world": "105",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k5-s5",
+      "name": "⚔️ ちがう ものは？",
+      "world": "105",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k5-s5",
+      "name": "⚔️ ちがう ものは？",
+      "world": "105",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k5-s6",
+      "name": "⚔️ おうちへの みち",
+      "world": "105",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k5-s6",
+      "name": "⚔️ おうちへの みち",
+      "world": "105",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k5-boss",
+      "name": "👑 K5 まとめ",
+      "world": "105",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k5-boss",
+      "name": "👑 K5 まとめ",
+      "world": "105",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k6-s1",
+      "name": "⚔️ 1〜10を かぞえよう",
+      "world": "106",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k6-s1",
+      "name": "⚔️ 1〜10を かぞえよう",
+      "world": "106",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k6-s2",
+      "name": "⚔️ からっぽは 0",
+      "world": "106",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k6-s2",
+      "name": "⚔️ からっぽは 0",
+      "world": "106",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k6-s3",
+      "name": "⚔️ 5こに するには？",
+      "world": "106",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k6-s3",
+      "name": "⚔️ 5こに するには？",
+      "world": "106",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k6-s4",
+      "name": "⚔️ 10こに するには？",
+      "world": "106",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k6-s4",
+      "name": "⚔️ 10こに するには？",
+      "world": "106",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k6-s5",
+      "name": "⚔️ 1こ ふえる・へる",
+      "world": "106",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k6-s5",
+      "name": "⚔️ 1こ ふえる・へる",
+      "world": "106",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k6-s6",
+      "name": "⚔️ おなじ ばしょは？",
+      "world": "106",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k6-s6",
+      "name": "⚔️ おなじ ばしょは？",
+      "world": "106",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    },
+    {
+      "id": "k6-boss",
+      "name": "👑 K6 まとめ",
+      "world": "106",
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "outside": []
+    },
+    {
+      "id": "k6-boss",
+      "name": "👑 K6 まとめ",
+      "world": "106",
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "outside": []
+    }
+  ]
+}

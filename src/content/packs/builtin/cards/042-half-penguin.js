@@ -10,8 +10,8 @@ export default {
   stats: { hp: 246, atk: 119 },
   description: "割り算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/042-half-penguin/n.png",
-    SR: "/pictures/monsters/042-half-penguin/sr.png",
-    UR: "/pictures/monsters/042-half-penguin/ur.png"
+    N: "/pictures/monsters/042-half-penguin/n.webp",
+    SR: "/pictures/monsters/042-half-penguin/sr.webp",
+    UR: "/pictures/monsters/042-half-penguin/ur.webp"
   }
 };

@@ -308,6 +308,8 @@ export async function saveCloudSave(
         null,
 
 
+      challengeTrails: state?.challengeTrails ?? {},
+
       partnerStudy:
         state?.partnerStudy &&
         typeof state.partnerStudy ===
@@ -908,6 +910,8 @@ export async function loadLegacyCloudSave(
       null,
 
 
+    challengeTrails: data?.challengeTrails ?? {},
+
     partnerStudy:
       data.partnerStudy &&
       typeof data.partnerStudy ===
@@ -1144,6 +1148,8 @@ export async function createTransferCode(
         null,
 
 
+      challengeTrails: transferData?.challengeTrails ?? {},
+
       partnerStudy:
         transferData
           ?.partnerStudy &&
@@ -1375,6 +1381,8 @@ export async function consumeTransferCode(
       data.partnerKey ??
       null,
 
+
+    challengeTrails: data?.challengeTrails ?? {},
 
     partnerStudy:
       data.partnerStudy &&
@@ -1969,131 +1977,6 @@ export async function requestParentEmailVerification({
 
   console.log(
     "保護者メール確認メール送信結果",
-    result
-  );
-
-
-  return result;
-}
-
-/* =========================================================
-   週次学習レポート
-   テスト送信用
-========================================================= */
-
-export async function testWeeklyLearningReport(
-  playerId
-) {
-
-  if (
-    !configured
-  ) {
-
-    throw new Error(
-      "Firebase設定が完了していません。"
-    );
-  }
-
-
-  const safePlayerId =
-    String(
-      playerId ?? ""
-    )
-      .trim();
-
-
-  if (
-    !safePlayerId
-  ) {
-
-    throw new Error(
-      "プレイヤーが選択されていません。"
-    );
-  }
-
-
-  const user =
-    await ensureAnonymousUser();
-
-
-  if (
-    !user
-  ) {
-
-    throw new Error(
-      "Firebaseユーザーを取得できませんでした。"
-    );
-  }
-
-
-  const idToken =
-    await user.getIdToken();
-
-
-  const functionUrl =
-    "https://asia-northeast1-maths-adventure-f4d17.cloudfunctions.net/testWeeklyLearningReports";
-
-
-  const response =
-    await fetch(
-      functionUrl,
-      {
-        method:
-          "POST",
-
-        headers:
-          {
-            "Content-Type":
-              "application/json",
-
-            "Authorization":
-              `Bearer ${idToken}`
-          },
-
-        body:
-          JSON.stringify(
-            {
-              playerId:
-                safePlayerId
-            }
-          )
-      }
-    );
-
-
-  let result =
-    null;
-
-
-  try {
-
-    result =
-      await response.json();
-
-  } catch (
-    error
-  ) {
-
-    console.error(
-      "週次レポートAPIの応答を読み取れませんでした。",
-      error
-    );
-  }
-
-
-  if (
-    !response.ok
-  ) {
-
-    throw new Error(
-      result?.message ||
-      "週次レポートをテスト送信できませんでした。"
-    );
-  }
-
-
-  console.log(
-    "週次レポート テスト送信結果",
     result
   );
 

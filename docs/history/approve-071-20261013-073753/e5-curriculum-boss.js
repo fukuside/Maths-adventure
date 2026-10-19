@@ -1,0 +1,43 @@
+export default {
+  "id": "e5-curriculum-boss",
+  "sort": 999,
+  "world": 5,
+  "unit": "curriculum-summary",
+  "unitLabel": "学年まとめ",
+  "name": "5年生の冒険まとめ",
+  "type": "curriculum_decimalMultiply5",
+  "questionTypes": [
+    "curriculum_decimalMultiply5",
+    "curriculum_decimalDivide5",
+    "curriculum_multiple",
+    "curriculum_divisor",
+    "curriculum_reduce",
+    "curriculum_fractionAdd5",
+    "curriculum_fractionSub5",
+    "curriculum_ratio5",
+    "curriculum_percent",
+    "curriculum_unitAmount",
+    "curriculum_speed",
+    "curriculum_average",
+    "curriculum_triangleArea",
+    "curriculum_parallelogramArea",
+    "curriculum_trapezoidArea",
+    "curriculum_rhombusArea",
+    "curriculum_volume5",
+    "curriculum_circumference",
+    "curriculum_congruent",
+    "curriculum_percentData"
+  ],
+  "questionCount": 10,
+  "isBoss": true,
+  "presentation": "persistent",
+  "rewardGems": 10,
+  "rewardCardIds": [
+    "066-percent-devil",
+    "067-ratio-seraphim",
+    "068-average-goddess",
+    "069-balance-cerberus",
+    "070-speed-valkyrie",
+    "072-time-chrono-demon"
+  ]
+};

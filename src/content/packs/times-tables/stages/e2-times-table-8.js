@@ -1,0 +1,1 @@
+export default {"id":"e2-times-table-8","world":2,"type":"times_table_8","name":"8の段であそぼう","unit":"curriculum-九九の段別練習","unitLabel":"九九の段別練習","sort":228,"questionCount":10,"presentation":"persistent","isBoss":false,"rewardGems":5};

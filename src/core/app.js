@@ -1,4 +1,16 @@
+import {bgmTracks} from './bgm-tracks.js';
+import {isSoundEnabled,setSoundEnabled,watchSound,connectSoundOutput} from './sound-preferences.js';
+import {createBgmController} from './bgm-controller.js';
+import {moveAbacus} from './abacus-lesson.js';
+import {isCompleteExpressionInput} from './expression-completeness.js';
+import {getRewardAudioContext,addChestLatch} from './reward-audio.js';
+import {writtenRetry} from './written-question.js';
+import {recordTrail,renderTrail} from './challenge-trails.js';
+import {isInlineChoice} from './inline-choices.js';
+import { renderPlayerPortrait } from "./player-portrait.js";
+import { getStageRewardCards } from "./stage-rewards.js";
 import { worlds, stages, cards, getCard, getStage } from "./registry.js";
+import "../content/packs/kindergarten/kindergarten.css";
 import { generateQuestions } from "./questions.js";
 import { renderQuestionByKind } from "../renderers/registry.js";
 import { renderKeypadForStage } from "../keypads/registry.js";
@@ -28,17 +40,23 @@ import {
   requestParentEmailVerification,
 } from "./firebase.js";
 
-const rarityRows = [["UR", 0.08, 1.7], ["SR", 0.32, 1.3], ["N", 0.60, 1]];
+const rarityRows = [["UR", 0.10, 1.7], ["SR", 0.35, 1.3], ["N", 0.55, 1]];
 
 export function createApp(root) {
 
   let state = loadLocalState();
 
   let screen = "landing";
+  // コースは画面の選択状態だけに保持し、既存セーブを変更しない。
+  let selectedCourse = "elementary";
+  function isKindergartenStage(stage = currentStage) {
+    return stage?.packId === "kindergarten" || stage?.course === "kindergarten";
+  }
   let worldId = null;
   let currentStage = null;
   let questions = [];
   let qi = 0;
+  let challengeRunId = null;
   let input = "";
 
   let earned = null;
@@ -66,6 +84,8 @@ export function createApp(root) {
   let partnerMood = "idle";
 
   let titleBgmPlaying = false;
+  let stageBgmFading = false;
+  let bgmScreen = null;
 
     let playerMessage = "";
   let playerError = "";
@@ -230,7 +250,7 @@ export function createApp(root) {
 
     if (stage.isBoss) {
 
-      return `WORLD${stage.world}：ボス戦`;
+      return isKindergartenStage(stage) ? `${stage.unitLabel}：まとめ` : `WORLD${stage.world}：ボス戦`;
     }
 
 
@@ -498,13 +518,11 @@ export function createApp(root) {
      タイトルBGM
   ========================================================= */
 
-  const titleBgm =
-    new Audio(
-      "/audio/title-bgm.mp3"
-    );
-
-  titleBgm.loop = true;
-  titleBgm.volume = 0.35;
+  const titleMusic=createBgmController({
+    canPlay:()=>isSoundEnabled()&&!stageBgmFading&&['landing','title','player-select','player-create','legacy-migrate','world'].includes(screen),
+    onChange:playing=>{titleBgmPlaying=playing;render();}
+  });
+  watchSound(value=>{if(!value)stopTitleBgm();render();});
 
 
   /* =========================================================
@@ -643,13 +661,27 @@ root.addEventListener(
     ボタン操作として誤認しにくくする
   */
 
-  const a =
+  let a =
     t.dataset.action;
 
   if (!a) {
     return;
   }
-    if (a === "landing-start") {
+    if (a === "change-course") {
+      const course = t.dataset.course;
+      if (!["kindergarten", "elementary"].includes(course)) return;
+      clearQuestionTimers();
+      selectedCourse = course;
+      screen = "title";
+      render();
+      return;
+    }
+    if (a === "landing-start" || a === "select-course") {
+      if (a === "select-course") {
+        const course = t.dataset.course;
+        if (!["kindergarten", "elementary"].includes(course)) return;
+        selectedCourse = course;
+      }
 
   const players = getPlayers();
 
@@ -909,6 +941,7 @@ if (a === "player-rename-submit") {
 }
     if (a === "world") { worldId = Number(t.dataset.world); screen = "world"; render(); return; }
     if (a === "stage") {
+  if(stageBgmFading)return;
 
   /*
    * ステージ決定
@@ -930,7 +963,7 @@ if (a === "player-rename-submit") {
   questions =
     generateQuestions(
       currentStage,
-      10
+      isKindergartenStage() ? 5 : 10
     );
 
     /*
@@ -949,6 +982,7 @@ questions.forEach(
 );
 
   qi = 0;
+  challengeRunId = crypto.randomUUID();
   input = "";
   earned = null;
 
@@ -993,19 +1027,11 @@ questions.forEach(
    * ゆっくりフェードアウト
    */
 
-  await fadeOutTitleBgm(
-    1200
-  );
-
-
-  /*
-   * フェードアウト後に
-   * ステージ開始
-   */
-
+  stageBgmFading=true;
   screen = "game";
-
   startQuestion();
+  await fadeOutTitleBgm(1200);
+  stageBgmFading=false;
 
   return;
 }
@@ -1443,7 +1469,7 @@ if (
   ===================================================== */
 
   if (
-    input.length < 20
+    input.length < (questions[qi]?.kind === 'written-calculation' ? questions[qi].answer.length : 20)
   ) {
 
     input += value;
@@ -1451,11 +1477,56 @@ if (
 
 
   render();
+  requestAnimationFrame(() => {
+    const area=document.querySelector('.input-dock-game');
+    const slot=area?.querySelector('[aria-current="step"]');
+    const keys=area?.querySelector('.keypad');
+    if(slot && keys){
+      const r=slot.getBoundingClientRect(),limit=innerWidth<760?keys.getBoundingClientRect().top-76:innerHeight-20;
+      if(r.bottom>limit || r.top<90)window.scrollBy({top:r.top-Math.max(96,(limit-90)/2),behavior:'instant'});
+    }
+  });
   return;
 }
+    if(a === 'ruler-align'){
+      const q=questions[qi];if(screen!=='game'||!inputEnabled||feedbackPlaying||!q?.requiresRulerAlignment)return;
+      q.rulerAligned=true;wrongMessage='';render();return;
+    }
+    if(a === 'shape-turn'){
+      const q=questions[qi];if(screen!=='game'||!inputEnabled||feedbackPlaying||q?.kind!=='shape-build'||q.counting)return;
+      input=String(((input===''?q.initial:Number(input))+1)%4);render();return;
+    }
+    if(a === 'abacus-bead'){
+      const q=questions[qi];if(screen!=='game'||!inputEnabled||feedbackPlaying||q?.kind!=='abacus-lesson'||q.mode!=='operate')return;
+      const value=moveAbacus(q,input,Number(t.dataset.rod),Number(t.dataset.bead));if(value===null)return;
+      input=value;wrongMessage='';render();return;
+    }
+    if(a === 'mirror-point'){
+      const q=questions[qi],value=Number(t.dataset.value);
+      if(screen!=='game'||!inputEnabled||feedbackPlaying||q?.kind!=='mirror-grid'||!Number.isInteger(value)||value<0||value>80)return;
+      input=String(value);render();return;
+    }
+    if(a === 'net-face'){
+      const q=questions[qi];if(screen!=='game'||!inputEnabled||feedbackPlaying||q?.kind!=='cube-net'||!q.cells.some(c=>String(c.label)===t.dataset.value))return;
+      input=t.dataset.value;render();return;
+    }
+    if(a === 'inline-choice-answer'){
+      const q=questions[qi];if(screen!=='game'||!inputEnabled||feedbackPlaying||!isInlineChoice(q)||!q.choices.some(c=>c.id===t.dataset.value))return;
+      input=t.dataset.value;a='answer';
+    }
+    if (a === "k-answer") {
+      const question = questions[qi];
+      if (screen !== "game" || !isKindergartenStage() || !inputEnabled || feedbackPlaying
+        || !question?.choices?.some(choice => choice.id === t.dataset.value)) return;
+      input = t.dataset.value;
+      a = "answer";
+    }
     if (a === "answer") {
       if (!inputEnabled || input === "") return;
       const question = questions[qi];
+      if(['fraction-add-same-denominator','fraction-subtract-same-denominator'].includes(question?.kind)&&!/^\d+\/\d+$/.test(input)){wrongMessage='分母、ぶんの、分子の順に、最後まで 入れてね。';render();return;}
+      if(question?.keypad==='expression'&&question.expression&&!isCompleteExpressionInput(input)){wrongMessage='しきと、＝のあとの答えまで 入れてね。';render();return;}
+      if(question?.kind === 'written-calculation' && input.length !== question.answer.length) return;
 
             /*
        * この問題への
@@ -1568,8 +1639,7 @@ function buildLearningUnitName(
 ========================================================= */
 
 const isCorrect =
-
-  isExpressionAnswer
+  question?.kind === 'written-calculation' ? input === question.answer : isExpressionAnswer
 
     ? isCorrectExpressionInput(
         input,
@@ -1598,6 +1668,7 @@ const isCorrect =
             )
           ) < 1e-9;
 
+if(question?.requiresRulerAlignment&&!question.rulerAligned){wrongMessage='まず、ものさしの0を 左のはしに あわせよう。';render();return;}
 if (isCorrect) {
 
         /*
@@ -1631,10 +1702,19 @@ if (isCorrect) {
         }, 1050);
       }
       else {
-        input = "";
+        const writtenHelp=question?.kind==='written-calculation'?writtenRetry(question,input):null;
+        input = writtenHelp?.prefix ?? "";
+        if (isKindergartenStage()) {
+          wrongMessage = "もういちど みてみよう。";
+          partnerMood = "encourage";
+          startQuestion();
+          return;
+        }
         lives -= 1;
         if (lives > 0) {
-          wrongMessage = "バリアが ひとつ こわれた！ もういちど やってみよう。";
+          wrongMessage = writtenHelp ? writtenHelp.hint : question?.keypad === 'keyboard'
+            ? 'いっしょに位を見てみよう。 '+question.guide
+            : "バリアが ひとつ こわれた！ もういちど やってみよう。";
           partnerMood = "encourage";
           startQuestion();
                 } else {
@@ -1663,6 +1743,7 @@ if (isCorrect) {
   chestOpening = true;
   cardRevealed = false;
 
+  stopTitleBgm();
   playChestOpenSound();
 
   render();
@@ -1697,10 +1778,11 @@ if (isCorrect) {
       questions =
         generateQuestions(
           currentStage,
-          10
+          isKindergartenStage() ? 5 : 10
         );
 
       qi = 0;
+  challengeRunId = crypto.randomUUID();
       input = "";
       lives = 3;
       gameOver = false;
@@ -1714,7 +1796,7 @@ if (isCorrect) {
 
       resetLearningSession();
 
-
+      if (isKindergartenStage()) screen = "game";
       startQuestion();
 
       return;
@@ -2449,6 +2531,16 @@ function preloadNearbyQuestions() {
       true;
 
     render();
+    requestAnimationFrame(() => {
+      const area=document.querySelector('.input-dock-game');
+      if(!area)return;
+      window.scrollTo({top:0,behavior:'instant'});
+      const slot=area.querySelector('[aria-current="step"]'),keys=area.querySelector('.keypad');
+      if(slot && keys){
+        const r=slot.getBoundingClientRect(),limit=innerWidth<760?keys.getBoundingClientRect().top-76:innerHeight-20;
+        if(r.bottom>limit || r.top<90)window.scrollBy({top:r.top-Math.max(96,(limit-90)/2),behavior:'instant'});
+      }
+    });
 
     return;
   }
@@ -2501,12 +2593,13 @@ function preloadNearbyQuestions() {
 }
 
   function playCorrectSound() {
+  if(!isSoundEnabled())return;
     try {
       const AudioContextClass = window.AudioContext || window.webkitAudioContext;
       if (!AudioContextClass) return;
       const context = new AudioContextClass();
       const master = context.createGain();
-      master.connect(context.destination);
+      connectSoundOutput(context,master);
       const now = context.currentTime;
       master.gain.setValueAtTime(0.0001, now);
       master.gain.exponentialRampToValueAtTime(0.16, now + 0.02);
@@ -2529,23 +2622,29 @@ function preloadNearbyQuestions() {
     }
   }
 
-  function playChestOpenSound() {
+  async function playChestOpenSound() {
+  if(!isSoundEnabled())return;
   try {
     const AudioContextClass =
       window.AudioContext || window.webkitAudioContext;
 
     if (!AudioContextClass) return;
 
-    const context = new AudioContextClass();
+    const context = getRewardAudioContext(); if (!context) return;
+    // Resume within the tap, then schedule against the running audio clock.
+    if(context.state!=='running')await context.resume();
+    if(!isSoundEnabled()||context.state!=='running')return;
     const now = context.currentTime;
 
     const master = context.createGain();
-    master.connect(context.destination);
+    connectSoundOutput(context,master);
 
     master.gain.setValueAtTime(0.0001, now);
-    master.gain.exponentialRampToValueAtTime(0.22, now + 0.02);
+    master.gain.exponentialRampToValueAtTime(0.95, now + 0.015);
+    master.gain.setValueAtTime(0.95, now + 0.85);
     master.gain.exponentialRampToValueAtTime(0.0001, now + 1.1);
 
+    addChestLatch(context, master, now);
     // 鍵が外れる感じ
     [180, 240, 330].forEach((frequency, index) => {
       const oscillator = context.createOscillator();
@@ -2597,30 +2696,33 @@ function preloadNearbyQuestions() {
     sparkle.start(now + 0.34);
     sparkle.stop(now + 0.82);
 
-    setTimeout(() => {
-      context.close().catch(() => {});
-    }, 1400);
+    // Keep the unlocked reward context for the delayed reveal sound.
 
   } catch (error) {
     console.warn("宝箱サウンドを再生できませんでした", error);
   }
 }
 
-function playCardRevealSound(rarity = "N") {
+async function playCardRevealSound(rarity = "N") {
+  if(!isSoundEnabled())return;
   try {
     const AudioContextClass =
       window.AudioContext || window.webkitAudioContext;
 
     if (!AudioContextClass) return;
 
-    const context = new AudioContextClass();
+    const context = getRewardAudioContext(); if (!context) return;
+    // Resume within the tap, then schedule against the running audio clock.
+    if(context.state!=='running')await context.resume();
+    if(!isSoundEnabled()||context.state!=='running')return;
     const now = context.currentTime;
 
     const master = context.createGain();
-    master.connect(context.destination);
+    connectSoundOutput(context,master);
 
     master.gain.setValueAtTime(0.0001, now);
-    master.gain.exponentialRampToValueAtTime(0.18, now + 0.02);
+    master.gain.exponentialRampToValueAtTime(0.65, now + 0.02);
+    master.gain.setValueAtTime(0.65, now + 0.95);
     master.gain.exponentialRampToValueAtTime(0.0001, now + 1.3);
 
     let notes;
@@ -2675,9 +2777,7 @@ function playCardRevealSound(rarity = "N") {
       oscillator.stop(now + start + 0.45);
     });
 
-    setTimeout(() => {
-      context.close().catch(() => {});
-    }, 1800);
+    // Keep the unlocked reward context for the delayed reveal sound.
 
   } catch (error) {
     console.warn("カード獲得音を再生できませんでした", error);
@@ -2687,7 +2787,7 @@ function playCardRevealSound(rarity = "N") {
   function getRewardCard(stage) {
 
   const worldCards =
-    cards.filter(c => c.world === stage.world);
+    getStageRewardCards(stage, cards);
 
   const bosses =
     worldCards.filter(c => c.role === "boss");
@@ -2696,7 +2796,7 @@ function playCardRevealSound(rarity = "N") {
     worldCards.filter(c => c.role !== "boss");
 
   if (!stage.isBoss) {
-    return sample(normals);
+    return sample(normals.length ? normals : worldCards);
   }
 
   const r = Math.random();
@@ -2734,180 +2834,21 @@ function sample(arr){
 }
 
   function finish() {
+  recordTrail(state,currentStage,challengeRunId,qi,questions.length);
   clearQuestionTimers();
-
   let card;
   let rarity;
   let factor;
 
-  /*
-    ================================
-    ボス戦
-    ================================
-  */
-  if (currentStage?.isBoss) {
-    const worldCards =
-      cards.filter(
-        c => c.world === currentStage.world
-      );
-
-    const bosses =
-      worldCards.filter(
-        c => c.role === "boss"
-      );
-
-    const normals =
-      worldCards.filter(
-        c => c.role !== "boss"
-      );
-
-    const bossRoll =
-      Math.random();
-
-
-    /*
-      40%
-      ボスカード
-      N / SR / UR
-    */
-    if (bossRoll < 0.40) {
-      card =
-        bosses.length > 0
-          ? bosses[
-              Math.floor(
-                Math.random() *
-                bosses.length
-              )
-            ]
-          : worldCards[
-              Math.floor(
-                Math.random() *
-                worldCards.length
-              )
-            ];
-
-      const rarityRoll =
-        Math.random();
-
-      if (rarityRoll < 0.60) {
-        rarity = "N";
-        factor = 1;
-
-      } else if (
-        rarityRoll < 0.90
-      ) {
-        rarity = "SR";
-        factor = 1.3;
-
-      } else {
-        rarity = "UR";
-        factor = 1.7;
-      }
-    }
-
-
-    /*
-      40%
-      通常カード
-      SR以上
-    */
-    else if (
-      bossRoll < 0.80
-    ) {
-      card =
-        normals.length > 0
-          ? normals[
-              Math.floor(
-                Math.random() *
-                normals.length
-              )
-            ]
-          : worldCards[
-              Math.floor(
-                Math.random() *
-                worldCards.length
-              )
-            ];
-
-      const rarityRoll =
-        Math.random();
-
-      if (rarityRoll < 0.80) {
-        rarity = "SR";
-        factor = 1.3;
-
-      } else {
-        rarity = "UR";
-        factor = 1.7;
-      }
-    }
-
-
-    /*
-      20%
-      ボス・通常すべてから
-      UR確定
-    */
-    else {
-      card =
-        worldCards[
-          Math.floor(
-            Math.random() *
-            worldCards.length
-          )
-        ];
-
-      rarity = "UR";
-      factor = 1.7;
-    }
-  }
-
-
-  /*
-    ================================
-    通常ステージ
-    今まで通り
-    ================================
-  */
-  else {
-    const roll =
-      Math.random();
-
-    let cur = 0;
-
-    let row =
-      rarityRows[2];
-
-    for (
-      const r of rarityRows
-    ) {
-      cur += r[1];
-
-      if (roll <= cur) {
-        row = r;
-        break;
-      }
-    }
-
-    card =
-      getRewardCard(
-        currentStage
-      );
-
-    rarity =
-      row[0];
-
-    factor =
-      row[2];
-  }
-
-
-  /*
-    ================================
-    NEW判定
-    ================================
-  */
-
+  const pool = getStageRewardCards(currentStage, cards);
+  if (!pool.length) throw new Error("カード画像の準備状況を確認してください。");
+  card = sample(pool);
+  let cumulative = 0;
+  const roll = Math.random();
+  const activeRarityRows = currentStage.isBoss && !isKindergartenStage() ? [["UR", 0.32, 1.7], ["SR", 0.44, 1.3], ["N", 0.24, 1]] : rarityRows;
+  const row = activeRarityRows.find(r => (cumulative += r[1]) >= roll) ?? activeRarityRows[2];
+  rarity = row[0];
+  factor = row[2];
   const key =
     `${card.id}_${rarity}`;
 
@@ -2953,7 +2894,9 @@ function sample(arr){
     card,
     rarity,
     factor,
-    isNew
+    isNew,
+    kindergarten: isKindergartenStage(),
+    gems: currentStage.rewardGems ?? 5
   };
 
 
@@ -2989,7 +2932,16 @@ function sample(arr){
   render();
 }
 
+  function syncScreenBgm(){
+    const changed=bgmScreen!==screen;bgmScreen=screen;
+    if(screen==='game'&&stageBgmFading)return;
+    const track=screen==='landing'?bgmTracks.top:['title','player-select','player-create','legacy-migrate','world'].includes(screen)?bgmTracks.menu:null;
+    if(!track){titleMusic.setTrack(null);return;}
+    const changedTrack=titleMusic.setTrack(track),status=titleMusic.snapshot();
+    if(isSoundEnabled()&&!stageBgmFading&&((changed&&status.fading)||(!status.playing&&!status.pending&&(changed||changedTrack))))void titleMusic.play();
+  }
   function render() {
+  syncScreenBgm();
 
   if (screen === "landing") {
     root.innerHTML = landing();
@@ -3003,6 +2955,7 @@ function sample(arr){
         <h1 class="brand">⚔️ Maths-adventure</h1>
 
         <div class="header-status">
+          <button type="button" class="sound-toggle" data-action="toggle-title-bgm" aria-label="${isSoundEnabled()?'音声オン（押すとオフ）':'音声オフ（押すとオン）'}" aria-pressed="${isSoundEnabled()}">${isSoundEnabled()?'🔊':'🔇'}</button>
           <span class="sync-badge ${sync}">
             ${
               sync === "connected"
@@ -3132,9 +3085,7 @@ function playerSelect() {
               data-player-id="${escapeHtml(player.playerId)}"
             >
 
-              <div class="player-avatar">
-                🧙
-              </div>
+              <div class="player-avatar">${renderPlayerPortrait(player.state, {getCard, escapeHtml})}</div>
 
               <strong>
                 ${escapeHtml(player.nickname)}
@@ -3316,6 +3267,9 @@ function legacyMigrate() {
 
   function title() {
   const activePlayer = getActivePlayer();
+  const isKindergarten = selectedCourse === "kindergarten";
+  const courseWorlds = worlds.filter(w =>
+    (w.packId === "kindergarten" || w.course === "kindergarten") === isKindergarten);
 
   return `
     <section class="stack">
@@ -3329,7 +3283,7 @@ function legacyMigrate() {
     </small>
 
     <strong>
-      🧙 ${escapeHtml(activePlayer?.nickname ?? "ゲスト")}
+      ${renderPlayerPortrait(state, {getCard, escapeHtml}, true)} ${escapeHtml(activePlayer?.nickname ?? "ゲスト")}
     </strong>
   </div>
 
@@ -3356,28 +3310,27 @@ function legacyMigrate() {
 </div>
 
       <!-- WORLD案内 -->
-      <div class="panel hero">
-
-        <div class="hero-icon">
-          💎⚔️🐉
+      <div class="panel hero course-banner ${isKindergarten ? 'course-banner-kindergarten' : 'course-banner-elementary'}">
+        <img class="course-banner-image" src="/images/banners/${isKindergarten ? 'kindergarten-adventure' : 'elementary-adventure'}.webp" alt="" fetchpriority="high" decoding="async">
+        <div class="course-banner-copy">
+          <h2>${isKindergarten ? "はじめての さんすう" : "小学生コース"}</h2>
+          <p>${isKindergarten ? "K1〜K6で あそべるよ。1ステージ5もん！" : "WORLDを選んで算数の冒険へ出発しよう。"}</p>
         </div>
-
-        <h2>
-          Maths Quest
-        </h2>
-
-        <p class="muted">
-          WORLDを選んで算数の冒険へ出発しよう。
-        </p>
-
       </div>
 
+
+      <div class="panel stack">
+        <button class="button secondary" data-action="change-course"
+          data-course="${isKindergarten ? "elementary" : "kindergarten"}">
+          ${isKindergarten ? "📚 小学生コースへ" : "🌱 幼児コースへ"}
+        </button>
+      </div>
 
       <!-- WORLD一覧 -->
       <div class="world-grid">
 
         ${
-          worlds.map(w => `
+          courseWorlds.map(w => `
             <button
               class="world-button ${w.available ? "" : "disabled"}"
               ${
@@ -3388,7 +3341,7 @@ function legacyMigrate() {
             >
 
               <strong>
-                WORLD ${w.id}
+                WORLD ${w.displayId ?? w.id}
               </strong>
 
               <span>
@@ -3448,90 +3401,11 @@ function legacyMigrate() {
 ========================= */
 
 function toggleTitleBgm() {
-  if (titleBgmPlaying) {
-    titleBgm.pause();
-    titleBgmPlaying = false;
-    return;
-  }
-
-  titleBgm.play()
-    .then(() => {
-      titleBgmPlaying = true;
-      render();
-    })
-    .catch(error => {
-      console.warn("BGMを再生できませんでした:", error);
-    });
+  const enabled=setSoundEnabled(!isSoundEnabled());
+  if(enabled)void titleMusic.play();
 }
-
-function stopTitleBgm() {
-  titleBgm.pause();
-  titleBgm.currentTime = 0;
-  titleBgmPlaying = false;
-}
-function fadeOutTitleBgm(duration = 1200) {
-
-  if (
-    !titleBgmPlaying ||
-    titleBgm.paused
-  ) {
-    return Promise.resolve();
-  }
-
-  return new Promise(resolve => {
-
-    const startVolume =
-      titleBgm.volume;
-
-    const startTime =
-      performance.now();
-
-
-    function fade(now) {
-
-      const elapsed =
-        now - startTime;
-
-      const progress =
-        Math.min(
-          elapsed / duration,
-          1
-        );
-
-
-      titleBgm.volume =
-        startVolume *
-        (1 - progress);
-
-
-      if (progress < 1) {
-
-        requestAnimationFrame(
-          fade
-        );
-
-        return;
-      }
-
-
-      titleBgm.pause();
-
-      titleBgm.currentTime = 0;
-
-      titleBgm.volume = 0.35;
-
-      titleBgmPlaying = false;
-
-      resolve();
-    }
-
-
-    requestAnimationFrame(
-      fade
-    );
-
-  });
-}
+function stopTitleBgm() { titleMusic.stop(); }
+function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
 
 /* =========================
    新トップページ
@@ -3548,10 +3422,11 @@ function fadeOutTitleBgm(duration = 1200) {
       <button
         class="landing-music"
         data-action="toggle-title-bgm"
-        aria-label="BGM切り替え"
-        title="BGM ON / OFF"
+        aria-label="${isSoundEnabled()?'音声オン（押すとオフ）':'音声オフ（押すとオン）'}"
+        aria-pressed="${isSoundEnabled()}"
+        title="${isSoundEnabled()?'音声オン':'音声オフ'}"
       >
-        ${titleBgmPlaying ? "🔊" : "♪"}
+        ${isSoundEnabled() ? "🔊" : "🔇"}
       </button>
 
 
@@ -3588,10 +3463,16 @@ function fadeOutTitleBgm(duration = 1200) {
         <!-- メインボタン -->
         <button
           class="landing-start-button"
-          data-action="landing-start"
+          data-action="select-course"
+          data-course="kindergarten"
         >
-          <span class="landing-play-icon">▶</span>
-          <span>冒険をはじめる</span>
+          <span class="landing-play-icon">🌱</span>
+          <span>幼児コース</span>
+        </button>
+        <button class="landing-start-button"
+          data-action="select-course" data-course="elementary">
+          <span class="landing-play-icon">📚</span>
+          <span>小学生コース</span>
         </button>
 
 
@@ -3674,7 +3555,7 @@ function fadeOutTitleBgm(duration = 1200) {
   const ss =
     stages
       .filter(
-        x => x.world === worldId
+        x => x.world === worldId && !x.hiddenFromWorld
       )
       .sort(
         (a, b) =>
@@ -3705,7 +3586,7 @@ function fadeOutTitleBgm(duration = 1200) {
         </button>
 
         <h2>
-          WORLD ${w.id}・${w.grade}
+          WORLD ${w.displayId ?? w.id}・${w.grade}
         </h2>
 
         <span></span>
@@ -3783,7 +3664,7 @@ function fadeOutTitleBgm(duration = 1200) {
                               displayName
                             )}
                           </span>
-
+                          ${renderTrail(state,stage)}
                         </button>
                       `;
 
@@ -3805,6 +3686,18 @@ function fadeOutTitleBgm(duration = 1200) {
 
   function game() {
     const q = questions[qi];
+    if (!q) return ''; // Completion persistence may render before the result screen is selected.
+    if (isKindergartenStage()) {
+      return `<section class="stack k-game">
+        <div class="toolbar"><button class="button secondary small" data-action="go" data-screen="world">◀ もどる</button>
+          <strong>${qi + 1} / ${questions.length} もん</strong></div>
+        <div class="panel k-question-panel"><p class="muted">${escapeHtml(currentStage.name)}</p>
+          ${renderQuestion(q)}
+        </div>
+        <p class="k-feedback ${answerFeedback === "correct" ? "k-feedback-correct" : ""}" role="status">
+          ${answerFeedback === "correct" ? "⭕ せいかい！ +10 EXP" : escapeHtml(wrongMessage)}</p>
+      </section>`;
+    }
     const flashMode = usesFlash(currentStage);
     const showQuestion = flashMode ? flashVisible : true;
 
@@ -3818,7 +3711,7 @@ function fadeOutTitleBgm(duration = 1200) {
     : "";
 
 
-return `<section class="stack game-area">
+return `<section class="stack game-area ${q?.kind === "written-calculation" || q?.keypad === "expression" || currentStage?.keypad === "expression" ? "input-dock-game" : ""}">
 
   <!-- =====================================================
        全WORLD共通：単元タイトル
@@ -3864,7 +3757,7 @@ return `<section class="stack game-area">
 
   </div>
       ${wrongMessage?`<div class="wrong-notice">${wrongMessage}</div>`:""}
-      <button
+      <${isInlineChoice(q) || q.kind === "cube-net" || q.kind === "mirror-grid" || q.kind === "shape-build" || q.kind === "abacus-lesson" || q.requiresRulerAlignment ? "section" : "button"}
   class="question-card ${flashMode ? "flash-card" : "persistent-card"} ${showQuestion ? "showing" : "hidden-question"}"
   ${questionAction}
   ${flashMode ? "" : 'type="button"'}
@@ -3880,7 +3773,7 @@ return `<section class="stack game-area">
 </div>
 
   </div>
-</button>
+</${isInlineChoice(q) || q.kind === "cube-net" || q.kind === "mirror-grid" || q.kind === "shape-build" || q.kind === "abacus-lesson" || q.requiresRulerAlignment ? "section" : "button"}>
       <div class="partner-answer-zone">
 
   ${renderPartnerCompanion()}
@@ -3915,10 +3808,10 @@ return `<section class="stack game-area">
           ? formatInput(input)
 
           : input
-            ? formatInput(input)
+            ? (q?.kind==='shape-build' ? 'ピースを うごかしたよ' : q?.kind==='mirror-grid' ? '選んだ点：横'+(Number(input)%9+1)+'、上から'+(Math.floor(Number(input)/9)+1) : formatInput(input))
 
             : inputEnabled
-              ? "こたえを えらんでね"
+              ? (q?.keypad === "keyboard" || q?.answerMode === "numeric" ? "数字を入力してね" : "こたえを えらんでね")
 
               : "もんだいを みています"
   }
@@ -4804,6 +4697,7 @@ function renderFractionAnswerInput(
     questions[qi] ?? null;
 
 
+  if(isInlineChoice(question)||['mirror-grid','shape-build'].includes(question?.kind))return '';
   return renderKeypadForStage(
     currentStage,
     {
@@ -5342,7 +5236,7 @@ function renderPartnerCompanion() {
 }
 
   function renderQuestion(question) {
-    return renderQuestionByKind(question, { escapeHtml });
+    return renderQuestionByKind(question, { escapeHtml, inputEnabled, input });
   }
 
   function escapeHtml(value) {
@@ -5355,6 +5249,14 @@ function renderPartnerCompanion() {
 }
 
   function result() {
+  if (earned?.kindergarten && !earned.card) {
+    return `<section class="stack"><div class="panel hero"><div class="hero-icon">🎉</div>
+      <h2>よく できたね！</h2><p>5もん クリア！ 💎 ${earned.gems}こ ゲット</p>
+      <p class="muted">カードの ごほうびは じゅんびちゅうです。</p></div>
+      <button class="button cyan" data-action="retry-stage">もういちど あそぶ</button>
+      <button class="button secondary" data-action="go" data-screen="world">${escapeHtml(worlds.find(w => w.id === currentStage.world)?.displayId ?? "WORLD")}へ もどる</button>
+      <button class="button secondary" data-action="go" data-screen="title">WORLDを えらぶ</button></section>`;
+  }
   const rarity = earned?.rarity ?? "N";
   const isNew = earned?.isNew === true;
 
@@ -5368,7 +5270,7 @@ function renderPartnerCompanion() {
         </div>
 
         <h2>
-          クエストクリア！
+          ${earned?.kindergarten ? "5もん クリア！ よく できたね！" : "クエストクリア！"}
         </h2>
 
         <p class="muted">
@@ -5438,8 +5340,14 @@ function renderPartnerCompanion() {
       }
 
 
+      ${earned?.kindergarten ? `
+        <p class="muted">💎 ${earned.gems}こ ゲット！</p>
+        <button class="button cyan" data-action="retry-stage">もういちど あそぶ</button>
+        <button class="button secondary" data-action="go" data-screen="world">${escapeHtml(worlds.find(w => w.id === currentStage.world)?.displayId ?? "WORLD")}へ もどる</button>
+        <button class="button secondary" data-action="go" data-screen="collection">カードずかん</button>
+      ` : ""}
       ${
-        cardRevealed
+        cardRevealed && !earned?.kindergarten
           ? `
             <button
               class="button cyan"
@@ -6059,7 +5967,7 @@ function zoomModal() {
 
 
               <div class="current-player-name">
-                🧙
+                ${renderPlayerPortrait(state, {getCard, escapeHtml}, true)}
                 <strong>
                   ${escapeHtml(
                     activePlayer.nickname ??
@@ -6622,7 +6530,7 @@ function zoomModal() {
                   </small>
 
                   <strong>
-                    🧙 ${escapeHtml(
+                    ${renderPlayerPortrait(state, {getCard, escapeHtml}, true)} ${escapeHtml(
                       activePlayer.nickname ??
                       "プレイヤー"
                     )}
@@ -6842,4 +6750,14 @@ function zoomModal() {
   `;
 }
 const image=(c,r)=>c?.images?.[r]??c?.images?.N??c?.image??"";
+root.addEventListener('input',event=>{
+ if(!event.target.matches('[data-large-number-input]')||screen!=='game'||!inputEnabled)return;
+ input=event.target.value.normalize('NFKC').replace(/[^0-9]/g,'').slice(0,20);event.target.value=input;
+});
+root.addEventListener('keydown',event=>{
+ const choice=event.target.closest?.('[data-action="inline-choice-answer"]');
+ if(choice&&(event.key==='Enter'||event.key===' ')){event.preventDefault();choice.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));return;}
+ if(event.key==='Enter'&&event.target.matches('[data-large-number-input]')&&inputEnabled){event.preventDefault();root.querySelector('[data-action="answer"]')?.dispatchEvent(new PointerEvent('pointerup',{bubbles:true}));}
+});
+
 }

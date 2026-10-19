@@ -1,0 +1,1 @@
+export default { id: "k2-s3", world: 102, sort: 3, unit: "k-counting", unitLabel: "もっと かぞえよう", name: "すうじと かずを あわせよう", type: "k2_number_group", course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: false };

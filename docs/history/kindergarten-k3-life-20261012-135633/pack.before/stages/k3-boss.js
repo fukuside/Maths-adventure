@@ -1,0 +1,1 @@
+export default { id: "k3-boss", world: 103, sort: 7, unit: "k-shapes", unitLabel: "かたちの くに", name: "K3 まとめ", type: "k_summary", questionTypes: ["k3_circle", "k3_triangle", "k3_square", "k3_match", "k3_combine", "k3_group"], course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: true };

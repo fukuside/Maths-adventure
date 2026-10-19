@@ -1,0 +1,1 @@
+export default {id:"line-relations",name:"小4 平行と垂直",version:"1.0.0",type:"question-pack",enabled:true};

@@ -1,0 +1,1 @@
+export default { id: "k2-s4", world: 102, sort: 4, unit: "k-counting", unitLabel: "もっと かぞえよう", name: "1こ ふえたら？", type: "k2_increase", course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: false };

@@ -1,0 +1,1 @@
+export default { id: "k1-s4", world: 101, sort: 4, unit: "k-foundation", unitLabel: "かずと なかよし", name: "すうじと かずを あわせよう", type: "k_number_group", course: "kindergarten", presentation: "persistent", questionCount: 5, rewardGems: 5, isBoss: false };

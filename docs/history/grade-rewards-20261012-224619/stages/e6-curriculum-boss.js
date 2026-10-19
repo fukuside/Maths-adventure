@@ -1,0 +1,33 @@
+export default {
+  "id": "e6-curriculum-boss",
+  "sort": 999,
+  "world": 6,
+  "unit": "curriculum-summary",
+  "unitLabel": "学年まとめ",
+  "name": "6年生の冒険まとめ",
+  "type": "curriculum_fractionTimesInt",
+  "questionTypes": [
+    "curriculum_fractionTimesInt",
+    "curriculum_fractionDivideInt",
+    "curriculum_fractionMultiply",
+    "curriculum_fractionDivide",
+    "curriculum_fractionDecimal",
+    "curriculum_ratio6",
+    "curriculum_proportion",
+    "curriculum_inverse",
+    "curriculum_letter",
+    "curriculum_circleArea",
+    "curriculum_scale",
+    "curriculum_symmetry",
+    "curriculum_prismVolume",
+    "curriculum_cylinderVolume",
+    "curriculum_combinations",
+    "curriculum_median",
+    "curriculum_mode"
+  ],
+  "questionCount": 10,
+  "isBoss": true,
+  "presentation": "persistent",
+  "rewardGems": 10,
+  "rewardWorld": 4
+};

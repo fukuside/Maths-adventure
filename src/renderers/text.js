@@ -17,6 +17,7 @@ export default {
 
     return `
       <div class="text-question ${className}">
+        ${question.lead ? `<small class="number-adventure-lead">${escapeHtml(question.lead)}</small>` : ""}
         ${escapeHtml(text)}
       </div>
     `;

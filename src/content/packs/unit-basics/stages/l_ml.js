@@ -1,0 +1,1 @@
+export default {"id":"e2-unit-basic-l_ml","world":2,"type":"unit_basic_l_ml","name":"LとmLの基本","unit":"curriculum-単位の基本","unitLabel":"単位の基本","sort":154,"questionCount":10,"presentation":"persistent","isBoss":false,"rewardGems":5};

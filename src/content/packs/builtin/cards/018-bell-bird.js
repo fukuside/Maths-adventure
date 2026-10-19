@@ -10,8 +10,8 @@ export default {
   stats: { hp: 174, atk: 71 },
   description: "時刻の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/018-bell-bird/n.png",
-    SR: "/pictures/monsters/018-bell-bird/sr.png",
-    UR: "/pictures/monsters/018-bell-bird/ur.png"
+    N: "/pictures/monsters/018-bell-bird/n.webp",
+    SR: "/pictures/monsters/018-bell-bird/sr.webp",
+    UR: "/pictures/monsters/018-bell-bird/ur.webp"
   }
 };

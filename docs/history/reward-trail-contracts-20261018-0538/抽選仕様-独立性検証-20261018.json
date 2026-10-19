@@ -1,0 +1,52 @@
+{
+  "verifiedAt": "2026-10-17T20:35:51.072Z",
+  "method": "本体finishの抽選部分を抽出。全個体の等幅区間中央×100レア度分位点を網羅。乱数分布の統計試験ではない。",
+  "cases": 25200,
+  "report": [
+    {
+      "course": "elementary",
+      "isBoss": false,
+      "poolSize": 100,
+      "perMonsterQuantiles": {
+        "N": 60,
+        "SR": 32,
+        "UR": 8
+      },
+      "worldIndependent": true
+    },
+    {
+      "course": "elementary",
+      "isBoss": true,
+      "poolSize": 100,
+      "perMonsterQuantiles": {
+        "N": 24,
+        "SR": 44,
+        "UR": 32
+      },
+      "worldIndependent": true
+    },
+    {
+      "course": "kindergarten",
+      "isBoss": false,
+      "poolSize": 26,
+      "perMonsterQuantiles": {
+        "N": 60,
+        "SR": 32,
+        "UR": 8
+      },
+      "worldIndependent": true
+    },
+    {
+      "course": "kindergarten",
+      "isBoss": true,
+      "poolSize": 26,
+      "perMonsterQuantiles": {
+        "N": 60,
+        "SR": 32,
+        "UR": 8
+      },
+      "worldIndependent": true
+    }
+  ],
+  "incompleteExcluded": true
+}

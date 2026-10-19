@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-17",
+  "stage": "e5-decimalDivide5",
+  "operands": [
+    2.52,
+    0.9
+  ],
+  "inputCount": 12,
+  "incompleteSubmitNoLifeLoss": true,
+  "advancedToQuestion2": true,
+  "errors": [],
+  "steps": [
+    {
+      "active": {
+        "top": 386.14508056640625,
+        "bottom": 422.57989501953125
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 386.14508056640625,
+        "bottom": 422.57989501953125
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 439.27923583984375,
+        "bottom": 475.71405029296875
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 439.27923583984375,
+        "bottom": 475.71405029296875
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 439.27923583984375,
+        "bottom": 475.71405029296875
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 283.672119140625,
+        "bottom": 320.1069641113281
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 492.413330078125,
+        "bottom": 528.84814453125
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 492.413330078125,
+        "bottom": 528.84814453125
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 492.413330078125,
+        "bottom": 528.84814453125
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 224.5474853515625,
+        "bottom": 260.9822998046875
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": {
+        "top": 224.5474853515625,
+        "bottom": 260.9822998046875
+      },
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    },
+    {
+      "active": null,
+      "keysTop": 616,
+      "submitTop": 560,
+      "keysBottom": 844,
+      "scroll": 390
+    }
+  ]
+}

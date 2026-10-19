@@ -10,8 +10,8 @@ export default {
   stats: { hp: 306, atk: 159 },
   description: "分数の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/062-fraction-king/n.png",
-    SR: "/pictures/monsters/062-fraction-king/sr.png",
-    UR: "/pictures/monsters/062-fraction-king/ur.png"
+    N: "/pictures/monsters/062-fraction-king/n.webp",
+    SR: "/pictures/monsters/062-fraction-king/sr.webp",
+    UR: "/pictures/monsters/062-fraction-king/ur.webp"
   }
 };

@@ -786,7 +786,7 @@ export default {
       <div
         class="
           visual-question
-          fraction-choice-question
+          curriculum-question fraction-lesson-layout fraction-choice-question
         "
       >
 

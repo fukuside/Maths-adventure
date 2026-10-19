@@ -162,7 +162,7 @@ export default {
 
 
     return `
-      <div class="fraction-equivalent-layout">
+      <div class="curriculum-question fraction-lesson-layout fraction-equivalent-layout">
 
 
         <div class="fraction-equivalent-prompt">

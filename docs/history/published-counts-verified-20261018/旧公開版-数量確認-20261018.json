@@ -1,0 +1,696 @@
+{
+  "verifiedAt": "2026-10-18T12:40:14.637Z",
+  "url": "https://maths-adventure-psi.vercel.app/",
+  "bundle": "/assets/index-CatjP_ix.js",
+  "sha256": "6defd811ef8525e08d86e6b91678128c5dc96c457612105ff8f39f18c5d8d4a6",
+  "method": "配信されたHTMLのJSを静的に読み、ステージ/カードの定義を抽出。公開先の操作・データ変更なし。",
+  "stages": 60,
+  "byWorld": {
+    "1": 12,
+    "2": 17,
+    "3": 15,
+    "4": 16
+  },
+  "monsters": 62,
+  "rarityImagePaths": 186,
+  "stageDefinitions": [
+    {
+      "id": "w1-addition-1",
+      "world": 1
+    },
+    {
+      "id": "w1-addition-2",
+      "world": 1
+    },
+    {
+      "id": "w1-addition-3",
+      "world": 1
+    },
+    {
+      "id": "w1-addition-4",
+      "world": 1
+    },
+    {
+      "id": "w1-addition-5",
+      "world": 1
+    },
+    {
+      "id": "w1-addition-boss",
+      "world": 1
+    },
+    {
+      "id": "w1-subtraction-1",
+      "world": 1
+    },
+    {
+      "id": "w1-subtraction-2",
+      "world": 1
+    },
+    {
+      "id": "w1-subtraction-3",
+      "world": 1
+    },
+    {
+      "id": "w1-subtraction-4",
+      "world": 1
+    },
+    {
+      "id": "w1-subtraction-5",
+      "world": 1
+    },
+    {
+      "id": "w1-subtraction-boss",
+      "world": 1
+    },
+    {
+      "id": "w2-money-1",
+      "world": 2
+    },
+    {
+      "id": "w2-money-2",
+      "world": 2
+    },
+    {
+      "id": "w2-money-3",
+      "world": 2
+    },
+    {
+      "id": "w2-money-4",
+      "world": 2
+    },
+    {
+      "id": "w2-money-5",
+      "world": 2
+    },
+    {
+      "id": "w2-money-boss",
+      "world": 2
+    },
+    {
+      "id": "w2-money-can-buy-1",
+      "world": 2
+    },
+    {
+      "id": "w2-money-change-1",
+      "world": 2
+    },
+    {
+      "id": "w2-money-shopping-1",
+      "world": 2
+    },
+    {
+      "id": "w2-time-1",
+      "world": 2
+    },
+    {
+      "id": "w2-time-2",
+      "world": 2
+    },
+    {
+      "id": "w2-time-3",
+      "world": 2
+    },
+    {
+      "id": "w2-time-4",
+      "world": 2
+    },
+    {
+      "id": "w2-time-5",
+      "world": 2
+    },
+    {
+      "id": "w2-time-6",
+      "world": 2
+    },
+    {
+      "id": "w2-time-7",
+      "world": 2
+    },
+    {
+      "id": "w2-time-boss",
+      "world": 2
+    },
+    {
+      "id": "w3-division-1",
+      "world": 3
+    },
+    {
+      "id": "w3-division-2",
+      "world": 3
+    },
+    {
+      "id": "w3-division-3",
+      "world": 3
+    },
+    {
+      "id": "w3-division-4",
+      "world": 3
+    },
+    {
+      "id": "w3-division-5",
+      "world": 3
+    },
+    {
+      "id": "w3-division-6",
+      "world": 3
+    },
+    {
+      "id": "w3-division-boss",
+      "world": 3
+    },
+    {
+      "id": "w3-multiplication-1",
+      "world": 3
+    },
+    {
+      "id": "w3-multiplication-2",
+      "world": 3
+    },
+    {
+      "id": "w3-multiplication-3",
+      "world": 3
+    },
+    {
+      "id": "w3-multiplication-4",
+      "world": 3
+    },
+    {
+      "id": "w3-multiplication-5",
+      "world": 3
+    },
+    {
+      "id": "w3-multiplication-6",
+      "world": 3
+    },
+    {
+      "id": "w3-multiplication-7",
+      "world": 3
+    },
+    {
+      "id": "w3-multiplication-boss",
+      "world": 3
+    },
+    {
+      "id": "w4-decimal-1",
+      "world": 4
+    },
+    {
+      "id": "w4-decimal-2",
+      "world": 4
+    },
+    {
+      "id": "w4-decimal-3",
+      "world": 4
+    },
+    {
+      "id": "w4-decimal-4",
+      "world": 4
+    },
+    {
+      "id": "w4-decimal-5",
+      "world": 4
+    },
+    {
+      "id": "w4-decimal-6",
+      "world": 4
+    },
+    {
+      "id": "w4-decimal-7",
+      "world": 4
+    },
+    {
+      "id": "w4-decimal-8",
+      "world": 4
+    },
+    {
+      "id": "w4-decimal-boss",
+      "world": 4
+    },
+    {
+      "id": "w4-fraction-1",
+      "world": 4
+    },
+    {
+      "id": "w4-fraction-2",
+      "world": 4
+    },
+    {
+      "id": "w4-fraction-3",
+      "world": 4
+    },
+    {
+      "id": "w4-fraction-4",
+      "world": 4
+    },
+    {
+      "id": "w4-fraction-5",
+      "world": 4
+    },
+    {
+      "id": "w4-fraction-6",
+      "world": 4
+    },
+    {
+      "id": "w4-fraction-boss",
+      "world": 4
+    }
+  ],
+  "cardDefinitions": [
+    {
+      "id": "001-plus-rabbit",
+      "number": 1
+    },
+    {
+      "id": "002-sum-slime",
+      "number": 2
+    },
+    {
+      "id": "003-pair-bird",
+      "number": 3
+    },
+    {
+      "id": "004-apple-bear",
+      "number": 4
+    },
+    {
+      "id": "005-carry-fox",
+      "number": 5
+    },
+    {
+      "id": "006-sum-lion",
+      "number": 6
+    },
+    {
+      "id": "007-plus-emperor",
+      "number": 7
+    },
+    {
+      "id": "008-minus-fox",
+      "number": 8
+    },
+    {
+      "id": "009-take-cat",
+      "number": 9
+    },
+    {
+      "id": "010-remove-mole",
+      "number": 10
+    },
+    {
+      "id": "011-diff-bird",
+      "number": 11
+    },
+    {
+      "id": "012-back-bear",
+      "number": 12
+    },
+    {
+      "id": "013-sub-wolf",
+      "number": 13
+    },
+    {
+      "id": "014-minus-king",
+      "number": 14
+    },
+    {
+      "id": "015-minute-mouse",
+      "number": 15
+    },
+    {
+      "id": "016-hour-owl",
+      "number": 16
+    },
+    {
+      "id": "017-clock-cat",
+      "number": 17
+    },
+    {
+      "id": "018-bell-bird",
+      "number": 18
+    },
+    {
+      "id": "019-time-rabbit",
+      "number": 19
+    },
+    {
+      "id": "020-chrono-wolf",
+      "number": 20
+    },
+    {
+      "id": "021-chrono-king",
+      "number": 21
+    },
+    {
+      "id": "022-coin-rabbit",
+      "number": 22
+    },
+    {
+      "id": "023-yen-cat",
+      "number": 23
+    },
+    {
+      "id": "024-wallet-bear",
+      "number": 24
+    },
+    {
+      "id": "025-change-fox",
+      "number": 25
+    },
+    {
+      "id": "026-shop-bird",
+      "number": 26
+    },
+    {
+      "id": "027-gold-panda",
+      "number": 27
+    },
+    {
+      "id": "028-money-king",
+      "number": 28
+    },
+    {
+      "id": "029-waterpon",
+      "number": 29
+    },
+    {
+      "id": "030-twinbird",
+      "number": 30
+    },
+    {
+      "id": "031-firesaurus",
+      "number": 31
+    },
+    {
+      "id": "032-clover-turtle",
+      "number": 32
+    },
+    {
+      "id": "033-star-wolf",
+      "number": 33
+    },
+    {
+      "id": "034-six-speaker",
+      "number": 34
+    },
+    {
+      "id": "035-rainbow-dragon",
+      "number": 35
+    },
+    {
+      "id": "036-octopal",
+      "number": 36
+    },
+    {
+      "id": "037-shine-pegasus",
+      "number": 37
+    },
+    {
+      "id": "038-massive-golem",
+      "number": 38
+    },
+    {
+      "id": "039-lightning-fang",
+      "number": 39
+    },
+    {
+      "id": "040-divine-phoenix",
+      "number": 40
+    },
+    {
+      "id": "041-kuku-king-gold",
+      "number": 41
+    },
+    {
+      "id": "042-half-penguin",
+      "number": 42
+    },
+    {
+      "id": "043-divide-bird",
+      "number": 43
+    },
+    {
+      "id": "044-share-rabbit",
+      "number": 44
+    },
+    {
+      "id": "045-group-golem",
+      "number": 45
+    },
+    {
+      "id": "046-remainder-cat",
+      "number": 46
+    },
+    {
+      "id": "047-quotient-wolf",
+      "number": 47
+    },
+    {
+      "id": "048-divide-emperor",
+      "number": 48
+    },
+    {
+      "id": "049-point-slime",
+      "number": 49
+    },
+    {
+      "id": "050-tenths-pon",
+      "number": 50
+    },
+    {
+      "id": "051-decimal-cat",
+      "number": 51
+    },
+    {
+      "id": "052-dot-bird",
+      "number": 52
+    },
+    {
+      "id": "053-zero-tenths-bear",
+      "number": 53
+    },
+    {
+      "id": "054-point-dragon",
+      "number": 54
+    },
+    {
+      "id": "055-decimal-king",
+      "number": 55
+    },
+    {
+      "id": "056-half-moon",
+      "number": 56
+    },
+    {
+      "id": "057-third-bird",
+      "number": 57
+    },
+    {
+      "id": "058-quarter-rabbit",
+      "number": 58
+    },
+    {
+      "id": "059-numerator-rabbit",
+      "number": 59
+    },
+    {
+      "id": "060-denominator-bird",
+      "number": 60
+    },
+    {
+      "id": "061-fraction-fairy",
+      "number": 61
+    },
+    {
+      "id": "062-fraction-king",
+      "number": 62
+    }
+  ],
+  "imagePaths": [
+    "/pictures/monsters/001-plus-rabbit/n.png",
+    "/pictures/monsters/001-plus-rabbit/sr.png",
+    "/pictures/monsters/001-plus-rabbit/ur.png",
+    "/pictures/monsters/002-sum-slime/n.png",
+    "/pictures/monsters/002-sum-slime/sr.png",
+    "/pictures/monsters/002-sum-slime/ur.png",
+    "/pictures/monsters/003-pair-bird/n.png",
+    "/pictures/monsters/003-pair-bird/sr.png",
+    "/pictures/monsters/003-pair-bird/ur.png",
+    "/pictures/monsters/004-apple-bear/n.png",
+    "/pictures/monsters/004-apple-bear/sr.png",
+    "/pictures/monsters/004-apple-bear/ur.png",
+    "/pictures/monsters/005-carry-fox/n.png",
+    "/pictures/monsters/005-carry-fox/sr.png",
+    "/pictures/monsters/005-carry-fox/ur.png",
+    "/pictures/monsters/006-sum-lion/n.png",
+    "/pictures/monsters/006-sum-lion/sr.png",
+    "/pictures/monsters/006-sum-lion/ur.png",
+    "/pictures/monsters/007-plus-emperor/n.png",
+    "/pictures/monsters/007-plus-emperor/sr.png",
+    "/pictures/monsters/007-plus-emperor/ur.png",
+    "/pictures/monsters/008-minus-fox/n.png",
+    "/pictures/monsters/008-minus-fox/sr.png",
+    "/pictures/monsters/008-minus-fox/ur.png",
+    "/pictures/monsters/009-take-cat/n.png",
+    "/pictures/monsters/009-take-cat/sr.png",
+    "/pictures/monsters/009-take-cat/ur.png",
+    "/pictures/monsters/010-remove-mole/n.png",
+    "/pictures/monsters/010-remove-mole/sr.png",
+    "/pictures/monsters/010-remove-mole/ur.png",
+    "/pictures/monsters/011-diff-bird/n.png",
+    "/pictures/monsters/011-diff-bird/sr.png",
+    "/pictures/monsters/011-diff-bird/ur.png",
+    "/pictures/monsters/012-back-bear/n.png",
+    "/pictures/monsters/012-back-bear/sr.png",
+    "/pictures/monsters/012-back-bear/ur.png",
+    "/pictures/monsters/013-sub-wolf/n.png",
+    "/pictures/monsters/013-sub-wolf/sr.png",
+    "/pictures/monsters/013-sub-wolf/ur.png",
+    "/pictures/monsters/014-minus-king/n.png",
+    "/pictures/monsters/014-minus-king/sr.png",
+    "/pictures/monsters/014-minus-king/ur.png",
+    "/pictures/monsters/015-minute-mouse/n.png",
+    "/pictures/monsters/015-minute-mouse/sr.png",
+    "/pictures/monsters/015-minute-mouse/ur.png",
+    "/pictures/monsters/016-hour-owl/n.png",
+    "/pictures/monsters/016-hour-owl/sr.png",
+    "/pictures/monsters/016-hour-owl/ur.png",
+    "/pictures/monsters/017-clock-cat/n.png",
+    "/pictures/monsters/017-clock-cat/sr.png",
+    "/pictures/monsters/017-clock-cat/ur.png",
+    "/pictures/monsters/018-bell-bird/n.png",
+    "/pictures/monsters/018-bell-bird/sr.png",
+    "/pictures/monsters/018-bell-bird/ur.png",
+    "/pictures/monsters/019-time-rabbit/n.png",
+    "/pictures/monsters/019-time-rabbit/sr.png",
+    "/pictures/monsters/019-time-rabbit/ur.png",
+    "/pictures/monsters/020-chrono-wolf/n.png",
+    "/pictures/monsters/020-chrono-wolf/sr.png",
+    "/pictures/monsters/020-chrono-wolf/ur.png",
+    "/pictures/monsters/021-chrono-king/n.png",
+    "/pictures/monsters/021-chrono-king/sr.png",
+    "/pictures/monsters/021-chrono-king/ur.png",
+    "/pictures/monsters/022-coin-rabbit/n.png",
+    "/pictures/monsters/022-coin-rabbit/sr.png",
+    "/pictures/monsters/022-coin-rabbit/ur.png",
+    "/pictures/monsters/023-yen-cat/n.png",
+    "/pictures/monsters/023-yen-cat/sr.png",
+    "/pictures/monsters/023-yen-cat/ur.png",
+    "/pictures/monsters/024-wallet-bear/n.png",
+    "/pictures/monsters/024-wallet-bear/sr.png",
+    "/pictures/monsters/024-wallet-bear/ur.png",
+    "/pictures/monsters/025-change-fox/n.png",
+    "/pictures/monsters/025-change-fox/sr.png",
+    "/pictures/monsters/025-change-fox/ur.png",
+    "/pictures/monsters/026-shop-bird/n.png",
+    "/pictures/monsters/026-shop-bird/sr.png",
+    "/pictures/monsters/026-shop-bird/ur.png",
+    "/pictures/monsters/027-gold-panda/n.png",
+    "/pictures/monsters/027-gold-panda/sr.png",
+    "/pictures/monsters/027-gold-panda/ur.png",
+    "/pictures/monsters/028-money-king/n.png",
+    "/pictures/monsters/028-money-king/sr.png",
+    "/pictures/monsters/028-money-king/ur.png",
+    "/pictures/monsters/029-waterpon/n.png",
+    "/pictures/monsters/029-waterpon/sr.png",
+    "/pictures/monsters/029-waterpon/ur.png",
+    "/pictures/monsters/030-twinbird/n.png",
+    "/pictures/monsters/030-twinbird/sr.png",
+    "/pictures/monsters/030-twinbird/ur.png",
+    "/pictures/monsters/031-firesaurus/n.png",
+    "/pictures/monsters/031-firesaurus/sr.png",
+    "/pictures/monsters/031-firesaurus/ur.png",
+    "/pictures/monsters/032-clover-turtle/n.png",
+    "/pictures/monsters/032-clover-turtle/sr.png",
+    "/pictures/monsters/032-clover-turtle/ur.png",
+    "/pictures/monsters/033-star-wolf/n.png",
+    "/pictures/monsters/033-star-wolf/sr.png",
+    "/pictures/monsters/033-star-wolf/ur.png",
+    "/pictures/monsters/034-six-speaker/n.png",
+    "/pictures/monsters/034-six-speaker/sr.png",
+    "/pictures/monsters/034-six-speaker/ur.png",
+    "/pictures/monsters/035-rainbow-dragon/n.png",
+    "/pictures/monsters/035-rainbow-dragon/sr.png",
+    "/pictures/monsters/035-rainbow-dragon/ur.png",
+    "/pictures/monsters/036-octopal/n.png",
+    "/pictures/monsters/036-octopal/sr.png",
+    "/pictures/monsters/036-octopal/ur.png",
+    "/pictures/monsters/037-shine-pegasus/n.png",
+    "/pictures/monsters/037-shine-pegasus/sr.png",
+    "/pictures/monsters/037-shine-pegasus/ur.png",
+    "/pictures/monsters/038-massive-golem/n.png",
+    "/pictures/monsters/038-massive-golem/sr.png",
+    "/pictures/monsters/038-massive-golem/ur.png",
+    "/pictures/monsters/039-lightning-fang/n.png",
+    "/pictures/monsters/039-lightning-fang/sr.png",
+    "/pictures/monsters/039-lightning-fang/ur.png",
+    "/pictures/monsters/040-divine-phoenix/n.png",
+    "/pictures/monsters/040-divine-phoenix/sr.png",
+    "/pictures/monsters/040-divine-phoenix/ur.png",
+    "/pictures/monsters/041-kuku-king-gold/n.png",
+    "/pictures/monsters/041-kuku-king-gold/sr.png",
+    "/pictures/monsters/041-kuku-king-gold/ur.png",
+    "/pictures/monsters/042-half-penguin/n.png",
+    "/pictures/monsters/042-half-penguin/sr.png",
+    "/pictures/monsters/042-half-penguin/ur.png",
+    "/pictures/monsters/043-divide-bird/n.png",
+    "/pictures/monsters/043-divide-bird/sr.png",
+    "/pictures/monsters/043-divide-bird/ur.png",
+    "/pictures/monsters/044-share-rabbit/n.png",
+    "/pictures/monsters/044-share-rabbit/sr.png",
+    "/pictures/monsters/044-share-rabbit/ur.png",
+    "/pictures/monsters/045-group-golem/n.png",
+    "/pictures/monsters/045-group-golem/sr.png",
+    "/pictures/monsters/045-group-golem/ur.png",
+    "/pictures/monsters/046-remainder-cat/n.png",
+    "/pictures/monsters/046-remainder-cat/sr.png",
+    "/pictures/monsters/046-remainder-cat/ur.png",
+    "/pictures/monsters/047-quotient-wolf/n.png",
+    "/pictures/monsters/047-quotient-wolf/sr.png",
+    "/pictures/monsters/047-quotient-wolf/ur.png",
+    "/pictures/monsters/048-divide-emperor/n.png",
+    "/pictures/monsters/048-divide-emperor/sr.png",
+    "/pictures/monsters/048-divide-emperor/ur.png",
+    "/pictures/monsters/049-point-slime/n.png",
+    "/pictures/monsters/049-point-slime/sr.png",
+    "/pictures/monsters/049-point-slime/ur.png",
+    "/pictures/monsters/050-tenths-pon/n.png",
+    "/pictures/monsters/050-tenths-pon/sr.png",
+    "/pictures/monsters/050-tenths-pon/ur.png",
+    "/pictures/monsters/051-decimal-cat/n.png",
+    "/pictures/monsters/051-decimal-cat/sr.png",
+    "/pictures/monsters/051-decimal-cat/ur.png",
+    "/pictures/monsters/052-dot-bird/n.png",
+    "/pictures/monsters/052-dot-bird/sr.png",
+    "/pictures/monsters/052-dot-bird/ur.png",
+    "/pictures/monsters/053-zero-tenths-bear/n.png",
+    "/pictures/monsters/053-zero-tenths-bear/sr.png",
+    "/pictures/monsters/053-zero-tenths-bear/ur.png",
+    "/pictures/monsters/054-point-dragon/n.png",
+    "/pictures/monsters/054-point-dragon/sr.png",
+    "/pictures/monsters/054-point-dragon/ur.png",
+    "/pictures/monsters/055-decimal-king/n.png",
+    "/pictures/monsters/055-decimal-king/sr.png",
+    "/pictures/monsters/055-decimal-king/ur.png",
+    "/pictures/monsters/056-half-moon/n.png",
+    "/pictures/monsters/056-half-moon/sr.png",
+    "/pictures/monsters/056-half-moon/ur.png",
+    "/pictures/monsters/057-third-bird/n.png",
+    "/pictures/monsters/057-third-bird/sr.png",
+    "/pictures/monsters/057-third-bird/ur.png",
+    "/pictures/monsters/058-quarter-rabbit/n.png",
+    "/pictures/monsters/058-quarter-rabbit/sr.png",
+    "/pictures/monsters/058-quarter-rabbit/ur.png",
+    "/pictures/monsters/059-numerator-rabbit/n.png",
+    "/pictures/monsters/059-numerator-rabbit/sr.png",
+    "/pictures/monsters/059-numerator-rabbit/ur.png",
+    "/pictures/monsters/060-denominator-bird/n.png",
+    "/pictures/monsters/060-denominator-bird/sr.png",
+    "/pictures/monsters/060-denominator-bird/ur.png",
+    "/pictures/monsters/061-fraction-fairy/n.png",
+    "/pictures/monsters/061-fraction-fairy/sr.png",
+    "/pictures/monsters/061-fraction-fairy/ur.png",
+    "/pictures/monsters/062-fraction-king/n.png",
+    "/pictures/monsters/062-fraction-king/sr.png",
+    "/pictures/monsters/062-fraction-king/ur.png"
+  ]
+}

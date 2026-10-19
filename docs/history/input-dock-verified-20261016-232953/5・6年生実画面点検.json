@@ -1,0 +1,892 @@
+{
+  "date": "2026-10-16",
+  "isolatedProfile": true,
+  "stages": 44,
+  "viewports": [
+    1024,
+    390
+  ],
+  "errors": [],
+  "report": [
+    {
+      "id": "e5-decimalMultiply5",
+      "name": "⚔️ 小数×小数",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "2.4 × 1.8 を、ひっ算で計算しよう。\n\n2\n4\n×\n1\n8\nくり上がり\n□\n一の位で×\n□\n□\n□\nくり上がり\n0\n十の位で×\n□\n□\n□\nくり上がり\n0\n□\n0\n全部の答え\n□\n□\n□\n□\n\n一の位の数でかける：一の位の答えを青い枠へ。\n\n上と下の小数は1けたずつ。整数として計算した積を100分の1に戻すよ。",
+      "outside": []
+    },
+    {
+      "id": "e5-decimalMultiply5",
+      "name": "⚔️ 小数×小数",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2.4 × 1.8 を、ひっ算で計算しよう。\n\n2\n4\n×\n1\n8\nくり上がり\n□\n一の位で×\n□\n□\n□\nくり上がり\n0\n十の位で×\n□\n□\n□\nくり上がり\n0\n□\n0\n全部の答え\n□\n□\n□\n□\n\n一の位の数でかける：一の位の答えを青い枠へ。\n\n上と下の小数は1けたずつ。整数として計算した積を100分の1に戻すよ。",
+      "outside": []
+    },
+    {
+      "id": "e5-decimalDivide5",
+      "name": "⚔️ 小数÷小数",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "3.33 ÷ 0.9\n\nわる数と、わられる数を両方10倍にするよ。商は変わらないよ。\n\n33.3 ÷ 9 を、ひっ算で計算しよう。\n\n9\n−\n−\n3\n3\n3\nあまり\n\n商の十の位をたてようを青い枠へ。\n\n商の小数点は、わられる数の小数点の真上にそろえよう。 たてる → かける → ひく → 下ろす。数字の位をそろえよう。",
+      "outside": []
+    },
+    {
+      "id": "e5-decimalDivide5",
+      "name": "⚔️ 小数÷小数",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "3.33 ÷ 0.9\n\nわる数と、わられる数を両方10倍にするよ。商は変わらないよ。\n\n33.3 ÷ 9 を、ひっ算で計算しよう。\n\n9\n−\n−\n3\n3\n3\nあまり\n\n商の十の位をたてようを青い枠へ。\n\n商の小数点は、わられる数の小数点の真上にそろえよう。 たてる → かける → ひく → 下ろす。数字の位をそろえよう。",
+      "outside": []
+    },
+    {
+      "id": "e5-multiple",
+      "name": "⚔️ 最小公倍数",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "5と2の最小公倍数は？\n赤のまとまり\t5\n青のまとまり\t2\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-multiple",
+      "name": "⚔️ 最小公倍数",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "5と2の最小公倍数は？\n赤のまとまり\t5\n青のまとまり\t2\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-divisor",
+      "name": "⚔️ 最大公約数",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "12と9の最大公約数は？\n赤／たて\t12\n青／横\t9\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-divisor",
+      "name": "⚔️ 最大公約数",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "12と9の最大公約数は？\n赤／たて\t12\n青／横\t9\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-reduce",
+      "name": "⚔️ 約分",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "同じ数で分子と分母をわって、約分しよう。\n\n3\n12\n → \n□\n□\n\n約分した答えの分子を青い枠へ。\n\n分子と分母を同じ数でわろう。",
+      "outside": []
+    },
+    {
+      "id": "e5-reduce",
+      "name": "⚔️ 約分",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "同じ数で分子と分母をわって、約分しよう。\n\n3\n12\n → \n□\n□\n\n約分した答えの分子を青い枠へ。\n\n分子と分母を同じ数でわろう。",
+      "outside": []
+    },
+    {
+      "id": "e5-fractionAdd5",
+      "name": "⚔️ 異分母の足し算",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "分母をそろえて計算し、約分しよう。\n\n1\n2\n ＋ \n3\n4\n\n① そろえる分母：□\n\n□\n□\n ＋ \n□\n□\n\n② 計算して、約分した答え\n\n□\n□\n\n2つの分母に共通する、いちばん小さい分母を青い枠に入れよう。\n\n分母を何倍したら、分子も同じ倍にするよ。約分できない答えは、そのまま入れよう。",
+      "outside": []
+    },
+    {
+      "id": "e5-fractionAdd5",
+      "name": "⚔️ 異分母の足し算",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "分母をそろえて計算し、約分しよう。\n\n1\n2\n ＋ \n3\n4\n\n① そろえる分母：□\n\n□\n□\n ＋ \n□\n□\n\n② 計算して、約分した答え\n\n□\n□\n\n2つの分母に共通する、いちばん小さい分母を青い枠に入れよう。\n\n分母を何倍したら、分子も同じ倍にするよ。約分できない答えは、そのまま入れよう。",
+      "outside": []
+    },
+    {
+      "id": "e5-fractionSub5",
+      "name": "⚔️ 異分母の引き算",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "分母をそろえて計算し、約分しよう。\n\n2\n3\n − \n1\n2\n\n① そろえる分母：□\n\n□\n□\n − \n□\n□\n\n② 計算して、約分した答え\n\n□\n□\n\n2つの分母に共通する、いちばん小さい分母を青い枠に入れよう。\n\n分母を何倍したら、分子も同じ倍にするよ。約分できない答えは、そのまま入れよう。",
+      "outside": []
+    },
+    {
+      "id": "e5-fractionSub5",
+      "name": "⚔️ 異分母の引き算",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "分母をそろえて計算し、約分しよう。\n\n2\n3\n − \n1\n2\n\n① そろえる分母：□\n\n□\n□\n − \n□\n□\n\n② 計算して、約分した答え\n\n□\n□\n\n2つの分母に共通する、いちばん小さい分母を青い枠に入れよう。\n\n分母を何倍したら、分子も同じ倍にするよ。約分できない答えは、そのまま入れよう。",
+      "outside": []
+    },
+    {
+      "id": "e5-ratio5",
+      "name": "⚔️ 割合を小数で表す",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "宝石30このうち、赤は0.4の割合です。赤は何こ？\n全体\t30\n赤\t？\n割合\t0.4\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-ratio5",
+      "name": "⚔️ 割合を小数で表す",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "宝石30このうち、赤は0.4の割合です。赤は何こ？\n全体\t30\n赤\t？\n割合\t0.4\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-percent",
+      "name": "⚔️ 百分率",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "宝石70このうち、赤は60％の割合です。赤は何こ？\n全体\t70\n赤\t？\n割合\t60％\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-percent",
+      "name": "⚔️ 百分率",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "宝石70このうち、赤は60％の割合です。赤は何こ？\n全体\t70\n赤\t？\n割合\t60％\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-unitAmount",
+      "name": "⚔️ 単位量あたり",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "7m²の畑で56kgとれました。1m²あたり何kg？\n広さ\t7m²\n1m²あたり\t？\n全部\t56kg\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-unitAmount",
+      "name": "⚔️ 単位量あたり",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "7m²の畑で56kgとれました。1m²あたり何kg？\n広さ\t7m²\n1m²あたり\t？\n全部\t56kg\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-speed",
+      "name": "⚔️ 速さを求めよう",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "3時間で120km進む探検船。時速は何km？\n速さ\t？\n時間\t3時間\n道のり\t120km\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-speed",
+      "name": "⚔️ 速さを求めよう",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "3時間で120km進む探検船。時速は何km？\n速さ\t？\n時間\t3時間\n道のり\t120km\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-speed_distance",
+      "name": "⚔️ 道のりを求めよう",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "時速10kmの探検船が6時間進みます。道のりは何km？\n速さ\t10km/時\n時間\t6時間\n片道\t？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-speed_distance",
+      "name": "⚔️ 道のりを求めよう",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "時速10kmの探検船が6時間進みます。道のりは何km？\n速さ\t10km/時\n時間\t6時間\n片道\t？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-speed_time",
+      "name": "⚔️ 時間を求めよう",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "探検船は210km先の島へ、時速35kmで進みます。何時間かかる？\n速さ\t35km/時\n時間\t？\n片道\t210km\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-speed_time",
+      "name": "⚔️ 時間を求めよう",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "探検船は210km先の島へ、時速35kmで進みます。何時間かかる？\n速さ\t35km/時\n時間\t？\n片道\t210km\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-average",
+      "name": "⚔️ 平均",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "表の3日間に読んだページの平均は何ページ？\n1日目\t8\n2日目\t10\n3日目\t12\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-average",
+      "name": "⚔️ 平均",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "表の3日間に読んだページの平均は何ページ？\n1日目\t8\n2日目\t10\n3日目\t12\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-percentData",
+      "name": "⚔️ 割合の表",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "好きな遊びを調べた円グラフです。調べた人は700人。外遊びが好きな人は何人？\n50％\n50％\n外遊び\n室内遊び\n全体100％\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-percentData",
+      "name": "⚔️ 割合の表",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "好きな遊びを調べた円グラフです。調べた人は700人。外遊びが好きな人は何人？\n50％\n50％\n外遊び\n室内遊び\n全体100％\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-triangleArea",
+      "name": "⚔️ 三角形の面積",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の三角形の面積は何cm²？\n底辺 8cm\n高さ 3cm\nはじめのヒント：面積の求め方\n\n三角形の面積＝底辺×高さ÷2。高さは、底辺に垂直な長さだよ。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e5-triangleArea",
+      "name": "⚔️ 三角形の面積",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の三角形の面積は何cm²？\n底辺 8cm\n高さ 3cm\nはじめのヒント：面積の求め方\n\n三角形の面積＝底辺×高さ÷2。高さは、底辺に垂直な長さだよ。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e5-parallelogramArea",
+      "name": "⚔️ 平行四辺形の面積",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の平行四辺形の面積は何cm²？\n底辺 6cm\n高さ 3cm\nはじめのヒント：面積の求め方\n\n平行四辺形の面積＝底辺×高さ。ななめの辺と高さを区別しよう。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e5-parallelogramArea",
+      "name": "⚔️ 平行四辺形の面積",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の平行四辺形の面積は何cm²？\n底辺 6cm\n高さ 3cm\nはじめのヒント：面積の求め方\n\n平行四辺形の面積＝底辺×高さ。ななめの辺と高さを区別しよう。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e5-trapezoidArea",
+      "name": "⚔️ 台形の面積",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の台形の面積は何cm²？\n下底 10cm\n上底 4cm\n高さ 4cm\nはじめのヒント：面積の求め方\n\n台形の面積＝（上底＋下底）×高さ÷2。2つの平行な辺を先にたそう。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e5-trapezoidArea",
+      "name": "⚔️ 台形の面積",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の台形の面積は何cm²？\n下底 10cm\n上底 4cm\n高さ 4cm\nはじめのヒント：面積の求め方\n\n台形の面積＝（上底＋下底）×高さ÷2。2つの平行な辺を先にたそう。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e5-rhombusArea",
+      "name": "⚔️ ひし形の面積",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図のひし形の面積は何cm²？\n8cm\n3cm\nはじめのヒント：面積の求め方\n\nひし形の面積＝横の対角線×たての対角線÷2。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e5-rhombusArea",
+      "name": "⚔️ ひし形の面積",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図のひし形の面積は何cm²？\n8cm\n3cm\nはじめのヒント：面積の求め方\n\nひし形の面積＝横の対角線×たての対角線÷2。\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e5-volume5",
+      "name": "⚔️ 直方体の体積",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の直方体の体積は何cm³？\n横 2cm\n高さ\n3cm\n奥行き 4cm\nはじめのヒント：面積の求め方\n\n直方体の体積＝横×奥行き×高さ。\n\n図を見て、数字で答えよう。単位：cm³",
+      "outside": []
+    },
+    {
+      "id": "e5-volume5",
+      "name": "⚔️ 直方体の体積",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の直方体の体積は何cm³？\n横 2cm\n高さ\n3cm\n奥行き 4cm\nはじめのヒント：面積の求め方\n\n直方体の体積＝横×奥行き×高さ。\n\n図を見て、数字で答えよう。単位：cm³",
+      "outside": []
+    },
+    {
+      "id": "e5-circumference",
+      "name": "⚔️ 円周",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の円周は何cm？（円周率3.14）\n直径8cm\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e5-circumference",
+      "name": "⚔️ 円周",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の円周は何cm？（円周率3.14）\n直径8cm\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e5-congruent",
+      "name": "⚔️ 合同な図形",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "2つの三角形は合同です。同じ色の辺が対応します。？の辺は何cm？\n12cm\n？cm\nA\nB\nC\nD\nE\nF\n赤い辺ABとDEが対応\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e5-congruent",
+      "name": "⚔️ 合同な図形",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "2つの三角形は合同です。同じ色の辺が対応します。？の辺は何cm？\n12cm\n？cm\nA\nB\nC\nD\nE\nF\n赤い辺ABとDEが対応\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e5-curriculum-boss",
+      "name": "👑 5年生の冒険まとめ",
+      "world": 5,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "宝石50このうち、赤は0.4の割合です。赤は何こ？\n全体\t50\n赤\t？\n割合\t0.4\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e5-curriculum-boss",
+      "name": "👑 5年生の冒険まとめ",
+      "world": 5,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "宝石50このうち、赤は0.4の割合です。赤は何こ？\n全体\t50\n赤\t？\n割合\t0.4\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionTimesInt",
+      "name": "⚔️ 分数×整数",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "分数を計算し、約分した答えを作ろう。\n\n2\n5\n × 3 ＝ \n□\n□\n\n約分した答えの分子を青い枠へ。\n\n分子どうし、分母どうしをかけよう。途中で約分してもよいよ。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionTimesInt",
+      "name": "⚔️ 分数×整数",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "分数を計算し、約分した答えを作ろう。\n\n2\n5\n × 3 ＝ \n□\n□\n\n約分した答えの分子を青い枠へ。\n\n分子どうし、分母どうしをかけよう。途中で約分してもよいよ。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionDivideInt",
+      "name": "⚔️ 分数÷整数",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "分数を計算し、約分した答えを作ろう。\n\n1\n3\n ÷ 2 ＝ \n□\n□\n\n約分した答えの分子を青い枠へ。\n\nわる数を逆数にしてかけよう。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionDivideInt",
+      "name": "⚔️ 分数÷整数",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "分数を計算し、約分した答えを作ろう。\n\n1\n3\n ÷ 2 ＝ \n□\n□\n\n約分した答えの分子を青い枠へ。\n\nわる数を逆数にしてかけよう。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionMultiply",
+      "name": "⚔️ 分数×分数",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "分数を計算し、約分した答えを作ろう。\n\n1\n3\n × \n4\n6\n ＝ \n□\n□\n\n約分した答えの分子を青い枠へ。\n\n分子どうし、分母どうしをかけよう。途中で約分してもよいよ。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionMultiply",
+      "name": "⚔️ 分数×分数",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "分数を計算し、約分した答えを作ろう。\n\n1\n3\n × \n4\n6\n ＝ \n□\n□\n\n約分した答えの分子を青い枠へ。\n\n分子どうし、分母どうしをかけよう。途中で約分してもよいよ。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionDivide",
+      "name": "⚔️ 分数÷分数",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "分数を計算し、約分した答えを作ろう。\n\n2\n6\n ÷ \n4\n6\n ＝ \n□\n□\n\n約分した答えの分子を青い枠へ。\n\nわる数を逆数にしてかけよう。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionDivide",
+      "name": "⚔️ 分数÷分数",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "分数を計算し、約分した答えを作ろう。\n\n2\n6\n ÷ \n4\n6\n ＝ \n□\n□\n\n約分した答えの分子を青い枠へ。\n\nわる数を逆数にしてかけよう。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionDecimal",
+      "name": "⚔️ 分数と小数の混合",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "3\n10\n＋0.4を、小数で答えよう。\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-fractionDecimal",
+      "name": "⚔️ 分数と小数の混合",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "3\n10\n＋0.4を、小数で答えよう。\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-ratio6",
+      "name": "⚔️ 比の利用",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "赤と青の宝石の比は2：4。赤が6こなら青は何こ？\n色\t赤\t青\n比\t2\t4\n数\t6\t？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-ratio6",
+      "name": "⚔️ 比の利用",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "赤と青の宝石の比は2：4。赤が6こなら青は何こ？\n色\t赤\t青\n比\t2\t4\n数\t6\t？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-ratio_share",
+      "name": "⚔️ 比で分けよう",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "36この宝石を、赤と青に4：5の比で分けます。赤は何こ？\n色\t赤\t青\n比\t4\t5\n全部\t36\tこ\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-ratio_share",
+      "name": "⚔️ 比で分けよう",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "36この宝石を、赤と青に4：5の比で分けます。赤は何こ？\n色\t赤\t青\n比\t4\t5\n全部\t36\tこ\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-proportion",
+      "name": "⚔️ 比例",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "表のxとyは比例しています。xが8のとき、？に入るyの数は？\nx\t1\t2\t3\t8\ny\t6\t12\t18\t？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-proportion",
+      "name": "⚔️ 比例",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "表のxとyは比例しています。xが8のとき、？に入るyの数は？\nx\t1\t2\t3\t8\ny\t6\t12\t18\t？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-inverse",
+      "name": "⚔️ 反比例",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "反比例のグラフです。xが4のとき、yはいくつ？\n0\n0\n5\n2\n10\n4\n15\n6\n20\n8\n25\n10\n30\n12\nx\ny\n\n横はx、たてはy。反比例の関係を、点で表しているよ。\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-inverse",
+      "name": "⚔️ 反比例",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "反比例のグラフです。xが4のとき、yはいくつ？\n0\n0\n5\n2\n10\n4\n15\n6\n20\n8\n25\n10\n30\n12\nx\ny\n\n横はx、たてはy。反比例の関係を、点で表しているよ。\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-letter",
+      "name": "⚔️ 文字を使った式",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "x＝5のとき、6×x＋2はいくつ？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-letter",
+      "name": "⚔️ 文字を使った式",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "x＝5のとき、6×x＋2はいくつ？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-circleArea",
+      "name": "⚔️ 円の面積",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の円の面積は何cm²？（円周率3.14）\n半径3cm\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e6-circleArea",
+      "name": "⚔️ 円の面積",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の円の面積は何cm²？（円周率3.14）\n半径3cm\n\n図を見て、数字で答えよう。単位：cm²",
+      "outside": []
+    },
+    {
+      "id": "e6-scale",
+      "name": "⚔️ 拡大図",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "右は左の図形を1/3に縮小した図です。赤い辺の長さは何cm？\n18cm\n？cm\nもとの図\n1/3の縮小図\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e6-scale",
+      "name": "⚔️ 拡大図",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "右は左の図形を1/3に縮小した図です。赤い辺の長さは何cm？\n18cm\n？cm\nもとの図\n1/3の縮小図\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e6-symmetry",
+      "name": "⚔️ 線対称と点対称",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1024,
+      "question": "点Oを中心とする点対称な図です。対応する点Bから中心Oまで何cm？\nA\nB\nO\n4cm\n？cm\n点Oを中心に半回転すると重なる\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e6-symmetry",
+      "name": "⚔️ 線対称と点対称",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "点Oを中心とする点対称な図です。対応する点Bから中心Oまで何cm？\nA\nB\nO\n4cm\n？cm\n点Oを中心に半回転すると重なる\n\n図を見て、数字で答えよう。単位：cm",
+      "outside": []
+    },
+    {
+      "id": "e6-scale_map",
+      "name": "⚔️ 縮図から道のりを求めよう",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "縮尺1：500の図で、道の長さは7cmです。実際の道のりは何m？\n縮尺\t1：500\n図の長さ\t7cm\n実際\t？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-scale_map",
+      "name": "⚔️ 縮図から道のりを求めよう",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "縮尺1：500の図で、道の長さは7cmです。実際の道のりは何m？\n縮尺\t1：500\n図の長さ\t7cm\n実際\t？\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-prismVolume",
+      "name": "⚔️ 角柱の体積",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の三角柱の体積は何cm³？\n高さ\n4cm\n色のついた底面\n8cm²\n底面積 × 高さ\nはじめのヒント：面積の求め方\n\n角柱の体積＝底面積×高さ。底面積はcm²、高さはcmで読むよ。\n\n図を見て、数字で答えよう。単位：cm³",
+      "outside": []
+    },
+    {
+      "id": "e6-prismVolume",
+      "name": "⚔️ 角柱の体積",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の三角柱の体積は何cm³？\n高さ\n4cm\n色のついた底面\n8cm²\n底面積 × 高さ\nはじめのヒント：面積の求め方\n\n角柱の体積＝底面積×高さ。底面積はcm²、高さはcmで読むよ。\n\n図を見て、数字で答えよう。単位：cm³",
+      "outside": []
+    },
+    {
+      "id": "e6-cylinderVolume",
+      "name": "⚔️ 円柱の体積",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "図の円柱の体積は何cm³？（円周率3.14）\n半径 2cm\n高さ\n4cm\n底面は円\nはじめのヒント：面積の求め方\n\n円柱の体積＝半径×半径×3.14×高さ。底面の円の面積から求めよう。\n\n図を見て、数字で答えよう。単位：cm³",
+      "outside": []
+    },
+    {
+      "id": "e6-cylinderVolume",
+      "name": "⚔️ 円柱の体積",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "図の円柱の体積は何cm³？（円周率3.14）\n半径 2cm\n高さ\n4cm\n底面は円\nはじめのヒント：面積の求め方\n\n円柱の体積＝半径×半径×3.14×高さ。底面の円の面積から求めよう。\n\n図を見て、数字で答えよう。単位：cm³",
+      "outside": []
+    },
+    {
+      "id": "e6-combinations",
+      "name": "⚔️ 場合の数",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "上着7種類とズボン4種類から1つずつ選びます。組み合わせは全部で何通り？\n上着\t合わせられるズボン\n上着1\t1、2、3、4\n上着2\t1、2、3、4\n上着3\t1、2、3、4\n上着4\t1、2、3、4\n上着5\t1、2、3、4\n上着6\t1、2、3、4\n上着7\t1、2、3、4\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-combinations",
+      "name": "⚔️ 場合の数",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "上着7種類とズボン4種類から1つずつ選びます。組み合わせは全部で何通り？\n上着\t合わせられるズボン\n上着1\t1、2、3、4\n上着2\t1、2、3、4\n上着3\t1、2、3、4\n上着4\t1、2、3、4\n上着5\t1、2、3、4\n上着6\t1、2、3、4\n上着7\t1、2、3、4\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-median",
+      "name": "⚔️ 中央値",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "記録は49、13、38、50、37、37です。小さい順に並べたときの中央値はいくつ？\n番号\t1\t2\t3\t4\t5\t6\n記録\t49\t13\t38\t50\t37\t37\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-median",
+      "name": "⚔️ 中央値",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "記録は49、13、38、50、37、37です。小さい順に並べたときの中央値はいくつ？\n番号\t1\t2\t3\t4\t5\t6\n記録\t49\t13\t38\t50\t37\t37\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-mode",
+      "name": "⚔️ 最頻値",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "表は記録と、その記録になった人数です。最頻値（いちばん多く現れる記録）はいくつ？\n記録\t人数\n30\t5\n31\t2\n32\t6\n33\t1\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-mode",
+      "name": "⚔️ 最頻値",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "表は記録と、その記録になった人数です。最頻値（いちばん多く現れる記録）はいくつ？\n記録\t人数\n30\t5\n31\t2\n32\t6\n33\t1\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-frequency",
+      "name": "⚔️ 度数分布と柱状グラフ",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "読書時間が30分以上40分未満の人は何人？\n\n記録（分）：0、10、20、30、39、24、16、21、12、3、27、7、3、23、31\n\n時間（分）\t人数\n0以上10未満\t4\n10以上20未満\t3\n20以上30未満\t5\n30以上40未満\t3\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-frequency",
+      "name": "⚔️ 度数分布と柱状グラフ",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "読書時間が30分以上40分未満の人は何人？\n\n記録（分）：0、10、20、30、39、24、16、21、12、3、27、7、3、23、31\n\n時間（分）\t人数\n0以上10未満\t4\n10以上20未満\t3\n20以上30未満\t5\n30以上40未満\t3\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-curriculum-boss",
+      "name": "👑 6年生の冒険まとめ",
+      "world": 6,
+      "width": 1024,
+      "viewport": 1024,
+      "scroll": 1009,
+      "question": "表は記録と、その記録になった人数です。最頻値（いちばん多く現れる記録）はいくつ？\n記録\t人数\n12\t3\n13\t1\n14\t6\n15\t5\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    },
+    {
+      "id": "e6-curriculum-boss",
+      "name": "👑 6年生の冒険まとめ",
+      "world": 6,
+      "width": 390,
+      "viewport": 390,
+      "scroll": 390,
+      "question": "表は記録と、その記録になった人数です。最頻値（いちばん多く現れる記録）はいくつ？\n記録\t人数\n12\t3\n13\t1\n14\t6\n15\t5\n\n数字を入力して「こたえる」を押そう。",
+      "outside": []
+    }
+  ]
+}

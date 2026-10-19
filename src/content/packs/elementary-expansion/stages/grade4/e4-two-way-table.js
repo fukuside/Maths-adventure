@@ -1,0 +1,1 @@
+export default {id:'e4-two-way-table',sort:298,world:4,unit:'curriculum-データ',unitLabel:'データ',name:'2つの決まりで本を調べよう',type:'two_way_table',isBoss:false,presentation:'persistent',questionCount:10,rewardGems:5};

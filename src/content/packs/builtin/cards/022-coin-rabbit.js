@@ -10,8 +10,8 @@ export default {
   stats: { hp: 186, atk: 79 },
   description: "お金の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/022-coin-rabbit/n.png",
-    SR: "/pictures/monsters/022-coin-rabbit/sr.png",
-    UR: "/pictures/monsters/022-coin-rabbit/ur.png"
+    N: "/pictures/monsters/022-coin-rabbit/n.webp",
+    SR: "/pictures/monsters/022-coin-rabbit/sr.webp",
+    UR: "/pictures/monsters/022-coin-rabbit/ur.webp"
   }
 };

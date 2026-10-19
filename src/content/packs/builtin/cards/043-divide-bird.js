@@ -10,8 +10,8 @@ export default {
   stats: { hp: 249, atk: 121 },
   description: "割り算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/043-divide-bird/n.png",
-    SR: "/pictures/monsters/043-divide-bird/sr.png",
-    UR: "/pictures/monsters/043-divide-bird/ur.png"
+    N: "/pictures/monsters/043-divide-bird/n.webp",
+    SR: "/pictures/monsters/043-divide-bird/sr.webp",
+    UR: "/pictures/monsters/043-divide-bird/ur.webp"
   }
 };

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-17T14:37:24.651Z",
+  "stageId": "e4-areaRectangle",
+  "report": [
+    {
+      "question": 1,
+      "prompt": "図の長方形の面積は何cm²？",
+      "answer": 54
+    },
+    {
+      "question": 2,
+      "prompt": "図の正方形の面積は何cm²？",
+      "answer": 25
+    },
+    {
+      "question": 3,
+      "prompt": "面積が64cm²、たてが8cmです。横の長さは何cm？",
+      "answer": 8
+    },
+    {
+      "question": 4,
+      "prompt": "面積が16cm²、横が4cmです。たての長さは何cm？",
+      "answer": 4
+    },
+    {
+      "question": 5,
+      "prompt": "青い長方形の右に、横1cm・たて9cmの黄色い部分をつけたします。面積は何cm²ふえますか？",
+      "answer": 9
+    },
+    {
+      "question": 6,
+      "prompt": "図の正方形の面積は何cm²？",
+      "answer": 64
+    },
+    {
+      "question": 7,
+      "prompt": "図の長方形の面積は何cm²？",
+      "answer": 20
+    },
+    {
+      "question": 8,
+      "prompt": "花だんは、たて9m、横4mです。面積は何m²？",
+      "answer": 36
+    },
+    {
+      "question": 9,
+      "prompt": "70,000cm²の広さは、何m²ですか？",
+      "answer": 7
+    },
+    {
+      "question": 10,
+      "prompt": "地図の四角い森は、たて3km、横4kmです。面積は何km²？",
+      "answer": 12
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

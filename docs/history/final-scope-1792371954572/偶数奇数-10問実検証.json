@@ -1,0 +1,58 @@
+{
+  "verifiedAt": "2026-10-17T23:45:58.664Z",
+  "stageId": "e5-multiple",
+  "report": [
+    {
+      "question": 1,
+      "answer": 8,
+      "mode": "multiple"
+    },
+    {
+      "question": 2,
+      "answer": 21,
+      "mode": "multiple"
+    },
+    {
+      "question": 3,
+      "answer": 5,
+      "mode": "multiple"
+    },
+    {
+      "question": 4,
+      "answer": 30,
+      "mode": "multiple"
+    },
+    {
+      "question": 5,
+      "answer": 6,
+      "mode": "multiple"
+    },
+    {
+      "question": 6,
+      "answer": 6,
+      "mode": "multiple"
+    },
+    {
+      "question": 7,
+      "answer": 28,
+      "mode": "multiple"
+    },
+    {
+      "question": 8,
+      "answer": 0,
+      "mode": "pairs"
+    },
+    {
+      "question": 9,
+      "answer": 3,
+      "mode": "classification"
+    },
+    {
+      "question": 10,
+      "answer": 22,
+      "mode": "sequence"
+    }
+  ],
+  "errors": [],
+  "cleared": true
+}

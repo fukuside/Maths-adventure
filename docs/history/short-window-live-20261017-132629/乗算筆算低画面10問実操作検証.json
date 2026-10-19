@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-17",
+  "stage": "e3-upper_mul2",
+  "cleared": true,
+  "errors": [],
+  "report": [
+    {
+      "question": 1,
+      "operands": [
+        66,
+        50
+      ],
+      "inputCount": 11
+    },
+    {
+      "question": 2,
+      "operands": [
+        38,
+        95
+      ],
+      "inputCount": 13
+    },
+    {
+      "question": 3,
+      "operands": [
+        85,
+        82
+      ],
+      "inputCount": 12
+    },
+    {
+      "question": 4,
+      "operands": [
+        78,
+        89
+      ],
+      "inputCount": 12
+    },
+    {
+      "question": 5,
+      "operands": [
+        38,
+        88
+      ],
+      "inputCount": 12
+    },
+    {
+      "question": 6,
+      "operands": [
+        54,
+        22
+      ],
+      "inputCount": 10
+    },
+    {
+      "question": 7,
+      "operands": [
+        32,
+        19
+      ],
+      "inputCount": 12
+    },
+    {
+      "question": 8,
+      "operands": [
+        31,
+        47
+      ],
+      "inputCount": 10
+    },
+    {
+      "question": 9,
+      "operands": [
+        91,
+        21
+      ],
+      "inputCount": 11
+    },
+    {
+      "question": 10,
+      "operands": [
+        56,
+        29
+      ],
+      "inputCount": 12
+    }
+  ]
+}

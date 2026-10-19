@@ -10,8 +10,8 @@ export default {
   stats: { hp: 138, atk: 47 },
   description: "足し算の力を身につけたモンスター。",
   images: {
-    N: "/pictures/monsters/006-sum-lion/n.png",
-    SR: "/pictures/monsters/006-sum-lion/sr.png",
-    UR: "/pictures/monsters/006-sum-lion/ur.png"
+    N: "/pictures/monsters/006-sum-lion/n.webp",
+    SR: "/pictures/monsters/006-sum-lion/sr.webp",
+    UR: "/pictures/monsters/006-sum-lion/ur.webp"
   }
 };

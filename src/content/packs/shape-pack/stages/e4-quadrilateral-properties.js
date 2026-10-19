@@ -1,0 +1,1 @@
+export default {id:'e4-quadrilateral-properties',world:4,type:'shape_quadrilateral4',name:'平行四辺形・ひし形・台形',unit:'curriculum-図形',unitLabel:'図形',sort:326,questionCount:10,presentation:'persistent',isBoss:false,rewardGems:5};

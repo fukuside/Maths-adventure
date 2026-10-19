@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-17",
+  "stage": "e2-unit-basic-cm_mm",
+  "cleared": true,
+  "errors": [],
+  "report": [
+    {
+      "question": 1,
+      "answer": 10,
+      "mode": "choice",
+      "text": "1cm＝ □ mm。□に入る数は？\nA\n\n0\n\nB\n\n10\n\nC\n\n20\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 2,
+      "answer": 1,
+      "mode": "choice",
+      "text": "10mm＝ □ cm。□に入る数は？\nA\n\n1\n\nB\n\n0\n\nC\n\n2\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 3,
+      "answer": 90,
+      "mode": "choice",
+      "text": "9cm＝ □ mm。□に入る数は？\nA\n\n80\n\nB\n\n100\n\nC\n\n90\n\n答えのボタンを押してね"
+    },
+    {
+      "question": 4,
+      "answer": 7,
+      "mode": "numeric",
+      "text": "70mm＝ □ cm。□に入る数は？\n\nここからは、数字で答えてみよう！\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 5,
+      "answer": 9,
+      "mode": "numeric",
+      "text": "90mm＝ □ cm。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 6,
+      "answer": 30,
+      "mode": "numeric",
+      "text": "3cm＝ □ mm。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 7,
+      "answer": 3,
+      "mode": "numeric",
+      "text": "30mm＝ □ cm。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 8,
+      "answer": 80,
+      "mode": "numeric",
+      "text": "8cm＝ □ mm。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 9,
+      "answer": 50,
+      "mode": "numeric",
+      "text": "5cm＝ □ mm。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    },
+    {
+      "question": 10,
+      "answer": 6,
+      "mode": "numeric",
+      "text": "60mm＝ □ cm。□に入る数は？\n\n数字を入力して「こたえる」を押そう。"
+    }
+  ]
+}

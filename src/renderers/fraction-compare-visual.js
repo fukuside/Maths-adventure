@@ -162,7 +162,7 @@ export default {
 
 
     return `
-      <div class="fraction-s2-layout">
+      <div class="curriculum-question fraction-lesson-layout fraction-s2-layout">
 
 
         <div class="fraction-s2-prompt">
