@@ -1,0 +1,89 @@
+{
+  "verifiedAt": "2026-10-20T00:18:45.984Z",
+  "bosses": 14,
+  "rows": [
+    {
+      "boss": "w1-addition-boss",
+      "basics": 5,
+      "required": 6
+    },
+    {
+      "boss": "w1-subtraction-boss",
+      "basics": 5,
+      "required": 6
+    },
+    {
+      "boss": "w2-money-boss",
+      "basics": 8,
+      "required": 9
+    },
+    {
+      "boss": "w2-time-boss",
+      "basics": 3,
+      "required": 4
+    },
+    {
+      "boss": "w3-division-boss",
+      "basics": 6,
+      "required": 7
+    },
+    {
+      "boss": "w3-multiplication-boss",
+      "basics": 7,
+      "required": 8
+    },
+    {
+      "boss": "w4-decimal-boss",
+      "basics": 8,
+      "required": 9
+    },
+    {
+      "boss": "w4-fraction-boss",
+      "basics": 3,
+      "required": 4
+    },
+    {
+      "boss": "e1-curriculum-boss",
+      "basics": 26,
+      "required": 27
+    },
+    {
+      "boss": "e2-curriculum-boss",
+      "basics": 46,
+      "required": 47
+    },
+    {
+      "boss": "e3-curriculum-boss",
+      "basics": 35,
+      "required": 36
+    },
+    {
+      "boss": "e4-curriculum-boss",
+      "basics": 25,
+      "required": 26
+    },
+    {
+      "boss": "e5-curriculum-boss",
+      "basics": 22,
+      "required": 23
+    },
+    {
+      "boss": "e6-curriculum-boss",
+      "basics": 20,
+      "required": 21
+    }
+  ],
+  "tests": [
+    "all basics required",
+    "repeat-only blocked",
+    "one pass insufficient",
+    "one pass plus extra unlocks",
+    "early extra retained",
+    "duplicate and partial ignored",
+    "reload preserved",
+    "unrelated and hidden ignored",
+    "legacy boss preserved",
+    "kindergarten unchanged",
+    "empty set stays locked"
+  ]
+}

@@ -6,6 +6,7 @@ import {isCompleteExpressionInput} from './expression-completeness.js';
 import {getRewardAudioContext,addChestLatch} from './reward-audio.js';
 import {writtenRetry} from './written-question.js';
 import {recordTrail,renderTrail} from './challenge-trails.js';
+import {bossUnlockStatus} from './boss-unlock.js';
 import {isInlineChoice} from './inline-choices.js';
 import { renderPlayerPortrait } from "./player-portrait.js";
 import { getStageRewardCards } from "./stage-rewards.js";
@@ -57,6 +58,7 @@ export function createApp(root) {
   let questions = [];
   let qi = 0;
   let challengeRunId = null;
+  let newlyUnlockedBosses = [];
   let input = "";
 
   let earned = null;
@@ -947,10 +949,10 @@ if (a === "player-rename-submit") {
    * ステージ決定
    */
 
-  currentStage =
-    getStage(
-      t.dataset.id
-    );
+  const nextStage=getStage(t.dataset.id);
+  if(!nextStage||!bossUnlockStatus(state,nextStage,stages).unlocked)return;
+  currentStage=nextStage;
+  newlyUnlockedBosses=[];
 
 
   /*
@@ -1774,6 +1776,7 @@ if (isCorrect) {
 }
 
         if (a === "retry-stage") {
+      newlyUnlockedBosses=[];
 
       questions =
         generateQuestions(
@@ -2834,7 +2837,9 @@ function sample(arr){
 }
 
   function finish() {
+  const lockedBefore=stages.filter(s=>s.world===currentStage.world&&s.isBoss&&!s.hiddenFromWorld&&!bossUnlockStatus(state,s,stages).unlocked);
   recordTrail(state,currentStage,challengeRunId,qi,questions.length);
+  newlyUnlockedBosses=lockedBefore.filter(s=>bossUnlockStatus(state,s,stages).unlocked);
   clearQuestionTimers();
   let card;
   let rarity;
@@ -3628,18 +3633,21 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
                       
                       const displayName =
                       stage.name;
+                      const gate=bossUnlockStatus(state,stage,stages);
+                      const gated=stage.isBoss&&stage.world<101;
 
                       return `
                         <button
                           class="
                             stage-button
-                            stage-text-only
+                            stage-text-only ${gate.unlocked?"":"boss-locked"}
                             ${
                               stage.isBoss
                                 ? "boss"
                                 : ""
                             }
                           "
+                          ${gate.unlocked?"":'disabled aria-disabled="true"'}
                           data-action="stage"
                           data-id="${escapeHtml(
                             stage.id
@@ -3664,7 +3672,8 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
                               displayName
                             )}
                           </span>
-                          ${renderTrail(state,stage)}
+                          ${stage.isBoss&&!gate.unlocked?"":renderTrail(state,stage)}
+                          ${gated?`<span class="boss-gate-note">${gate.unlocked?'👑 ボス解放！ 何度でも挑戦できるよ':`🔒 ${gate.scope==='world'?'この学年':'この単元'}の通常ステージを全部★1個＋もう★1個！<br>基礎クリア ${gate.completed}/${gate.total} ・追加の★ ${Math.min(gate.extraStars,1)}/1<br>${gate.missingBasics?`まずは、まだ★のないステージに挑戦しよう！${gate.extraRemaining?' その後、好きなステージでもう1回！':''}`:'基礎は全部クリア！ 好きな通常ステージでもう★1個！'}`}</span><span class="boss-rarity-note">SR以上の獲得率アップ！ 合計76％<br>SR44％・UR32％</span>`:''}
                         </button>
                       `;
 
@@ -5262,7 +5271,7 @@ function renderPartnerCompanion() {
 
   return `
     <section class="stack">
-
+      ${newlyUnlockedBosses.length?`<div class="boss-unlock-celebration" role="status">👑 ★が集まったよ！ ボス解放！<br>${newlyUnlockedBosses.map(s=>escapeHtml(s.name)).join('・')}<br><small>SR以上の獲得率アップ！ 合計76％</small></div>`:''}
       <div class="panel hero">
 
         <div class="hero-icon">

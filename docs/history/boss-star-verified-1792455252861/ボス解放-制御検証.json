@@ -1,0 +1,322 @@
+{
+  "verifiedAt": "2026-10-20T00:13:17.933Z",
+  "bosses": 14,
+  "tests": [
+    "zero locked",
+    "one remaining",
+    "two same-stage clears unlock",
+    "different stages unlock",
+    "partial ignored",
+    "duplicate ignored",
+    "reload persists",
+    "other-world ignored",
+    "previous boss clear preserved",
+    "kindergarten unaffected",
+    "76 vs 45 percent"
+  ],
+  "rows": [
+    {
+      "id": "w1-addition-boss",
+      "normalCandidates": [
+        "w1-addition-1",
+        "w1-addition-2",
+        "w1-addition-3",
+        "w1-addition-4",
+        "w1-addition-5"
+      ],
+      "scope": "unit"
+    },
+    {
+      "id": "w1-subtraction-boss",
+      "normalCandidates": [
+        "w1-subtraction-1",
+        "w1-subtraction-2",
+        "w1-subtraction-3",
+        "w1-subtraction-4",
+        "w1-subtraction-5"
+      ],
+      "scope": "unit"
+    },
+    {
+      "id": "w2-money-boss",
+      "normalCandidates": [
+        "w2-money-1",
+        "w2-money-2",
+        "w2-money-3",
+        "w2-money-4",
+        "w2-money-5",
+        "w2-money-can-buy-1",
+        "w2-money-change-1",
+        "w2-money-shopping-1"
+      ],
+      "scope": "unit"
+    },
+    {
+      "id": "w2-time-boss",
+      "normalCandidates": [
+        "w2-time-5",
+        "w2-time-6",
+        "w2-time-7"
+      ],
+      "scope": "unit"
+    },
+    {
+      "id": "w3-division-boss",
+      "normalCandidates": [
+        "w3-division-1",
+        "w3-division-2",
+        "w3-division-3",
+        "w3-division-4",
+        "w3-division-5",
+        "w3-division-6"
+      ],
+      "scope": "unit"
+    },
+    {
+      "id": "w3-multiplication-boss",
+      "normalCandidates": [
+        "w3-multiplication-1",
+        "w3-multiplication-2",
+        "w3-multiplication-3",
+        "w3-multiplication-4",
+        "w3-multiplication-5",
+        "w3-multiplication-6",
+        "w3-multiplication-7"
+      ],
+      "scope": "unit"
+    },
+    {
+      "id": "w4-decimal-boss",
+      "normalCandidates": [
+        "w4-decimal-1",
+        "w4-decimal-2",
+        "w4-decimal-3",
+        "w4-decimal-4",
+        "w4-decimal-5",
+        "w4-decimal-6",
+        "w4-decimal-7",
+        "w4-decimal-8"
+      ],
+      "scope": "unit"
+    },
+    {
+      "id": "w4-fraction-boss",
+      "normalCandidates": [
+        "w4-fraction-2",
+        "w4-fraction-3",
+        "w4-fraction-4"
+      ],
+      "scope": "unit"
+    },
+    {
+      "id": "e1-curriculum-boss",
+      "normalCandidates": [
+        "w1-addition-1",
+        "w1-addition-2",
+        "w1-addition-3",
+        "w1-addition-4",
+        "w1-addition-5",
+        "w1-subtraction-1",
+        "w1-subtraction-2",
+        "w1-subtraction-3",
+        "w1-subtraction-4",
+        "w1-subtraction-5",
+        "w2-time-1",
+        "w2-time-2",
+        "w2-time-3",
+        "w2-time-4",
+        "e1-compareLength",
+        "e1-number100",
+        "e1-number20",
+        "e1-order",
+        "e1-pictureData",
+        "e1-shapeCount",
+        "e1-measure_decompose",
+        "e1-measure_number200",
+        "e1-shape_compare_area",
+        "e1-shape_compare_capacity",
+        "e1-shape_compare_length",
+        "e1-shape_match_outline"
+      ],
+      "scope": "world"
+    },
+    {
+      "id": "e2-curriculum-boss",
+      "normalCandidates": [
+        "w2-money-1",
+        "w2-money-2",
+        "w2-money-3",
+        "w2-money-4",
+        "w2-money-5",
+        "w2-money-can-buy-1",
+        "w2-money-change-1",
+        "w2-money-shopping-1",
+        "w2-time-5",
+        "w2-time-6",
+        "w2-time-7",
+        "w3-multiplication-1",
+        "w3-multiplication-2",
+        "w3-multiplication-3",
+        "w3-multiplication-4",
+        "w3-multiplication-5",
+        "w3-multiplication-6",
+        "w3-multiplication-7",
+        "e2-capacity",
+        "e2-data-table",
+        "e2-half2",
+        "e2-large2",
+        "e2-length2",
+        "e2-writtenAdd",
+        "e2-writtenSubtract",
+        "e2-measure_capacity_ml",
+        "e2-measure_l_ml",
+        "e2-measure_m_cm",
+        "e2-measure_offset",
+        "e2-measure_ruler_cm",
+        "e2-measure_ruler_mm",
+        "e2-shape_polygon2",
+        "e2-times-table-1",
+        "e2-times-table-2",
+        "e2-times-table-3",
+        "e2-times-table-4",
+        "e2-times-table-5",
+        "e2-times-table-6",
+        "e2-times-table-7",
+        "e2-times-table-8",
+        "e2-times-table-9",
+        "e2-unit-basic-cm_mm",
+        "e2-unit-basic-dl_ml",
+        "e2-unit-basic-l_dl",
+        "e2-unit-basic-l_ml",
+        "e2-unit-basic-m_cm"
+      ],
+      "scope": "world"
+    },
+    {
+      "id": "e3-curriculum-boss",
+      "normalCandidates": [
+        "w3-division-1",
+        "w3-division-2",
+        "w3-division-3",
+        "w3-division-4",
+        "w3-division-5",
+        "w3-division-6",
+        "w4-decimal-1",
+        "w4-decimal-2",
+        "w4-decimal-3",
+        "w4-decimal-4",
+        "w4-decimal-5",
+        "w4-decimal-6",
+        "w4-decimal-7",
+        "w4-decimal-8",
+        "w4-fraction-1",
+        "w4-fraction-5",
+        "w4-fraction-6",
+        "e3-barData",
+        "e3-boxEquation",
+        "e3-circle",
+        "e3-fractionCompare3",
+        "e3-isosceles-sides",
+        "e3-large3",
+        "e3-length3",
+        "e3-remainder",
+        "e3-seconds",
+        "e3-triangle3",
+        "e3-weight",
+        "e3-writtenMultiply",
+        "e3-unit-basic-kg_g",
+        "e3-unit-basic-km_m",
+        "e3-unit-basic-t_kg",
+        "e3-upper_mul2",
+        "e3-upper_mul3",
+        "e3-upper_weight_t"
+      ],
+      "scope": "world"
+    },
+    {
+      "id": "e4-curriculum-boss",
+      "normalCandidates": [
+        "w4-fraction-2",
+        "w4-fraction-3",
+        "w4-fraction-4",
+        "e4-angle",
+        "e4-areaRectangle",
+        "e4-changing-table",
+        "e4-cube_net",
+        "e4-decimalIntDivide",
+        "e4-decimalIntMultiply",
+        "e4-decimalPlaces4",
+        "e4-large4",
+        "e4-lineData",
+        "e4-mixedFraction4",
+        "e4-orderOperations",
+        "e4-position",
+        "e4-two-way-table",
+        "e4-writtenDivide",
+        "e4-graph_line_change",
+        "e4-graph_line_read",
+        "e4-line-relations",
+        "e4-composite-area",
+        "e4-quadrilateral-properties",
+        "e4-upper_decimal_add",
+        "e4-upper_decimal_sub",
+        "e4-upper_thousandths"
+      ],
+      "scope": "world"
+    },
+    {
+      "id": "e5-curriculum-boss",
+      "normalCandidates": [
+        "e5-average",
+        "e5-circumference",
+        "e5-congruent",
+        "e5-decimalDivide5",
+        "e5-decimalMultiply5",
+        "e5-divisor",
+        "e5-fractionAdd5",
+        "e5-fractionSub5",
+        "e5-multiple",
+        "e5-parallelogramArea",
+        "e5-percent",
+        "e5-percentData",
+        "e5-ratio5",
+        "e5-reduce",
+        "e5-rhombusArea",
+        "e5-speed",
+        "e5-trapezoidArea",
+        "e5-triangleArea",
+        "e5-unitAmount",
+        "e5-volume5",
+        "e5-speed_distance",
+        "e5-speed_time"
+      ],
+      "scope": "world"
+    },
+    {
+      "id": "e6-curriculum-boss",
+      "normalCandidates": [
+        "e6-circleArea",
+        "e6-combinations",
+        "e6-cylinderVolume",
+        "e6-fractionDecimal",
+        "e6-fractionDivide",
+        "e6-fractionDivideInt",
+        "e6-fractionMultiply",
+        "e6-fractionTimesInt",
+        "e6-frequency",
+        "e6-inverse",
+        "e6-letter",
+        "e6-median",
+        "e6-mode",
+        "e6-prismVolume",
+        "e6-proportion",
+        "e6-ratio6",
+        "e6-scale",
+        "e6-symmetry",
+        "e6-ratio_share",
+        "e6-scale_map"
+      ],
+      "scope": "world"
+    }
+  ]
+}

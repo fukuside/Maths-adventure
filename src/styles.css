@@ -18222,3 +18222,10 @@ body:has(.inline-choice-question){overflow-y:auto!important}
  .main .game-area.input-dock-game:has(.expression-operation-key) .partner-companion strong{font-size:13px!important;}
  .main .game-area.input-dock-game:has(.expression-operation-key) .partner-companion p{font-size:12px!important;padding:2px 4px!important;}
 }
+
+/* Boss access is derived from existing stars, never a new save flag. */
+.main .stage-grid .stage-button.boss-locked{opacity:1!important;cursor:default!important;background:linear-gradient(135deg,#29384d,#1b2639)!important;border:2px dashed #7896ac!important;box-shadow:none!important;transform:none!important;}
+.main .stage-grid .stage-button .boss-gate-note,.main .stage-grid .stage-button .boss-rarity-note{display:block!important;width:100%!important;white-space:normal!important;font-size:14px!important;line-height:1.55!important;text-shadow:none!important;letter-spacing:normal!important;}
+.main .stage-grid .stage-button .boss-gate-note{color:#eff8ff!important;margin-top:8px!important;}
+.main .stage-grid .stage-button .boss-rarity-note{color:#ffe395!important;margin-top:6px!important;}
+.boss-unlock-celebration{padding:18px;border:2px solid #ffce64;border-radius:18px;background:#29324b;color:#ffe395;text-align:center;font-size:22px;line-height:1.6;}.boss-unlock-celebration small{font-size:16px;}
