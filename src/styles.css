@@ -18229,3 +18229,16 @@ body:has(.inline-choice-question){overflow-y:auto!important}
 .main .stage-grid .stage-button .boss-gate-note{color:#eff8ff!important;margin-top:8px!important;}
 .main .stage-grid .stage-button .boss-rarity-note{color:#ffe395!important;margin-top:6px!important;}
 .boss-unlock-celebration{padding:18px;border:2px solid #ffce64;border-radius:18px;background:#29324b;color:#ffe395;text-align:center;font-size:22px;line-height:1.6;}.boss-unlock-celebration small{font-size:16px;}
+
+/* Optional parent survey: permanent entry and a quiet post-reward invitation. */
+.landing-bottom-left{flex-wrap:wrap;gap:12px;}
+.survey-permanent-link{white-space:normal;text-align:left;}
+.survey-invitation{padding:16px;border:1px solid #64849a;border-radius:14px;background:#182b40;color:#f3f7fa;text-align:left;}
+.survey-invitation p{font-size:14px;line-height:1.65;margin:8px 0 12px;}
+.survey-invitation-actions{display:flex;gap:10px;flex-wrap:wrap;}
+.survey-invitation-actions .button{font-size:14px;min-height:44px;flex:1 1 160px;text-align:center;text-decoration:none;}
+/* Keep the parent survey clear of the creator credit on the title screen. */
+.landing-bottom{bottom:max(54px,calc(env(safe-area-inset-bottom) + 44px));}
+.landing-bottom-left{display:grid;grid-template-columns:auto auto;gap:8px;}
+.landing-bottom-left .survey-permanent-link{grid-column:1/-1;justify-self:start;}
+.landing-creator{bottom:max(12px,env(safe-area-inset-bottom));}

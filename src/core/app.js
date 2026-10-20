@@ -1,3 +1,4 @@
+import {surveyLink,surveyInvitation,snoozeSurvey} from './survey-invitation.js';
 import {bgmTracks} from './bgm-tracks.js';
 import {isSoundEnabled,setSoundEnabled,watchSound,connectSoundOutput} from './sound-preferences.js';
 import {createBgmController} from './bgm-controller.js';
@@ -669,6 +670,7 @@ root.addEventListener(
   if (!a) {
     return;
   }
+    if (a === "survey-later") { snoozeSurvey(localStorage); render(); return; }
     if (a === "change-course") {
       const course = t.dataset.course;
       if (!["kindergarten", "elementary"].includes(course)) return;
@@ -3517,6 +3519,7 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
     >
       ✉ お問い合わせ
     </a>
+    ${surveyLink()}
 
   </div>
 
@@ -5377,6 +5380,7 @@ function renderPartnerCompanion() {
           : ""
       }
 
+      ${cardRevealed&&!chestOpening?surveyInvitation(localStorage):""}
     </section>
   `;
 }
