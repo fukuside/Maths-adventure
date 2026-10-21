@@ -1,0 +1,20 @@
+[
+  {
+    "key": "016-hour-owl_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 016-hour-owl N. Extract exact single brown/cream owl scholar with large gold/black eyes, yellow beak, navy mortarboard and gold tassel, navy/gold star cape and bow with blue jewel, both golden taloned feet, complete hourglass held in wing with glass and golden sand. Preserve exact identity, original nearly frontal pose, costume, feather detail and equipment. Remove white background, floating sparkles/gold swirls, floor magic circle, ground and shadow. True transparent alpha square PNG, whole character including cap/tassel/hourglass/claws centered, 15–20% empty margin, no crop/text/frame/redesign. Same game illustration.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-ce8f74c6-8099-47ab-ac5a-49d77f9359b0.png",
+    "facing": "front"
+  },
+  {
+    "key": "017-clock-cat_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 017-clock-cat N (the supplied picture depicts a leaf dragon, preserve that exact creature despite filename). Extract exact cream/light-green baby dragon with green eyes, leafy head crest/ears, two complete branching wooden antlers with attached leaves, leaf collar, green crystal pendant, green back spines, all paws/toes, complete curling leaf-tipped tail. Keep original identity, smiling face, standing nearly frontal three-quarter pose, colors and game illustration. Remove white background, detached leaves/sparkles/swirl effects, ground magic circle and shadow. Full body centered square PNG, genuine transparent alpha, 15–20% empty margin. No crop, text, frame, redesign, new equipment; do not change into cat or add clock.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-ec2f3b83-2be8-4819-85db-bf0d71818086.png",
+    "facing": "front"
+  },
+  {
+    "key": "018-bell-bird_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 018-bell-bird N. Extract exact single orange/gold/cream singing bird, orange crest, brown eyes, rosy cheeks, open yellow beak, green scarf with gold treble-clef clasp, complete blue/orange wing tips and tail, both golden taloned feet, full gold pocketwatch held in wing including top ring and music symbol on face. Preserve identity, proportions, nearly left three-quarter pose, expression and original game illustration. Remove beige background, landscape/plants/stones/ground, detached notes/leaves/sparkles/swirl effects and cast shadow. Full body with all accessories centered square PNG, true transparent alpha, 15–20% empty margin, no crop/frame/added text/redesign. Keep existing watch emblem only.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-40c9601d-1bc6-45cf-9a82-71c93dc37d36.png",
+    "facing": "left"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "key": "013-sub-wolf_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 013-sub-wolf N card. Extract exactly the single cute dark-blue wolf, golden eyes, cream eyebrows/muzzle/chest, purple scarf with gold geometric decorations, all four paws, complete pointed ears and full blue/white-tipped bushy tail. Keep exact identity, expression, proportions, clothing and left three-quarter standing pose. Remove white background, all detached purple flames/sparkles, magic circle, ground and cast shadow. Full body centered, genuine transparent alpha square PNG, 15–20% empty margin, no crop, text, frame, redesign or new objects. Preserve original game illustration.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-288a77b2-689e-4f18-a6f0-74c7c8628ad5.png",
+    "facing": "left"
+  },
+  {
+    "key": "014-minus-king_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 014-minus-king N. Isolate exact single gray/cream cat king with purple eyes, complete tall gold/purple crown including top cross, purple/gold royal robe and fur-trimmed cape, gold shoes, full staff with purple orb/gold cross, hands and bushy tail. Preserve exact identity, expression, costume, jewelry, staff and original nearly frontal three-quarter standing pose. Remove white background, detached purple flame effects, sparkles, magic circle, ground and cast shadow. Entire character and complete crown/staff centered square PNG, actual transparent alpha, 15–20% clear margin, no crop/text/frame/redesign/new objects. Original game illustration.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-2c596adc-077c-4fe6-a863-a7c06e6bfe85.png",
+    "facing": "front"
+  },
+  {
+    "key": "015-minute-mouse_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 015-minute-mouse N. Extract exact single gray mouse, large round pink ears, black eyes, pink nose, white muzzle/chest, thin whiskers, complete pink curved tail and both pink feet, holding complete gold hourglass with clear glass and golden sand. Preserve identity, expression, pose, proportions, paws and hourglass detail. Remove white background, detached golden sparkles/swirl trails, floor magic circle, ground and cast shadow. Maintain actual glass transparency where visible. Full body and entire hourglass centered square PNG, genuine transparent alpha, 15–20% clear margin, no crop/text/frame/redesign/new objects. Same game illustration; original nearly frontal pose retained.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-32269dce-b296-4fc6-94be-e967cdf4ec7b.png",
+    "facing": "front"
+  }
+]

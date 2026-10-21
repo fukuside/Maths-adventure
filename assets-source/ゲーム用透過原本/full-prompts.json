@@ -1,0 +1,14 @@
+[
+  {
+    "key": "kg-001_N",
+    "prompt": "Use case: background-extraction. Edit target is the supplied monster card image. Remove only all environment, landscape, ground, shadows on ground, floating scenery and background. Preserve the exact original single character identity, colors, face, expression, pose, equipment, and game-illustration painting. Isolate the complete monster including head, arms, legs, tail/wings/leaf/accessories as applicable. True transparent alpha background, not checkerboard artwork. Center full body with 15 percent clear margin, no text, no card frame, no new effects. Output a square transparent PNG game sprite."
+  },
+  {
+    "key": "kg-004_SR",
+    "prompt": "Use case: background-extraction. Edit the supplied bear monster card. Remove only the entire forest, grass, flowers, ground and cast shadow. Preserve exactly the bear character, face, fur, pose, blue cape, blue jewel, belt and pencil staff. True transparent alpha, no scenery or checkerboard artwork. Complete full body centered with 15 percent margin. No redesign, text, card border or added effects. Output square transparent PNG game sprite."
+  },
+  {
+    "key": "kg-006_N",
+    "prompt": "Use case: background-extraction. Edit the supplied green rainbow dragon monster card. Remove only entire landscape, rainbow sky, grass, flowers, ground and ground shadow. Preserve exactly the single green dragon identity, blue eyes, face, golden horns, rainbow wings, purple chest jewel, pose, arms, feet and rainbow tail. True transparent alpha background, no checkerboard artwork or scenery. Full body centered with 15 percent clear margin. No redesign, no text or border. Square transparent PNG game sprite."
+  }
+]

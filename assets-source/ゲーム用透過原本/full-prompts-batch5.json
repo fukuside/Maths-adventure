@@ -1,0 +1,20 @@
+[
+  {
+    "key": "007-plus-emperor_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 007-plus-emperor N. Extract original cream bear emperor with black curled moustache, closed smiling eyes, purple/gold jeweled crown, fur-trimmed purple royal robe covered in gold plus motifs, complete matching staff and purple plus orb. Keep identical identity, expression, original standing pose, all hands/feet, staff tip, crown and full cape edges. Remove white background, purple aura, sparks, floor magic circle and ground shadows. One full-body centered square PNG with genuine transparent alpha and 15–20% clear margin. No crop, text, frame, added objects or redesign. Original game illustration style. Preserve front-facing pose.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d1d2f924-6aeb-4716-931f-5fac5cb2b372.png",
+    "facing": "front"
+  },
+  {
+    "key": "008-minus-fox_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 008-minus-fox N. Keep original small navy blue fox, purple forehead/cheek tufts, amber eyes, cream muzzle/chest/paws/tail tip, purple gold-trimmed neck scarf and purple gem clasp. Preserve exact face, expression, original four-legged pose, complete ears/tail/all visible paws and scarf. Remove white background, purple swirls, all detached sparkles, floor aura and shadows. Single full body centered square PNG, true transparent alpha with 15–20% clear margin, no crop/text/frame/new objects/redesign. Same game illustration rendering, keep left three-quarter original facing; runtime mirror handles rightward game direction.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ab89e1af-6ca3-4b0a-bef9-5e36fd2a24a7.png",
+    "facing": "left"
+  },
+  {
+    "key": "009-take-cat_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 009-take-cat N. Isolate exact grey striped cat thief with golden eyes, cream muzzle/paws, cheeky smile and two little fangs, purple neck scarf, wooden pole held in both paws and whole tied brown sack hanging from it. Preserve original standing pose, identity, all ears/feet/tail/pole/sack edges and clothing. Remove white background, purple smoke/swirl/sparkles, floor aura and cast shadows. Single complete character centered square PNG with genuine transparent alpha and 15–20% empty margin. No crop/text/cardframe/added objects/redesign. Same game illustration rendering. Keep original front-facing expression, do not claim side view.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-cf8815af-1e15-4a26-804d-5ef307c29319.png",
+    "facing": "front"
+  }
+]

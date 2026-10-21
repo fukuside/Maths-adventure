@@ -1,0 +1,20 @@
+[
+  {
+    "key": "010-remove-mole_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 010-remove-mole N. Make a game cutout of same single dark brown mole with pink snout, black eyes, thin whiskers, brown/gold mining helmet and blue goggles, holding exact full shovel in same hand and exposed pink clawed opposite paw. Remove white background, dirt/rocks/crystals, dust and all ground/shadow. The source buries lower body: complete only the concealed lower torso with a compact rounded dark-brown body and two small matching clawed feet, maintaining original proportions and identity, do not add clothing/weapons. Keep head/helmet/face/shovel unchanged. Entire full character and whole shovel centered, true transparent alpha square PNG, 15–20% empty margin, no crop/text/frame/effects. Original game illustration. Retain original left three-quarter facing.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-51c26b6f-e1da-43e4-8d0f-24c5cadf7895.png",
+    "facing": "left"
+  },
+  {
+    "key": "011-diff-bird_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 011-diff-bird N. Extract exact single split-color bird: left half orange/fire feathers and amber eye, right half blue/ice feathers and blue eye, white face/chest center, yellow beak, two complete spread wings and two golden clawed feet. Preserve exact identity, pose, face, full wing tips, tail, color division and feather detail. Remove white background, detached flames/ice chips, floor fire/water arcs, sparkles and shadows. Do not remove the actual orange or blue wing feathers. Full body centered square PNG, genuine transparent alpha with 15–20% clear margin, no crop/text/frame/new objects/redesign. Same game illustration. Keep original frontal pose.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-472f3f79-bfce-48ed-bfb2-9b98339519f5.png",
+    "facing": "front"
+  },
+  {
+    "key": "012-back-bear_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 012-back-bear N. Isolate exact single blue bear with cream muzzle, black eyes/nose, rosy cheeks, brown leather backpack, rolled brown bedroll and both paws holding backpack straps. Preserve original proportions, expression, three-quarter standing pose, full ears/feet/paws/backpack/straps and equipment. Remove white background, clovers/leaves/sparkles, golden wind arcs, grass/flowers/ground and cast shadow. Full body centered square PNG, actual transparent alpha with 15–20% clear margin, no crop/text/frame/new equipment/redesign. Original game illustration, retain left three-quarter facing for game mirror.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2fcd52a8-4e44-410d-a98a-9eaddfd66a72.png",
+    "facing": "left"
+  }
+]

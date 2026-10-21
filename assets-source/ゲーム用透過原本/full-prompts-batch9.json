@@ -1,0 +1,21 @@
+[
+  {
+    "key": "019-time-rabbit_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 019-time-rabbit N. Isolate exact single white rabbit with red/brown eyes, long complete pink-lined ears, red flowing scarf with all ends, tiny round tail, paws and both complete feet, holding the complete golden pocketwatch with ring and original dial. Preserve original cute face, proportions, colors, lifted-foot running pose and left three-quarter orientation. Remove beige background, music notes/sparkles/gold swirls, stones/ground/magic circle/shadow. Full character centered square PNG with true transparent alpha and 15–20% clear margin. No crop, text additions, card frame, redesign or new objects. Original game illustration.\nCleanup prompt: Use case: background-extraction cleanup. Edit target supplied transparent 019-time-rabbit cutout. Remove the detached white/gold flecks between the long ears and any detached specks outside the character silhouette, leaving true transparent alpha there. Keep the rabbit, exact face/body/running pose, both full ears and feet, red scarf ends, tail, gold pocketwatch and its dial entirely unchanged. Full body centered square transparent PNG, no new objects/text/effects, 15–20% empty margin. Only clean detached background residue; do not repaint the character.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-454bdff7-d24c-4083-982f-c5881efa1847.png",
+    "firstPass": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-e055b7b8-fb29-4a71-9f72-ffb5ccd6b975.png",
+    "facing": "left"
+  },
+  {
+    "key": "020-chrono-wolf_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 020-chrono-wolf N. Isolate exact single dark blue wolf with bright cyan eyes, cream eyebrows/muzzle/chest and paws, blue forehead diamond and small embedded crystal markings, black leather collar/harness with complete gold gear medallion, full ears, all four clawed paws and full white-tipped bushy tail. Preserve exact identity, expression, proportions and left three-quarter standing pose. Remove beige background, all detached water arcs/droplets/crystals/sparkles, floor water circle/ground and shadow. Full body centered square PNG, true transparent alpha, 15–20% clear margin, no crop/text/frame/redesign/new equipment. Same original game illustration.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-c14c2618-dedb-409f-91a5-d0d6a4edf302.png",
+    "facing": "left"
+  },
+  {
+    "key": "021-chrono-king_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 021-chrono-king N. Isolate exact single cream-gray cat king: blue eyes, pink nose, white beard/moustache, complete navy/gold crown with top cross and pink jewels, purple/gold star robes and full cape, belt pocketwatch, all paws/feet, complete tall purple/gold clock staff with top cross and lower jewel tip. Preserve exact identity, nearly frontal standing pose, proportions, face, equipment and painting. Remove beige background, large floating clock halo, detached purple flames/gold swirls/sparkles, floor magic circle, ground and shadow. Full body and complete crown/staff centered square PNG, genuine transparent alpha, 15–20% clear margin. No crop/text additions/frame/redesign/new objects. Same game illustration.",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-797dc145-3be5-448c-91b6-c0259abe202d.png",
+    "facing": "front"
+  }
+]

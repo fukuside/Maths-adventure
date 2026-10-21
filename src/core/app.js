@@ -1,3 +1,4 @@
+import {rewardLobby,purchaseEntry} from './reward-games.js';
 import {surveyLink,surveyInvitation,snoozeSurvey} from './survey-invitation.js';
 import {bgmTracks} from './bgm-tracks.js';
 import {isSoundEnabled,setSoundEnabled,watchSound,connectSoundOutput} from './sound-preferences.js';
@@ -51,6 +52,7 @@ export function createApp(root) {
   let screen = "landing";
   // コースは画面の選択状態だけに保持し、既存セーブを変更しない。
   let selectedCourse = "elementary";
+  let rewardFromTop=false;
   function isKindergartenStage(stage = currentStage) {
     return stage?.packId === "kindergarten" || stage?.course === "kindergarten";
   }
@@ -670,6 +672,12 @@ root.addEventListener(
   if (!a) {
     return;
   }
+    if(a==='reward-top'){rewardFromTop=true;screen=getPlayers().length?'player-select':hasLegacySave()?'legacy-migrate':'player-create';render();return;}
+    if(a==='reward-enter'){
+      if(screen!=='reward-lobby'||!getActivePlayer()||!unlockedPartnerEntries().length)return;
+      const entry=purchaseEntry(state.gems,t.dataset.game);if(!entry)return;
+      state.gems=entry.gems;screen='reward-play';render();persistState(state);return;
+    }
     if (a === "survey-later") { snoozeSurvey(localStorage); render(); return; }
     if (a === "change-course") {
       const course = t.dataset.course;
@@ -681,6 +689,7 @@ root.addEventListener(
       return;
     }
     if (a === "landing-start" || a === "select-course") {
+      rewardFromTop=false;
       if (a === "select-course") {
         const course = t.dataset.course;
         if (!["kindergarten", "elementary"].includes(course)) return;
@@ -759,8 +768,8 @@ if (a === "player-select") {
     }
 
 
-    screen =
-      "title";
+    screen = rewardFromTop ? "reward-lobby" : "title";
+    rewardFromTop=false;
 
 
     render();
@@ -802,7 +811,8 @@ if (a === "player-create-submit") {
     playerMessage = "";
     playerError = "";
 
-    screen = "title";
+    screen = rewardFromTop ? "reward-lobby" : "title";
+    rewardFromTop=false;
 
     render();
   } catch (error) {
@@ -2948,6 +2958,7 @@ function sample(arr){
     if(isSoundEnabled()&&!stageBgmFading&&((changed&&status.fading)||(!status.playing&&!status.pending&&(changed||changedTrack))))void titleMusic.play();
   }
   function render() {
+  if(screen==='reward-play'&&root.querySelector('.reward-game-frame'))return;
   syncScreenBgm();
 
   if (screen === "landing") {
@@ -2956,7 +2967,7 @@ function sample(arr){
   }
 
   root.innerHTML = `
-    <div class="app-shell">
+    <div class="app-shell ${screen==='reward-play'?'reward-mode':''}">
 
       <header class="app-header">
         <h1 class="brand">⚔️ Maths-adventure</h1>
@@ -2991,6 +3002,13 @@ function sample(arr){
   `;
 }
   function body() {
+  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length);
+  if(screen==='reward-play'){
+    const owned=unlockedPartnerEntries().filter(x=>['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
+    const source='/reward-games/monster-run.html?player='+encodeURIComponent(getActivePlayer()?.playerId||'guest')+'#'+encodeURIComponent(JSON.stringify(owned));
+    return '<section class="reward-play-shell"><button class="reward-exit button secondary" data-action="go" data-screen="title">学習へ戻る</button><iframe class="reward-game-frame" title="モンスターお宝ラン" src="'+escapeHtml(source)+'" allow="fullscreen"></iframe></section>';
+  }
+
   if (screen === "player-select") {
     return playerSelect();
   }
@@ -3316,6 +3334,7 @@ function legacyMigrate() {
 
 </div>
 
+      <div class="panel"><button class="button" data-action="go" data-screen="reward-lobby">🎮 ごほうびゲームへ</button><p>算数で集めたダイヤを使って遊ぼう！</p></div>
       <!-- WORLD案内 -->
       <div class="panel hero course-banner ${isKindergarten ? 'course-banner-kindergarten' : 'course-banner-elementary'}">
         <img class="course-banner-image" src="/images/banners/${isKindergarten ? 'kindergarten-adventure' : 'elementary-adventure'}.webp" alt="" fetchpriority="high" decoding="async">
@@ -3483,6 +3502,7 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
         </button>
 
 
+        <button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button>
         <!-- サブボタン -->
         <div class="landing-sub-buttons">
 

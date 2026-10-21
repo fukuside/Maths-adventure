@@ -1,0 +1,20 @@
+[
+  {
+    "key": "004-apple-bear_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 004-apple-bear N. Keep exactly the red/orange apple bear, green head leaf/stem, amber eyes, cream muzzle, brown backpack and large red apple held by both paws. Preserve original expression, body, ears, feet, hands, pose and equipment. Remove white background, surrounding separate apples, clovers, sparks, grass, flowers, ground and all cast shadows. Entire single character and held apple, centered square PNG, actual transparent alpha, 15–20% empty margin, no crop, frame, text, added objects or redesign. Keep game illustration style and original left three-quarter facing, runtime mirror handles right movement.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a12cc6de-57cc-4c6d-8398-045f77661ee7.png",
+    "facing": "left"
+  },
+  {
+    "key": "005-carry-fox_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 005-carry-fox N. Isolate original full orange fox adventurer with cream muzzle/chest/tail tip, amber eyes, black-tipped ears, green neck scarf, brown backpack with rolled green bedroll, held brown suitcase with blue tag. Preserve exact cheerful face, walking pose and all accessories including whole tail, both ears, feet, case and straps. Remove white background, orbiting gold light, detached leaves/clovers/sparkles, grass/ground/shadow. Actual transparent alpha square PNG, centered full body with 15–20% empty margin, no crop, no text/frame/redesign. Same original game illustration. Keep original left-facing pose for runtime mirroring.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-71174916-0305-4f65-b7fd-96c12c9f93c6.png",
+    "facing": "left"
+  },
+  {
+    "key": "006-sum-lion_N",
+    "prompt": "Use case: background-extraction. Edit target supplied 006-sum-lion N. Isolate exact gold lion warrior with orange-red mane, amber eyes, serious cute face, red/gold/black armor, boots and belt, curved steel sword with gold hilt, complete tail and tuft. Preserve face, original standing pose, every armor piece, both ears/feet/hands, full sword tip and tail. Remove white background, golden fire rings, detached particles, grass, ground and cast shadow. Single complete character centered square PNG, true transparent alpha with 15–20% empty margin, no crop, text, frame, new effects or redesign. Original game illustration style; original left three-quarter facing retained for runtime mirror.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e3f21820-d0f1-49c0-a829-753b37676d87.png",
+    "facing": "left"
+  }
+]

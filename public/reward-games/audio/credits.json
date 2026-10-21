@@ -1,0 +1,18 @@
+[
+  {
+    "name": "diamond-trail",
+    "bpm": 120,
+    "seconds": 32.0,
+    "master": "C:\\Users\\user\\.codex\\visualizations\\2026\\10\\12\\01a12e0b-5276-7060-9999-a044ffd69a64\\game-music\\diamond-trail.wav",
+    "gameFile": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\audio\\diamond-trail.mp3",
+    "composition": "Original instrumental composition synthesized locally: melody, arpeggio, bass and percussion; no source song or samples."
+  },
+  {
+    "name": "boss-gate",
+    "bpm": 144,
+    "seconds": 26.666666666666668,
+    "master": "C:\\Users\\user\\.codex\\visualizations\\2026\\10\\12\\01a12e0b-5276-7060-9999-a044ffd69a64\\game-music\\boss-gate.wav",
+    "gameFile": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\audio\\boss-gate.mp3",
+    "composition": "Original instrumental composition synthesized locally: melody, arpeggio, bass and percussion; no source song or samples."
+  }
+]

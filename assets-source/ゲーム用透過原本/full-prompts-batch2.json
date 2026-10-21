@@ -1,0 +1,32 @@
+[
+  {
+    "key": "kg-002_N",
+    "prompt": "Use case: background-extraction. Edit target: supplied kg-002 N card image, white seated rabbit with blue eyes, long pink inner ears and turquoise/gold bead necklace. Remove ONLY the entire meadow/sky/flowers/leaves/environment and ground shadow to true transparent alpha. Preserve the exact same individual, facial expression, fur colors, necklace, seated pose, both feet, tail and complete ears. Single full-body game sprite centered in a square PNG, 15–20% empty margin around complete silhouette, no crop, no text, no frame, no floor, no scenery, no invented equipment. Retain game illustration rendering. Output actual transparent background.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f665749b-ed25-4420-ae8f-6d922fa2df5b.png"
+  },
+  {
+    "key": "kg-003_N",
+    "prompt": "Use case: background-extraction. Edit target: supplied kg-003 N orange fox card. Remove ONLY the complete forest, river, rocks, leaves, flowers, floor and ground shadows. Keep the exact orange baby fox, green eyes, cream muzzle/chest/paws/tail tip, turquoise collar and gold circle/triangle/square pendants, same smiling expression and standing pose. Full body including both ears, all visible paws and whole fluffy tail. Center in square PNG with 15–20% empty margin all sides. True transparent alpha background. No scenery, floating leaves, sparks, text, frame, shadows or new objects. Preserve original game illustration character identity and details.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2e6cbf4e-4a23-428a-a25b-ab727c149f52.png"
+  },
+  {
+    "key": "kg-005_N",
+    "prompt": "Use case: background-extraction. Edit target: supplied kg-005 N purple/cream kitten card. Remove ONLY the complete garden, path, trees, flowers, butterflies, petals, glow and all ground shadows. Keep the exact kitten identity, lavender fur and cream muzzle/chest/feet/tail tip, large blue eyes, pink nose, raised front paw with pads, pink-blue neck bow and golden star medallion, same smile and pose. Preserve complete ears, raised paw, feet, flowing ribbon and tail. One full-body game sprite centered square PNG, 15–20% empty margin all sides, no crop. True transparent alpha, no background, no particles, floor, frame or text. Keep original game illustration style.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-feed8118-f13b-4181-b809-de5bc2a87929.png"
+  },
+  {
+    "key": "kg-004_N",
+    "prompt": "Use case: background-extraction. Edit target: kg-004 N bear card provided. Isolate only the exact tan baby bear with brown ears/paws, amber eyes, cream belly, blue circular pendant, brown belt and pencil pouch with blue pencil, raised paw and same expression/pose. Remove forest, water, grass, flowers, leaves, lighting particles, ground and cast shadow. Complete full body centered with all paws, ears and accessories visible, square PNG and 15–20% transparent margin. Preserve original game illustration identity. Actual alpha transparency, no new objects, text, frame or background.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-17194258-19b0-41ce-8baa-b3107692c3a8.png"
+  },
+  {
+    "key": "kg-001_SR",
+    "prompt": "Use case: background-extraction. Edit target kg-001 SR red apple creature card. Isolate ONLY the exact smiling apple adventurer with cream face/limbs, amber-red eyes, brown stem and green leaf, flowing green leaf cloak with gold leaf clasp, and wooden staff with gold bud and small leaves. Preserve pose, colors, complete feet, both hands, whole staff and cloak tips. Remove entire orchard, grass, flowers, sky, particles, ground and shadows. Full body centered square PNG with 15–20% empty margin. Actual transparent alpha, no new scenery, text, frame or objects. Same game illustration identity and SR outfit.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8818b9a6-1a45-4348-a810-1fbd891eb808.png"
+  },
+  {
+    "key": "kg-001_UR",
+    "prompt": "Use case: background-extraction. Edit target kg-001 UR red apple guardian card provided. Isolate exact apple character: same cheerful cream face and red eyes, leaf/gold crown, green leaf cloak, twisted wooden armor on boots and wrists, tall wooden gold-bud staff with leaves. Preserve UR identity, original pose and every attached accessory, staff tip, whole cloak tips and both complete boots. Remove the entire orchard, waterfalls, castle, grass/floor/shadows, all detached floating leaves, orbiting glow rings and background effects. Single clean full-body game sprite on true transparent alpha, centered square PNG, 15–20% empty margin, no cropping, no text, no frame, no new equipment. Keep game illustration style.",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7ba3685a-d833-472a-8ce1-cb8cde43648f.png"
+  }
+]
