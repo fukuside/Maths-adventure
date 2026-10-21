@@ -949,5 +949,92 @@
     "gameFacing": "right-three-quarter",
     "visualReview": "full body and identity visually reviewed; rabbit ears feet tail collar held coin preserved; lucky cat raised paw bib bell tail held coin preserved; bear full ears feet wallet contents backpack preserved; environment removed",
     "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "025-change-fox_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\025-change-fox\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-668c611e-9bc0-49b1-bf28-9ee82c810d60.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\025-change-fox_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\025-change-fox_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\025-change-fox_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      201,
+      916,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 025-change-fox N reference. Preserve the exact cute orange fox, full pointed ears, white muzzle chest and full fluffy white-tipped tail, head green leaves, green gold-pattern cloak and round gold clasp, brown crossbody pouch, all four paws and joyful airborne pose facing slightly left. Remove all beige background, floating detached leaves, golden swirls/sparkles, plants, ground and shadow. True transparent alpha, centered full body, 15–20% empty margin, no crop/new equipment/text/frame/redesign. Preserve original game illustration and individual identity.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "full fox body face ears four paws tail head leaves cloak clasp pouch preserved and visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "026-shop-bird_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\026-shop-bird\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d78c7df6-edde-4ffb-ad89-494943af09c1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\026-shop-bird_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\026-shop-bird_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\026-shop-bird_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      190,
+      907,
+      917
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 026-shop-bird N reference. Extract exact single cute brown-and-cream shop bird, yellow beak and both complete feet, full wings and tail, navy baker cap with gold piping/button, blue neck scarf, cream apron with original gold emblem and buckles, brown shoulder satchel. Preserve original face, airborne pose and slightly leftward orientation, proportions and illustration. Remove entire beige backdrop, all floating coins, gems, stars, swirls, little shop, plants, ground and shadow. True transparent alpha, full character centered square PNG with 15–20% empty margin. No cropping, new text, new equipment or redesign.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "full bird face beak wings feet tail cap scarf apron buckles satchel visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "027-gold-panda_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\027-gold-panda\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c03f6b1d-7216-4598-ba06-336c5e05dccd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\027-gold-panda_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\027-gold-panda_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\027-gold-panda_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      162,
+      917,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 027-gold-panda N reference. Extract the exact single cute panda with full round ears, black/cream fur and original face, both full arms and feet, blue gold-piped cap, blue bow tie, cream gold-emblem apron with blue straps and gold buckles, brown shoulder satchel, and held golden magnifying glass including its glass lens and original star reflection. Preserve original airborne pose, proportions and slightly leftward facing. Remove all beige background, detached coins, external sparkles/golden swirls, shop, plants, ground and shadow. True transparent alpha, full body centered square PNG, 15–20% clear margin. No crop/redesign/new equipment/text/frame; same game illustration.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "full panda face ears arms feet cap bow tie apron buckles satchel and held magnifier visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
   }
 ]
