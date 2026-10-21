@@ -602,7 +602,19 @@ root.addEventListener(
      INPUT
   ========================================================= */
 
+  root.addEventListener('change', event => {
+    if (event.target.matches('input[name="parent-report-mode"]')) onInput(event);
+  });
+
   function onInput(e) {
+    if (e.target.matches('input[name="parent-report-mode"]') && e.target.checked) {
+      parentReportSettings = { ...parentReportSettings, reportMode: e.target.value };
+      root.querySelectorAll('.parent-report-option-card').forEach(card => {
+        card.classList.toggle('selected', card.querySelector('input[name="parent-report-mode"]').checked);
+      });
+      return;
+    }
+
 
     /*
       引っ越しコード

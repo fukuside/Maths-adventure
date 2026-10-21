@@ -18250,3 +18250,6 @@ body:has(.inline-choice-question){overflow-y:auto!important}
 .reward-play-shell .reward-exit{width:auto!important;min-width:0;display:inline-flex;left:auto;margin:0;}
 
 .landing-start-button.landing-reward-button{font-size:clamp(15px,2.2vw,21px);min-height:46px;padding:10px 15px;margin-top:8px}.landing-reward-button span:last-child{white-space:nowrap}@media(max-height:600px){.landing-start-button{min-height:42px;padding:8px 14px}.landing-start-button.landing-reward-button{margin-top:4px}.landing-center .landing-catch{margin:6px 0}.landing-center .landing-sub-buttons{margin-top:6px}}
+
+/* Keep report selection visible for keyboard users as well as touch. */
+.parent-report-option-card:has(input[name="parent-report-mode"]:focus-visible){outline:3px solid #7dd3fc;outline-offset:3px;}
