@@ -1268,5 +1268,34 @@
     "gameFacing": "right-three-quarter",
     "visualReview": "dragon face horns rainbow mane complete wings paws claws full tail visually reviewed; landscape removed",
     "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "038-massive-golem_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\038-massive-golem\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7b28b343-8e73-4646-8af2-b445b55042bf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\038-massive-golem_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\038-massive-golem_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\038-massive-golem_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      186,
+      906,
+      904
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 038-massive-golem N reference. Isolate exact single squat dark stone-block golem with original glowing purple eyes, full head torso articulated arms fists legs and feet, all attached amethyst crystals including head crown, forehead diamond, shoulders forearms knees. Preserve frontal pose proportions block texture and game illustration. Remove entire sky clouds mountains trees ground rocks detached crystals/sparkles and contact shadow. Clear background gaps between arms and torso and between legs to genuine transparent alpha. Full body centered square PNG with 15–20% empty margin, no crop/redesign/text/new objects.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "golem full head torso arms fists legs feet attached crystals visually reviewed; gaps cleared and landscape removed",
+    "sizing": "full source canvas contained and centered, no crop"
   }
 ]
