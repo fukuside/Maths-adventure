@@ -1326,5 +1326,34 @@
     "gameFacing": "right-three-quarter",
     "visualReview": "wolf full face ears four legs tail attached lightning markings visually reviewed; environment removed",
     "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "040-divine-phoenix_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\040-divine-phoenix\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-751b1350-a19e-47bc-a0ab-4122df2f8d5a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\040-divine-phoenix_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\040-divine-phoenix_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\040-divine-phoenix_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      173,
+      905,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 040-divine-phoenix N reference. Extract exact single cute red orange golden phoenix with original amber eye yellow beak, full flame-shaped crest, complete feathered body both folded wings, long flowing red gold tail feathers, both legs and full claws. Preserve left-facing three-quarter standing pose proportions and game illustration. Remove entire dark backdrop, detached flames embers sparks glow haze, magic circle ground and shadow. Keep attached flame-shaped FEATHERS as body, remove external fire effects. Genuine transparent alpha outside complete bird and feather gaps, centered square PNG with 15–20% margin. No crop/text/redesign/new objects.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "phoenix full face beak crest folded wings tail feathers legs claws visually reviewed; external fire and floor removed",
+    "sizing": "full source canvas contained and centered, no crop"
   }
 ]
