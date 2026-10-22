@@ -1,3 +1,4 @@
+import {prepareWritten} from './written-easy.js';
 import {rewardLobby,purchaseEntry} from './reward-games.js';
 import {surveyLink,surveyInvitation,snoozeSurvey} from './survey-invitation.js';
 import {bgmTracks} from './bgm-tracks.js';
@@ -5280,7 +5281,7 @@ function renderPartnerCompanion() {
 }
 
   function renderQuestion(question) {
-    return renderQuestionByKind(question, { escapeHtml, inputEnabled, input });
+    prepareWritten(question,qi);return renderQuestionByKind(question, { escapeHtml, inputEnabled, input });
   }
 
   function escapeHtml(value) {

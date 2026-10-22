@@ -1,0 +1,9 @@
+[
+  {
+    "key": "030-twinbird_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-f5c5a5c8-087f-4e81-9114-d58f2bb3d4c6.png",
+    "prompt": "Background cleanup edit. This exact paired bird sprite has an unwanted grey-green bridge/smudge connecting the beak tips near center (approximately x625–653,y560–586 in the 1254px image). Erase that background bridge completely into transparent alpha so there is a clear empty gap between the two separate yellow beaks. Also erase small yellow-green residue directly below that bridge outside the right beak. Preserve all actual beak edges, both birds and their original face/body/feathers/colors/pose. Keep entire background genuinely transparent. Do not add anything.",
+    "priorPromptRecord": "pending-prompts-batch16.json",
+    "facing": "mixed-inward"
+  }
+]

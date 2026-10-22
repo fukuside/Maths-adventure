@@ -1,0 +1,8 @@
+[
+  {
+    "key": "034-six-speaker_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-6226ee97-2282-478a-b3cd-9adfee3da056.png",
+    "prompt": "Use case: background-extraction. Edit target 034-six-speaker N reference (the actual reference is a cute yellow/black bee; preserve that identity regardless of filename). Extract exact single bee with original black eyes tiny mouth, round striped yellow/black body, both complete antennae, both arms and both feet, all four delicate pale wings with vein outlines. Preserve frontal pose proportions and painted game illustration. Remove entire white backdrop, detached golden dots, flowers grass stones ground and shadow. Genuine transparent alpha outside bee; retain visible wing membranes and veins with translucent pale alpha rather than deleting wings. Entire silhouette centered square PNG with 15–20% empty margin. No crop, text, redesign or added equipment.",
+    "facing": "front"
+  }
+]

@@ -1,8 +1,17 @@
+import {renderEasyWritten} from '../core/written-easy.js';
 import {renderSeniorFraction} from '../core/senior-fraction.js';
 import {renderFractionWork} from '../core/fraction-work.js';
 import {renderDivideGrid} from '../core/written-divide-grid.js';
 import {renderMultiplyGrid} from '../core/written-multiply-grid.js';
 export default {kind:'written-calculation',render(q,{escapeHtml:e,input=''}){
+ if(q.easyWritten){
+ let html;
+ if(q.division)html=renderDivideGrid(q,{escapeHtml:e,input});
+ else if(!q.legacyWritten)html=renderMultiplyGrid(q,{escapeHtml:e,input});
+ else {const row=q.rows.at(-1),cell=c=>c?.slot!==undefined?'<span class="written-slot '+(c.slot===String(input).length?'written-active':'')+'" '+(c.slot===String(input).length?'aria-current="step"':'')+'>'+e(String(input)[c.slot]??'□')+'</span>':c?.text!==undefined?e(c.text):'';html='<div class="curriculum-question written-question"><p class="written-heading">'+e(q.prompt)+'</p><div class="written-board"><div class="written-cell"></div>'+Array.from({length:q.width},(_,i)=>'<div class="written-cell written-place">'+e(['一','十','百','千'][q.width-i-1])+'の位</div>').join('')+q.rows.slice(0,2).map((r,i)=>'<div class="written-cell">'+e(i?r.label:'')+'</div>'+[...r.cells].reverse().map(c=>'<div class="written-cell">'+cell(c)+'</div>').join('')).join('')+'<div class="written-rule"></div><div class="written-cell"></div>'+[...row.cells].reverse().map(c=>'<div class="written-cell">'+cell(c)+'</div>').join('')+'</div></div>';}
+ const group=q.groups.find(g=>String(input).length<g.end),message=group?group.label+'を、ふつうの順に入力しよう。':'できたね。「こたえの決定」でたしかめよう。';
+ html=html.replace(/<p class="written-step"[\s\S]*?<\/p>/,'');return html+'<p class="written-step" role="status">'+e(message)+'</p>'+(q.support!=='independent'?'<p class="muted" style="font-size:16px">21は「2 → 1」。位は自動でそろうよ。先頭の0は入力しなくていいよ。</p>':'');
+ }
  if(q.fractionWork)return renderFractionWork(q,{escapeHtml:e,input});
  if(q.seniorFraction)return renderSeniorFraction(q,{escapeHtml:e,input});
  if(q.division)return renderDivideGrid(q,{escapeHtml:e,input});

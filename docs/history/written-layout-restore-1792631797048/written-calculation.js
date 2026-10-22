@@ -1,0 +1,18 @@
+import {renderEasyWritten} from '../core/written-easy.js';
+import {renderSeniorFraction} from '../core/senior-fraction.js';
+import {renderFractionWork} from '../core/fraction-work.js';
+import {renderDivideGrid} from '../core/written-divide-grid.js';
+import {renderMultiplyGrid} from '../core/written-multiply-grid.js';
+export default {kind:'written-calculation',render(q,{escapeHtml:e,input=''}){
+ if(q.easyWritten)return renderEasyWritten(q,{escapeHtml:e,input});
+ if(q.fractionWork)return renderFractionWork(q,{escapeHtml:e,input});
+ if(q.seniorFraction)return renderSeniorFraction(q,{escapeHtml:e,input});
+ if(q.division)return renderDivideGrid(q,{escapeHtml:e,input});
+ if(q.multiplicationGrid)return renderMultiplyGrid(q,{escapeHtml:e,input});
+ const value=String(input),active=Math.min(value.length,5),names=['一','十','百'];
+ const slot=(index,small=false)=>`<span class="written-slot ${small?'written-small':''} ${active===index?'written-active':''}" ${active===index?'aria-current="step"':''}>${e(value[index]??'□')}</span>`;
+ const digit=(n,p)=>Math.floor(n/10**p)%10;
+ const column=Math.min(Math.floor(active/2),2),carry=active<5&&active%2===1;
+ const instruction=active===5?'全部うまったね。「こたえの決定」でたしかめよう。':carry?(q.subtract?'十のまとまりをかりたら1、かりなければ0を青い小さい枠へ。':'次の位へくり上がる数を青い小さい枠へ。ないときは0。'):q.multiply&&column===2?'十の位からくり上がった数を百の位へ。ないときは0を入れよう。':names[column]+'の位を計算して、青い答えの枠に1けた入れよう。';
+ return `<div class="curriculum-question written-question"><p class="written-heading">${e(q.prompt)}</p><div class="written-board"><div class="written-cell"></div>${[2,1,0].map(p=>`<div class="written-cell written-place">${names[p]}の位</div>`).join('')}<div class="written-cell written-note">${q.subtract?'かりた数':'くり上がり'}</div><div class="written-cell">${slot(3,true)}</div><div class="written-cell">${slot(1,true)}</div><div class="written-cell"></div><div class="written-cell"></div>${[2,1,0].map(p=>`<div class="written-cell">${q.multiply&&p===2?String():digit(q.a,p)}</div>`).join('')}<div class="written-cell">${q.multiply?'×':q.subtract?'−':'＋'}</div>${[2,1,0].map(p=>`<div class="written-cell">${q.multiply&&p>0?String():digit(q.b,p)}</div>`).join('')}<div class="written-rule"></div><div class="written-cell"></div>${[4,2,0].map(i=>`<div class="written-cell">${slot(i)}</div>`).join('')}</div><p class="written-step" role="status">${instruction}</p><p class="muted">一の位 → 十の位 → 百の位。まちがえて入力したら「ひとつもどす」で直せるよ。</p></div>`;
+}};

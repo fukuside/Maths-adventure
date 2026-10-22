@@ -5,6 +5,7 @@ export function writtenQuestion(model){
  return {kind:'written-calculation',model,a,b,multiply,subtract,steps,answer:sequence,solution:String(multiply?a*b:subtract?a-b:a+b),keypad:'number',uniqueKey:model+':'+a+':'+b,prompt:'位をそろえて、一の位からひっ算をしよう。'};
 }
 export function writtenRetry(question,submitted){
+ if(question.easyWritten){const i=[...question.answer].findIndex((d,i)=>d!==String(submitted)[i]);const g=question.groups.find(g=>i>=g.start&&i<g.end);return {prefix:i<0?String(submitted):String(submitted).slice(0,g?.start??0),hint:'ここまでできたね。'+(g?.label??'この段')+'だけ、もういちど考えよう。'};}
  const index=[...question.answer].findIndex((digit,i)=>digit!==String(submitted)[i]);
  if(index<0)return {prefix:String(submitted),hint:''};
  if(question.multiplicationGrid)return {prefix:String(submitted).slice(0,index),hint:'ここまでできたね。'+question.slots[index].label+'をもういちど考えよう。'};

@@ -1,0 +1,20 @@
+{
+  "key": "030-twinbird_N",
+  "status": "resolved-installed-batch17",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/030-twinbird/n.webp",
+  "sourceFacing": "mixed-inward",
+  "attempts": [
+    {
+      "path": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-f3d9c126-7f9b-4571-ae22-abe4dde0d210.png",
+      "prompt": "Use case: background-extraction. Edit target 030-twinbird N reference. Extract BOTH exact green-and-white twin birds as one intact paired sprite. Preserve their original faces green eyes yellow beaks, complete raised wings and inner wings, crests, all four clawed feet and both long full feather tails. Keep exact facing-each-other pose and spacing, colors and game illustration; do not combine birds or add birds. Remove all pale green/white backdrop, detached leaves, sparkles, wind rings, magic circle, rocks/plants/ground and shadows, including background in gaps between feathers and bodies. Genuine transparent alpha outside birds, square PNG centered with 15–20% margin around complete paired silhouette, no crop/text/redesign/new equipment.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\030-twinbird_N-pending-1.png"
+    },
+    {
+      "path": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-3bc886c2-547e-43e1-a45e-f0d443c9c6f2.png",
+      "prompt": "Edit target this paired green bird cutout. Remove ONLY the residual yellow-green background smudge in the small gap between their beak tips and around outside silhouette. The space between beaks must be fully transparent alpha. Preserve both birds, all feather/face/beak details, pose, colors and complete silhouettes exactly. No other changes, true transparent background.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\030-twinbird_N-pending-2.png"
+    }
+  ],
+  "review": "Both complete birds preserved; residual green/grey patch remains between beaks after cleanup. Do not install until removed.",
+  "resolution": "Final cleanup visually accepted; manifest key 030-twinbird_N; full-prompts-batch17.json"
+}

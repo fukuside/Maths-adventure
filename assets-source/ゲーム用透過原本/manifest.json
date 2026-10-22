@@ -1036,5 +1036,237 @@
     "gameFacing": "right-three-quarter",
     "visualReview": "full panda face ears arms feet cap bow tie apron buckles satchel and held magnifier visually reviewed; environment removed",
     "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "028-money-king_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\028-money-king\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d80d6fce-92bf-4429-8416-4f0057d7fc52.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\028-money-king_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\028-money-king_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\028-money-king_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      174,
+      906,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 028-money-king N reference. Extract exact single golden lion cub king with original face, full ears mane paws feet and tufted tail, complete jeweled gold crown, red fur-trimmed royal cape, red/green/gold outfit belt chains and chest jewel, and held complete dollar-coin royal staff with miniature crown and red bow. Preserve pose and proportions, nearly frontal facing, same game illustration. Remove beige background, ALL detached floating coins, sparkles/gold swirls, castles, treasure chest, money bag, ground coins/gems/plants and shadow. Genuine transparent alpha, entire character and staff centered square PNG with 15–20% empty margins. No crop/redesign/new objects or text.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "full lion face ears mane paws feet tail crown cape outfit and coin staff visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "029-waterpon_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\029-waterpon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-fc9189a1-ad07-4cee-b343-06a817a33258.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\029-waterpon_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\029-waterpon_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\029-waterpon_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      182,
+      904,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 029-waterpon N reference. Extract exact single cute round blue water creature: full curved water-drop crest attached to head, original large blue eyes and smiling face, glossy blue spherical body, both front flipper arms, both small side round appendages and both complete rounded feet. Preserve original frontal pose, proportions, highlights and same game illustration. Remove entire dark blue backdrop, every detached bubble/droplet, surrounding splash arcs, water floor and contact shadow. Keep body blue with its highlights rather than punching holes in character. Genuine transparent alpha outside complete character, centered square PNG with 15–20% clear margin. No crop, new objects, text, equipment or redesign.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "full blue water creature face crest arms side appendages feet visually reviewed; detached water environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "030-twinbird_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\030-twinbird\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f5c5a5c8-087f-4e81-9114-d58f2bb3d4c6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\030-twinbird_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\030-twinbird_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\030-twinbird_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      188,
+      189,
+      902,
+      884
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Background cleanup edit. This exact paired bird sprite has an unwanted grey-green bridge/smudge connecting the beak tips near center (approximately x625–653,y560–586 in the 1254px image). Erase that background bridge completely into transparent alpha so there is a clear empty gap between the two separate yellow beaks. Also erase small yellow-green residue directly below that bridge outside the right beak. Preserve all actual beak edges, both birds and their original face/body/feathers/colors/pose. Keep entire background genuinely transparent. Do not add anything.",
+    "sourceFacing": "mixed-inward",
+    "gameMirrorX": false,
+    "gameFacing": "mixed-inward",
+    "visualReview": "both birds complete faces beaks wings four feet tails visually reviewed; beak gap cleanup reviewed; prior attempts and prompts in pending-prompts-batch16.json",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "031-firesaurus_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\031-firesaurus\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-178b8019-5b15-4292-97f0-be7d7f612371.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\031-firesaurus_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\031-firesaurus_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\031-firesaurus_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      177,
+      209,
+      889,
+      896
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 031-firesaurus N reference. Extract exact single cute red fire dinosaur with complete orange gemstone-like head armor and dorsal spikes, original happy face and amber eyes, cream muzzle belly and tail underside, both arms claws, both full legs feet claws and complete curved tail. Preserve original slightly left-facing pose, proportions, colors and game illustration. Remove entire white/orange background, fire ring and flames, detached embers, rocks, lava floor, glow haze and contact shadow. Genuine transparent alpha outside dinosaur, full silhouette centered square PNG with 15–20% empty margin. No crop, text, new equipment, extra effects or redesign.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "full dinosaur face head armor dorsal spikes arms legs claws tail visually reviewed; fire and ground removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "032-clover-turtle_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\032-clover-turtle\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-cbeb4e98-cceb-4039-bc44-e140ce48f594.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\032-clover-turtle_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\032-clover-turtle_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\032-clover-turtle_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      167,
+      910,
+      904
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 032-clover-turtle N reference. Extract exact single cute light-green turtle with original smiling face and green eyes, full dark green domed shell, large four-leaf clover emblem attached to shell, gold shell rim, complete visible legs and pale claws. Preserve original left-facing three-quarter pose, proportions and game illustration. Remove all pale green/white backdrop, detached floating leaves, sparkles/rings, ALL grass/clover flowers rocks ground and contact shadow. Do not remove shell clover emblem. Genuine transparent alpha around complete turtle; centered square PNG with 15–20% margin. No crop, added limbs/equipment/text or redesign.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "full turtle face shell clover emblem gold rim visible legs claws visually reviewed; plants and ground removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "033-star-wolf_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\033-star-wolf\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5090f1e2-7a3e-40b6-a304-7daa85c90474.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\033-star-wolf_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\033-star-wolf_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\033-star-wolf_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      182,
+      173,
+      882,
+      904
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 033-star-wolf N reference. Extract exact single cute navy-blue wolf pup with full pointed ears, original golden eyes and face, white muzzle chest paws and white-tipped complete fluffy tail, bright white forehead star and gold stars on body and tail. Preserve original frontal seated pose, complete visible feet, proportions and flat game illustration style. Remove entire night sky stars mountains trees rocks ground and shadow. Keep stars that are markings ON wolf, remove detached environment stars. Genuine transparent alpha outside complete wolf silhouette, centered square PNG with 15–20% empty margins. No crop, text, equipment or redesign.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "full wolf face ears chest fur paws tail and star markings visually reviewed; night landscape removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "034-six-speaker_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\034-six-speaker\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6226ee97-2282-478a-b3cd-9adfee3da056.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\034-six-speaker_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\034-six-speaker_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\034-six-speaker_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      195,
+      185,
+      859,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 034-six-speaker N reference (the actual reference is a cute yellow/black bee; preserve that identity regardless of filename). Extract exact single bee with original black eyes tiny mouth, round striped yellow/black body, both complete antennae, both arms and both feet, all four delicate pale wings with vein outlines. Preserve frontal pose proportions and painted game illustration. Remove entire white backdrop, detached golden dots, flowers grass stones ground and shadow. Genuine transparent alpha outside bee; retain visible wing membranes and veins with translucent pale alpha rather than deleting wings. Entire silhouette centered square PNG with 15–20% empty margin. No crop, text, redesign or added equipment.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "bee identity follows reference despite filename; full face antennae stripes arms feet four pale wings visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "035-rainbow-dragon_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\035-rainbow-dragon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-fd52601b-ceb3-4862-8f17-334056ec7f19.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\035-rainbow-dragon_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\035-rainbow-dragon_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\035-rainbow-dragon_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      182,
+      905,
+      906
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 035-rainbow-dragon N reference. Extract exact single cute purple dragon with original blue eyes smiling face, full golden horns/claws/back spikes, rainbow mane and tail tuft, cream belly, all visible paws and complete long tail, BOTH full spread wings including pink orange yellow membranes. Preserve original left-facing three-quarter seated pose proportions and game illustration. Remove entire white/blue background rainbow clouds detached stars grass flowers ground shadow, including background gaps around wing membranes and body. Keep star markings ON body. Genuine transparent alpha outside complete dragon, centered square PNG with 15–20% margin, no crop/text/new equipment/redesign.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "dragon face horns rainbow mane complete wings paws claws full tail visually reviewed; landscape removed",
+    "sizing": "full source canvas contained and centered, no crop"
   }
 ]

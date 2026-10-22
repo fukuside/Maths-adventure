@@ -1,0 +1,14 @@
+{
+  "key": "036-octopal_N",
+  "status": "pending-cleanup-not-game-ready",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/036-octopal/n.webp",
+  "sourceFacing": "front",
+  "attempts": [
+    {
+      "path": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-b3a64cc2-4499-431b-a293-869703cf266b.png",
+      "prompt": "Use case: background-extraction. Edit target 036-octopal N reference. Extract exact single cute purple octopus mage, original eyes tiny smile blush, every complete curled tentacle and pink suction cups, gold star markings on body, entire purple wizard hat with gold rim stars blue gem and dangling gold tip. Preserve exact frontal pose, tentacle arrangement and proportions, same game illustration. Remove entire underwater blue background, detached bubbles, light rays, coral seaweed stones sand ground and contact shadow, including all open gaps between tentacles. True transparent alpha outside octopus and hat, centered square PNG with 15–20% clear margin, no cropping/new limbs/text/redesign.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-1.png"
+    }
+  ],
+  "review": "Complete octopus and hat preserved, but detached blue patch left of raised tentacle and blue/pink residue in curled tentacle gaps. Not game ready."
+}
