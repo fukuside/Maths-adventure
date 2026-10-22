@@ -8,7 +8,17 @@
       "path": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-b3a64cc2-4499-431b-a293-869703cf266b.png",
       "prompt": "Use case: background-extraction. Edit target 036-octopal N reference. Extract exact single cute purple octopus mage, original eyes tiny smile blush, every complete curled tentacle and pink suction cups, gold star markings on body, entire purple wizard hat with gold rim stars blue gem and dangling gold tip. Preserve exact frontal pose, tentacle arrangement and proportions, same game illustration. Remove entire underwater blue background, detached bubbles, light rays, coral seaweed stones sand ground and contact shadow, including all open gaps between tentacles. True transparent alpha outside octopus and hat, centered square PNG with 15–20% clear margin, no cropping/new limbs/text/redesign.",
       "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-1.png"
+    },
+    {
+      "path": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c7c64675-8a7f-41a3-a2cd-a05af5340ade.png",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-2.png",
+      "prompt": "Precise background cleanup edit target supplied purple octopus mage cutout. Erase detached bright-blue fragment at far left around x45–75 y720–760, and erase ALL blue/magenta background residue in the empty holes inside each curled tentacle and gaps between tentacles. These holes must be genuinely transparent alpha, not colored. Preserve purple tentacle skin, pink suction cups, full original tentacle silhouettes, face, hat, gold details and gem exactly. No new objects, no redesign or crop. Keep transparent background everywhere outside character.\n"
+    },
+    {
+      "path": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-977ac700-4d1b-4f6d-901f-0c3ea18250d1.png",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-3.png",
+      "prompt": "Edit this transparent octopus sprite, localized cleanup only. Empty negative spaces inside curled tentacles currently contain saturated red/magenta patches. Remove these patches to fully transparent alpha, especially left upper curl (x145–195,y615–660), left middle curl (x105–145,y845–875), right middle gap (x970–1015,y875–900), lower center curl (x590–637,y1090–1140). These coordinates refer approximately to 1254px image. Preserve every pink suction cup and purple arm contour; do not replace patches with black or white. All background and holes must be transparent. Keep complete original mage hat gem face body and tentacles unchanged.\n"
     }
   ],
-  "review": "Complete octopus and hat preserved, but detached blue patch left of raised tentacle and blue/pink residue in curled tentacle gaps. Not game ready."
+  "review": "Local cleanup improved but small colored residue persists in curled holes; retain pending. Continue other unmade N sprites next, revisit this asset later."
 }

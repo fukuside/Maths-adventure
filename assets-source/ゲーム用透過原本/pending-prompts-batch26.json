@@ -1,0 +1,19 @@
+{
+  "key": "037-shine-pegasus_N",
+  "status": "pending-cleanup-not-game-ready",
+  "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\037-shine-pegasus\\n.webp",
+  "sourceFacing": "left",
+  "attempts": [
+    {
+      "path": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b5bd66d4-b082-454b-b8dc-b9f6c2ce9c7c.png",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_N-pending-1.png",
+      "prompt": "Use case: background-extraction. Edit target 037-shine-pegasus N reference. Extract exact single white winged unicorn pony with original blue eyes smiling face, complete gold horn ears golden mane and full flowing tail, BOTH full feathered white wings, all four complete legs with golden hooves, gold sun marking on flank. Preserve original left-facing three-quarter pose proportions and game illustration. Remove all white backdrop, detached petals, flowers grass ground and shadow, including gaps between legs and wing feathers. Genuine transparent alpha outside complete pony; centered square PNG with 15–20% clear margin. No crop, new limbs/equipment/text or redesign.\n"
+    },
+    {
+      "path": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5798fc19-cbf7-49f8-8f6f-1c08bc264a00.png",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_N-pending-2.png",
+      "prompt": "Localized cleanup of supplied winged unicorn cutout. Remove white background wedge trapped between front and rear legs around x600–645 y910–1035. Remove detached golden haze/specks around mane and tail curls while preserving actual gold hair strands. All space between separate legs, wing feather gaps and outside silhouette must be true transparent alpha. Preserve exact pony face blue eyes gold horn mane white wings four legs gold hooves sun marking and full tail without redesign/crop.\n"
+    }
+  ],
+  "review": "White patches between legs persist; gold/red residue in mane/tail curls and detached flecks remain; not ready. Continue other N next."
+}

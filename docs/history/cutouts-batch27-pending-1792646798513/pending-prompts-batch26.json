@@ -1,0 +1,14 @@
+{
+  "key": "037-shine-pegasus_N",
+  "status": "pending-cleanup-not-game-ready",
+  "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\037-shine-pegasus\\n.webp",
+  "sourceFacing": "left",
+  "attempts": [
+    {
+      "path": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b5bd66d4-b082-454b-b8dc-b9f6c2ce9c7c.png",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_N-pending-1.png",
+      "prompt": "Use case: background-extraction. Edit target 037-shine-pegasus N reference. Extract exact single white winged unicorn pony with original blue eyes smiling face, complete gold horn ears golden mane and full flowing tail, BOTH full feathered white wings, all four complete legs with golden hooves, gold sun marking on flank. Preserve original left-facing three-quarter pose proportions and game illustration. Remove all white backdrop, detached petals, flowers grass ground and shadow, including gaps between legs and wing feathers. Genuine transparent alpha outside complete pony; centered square PNG with 15–20% clear margin. No crop, new limbs/equipment/text or redesign.\n"
+    }
+  ],
+  "review": "Full identity wings hooves horn and tail retained; white residue remains between front/back legs, pale/gold residue around mane and tail curls. Cleanup needed before game."
+}

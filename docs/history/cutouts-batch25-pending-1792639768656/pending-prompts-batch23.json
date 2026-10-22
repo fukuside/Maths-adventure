@@ -1,0 +1,19 @@
+{
+  "key": "036-octopal_N",
+  "status": "pending-cleanup-not-game-ready",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/036-octopal/n.webp",
+  "sourceFacing": "front",
+  "attempts": [
+    {
+      "path": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-b3a64cc2-4499-431b-a293-869703cf266b.png",
+      "prompt": "Use case: background-extraction. Edit target 036-octopal N reference. Extract exact single cute purple octopus mage, original eyes tiny smile blush, every complete curled tentacle and pink suction cups, gold star markings on body, entire purple wizard hat with gold rim stars blue gem and dangling gold tip. Preserve exact frontal pose, tentacle arrangement and proportions, same game illustration. Remove entire underwater blue background, detached bubbles, light rays, coral seaweed stones sand ground and contact shadow, including all open gaps between tentacles. True transparent alpha outside octopus and hat, centered square PNG with 15–20% clear margin, no cropping/new limbs/text/redesign.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-1.png"
+    },
+    {
+      "path": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c7c64675-8a7f-41a3-a2cd-a05af5340ade.png",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-2.png",
+      "prompt": "Precise background cleanup edit target supplied purple octopus mage cutout. Erase detached bright-blue fragment at far left around x45–75 y720–760, and erase ALL blue/magenta background residue in the empty holes inside each curled tentacle and gaps between tentacles. These holes must be genuinely transparent alpha, not colored. Preserve purple tentacle skin, pink suction cups, full original tentacle silhouettes, face, hat, gold details and gem exactly. No new objects, no redesign or crop. Keep transparent background everywhere outside character.\n"
+    }
+  ],
+  "review": "Detached blue fragment removed; magenta/red patches remain in tentacle curls and gaps, so still pending cleanup."
+}
