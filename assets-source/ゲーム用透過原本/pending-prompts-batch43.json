@@ -1,0 +1,22 @@
+{
+  "key": "053-zero-tenths-bear_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/053-zero-tenths-bear/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-43e74ce8-5076-4c28-b264-e5e9cc1234db.png",
+      "prompt": "Use case: background-extraction. Extract exact same complete light blue baby bear from supplied 053 N card on genuine transparent alpha. Preserve full seated body, ears, blue eyes nose smile, all four paws and pads, small tail, blue scarf including flowing ends and existing 0.10 design, all fur details. Same frontal slightly left pose, proportions, cute painted game illustration. Remove dark star background, all detached floating zeros, sparkles, floor digital circle, ground shadow and external blue haze. Transparent gaps between scarf ends and body and limbs. Clean alpha with no colored environmental residue. Full body centered empty margins no cropping no redesign no new text.",
+      "review": "Full bear and scarf retained; cyan opaque patch at left hand/foot gap and cyan external fringe. Pending, not game referenced.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

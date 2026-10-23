@@ -1,0 +1,8 @@
+[
+  {
+    "key": "047-quotient-wolf_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-34fe89f7-4ff4-4e39-938a-ea3d34b4e541.png",
+    "prompt": "Use case: background-extraction. Edit target: supplied 047 N monster card. Extract exactly the same complete blue and white wolf pup seated facing left three-quarter, preserving blue eyes, white muzzle cheeks chest and paws, claws, pointed ears, forehead marking, full fluffy white-tipped tail, blue gold-edged cape with compass-star jeweled clasp and necklace. Preserve identity, clothing, pose and game illustration painting. Remove cream background, all magic floor circle, ground shadow, floating blue swirls and detached sparkles. True transparent alpha everywhere around subject and inside gaps between legs and cape, with no opaque environment residue. Entire body centered, generous empty margins, no crop, no extra objects or text. Keep existing left-facing pose; runtime will mirror.",
+    "facing": "left"
+  }
+]

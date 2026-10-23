@@ -18253,3 +18253,6 @@ body:has(.inline-choice-question){overflow-y:auto!important}
 
 /* Keep report selection visible for keyboard users as well as touch. */
 .parent-report-option-card:has(input[name="parent-report-mode"]:focus-visible){outline:3px solid #7dd3fc;outline-offset:3px;}
+
+/* Reward lobby: real gameplay previews */
+.reward-game-preview{display:block;width:100%;max-width:760px;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px;margin:0 0 14px;background:#123d58}.reward-game-card{overflow:hidden}

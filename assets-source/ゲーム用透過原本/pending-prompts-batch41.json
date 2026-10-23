@@ -1,0 +1,22 @@
+{
+  "key": "051-decimal-cat_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/051-decimal-cat/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-b64e2fa1-021a-42a2-b7bc-ea2bed336480.png",
+      "prompt": "Use case: background-extraction. Edit supplied 051 N monster card. Extract exactly same full seated white cream kitten with blue eyes, pink ears nose, full curled tail, star markings on fur, blue star collar and large gold framed blue gemstone pendant. Preserve pose face proportions clothing all paws and painted game illustration. Remove entire dark starry environment, magic floor rings, detached floating stars/sparkles and light trails. Keep only stars physically on fur/collar; no floating extras. True alpha transparency all outside silhouette including tail/body gap, no blue background residue. Whole body centered with empty margins, no cropping, no added text. Keep existing slightly left-facing pose; runtime may mirror.",
+      "review": "Full cat preserved, but cyan/blue fringe outside tail and bottom plus detached flecks; not accepted.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

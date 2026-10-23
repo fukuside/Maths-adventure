@@ -1,0 +1,8 @@
+[
+  {
+    "key": "049-point-slime_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-71dfc011-105a-4ff3-8485-654547c2e158.png",
+    "prompt": "Use case: background-extraction. Edit target supplied 049 N monster card. Extract exactly the same whole orange golden slime, front-facing, as game sprite on true transparent alpha. Preserve full droplet body including curled top and two small lower lobes, brown eyes, happy open mouth, pink cheeks, glossy highlights and white connected dot constellation markings ON body. Remove all cream background, ground, orange magic floor ring, ground shadow, detached floating bubbles and sparkles. Do not make slime itself transparent: retain painted golden body and highlights, only outside silhouette is transparent. Same cute game illustration identity and pose. Center full body with generous empty margins, no cropping, no new text or objects.",
+    "facing": "front"
+  }
+]

@@ -1,0 +1,22 @@
+{
+  "key": "054-point-dragon_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/054-point-dragon/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-389e70c0-23c1-44aa-b6f4-e28268b02452.png",
+      "prompt": "Use case: background-extraction. Extract exact same complete white ice baby dragon from supplied 054 N card on genuine transparent alpha. Preserve entire seated body, face blue eyes open smile, pale cream belly plates, both wings membranes and crystal tips, all claws feet legs, whole curled tail and embedded blue ice spikes and crest. Existing left three-quarter pose and cute painted game illustration unchanged. Remove pale gray backdrop, detached floating crystals and sparkles, all ground magic circle and shadows. Transparent negative spaces between wings body feet tail. Clean silhouette without external blue residue. Full body centered generous empty margins no cropping no text no redesign.",
+      "review": "Full dragon preserved but white residue beneath right wing, cyan fringe and detached flecks. Not accepted.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "key": "050-tenths-pon_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/050-tenths-pon/n.webp",
+  "status": "pending-cleanup",
+  "facing": "front",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-a582e17c-b6ab-4bfe-87f3-852165b182dd.png",
+      "prompt": "Use case: background-extraction. Edit supplied 050 N monster card. Extract same complete silver-gray slime, frontal pose, true transparent background. Preserve exact droplet body curled top and two bottom lobes, blue-black eyes, smiling open mouth pink cheeks, glossy silver highlights and connected white dots on body. Keep painted silver body opaque; only exterior transparent. Remove cream backdrop, all floor magic rings, ground shadow, detached silver bubbles and floating sparkles. Full body centered, empty margins all sides, no crop or redesign, original cute game illustration. No new objects or lettering.",
+      "review": "Cyan opaque fringe below body and isolated blue top flecks.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-14e211d1-1390-4675-b461-0aeb4fb64a5b.png",
+      "prompt": "Cleanup only: same silver slime extracted image. Remove bright cyan/blue fringe patches BELOW the lower silhouette and isolated blue flecks around top curl, replacing with real alpha zero. Preserve entire silver body, white outline highlights, face, markings, all bottom lobes and top curl exactly. No shadow or ground, no colored rim outside body. True transparent background. No redesign or crop.",
+      "review": "Cyan/blue bottom fringe persists. Not accepted or added to game.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_N-pending-2.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

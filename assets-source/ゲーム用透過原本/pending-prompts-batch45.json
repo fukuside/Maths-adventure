@@ -1,0 +1,22 @@
+{
+  "key": "055-decimal-king_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/055-decimal-king/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-4ecd486d-9030-461d-b6c0-b3d24d142e54.png",
+      "prompt": "Use case: background-extraction. Extract exactly same complete blue seal king from supplied 055 N card. Preserve full seated body paws tail if visible, face blue eyes cream moustache whiskers, blue gold jeweled crown, fur-lined blue gold robe, chest jewels, both hands and complete held staff with gold ring and blue orb. Keep frontal slightly left pose and painted game illustration. Remove all starry blue environment, floor magic circle ground shadow, floating crystals stars and detached sparkles. True transparent alpha around silhouette and inside staff ring around orb, no blue background remnants. Full body staff crown centered with empty margins no cropping no redesign no text.",
+      "review": "Full king crown staff robe preserved; red/yellow residue in staff gaps and blue external flecks. Not accepted.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

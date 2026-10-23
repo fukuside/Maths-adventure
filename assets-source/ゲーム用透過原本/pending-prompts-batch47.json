@@ -1,0 +1,22 @@
+{
+  "key": "057-third-bird_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/057-third-bird/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-423dec82-3c7d-4d9e-b60a-8c9f10b460cd.png",
+      "prompt": "Use case: background-extraction. Extract exact full blue cream gold bird from supplied 057 N card. Preserve whole crown crest face blue eyes gold beak, complete spread wings with every feather and jewel shoulder armor, necklace chest jewel, both gold legs and black talons, entire tail. Existing left three-quarter airborne pose and painted illustration unchanged. Remove starry sky, clouds, floor circle, all detached feathers floating crystals stars and ribbon swirls. Genuine transparent alpha everywhere outside physical bird, including gaps between legs wings feathers, no opaque blue residue or colored fringes. Full body centered generous empty margins no cropping no redesign no text.",
+      "review": "Full bird retained, opaque yellow/red patches at feet and right wing edge, detached blue flecks. Not accepted.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

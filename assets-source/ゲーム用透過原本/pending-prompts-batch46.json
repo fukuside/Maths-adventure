@@ -1,0 +1,22 @@
+{
+  "key": "056-half-moon_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/056-half-moon/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-bcb12041-f7cb-4b45-ae46-48c322d2f216.png",
+      "prompt": "Use case: background-extraction. Extract exact white wizard rabbit from supplied 056 N card, preserving full long ears blue eyes pink nose all paws tail, blue gold star hat with dangling star, bow gem necklace blue gold star cape and complete held crystal staff. Remove ALL scenery including large golden crescent moon seat, small background crescent, stars sky clouds. Keep only rabbit clothing staff and physically attached dangling hat star. Rabbit remains in seated pose with paws visible, no moon pedestal. True transparent alpha all background and interior gaps, no colored residue. Same slightly left frontal pose and painted card-game identity, full body centered generous empty margins no crop no added text.",
+      "review": "Rabbit complete, moon removed; yellow/red residue around dangling hat star and cyan staff fringe. Pending.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

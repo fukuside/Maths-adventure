@@ -1,0 +1,36 @@
+{
+  "key": "048-divide-emperor_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/048-divide-emperor/n.webp",
+  "status": "pending-cleanup",
+  "facing": "front",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-dc355e87-ad83-4ba6-8a14-d84cbf1dc600.png",
+      "prompt": "Use case: background-extraction. Edit supplied 048 N card into transparent game sprite. Preserve exact full small purple-black emperor mage: horned gold-trim helmet purple central crystal, shadow face with two glowing purple eyes, long white hair, gold-edged purple armor cape robes chains gems, both gloves, boots, complete held tall staff with crescent head and purple orb. Keep pose and frontal orientation, proportions, identity and painted game illustration style. Remove background, floor magic circle, ground shadows, detached floating crystals and sparkles. Retain physical staff orb and clothing jewels; no detached visual effects. Genuine transparent alpha around entire figure and through staff crescent openings and gaps between limbs/cape. Full body and staff centered with empty margins, no cropping or new text.",
+      "review": "Opaque blue residue in crescent staff gaps.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    },
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-3a30b003-c698-4dd3-a0a4-1b3261e1af5e.png",
+      "prompt": "Targeted cleanup of this extracted emperor mage only. Keep every pixel of character identity, full staff, orb, helmet, face, white hair, cape, chains, gems and boots and frontal pose. Remove the bright blue/magenta opaque background remnants in the negative spaces BETWEEN the purple orb and crescent staff frame at upper left. Those gaps must be true alpha 0, not blue or purple paint. Remove isolated fringe residue outside silhouette. Do not remove the orb or solid gold/purple staff. All other outer background remains truly transparent. No redesign, no cropping.",
+      "review": "Staff gaps improved; bright blue residue remains in right hair gaps. Not accepted or game referenced.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-pending-2.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

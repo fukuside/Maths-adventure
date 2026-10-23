@@ -1355,5 +1355,266 @@
     "gameFacing": "right-three-quarter",
     "visualReview": "phoenix full face beak crest folded wings tail feathers legs claws visually reviewed; external fire and floor removed",
     "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "041-kuku-king-gold_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\041-kuku-king-gold\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8789893a-c564-4ac4-9e11-a2648f277ede.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\041-kuku-king-gold_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\041-kuku-king-gold_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\041-kuku-king-gold_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      184,
+      182,
+      905,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 041-kuku-king-gold N reference. Extract exact single cute golden five-pointed star king with black oval eyes curved black mustache, original forehead/body star emblems, full jeweled crown, both hands feet, red white fur-trimmed spotted royal cape, complete held gold staff with red jewel crown top. Preserve frontal pose proportions gold textures and game illustration. Remove entire dark/gold backdrop, detached sparkles haze, magic floor circle ground and shadow, including gaps around staff/hand/body and between feet. Genuine transparent alpha outside complete character and equipment, centered square PNG with 15–20% margin. No crop/text/redesign/new objects.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "star king full face mustache crown hands feet cape and staff visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "042-half-penguin_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\042-half-penguin\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-56799c22-ad9e-402c-b8f3-ebd0344aab19.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\042-half-penguin_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\042-half-penguin_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\042-half-penguin_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      173,
+      905,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 042-half-penguin N reference. Isolate exact single cute half-ice penguin with blue eyes happy open yellow beak, navy/cream left half, blue crystal armor right half, attached full head ice spines, both flippers including crystalline right flipper, both complete yellow feet. Preserve original nearly frontal airborne pose proportions and game illustration. Remove entire pale backdrop, detached floating ice shards snowflakes tiny sparkles snow swirl ground and shadow. Keep crystals attached to penguin body. Genuine transparent alpha outside complete silhouette, centered square PNG with 15–20% clear margin. No crop/text/redesign/new equipment.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "half ice penguin full face beak flippers feet attached crystals visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "043-divide-bird_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\043-divide-bird\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-57ca97f0-3e91-47cc-90dc-5c56e1a58184.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\043-divide-bird_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\043-divide-bird_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\043-divide-bird_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      184,
+      881,
+      907
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 043-divide-bird N reference. Isolate exact single cute blue-and-orange bird with amber eyes yellow beak cream face/chest, complete blue/orange crest and head feathers, both folded full wings, complete tail feathers with orange underside, both yellow legs and full dark claws. Preserve original slightly left-facing three-quarter standing pose proportions and painted game illustration. Remove all pale background, detached floating feathers sparkles swirls dust clouds ground and shadow. Genuine transparent alpha outside full bird including leg gaps, centered square PNG with 15–20% clear margin. No crop/text/new equipment/redesign.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "bird full face beak crest wings legs claws tail visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "044-share-rabbit_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\044-share-rabbit\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-645f0657-5316-4fde-8f14-2817986139bd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\044-share-rabbit_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\044-share-rabbit_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\044-share-rabbit_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      189,
+      905,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 044-share-rabbit N reference. Extract exact single white rabbit with full long ears pink inner ears, original green eyes face smile, both paws holding complete carrot with attached green leaves, full green gold-pattern scarf/cape, brown backpack with rolled mat straps clover pocket and attached top leaves, complete feet and fluffy tail. Preserve original slightly left-facing three-quarter pose proportions and game illustration. Remove entire pale backdrop, detached golden flowers sparkles, all ground grass plants flowers and shadow. True transparent alpha outside complete rabbit and equipment including gaps between ears/feet. Centered square PNG with 15–20% margin, no crop/text/redesign/new objects.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "rabbit full face ears feet tail held carrot cape backpack mat attached leaves visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "045-group-golem_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\045-group-golem\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6e064f4e-d6de-46f8-b048-d905ff7f5776.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\045-group-golem_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\045-group-golem_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\045-group-golem_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      182,
+      911,
+      894
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target 045-group-golem N reference. Preserve main mossy stone golem AND the two small floating golem heads with green eyes as one grouped sprite. Preserve exact faces green eye glow, main green spiral chest rune, full rocky torso arms fists legs feet, attached vines leaves moss, both little heads in original positions. Remove all OTHER floating loose rocks/leaves/sparkles, dust pale background ground rubble and shadow; all gaps between bodies/heads/arms/legs truly transparent. Keep group frontal pose proportions game illustration. Entire group centered square PNG with 15–20% margin, no crop/new objects/text/redesign.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "main golem complete head torso arms fists legs feet moss chest rune and two floating companion heads visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "046-remainder-cat_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\046-remainder-cat\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9c6dbe38-cd48-44e5-8aba-c3f0a9bf164c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\046-remainder-cat_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\046-remainder-cat_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\046-remainder-cat_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      172,
+      185,
+      906,
+      904
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target: supplied 046 N monster card. Extract the exact same full seated black-purple kitten and its large physical gold-rim pocket watch leaning against its right paw/body, as a game sprite on true transparent alpha. Preserve frontal pose, golden eyes, pink nose and ears, gold forehead diamond, purple fur markings, red jewel collar and gold bell, all paws, entire curled tail and complete large pocket watch including ring handle and original dial details. Remove background, ground, magic floor circle, all detached floating numerals, detached hourglass and small floating clock, airborne sparkles and swirls. Transparency inside the tail curl and watch handle; no opaque residue, no ground shadow, no added text, no redesign. Full character centered with generous empty margins, no cropping. Keep original game illustration style. Front-facing remains front-facing.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "full cat face ears paws tail collar bell and large pocketwatch visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "047-quotient-wolf_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\047-quotient-wolf\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-34fe89f7-4ff4-4e39-938a-ea3d34b4e541.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\047-quotient-wolf_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\047-quotient-wolf_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\047-quotient-wolf_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      163,
+      185,
+      905,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target: supplied 047 N monster card. Extract exactly the same complete blue and white wolf pup seated facing left three-quarter, preserving blue eyes, white muzzle cheeks chest and paws, claws, pointed ears, forehead marking, full fluffy white-tipped tail, blue gold-edged cape with compass-star jeweled clasp and necklace. Preserve identity, clothing, pose and game illustration painting. Remove cream background, all magic floor circle, ground shadow, floating blue swirls and detached sparkles. True transparent alpha everywhere around subject and inside gaps between legs and cape, with no opaque environment residue. Entire body centered, generous empty margins, no crop, no extra objects or text. Keep existing left-facing pose; runtime will mirror.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "full wolf face ears paws claws tail cape clasp necklace visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "049-point-slime_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\049-point-slime\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-71dfc011-105a-4ff3-8485-654547c2e158.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\049-point-slime_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\049-point-slime_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\049-point-slime_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      184,
+      206,
+      871,
+      880
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target supplied 049 N monster card. Extract exactly the same whole orange golden slime, front-facing, as game sprite on true transparent alpha. Preserve full droplet body including curled top and two small lower lobes, brown eyes, happy open mouth, pink cheeks, glossy highlights and white connected dot constellation markings ON body. Remove all cream background, ground, orange magic floor ring, ground shadow, detached floating bubbles and sparkles. Do not make slime itself transparent: retain painted golden body and highlights, only outside silhouette is transparent. Same cute game illustration identity and pose. Center full body with generous empty margins, no cropping, no new text or objects.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "whole golden slime face top lower lobes white connected markings visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "052-dot-bird_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\052-dot-bird\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-185fe17d-9f23-4148-b92d-3c252597dbc4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\052-dot-bird_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\052-dot-bird_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\052-dot-bird_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      176,
+      908,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit supplied 052 N card. Isolate exact same complete green yellow cream voxel-feather bird on true transparent alpha. Preserve all block feathers on crest, wings spread fully, tail, cream body, large green eyes, open yellow beak and both claw feet. Keep existing left three-quarter pose, cute game illustration texture and identity. Remove cream background, all detached pixel confetti, halos, sparkles and floor magic disk and ground. Clean silhouette and transparent gaps between wings, crest blocks and feet; no colored fringe or floating remnants. Entire bird centered with generous clear margins, no cropping, no new text or objects.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "whole voxel bird face crest wings tail both feet claws visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
   }
 ]

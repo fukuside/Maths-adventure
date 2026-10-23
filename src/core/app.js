@@ -51,6 +51,7 @@ export function createApp(root) {
   let state = loadLocalState();
 
   let screen = "landing";
+  let activeRewardGame=null;
   // コースは画面の選択状態だけに保持し、既存セーブを変更しない。
   let selectedCourse = "elementary";
   let rewardFromTop=false;
@@ -688,8 +689,9 @@ root.addEventListener(
     if(a==='reward-top'){rewardFromTop=true;screen=getPlayers().length?'player-select':hasLegacySave()?'legacy-migrate':'player-create';render();return;}
     if(a==='reward-enter'){
       if(screen!=='reward-lobby'||!getActivePlayer()||!unlockedPartnerEntries().length)return;
+      if(t.dataset.game==='treasure-fishing'&&!unlockedPartnerEntries().some(x=>x.rarity==='N'))return;
       const entry=purchaseEntry(state.gems,t.dataset.game);if(!entry)return;
-      state.gems=entry.gems;screen='reward-play';render();persistState(state);return;
+      activeRewardGame=entry.game;state.gems=entry.gems;screen='reward-play';render();persistState(state);return;
     }
     if (a === "survey-later") { snoozeSurvey(localStorage); render(); return; }
     if (a === "change-course") {
@@ -3015,11 +3017,11 @@ function sample(arr){
   `;
 }
   function body() {
-  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length);
+  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length);
   if(screen==='reward-play'){
-    const owned=unlockedPartnerEntries().filter(x=>['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
-    const source='/reward-games/monster-run.html?player='+encodeURIComponent(getActivePlayer()?.playerId||'guest')+'#'+encodeURIComponent(JSON.stringify(owned));
-    return '<section class="reward-play-shell"><button class="reward-exit button secondary" data-action="go" data-screen="title">学習へ戻る</button><iframe class="reward-game-frame" title="モンスターお宝ラン" src="'+escapeHtml(source)+'" allow="fullscreen"></iframe></section>';
+    const owned=unlockedPartnerEntries().filter(x=>activeRewardGame?.id==='treasure-fishing'?x.rarity==='N':['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
+    const source=(activeRewardGame?.url||'/reward-games/monster-run.html')+'?player='+encodeURIComponent(getActivePlayer()?.playerId||'guest')+'#'+encodeURIComponent(JSON.stringify(owned));
+    return '<section class="reward-play-shell"><button class="reward-exit button secondary" data-action="go" data-screen="title">学習へ戻る</button><iframe class="reward-game-frame" title="'+escapeHtml(activeRewardGame?.name||'モンスターお宝ラン')+'" src="'+escapeHtml(source)+'" allow="fullscreen"></iframe></section>';
   }
 
   if (screen === "player-select") {
