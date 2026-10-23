@@ -1,0 +1,22 @@
+{
+  "key": "059-numerator-rabbit_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/059-numerator-rabbit/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-d81462db-6377-49b9-a633-0f4926e9091d.png",
+      "prompt": "Use case: background-extraction. Extract exact same full standing white magician rabbit from supplied 059 N card. Preserve full ears, face blue eyes smile, purple gold star pointed hat with hanging gold star, blue gems, bow, complete robe cape, both hands and feet, complete held purple orb staff. Keep all clothing physical details and original frontal slight left pose and painted game illustration. Remove dark sky, floating numbers, all detached stars sparkles, orbit around staff orb, ground magic circles shadow. Genuine transparent alpha outside character and through gaps between legs robe staff. No environmental color residue. Center full body with empty margins no crop no redesign no new text.",
+      "review": "Full rabbit preserved; magenta residue in leg/cape gap and red/yellow around star/staff. Not accepted.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

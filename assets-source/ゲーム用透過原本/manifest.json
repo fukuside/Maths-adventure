@@ -1616,5 +1616,63 @@
     "gameFacing": "right-three-quarter",
     "visualReview": "whole voxel bird face crest wings tail both feet claws visually reviewed; environment removed",
     "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "058-quarter-rabbit_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\058-quarter-rabbit\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d292da67-4238-4ed0-a9f7-5178570e63f1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\058-quarter-rabbit_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      185,
+      908,
+      906
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit supplied 058 N card. Preserve ACTUAL reference identity: cute blue violet faceted crystal golem, NOT rabbit despite filename. Keep entire cube head with glowing blue eyes and smile, faceted torso, both floating jointed crystal arms/hands, all lower crystal leg/foot blocks. Remove every detached environmental crystal, star, trail and floor magic circle. Genuine transparent alpha including spaces between floating body parts; no opaque blue background remnants. Same frontal pose and painted crystalline game illustration, full body centered generous empty margins no crop no text or redesign.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "actual crystal golem full head face torso arms hands lower crystal blocks visually reviewed; filename retained",
+    "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "063-proper-monster_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\063-proper-monster\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e2db0144-3ea6-49e1-98ad-45ed1e9ba912.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\063-proper-monster_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      173,
+      910,
+      911
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Extract exactly same full black purple baby demon dragon from supplied 063 N card. Preserve two long curved horns, purple eyes face smile tiny fangs, pointed ears, forehead crystal chest and limb jewels, both complete bat wings with opaque purple membranes, both hands claws legs feet, entire curved tail crystal tip. Same frontal slightly left pose and painted game illustration. Remove white background, ALL purple nebula clouds haze sparks and floor magic circle shadow. True transparent alpha around silhouette and between horns wings body tail legs, no colored environmental remnants. Full body central generous margins no crop no redesign no text.",
+    "sourceFacing": "left",
+    "gameMirrorX": true,
+    "gameFacing": "right-three-quarter",
+    "visualReview": "full demon dragon horns face wings hands feet tail crystals visually reviewed; environment removed",
+    "sizing": "full source canvas contained and centered, no crop"
   }
 ]

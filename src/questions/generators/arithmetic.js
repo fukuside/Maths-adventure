@@ -505,8 +505,8 @@ function buildAdditionWord() {
 
         prompt:
           `ほんだなに ほんが ${firstCount}さつ あります。\n` +
-          `${addedCount}さつ もどしました。\n` +
-          `ほんは ぜんぶで なんさつ？`,
+          `そこに ${addedCount}さつ もどしました。\n` +
+          `ほんだなに ほんは なんさつ ありますか？`,
 
         answer:
           firstCount + addedCount,

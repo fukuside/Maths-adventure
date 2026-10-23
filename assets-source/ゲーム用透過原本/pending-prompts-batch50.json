@@ -1,0 +1,22 @@
+{
+  "key": "060-denominator-bird_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/060-denominator-bird/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-7f6bd616-ab05-4cf0-9238-aef9dc007ce8.png",
+      "prompt": "Use case: background-extraction. Extract exactly same full cream blue gold celestial bird from supplied 060 N card. Preserve face blue eyes gold beak, complete crest, both fully spread wings, physical gold armor and blue jewels, both gold legs black claws, full curved long tail and attached tail jewel. Keep left three-quarter flying pose and original painted game illustration. Remove starry sky, ALL detached floating rings including halo above head, detached feathers, sparks stars, ground magic disk and shadow. Genuine transparent alpha everywhere outside body and inside feather/leg gaps. Clean silhouette no blue/gold background remnants. Full body centered empty margins no cropping no redesign no text.",
+      "review": "Complete bird retained; opaque white/cyan/yellow remnants between crest-wing and wing-tail. Not accepted.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

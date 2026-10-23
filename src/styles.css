@@ -18256,3 +18256,13 @@ body:has(.inline-choice-question){overflow-y:auto!important}
 
 /* Reward lobby: real gameplay previews */
 .reward-game-preview{display:block;width:100%;max-width:760px;height:auto;aspect-ratio:16/9;object-fit:cover;border-radius:14px;margin:0 0 14px;background:#123d58}.reward-game-card{overflow:hidden}
+
+/* Compact curriculum tables and diagrams retain room for answering. */
+.question-card .curriculum-data-table{font-size:18px!important;line-height:1.4!important;width:auto!important;max-width:100%!important;table-layout:auto;text-shadow:none!important}
+.question-card .curriculum-data-table th,.question-card .curriculum-data-table td{font-size:18px!important;line-height:1.4!important;padding:6px 10px!important;white-space:normal;overflow-wrap:anywhere;text-shadow:none!important}
+.question-card .compact-lesson .curriculum-data-table{max-width:540px!important;margin:8px auto!important}
+.question-card .mixedFraction4-lesson .stacked-fraction{font-size:22px!important;line-height:1.1!important;vertical-align:middle}
+.question-card .compact-lesson .text-question{font-size:clamp(20px,1.6vw,25px)!important}
+.question-card .dot-plot-question svg{display:block;width:100%!important;max-width:380px!important;height:auto;margin:8px auto!important;text-shadow:none!important}
+.question-card .dot-plot-question svg text{fill:#173e51!important;font-size:17px!important;font-weight:500!important;stroke:none!important;text-shadow:none!important}
+@media(max-width:600px){.question-card .curriculum-data-table th,.question-card .curriculum-data-table td{font-size:16px!important;padding:5px 7px!important}.question-card .mixedFraction4-lesson .stacked-fraction{font-size:20px!important}}

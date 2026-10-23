@@ -1,0 +1,22 @@
+{
+  "key": "062-fraction-king_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/062-fraction-king/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-843a764f-2640-4ba4-96ec-1ee32575a6e2.png",
+      "prompt": "Use case: background-extraction. Extract exact same full elderly wizard king from supplied 062 N card on true transparent alpha. Preserve face eyes white moustache beard hair, gold blue jeweled crown, complete robe cape boots hands, all worn chains jewels and held staff including orb ring hanging ornaments. Keep pose and painted cute fantasy game identity. Remove starry environment, detached floating crystals, both crystal pedestals, ground magic floor circle shadow. Transparent all negative spaces including inside staff ring and hair curls, no environmental residue. Full body staff crown centered generous empty margins no crop no redesign no new text.",
+      "review": "Full king preserved; red/gray residue in staff ring, hair curl opaque patches. Pending.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

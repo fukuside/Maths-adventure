@@ -134,7 +134,7 @@ export default {
     if (/^large[234]$/.test(model)) return largeNumberQuestion(Number(model.at(-1)));
     if (!models[model]) throw new Error(`Unknown curriculum model: ${model}`);
     const [prompt, result, guide, visual] = models[model]();
-    if (['orderOperations','lineData','fractionCompare3','proportion','inverse','percentData','combinations','median','mode','frequency','mixedFraction4'].includes(model)) return {kind:'curriculum-choice',prompt,guide,visual,answer:result,keypad:model==='median'?'decimal':'number',answerMode:'numeric',uniqueKey:model+':'+prompt+':'+JSON.stringify(visual??null),solution:String(result)};
+    if (['orderOperations','lineData','fractionCompare3','proportion','inverse','percentData','combinations','median','mode','frequency','mixedFraction4'].includes(model)) return {kind:'curriculum-choice',lessonModel:model,prompt,guide,visual,answer:result,keypad:model==='median'?'decimal':'number',answerMode:'numeric',uniqueKey:model+':'+prompt+':'+JSON.stringify(visual??null),solution:String(result)};
     const correct = typeof result === 'number' ? String(clean(result)) : result;
     const wrongs = typeof result === 'number'
       ? [String(clean(result + (Number.isInteger(result) ? 1 : .1))),String(clean(result + (Number.isInteger(result) ? 2 : .2)))]

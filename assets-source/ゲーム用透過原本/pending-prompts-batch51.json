@@ -1,0 +1,22 @@
+{
+  "key": "061-fraction-fairy_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/061-fraction-fairy/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-00b5865e-2b9d-4c8c-955b-bc1c628d6e95.png",
+      "prompt": "Use case: background-extraction. Extract exact complete purple-haired fairy from supplied 061 N card. Preserve face eyes hair all curls, gold blue crystal crown, dress jewels shoes legs arms hands, complete held crystal staff and ALL physical butterfly wings with their violet blue painted membranes intact. Wings are solid painted character surfaces, not background. Remove dark sky, all detached floating crystals stars and sparkles, floor magic ring and shadow. True transparent alpha outside entire character including hair curl holes, limb and staff gaps, no environmental residue. Existing frontal slightly left pose, full body central generous margins no crop no redesign no new text.",
+      "review": "Complete fairy wings preserved; red/cyan residue around staff crown and magenta/white in leg gap. Pending.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\061-fraction-fairy_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}
