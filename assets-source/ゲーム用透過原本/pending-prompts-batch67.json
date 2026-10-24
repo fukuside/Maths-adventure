@@ -1,0 +1,22 @@
+[
+  {
+    "key": "076-proportion-succubus_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-2521cac3-6bab-4129-9fe1-7c883796bdcd.png",
+    "prompt": "Background-extraction edit. Extract exact same full purple-haired horned fantasy mage from 076 N reference card. Preserve face, purple eyes, both horns, long flowing hair, two bat wings opaque membranes, black purple gold layered dress, both sleeves open hands, full boots and legs. Keep red and blue magic orbs held immediately above hands as character equipment, but remove all unrelated environment: castles, arches, flowers, petals, moon, floor, reflections and ambient sparks. True transparent alpha around silhouette and between hair strands horns wings and arms; no matte residue. Same pose and painted game style, full body centered 15-20 percent margin, no text no crop no redesign.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\076-proportion-succubus\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full identity horns wings dress boots and held orbs retained; red opaque patches between hair strands and blue residue by right orb. Not approved.",
+    "gameMirrorX": false
+  }
+]

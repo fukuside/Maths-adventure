@@ -1,0 +1,22 @@
+[
+  {
+    "key": "070-speed-valkyrie_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-d4afc156-cedc-4faf-81aa-80dce85aa7eb.png",
+    "prompt": "Use case: background-extraction. Extract exact same 070-speed-valkyrie N character from edit target. Preserve blonde ponytail, blue eyes and face, winged head ornaments, complete two feathered wings, gold blue white armor, skirt cape, both hands, both boots, entire blue spear including BOTH tips. Keep original slightly left-facing pose and painted game style. Remove only background and environmental detached feathers, sparkles, blue swirling air and floor magic circle. True alpha transparency around entire silhouette and all gaps between spear arm body legs wings. No colored matte residue or white patches. Full body centered with 15-20 percent clear margins, no crop or redesign or text.",
+    "facing": "left",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\070-speed-valkyrie\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full valkyrie wings spear both tips retained. Red yellow opaque residue in hair openings and near lower spear; white fringe on wing. Not approved for game.",
+    "gameMirrorX": true
+  }
+]

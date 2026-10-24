@@ -689,6 +689,7 @@ root.addEventListener(
     if(a==='reward-top'){rewardFromTop=true;screen=getPlayers().length?'player-select':hasLegacySave()?'legacy-migrate':'player-create';render();return;}
     if(a==='reward-enter'){
       if(screen!=='reward-lobby'||!getActivePlayer()||!unlockedPartnerEntries().length)return;
+      if(t.dataset.game==='monster-pinball'&&!unlockedPartnerEntries().some(x=>x.rarity==='SR'))return;
       if(t.dataset.game==='treasure-fishing'&&!unlockedPartnerEntries().some(x=>x.rarity==='N'))return;
       const entry=purchaseEntry(state.gems,t.dataset.game);if(!entry)return;
       activeRewardGame=entry.game;state.gems=entry.gems;screen='reward-play';render();persistState(state);return;
@@ -3017,9 +3018,9 @@ function sample(arr){
   `;
 }
   function body() {
-  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length);
+  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length,unlockedPartnerEntries().filter(x=>x.rarity==='SR').length);
   if(screen==='reward-play'){
-    const owned=unlockedPartnerEntries().filter(x=>activeRewardGame?.id==='treasure-fishing'?x.rarity==='N':['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
+    const owned=unlockedPartnerEntries().filter(x=>activeRewardGame?.id==='monster-pinball'?x.rarity==='SR':activeRewardGame?.id==='treasure-fishing'?x.rarity==='N':['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
     const source=(activeRewardGame?.url||'/reward-games/monster-run.html')+'?player='+encodeURIComponent(getActivePlayer()?.playerId||'guest')+'#'+encodeURIComponent(JSON.stringify(owned));
     return '<section class="reward-play-shell"><button class="reward-exit button secondary" data-action="go" data-screen="title">学習へ戻る</button><iframe class="reward-game-frame" title="'+escapeHtml(activeRewardGame?.name||'モンスターお宝ラン')+'" src="'+escapeHtml(source)+'" allow="fullscreen"></iframe></section>';
   }

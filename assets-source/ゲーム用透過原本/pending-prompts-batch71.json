@@ -1,0 +1,22 @@
+[
+  {
+    "key": "080-scale-fairy_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-673d0293-414a-4555-9b55-6a01d77d3980.png",
+    "prompt": "Background-extraction edit supplied 080-scale-fairy N card. Isolate exact same full green-haired green-eyed fairy girl, flower leaf hair ornament, complete four iridescent insect wings with veins, green white gold leaf dress and flowing leaf ribbons, held staff with faceted blue gem and floral leaves, both hands legs flower shoes. Preserve face pose and game illustration. Remove castle forest plants waterfall stones stream ground, detached floating cubes butterflies petals light trails. True transparent alpha around silhouette and all open gaps; retain wing surface with natural translucency but remove landscape visible through it. Full centered character and staff generous 15-20 percent clear margins, no crop no text no redesign.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\080-scale-fairy\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full fairy staff four wings limbs and clothes retained. Yellow white residue around hair staff wings and dress; not approved.",
+    "gameMirrorX": false
+  }
+]

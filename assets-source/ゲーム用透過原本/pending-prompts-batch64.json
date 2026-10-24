@@ -1,0 +1,22 @@
+[
+  {
+    "key": "073-unit-fenrir_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-197645fe-ae7a-441a-9452-3197fda0fa6f.png",
+    "prompt": "Background-extraction edit. Isolate exact same full blue-white crystal wolf puppy from attached 073-unit-fenrir N card. Preserve face blue eyes cheerful open mouth, pointed ears, blue white fur, all crystals attached to fur and chest, all four legs paws claws, entire raised fluffy tail. Preserve original slightly left-facing pose and game illustration detail. Remove snowy landscape, ALL detached crystals, trees, sky, sparkles, ground, ice reflection and shadow. True transparent alpha with clean fur edges and fully transparent spaces between legs and under belly and tail. No colored background residue. Full animal centered, 15-20 percent clear margins, no cropping no text no redesign.",
+    "facing": "left",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\073-unit-fenrir\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full crystal wolf face fur crystals paws tail retained. White patches between legs and blue edge residue remain; pending.",
+    "gameMirrorX": true
+  }
+]

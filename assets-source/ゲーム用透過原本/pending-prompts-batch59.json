@@ -1,0 +1,21 @@
+[
+  {
+    "key": "069-balance-cerberus_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-e29bcc2e-68e0-4926-ae46-db7b7a6dc7a7.png",
+    "prompt": "Use case: background-extraction. Edit target supplied 069-balance-cerberus N card. Extract exact same full white three-headed puppy Cerberus, keeping all THREE heads with distinct face directions, blue eyes, ears, gold crowns with blue jewels, all gold armor and dangling chains, four paws, fluffy tails and fur. Keep original frontal body pose and painted game illustration; do not redesign. Remove white backdrop, ALL floating golden flames, sparks, floor magic circle and cast shadow. Genuine transparent alpha outside animal and in every opening between legs, chains, necks and tails. No colored fringe, matte, white patches or checkerboard pixels. Center full body with generous 15-20 percent clear margins, no cropping, no text. Mixed head directions must stay unchanged.",
+    "facing": "mixed",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\069-balance-cerberus\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Three heads and full body armor chains paws tails retained; red and yellow opaque residue between legs and around necks. Mixed head directions unchanged. Not approved for game."
+  }
+]

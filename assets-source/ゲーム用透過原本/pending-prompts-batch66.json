@@ -1,0 +1,22 @@
+[
+  {
+    "key": "075-rate-mercury_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-5e3a3472-c16b-451d-b8c0-b9ee559835bd.png",
+    "prompt": "Background-extraction edit target 075-rate-mercury N card. Isolate exact same flying silver-haired winged boy: blue eyes open smiling mouth, raised hand holding golden wand, other open hand, TWO full feathered wings, white gold blue tunic ribbons, bent legs and complete winged sandals. Preserve exact pose identity and game illustration. Remove sky temples columns cloud lightning trails sunlight environment and floor completely. Keep cloth ribbons, actual wings and wand. True transparent alpha exterior and all gaps between wings arms ribbons legs, no colored fringe matte or white background remnants. Full body centered generous 15-20 percent margins no crop no text no redesign.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\075-rate-mercury\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full winged boy pose identity wand wings ribbons sandals preserved. Red/yellow residue and white patches around hair ribbons and between legs remain. Not approved.",
+    "gameMirrorX": false
+  }
+]

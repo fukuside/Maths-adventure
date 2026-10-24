@@ -1,0 +1,22 @@
+[
+  {
+    "key": "074-density-titan_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-50d704af-dc59-4598-a054-1e198fc7b0fe.png",
+    "prompt": "Background-extraction edit: isolate exact same cheerful black stone crystal golem from 074-density-titan N reference. Preserve blue eyes open mouth, all stone body pieces, gold bands, crystals attached to head shoulders hands torso knees, two fists and both entire feet. Same front three-quarter pose game illustration. Remove entire cave, water, reflections, ALL detached floating crystals and sparkles, ground and shadow. True transparent alpha around character and all open gaps between arms torso and legs, clean edges without blue cyan red yellow residue or white matte. Center full body 15-20 percent clear margins, no cropping no text no redesign.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\074-density-titan\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full stone golem face fists feet attached crystals retained. Cyan blue fringe around crystals and red/yellow edge spots remain. Not approved.",
+    "gameMirrorX": false
+  }
+]

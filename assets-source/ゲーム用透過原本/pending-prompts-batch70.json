@@ -1,0 +1,22 @@
+[
+  {
+    "key": "079-proportion-unicorn_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-c6239954-741a-4008-ae2d-f4c5f7a628d5.png",
+    "prompt": "Background-extraction edit supplied 079-proportion-unicorn N card. Extract exact same full white unicorn facing left, gold horn, blue eye face ears, pastel blue pink flowing mane and entire tail, blue gold harness saddle armor gold chains blue gems attached flowers at head and tail, four complete legs hooves and raised front leg. Preserve pose and game illustration. Remove all environment castle sky cliffs grass flowers on ground floating petals sparkles reflection shadow. Genuine transparent alpha around silhouette and every open space in mane tail legs and harness chains, no colored matte residue. Full character centered 15-20 percent clear margin, no crop no text no redesign.",
+    "facing": "left",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\079-proportion-unicorn_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\079-proportion-unicorn\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full unicorn face horn harness four legs mane tail retained. White/magenta residue in mane tail openings and below belly; not approved.",
+    "gameMirrorX": true
+  }
+]

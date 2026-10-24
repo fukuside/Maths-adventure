@@ -1,0 +1,22 @@
+[
+  {
+    "key": "071-distance-griffon_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-e4703d41-72ef-46f4-a1d2-a007320e02bb.png",
+    "prompt": "Use case: background-extraction. Edit supplied 071 N card (filename distance-griffon but actual character is a triangular blue crystal hooded floating child). Preserve EXACT actual character: giant blue triangular gold-edged hood, white round face blue eyes smile, forehead jewel, white gold cape blue star-pattern interior, two open gloved hands, two legs boots, chest and waist blue jewels. Original front pose. Remove detached floating gems, orbit lines, sparks, ground magic circle and white background. True transparent alpha, including every gap between arms cape and boots; no white or colored residue, no halo. Full same character central with generous margins no crop, no text, no griffin redesign. Painted game illustration unchanged.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\071-distance-griffon\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Actual crystal hooded child preserved despite filename. Red/yellow opaque residue between boots and small outer-edge patches; not approved.",
+    "gameMirrorX": false
+  }
+]

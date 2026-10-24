@@ -1,0 +1,22 @@
+{
+  "key": "067-ratio-seraphim_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/067-ratio-seraphim/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-433bf36b-5743-40d3-8b19-11deaccbd913.png",
+      "prompt": "Use case: background-extraction. Extract exact complete white-haired angel boy from supplied 067 N card, true transparent alpha. Preserve blue eyes face full hair curls, both complete white feather wings, white gold blue robes cape boots all limbs, complete held balance scale including every gold chain both blue bowls and blue spheres. Original slight-left frontal pose painted cute game style unchanged. Remove white environment, detached floating feathers sparkles floor magic ring and shadows. Transparent gaps among balance chains, bowls, hair curls, wings and body; no opaque white/gold residue. Full character and scale centered generous margins no cropping no new text no redesign.",
+      "review": "Complete angel and scale retained; red/yellow opaque remnants among scale chains, gray white hair curl residue. Pending.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

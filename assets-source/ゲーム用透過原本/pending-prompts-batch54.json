@@ -1,0 +1,22 @@
+{
+  "key": "064-equal-king_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/064-equal-king/n.webp",
+  "status": "pending-cleanup",
+  "facing": "front",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-6db4e48a-2a4e-4879-86d0-edff3413f278.png",
+      "prompt": "Use case: background-extraction. Extract exact full golden brown animal king from supplied 064 N card. Preserve face blue eyes white bushy eyebrows moustache, black gold crown blue gems, full black armor with TWO gold horizontal chest bars, blue gold fur-edged cape, hands feet boots complete held blue crystal staff. Same frontal pose proportions painted fantasy game style. Remove white background ALL detached floating crystals sparkles gold swirls and floor magic circle ground shadow. True transparent alpha around body and inside crown openings cape staff gaps, no colored residue. Entire character centered generous empty margins no cropping no redesign no added text.",
+      "review": "Full king preserved; opaque yellow/red residue between staff and face, below cape and leg gaps. Not accepted.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

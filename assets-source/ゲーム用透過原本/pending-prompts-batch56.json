@@ -1,0 +1,22 @@
+{
+  "key": "066-percent-devil_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/066-percent-devil/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-fc2f7124-b41b-4700-8073-ffb7efee1e27.png",
+      "prompt": "Use case: background-extraction. Extract exact complete little red black devil boy from supplied 066 N card, true transparent alpha. Preserve face red eyes smile pointed ears black hair red horns, full red black outfit cape shorts boots hands, complete staff and gem, both full bat wings red membranes, entire pointed tail. Existing frontal slight left pose painted cute game style unchanged. Remove white environment, floating percent disks, all detached flames sparkles and hand aura, ground magic circle shadow. Transparent outside silhouette and gaps among wings staff legs tail hair, no environmental remnants. Full character centered generous margins no crop no new text no redesign.",
+      "review": "Full devil preserved; red opaque remnant between right leg and cape. Pending.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

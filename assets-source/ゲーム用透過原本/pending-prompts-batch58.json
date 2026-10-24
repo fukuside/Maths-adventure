@@ -1,0 +1,21 @@
+[
+  {
+    "key": "068-average-goddess_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-667ae3ac-340d-4efc-a7f9-2dbdd1dbf6f9.png",
+    "prompt": "Use case: background-extraction. Edit target: attached 068-average-goddess N card. Extract ONLY the exact same blue-haired goddess as a clean game sprite with genuine transparent alpha. Preserve face, blue eyes, crown, jewels, earrings, every long blue hair strand, both open hands, white-blue-gold flowing dress and sleeves, full legs and sandals, original front-facing pose and game illustration style. Remove all three floating blue planets, sparkles, droplets, water trails, magic circle and floor. Preserve all actual clothing fabric. All open gaps between hair strands, sleeves, arms and body must be transparent, not white or colored residue. No background, no shadow, no halo, no checkerboard pixels, no red/yellow edge patches. Full character centered with 15-20 percent clear margins on all sides; no text; no crop; do not turn the face or redesign.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\068-average-goddess\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full front-facing goddess preserved; planets and water removed, but cyan blue fringes in hair openings and white/red edge residue remain. Not approved for game use."
+  }
+]

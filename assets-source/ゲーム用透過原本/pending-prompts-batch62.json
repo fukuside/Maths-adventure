@@ -1,0 +1,23 @@
+[
+  {
+    "key": "071-distance-griffon_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-7122c617-1330-428f-a05a-edcee99d8ea4.png",
+    "editReference": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-e4703d41-72ef-46f4-a1d2-a007320e02bb.png",
+    "prompt": "Background-extraction cleanup edit, preserve image character exactly. Correct ONLY alpha mask imperfections in attached transparent crystal-hood child sprite. Remove red and yellow debris BETWEEN THE TWO BOOTS at bottom center, and tiny isolated red/yellow specks outside hood and cape. These colored edge remnants are not part of character. Make those holes and exterior pixels fully transparent alpha=0. Preserve gold outlines of boots and hood, white hands, face, blue gems, blue cape with stars, all exact silhouette details and pose. Do not redraw or recolor the character, no background, no matte or checkerboard. Full character on transparent square.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_N-pending-2.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\071-distance-griffon\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Targeted mask cleanup attempted; red/yellow residue remains between boots and slight edge specks. Not approved.",
+    "gameMirrorX": false
+  }
+]

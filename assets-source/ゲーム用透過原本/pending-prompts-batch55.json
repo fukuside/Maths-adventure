@@ -1,0 +1,22 @@
+{
+  "key": "065-small-knight_N",
+  "reference": "C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/065-small-knight/n.webp",
+  "status": "pending-cleanup",
+  "facing": "left",
+  "attempts": [
+    {
+      "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-dbc7ef89-6cef-4969-8557-83365a131f6b.png",
+      "prompt": "Use case: background-extraction. Extract exact same complete small armored knight from supplied 065 N card. Preserve face blue eyes, silver helmet blue plume, all armor boots legs hands, blue gold chest crest and tabard, complete held sword with blue gem hilt, full blue gold shield with white downward arrow. Original frontal slightly left pose cute painted game illustration unchanged. Remove ALL castle scenery paving grass rocks sky and ground shadow. Genuine transparent alpha outside silhouette and all gaps between sword body shield legs plume curls, no environment residue. Full body sword plume shield centered generous clear margins no crop no text or redesign.",
+      "review": "Full knight preserved; red/gray opaque fringes at sword hilt and blue plume fringe. Not accepted.",
+      "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_N-pending-1.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "alphaExtrema": [
+        0,
+        255
+      ]
+    }
+  ]
+}

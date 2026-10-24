@@ -1,0 +1,22 @@
+[
+  {
+    "key": "078-ratio-twin-dragon_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-03195551-6edb-48ab-8858-96dd83d4d2d1.png",
+    "prompt": "Background-extraction edit 078 N card. Extract exactly same intertwined TWO dragon pair as one sprite, blue dragon on left gold dragon right, both full faces eyes horns crests, two complete visible spread wings and opaque membranes, claws legs intertwined full tails crystals scales. Preserve embrace pose no separating redesign or missing limbs. Remove all mountains cliffs waterfalls trees sky floating islands distant crystals mist shadow and ground. True transparent alpha outside pair and open gaps within wings tails bodies. No red yellow cyan matte remnants. Painted game illustration, full pair centered 15-20 percent clear margin, no text no crop.",
+    "facing": "mixed",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\078-ratio-twin-dragon\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Both intertwined dragons identities complete wings and tails retained. Red yellow cyan remnants in wing/head gaps and around edges; not approved.",
+    "gameMirrorX": false
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "077-average-archangel_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-5b87db57-f1c6-4313-85c0-8fd500e606c3.png",
+    "prompt": "Background-extraction edit 077-average-archangel N. Extract exact same full blonde blue-eyed angel with gold crown, two complete white feather wings, white gold dress sleeves blue jewels, full legs shoes, held entire gold staff with circular top and hanging balance scales and all chains, dress charms. Preserve pose and face style. Remove sky castle garden arch flowers detached feathers, floating ambient trails floor reflections shadow. True transparent alpha in all openings between staff ring spokes scale chains hair limbs and wings; no white red yellow matte patches. Do not remove gold equipment or wing feathers. Full centered body and staff 15-20 percent margin no crop no redesign no text.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\077-average-archangel_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\077-average-archangel\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full angel staff scales chains wings and clothing preserved; red yellow opaque remnants within staff ring and around hair and dress. Not approved.",
+    "gameMirrorX": false
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "072-time-chrono-demon_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-43bde764-a0de-43d2-8b64-93d5eb9423fe.png",
+    "prompt": "Use case background-extraction. Extract exact same little blue gold dragon from supplied 072 N card. Preserve left-facing three-quarter pose, blue eyes white muzzle smile, blue crystal gold horns crown, blue scales white belly, both bat wings with opaque pale membranes, all paws gold claws, chest and limb jewels, full curled tail and gold blue tail tip. Remove white backdrop, blue floating sparkles, swirl trails and magic-circle ground completely. Real transparent alpha around silhouette and openings between wings body and tail; preserve actual wing membranes. No colored fringe, no matte patches, no glow, no redesign. Center entire dragon with 15-20 percent margin and no crop, no text.",
+    "facing": "left",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\072-time-chrono-demon\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full dragon identity wings membranes paws tail retained. Blue residue in opening behind right wing and red under tail tip; pending.",
+    "gameMirrorX": true
+  }
+]
