@@ -1,0 +1,22 @@
+[
+  {
+    "key": "089-zeus-proportional_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-24c6004b-f242-4a54-9bc6-f1553f2e2f45.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\089-zeus-proportional\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 089-zeus-proportional N. Extract exact full cute white-haired bearded Zeus warrior with blue eyes gold laurel, blue gold white armor cape, entire gold spear held raised including tip and shaft, full round blue gold shield with central jewel, both legs boots. Preserve exact identity face pose and illustration style. Remove temple clouds sky statues floor reflections shadows and ALL detached lightning surrounding or crossing outside silhouette. Preserve actual weapon and equipment. True transparent alpha exterior and openings between hair spear cape legs shield no matte remnants. Full body weapons centered 15-20 percent clear margins no crop no text no redesign.",
+    "visualReview": "Full Zeus face hair beard spear shield cape boots retained. Red/yellow residue along spear and cape; white hair-gap patches. Not approved."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "085-graph-sphinx_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-eb4ca212-869a-48d2-8c6d-25c2bcc80b73.png",
+    "prompt": "Background-extraction edit supplied 085-graph-sphinx N card. Extract exactly same full winged lion cub sphinx: friendly face amber eyes brown mane blue gold forehead jewel, both entire large feather wings dark blue gold, blue gold chest armor and leg bracelets jewels, four full paws, entire curved tail with tuft and ornament. Preserve original pose identity style. Remove temple sky cloud cliffs columns banners vines floor reflection shadow. True transparent alpha around all silhouette and open spaces between wings body legs tail, no white red yellow matte leftovers. Full character centered 15-20 percent clear margin no crop no text no redesign.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\085-graph-sphinx_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\085-graph-sphinx\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full winged lion face mane armor wings paws tail retained. Red yellow residue around mane wings legs and tail; not approved.",
+    "gameMirrorX": false
+  }
+]

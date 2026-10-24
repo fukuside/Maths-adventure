@@ -1,0 +1,22 @@
+[
+  {
+    "key": "088-algebra-devil-lord_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-27982103-28f4-4c5e-9d91-97868112bece.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\088-algebra-devil-lord\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 088-algebra-devil-lord N card. Extract exact same full horned black purple gold armored demon knight with purple glowing eyes, complete axe held one hand including entire shaft, open other armored hand, shoulder spikes jewels, full tattered purple gold cape and both boots legs. Preserve exact pose and illustration identity. Remove all temple architecture stars nebula floating shards light trails purple floor circles reflection shadow. Genuine transparent alpha exterior and gaps within horns axe arm cape legs; no colored matte remnants. Full character and axe centered 15-20 percent clear margins no crop no text no redesign.",
+    "visualReview": "Full demon knight axe cape limbs retained. Red opaque remnants inside axe and around horns/cape, blue patch below cape. Not approved."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "084-angle-archangel_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-e4fbe7e8-dbe1-41a8-826e-afef1d378a5b.png",
+    "prompt": "Background-extraction edit 084-angle-archangel N reference. Extract exact same full silver-haired blue-eyed angel boy, white gold blue armor, two complete feather wings and gold wing bases, entire sword held upright in left side of image, open other hand, flowing blue white gold coat ribbons charms, both legs boots. Same face pose style. Remove temple castle pillars sky clouds distant crystals feathers light swirls floor reflections shadows. True transparent alpha outside silhouette and every opening between sword wing body ribbons legs, no red yellow blue matte residue or white patches. Full centered body wings sword with 15-20 percent clear margins no crop no text no redesign.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\084-angle-archangel\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full angel sword wings armor limbs retained. White/red/yellow residue in wing/arm and ribbon openings and colored edges remain. Not approved.",
+    "gameMirrorX": false
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "086-data-oracle_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0f3e221b-1ed5-4576-88ef-30892b9c1149.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\086-data-oracle\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 086-data-oracle N reference. Extract same full silver-haired dark-skinned blue-eyed oracle girl, gold blue hair jewelry, purple white gold robe long sleeves, open hand, staff with full golden orbital ring and blue crystal, all hanging staff jewels, both legs boots and complete flowing hair. Preserve exact identity pose and paint style. Remove entire library columns stairs globe, all floating graph panels detached crystals light trails floor circles reflection and shadow. True transparent alpha exterior and every gap in staff ring hair arm body; no red yellow white matte remnants. Center full character with staff 15-20 percent clear margins no crop no text no redesign.",
+    "visualReview": "Full oracle identity retained. Red yellow residue in staff, white hair-gap patches and red hem fringe. Not approved."
+  }
+]

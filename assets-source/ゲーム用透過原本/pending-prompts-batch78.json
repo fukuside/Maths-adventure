@@ -1,0 +1,22 @@
+[
+  {
+    "key": "087-alphabet-witch_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-081bf748-d2db-4774-b463-bacb074c8500.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\087-alphabet-witch_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\087-alphabet-witch\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 087-alphabet-witch N reference. Extract same full red twin-tail witch girl, purple eyes face smile, entire purple pointed wide hat gold details, purple gold dress cape sleeves, both outstretched hands all fingers, bent legs boots and open floating spellbook beside left hand as her equipment. Preserve identity pose game paint style. Remove library shelves windows lamps globes, surrounding light trails sparks stars and floor shadow. True transparent alpha all exterior and gaps among hair hat arms legs cape book, no white red yellow matte patches. Full character hat and book centered generous 15-20 percent margin no crop no text no redesign.",
+    "visualReview": "Full witch hat hair hands boots book retained. Opaque red residue in hair loops and white residue near book and hands. Not approved."
+  }
+]

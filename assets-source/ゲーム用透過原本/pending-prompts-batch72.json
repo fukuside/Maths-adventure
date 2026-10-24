@@ -1,0 +1,22 @@
+[
+  {
+    "key": "081-geometric-demon_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-3d9397be-15d3-4be9-b704-b4e3194ca3c7.png",
+    "prompt": "Background-extraction edit supplied 081-geometric-demon N. Isolate exact same full black magenta crystalline armored demon knight, two curved horns helmet glowing orange eyes, full held staff/axe including crystalline top and entire shaft, large shield in other hand, jagged armor cape, both legs boots. Preserve exact pose identity intricate gold cracks red crystals. Remove cave purple light floor reflection shadow ALL detached floating shards and sparks. True transparent alpha outside character and equipment, including gaps between horns staff arm body shield legs cape. No red yellow blue matte remnants or glow. Full centered knight and weapons with 15-20 percent margin no crop no redesign no text.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\081-geometric-demon\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full knight horns axe shield cape limbs retained; magenta/red opaque residue in axe gaps and colored edge remnants remain. Not approved.",
+    "gameMirrorX": false
+  }
+]

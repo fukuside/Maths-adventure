@@ -1,0 +1,22 @@
+[
+  {
+    "key": "082-polygon-chimera_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-51acb6fe-8b10-4ba9-baec-83d290b7b1eb.png",
+    "prompt": "Background-extraction edit 082-polygon-chimera N. Isolate exact same full two-headed crystal dragon chimera: left gold head amber eye, right green head green eye, both open smiling mouths, single shared dark blue body gold chest, all attached purple blue crystals, two small wings, four legs claws, entire curled crystal tail. Preserve original pose proportions face and game paint style. Remove castle cliffs waterfalls grass stones sky distant crystals all ground reflections shadow. True transparent alpha outside silhouette and all gaps among necks wings legs tail; no environment residue or colored matte. Entire subject centered 15-20 percent clear margin no crop no text no redesign.",
+    "facing": "left",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\082-polygon-chimera\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Both heads shared body identity retained. Blue white remnants between necks and wing; tail reaches right canvas boundary with insufficient margin. Not approved.",
+    "gameMirrorX": true
+  }
+]

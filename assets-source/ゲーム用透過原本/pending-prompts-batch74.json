@@ -1,0 +1,22 @@
+[
+  {
+    "key": "083-circle-goddess_N",
+    "source": "C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-7439d474-53dc-4c1f-a74e-00354fa5bd32.png",
+    "prompt": "Background extraction edit supplied 083-circle-goddess N card. Preserve exact full black-haired amber-eyed celestial mage, gold hair ornaments, black white gold ornate full gown and sleeves, both hands, complete shoes, held black gold staff with entire circular astrolabe top and its attached ornaments. Remove all castle arches flowers sky floor reflections ambient rings floating planets stars and light trails not physically attached to dress/staff. Keep gold patterns and hanging dress charms. Real transparent alpha outside and within staff rings hair and arm gaps, clean no colored matte residue. Same pose style identity, full character and staff centered 15-20 percent clear margin no crop no text no redesign.",
+    "facing": "front",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_N-pending-1.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\083-circle-goddess\\n.webp",
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "visualReview": "Full mage face hair dress staff and equipment retained. Red/yellow opaque remnants inside staff rings and hair gaps; not approved.",
+    "gameMirrorX": false
+  }
+]
