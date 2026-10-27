@@ -1,0 +1,22 @@
+[
+  {
+    "key": "001-plus-rabbit_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction exact supplied 001 SR rabbit reference. Preserve same white rabbit brown eyes smile teeth, entire pink ears tail two paws feet, green cape with gold plus patterns, green gold clasp, brown satchel belt, and complete gold plus-headed staff green gem. Same full body midair pose and painting rarity SR. Remove tan background gold aura floating plus signs sparks and floor magic circle. Actual transparent alpha outside silhouette and between staff ears cape paws satchel, not colored matte. All attached detail remains. Center full figure square with generous 20 percent clear margins. No cropping text redesign or direction change.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-86c2bb22-43f7-47aa-8489-a98bd0fe1a47.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending121-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "SR rabbit staff cape satchel face ears hands feet preserved. Yellow red matte fringes around cape feet staff and detached specks; inadequate side margin. Pending not installed."
+  }
+]

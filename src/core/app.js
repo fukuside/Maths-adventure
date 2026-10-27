@@ -1,4 +1,4 @@
-import {rewardHour,rewardUnlockStatus,recordRewardClear,rewardUnlockHint,rewardResetNote} from './reward-unlock.js';
+import {rewardDay,rewardUnlockStatus,recordRewardClear,rewardUnlockHint,rewardResetNote} from './reward-unlock.js';
 import {prepareWritten} from './written-easy.js';
 import {rewardLobby,purchaseEntry} from './reward-games.js';
 import {surveyLink,surveyInvitation,snoozeSurvey} from './survey-invitation.js';
@@ -56,10 +56,10 @@ export function createApp(root) {
   // コースは画面の選択状態だけに保持し、既存セーブを変更しない。
   let selectedCourse = "elementary";
   let rewardFromTop=false;
-  let shownRewardHour=rewardHour();
-  function refreshRewardHour(){const now=rewardHour();if(now===shownRewardHour)return;shownRewardHour=now;if(['landing','title','reward-lobby'].includes(screen))render();}
-  setInterval(refreshRewardHour,15000);
-  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshRewardHour();});
+  let shownRewardDay=rewardDay();
+  function refreshRewardDay(){const now=rewardDay();if(now===shownRewardDay)return;shownRewardDay=now;if(['landing','title','reward-lobby'].includes(screen))render();}
+  setInterval(refreshRewardDay,15000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshRewardDay();});
   function isKindergartenStage(stage = currentStage) {
     return stage?.packId === "kindergarten" || stage?.course === "kindergarten";
   }
@@ -3358,7 +3358,7 @@ function legacyMigrate() {
 
 </div>
 
-      <div class="panel">${rewardUnlockHint(state)}<button class="button" data-action="go" data-screen="reward-lobby" ${rewardUnlockStatus(state).unlocked?"":"disabled"}>🎮 ごほうびゲームへ</button>${rewardResetNote}<p>入場はダイヤ5個。足りなくなったら、また学習して集めよう！</p></div>
+      <div class="panel"><div class="reward-unlock-row"><button class="button" data-action="go" data-screen="reward-lobby" ${rewardUnlockStatus(state).unlocked?"":"disabled"}>🎮 ごほうびゲームへ</button>${rewardUnlockHint(state)}</div><p>入場はダイヤ5個。足りなくなったら、また学習して集めよう！</p></div>
       <!-- WORLD案内 -->
       <div class="panel hero course-banner ${isKindergarten ? 'course-banner-kindergarten' : 'course-banner-elementary'}">
         <img class="course-banner-image" src="/images/banners/${isKindergarten ? 'kindergarten-adventure' : 'elementary-adventure'}.webp" alt="" fetchpriority="high" decoding="async">
@@ -3526,7 +3526,7 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
         </button>
 
 
-        <div class="landing-reward-unlock">${rewardUnlockHint(state)}<button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button>${rewardResetNote}</div>
+        <div class="landing-reward-unlock"><button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button>${rewardUnlockHint(state)}</div>
         <!-- サブボタン -->
         <div class="landing-sub-buttons">
 
