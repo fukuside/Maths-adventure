@@ -691,6 +691,7 @@ root.addEventListener(
   if (!a) {
     return;
   }
+    if(a==='reward-help'){const row=t.closest('.landing-reward-unlock');if(row){const open=row.classList.toggle('hint-open');t.setAttribute('aria-expanded',String(open));}return;}
     if(a==='reward-top'){rewardFromTop=true;screen=getPlayers().length?'player-select':hasLegacySave()?'legacy-migrate':'player-create';render();return;}
     if(a==='reward-enter'){
       if(screen!=='reward-lobby'||!getActivePlayer()||!unlockedPartnerEntries().length)return;
@@ -3526,7 +3527,7 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
         </button>
 
 
-        <div class="landing-reward-unlock"><button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button>${rewardUnlockHint(state)}</div>
+        <div class="landing-reward-unlock"><button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button><button type="button" class="landing-reward-help" data-action="reward-help" aria-label="遊べる条件を表示" aria-expanded="false">?</button>${rewardUnlockHint(state)}</div>
         <!-- サブボタン -->
         <div class="landing-sub-buttons">
 

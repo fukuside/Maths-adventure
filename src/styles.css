@@ -18270,3 +18270,16 @@ body:has(.inline-choice-question){overflow-y:auto!important}
 /* Daily learning requirement: one horizontal row, no extra blocks below. */
 .landing-reward-unlock,.reward-unlock-row{display:flex;align-items:center;gap:12px;width:100%;margin:0 auto}.landing-reward-unlock{max-width:650px}.landing-reward-unlock .landing-reward-button{flex:1 1 55%;min-width:0;width:auto;margin:0}.reward-unlock-hint{flex:0 1 230px;min-width:0;margin:0;text-align:left}.reward-unlock-bubble{position:relative;background:#fff0bc;color:#59421c;padding:10px 12px;border-radius:14px;font-weight:700;font-size:13px;line-height:1.45;margin:0;overflow-wrap:anywhere;text-shadow:none}.reward-unlock-bubble:before{content:"";position:absolute;left:-8px;top:calc(50% - 8px);border-top:8px solid transparent;border-bottom:8px solid transparent;border-right:9px solid #fff0bc}.reward-unlock-bubble small{display:block;font-size:11px;line-height:1.45;font-weight:400;margin-top:3px}.reward-unlock-note{font-size:12px;text-align:center;color:#4d5a51}.reward-unlock-row>.button{flex:1;min-width:0}@media(max-width:600px){.landing-reward-unlock,.reward-unlock-row{gap:8px}.reward-unlock-hint{flex-basis:42%}.reward-unlock-bubble{padding:7px 8px;font-size:11px}.reward-unlock-bubble small{font-size:10px}.landing-reward-unlock .landing-reward-button{font-size:14px;padding:12px 8px;white-space:normal}.landing-reward-unlock .landing-play-icon{font-size:20px}}
 .landing-reward-unlock .landing-reward-button{font-size:clamp(14px,2.5vw,23px);padding-left:10px;padding-right:10px;gap:7px}.landing-reward-unlock .reward-unlock-bubble small{font-size:11px}
+
+/* Keep the original central button column; the hint occupies no layout space. */
+.landing-center .landing-reward-unlock{position:relative;display:block;width:max-content;max-width:100%;margin:8px auto 0}
+.landing-center .landing-reward-unlock .landing-reward-button{width:auto;min-width:min(78vw,400px);margin:0;font-size:clamp(15px,2.2vw,21px);padding:10px 15px;gap:16px}
+.landing-reward-unlock>.reward-unlock-hint{position:absolute;left:calc(100% + 14px);top:50%;transform:translateY(-50%);width:230px;min-width:230px;margin:0}
+.landing-reward-help{display:none}
+@media(max-width:1050px){
+ .landing-reward-unlock>.reward-unlock-hint{display:none;left:auto;right:0;top:50%;transform:translateY(-50%);z-index:15;width:210px;min-width:210px}
+ .landing-reward-help{display:grid;place-items:center;position:absolute;left:calc(100% + 5px);top:50%;transform:translateY(-50%);width:30px;height:36px;border:1px solid #d2aa4e;border-radius:12px;background:#fff0bc;color:#59421c;font-size:17px;font-weight:700;padding:0;touch-action:manipulation}
+ .landing-reward-unlock.hint-open>.reward-unlock-hint{display:block;right:0;top:calc(100% + 7px);transform:none}
+ .landing-reward-unlock.hint-open .reward-unlock-bubble:before{left:auto;right:10px;top:-8px;border-left:8px solid transparent;border-right:8px solid transparent;border-top:0;border-bottom:9px solid #fff0bc}
+}
+@media(max-height:600px){.landing-center .landing-reward-unlock{margin-top:4px}}
