@@ -1,0 +1,22 @@
+[
+  {
+    "key": "004-apple-bear_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction exact supplied 004 UR apple bear king. Keep same red fur bear brown eyes muzzle smile eyebrows ears, crown ruby leaf, entire red gold fur-trim royal cape green scarf gold apple heart brooch belt pouch decorations, both fists paws feet and complete apple held in raised hand. Preserve identity rarity full body dynamic pose and game painting. Remove forest ground golden aura flames floating loose apples leaves sparks sky and magic sigil behind. True transparent alpha outside full bear clothing apple silhouette and gaps arms scarf cape legs. No colored matte residue. Center all body cloak apple with 20 percent transparent padding all edges square no crop no text no redesign, same front pose.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-17e54f2a-d9f8-4f15-a294-77e702c2ae12.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-pending123-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Same UR bear face crown raised apple scarf robe cape pouch gems fists paws feet preserved. Red yellow matte fringes in crown scarf cape gaps and edges, cloak touches left canvas boundary. Pending not installed."
+  }
+]

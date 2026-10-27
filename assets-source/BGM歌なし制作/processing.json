@@ -1,0 +1,22 @@
+{
+  "source": "public/audio/title-bgm.mp3",
+  "method": "local Demucs 4.1.0 htdemucs two-stems vocals, other=add, shifts=1, cpu",
+  "originalSeconds": 30.56326530612245,
+  "loopIntervalSeconds": [
+    1.7000000000000002,
+    28.0
+  ],
+  "pulseEstimateBpm": 75.0,
+  "barsPerCycle": 8,
+  "crossfadeSeconds": 0.7,
+  "cycleSeconds": 25.6,
+  "cycles": 4,
+  "outputSeconds": 102.4,
+  "sampleRate": 44100,
+  "channels": 2,
+  "peak": 0.8600000143051147,
+  "gain": 0.8870433441405143,
+  "seamSampleDifference": 0.010936447480248041,
+  "originalSHA256": "e8eed8a48f8dd333d5585d77c30abb239c6e1afaad3dbb4e7a9b1abb4922d68a",
+  "validation": "Files decode and finite samples verified, no clipped PCM samples. Musical seam and residual vocals require listening review; no iPhone/iPad playback test. Original file and app references unchanged."
+}

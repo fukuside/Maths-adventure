@@ -1,0 +1,22 @@
+[
+  {
+    "key": "002-sum-slime_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Precise background extraction exact 002 UR slime monarch reference. Preserve same translucent-blue slime body face happy mouth eyes blush top crest, royal gold sapphire crown, entire blue white gold ornate cape chains attached plus ornaments gems, both hands fingers and whole gold blue staff with circular plus sapphire head. Retain UR identity and all attached equipment. Remove cosmic sky beams stars floating unattached plus gems water arcs splashes bubbles and ground magic circle. Transparent alpha everywhere outside single silhouette and within gaps staff ring cape hands. Preserve translucent gel interior but do not erase character. Center full silhouette with 20% clear padding all sides. No matte-colored fringe. Same front pose no redesign no text.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f76e6574-1b0b-4d44-958c-bb56659ec5d7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending122-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Same UR slime crown crest full staff robes cape chains gems hands preserved. Red yellow cyan matte fringes staff ring hands cape gaps, inadequate side margin. Pending not installed."
+  }
+]

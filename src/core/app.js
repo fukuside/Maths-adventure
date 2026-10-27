@@ -1846,6 +1846,8 @@ if (isCorrect) {
   "choose-partner"
 ) {
 
+  if (!state.unlockedCards.includes(t.dataset.key)) return;
+
   state.partnerKey =
     t.dataset.key;
 
@@ -1869,6 +1871,7 @@ if (isCorrect) {
   );
 
 
+  zoom = null;
   msg =
     "パートナーに せっていしました！";
 
@@ -3063,7 +3066,7 @@ function sample(arr){
   }
 
   if (screen === "partner") {
-    return partner();
+    return collection();
   }
 
   if (screen === "sync") {
@@ -3415,13 +3418,7 @@ function legacyMigrate() {
       <!-- 設定・図鑑 -->
       <div class="panel stack">
 
-        <button
-          class="button partner-button"
-          data-action="go"
-          data-screen="partner"
-        >
-          ⭐ パートナー
-        </button>
+
 
 
         <button
@@ -5221,8 +5218,7 @@ function renderPartnerCompanion() {
         </span>
 
         <p>
-          パートナーを えらぶと
-          おうえんしてくれるよ！
+          パートナーは、ずかんから選べるよ
         </p>
 
       </div>
@@ -5493,317 +5489,12 @@ ${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
     </div>
   `;
 }
-  function partner() {
-
-  const entries =
-    unlockedPartnerEntries();
-
-
-  const selected =
-    selectedPartner();
-
-
-  const selectedStudy =
-    selected
-      ? getPartnerStudyCount(
-          selected.key
-        )
-      : 0;
-
-
-  const selectedTitle =
-    selected
-      ? getPartnerTitle(
-          selectedStudy
-        )
-      : "";
-
-
-  const nextTitle =
-    selected
-      ? getNextPartnerTitle(
-          selectedStudy
-        )
-      : null;
-
-
-  return `
-    <section class="stack">
-
-
-      <div class="toolbar">
-
-        <button
-          class="button secondary small"
-          data-action="go"
-          data-screen="title"
-        >
-          ◀ もどる
-        </button>
-
-
-        <h2>
-          いっしょに べんきょうする パートナー
-        </h2>
-
-
-        <span></span>
-
-      </div>
-
-
-      <div class="panel partner-intro">
-
-        ${
-          selected
-            ? `
-              <div class="current-partner">
-
-                <img
-  src="${image(
-    selected.card,
-    selected.rarity
-  )}"
-  alt="${escapeHtml(
-    selected.card.name
-  )}"
-  fetchpriority="high"
-  decoding="async"
->
-
-                <div>
-
-
-                  <small>
-                    いまの パートナー
-                  </small>
-
-
-                  <div class="partner-title-badge">
-                    ⭐ ${escapeHtml(
-                      selectedTitle
-                    )}
-                  </div>
-
-
-                  <h3>
-                    ${escapeHtml(
-                      selected.card.name
-                    )}
-                  </h3>
-
-
-                  <p>
-                    いっしょに といた もんだい：
-                    <strong>
-                      ${selectedStudy}
-                    </strong>
-                    もん
-                  </p>
-
-
-                  ${
-                    nextTitle
-                      ? `
-                        <p class="partner-next-title">
-
-                          次の称号
-                          「${escapeHtml(
-                            nextTitle.title
-                          )}」まで
-
-                          <strong>
-                            ${
-                              Math.max(
-                                0,
-                                nextTitle.target -
-                                selectedStudy
-                              )
-                            }
-                          </strong>
-
-                          もん！
-
-                        </p>
-                      `
-                      : `
-                        <p class="partner-next-title max">
-                          👑 最高の称号になりました！
-                        </p>
-                      `
-                  }
-
-
-                  <button
-                    class="button secondary small"
-                    data-action="remove-partner"
-                  >
-                    はずす
-                  </button>
-
-
-                </div>
-
-              </div>
-            `
-
-            : `
-              <p>
-                カードずかんで
-                てにいれた モンスターから、
-                すきな 1たいを えらべます。
-              </p>
-            `
-        }
-
-      </div>
-
-
-      ${
-        msg
-          ? `
-            <div class="notice">
-              ${escapeHtml(msg)}
-            </div>
-          `
-          : ""
-      }
-
-
-      <div class="partner-grid">
-
-        ${
-          entries.length
-            ? entries.map(
-                x => {
-
-                  const studyCount =
-                    getPartnerStudyCount(
-                      x.key
-                    );
-
-
-                  const title =
-                    getPartnerTitle(
-                      studyCount
-                    );
-
-
-                  return `
-                    <article
-                      class="
-                        partner-choice
-                        rarity-${x.rarity}
-
-                        ${
-                          state.partnerKey === x.key
-                            ? "selected"
-                            : ""
-                        }
-                      "
-                    >
-
-                      <img
-  src="${image(
-    x.card,
-    x.rarity
-  )}"
-  alt="${escapeHtml(
-    x.card.name
-  )}"
-  loading="lazy"
-  decoding="async"
->
-
-                      <div>
-
-                        <small>
-                          ${x.rarity}
-                          ・No.${
-                            String(
-                              x.card.number
-                            ).padStart(
-                              3,
-                              "0"
-                            )
-                          }
-                        </small>
-
-
-                        <div class="partner-title-mini">
-                          ⭐ ${escapeHtml(
-                            title
-                          )}
-                        </div>
-
-
-                        <h3>
-                          ${escapeHtml(
-                            x.card.name
-                          )}
-                        </h3>
-
-
-                        <p>
-                          ${studyCount}もん
-                          いっしょに べんきょう
-                        </p>
-
-
-                        <button
-                          class="
-                            button
-                            ${
-                              state.partnerKey === x.key
-                                ? "secondary"
-                                : "cyan"
-                            }
-                          "
-
-                          data-action="choose-partner"
-
-                          data-key="${escapeHtml(
-                            x.key
-                          )}"
-                        >
-
-                          ${
-                            state.partnerKey === x.key
-                              ? "⭐ パートナーちゅう"
-                              : "このこに する"
-                          }
-
-                        </button>
-
-
-                      </div>
-
-                    </article>
-                  `;
-                }
-              ).join("")
-
-            : `
-              <div class="panel empty-partners">
-
-                <p>
-                  まだ カードが ありません。
-                </p>
-
-                <p>
-                  ステージを クリアして、
-                  パートナーを みつけよう！
-                </p>
-
-              </div>
-            `
-        }
-
-      </div>
-
-    </section>
-  `;
-}
+  function partnerHistoryBadge(key) {
+    const id = getPartnerStudyId(key);
+    const hadPartner = state.partnerKey === key || Object.keys(state.partnerStudy ?? {}).some(k => getPartnerStudyId(k) === id);
+    if (!hadPartner) return "";
+    return `<span class="collection-partner-title">${state.partnerKey === key ? "⭐ パートナーちゅう · " : ""}${escapeHtml(getPartnerTitle(getPartnerStudyCount(key)))}</span>`;
+  }
 
   function collection() {
   return `
@@ -5824,6 +5515,7 @@ ${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
         </span>
       </div>
 
+      <p class="muted">モンスターをタップして、パートナーにできるよ。</p>
       <div class="collection-grid">
         ${
           cards
@@ -5857,8 +5549,9 @@ ${earned.isNew ? '<div class="new-badge">NEW!</div>' : ''}
                           ${c.name}
                         </h3>
 
+                        ${partnerHistoryBadge(`${c.id}_${r}`)}
                         <small>
-                          タップで拡大 🔍
+                          タップでくわしく・パートナー設定
                         </small>
                       </div>
                     </button>
@@ -5944,6 +5637,11 @@ function zoomModal() {
         </article>
       </div>
 
+      ${state.unlockedCards.includes(`${c.id}_${r}`) ? `<div class="collection-partner-actions">
+        ${partnerHistoryBadge(`${c.id}_${r}`)}
+        <button class="button cyan" data-action="choose-partner" data-key="${escapeHtml(`${c.id}_${r}`)}" ${state.partnerKey === `${c.id}_${r}` ? 'disabled' : ''}>${state.partnerKey === `${c.id}_${r}` ? '⭐ パートナーちゅう' : 'このこをパートナーにする'}</button>
+        ${state.partnerKey === `${c.id}_${r}` ? '<button class="button secondary small" data-action="remove-partner">パートナーをおやすみする</button>' : ''}
+      </div>` : ''}
       <p class="zoom-guide">
         指でなぞるか、マウスを動かすとカードが傾いて光ります。
       </p>

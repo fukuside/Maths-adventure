@@ -18283,3 +18283,20 @@ body:has(.inline-choice-question){overflow-y:auto!important}
  .landing-reward-unlock.hint-open .reward-unlock-bubble:before{left:auto;right:10px;top:-8px;border-left:8px solid transparent;border-right:8px solid transparent;border-top:0;border-bottom:9px solid #fff0bc}
 }
 @media(max-height:600px){.landing-center .landing-reward-unlock{margin-top:4px}}
+
+/* Decimal visual choices must grow with stacked mobile answers. */
+.game-area>.question-card:has(.decimal-choice-question){height:auto!important;max-height:none!important;min-height:0!important;overflow:visible!important;flex-shrink:0!important}
+.question-card:has(.decimal-choice-question)>div,.question-card .decimal-choice-question{height:auto!important;max-height:none!important;overflow:visible!important;position:static!important;transform:none!important}
+.game-area:has(.decimal-choice-question){height:auto!important;max-height:none!important;overflow:visible!important;display:flex!important;flex-direction:column!important}
+.main:has(.decimal-choice-question){height:auto!important;max-height:none!important;overflow:visible!important}
+body:has(.decimal-choice-question){overflow-y:auto!important}
+.collection-partner-title{display:block;margin:8px 0;color:#fde68a;font-weight:700;font-size:13px;line-height:1.5}
+.collection-partner-actions{display:flex;flex-direction:column;align-items:center;gap:8px;flex-shrink:0;margin-top:12px}
+.zoom-overlay:has(.collection-partner-actions){overflow-y:auto;justify-content:flex-start;padding-top:64px;padding-bottom:24px}
+.zoom-overlay:has(.collection-partner-actions) .tilt-scene{flex-shrink:0}
+@media(max-width:600px){
+ .question-card .decimal-choice-question{display:flex!important;flex-direction:column!important;gap:12px!important;width:100%!important;min-width:0!important}
+ .question-card .decimal-choice-options{position:static!important;transform:none!important;grid-template-columns:1fr!important;height:auto!important;max-height:none!important;overflow:visible!important}
+ .question-card .decimal-choice-option{min-height:60px!important;flex-shrink:0!important}
+ .question-card .decimal-learning-visual{height:auto!important;min-height:0!important;max-height:none!important;position:static!important;transform:none!important}
+}
