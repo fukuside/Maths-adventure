@@ -1,0 +1,22 @@
+[
+  {
+    "key": "069-balance-cerberus_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9ea08f02-6021-49f4-8ef9-d668443f8d83.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\069-balance-cerberus\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "mixed",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction exact reference 069 N three-headed white wolf cerberus. Preserve all THREE distinct wolf heads blue eyes expressions, three gold blue crystal crowns, full white furry shared body, complete gold armor harness blue chest jewel and all attached gold chains, every visible leg paw claw, both fluffy side tails. Do not alter anatomy number of heads pose identity. Remove white background ALL detached gold flames sparkles and floor magic circle shadow. True transparent alpha exterior and all gaps in fur heads crowns harness chains legs tails. No red/yellow/blue opaque matte or white environmental residue. Full creature centered square with generous 20 percent transparent padding, no clipping no text. Frontal central head and outward side heads keep mixed facing.",
+    "visualReview": "All three wolf faces crowns shared body harness chains legs paws and side tails retained. Red/yellow opaque remnants around crowns mouth chains and leg gaps; insufficient side margin. Not approved."
+  }
+]

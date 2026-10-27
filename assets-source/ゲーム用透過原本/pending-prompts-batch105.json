@@ -1,0 +1,22 @@
+[
+  {
+    "key": "061-fraction-fairy_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8b178723-6a93-4e7d-b6c3-303dcdd3730d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\061-fraction-fairy_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\061-fraction-fairy\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit reference 061 N. Preserve exact smiling lavender-haired fairy girl blue eyes face gold blue jewel crown crystal hair ornaments, complete purple dress gloves wrist ornament stockings both shoes, both hands and full crystal-tipped staff, all four full butterfly wings and long flowing hair. Same flying pose identity and painted game art. Remove ALL navy space background detached floating crystals stars sparkles ground magic ring and environmental glow. Wings retain their purple-blue membrane and veins, do not erase wings. True transparent alpha exterior and every gap in crown hair staff fingers wings legs; no opaque magenta/blue/white matte. Full figure wings staff centered with 20 percent empty transparent margin. No clipping no text no redesign. Front slightly left facing.",
+    "visualReview": "Fairy face crown hair dress full wings staff hands and shoes retained. Magenta/cyan/white opaque remnants in hair curls, staff and wing gaps; hair reaches right canvas edge. Not approved."
+  }
+]

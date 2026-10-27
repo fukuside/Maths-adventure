@@ -1,0 +1,22 @@
+[
+  {
+    "key": "091-expression-ninja_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-179387ed-14d4-4947-aa7b-0293eb640775.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\091-expression-ninja_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\091-expression-ninja\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit 091-expression-ninja N. Isolate exact same full black-haired purple-eyed masked ninja, ponytail ribbon, purple gold scarf with entire trailing fabric, black purple gold costume armor, both hands fingers, both bent legs boots, held shuriken in left image hand. Remove ALL detached floating throwing stars, purple magical trails glow petals moon bamboo buildings lanterns ground reflections shadow. Preserve exact pose identity clothing style. True transparent alpha exterior and all gaps between hair scarf arms legs weapon, no colored matte residue. Full centered character 15-20 percent clear margins no crop no text no redesign.",
+    "visualReview": "Full ninja held shuriken scarf hands legs retained. Red/yellow opaque edge residue near fingers and scarf; insufficient right scarf margin. Not approved."
+  }
+]

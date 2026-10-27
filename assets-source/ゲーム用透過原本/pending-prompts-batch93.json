@@ -1,0 +1,22 @@
+[
+  {
+    "key": "037-shine-pegasus_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8cce385e-b7f7-4aab-8236-72f1891dce49.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_N-pending-3.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\037-shine-pegasus\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Use case background-extraction. Precisely extract the exact little white winged unicorn from reference 037 N card. Same cute blue eyes smiling face golden curly mane and long golden tail, gold horn, two full white feather wings, four legs with gold hooves, sun emblem on flank. Preserve character identity pose and illustration. Remove white background and ALL flowers grass ground petals and ground shadow. Clean true transparent alpha around the complete silhouette and between feathers legs tail and mane. No white blobs or colored matte inside gaps. No loose particles. Keep original facing left (do not change pose). Full character centered with 18 percent empty transparent padding on every side. Entire wings horn tail hooves included no clipping. No text or extra objects.",
+    "visualReview": "Face, horn, wings, mane, tail and four hooves retained. White residue between legs and yellow red matte around tail curls and hoof edges. Not approved; left-facing source would require rendering mirror only after approval."
+  }
+]

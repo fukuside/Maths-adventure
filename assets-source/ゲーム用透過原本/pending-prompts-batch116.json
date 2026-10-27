@@ -1,0 +1,22 @@
+[
+  {
+    "key": "073-unit-fenrir_N",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction edit supplied 073 N ice wolf cub. Keep exact individual cute blue eyes smiling open mouth tongue white muzzle, blue navy white layered fur, both ears, all attached ice crystals head chest back limbs tail, all four paws toes dark claws and entire curled bushy tail. Same full standing frontal slightly left-facing pose. Remove every environmental snow mountain trees sky floating flakes crystals not attached to body and reflective ice floor. Genuine transparent alpha outside body and between legs tail fur. No colored matte residue or floor shadow. Center full body within square with 20% transparent padding each edge. Preserve game-painted art face rarity anatomy, no redesign no letters.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\073-unit-fenrir\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d777baf7-0d8d-4908-9b7d-ed0c978b01fc.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_N-pending116-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face smile fur ears body crystals all four paws claws full tail preserved. Cyan blue matte fringes around fur and legs, white residue tail upper edge, insufficient padding. Pending not installed."
+  }
+]

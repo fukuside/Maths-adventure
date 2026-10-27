@@ -1,0 +1,22 @@
+[
+  {
+    "key": "060-denominator-bird_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-48f02eff-1da7-45ce-9738-1a2bc534822a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\060-denominator-bird\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit of exact 060 N reference. Preserve complete cute blue white gold griffin bird, blue eyes yellow beak, head crest, both fully raised wings, blue gold jewel armor, both complete golden talons, long curved feather tail with gold jewel, main halo above head. Remove every detached outer gold ring and star, floating feathers, navy cosmos and floor magic rings. Genuine transparent alpha outside bird and halo, including all negative spaces feather gaps wing/body/tail gaps and inside halo. No white blue red yellow matte residue. Exact same flying left-three-quarter pose and painterly game style. Full bird tail wings halo centered square with 20 percent transparent padding, no clipping no text no redesign.",
+    "visualReview": "Bird face crest wings armor talons curved tail and main halo preserved. Saturated cyan/yellow/blue residual opaque areas in halo feather and tail gaps; margin too small. Not approved."
+  }
+]

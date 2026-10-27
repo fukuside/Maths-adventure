@@ -1,0 +1,22 @@
+[
+  {
+    "key": "054-point-dragon_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f7300160-0a53-4ea1-bae6-2a54c1cbead4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\054-point-dragon\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction precise edit of 054 N reference: preserve exact cute white ice crystal baby dragon, blue eyes open smiling mouth tiny teeth, white scales cream belly, blue crystal head spikes forehead gems, both complete bat wings with opaque cream membranes, all paws blue claws, whole curved tail with crystal tip. Same left three-quarter seated pose, exact identity painted style. Remove pale background ALL floating detached crystals sparkles and entire glowing ground magic circle and shadow. Genuine transparent alpha everywhere outside actual dragon including between horns wings tail legs. Clean edges without colored mattes or white fills in gaps. Full character centered with 20% transparent padding square, no clipping no redesign no text.",
+    "visualReview": "Dragon full face crystal spikes wings membranes paws claws and tail retained. Cyan residue between neck spikes and wing and around outer claws remains; right wing almost canvas edge. Not approved."
+  }
+]

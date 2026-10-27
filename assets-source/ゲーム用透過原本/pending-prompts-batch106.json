@@ -1,0 +1,22 @@
+[
+  {
+    "key": "062-fraction-king_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-694cd6ca-4a5d-4f17-aced-4b5a6c7f4e42.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\062-fraction-king\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit exact 062 N reference. Preserve full friendly elderly wizard king, white flowing hair beard mustache eyebrows and eyes face, navy gold blue crystal crown, complete robes cape chain jewels and cuffs, both hands fingers both boots, entire tall gold staff blue orb with attached hanging crystals. Remove navy stars and ALL detached floating crystals, pedestal crystals left/right, floor magic circle and shadow. True transparent alpha exterior and inside staff ring and between crown hair hands staff robe hem. No red/yellow/blue/white matte residue. Same front left-three-quarter identity pose illustration. Full character staff centered square with generous 20 percent transparent padding. No crop no text no redesign.",
+    "visualReview": "King face beard crown hair full staff robes hands and boots preserved. Red/yellow residual areas in staff ring and crown gaps, white fragments around hair curls, top margin too small. Not approved."
+  }
+]

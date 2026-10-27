@@ -1,0 +1,22 @@
+[
+  {
+    "key": "098-simultaneous-equation-dual-swords_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f74ece44-f378-4843-9987-c7efb1fe46cd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\098-simultaneous-equation-dual-swords\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "mixed",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 098-simultaneous-equation-dual-swords N reference. Extract exact TWO full samurai children as one sprite, red girl on left blue boy on right, both complete faces eyes hair ornaments headband, full costumes ribbons armor hands gripping two complete swords, all legs boots. Preserve exact back-to-back stance identities painted style. Remove all red and blue magical flame swirls and loose petals leaves temple stairs ground sky reflection shadow. Keep cloth ribbons and sword surfaces. Genuine transparent alpha exterior and every gap between pair hair swords arms ribbons legs; no colored matte residue. Full pair centered 15-20 percent clear margin no crop no text no redesign.",
+    "visualReview": "Both samurai faces costumes swords limbs retained. Red blue opaque residue between ribbons, right sword/ribbon reaches canvas boundary. Not approved."
+  }
+]

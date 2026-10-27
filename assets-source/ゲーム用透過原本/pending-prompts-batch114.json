@@ -1,0 +1,22 @@
+[
+  {
+    "key": "071-distance-griffon_N",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Use case background-extraction. Edit exact supplied 071 N reference (despite filename this individual is a cute white humanoid diamond wizard, not a griffon). Preserve same blue eyes smile face, giant triangular blue crystal gold-rim hat, chest gem white gold robe navy star cape, both open hands fingers and both gold blue boots, same full body frontal pose. Remove exterior white background, five floating separate diamonds, orbit rings sparks and ground circle shadow. All exterior and empty gaps between hands arms cape legs must be genuine zero alpha. Interior white robe face hands opaque. No colored matte fringe. Single character entire centered with 20% transparent margin on every side square PNG. No new design no text no side pose.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\071-distance-griffon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-90df2ed3-7543-4410-a402-49dbae352720.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_N-pending114-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Same crystal-hat humanoid, face gems cape hands boots preserved, floating diamonds orbit and floor removed. Red yellow matte fringes around hat, cape and boots; insufficient padding. Not accepted."
+  }
+]

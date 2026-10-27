@@ -1,0 +1,22 @@
+[
+  {
+    "key": "051-decimal-cat_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e0e31316-1a64-46e2-ae44-5e03a30fa8db.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\051-decimal-cat\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit: extract ONLY exact white star cat from reference 051 N. Preserve complete seated cat with blue eyes, pink nose ears, whiskers, gold blue star collar and blue pendant, gold blue star markings attached to forehead cheeks flank and tail, all paws and full curved tail. Same face and left three-quarter orientation and game painting. Remove dark blue space background, all floating detached stars, glowing ribbons, sparks, ground magic circle and shadow. True transparent alpha around entire silhouette and tail gap, no blue or white matte residue. Entire cat centered within square 1080x1080 with 20 percent empty transparent padding all sides. No crop, no new accessories, no text, no redesign.",
+    "visualReview": "Complete cat ears face collar pendant markings paws tail retained. White residue behind right whiskers/collar and saturated blue/magenta edge pixels around tail and paws remain. Not approved."
+  }
+]

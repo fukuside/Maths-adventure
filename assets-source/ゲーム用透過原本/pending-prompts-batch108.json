@@ -1,0 +1,22 @@
+[
+  {
+    "key": "065-small-knight_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8fd2cc0a-e664-43ee-898a-285d2eff82f3.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\065-small-knight\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit reference 065 N. Preserve exact cute little knight with friendly blue eyes brown hair silver helmet and full blue plume, all silver armor chainmail blue gold tabard, full sword left and blue gold shield right with original white down arrow, both gauntlets complete legs boots. Preserve face identity pose equipment illustration. Remove ALL castle towers sky ground paving stones grass and shadow. True transparent alpha exterior and every gap between sword helmet shield body legs plume, no colored matte or opaque white residue. Full body sword plume shield centered in square with 20 percent transparent padding. No clipping no redesign no text. Same front slightly left pose.",
+    "visualReview": "Knight identity face helmet plume sword shield armor full limbs retained. Red/yellow residue around sword guard and between tabard/legs, blue fringe around plume. Not approved."
+  }
+]

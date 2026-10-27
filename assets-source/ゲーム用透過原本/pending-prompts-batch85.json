@@ -1,0 +1,22 @@
+[
+  {
+    "key": "094-data-strategist_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8ba21c0d-6f06-4079-ba0d-611e69f1b76d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\094-data-strategist\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 094-data-strategist N reference. Extract exact same full black-haired purple-eyed scholar boy, purple gold cap with entire tassel, white purple gold robe sleeves trailing ribbons, book held to chest, pointing other hand, both legs boots. Keep hovering parchment pie-chart beside pointing finger as equipment. Preserve identity pose style. Remove library columns shelves globes lamps ambient sparkles purple trails floor magic circle reflections shadow. True transparent alpha exterior and gaps among tassel arms parchment ribbons legs, no red yellow white matte. Full character book parchment centered 15-20 percent clear margin no crop no text additions no redesign.",
+    "visualReview": "Full scholar cap tassel book chart clothes limbs retained. Red/yellow edge remnants near hair/chart and costume. Not approved."
+  }
+]

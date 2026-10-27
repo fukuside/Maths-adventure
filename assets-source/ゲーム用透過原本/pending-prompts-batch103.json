@@ -1,0 +1,22 @@
+[
+  {
+    "key": "059-numerator-rabbit_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4bea8ba5-a76a-4207-9593-87ee1fee2585.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\059-numerator-rabbit\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit. Exact full white rabbit wizard from reference 059 N, preserve happy blue eyes face long ears, purple gold star hat and hanging gold charm, blue gem bow robe cape gold trims, both hands feet, complete staff purple orb and gold star finial. Remove sky starfield all floating numbers sparks and magic floor rings, orb surrounding unattached light ring. True transparent alpha all exterior and negative spaces between ears, staff, limbs and cape panels. No opaque colored matte, no white halos. Character unchanged left three-quarter pose game illustration. Full body and staff centered square with 20 percent transparent padding. No text no new objects no crop.",
+    "visualReview": "Rabbit face ears costume staff and full limbs retained. Red/yellow/white residual pixels between staff and whiskers and around cape, magenta fringe at ears/feet; insufficient top margin. Not approved."
+  }
+]

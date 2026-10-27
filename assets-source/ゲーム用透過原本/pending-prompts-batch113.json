@@ -1,0 +1,22 @@
+[
+  {
+    "key": "070-speed-valkyrie_N",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\070-speed-valkyrie\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-17502dae-60a1-4163-8760-eb4512998948.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_N-pending113-generated.png",
+    "prompt": "Background-extraction edit of exact 070 N valkyrie reference. Preserve entire same cute blonde ponytail girl, blue eyes face expression, winged gold blue tiara, silver blue gold armor dress cape, hands fingers, both boots, full two white feather wings and whole blue gold spear with silver blade. Preserve identity rarity pose art. Remove white environment, all floating feathers sparkles wind arcs and ground magic circle. Actual transparent alpha outside silhouette including negative spaces between spear body hair and wings. White feathers and silver armor remain opaque. No colored matte residue. Center full figure square, 20 percent transparent padding all edges no clipping no text no redesign. Preserve frontal slightly left facing, do not invent side pose.",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face eyes ponytail tiara complete wings spear armor fingers and boots preserved. Red yellow blue matte remnants around hair spear and wings; insufficient padding. Not installed; no direction change."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "099-inequality-general_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6d419a0f-3d7f-48d7-9618-473a694da93a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\099-inequality-general_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\099-inequality-general\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Use case: background-extraction. Edit target: reference 099-inequality-general N monster card. Extract ONLY the exact single cute young general with brown spiky hair, gold-red crown, red-black-gold armor, red flowing cape and ribbons, both boots and entire ornate polearm held in his right hand (image left). Preserve face, expression, proportions, colors, pose, costume and all weapon details. Remove castle, mountains, sky, flags, ground, rocks and orange magic rings completely. True transparent alpha everywhere outside character, including between polearm and arm, cape/ribbon gaps, legs and hair. No colored matte, no white backdrop, no checkerboard painted into image, no glow or floor shadow. Full body centered on square canvas, 15-20 percent padding all sides, entire weapon included, no clipping. Keep original front-facing orientation and game illustration style. No text.",
+    "visualReview": "General identity, polearm, armor, cape and boots retained. Red/yellow matte fringe remains around weapon and ribbon gaps; right cape reaches canvas edge. Not approved for runtime."
+  }
+]

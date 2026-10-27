@@ -1,0 +1,22 @@
+[
+  {
+    "key": "076-proportion-succubus_N",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction precise edit supplied 076 N fantasy horned purple-haired mage. Preserve exact same face eyes smile horns crown jewelry, long entire purple hair, both full bat wings, complete modest black purple gold full-length layered dress lace sleeves skirt, both hands all fingers and full boots. Keep original pose and game painting individual rarity. Remove castle flowers sky stone floor aura floating petals and magic red blue orbs above hands. Genuine transparent alpha outside silhouette including hair curls sleeve gaps wing gaps and legs. No matte fringe or opaque background patches. Full body centered square with 20 percent transparent margin each side. No redesign no text no side pose.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\076-proportion-succubus\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-dd38e26a-bcaf-4292-9007-bc648ec9dc89.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_N-pending119-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Same face horns crown hair wings complete dress fingers boots preserved. Red magenta matte residues in hair curls and wing gaps and insufficient padding. Pending not installed."
+  }
+]

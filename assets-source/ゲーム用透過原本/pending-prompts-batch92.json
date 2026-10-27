@@ -1,0 +1,22 @@
+[
+  {
+    "key": "036-octopal_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-771204b9-72c4-4f2d-b2c3-dade384bb7b2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-4.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\036-octopal\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit. Make a precise transparent cutout of this exact purple octopus wizard. Preserve its friendly big violet eyes smile pink cheeks purple pointed wizard hat with golden stars and blue gem, all eight complete curling tentacles and pink suction cups. Do not redesign or change pose. Remove ONLY ocean, coral, bubbles, seabed, ground shadow and water between tentacles. Every gap must be transparent, not blue white pink or red filled. Entire octopus including hat and tentacle tips centered within square canvas with 18% empty transparent padding. True alpha background, clean antialiased edges with no colored halo. No backdrop, no text, no extra objects. Front facing.",
+    "visualReview": "Exact wizard octopus, hat, gem and full tentacles preserved. Pink blue opaque residue remains inside tentacle curls and around edges; margin insufficient. Not approved."
+  }
+]

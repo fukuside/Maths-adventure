@@ -1,0 +1,22 @@
+[
+  {
+    "key": "050-tenths-pon_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-99496cb8-211a-4029-b201-5852954d1053.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_N-pending-3.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\050-tenths-pon\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Use case background-extraction. Extract exact single silver-gray smiling slime from reference 050 N. Preserve original cute blue-black eyes white highlights blush mouth, teardrop top curl, entire round body and two small side lobes, white connected constellation circles drawn ON its body. Remove all floating silver bubbles, sparkles, floor magic circle, ground shadow and pale background. Opaque character painted silver glass shading retained; true transparent alpha exterior everywhere. Clean silhouette no colored or white background residue. Full body centered with 20 percent transparent padding on each side. No new details no text no redesign. Keep frontal orientation.",
+    "visualReview": "Silver slime full body, face and constellation preserved. Opaque white fringe and cyan/blue residual pixels remain outside silhouette on left and lower edge; pending review correction, not installed."
+  }
+]

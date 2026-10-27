@@ -1,0 +1,22 @@
+[
+  {
+    "key": "064-equal-king_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e40b1d91-2f20-49d9-9685-c708dbdb9d4c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\064-equal-king\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction precise edit reference 064 N. Exact cute golden brown animal king, blue eyes white bushy eyebrows huge white mustache, gold black blue crystal crown, black gold armor two horizontal gold bars chest, blue gold cape thick white fur trim, both complete white gloved paws both boots, full black gold staff with blue diamond tip. Preserve identity pose every accessory. Remove pale background, all detached crystals sparks swirling light, floor magic circle and cast shadow. Genuine alpha transparency exterior and gaps in crown staff cape feet, no colored matte or white residue. Full character and staff centered on square with 20 percent clear transparent margins. No crop no redesign no text. Same front-facing pose.",
+    "visualReview": "Animal king face crown staff armor cape gloves boots preserved. Red/yellow residual pixels around crown and staff, filled residue in staff/head gap and cape hem. Not approved."
+  }
+]

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "095-plane-geometry-lancer_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-40e6ed61-f919-4475-b6ca-5461f1769386.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\095-plane-geometry-lancer\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 095-plane-geometry-lancer N. Isolate same full black ponytail blue-eyed lancer girl, blue white gold armor dress sleeves skirt ribbons, flower and blue hair bow, both gloved hands, both legs armored boots, entire diagonally held spear with BOTH upper blade and lower point. Keep exact pose face identity game paint style. Remove ALL castle terrace columns banners flowers mountains waterfalls sky floor reflection shadow. Real transparent alpha exterior and every gap between hair ribbons arms spear legs, no white red yellow blue matte. Full centered character and spear generous15-20 percent clear margin no crop no text no redesign.",
+    "visualReview": "Full lancer hair face spear both tips limbs retained. Red/yellow axehead residue, blue patches in ribbon/hair gaps and white edges. Not approved."
+  }
+]

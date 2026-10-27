@@ -1674,5 +1674,34 @@
     "gameFacing": "right-three-quarter",
     "visualReview": "full demon dragon horns face wings hands feet tail crystals visually reviewed; environment removed",
     "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "066-percent-devil_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\066-percent-devil\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a8127357-e08b-42ef-9ec1-46bcb568f93c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\066-percent-devil_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      162,
+      202,
+      905,
+      918
+    ],
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction edit exact 066 N. Keep single cute devil boy black hair red streak two red horns pointed ears red eyes smile small fang, full black-red coat scarf shorts belt both hands fingers boots, complete red-black bat wings opaque membranes, long curved arrow tail, entire black staff red ornate crystal head. Preserve identity pose equipment original game art. Remove pale background floating percent symbols red flames sparks hand magic spark and ground circle shadow completely. Genuine transparent alpha exterior and negative spaces hair horns wing/body staff legs tail. No red/yellow/blue/white matte residue. Full figure central square with 20 percent transparent padding, no clipping no text no redesign. Same front slightly left facing.",
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "devil boy face horns hair staff bat wing membranes fingers boots and full tail visually checked; percent symbols flames floor removed; no environmental matte visible",
+    "sizing": "full source canvas contained and centered, no crop"
   }
 ]

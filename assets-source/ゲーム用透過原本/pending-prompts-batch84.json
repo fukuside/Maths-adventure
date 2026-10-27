@@ -1,0 +1,22 @@
+[
+  {
+    "key": "093-proportion-archer-princess_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-419bc555-3496-43b6-a752-65d089fd1576.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\093-proportion-archer-princess\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "right",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 093-proportion-archer-princess N. Extract exact full brown ponytail archer girl with brown eyes smiling face, cherry hair ornaments, pink white red gold kimono sleeves skirt ribbons, both hands drawing entire gold brown bow and held pink arrow, back quiver arrows, both legs boots. Preserve original right-facing pose identity illustration style. Remove scenery trees buildings bridge lanterns sky ground shadow all detached petals and pink magic swirls. True transparent alpha exterior and open gaps between hair bow string arms ribbon legs, no white red pink matte remnants. Full character bow arrow centered 15-20 percent clear margin no crop no text no redesign.",
+    "visualReview": "Full archer face hair bow arrow quiver limbs retained. Red opaque residue in hair/bow gaps and white fringe around arrow. Not approved."
+  }
+]

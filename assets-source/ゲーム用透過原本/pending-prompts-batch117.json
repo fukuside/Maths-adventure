@@ -1,0 +1,22 @@
+[
+  {
+    "key": "074-density-titan_N",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction precise edit of supplied 074 N cute stone crystal golem. Preserve exact same individual, smiling mouth blue eyes, cracked charcoal rock head body and boulder fists, gold settings and all attached blue crystals crown chest shoulders wrists knees feet, entire two arms legs fingers toes. Same standing frontal pose. Remove cave waterfall water ground loose floating crystals sparks and every environment. Genuine transparent alpha outside golem and in gaps between arms torso legs crystals; no colored matte fringe. Keep chest gem translucent blue interior opaque silhouette. Full body centered square with 20 percent clear margins, no clipping, no text no redesign no direction change.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\074-density-titan\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-85960ee5-3739-42b6-a5d4-2713d3261d81.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_N-pending117-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face rock anatomy fists gold settings attached crystals feet preserved. Blue cyan yellow matte fringes around shoulders hands legs, insufficient padding. Pending not installed."
+  }
+]

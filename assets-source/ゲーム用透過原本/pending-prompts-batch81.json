@@ -1,0 +1,22 @@
+[
+  {
+    "key": "090-signed-swordsman_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e5cae38b-3c2c-47ac-80fb-0a935cd70a7c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\090-signed-swordsman\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 090-signed-swordsman N. Extract same full cheerful chibi samurai boy with closed happy eyes open smiling mouth, black ponytail red headband ribbons, red black gold armor tunic, both hands holding complete blue blade and red blade swords, both legs boots. Preserve exact identity pose paint style and actual colored blade surfaces; remove ALL flame trails light swirls, temple scenery trees mountains falling leaves ground shadow reflection. True transparent alpha exterior and spaces between hair ribbons arms blades legs no colored matte remnants. Full character both swords centered 15-20 percent clear margin no crop no text no redesign.",
+    "visualReview": "Full samurai pose face hair swords limbs retained; red opaque remnants between ribbons and detached blade particles remain. Not approved."
+  }
+]

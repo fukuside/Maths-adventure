@@ -1,0 +1,22 @@
+[
+  {
+    "key": "056-half-moon_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9c0e0a36-a409-4b92-b191-38af75b4ebc1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\056-half-moon\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Use case background-extraction. Extract exact full white moon wizard rabbit seated on its large gold crescent mount from 056 N reference. Preserve original blue eyes face long pink ears, blue gold star cap and hanging star charm, bow cloak with white lining, hands paws tail, entire crystal-tipped wand, and COMPLETE main golden crescent seat. Main crescent is character mount, keep it; remove detached thin crescent in upper left background. Remove all navy sky clouds distant stars and environmental glow. True transparent alpha exterior and all gaps between ears wand cape rabbit crescent, no colored matte residue. Entire rabbit and crescent centered with 20 percent empty transparent padding, no clipping, no redesign no text. Keep left three-quarter orientation.",
+    "visualReview": "Rabbit ears face costume staff paws main crescent mount preserved; distant detached crescent removed. White residue around ears and red/yellow/blue matte near charms crescent and cloak remain. Not approved."
+  }
+]

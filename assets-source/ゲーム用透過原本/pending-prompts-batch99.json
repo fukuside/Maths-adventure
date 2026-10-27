@@ -1,0 +1,23 @@
+[
+  {
+    "key": "050-tenths-pon_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7f477b85-dde9-41fd-8fda-3d30aa87bcbf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_N-pending-4.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\050-tenths-pon\\n.webp",
+    "editTarget": "exec-99496cb8-211a-4029-b201-5852954d1053.png",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Precise-object-edit of supplied transparent silver slime cutout. Targeted EDGE CLEANUP ONLY: remove the stray opaque white fringe just outside its left outline and bottom outline, remove cyan blue stray edge pixels around curl and base, make those unwanted pixels fully transparent. Preserve every interior character pixel, silver shading, blue-black eyes smile blush and connected white constellation markings; do not redesign, relight or change pose. Preserve existing transparent alpha background. Clean smooth dark gray silhouette outline with natural antialiasing, no outer glow or matte. Add generous transparent padding around entire full character by fitting within central 60 percent of square. Exact original front-facing character, no new objects, no text.",
+    "visualReview": "Targeted cleanup of existing pending cutout rather than regeneration from card. Identity preserved but white fragments still outside left/bottom edge and cyan residue at base. Not approved."
+  }
+]

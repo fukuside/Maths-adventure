@@ -1,0 +1,22 @@
+[
+  {
+    "key": "075-rate-mercury_N",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction exact supplied 075 N white-haired winged boy Mercury. Preserve same blue eyes open smile, hairstyle, entire white gold tunic belt blue ribbons long gold-trim flowing cloth, both feather wings, all hands fingers, entire winged gold wand, both bare legs and winged gold sandals with toes. Same midair frontal dynamic pose and painting. Remove all sky temples islands clouds lightning aura and ground. Genuine transparent alpha outside silhouette and between wand feathers fingers ribbon loops legs. White clothes feathers remain opaque. No colored matte residue. Entire figure central square with 20 percent transparent margin, no clipping no text no redesign or pose change.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\075-rate-mercury\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-77132132-be33-4390-b8e6-47610e00c1be.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_N-pending118-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Same white-haired boy face tunic full wings wand ribbons fingers legs sandals toes preserved. White grey remnants in ribbon gaps and hair, yellow red purple exterior fringes, insufficient padding. Pending not installed."
+  }
+]

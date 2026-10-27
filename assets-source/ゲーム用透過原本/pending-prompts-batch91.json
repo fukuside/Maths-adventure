@@ -1,0 +1,22 @@
+[
+  {
+    "key": "100-number-goddess-hikari_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-058872e0-38e5-48d2-b45a-eff5a5301613.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\100-number-goddess-hikari\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Use case: background-extraction. Edit reference 100-number-goddess-hikari N. Extract exact single tiny smiling silver-white haired goddess child, closed happy eyes, gold flower crown, white red gold purple ceremonial outfit, tassels, both hands, both complete legs and shoes. Preserve floating multicolored seven jewels arranged around her as part of character design. Preserve individual face identity clothing pose and painted game style. Remove palace architecture pillars arches sky clouds water flowers distant scenery floor pedestal and all magic light rings and environmental glow. Genuine transparent alpha outside figure and jewels and in every gap between flowing hair, arms, ribbons and jewels. No painted backdrop or colored matte. Full character and seven jewels centered in square with generous 15-20 percent transparent margins, no cropping, no text, no redesign. Keep front facing.",
+    "visualReview": "Face, crown, complete outfit, hands, feet and seven jewels preserved. Pink white opaque residue remains throughout hair gaps, with colored matte around jewels and crown. Not approved for runtime."
+  }
+]

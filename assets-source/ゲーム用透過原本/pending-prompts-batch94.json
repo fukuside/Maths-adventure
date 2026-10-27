@@ -1,0 +1,22 @@
+[
+  {
+    "key": "048-divide-emperor_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8c4b4b79-94e9-432c-8a75-7d08e88c1d3e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-pending-3.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\048-divide-emperor\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit of exact reference 048 N dark emperor. Preserve same full chibi emperor, black shadow face with two purple glowing eyes, white hair, purple black gold horned helmet and entire elaborate robes, both hands and both boots, full staff and purple orb held image left. Remove pale background, floating loose crystals and sparkles, ground magic circle and shadows entirely. True transparent alpha all exterior and all negative spaces around staff hair horns sleeves and boots. Do not fill gaps white pink yellow or red; no colored matte residue or halo. Entire character and staff centered, 18 percent transparent margins all sides; no crop, no redesign, no text. Keep original frontal facing.",
+    "visualReview": "Helmet face hair staff orb robes hands and both boots retained. Magenta blue residual pixels remain around orb and right hair; generous margins not met. Not approved."
+  }
+]

@@ -1,3 +1,4 @@
+import {normalizeRewardUnlock,mergeRewardUnlock} from './reward-unlock.js';
 import {normalizeTrails,mergeTrails} from './challenge-trails.js';
 import {
   ensureAnonymousUser,
@@ -73,6 +74,7 @@ function normalizeState(
   return {
 
     challengeTrails: normalizeTrails(state.challengeTrails),
+    rewardUnlock: normalizeRewardUnlock(state.rewardUnlock),
     gems:
       Number(
         state.gems ?? 0
@@ -252,6 +254,7 @@ function mergeState(
 
     ...base,
     challengeTrails: mergeTrails(local.challengeTrails,cloud.challengeTrails),
+    rewardUnlock: mergeRewardUnlock(local.rewardUnlock,cloud.rewardUnlock),
 
     unlockedCards,
 

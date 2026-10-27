@@ -1,0 +1,22 @@
+[
+  {
+    "key": "001-plus-rabbit_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction edit exact 001 rabbit UR reference for game hero. Preserve UR individual white rabbit brown eyes open joyful mouth pink ears crown green emeralds, entire ornate white gold green robes cape ornaments chains gems, both hands fingers and both feet tail, whole long gold staff with giant circular plus emerald head. Keep all attached details opaque. Remove cosmic background light beams ground circle floating plus marks sparks and loose gems. True transparent alpha outside silhouette and in negative spaces within staff ring and between cape limbs. No colored matte fringe. Full character and staff centered with 20 percent transparent margin each side square. No cropping no text no redesign, preserve front slightly left-facing pose.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-48cb50e7-df2b-4f10-a7b5-833f9bba8054.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending120-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Same UR rabbit face crown staff entire robes cape gems hands feet preserved. Red yellow matte in staff ring and cape gaps; detached residue beside face; inadequate side margin. Pending not installed."
+  }
+]

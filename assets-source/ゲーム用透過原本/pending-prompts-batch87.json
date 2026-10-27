@@ -1,0 +1,22 @@
+[
+  {
+    "key": "096-solid-geometry-shield-general_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-106ef3f5-c9e6-4573-9818-17b22f069899.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_N-pending-1.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\096-solid-geometry-shield-general\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit 096-solid-geometry-shield-general N. Extract exact same full black ponytail green-eyed girl knight, green gold crown and ribbon, green white gold leaf armor skirt cape sleeves, held entire green crystal mace and full large gold green shield, both legs armored boots. Preserve face cheerful expression pose identity game illustration. Remove entire castle trees leaves flowers sky bridge waterfall ground shadow reflections and ALL floating detached green gems light trails. Genuine transparent alpha silhouette and openings among hair ribbon equipment arms legs cape, no colored matte remnants. Full character mace shield centered generous 15-20 percent margins no crop no text no redesign.",
+    "visualReview": "Full knight mace shield hair limbs retained. Red/yellow opaque patches in hair and cape gaps; not approved. Initial generation connection failed; retry succeeded."
+  }
+]

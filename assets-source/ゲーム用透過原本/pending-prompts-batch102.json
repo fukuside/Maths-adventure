@@ -1,0 +1,22 @@
+[
+  {
+    "key": "057-third-bird_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-20e7bdce-b9ca-4d64-9521-7dba3e254813.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\057-third-bird\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit of exact reference 057 N blue white gold bird. Keep complete single cute eagle/griffin bird: same blue eyes yellow beak white cheeks blue crest gold blue jeweled diadem, both complete spread wings with every feather, blue white tail, both golden talons, all chest shoulder jewel armor. Preserve current left-facing flying pose and painterly style. Remove entire navy sky stars clouds detached feathers crystals wind ribbons and ground magic ring. True transparent alpha around silhouette and between crest feathers wings talons and tail; no blue/red/yellow matte residual. Entire bird fully visible centered square with generous 20 percent transparent margin every side. No crop no text no redesign.",
+    "visualReview": "Full bird face crest wings armor talons tail preserved. Cyan/yellow/red residue in feather and talon gaps; right wing almost canvas boundary. Not approved."
+  }
+]

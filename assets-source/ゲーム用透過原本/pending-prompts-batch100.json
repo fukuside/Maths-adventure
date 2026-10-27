@@ -1,0 +1,22 @@
+[
+  {
+    "key": "055-decimal-king_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ee352bb9-4fad-458e-b7f3-cde1ef6847e2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\055-decimal-king\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Background-extraction edit reference 055 N. Exact cute blue seal king, full golden blue crown, blue eyes white mustache whiskers golden nose happy mouth, complete blue-gold royal robes with white fur trim, both hands and both flipper feet, entire gold staff with blue orb image left. Preserve identity pose colors all clothing and jewels. Remove all background starfield floating crystals stars and floor gold magic circle shadow. Genuine transparent alpha exterior and every gap inside staff ring, around crown tips, between staff and robe, legs and cape hem. No colored blue red yellow matte. Full body and staff central with 20 percent empty transparent margins. No clipping no text no redesign. Keep original front slightly left pose.",
+    "visualReview": "Seal king identity, crown, moustache, full staff, robes hands feet preserved. Red/yellow residue around gold staff ring/crown and blue residue around cape/feet; staff nearly touches upper canvas boundary. Not approved."
+  }
+]

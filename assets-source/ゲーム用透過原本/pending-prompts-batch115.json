@@ -1,0 +1,22 @@
+[
+  {
+    "key": "072-time-chrono-demon_N",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction edit exact supplied N card 072: same cute seated blue crystal dragon, white face belly, blue eyes, gold horns and blue head gems, two bat wings with opaque pale membranes, both arms feet all gold claws, long blue tail with gold blue spear-tip. Preserve same individual rarity face full body pose and game painting. Remove white background, sparkles orbit wind and ground magic circle entirely. True transparent alpha exterior and negative spaces, no white colored matte fringe. Keep full tail both wings all horns and toes. Center full character in square with 20 percent clear margins. No new drawing design, no letters. Preserve front slightly-left facing; do not make side-view.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\072-time-chrono-demon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f7f45ac0-1f76-4e2c-88fd-a6e88ac46ad0.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_N-pending115-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Same blue dragon identity and entire horns wings limbs claws tail kept. Grey matte patches under wings cheek horns and colored fringes, insufficient padding. Pending not installed."
+  }
+]

@@ -1,3 +1,4 @@
+import {rewardHour,rewardUnlockStatus,recordRewardClear,rewardUnlockHint,rewardResetNote} from './reward-unlock.js';
 import {prepareWritten} from './written-easy.js';
 import {rewardLobby,purchaseEntry} from './reward-games.js';
 import {surveyLink,surveyInvitation,snoozeSurvey} from './survey-invitation.js';
@@ -55,6 +56,10 @@ export function createApp(root) {
   // コースは画面の選択状態だけに保持し、既存セーブを変更しない。
   let selectedCourse = "elementary";
   let rewardFromTop=false;
+  let shownRewardHour=rewardHour();
+  function refreshRewardHour(){const now=rewardHour();if(now===shownRewardHour)return;shownRewardHour=now;if(['landing','title','reward-lobby'].includes(screen))render();}
+  setInterval(refreshRewardHour,15000);
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden)refreshRewardHour();});
   function isKindergartenStage(stage = currentStage) {
     return stage?.packId === "kindergarten" || stage?.course === "kindergarten";
   }
@@ -690,7 +695,8 @@ root.addEventListener(
     if(a==='reward-enter'){
       if(screen!=='reward-lobby'||!getActivePlayer()||!unlockedPartnerEntries().length)return;
       if(t.dataset.game==='monster-pinball'&&!unlockedPartnerEntries().some(x=>x.rarity==='SR'))return;
-      if(t.dataset.game==='treasure-fishing'&&!unlockedPartnerEntries().some(x=>x.rarity==='N'))return;
+      if(['treasure-fishing','monster-path'].includes(t.dataset.game)&&!unlockedPartnerEntries().some(x=>x.rarity==='N'))return;
+      if(!rewardUnlockStatus(state).unlocked){render();return;}
       const entry=purchaseEntry(state.gems,t.dataset.game);if(!entry)return;
       activeRewardGame=entry.game;state.gems=entry.gems;screen='reward-play';render();persistState(state);return;
     }
@@ -2958,6 +2964,7 @@ function sample(arr){
   void saveLearningSession();
 
 
+  recordRewardClear(state,challengeRunId);
   persistState(state);
 
   screen = "result";
@@ -3018,9 +3025,10 @@ function sample(arr){
   `;
 }
   function body() {
+  if(screen==='reward-lobby'&&!rewardUnlockStatus(state).unlocked)return '<section class="panel stack"><h2>ごほうびゲーム</h2>'+rewardUnlockHint(state)+rewardResetNote+'<p>まずは2ステージ学習してから遊ぼう！入場にはダイヤ5個も必要です。</p><button class="button" data-action="go" data-screen="title">さんすうに挑戦する</button></section>';
   if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length,unlockedPartnerEntries().filter(x=>x.rarity==='SR').length);
   if(screen==='reward-play'){
-    const owned=unlockedPartnerEntries().filter(x=>activeRewardGame?.id==='monster-pinball'?x.rarity==='SR':activeRewardGame?.id==='treasure-fishing'?x.rarity==='N':['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
+    const owned=unlockedPartnerEntries().filter(x=>activeRewardGame?.id==='monster-pinball'?x.rarity==='SR':['treasure-fishing','monster-path'].includes(activeRewardGame?.id)?x.rarity==='N':['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
     const source=(activeRewardGame?.url||'/reward-games/monster-run.html')+'?player='+encodeURIComponent(getActivePlayer()?.playerId||'guest')+'#'+encodeURIComponent(JSON.stringify(owned));
     return '<section class="reward-play-shell"><button class="reward-exit button secondary" data-action="go" data-screen="title">学習へ戻る</button><iframe class="reward-game-frame" title="'+escapeHtml(activeRewardGame?.name||'モンスターお宝ラン')+'" src="'+escapeHtml(source)+'" allow="fullscreen"></iframe></section>';
   }
@@ -3350,7 +3358,7 @@ function legacyMigrate() {
 
 </div>
 
-      <div class="panel"><button class="button" data-action="go" data-screen="reward-lobby">🎮 ごほうびゲームへ</button><p>算数で集めたダイヤを使って遊ぼう！</p></div>
+      <div class="panel">${rewardUnlockHint(state)}<button class="button" data-action="go" data-screen="reward-lobby" ${rewardUnlockStatus(state).unlocked?"":"disabled"}>🎮 ごほうびゲームへ</button>${rewardResetNote}<p>入場はダイヤ5個。足りなくなったら、また学習して集めよう！</p></div>
       <!-- WORLD案内 -->
       <div class="panel hero course-banner ${isKindergarten ? 'course-banner-kindergarten' : 'course-banner-elementary'}">
         <img class="course-banner-image" src="/images/banners/${isKindergarten ? 'kindergarten-adventure' : 'elementary-adventure'}.webp" alt="" fetchpriority="high" decoding="async">
@@ -3518,7 +3526,7 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
         </button>
 
 
-        <button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button>
+        <div class="landing-reward-unlock">${rewardUnlockHint(state)}<button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button>${rewardResetNote}</div>
         <!-- サブボタン -->
         <div class="landing-sub-buttons">
 

@@ -1,0 +1,22 @@
+[
+  {
+    "key": "053-zero-tenths-bear_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-42b6711c-dc86-4264-a0b3-0315962b6778.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\053-zero-tenths-bear\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "left",
+    "gameMirrorX": true,
+    "prompt": "Use case background-extraction. Remove background from exact 053 N reference blue teddy bear. Keep same full seated light cyan bear with blue eyes ears nose paw pads, white muzzle and happy face, complete blue scarf and both scarf tails, both arms and both feet. Preserve scarf original 0.10 marking as part of costume. Remove all surrounding floating zeros, stars, blue space atmosphere, floor digital ring and shadow. True transparent alpha outside bear and between scarf ends arms body and feet; no blue backdrop or colored matte remnants. Entire bear centered with 20 percent transparent padding, no clipping no redesign. Same front slightly left orientation, same painted game style.",
+    "visualReview": "Bear identity complete ears face scarf marking arms feet preserved. White triangle beneath left hand and cyan/blue residue around ears, scarf and foot edges remain. Not approved."
+  }
+]

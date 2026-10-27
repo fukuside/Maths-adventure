@@ -1,0 +1,22 @@
+[
+  {
+    "key": "068-average-goddess_N",
+    "source": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f1c1ef77-533d-49fa-be08-db93420e157f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_N-pending-2.png",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\068-average-goddess\\n.webp",
+    "nativeSize": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "tool": "built-in imagegen",
+    "status": "pending",
+    "facing": "front",
+    "gameMirrorX": false,
+    "prompt": "Background-extraction edit exact 068 N goddess. Keep exact blue-haired blue-eyed goddess face, long flowing hair braids and locks, golden blue jewel tiara earrings, complete white blue gold dress translucent sleeves and long sashes, both hands fingers, full legs feet sandals. Preserve identity anatomy pose costume game illustration. Remove white backdrop ALL floating blue spheres and rings, water swirls droplets sparkles floor magic circle and shadow. Only goddess clothing hair and attached jewelry remain. True transparent alpha exterior and all gaps in hair sleeves sashes fingers legs. No blue/cyan/red/yellow/white matte remnants. Full figure centered square with 20 percent transparent margins no crop no text no redesign. Same frontal orientation.",
+    "visualReview": "Goddess face hair tiara jewelry dress sleeves sashes fingers legs sandals retained. Cyan/blue residue in hair curls and white/red residue beside hands, sashes and hem. Not approved."
+  }
+]
