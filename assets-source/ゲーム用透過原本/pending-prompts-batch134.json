@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction exact UR white rabbit wizard king reference. Retain all original face ears red brown eyes crown green gems hands fingers paws feet entire staff plus ring gold green dangling gems, full white gold green robes flowing cape brooch belt satchel and every worn decoration. Remove entire scene magic aura ground circle all floating loose plus symbols crystals sparks flames sky. Genuine transparent alpha around whole figure and between staff ring arms ears cape feet. No red yellow cyan white fringe, no residual fragments. Full body staff and cape centered occupying 65 percent of square canvas, transparent margin each side at least 17 percent. Same front pose identity rarity painting, no redesign no text no crop.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a39b47d9-b5c8-4c61-b1cd-8b3cefc387dd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending134-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      0,
+      1254,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face ears crown staff hanging gems full robe cape hands feet preserved. Yellow red green white matte inside staff and cape negative spaces, cape at right canvas edge. Pending not installed."
+  }
+]

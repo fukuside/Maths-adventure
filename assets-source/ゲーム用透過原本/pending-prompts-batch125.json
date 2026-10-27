@@ -1,0 +1,29 @@
+[
+  {
+    "key": "004-apple-bear_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction exact supplied 004 SR apple bear adventurer. Keep same red orange bear fur, face brown eyes nose open smile ears head leaf stem, entire green scarf brooch leather straps belt buckles brown backpack, both arms fists all legs feet paw soles and apple held raised. Preserve individual rarity original pose full body game painting. Remove all white background ground grass flowers floating loose apples leaves clovers golden swirl and sparks. True transparent alpha around character and every negative space. No red yellow green blue matte fringe. Center complete bear apple backpack with 20 percent transparent padding square no text no redesign no crop. Same front-facing pose, not side-facing.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-72eef2a5-0323-40a7-b8a4-55cb62c442da.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending125-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      46,
+      1224,
+      1225
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Bear identity, face, apple leaf, scarf brooch, backpack belts and all paws preserved. Visible red yellow fringe around ears apple leaf and arms; inadequate margin. Pending not installed."
+  }
+]

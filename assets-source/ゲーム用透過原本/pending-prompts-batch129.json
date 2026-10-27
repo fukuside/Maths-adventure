@@ -1,0 +1,29 @@
+[
+  {
+    "key": "002-sum-slime_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction exact 002 UR slime king from supplied card. Preserve blue slime full body head droplet, exact eyes smile cheeks, gold blue crown, both hands fingers, entire gold blue staff ring cross hanging gems bottom diamond, all blue gold white royal cape robe brooch chains and hanging plus charms attached to chains. Remove all scenery magic water streams splash ground magic circle loose bubbles floating crosses sparks and crystals that are not worn or held. Genuine transparent alpha exterior and negative spaces, no opaque colored matte fringe. Preserve complete original character identity rarity equipment pose painting. Center full silhouette at 65 percent square canvas with generous transparent padding, no crop no text no redesign. Front-facing unchanged.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1af8624c-5365-4ec2-ac49-ad086b816fe5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending129-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      21,
+      1236,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Slime face crown staff full robe chains gems and hands retained. Red yellow cyan white matte in staff hanging gem gaps and cape edges; inadequate margin. Pending not installed."
+  }
+]

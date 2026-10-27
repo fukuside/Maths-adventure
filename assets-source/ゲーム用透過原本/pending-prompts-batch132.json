@@ -1,0 +1,29 @@
+[
+  {
+    "key": "004-apple-bear_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction of exact supplied 004 SR red apple bear adventurer. Preserve exact fur face eyes ears leaf stem head, held apple raised paw, other fist, full green scarf brooch leather belts backpack buckles legs feet soles. Remove scenery white background ground grass flowers all magic swirls loose floating apples leaves clovers sparks. True transparent alpha outside and all gaps. No red yellow blue white matte edge contamination. Preserve complete original pose rarity identity equipment game painted style. Center complete figure occupying 65 percent canvas with 17.5 percent or more transparent padding each side square no text no crop. Front remains front.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-676c1d3c-60ae-463b-bc09-1d86d10f06c9.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending132-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      21,
+      1158,
+      1238
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Same face fur apple scarf brooch backpack belts fists feet retained. Residual red yellow edge fringe at ears and held apple; padding insufficient. Pending not installed."
+  }
+]

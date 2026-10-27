@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction edit exact supplied 001 UR white rabbit holy wizard king. Preserve face red brown eyes smile ears crown green gemstones full gold staff circular green-gem ring plus symbol hanging jewels, white gold green robes cape brooch belts pouches hands fingers both feet soles. Remove sky ground magic circle all floating plus signs loose sparks crystals aura flames. Preserve identity rarity original pose and exact game painted style. Entire subject centered at 65 percent of square image with transparent margin on all sides. True alpha transparent outside character equipment and all gaps in staff ring, between ears arms and cape. No colored fringes or detached residue. No text no cropping no redesign. Same front-facing pose remains front, no side pose.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4338d841-5476-47d2-9905-958ba604d1c7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending127-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      15,
+      1254,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face crown ears full staff hanging gems robes cape hands feet and pouches retained. Red yellow white matte fringes in staff ring and cape edges, detached flecks near ears, insufficient padding. Pending not installed."
+  }
+]

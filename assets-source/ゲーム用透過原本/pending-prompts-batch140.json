@@ -1,0 +1,29 @@
+[
+  {
+    "key": "004-apple-bear_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction edit. Isolate ONLY the exact red apple bear SR character in the reference, its held raised apple, head leaf, green patterned scarf and clasp, brown leather backpack straps buckles and bag, both arms and both feet. Preserve the original face, identity, pose, colors and painted game illustration detail. Delete the entire background, grass, ground, flowers, loose apples, loose leaves, clovers, swirling energy, sparkles and all environmental objects. Genuine transparent alpha exterior and every gap, clean antialiased edges without yellow/red halo or floating pixels. Complete full body centered, no crop. Shrink subject to fit within central 65 percent of square with transparent margin on all sides. Front-facing remains front. No text, no redesign.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2e4d61b4-8a47-449d-831a-de6cb3f7ca81.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending140-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      101,
+      1234,
+      1192
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・頭の葉・持つりんご・スカーフ・鞄・両手足を確認。輪郭の赤黄の細かい色残りと余白不足により保留。"
+  }
+]

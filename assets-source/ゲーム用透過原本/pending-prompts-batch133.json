@@ -1,0 +1,30 @@
+[
+  {
+    "key": "004-apple-bear_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Precise alpha-edge cleanup of this already extracted SR apple bear. Preserve exact original image character paint, red fur face eye shape smile, head leaf, raised apple hand, fist, green scarf brooch, belts backpack, both feet soles and pose. Change only edge contamination: remove residual yellow red pixels outside silhouette at ears head leaf apple and arm gaps. Clean true transparent alpha outside bear and all gaps, no detached flecks, no matte. Do not redesign or repaint interior. Reposition whole character centered occupying 65 percent of square canvas, transparent padding all sides, no clipping. Keep facing front.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending132-generated.png",
+    "cardReference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d7f15877-812d-4f6c-8cde-1db98694de90.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending133-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      39,
+      1236,
+      1236
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Targeted edge cleanup preserved body face apple scarf equipment all limbs. Residual red fringe at ear and arm, yellow green flecks at leaves. Margin unchanged. Pending not installed."
+  }
+]

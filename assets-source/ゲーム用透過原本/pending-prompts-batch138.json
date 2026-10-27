@@ -1,0 +1,29 @@
+[
+  {
+    "key": "002-sum-slime_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Exact background-extraction of SR blue slime wizard from supplied reference. Retain entire slime face crest eyes smile cheeks all hands feet blue gold cape and brooch, held gold staff circular plus blue crystal head bottom diamond. Remove water swirls splashes loose droplets floating plus symbols sparkles white background and ground. True alpha-zero exterior and negative spaces with clean antialiasing, no colored outline debris. Preserve exact original identity rarity pose game painted style. Full figure including cape and staff occupies 65 percent square canvas with 17.5 percent transparent padding all sides. No redesign no text no clipping. Front-facing remains front.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0356efe4-d838-4ea6-8039-8cf381340ba8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending138-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      36,
+      1235,
+      1198
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "全身と杖・マントは確認。外周の青・黄の微細な縁残りと余白不足があり採用保留。正面のまま。"
+  }
+]

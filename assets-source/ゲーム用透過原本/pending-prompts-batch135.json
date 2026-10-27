@@ -1,0 +1,29 @@
+[
+  {
+    "key": "002-sum-slime_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction exact UR blue slime king. Keep face crown crest full blue body both hands fingers full gold blue plus-ring staff all hanging jewels and bottom crystal, royal blue gold white cape robe chains brooch attached charms. Remove water splash trails ground magic circle light beams floating symbols loose bubbles and crystals, all environment. Genuine alpha transparent outside equipment and body and in all negative spaces. Clean antialiased contours no yellow red cyan white residue. Square centered full figure occupying 65 percent canvas with 17.5 percent transparent margin minimum. Preserve exact reference identity rarity original pose and game illustration; no crop no text no redesign. Front unchanged.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-aa2e9f91-34ef-4392-9b5f-870f54447fcb.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending135-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      30,
+      19,
+      1237,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face crown staff hanging gems full robe chains and hands retained. Red yellow cyan white residual fringe in staff ring and cape borders; inadequate padding. Pending not installed."
+  }
+]

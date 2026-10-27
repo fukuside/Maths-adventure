@@ -1,0 +1,30 @@
+[
+  {
+    "key": "004-apple-bear_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Edit target is supplied already isolated red bear SR sprite. ONE CHANGE ONLY: clean its alpha silhouette. Remove every detached speckle and red/yellow halo outside the actual fur, apple, leaf, clothing, backpack. Smooth antialiasing at actual object boundary, exterior pixels fully transparent. Preserve every interior painted pixel, face, pose, both feet, apple and backpack. No relighting, no redesign, no shadow. True transparent background.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending140-generated.png",
+    "originalCard": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1039da30-0ac9-4458-a114-eb305dcc8f19.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending141-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      19,
+      1210,
+      1228
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "第140便の輪郭清掃を依頼。全身・りんご・葉・スカーフ・鞄は保持。耳・葉・手足・鞄の周囲に赤緑の細かい残りがあり保留。"
+  }
+]

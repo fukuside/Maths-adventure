@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Extract only the exact white rabbit SR adventurer and its held golden plus staff from this reference. Keep same cute face red brown eyes pink ears smile little fang, full white furry body both hands feet paw pads, green gold cape plus patterns brooch, satchel leather straps buckles and entire staff. Remove all beige backdrop, gold aura trails floating plus signs stars ground magic circle and shadow. True alpha-zero background and empty gaps ears arm staff cape legs. Clean neutral antialiased edges with no yellow red white matte fringe. Square PNG, full subject including cape and staff centered occupying 65 percent canvas, 17.5 percent transparent margin minimum on all sides. Preserve original pose and identity rarity painting, no redesign, no text. Front-facing stays front.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-615cd7eb-9296-4ab7-a39f-1e10706deb02.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending128-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      23,
+      17,
+      1240,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face ears staff cape brooch pouch hands feet preserved. Red yellow white matte fringe at ears cape and leg gaps, detached flecks behind ears; inadequate padding. Pending not installed."
+  }
+]

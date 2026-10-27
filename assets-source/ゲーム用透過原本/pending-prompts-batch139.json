@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit the reference UR white rabbit mage card into a clean isolated full-body game sprite on actual transparent alpha. Preserve the exact rabbit, brown eyes, smiling face, long ears, small crown, ornate white/gold/green flowing cape and robe, green jewels, hands and feet, entire held gold staff and its large plus medallion. Remove all detached plus signs, particles, beams, aura, floor magic circle, environmental scene and cast shadow. Keep attached garment ornaments. No new pose, no design change, no text. Center the COMPLETE silhouette at 65 percent canvas width and height with generous empty transparent margin. Crisp natural painted edges with no glow, no matte, no colored fringe, no speckled outline. Front-facing remains front-facing.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8550cdab-aa16-4199-b80f-6cbb98ef7bad.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending139-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      8,
+      1254,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・耳・冠・全杖・吊り宝石・衣装と両手足は確認。杖円内および衣装外周に黄赤緑の縁残りと微粒子。右端余白不足。採用保留。"
+  }
+]

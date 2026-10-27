@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Isolate the exact SR white rabbit adventurer and its held plus staff. Preserve original face red brown eyes smile fang ears white full body both arms hands feet pink soles green gold cape plus patterns clasp leather satchel straps and entire staff. Background-extraction only: remove beige background ground circle aura floating pluses all sparkles and trails. Genuine alpha transparent outside and gaps between ears staff arms cape legs. No matte fringes yellow red green white, no detached residues. Same individual rarity game painting original front-facing pose. Full figure centered occupying 65 percent square image, 17.5 percent transparent margin all sides, no crop no redesign no text.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9e8757c1-c42a-4e0e-98c4-3c9e727796f6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending137-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      41,
+      1216,
+      1238
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face ears staff cape brooch satchel hands feet preserved. Residual red yellow white edges and detached flecks near ears staff; inadequate padding. Pending not installed."
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "key": "002-sum-slime_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Precise background-extraction cleanup edit of the supplied already cut-out blue SR slime wizard. Change ONLY edge contamination: remove red yellow cyan matte speckles outside silhouette and within gold staff ring. Preserve exact every painted interior pixel, face, body, complete cape, both hands feet, staff and gems. Do not redraw or change identity or pose. Make empty background and gaps genuinely alpha zero, clean antialiased character edges with no colored fringe or particles. Retain opaque blue body. Center same complete figure scaled to occupy 65 percent of square canvas, with transparent padding on all sides. No additional objects, no ground, no text.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending124-generated.png",
+    "cardReference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-cce1f3ca-03df-43f1-9297-9c053a387a76.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending126-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      43,
+      41,
+      1234,
+      1196
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Targeted fringe cleanup retained exact character body face cape staff and limbs. Residual colored fringe and white flecks along left body edge, insufficient padding. Pending, not installed."
+  }
+]

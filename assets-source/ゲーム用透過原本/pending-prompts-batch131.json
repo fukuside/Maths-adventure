@@ -1,0 +1,29 @@
+[
+  {
+    "key": "002-sum-slime_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Extract exact SR slime wizard from image, preserving face crest both hands feet, full gold staff plus crystal ring and bottom diamond, blue cape gold trim gemstone clasp. Keep entire subject and all equipment. Remove white background all water splash ring loose droplets symbols sparkles ground. True transparent alpha, all negative spaces empty including staff circle. Clean edges without colored matte fringe. Original identity, original pose, same front view and game painting. Square centered with 20 percent transparent padding on all sides; no cropped cape, no added effects no text no redesign.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f8a0e40a-5c59-48af-b6f4-ec75525aa563.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending131-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      49,
+      1236,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face crest staff cape hands feet preserved. Cyan blue red yellow fringe and detached cyan flecks at head and cape, insufficient padding. Pending not installed."
+  }
+]

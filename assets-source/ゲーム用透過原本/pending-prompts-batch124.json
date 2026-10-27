@@ -1,0 +1,29 @@
+[
+  {
+    "key": "002-sum-slime_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction edit of supplied 002 SR blue slime wizard. Preserve exact face eyes smile cheeks head droplet crest blue body both hands feet and entire blue gold cape gemstone brooch, entire gold staff ring blue plus crystal and bottom blue diamond. Remove all background white ground water splash ring streams loose droplets floating plus symbols and sparkles. Only the actual character cape staff remain, genuine transparent alpha around silhouette and inside staff ring and all negative spaces. No colored matte or opaque fringe. Keep original pose identity rarity and game painting. Center complete figure with 20 percent transparent margin on all four sides, square PNG no text no cropping no redesign. Front facing remains front.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5342d2cc-1247-4cb8-b7bb-e2ab3e813e5c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending124-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      24,
+      1228,
+      1230
+    ],
+    "sourceFacing": "front",
+    "gameMirrorX": false,
+    "gameFacing": "front",
+    "visualReview": "Face, head crest, staff plus ring bottom diamond, both hands feet and cape brooch retained. Blue/red/yellow fringe around silhouette and staff negative spaces, insufficient padding. Pending, no game installation."
+  }
+]

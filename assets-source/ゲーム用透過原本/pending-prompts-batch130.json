@@ -1,0 +1,29 @@
+[
+  {
+    "key": "004-apple-bear_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background-extraction exact supplied 004 UR apple bear king. Isolate only bear wearing crown red gold fur-trim cape green scarf jeweled brooch belt leather pouch and holding raised apple. Preserve exact face red fur eyes muzzle smile ears crown leaves all complete costume jewels fists fingers feet soles, full cape. Remove entire environment grass flowers rocks sky magical flames sparks swirls floating apples leaves sigil behind. True alpha transparent everywhere outside costume body held apple and inside all negative spaces. Neutral clean edges, no red yellow green blue white matte residue. Keep reference identity rarity original pose painting. Center full character occupying 65 percent square image, generous transparent margin no clipped cape no text no redesign. Same front facing, not side.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-12a5619e-53db-416a-a963-5b71cd8fe0e4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-pending130-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      22,
+      49,
+      1253,
+      1224
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "Face crown apple cape scarf belts jewels pouch all hands feet retained. Red yellow matte on crown fur edges and negative spaces, cape near right edge and inadequate padding. Pending not installed."
+  }
+]
