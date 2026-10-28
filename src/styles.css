@@ -18305,7 +18305,7 @@ body:has(.decimal-choice-question){overflow-y:auto!important}
 .question-card .easy-written-board{max-width:500px;margin:12px auto;background:#f4fbff;color:#17354a;padding:10px;border-radius:14px;text-shadow:none!important}
 .question-card .easy-written-board *{text-shadow:none!important}
 .question-card .easy-written-row{display:grid;grid-template-columns:76px repeat(var(--written-columns),minmax(0,1fr));align-items:center;min-height:46px;gap:2px}
-.question-card .easy-written-rule{border-top:2px solid #31566c}
+.question-card .easy-written-rule{border-top:0;border-bottom:2px solid #31566c;padding-bottom:4px;margin-bottom:4px}
 .question-card .easy-written-label{font-size:13px!important;line-height:1.35!important;letter-spacing:0!important;white-space:normal;overflow-wrap:anywhere;text-align:left}
 .question-card .easy-written-cell{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;font-size:26px!important;line-height:1.2!important}
 .question-card .easy-written-cell .written-slot{font:inherit!important;min-width:0;width:100%;min-height:44px;padding:0;color:#17354a;background:#fff;box-shadow:none;touch-action:manipulation}

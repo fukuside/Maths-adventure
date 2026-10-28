@@ -1,0 +1,30 @@
+[
+  {
+    "key": "002-sum-slime_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Edit existing transparent cutout, cleanup ONLY. Preserve exact blue SR slime, face, pose, gold staff, blue gold cape and brooch. Remove every stray red/yellow/white/cyan pixel outside actual physical contour, including staff rim, top droplet rim and cape tips. No glow or matte. Crisp natural antialias alpha. Keep complete character unchanged and center it smaller within square, generous 20% blank transparent margins on all four sides. No added objects or redesign. True transparent PNG.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending157-generated.png",
+    "cardReference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-18d17681-663a-4a85-a9f7-bab3a18d8ba9.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending163-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      23,
+      1234,
+      1250
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "第157便を直接修正。全身・杖・衣装保持。頭頂の水色残りと杖・マント外周の赤黄残りが残存し保留。"
+  }
+]
