@@ -8,3 +8,18 @@ export function getStageRewardCards(stage, cards) {
   return Number.isInteger(n)&&n>=1&&n<=100;
  });
 }
+
+// Duplicate means the same monster AND rarity. Conversion is awarded once at quest completion.
+export function grantCardReward(state, cardId, rarity) {
+ const key = `${cardId}_${rarity}`;
+ const isNew = !state.unlockedCards.includes(key);
+ const duplicateGems = isNew ? 0 : 3;
+ if (isNew) {
+  state.unlockedCards.push(key);
+  state.newCards = Array.isArray(state.newCards) ? state.newCards : [];
+  if (!state.newCards.includes(key)) state.newCards.push(key);
+ } else {
+  state.gems += duplicateGems;
+ }
+ return { isNew, duplicateGems };
+}

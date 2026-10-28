@@ -1,0 +1,29 @@
+[
+  {
+    "key": "004-apple-bear_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Extract exact UR red bear king from this card as transparent game sprite. Keep full bear, stern cute eyes, face, crown with red gem and leaves, held raised apple, green scarf, red fur-trimmed royal cape entire left and right tails, gold cuffs jewels, belt apple gem and leather pouches, both hands and feet. Remove background, all energy swirls and glowing trails, loose apples/leaves, ground and cast shadows. Actual zero-alpha background and holes between body/cape. No exterior colored fringe or speckled particles. Retain exact original painted identity, no pose or costume redesign. Entire silhouette centered at 65% square canvas, no clipping, ample transparent padding.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f1dc1e73-df07-4cd9-9807-b044ac6e631e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-pending143-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      53,
+      1254,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・冠・りんご・スカーフ・マント・ベルト鞄・手足確認。左右マントが画端に接し、毛・冠・足の外周に赤黄緑の縁残りがあるため保留。"
+  }
+]

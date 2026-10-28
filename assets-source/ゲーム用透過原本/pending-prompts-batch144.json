@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Background extraction only: preserve exact SR white rabbit and all physical equipment from reference. Keep long ears face brown eyes white fur complete feet hands gold plus staff green jewel green gold plus-patterned cape clasp brown satchel. Delete all environmental yellow glow, floating plus symbols, sparkles, magic circle and ground. Actual transparent alpha exterior and spaces between objects. Crisp fur edges, no surrounding glow, colored contamination or isolated pixels. Preserve pose identity full character. Center complete silhouette within middle 65 percent square with clear transparent margin. No text or redesign.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-91eef390-dd2a-4106-adec-028fa83798a8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending144-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      31,
+      1214,
+      1238
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "耳・顔・全杖・マント・鞄・両手足を確認。耳間に小残片、杖耳毛マント周辺に黄赤白の縁残りで保留。"
+  }
+]

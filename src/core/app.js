@@ -13,7 +13,7 @@ import {recordTrail,renderTrail} from './challenge-trails.js';
 import {bossUnlockStatus} from './boss-unlock.js';
 import {isInlineChoice} from './inline-choices.js';
 import { renderPlayerPortrait } from "./player-portrait.js";
-import { getStageRewardCards } from "./stage-rewards.js";
+import { getStageRewardCards, grantCardReward } from "./stage-rewards.js";
 import { worlds, stages, cards, getCard, getStage } from "./registry.js";
 import "../content/packs/kindergarten/kindergarten.css";
 import { generateQuestions } from "./questions.js";
@@ -2892,39 +2892,7 @@ function sample(arr){
   const row = activeRarityRows.find(r => (cumulative += r[1]) >= roll) ?? activeRarityRows[2];
   rarity = row[0];
   factor = row[2];
-  const key =
-    `${card.id}_${rarity}`;
-
-  const isNew =
-    !state.unlockedCards.includes(
-      key
-    );
-
-  if (isNew) {
-    state.unlockedCards.push(
-      key
-    );
-  }
-
-
-  /*
-    NEWカード管理
-  */
-
-  state.newCards =
-    Array.isArray(
-      state.newCards
-    )
-      ? state.newCards
-      : [];
-
-  if (
-    isNew &&
-    !state.newCards.includes(key)
-  ) {
-    state.newCards.push(key);
-  }
-
+  const { isNew, duplicateGems } = grantCardReward(state, card.id, rarity);
 
   /*
     報酬
@@ -2939,7 +2907,9 @@ function sample(arr){
     factor,
     isNew,
     kindergarten: isKindergartenStage(),
-    gems: currentStage.rewardGems ?? 5
+    duplicateGems,
+    baseGems: currentStage.rewardGems ?? 5,
+    gems: (currentStage.rewardGems ?? 5) + duplicateGems
   };
 
 
@@ -5332,7 +5302,7 @@ function renderPartnerCompanion() {
               ? "宝箱を開けて報酬を受け取ろう。"
               : chestOpening
                 ? "なにが でるかな……？"
-                : "カードをゲット！"
+                : earned?.duplicateGems ? "かぶったカードが ダイヤにかわったよ！" : "カードをゲット！"
           }
         </p>
 
@@ -5437,8 +5407,9 @@ function renderPartnerCompanion() {
 
   return `
     <div class="reward-reveal">
+      ${earned.duplicateGems ? `<div class="panel" role="status"><strong>💎 ＋3こ！</strong><p>この${earned.rarity}カードは もう持っているので、ダイヤ3こにかわったよ。</p><small>クリア報酬 ${earned.baseGems}こ ＋ かぶり ${earned.duplicateGems}こ ＝ 合計 ${earned.gems}こ</small></div>` : ""}
       <p class="reward-label">
-        ✨ ${earned.rarity}カード獲得！
+        ${earned.duplicateGems ? "💎 ダイヤ3こに へんかん！" : `✨ ${earned.rarity}カード獲得！`}
       </p>
 
       <article class="result-card rarity-${earned.rarity}">

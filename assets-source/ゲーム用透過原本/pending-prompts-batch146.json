@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Precise background-extraction edit of reference UR white rabbit mage. Preserve exact identity face brown eyes smile long ears crown robe cape green jewel ornaments and entire held staff including circular plus head and dangling gems, both hands and feet. Remove golden magical background completely: floor circle, beams, loose plus signs, loose crystals, sparks, light trails, shadows. Genuine transparency through all gaps and exterior. Clean natural character boundaries with no gold/red/green/white matte fringes or floating remnants. Keep whole body and garment tips intact, frontal original pose, no redesign. Center full silhouette with wide transparent 18% margin on square canvas.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-047b9de2-573b-4872-a7d9-a07ed64f754e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending146-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      9,
+      1242,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・耳・冠・全杖・吊り宝石・衣装・両手足を確認。杖円内や鎖の隙間に黄赤緑の縁残りと小残片、余白不足で保留。"
+  }
+]
