@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Isolate exact reference UR rabbit mage as a physical character cutout with real transparent alpha. Keep full white rabbit face eyes ears crown, entire held gold plus medallion staff dangling green gems, flowing white green gold robe cape, brooch, hands and feet. Remove all background scene magic floor beams energy swirls and loose particles plus signs. Transparent negative spaces; no exterior colored outlines, halo, fringe or speckles. Preserve identity, clothing and original frontal pose. Full silhouette centered with 18 percent clear transparent margin on every side. No text, no clipping or redesign.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-206291a2-64f9-49c3-b09d-f0a0fadbe3d1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending152-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      17,
+      1245,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "全身・冠・全杖・鎖宝石・衣装を保持。杖円内と鎖周辺に黄赤緑の色残り、輪郭残片と余白不足で保留。"
+  }
+]

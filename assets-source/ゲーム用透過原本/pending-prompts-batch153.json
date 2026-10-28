@@ -1,0 +1,29 @@
+[
+  {
+    "key": "004-apple-bear_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Exact background extraction: isolate reference SR red apple bear, same face identity pose all physical details. Keep head leaf, held raised apple, green scarf and clasp, leather backpack straps buckles, both arms legs feet. Remove environmental grass flowers loose fruit leaves clovers, all swirling energy and stars. True zero-alpha exterior and gaps. Clean natural fur and object contours with no red/yellow/green matte remnants or detached pixels. Entire silhouette centered with wide transparent border, no crop or redesign, no text.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-dd6a82a7-d8c9-4334-8fac-40e3b7295986.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending153-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      25,
+      1216,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・全身・りんご・頭葉・スカーフ・鞄保持。耳・葉・毛・足外周に赤黄緑色の縁残りと余白不足で保留。"
+  }
+]

@@ -695,6 +695,7 @@ root.addEventListener(
     if(a==='reward-top'){rewardFromTop=true;screen=getPlayers().length?'player-select':hasLegacySave()?'legacy-migrate':'player-create';render();return;}
     if(a==='reward-enter'){
       if(screen!=='reward-lobby'||!getActivePlayer()||!unlockedPartnerEntries().length)return;
+      if(t.dataset.game==='monster-merge'&&!unlockedPartnerEntries().some(x=>x.rarity==='UR'))return;
       if(t.dataset.game==='monster-pinball'&&!unlockedPartnerEntries().some(x=>x.rarity==='SR'))return;
       if(['treasure-fishing','monster-path'].includes(t.dataset.game)&&!unlockedPartnerEntries().some(x=>x.rarity==='N'))return;
       if(!rewardUnlockStatus(state).unlocked){render();return;}
@@ -3006,9 +3007,9 @@ function sample(arr){
 }
   function body() {
   if(screen==='reward-lobby'&&!rewardUnlockStatus(state).unlocked)return '<section class="panel stack"><h2>ごほうびゲーム</h2>'+rewardUnlockHint(state)+rewardResetNote+'<p>まずは2ステージ学習してから遊ぼう！入場にはダイヤ5個も必要です。</p><button class="button" data-action="go" data-screen="title">さんすうに挑戦する</button></section>';
-  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length,unlockedPartnerEntries().filter(x=>x.rarity==='SR').length);
+  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length,unlockedPartnerEntries().filter(x=>x.rarity==='SR').length,unlockedPartnerEntries().filter(x=>x.rarity==='UR').length);
   if(screen==='reward-play'){
-    const owned=unlockedPartnerEntries().filter(x=>activeRewardGame?.id==='monster-pinball'?x.rarity==='SR':['treasure-fishing','monster-path'].includes(activeRewardGame?.id)?x.rarity==='N':['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
+    const owned=unlockedPartnerEntries().filter(x=>activeRewardGame?.id==='monster-merge'?x.rarity==='UR':activeRewardGame?.id==='monster-pinball'?x.rarity==='SR':['treasure-fishing','monster-path'].includes(activeRewardGame?.id)?x.rarity==='N':['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
     const source=(activeRewardGame?.url||'/reward-games/monster-run.html')+'?player='+encodeURIComponent(getActivePlayer()?.playerId||'guest')+'#'+encodeURIComponent(JSON.stringify(owned));
     return '<section class="reward-play-shell"><button class="reward-exit button secondary" data-action="go" data-screen="title">学習へ戻る</button><iframe class="reward-game-frame" title="'+escapeHtml(activeRewardGame?.name||'モンスターお宝ラン')+'" src="'+escapeHtml(source)+'" allow="fullscreen"></iframe></section>';
   }

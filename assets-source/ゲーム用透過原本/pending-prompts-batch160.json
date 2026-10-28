@@ -1,0 +1,29 @@
+[
+  {
+    "key": "002-sum-slime_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "background-extraction. Extract only this exact UR blue slime king and physical equipment: entire top droplet, crown, both arms, blue body taper, blue white gold robe and cape all tips, chest brooch, chains and attached jewels and crosses, full gold staff with blue cross inside physical circular ornament. Keep identity face pose rarity and details unchanged, front facing. Delete environment, all water swirls droplets sparkles loose gems loose crosses background floor magic circle and shadows. True transparent alpha in all gaps including staff ring. No residual color fringes or particles. Center complete silhouette at 64% of canvas with 18% blank transparent margin all four sides. No cropping redesign or text. Transparent PNG.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e2b99104-2df5-4b03-baba-eba982cbef63.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending160-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      29,
+      1232,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・全身・杖・冠・衣装と鎖宝石保持。杖円環内部と輪郭に赤黄水色残り、マント左右の余白不足で保留。"
+  }
+]

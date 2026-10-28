@@ -1,0 +1,30 @@
+[
+  {
+    "key": "001-plus-rabbit_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Precise cutout cleanup of this existing transparent SR rabbit. Keep the character EXACTLY unchanged: pose face all fur ears feet cross staff green cape satchel. Remove detached white flecks between ears, white speck at left ankle, and every yellow/red/white contaminated pixel outside the true contour. Keep natural antialiasing, no glow and no matte. Scale whole intact cutout down to 64% of canvas height and center, giving at least 18% true empty transparent margin on all sides. Do not add or redraw any objects. Actual alpha PNG, no background.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending156-generated.png",
+    "cardReference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6add7821-0f31-47ca-9bc1-bd32426f1a90.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending162-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      23,
+      1222,
+      1231
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "第156便を直接修正。全身・装備保持。耳周辺白残り、杖・足下・マント外周に黄赤残りが残存し保留。"
+  }
+]

@@ -18320,3 +18320,5 @@ body:has(.decimal-choice-question){overflow-y:auto!important}
 .question-card .easy-written-board{width:max-content;max-width:100%;box-sizing:border-box}
 .question-card .easy-written-row{grid-template-columns:76px repeat(var(--written-columns),44px)}
 @media(max-width:480px){.question-card .easy-written-row{grid-template-columns:64px repeat(var(--written-columns),32px)}}
+
+.reward-game-card{display:flex;flex-direction:column;gap:10px;padding:16px!important;border:2px solid #397c93!important;margin-bottom:24px!important}.reward-game-card>h3,.reward-game-card>p{margin:0!important}.reward-game-card .reward-game-preview{margin:0!important}.reward-entry-area{display:grid;gap:8px;margin-top:auto;padding:14px;background:#102e42;border-radius:14px;text-align:center}.reward-entry-area>strong{color:#ffe6a2;font-size:17px}.reward-entry-area .button{position:static!important;width:100%;margin:0!important}.reward-entry-area>small{color:#cde4ed;font-size:12px}.reward-game-card+ .reward-game-card{margin-top:0}

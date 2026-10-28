@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: background-extraction. Edit target is the provided SR plus rabbit card. Isolate ONLY the exact physical rabbit with its entire gold cross staff, both ears, face, both arms, feet, green gold-trim cape and brown satchel. Preserve the original pose and every physical detail. Delete all scenery, gold swirls, floor magic circle, floating crosses, stars, glow and shadows. True transparent alpha in all empty spaces, also between ears and around staff. No colored matte, halo, fragments or floating particles. Entire silhouette centered occupying 64 percent of square canvas, with 18 percent empty transparent padding on all four sides. Keep front facing, do not turn character. No redesign, lettering or frame. Output transparent PNG.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ea591f6b-0cc1-40bb-9f7c-89ac35ffec29.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending156-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      33,
+      1234,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・両耳・杖・マント・鞄と全身保持。耳間や足下の白い残片、輪郭の黄赤白残り、余白不足により保留。"
+  }
+]

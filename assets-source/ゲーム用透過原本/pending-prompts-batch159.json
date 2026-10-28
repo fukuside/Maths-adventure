@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "background-extraction: precisely cut out the physical UR white rabbit king from reference. Preserve face, both ears, crown, both hands feet, white gold green vestments, full cape tips, belt jewels chains, entire staff and its physical circular ornament and dangling gems. Transparent alpha inside the staff ring and every gap. Remove background, sunlight, all magic swirls, free-floating crosses stars gems and floor circle. Keep original front-facing pose and exact identity. No halo, colored fringe, remnants or isolated pixels. Entire figure fits centered with 18% transparent empty padding on every side. No text or redesign. True transparent PNG.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6d6dc5c5-a6c3-4c60-a4b7-abf2058ad892.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending159-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      29,
+      1238,
+      1236
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・全身・杖円環・冠・衣装宝石保持。円環内部と冠周囲に黄赤残り、輪郭色残りと余白不足で保留。"
+  }
+]
