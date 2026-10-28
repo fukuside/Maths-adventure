@@ -1,0 +1,29 @@
+[
+  {
+    "key": "001-plus-rabbit_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Make a precise transparent cutout of this exact SR rabbit, not a redesign. Keep whole white rabbit, ears face, both hands feet, gold plus staff green gem, green cape gold motifs brooch and brown satchel. Remove every loose symbol, particle, aura, magic floor, ground and background. Clean antialiased physical silhouette on actual transparency with no yellow red green fringe or detached fragments. All negative spaces transparent. Full character and equipment centered with generous transparent border. Original front-facing pose unchanged.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-70bd4b64-5912-4dda-b084-5b7b83556ba8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending150-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      47,
+      1241,
+      1230
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "全身と杖・マント・鞄保持。耳間と足下に残片、輪郭に黄赤白残り、右端マント余白不足で保留。"
+  }
+]

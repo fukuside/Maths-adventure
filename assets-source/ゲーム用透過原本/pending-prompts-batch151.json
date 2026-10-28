@@ -1,0 +1,29 @@
+[
+  {
+    "key": "002-sum-slime_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Exact background extraction of reference SR blue slime mage, transparent alpha game sprite. Keep original face eyes smile crest whole body hands feet, entire golden circular plus staff and lower diamond, blue gold cape and clasp. Remove all water swirls splashes droplets loose symbols stars ground and background. Clean actual physical object boundaries, zero-alpha exterior and gaps, no matte halo or stray color pixels. Original front-facing identity and pose unchanged. Full body all equipment visible centered, 18% transparent margin. No redesign, no text.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-532c67f7-0388-4b7a-ae39-a47b83bcb9cc.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending151-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      21,
+      1240,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・全身・杖・マントとブローチ確認。杖や本体外周に赤黄水色の縁残り、浮遊残片と余白不足で保留。"
+  }
+]

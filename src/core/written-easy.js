@@ -8,7 +8,7 @@ export function prepareWritten(q,index=0){
   if(row.carryRow){row.cells=row.cells.map(c=>c?.slot!==undefined?{text:original[c.slot].value,small:true}:c);continue;}
   let candidates=row.cells.map((c,p)=>({c,p})).filter(({c})=>c&&(c.slot!==undefined||c.value!==undefined));if(!candidates.length)continue;
   const val=c=>c.value??original[c.slot].value;
-  while(candidates.length>1&&val(candidates.at(-1).c)===0&&candidates.at(-1).p>=(q.decimalPlaces?Number(q.decimalPlaces)+1:1)){const x=candidates.pop();row.cells[x.p]=null;}
+  while(candidates.length>1&&val(candidates.at(-1).c)===0&&candidates.at(-1).p>=(row===workRows.at(-1)&&q.decimalPlaces?Number(q.decimalPlaces)+1:1)){const x=candidates.pop();row.cells[x.p]=null;}
   if(q.support==='guide'&&workRows.indexOf(row)>0&&row!==workRows.at(-1)){for(const {c,p} of candidates)row.cells[p]={text:val(c)};continue;}
   candidates.reverse();const start=slots.length,label=row.label||'途中の計算';
   for(const {c,p} of candidates){const n=val(c);row.cells[p]={slot:slots.length};slots.push({value:n,label});}
@@ -16,8 +16,41 @@ export function prepareWritten(q,index=0){
  }
  q.slots=slots;q.groups=groups;q.answer=slots.map(s=>s.value).join('');return q;
 }
-export function renderEasyWritten(q,{escapeHtml:e,input=''}){
- const active=String(input).length,g=q.groups.find(g=>active<g.end),guide=q.support==='guide';
- const board=q.rows.map((row,ri)=>`<div style="display:flex;justify-content:flex-end;align-items:center;min-height:42px;${row.rule?'border-top:2px solid #31566c;':''}"><span style="font-size:14px;flex:1;text-align:left">${e(row.label)}</span>${[...row.cells].reverse().map((c,ci)=>`<span style="width:36px;display:inline-block;text-align:center;${row.carryRow?'font-size:16px;color:#527085;':'font-size:25px;'}">${!c?'':c.slot!==undefined?`<span class="written-slot ${g&&c.slot>=g.start&&c.slot<g.end?'written-active':''}" ${c.slot===active?'aria-current="step"':''}>${e(String(input)[c.slot]??'□')}</span>`:e(c.text??'')}${!row.carryRow&&!row.decimalSkip&&(q.decimalProduct?(ri<2||ri===q.rows.length-1)&&ci===q.width-(ri<2?1:2)-1:q.decimalPlaces&&ci===q.width-q.decimalPlaces-1)?'<b style="font-size:20px">.</b>':''}</span>`).join('')}</div>`).join('');
- return `<div class="curriculum-question written-question"><p class="written-heading">${e(q.originalExpression||q.prompt)}</p><div style="max-width:500px;margin:auto;background:#f4fbff;color:#17354a;padding:14px;border-radius:14px;text-shadow:none">${board}</div><p class="written-step" role="status">${g?e(g.label)+'を、ふつうの順に入力しよう。':'できたね。「こたえの決定」でたしかめよう。'}</p>${q.support!=='independent'?'<p style="font-size:16px">21なら「2 → 1」。位は自動でそろうよ。先頭の0は入力しなくていいよ。</p>':''}${guide?'<p style="font-size:15px">'+(q.division?'たてる → かける → ひく → 下ろす。青い段を順番に考えよう。':q.multiply?'位ごとにかけて、途中の答えを合わせよう。':'同じ位どうしを計算しよう。小さい数字はくり上がり・かりた数のヒントだよ。')+'</p>':''}</div>`;
+export function writtenActiveSlot(q,input='') {
+ if(Number.isInteger(q.inputCursor)) return q.inputCursor;
+ const empty=String(input).indexOf('_');return empty>=0?empty:String(input).length;
+}
+export function editWrittenInput(q,input,value) {
+ if(!q?.easyWritten||q.division)return null;
+ if(value==='clear'){q.inputCursor=0;q.manualSlot=false;return '';}
+ const values=Array.from({length:q.slots.length},(_,i)=>String(input)[i]??'_');
+ let index=writtenActiveSlot(q,input);
+ if(value==='back'){index=q.manualSlot?Math.min(index,values.length-1):Math.max(0,Math.min(index-1,values.length-1));values[index]='_';q.inputCursor=index;q.manualSlot=false;}
+ else if(/^\d$/.test(value)){
+  if(index>=values.length)return input;values[index]=value;q.manualSlot=false;
+  let next=values.findIndex((v,i)=>i>index&&v==='_');if(next<0)next=values.indexOf('_');q.inputCursor=next<0?values.length:next;
+ }else return input;
+ return values.join('').replace(/_+$/,'');
+}
+export function renderEasyWritten(q,{escapeHtml:e,input='',inputEnabled=true}){
+ const value=String(input),active=writtenActiveSlot(q,value),guide=q.support==='guide';
+ const g=q.groups.find(g=>active>=g.start&&active<g.end);
+ const board=q.rows.map((row,ri)=>`<div class="easy-written-row ${row.carryRow?'easy-carry-row':''} ${row.rule?'easy-written-rule':''}" style="--written-columns:${q.width}"><span class="easy-written-label">${e(row.label)}</span>${[...row.cells].reverse().map((c,ci)=>`<span class="easy-written-cell ${row.carryRow||c?.small?'easy-written-small':''}">${!c?'':c.slot!==undefined?`<button type="button" data-action="written-slot" data-slot="${c.slot}" class="written-slot ${c.slot===active?'written-active':''}" ${c.slot===active?'aria-current="step"':''} aria-label="${e(q.slots[c.slot].label)}・入力欄${c.slot+1}" ${!inputEnabled?'disabled':''}>${e(value[c.slot]&&value[c.slot]!=='_'?value[c.slot]:'□')}</button>`:e(c.text??'')}${!row.carryRow&&(!row.decimalSkip||(q.decimalProduct&&ri<2))&&(q.decimalProduct?(ri<2||ri===q.rows.length-1)&&ci===q.width-(ri<2?1:2)-1:q.decimalPlaces&&ci===q.width-q.decimalPlaces-1)?'<b class="easy-decimal-point">.</b>':''}</span>`).join('')}</div>`).join('');
+ return `<div class="curriculum-question written-question"><p class="written-heading">${e(q.originalExpression||q.prompt)}</p><div class="easy-written-board">${board}</div><p class="written-step" role="status">${g?e(g.label)+'の、青いマスに入力しよう。':'できたね。「こたえの決定」でたしかめよう。'}</p><p class="easy-written-help">入力したいマスをタップすると、どこからでも書けるよ。小さい数字は、くり上がり・かりた数のヒント。</p>${guide?'<p class="easy-written-help">'+(q.division?'たてる → かける → ひく → 下ろす。':q.multiply?'位ごとにかけて、途中の答えを合わせよう。':'同じ位どうしを計算しよう。')+'</p>':''}</div>`;
+}
+
+export function writtenAnswerComplete(q,input){
+ const value=String(input);return q.easyWritten?value.length===q.slots.length&&/^\d+$/.test(value):value.length===String(q.answer).length;
+}
+export function checkWrittenAnswer(q,input){
+ if(!writtenAnswerComplete(q,input))return false;
+ if(q.fractionWork){
+  const digits=[...String(input)].map(Number);
+  if(!digits.slice(0,3).every((v,i)=>v===q.slots[i].value))return false;
+  const [numerator,denominator]=digits.slice(3);
+  const targetNumerator=q.n1*q.d2+(q.subtract?-1:1)*q.n2*q.d1;
+  return denominator>0&&numerator*q.d1*q.d2===targetNumerator*denominator;
+ }
+
+ return q.easyWritten?q.slots.every((slot,i)=>Number(String(input)[i])===slot.value):String(input)===String(q.answer);
 }

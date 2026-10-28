@@ -1,0 +1,29 @@
+[
+  {
+    "key": "004-apple-bear_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Precise background-extraction of the reference UR red bear king. Preserve full physical bear: face eyes ears leaf crown red gem, raised apple, hands feet, green scarf, elaborate red white fur royal cape, gold jeweled cuffs, belt apple emblem leather pouches. Remove environmental fire rings, magic circle, loose fruit/leaves, sparkles, ground and background. Genuine transparent alpha in exterior and every gap; no colored matte or detached fragments. Exact original identity rarity pose clothing and painted game style. Center entire silhouette within middle 64 percent canvas with transparent margin; all cape tips and feet visible; no cropping text or redesign.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1dc3f3f8-c2b2-440e-b224-e3490a6a078e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-pending149-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      33,
+      1254,
+      1206
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・冠・りんご・スカーフ・マント・装備と全身保持。冠と毛・マント外周に黄赤緑白の残り、画端への接触と余白不足で保留。"
+  }
+]

@@ -1,0 +1,29 @@
+[
+  {
+    "key": "002-sum-slime_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Extract the exact UR blue slime king from reference, full physical body and equipment only. Preserve crown crest face eyes smile both hands, blue gold robe flowing cape and attached chains jewels, entire gold staff circular blue plus head and dangling diamonds. Remove all detached water splashes, droplets, crystals, plus signs, stars, magical floor circle, background beams and scenery. True transparent alpha, also inside staff gaps and cape negative spaces. Crisp clean edges without colored halo/matte/speckles. Same identity and original frontal pose. Complete silhouette with 18% transparent padding each side, no clipping no redesign no text.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-68668a32-5042-497a-91b3-ad1d05c75fda.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending148-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      25,
+      1230,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "顔・冠・全杖・衣装・鎖宝石と全身保持確認。杖円内に赤黄白残り、輪郭と負空間に色縁、余白不足で保留。"
+  }
+]

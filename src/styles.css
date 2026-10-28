@@ -18300,3 +18300,23 @@ body:has(.decimal-choice-question){overflow-y:auto!important}
  .question-card .decimal-choice-option{min-height:60px!important;flex-shrink:0!important}
  .question-card .decimal-learning-visual{height:auto!important;min-height:0!important;max-height:none!important;position:static!important;transform:none!important}
 }
+
+/* Written working: stable labels, freely selectable digit cells, smaller carry hints. */
+.question-card .easy-written-board{max-width:500px;margin:12px auto;background:#f4fbff;color:#17354a;padding:10px;border-radius:14px;text-shadow:none!important}
+.question-card .easy-written-board *{text-shadow:none!important}
+.question-card .easy-written-row{display:grid;grid-template-columns:76px repeat(var(--written-columns),minmax(0,1fr));align-items:center;min-height:46px;gap:2px}
+.question-card .easy-written-rule{border-top:2px solid #31566c}
+.question-card .easy-written-label{font-size:13px!important;line-height:1.35!important;letter-spacing:0!important;white-space:normal;overflow-wrap:anywhere;text-align:left}
+.question-card .easy-written-cell{position:relative;display:flex;align-items:center;justify-content:center;min-width:0;font-size:26px!important;line-height:1.2!important}
+.question-card .easy-written-cell .written-slot{font:inherit!important;min-width:0;width:100%;min-height:44px;padding:0;color:#17354a;background:#fff;box-shadow:none;touch-action:manipulation}
+.question-card .easy-written-cell .written-active{background:#dcf2ff;border-color:#2388bf}
+.question-card .easy-carry-row{min-height:25px}
+.question-card .easy-written-small{font-size:15px!important;line-height:1!important;color:#527085}
+.question-card .easy-decimal-point{position:absolute;right:-4px;bottom:1px;font-size:22px!important}
+.question-card .easy-written-help{font-size:14px!important;line-height:1.5!important;text-shadow:none!important}
+@media(max-width:480px){.question-card .easy-written-row{grid-template-columns:64px repeat(var(--written-columns),minmax(0,1fr))}.question-card .easy-written-label{font-size:12px!important}.question-card .easy-written-cell{font-size:24px!important}.question-card .easy-written-small{font-size:14px!important}}
+
+/* Compact place-value columns keep decimal points next to their digits. */
+.question-card .easy-written-board{width:max-content;max-width:100%;box-sizing:border-box}
+.question-card .easy-written-row{grid-template-columns:76px repeat(var(--written-columns),44px)}
+@media(max-width:480px){.question-card .easy-written-row{grid-template-columns:64px repeat(var(--written-columns),32px)}}

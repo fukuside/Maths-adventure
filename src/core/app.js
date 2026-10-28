@@ -1,5 +1,5 @@
 import {rewardDay,rewardUnlockStatus,recordRewardClear,rewardUnlockHint,rewardResetNote} from './reward-unlock.js';
-import {prepareWritten} from './written-easy.js';
+import {prepareWritten,editWrittenInput,writtenAnswerComplete,checkWrittenAnswer} from './written-easy.js';
 import {rewardLobby,purchaseEntry} from './reward-games.js';
 import {surveyLink,surveyInvitation,snoozeSurvey} from './survey-invitation.js';
 import {bgmTracks} from './bgm-tracks.js';
@@ -1086,6 +1086,8 @@ questions.forEach(
 
   const question =
     questions[qi] ?? null;
+  if(question?.easyWritten){const edited=editWrittenInput(question,input,value);if(edited!==null){input=edited;render();return;}}
+
 
 
   /* =====================================================
@@ -1525,6 +1527,10 @@ if (
   });
   return;
 }
+    if(a === 'written-slot'){
+      const q=questions[qi],slot=Number(t.dataset.slot);if(screen!=='game'||!inputEnabled||feedbackPlaying||!q?.easyWritten||!Number.isInteger(slot)||slot<0||slot>=q.slots.length)return;
+      q.inputCursor=slot;q.manualSlot=true;render();return;
+    }
     if(a === 'ruler-align'){
       const q=questions[qi];if(screen!=='game'||!inputEnabled||feedbackPlaying||!q?.requiresRulerAlignment)return;
       q.rulerAligned=true;wrongMessage='';render();return;
@@ -1563,7 +1569,7 @@ if (
       const question = questions[qi];
       if(['fraction-add-same-denominator','fraction-subtract-same-denominator'].includes(question?.kind)&&!/^\d+\/\d+$/.test(input)){wrongMessage='分母、ぶんの、分子の順に、最後まで 入れてね。';render();return;}
       if(question?.keypad==='expression'&&question.expression&&!isCompleteExpressionInput(input)){wrongMessage='しきと、＝のあとの答えまで 入れてね。';render();return;}
-      if(question?.kind === 'written-calculation' && input.length !== question.answer.length) return;
+      if(question?.kind === 'written-calculation' && !writtenAnswerComplete(question,input)) return;
 
             /*
        * この問題への
@@ -1676,7 +1682,7 @@ function buildLearningUnitName(
 ========================================================= */
 
 const isCorrect =
-  question?.kind === 'written-calculation' ? input === question.answer : isExpressionAnswer
+  question?.kind === 'written-calculation' ? checkWrittenAnswer(question,input) : isExpressionAnswer
 
     ? isCorrectExpressionInput(
         input,
@@ -1739,7 +1745,7 @@ if (isCorrect) {
         }, 1050);
       }
       else {
-        const writtenHelp=question?.kind==='written-calculation'?writtenRetry(question,input):null;
+        const writtenHelp=question?.kind==='written-calculation'?writtenRetry(question,input):null;if(question?.easyWritten){delete question.inputCursor;question.manualSlot=false;}
         input = writtenHelp?.prefix ?? "";
         if (isKindergartenStage()) {
           wrongMessage = "もういちど みてみよう。";
@@ -3781,7 +3787,7 @@ return `<section class="stack game-area ${q?.kind === "written-calculation" || q
 
   </div>
       ${wrongMessage?`<div class="wrong-notice">${wrongMessage}</div>`:""}
-      <${isInlineChoice(q) || q.kind === "cube-net" || q.kind === "mirror-grid" || q.kind === "shape-build" || q.kind === "abacus-lesson" || q.requiresRulerAlignment ? "section" : "button"}
+      <${isInlineChoice(q) || q.kind === "written-calculation" || q.kind === "cube-net" || q.kind === "mirror-grid" || q.kind === "shape-build" || q.kind === "abacus-lesson" || q.requiresRulerAlignment ? "section" : "button"}
   class="question-card ${flashMode ? "flash-card" : "persistent-card"} ${showQuestion ? "showing" : "hidden-question"}"
   ${questionAction}
   ${flashMode ? "" : 'type="button"'}
@@ -3797,7 +3803,7 @@ return `<section class="stack game-area ${q?.kind === "written-calculation" || q
 </div>
 
   </div>
-</${isInlineChoice(q) || q.kind === "cube-net" || q.kind === "mirror-grid" || q.kind === "shape-build" || q.kind === "abacus-lesson" || q.requiresRulerAlignment ? "section" : "button"}>
+</${isInlineChoice(q) || q.kind === "written-calculation" || q.kind === "cube-net" || q.kind === "mirror-grid" || q.kind === "shape-build" || q.kind === "abacus-lesson" || q.requiresRulerAlignment ? "section" : "button"}>
       <div class="partner-answer-zone">
 
   ${renderPartnerCompanion()}

@@ -4,6 +4,7 @@ import {renderFractionWork} from '../core/fraction-work.js';
 import {renderDivideGrid} from '../core/written-divide-grid.js';
 import {renderMultiplyGrid} from '../core/written-multiply-grid.js';
 export default {kind:'written-calculation',render(q,{escapeHtml:e,input=''}){
+ if(q.easyWritten&&!q.division)return renderEasyWritten(q,{escapeHtml:e,input});
  if(q.easyWritten){
  let html;
  if(q.division)html=renderDivideGrid(q,{escapeHtml:e,input});
