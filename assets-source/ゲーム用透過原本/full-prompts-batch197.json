@@ -1,0 +1,31 @@
+[
+  {
+    "key": "018-bell-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\018-bell-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e0203f4f-4254-42e5-b107-2a1a529d1f0c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\018-bell-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\018-bell-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\018-bell-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      203,
+      886,
+      876
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR bell bird card preserving exact orange cream bird identity brown eyes happy open beak, full orange crest, whole raised blue-orange wings with all feathers, both legs claws and full tail feathers, brass goggles leather headband, green scarf gold treble-clef brooch, brown harness pouch, entire held gold pocket clock with chain ring and treble-clef dial. Keep original front three-quarter airborne one-foot-raised pose. Remove detached floating notes leaves gold magic swirls path ground rocks bushes shadows and cream background. Retain character clothing equipment and held clock only. True transparent alpha through every gap. Whole silhouette centered64% square with18% transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両翼・脚・尾・ゴーグル・時計・スカーフ・鞄保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

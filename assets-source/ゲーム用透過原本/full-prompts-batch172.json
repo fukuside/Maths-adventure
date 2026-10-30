@@ -1,0 +1,31 @@
+[
+  {
+    "key": "005-carry-fox_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\005-carry-fox\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0b448ad7-1877-4836-b24c-cdc72e46496b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\005-carry-fox_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\005-carry-fox_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\005-carry-fox_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      237,
+      886,
+      843
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of provided UR carry fox card. Preserve exact orange fox identity, expression, ears, full body, full ornate curved sword and grip, green-gold scarf and flowing cape, full brown/gold armor, belt pouches, chains and green crystal ornaments, backpack with rolled bedroll, both boots, entire white tipped bushy tail. Keep original front-facing three-quarter leaping attack pose. Remove white backdrop, ALL fire, magical rings, flying leaves, sparkles, soil, rocks, grass and shadows. Do not remove physical cloak tails or sword. True transparent alpha, no colored matte fringe. Center complete silhouette within64% square with18% transparent padding. No text, frames, redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・剣・尾・背負い袋・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

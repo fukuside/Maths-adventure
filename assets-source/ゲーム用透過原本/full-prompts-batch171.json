@@ -1,0 +1,31 @@
+[
+  {
+    "key": "005-carry-fox_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\005-carry-fox\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d9b8c20b-4a85-491d-90c0-1d4da6644e03.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\005-carry-fox_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\005-carry-fox_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\005-carry-fox_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      197,
+      194,
+      882,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of provided SR carry fox card. Isolate exact orange fox with both ears, face, full body, complete curved sword including tip and grip, green scarf, brown leather backpack and rolled bedroll, belt pouches, hanging blue crystal, both boots and full fluffy white-tipped tail. Preserve original airborne running pose and left-facing three-quarter orientation. Remove all white backdrop, golden swirls, floating leaves, stars, ground, stones, grass and shadows. Real transparent alpha, no matte rim or glow. Entire silhouette centered within64 percent of square canvas with18 percent transparent padding. No redesign or text.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・剣・尾・背負い袋・宝石保持。環境除去。左向き維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "018-bell-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\018-bell-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-456e8fd6-dfa3-4bca-b2de-0e1d9a021580.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\018-bell-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\018-bell-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\018-bell-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      243,
+      886,
+      837
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR bell bird reference card. Preserve exact orange cream bird face brown eyes happy open beak, whole orange crest, full spread blue orange cream wings with every feather, both legs claws full tail, brass blue goggles, entire feathered ornate hat, green gold scarf treble clef pendant, gold chains blue jewels harness pouch and full dark green gold cape ends. Preserve BOTH held objects completely: golden pocket clock treble clef dial/ring/chain and ornate golden mandolin with strings neck tuning pegs. Keep original front three-quarter airborne pose. Remove floating detached notes feathers leaves gold magic swirls path ground bushes shadows cream background. Physical bird gear and held objects only. True transparent alpha through gaps. Entire silhouette centered64% square with18% clear transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両翼・脚・尾・ゴーグル・帽子・時計・楽器・スカーフ・鞄・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

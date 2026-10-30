@@ -1,0 +1,30 @@
+[
+  {
+    "key": "004-apple-bear_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Clean up this existing transparent UR apple bear king cutout without redesign. Preserve full body exact pose face ears crown head leaves held apple both hands feet green scarf ornate red white fur cape cuffs belts jewels pouches. Remove ALL fringe contamination outside physical contour, especially red along fur arms feet and yellow near leaves and cuffs. No detached pixels, no matte halos. Empty areas alpha zero with clean antialiasing. Shrink complete intact figure to center at 60% canvas height, leaving 20% transparent margins every side. No effects shadows background text or clipping. Actual alpha PNG.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-pending161-generated.png",
+    "cardReference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-eeb3eaae-2b19-4be8-ab4d-df1d4a81124c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-pending167-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      102,
+      35,
+      1208,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "第161便を直接修正。顔・全身・冠・りんご・衣装装備保持。冠・腕・足の赤黄白残りと浮遊点が残存し保留。"
+  }
+]

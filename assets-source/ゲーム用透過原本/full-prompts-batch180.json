@@ -1,0 +1,31 @@
+[
+  {
+    "key": "009-take-cat_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\009-take-cat\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-34a88d44-0ad3-44af-974f-11eeec238954.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\009-take-cat_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\009-take-cat_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\009-take-cat_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      208,
+      886,
+      871
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of UR take cat card. Preserve exact grey tabby cat identity, golden eyes and fierce face, both ears, full body in original front-facing action pose, both clawed hands and feet, entire striped curved tail, full gold-wrapped wooden staff and large tied brown patched sack with all attached chains and purple gems, all leather armor, belts/pouches, gem clasp and torn purple gold-trim cape including every physical end. Remove ALL purple magic/electricity including plume above sack, floating rocks and shards, ground magic circle, white background, glow/shadows. True transparent alpha including cloak holes and gaps. Whole silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・棒・袋・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

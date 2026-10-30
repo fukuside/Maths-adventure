@@ -1,0 +1,31 @@
+[
+  {
+    "key": "003-pair-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\003-pair-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ba643c27-28ea-44af-9ea7-c82d1822dd34.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\003-pair-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\003-pair-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\003-pair-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      291,
+      886,
+      788
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of the provided SR pair bird card. Preserve BOTH physical birds as one paired monster: pink red gold bird on left and blue white bird on right, exact faces, beaks, full spread wings, all tail feathers, both feet and claws, gold chain linking their necks, large gold winged pink heart pendant and hanging pink gem. Remove nest, leaves, flying hearts, colored swirls, sparkles, all white background, all ground and shadows. True transparent alpha. Keep their original inward-looking front three-quarter paired pose; do not turn or redesign. Full two-bird silhouette centered within64 percent square, 18 percent transparent margins on all four sides. No text, frame, glows or floating debris. Transparent PNG.\n",
+    "sourceFacing": "mixed-inward",
+    "gameFacing": "mixed-inward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。両鳥の顔・翼・尾・足・鎖・宝石保持。巣と環境を除去。内向きのペアのまま。実機未確認。"
+  }
+]

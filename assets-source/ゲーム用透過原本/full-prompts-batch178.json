@@ -1,0 +1,31 @@
+[
+  {
+    "key": "008-minus-fox_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\008-minus-fox\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0b3d0d21-d579-4ed8-844b-2b554c677863.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\008-minus-fox_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\008-minus-fox_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\008-minus-fox_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      235,
+      886,
+      845
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied UR minus fox card. Preserve exact dark blue royal fox, purple mane, gold eyes, fierce face, forehead crown/gem, all four paws and claws, complete huge white-tipped tail, purple gold armor on shoulders and legs, all long purple gold flowing cloak/scarf ends, physical gold chains and attached gems. Preserve original front-left three-quarter pose. Remove all unconnected floating crystals, purple electricity, magic swirls, sparkles, floor circle, ground, white background, glow/shadows. Reconstruct tiny cloak tips clipped by card edge consistently. Real transparent alpha and clean edges. Entire silhouette centered within64% square,18% transparent padding. No redesign, text/frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・尾・四足・スカーフ・宝石保持。環境除去。左向き維持。実機未確認。"
+  }
+]

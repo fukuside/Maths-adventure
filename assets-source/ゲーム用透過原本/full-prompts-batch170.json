@@ -1,0 +1,31 @@
+[
+  {
+    "key": "003-pair-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\003-pair-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7d11093a-40ee-4cf9-99bb-c9116eae781a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\003-pair-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\003-pair-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\003-pair-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      232,
+      886,
+      847
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of provided UR pair bird card. Isolate BOTH physical royal birds as one paired monster. Preserve exact pink/gold left bird and blue/white right bird, faces, beaks, crowns, full spread wings and tails, four feet/claws, ornate gold wing armor with pink and blue heart gems, all linking gold chains, central two-color heart pendant with dangling gems. Remove the entire nest including its separate heart ornament, floating feathers/hearts, swirls, magic circles, sparkles, environment, ground, glow and shadows. Reconstruct any tiny wing tip clipped by card edge consistently. Both birds must be whole. Keep original inward-facing paired pose, not side-facing. True transparent alpha, no matte or rim colors. Center silhouette within64% square with18% transparent margins. No redesign, text or frame.\n",
+    "sourceFacing": "mixed-inward",
+    "gameFacing": "mixed-inward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。両鳥の顔・翼・尾・足・鎖・宝石保持。巣と環境を除去。内向きのペアのまま。実機未確認。"
+  }
+]

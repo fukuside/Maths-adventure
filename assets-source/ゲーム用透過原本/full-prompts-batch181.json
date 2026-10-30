@@ -1,0 +1,31 @@
+[
+  {
+    "key": "010-remove-mole_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\010-remove-mole\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1202f55a-d8eb-4fd1-9b24-36a719faa0f8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\010-remove-mole_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\010-remove-mole_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\010-remove-mole_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      873
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied SR remove mole card. Preserve exact dark brown mole, pink nose, black eyes, face, full body and all paws/claws, brown helmet with gold stripe and blue goggles, complete raised shovel blade shaft and D handle, purple scarf and all trailing ends, leather belts and side pouch with attached purple crystals. Preserve original front-facing three-quarter leaping pose. Remove ALL soil/rocks/crystals outside pouch, magical gold swirls, sparkles, white backdrop, ground and shadows. Reveal complete feet currently partially against ground consistently. True transparent alpha no matte halo. Full silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・シャベル・ヘルメット・爪・スカーフ・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

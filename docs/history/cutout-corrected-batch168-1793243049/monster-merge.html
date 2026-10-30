@@ -1,0 +1,317 @@
+<!doctype html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>モンスター合体パズル</title></head><body style="margin:0;background:#16383a"><div id="monster-merge" >
+<style>
+#monster-merge .monster{height:100%;width:100%;display:flex;flex-direction:column;align-items:center;justify-content:center;border-radius:12px;background:#42615c}#monster-merge .monster.sr{background:#70526c}#monster-merge .monster.ur{background:#98722e}#monster-merge .monster img{height:78%;width:100%;object-fit:contain}#monster-merge .travel-layer{position:absolute;inset:0;pointer-events:none;z-index:2}#monster-merge .traveler{position:absolute;box-sizing:border-box}#monster-merge .monster.pop{animation:puzzle-pop .36s}
+
+#monster-merge{padding:12px;font-family:system-ui}#monster-merge .game{max-width:460px;margin:auto;border-radius:24px;overflow:hidden;background:linear-gradient(150deg,#173b43,#304c38);color:#fff5d1;padding:18px;position:relative}#monster-merge header{padding-right:75px;min-height:50px}#monster-merge h2{font-size:22px;margin:0 0 12px}#monster-merge .tabs{display:flex;gap:8px;margin:12px 0}#monster-merge button{font-family:inherit;color:inherit;touch-action:manipulation}#monster-merge .tabs button,#monster-merge .actions button{background:#385d60;border:1px solid #8cad8c;border-radius:12px;padding:12px;min-height:44px}#monster-merge button[aria-pressed=true]{background:#ab7029}#monster-merge .stats{display:flex;justify-content:space-between;margin:14px 0;gap:8px;flex-wrap:wrap}#monster-merge .board{position:relative;display:grid;gap:7px;padding:9px;border-radius:18px;background:#102c33;touch-action:none;user-select:none}#monster-merge .tile{position:relative;aspect-ratio:1;border:0;border-radius:12px;background:#42615c;min-width:0;padding:0;overflow:hidden}#monster-merge .tile img{width:100%;height:80%;object-fit:contain;pointer-events:none}#monster-merge .tile small{display:block;font-size:12px}#monster-merge .tile.sr{background:#70526c}#monster-merge .tile.ur{background:#98722e}#monster-merge .tile.pop{animation:puzzle-pop .4s}#monster-merge .gem{font-size:30px;box-shadow:inset 0 0 16px #ffffff44;background:var(--gem)}#monster-merge .gem.chosen{outline:3px solid #fff7a2;outline-offset:-4px;transform:scale(.9)}#monster-merge .actions{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:14px}#monster-merge .message{min-height:48px;text-align:center;padding:14px 0 0}#monster-merge .enemy{display:flex;align-items:center;justify-content:center;gap:15px;min-height:80px}#monster-merge .enemy img{height:80px;width:90px;object-fit:contain}#monster-merge .bar{height:9px;background:#21322a;border-radius:8px;overflow:hidden;margin-top:8px}#monster-merge .bar span{display:block;height:100%;background:#f6bd5f;transition:width .3s}#monster-merge .cut{position:absolute;inset:130px 10px auto;background:linear-gradient(120deg,#584398,#168c91);border-radius:20px;text-align:center;padding:25px;z-index:3;box-shadow:0 0 40px #ffdc81;pointer-events:none}#monster-merge .cut img{width:140px;height:150px;object-fit:contain}#monster-merge .cut strong{display:block;font-size:25px}#monster-merge [hidden]{display:none!important}@keyframes puzzle-pop{50%{transform:scale(1.15);box-shadow:0 0 22px #ffe2a2}}@media(prefers-reduced-motion:reduce){#monster-merge *{animation:none!important;transition:none!important}}
+
+#monster-merge [data-heroes]{display:flex;gap:7px;margin:10px 0}#monster-merge [data-heroes] button{width:33.33%;min-width:0;background:#23464b;border:1px solid #7e9b85;border-radius:12px;padding:5px;color:#fff0cb}#monster-merge [data-heroes] button[aria-pressed=true]{background:#785327}#monster-merge [data-heroes] img{width:100%;height:65px;object-fit:contain}#monster-merge [data-heroes] small{display:block;font-size:12px}#monster-merge .hero-caption{font-size:12px;color:#eadba8}#monster-merge .game.skill-ready [data-skill]{box-shadow:0 0 18px #ffd76b}#monster-merge .game.skill-active{box-shadow:inset 0 0 35px #ffd57b,0 0 22px #ad7fff}#monster-merge .skill-pick{outline:3px solid #ffe49b;outline-offset:-3px}#monster-merge .cut{inset:190px 12px auto;padding:20px;background:linear-gradient(115deg,#25175f,#7445b7,#165b77);overflow:hidden}#monster-merge .cut img{position:relative;width:190px;height:200px;animation:hero-arrive .45s ease-out}#monster-merge .cut strong{position:relative;text-shadow:0 2px 5px #15102f}#monster-merge .rays{position:absolute;inset:-120px;background:repeating-conic-gradient(from 10deg,#ffe9a755 0deg 8deg,transparent 8deg 24deg);animation:ray-spin 1.4s linear}#monster-merge .spark{position:absolute;pointer-events:none;color:#ffe994;font-size:22px;z-index:5;animation:skill-spark .65s ease-out forwards}@keyframes hero-arrive{from{transform:translateX(-130px) scale(.7)}to{transform:translateX(0) scale(1)}}@keyframes ray-spin{to{transform:rotate(65deg)}}@keyframes skill-spark{to{transform:translate(var(--dx),var(--dy)) scale(.2);opacity:0}}
+#monster-merge .tile.lane-active{outline:3px solid #ffe28c;outline-offset:-3px;background:#6e8060}#monster-merge .tile{touch-action:none}
+
+#monster-merge .partner-picker{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0}
+#monster-merge select{background:#24474d;color:#fff5d1;padding:10px;border-radius:10px;border:1px solid #8cad8c;min-width:0;max-width:100%;font:inherit}
+#monster-merge .actions [data-skill],#monster-merge .actions [data-partner-skill]{flex:1 1 140px;position:relative;display:flex;flex-direction:column;align-items:stretch;gap:7px;overflow:visible;isolation:isolate}
+#monster-merge .actions button strong{font-size:16px}#monster-merge .actions button span,#monster-merge .actions button small{font-size:12px}
+#monster-merge .skill-meter{display:block;height:12px;border:0;background:#112f35;border-radius:10px;overflow:hidden}
+#monster-merge .skill-meter i{display:block;height:100%;border-radius:inherit;transition:width .45s ease,background .45s ease;box-shadow:0 0 12px currentColor}
+#monster-merge .actions button.charged{background:#745326;border-color:#ffe28c;animation:charge-glow 1.2s ease-in-out infinite}
+#monster-merge .actions button.charged::before{content:'';position:absolute;inset:-5px;border-radius:15px;box-shadow:0 0 18px #ffdf85;animation:charge-ring 1.5s ease-out infinite;pointer-events:none}
+#monster-merge .actions button:disabled{opacity:.65}#monster-merge .actions button.charged:disabled{opacity:.85}
+#monster-merge .cut.partner-cut{background:linear-gradient(115deg,#104758,#168a87,#553d98)}
+#monster-merge .cut.partner-cut img{animation:partner-arrive .45s ease-out}
+#monster-merge .cut[data-actor="1"] .rays{background:repeating-conic-gradient(#9affdb66 0deg 8deg,transparent 8deg 24deg)}
+#monster-merge .cut[data-actor="2"] .rays{background:repeating-conic-gradient(#ffb56f77 0deg 8deg,transparent 8deg 24deg)}
+@keyframes charge-glow{50%{box-shadow:0 0 26px #ffdb76,inset 0 0 12px #ffdf8544}}
+@keyframes charge-ring{to{transform:scale(1.08);opacity:0}}
+@keyframes partner-arrive{from{transform:translateX(130px) scale(.7)}to{transform:translateX(0) scale(1)}}
+@media(prefers-reduced-motion:reduce){#monster-merge *,#monster-merge *::before{animation:none!important;transition:none!important}}
+
+#monster-merge .result-shade{position:absolute;inset:0;z-index:10;background:#061820df;display:grid;align-items:center;padding:18px;backdrop-filter:blur(4px)}
+#monster-merge .result-popup{position:relative;overflow:hidden;text-align:center;background:linear-gradient(155deg,#23565d,#25354d);padding:22px 16px;border-radius:24px;box-shadow:0 0 30px #80e7ef55;animation:puzzle-pop .5s ease-out}
+#monster-merge .result-popup h2{margin:12px 0;font-size:25px}
+#monster-merge .result-art{position:relative;display:flex;justify-content:center;align-items:end;min-width:0;padding-top:20px}
+#monster-merge .result-art img{width:48%;height:155px;object-fit:contain;filter:drop-shadow(0 4px 12px #60d1ff66);animation:hero-arrive .5s ease-out}
+#monster-merge .result-art img+img{animation:partner-arrive .5s ease-out}
+#monster-merge .result-stars{position:absolute;inset:0 0 auto;color:#ffe18a;font-size:25px;letter-spacing:12px}
+#monster-merge .result-score{font-size:32px;font-weight:700;margin:16px 0;color:#fff1a6;overflow-wrap:anywhere}
+#monster-merge .record-result .result-popup{background:linear-gradient(145deg,#795423,#423568);box-shadow:0 0 35px #ffdf8a99}
+#monster-merge [data-record-message]{color:#ffe5a0;font-weight:700}
+#monster-merge .result-popup .actions button{flex:1;min-height:48px;background:#356f73}
+#monster-merge .record-result [data-result-retry]{background:#946923}
+@media(prefers-reduced-motion:reduce){#monster-merge .result-popup,#monster-merge .result-art img{animation:none}}
+#monster-merge button[data-audio]{appearance:none;-webkit-appearance:none;display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:10px 14px;border:1px solid #91b4b5;border-radius:12px;background:#254b53;color:#fff5d1;font:inherit;font-weight:600;white-space:nowrap;box-shadow:inset 0 1px 0 #ffffff16}
+#monster-merge button[data-audio][aria-pressed="true"]{background:#85602a;color:#fff5d1;border-color:#ffdb83}
+#monster-merge button[data-audio]:focus-visible{outline:3px solid #ffe08a;outline-offset:3px}
+
+#monster-merge .assist-status{margin:12px 0 0;text-align:center;color:#e4d5a2;font-size:12px}
+#monster-merge .impact{position:absolute;inset:0;z-index:6;pointer-events:none;display:grid;place-items:center;overflow:hidden;border-radius:18px;background:#131c3833}
+#monster-merge .impact span{z-index:2;font-weight:800;color:#fff6bd;text-shadow:0 2px 5px #261337;font-size:clamp(16px,4vw,24px);animation:impact-title .65s ease-out}
+#monster-merge .impact i{position:absolute;width:80%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#fff6b8 0,#ffc65a99 20%,#f5783944 45%,transparent 68%);animation:impact-wave .65s ease-out forwards}
+#monster-merge .impact b{position:absolute;width:130%;height:12%;background:linear-gradient(90deg,transparent,#fff1bd,transparent);transform:rotate(-32deg);animation:impact-slash .65s ease-out forwards}
+#monster-merge .impact-0{filter:hue-rotate(165deg)}#monster-merge .impact-1 b{transform:rotate(32deg)}#monster-merge .impact-3 i{background:conic-gradient(#ff649177,#ffdf6077,#75fbb677,#6dbeff77,#c881ff77,#ff649177)}
+@keyframes impact-wave{from{transform:scale(.15);opacity:.8}to{transform:scale(2);opacity:0}}
+@keyframes impact-slash{from{translate:-100% 0;opacity:0}40%{opacity:1}to{translate:100% 0;opacity:0}}
+@keyframes impact-title{from{transform:scale(.6)}35%{transform:scale(1.1)}to{transform:scale(1)}}
+@media(prefers-reduced-motion:reduce){#monster-merge .impact *{animation:none!important}}
+
+#monster-merge .traveler{filter:drop-shadow(-5px 0 5px #ffdc8755)}
+#monster-merge .chain-banner{position:absolute;inset:40% 0 auto;text-align:center;z-index:7;pointer-events:none;font-weight:800;font-size:clamp(23px,7vw,36px);color:#fff2a5;text-shadow:0 3px 0 #8e412d,0 0 18px #fbbf62;animation:impact-title .42s ease-out}
+@media(prefers-reduced-motion:reduce){#monster-merge .chain-banner{animation:none}}
+
+#monster-merge .tile.change-range{outline:3px solid #8ff4dc;outline-offset:-3px;box-shadow:inset 0 0 22px #67ebbb77}
+
+#monster-merge .record-ribbon{position:relative;z-index:2;margin:0 auto 8px;padding:12px 6px;background:linear-gradient(100deg,#b3681d,#ffe8a1,#bc7420);color:#49250c;font-weight:900;letter-spacing:2px;font-size:clamp(20px,6vw,30px);border-radius:10px;transform:rotate(-3deg);box-shadow:0 5px 0 #70431d;animation:impact-title .6s ease-out}
+#monster-merge .record-result .result-popup{background:radial-gradient(ellipse at 50% 38%,#a17d38,#514072 65%,#23374b);box-shadow:0 0 45px #ffdf8aaa,inset 0 0 35px #ffd16b33}
+#monster-merge .record-result .result-score{font-size:clamp(32px,9vw,44px);text-shadow:0 2px 0 #8c4e1a,0 0 18px #ffde79;animation:impact-title .8s ease-out}
+#monster-merge .record-result .result-art img{animation:record-hop 1s ease-out 2;filter:drop-shadow(0 0 18px #ffe18a99)}
+#monster-merge .record-result .result-art img+img{animation-delay:.15s}
+#monster-merge .record-party{position:absolute;inset:0;pointer-events:none;overflow:hidden;border-radius:24px}
+#monster-merge .record-party i{position:absolute;left:var(--x);top:-20px;width:8px;height:14px;background:var(--c);animation:record-confetti 2.8s var(--d) ease-in 2 both;transform:rotate(var(--r))}
+#monster-merge .result-popup>*:not(.record-party){position:relative;z-index:1}
+@keyframes record-confetti{from{translate:0 -20px;rotate:0deg;opacity:1}to{translate:18px 600px;rotate:540deg;opacity:0}}
+@keyframes record-hop{0%,100%{transform:translateY(0) rotate(0)}40%{transform:translateY(-15px) rotate(-4deg)}70%{transform:translateY(0) rotate(3deg)}}
+@media(prefers-reduced-motion:reduce){#monster-merge .record-party i{animation:none;top:var(--x);opacity:.5}#monster-merge .record-ribbon,#monster-merge .record-result .result-score,#monster-merge .record-result .result-art img{animation:none}}
+
+#monster-merge .skill-trial{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin:12px 0;padding:10px;background:#25474c;border-radius:12px}
+#monster-merge .skill-trial label{display:flex;align-items:center;gap:6px;flex-wrap:wrap;font-size:12px}
+#monster-merge .skill-trial select{padding:8px;max-width:100%}
+#monster-merge [data-trial-ready]{background:#685233;border:1px solid #d9bc70;border-radius:9px;min-height:44px;padding:8px 10px;color:#fff5d1}
+#monster-merge .impact-4{background:linear-gradient(90deg,#ff7623aa,#ffd66cdd,#ef4b2488)}
+#monster-merge .impact-4 b{height:85%;background:linear-gradient(90deg,transparent,#fff3a6,#ffae38,transparent);transform:rotate(0deg)}
+#monster-merge .impact-5{background:radial-gradient(circle,#72ebc866,transparent 70%)}
+
+#monster-merge{padding:6px}#monster-merge .game{max-width:520px;padding:14px}
+#monster-merge header{padding-right:80px;display:flex;gap:8px;flex-wrap:wrap;align-items:center}#monster-merge header h2{font-size:20px;margin:0}
+#monster-merge [data-selection] h3{margin:18px 0 8px}#monster-merge .selection-info{background:#254b50;border-radius:14px;padding:14px;margin:12px 0;color:#fff0c9}
+#monster-merge .selection-info p{font-size:14px;line-height:1.65;margin:8px 0}
+#monster-merge [data-heroes] img{height:105px}
+#monster-merge [data-game-start]{width:100%;min-height:52px;margin:10px 0;background:linear-gradient(#bf8d38,#886126);border:1px solid #ffe4a5;border-radius:14px;font-weight:700;font-size:18px;color:#fff9dc}
+#monster-merge [data-gameplay] .stats{margin:10px 0;font-size:13px}
+#monster-merge [data-gameplay] .board{gap:6px;padding:7px}
+#monster-merge [data-gameplay] .message{min-height:30px;padding-top:8px;font-size:14px}
+#monster-merge [data-gameplay] .actions{margin-top:8px}
+#monster-merge .cut{inset:125px 12px auto}
+#monster-merge [data-back-selection]{font-size:12px;padding:8px}
+
+#monster-merge .stage-progress{margin:8px 0 10px;font-size:12px;color:#e3dfb9}#monster-merge .stage-track{height:6px;border-radius:8px;background:#112e36;margin-top:6px;overflow:hidden}#monster-merge .stage-track i{display:block;height:100%;background:#ebc577;transition:width .4s}
+#monster-merge .game[data-area="1"]{background:linear-gradient(145deg,#55432d,#56344e)}#monster-merge .game[data-area="2"]{background:linear-gradient(145deg,#23516c,#334473)}#monster-merge .game[data-area="3"]{background:linear-gradient(145deg,#423264,#243f68)}
+#monster-merge .rewind-clock{position:absolute;width:140px;height:140px;border-radius:50%;background:#e9ddae;box-shadow:0 0 30px #80e7ef;transform:rotate(-20deg)}#monster-merge .rewind-clock em{position:absolute;left:50%;top:50%;width:4px;height:52px;background:#43324e;transform-origin:top;animation:clock-back 1s linear forwards}#monster-merge .rewind-clock::after{content:'';position:absolute;left:50%;top:50%;width:40px;height:4px;background:#43324e}#monster-merge .impact-0 span{align-self:end;margin-bottom:15px}
+#monster-merge .rainbow-arc{position:absolute;width:80%;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,transparent 44%,#bb8bff 45% 49%,#70baff 50% 54%,#8ae9aa 55% 59%,#ffe774 60% 64%,#ffb078 65% 69%,#ff7f98 70% 74%,transparent 75%);animation:rainbow-rise 1s ease-out forwards}#monster-merge .magic-glint{position:absolute;font-size:90px;color:#fff9cb;animation:impact-wave 1s ease-out forwards}
+#monster-merge .flame-wave{position:absolute;inset:0;display:flex;align-items:end;justify-content:space-around}#monster-merge .flame-wave em{width:14%;height:85%;background:linear-gradient(#fff4a4,#ffd74d,#ff6728,#db3422);border-radius:75% 15% 50% 50%;transform:rotate(-20deg);animation:flame-sweep .9s var(--delay) ease-out both;box-shadow:0 0 15px #ff9c35}#monster-merge .impact-4 span{font-size:16px}
+#monster-merge .whistle-note{position:absolute;color:#a9ffda;font-size:85px;animation:rainbow-rise 1s ease-out}#monster-merge .blast-orb{position:absolute;width:100px;height:100px;background:radial-gradient(circle,#fff7b5,#ffa936 45%,transparent 70%);animation:double-blast 1.05s ease-out forwards}
+@keyframes clock-back{to{transform:rotate(-1080deg)}}@keyframes rainbow-rise{from{transform:translateY(80px) scale(.4);opacity:0}to{transform:translateY(0) scale(1);opacity:1}}@keyframes flame-sweep{0%{translate:-100px 20px;scale:.2;opacity:0}35%{opacity:1;scale:1}100%{translate:100px -15px;scale:1.1;opacity:0}}@keyframes double-blast{0%,50%{transform:scale(.2);opacity:1}45%,100%{transform:scale(4);opacity:0}}
+@media(prefers-reduced-motion:reduce){#monster-merge .impact *,#monster-merge .stage-track i{animation:none!important;transition:none!important}}
+#monster-merge .lightning-bolt{position:absolute;inset:0 15%;background:linear-gradient(90deg,#70adff00,#e9fbff,#70adff00);clip-path:polygon(60% 0,15% 45%,50% 45%,25% 100%,90% 38%,57% 38%);filter:drop-shadow(0 0 16px #7de9ff);animation:lightning-strike .23s steps(2) 4}#monster-merge .impact-6{background:#6bbcff55;box-shadow:0 0 35px #8deaff}#monster-merge .impact-6>span{white-space:nowrap;position:absolute;left:50%;transform:translateX(-50%)}@keyframes lightning-strike{0%,100%{opacity:1}50%{opacity:.25}}@media(prefers-reduced-motion:reduce){#monster-merge .lightning-bolt{animation:none}}#monster-merge .stage-arrival{position:absolute;inset:0;z-index:25;display:grid;place-items:center;pointer-events:none;background:linear-gradient(160deg,#153d55ef,#235a54ee);overflow:hidden;animation:stage-arrive .32s ease-out}#monster-merge .stage-gate{width:85%;text-align:center;border-radius:50% 50% 18px 18px;background:linear-gradient(#e0f5ea,#f9edbf);padding:28px 12px;color:#224d4c;box-shadow:0 0 0 8px #80bab2,0 0 0 12px #c6ead9;animation:gate-rise .6s ease-out}#monster-merge .stage-gate strong{display:block;font-size:clamp(28px,8vw,48px);color:#285f62;text-shadow:0 2px #fff}#monster-merge .stage-gate small{display:block}#monster-merge .stage-flag{display:block;font-size:42px;margin:12px}#monster-merge .stage-travel{font-size:14px;letter-spacing:2px}#monster-merge .stage-gate p{font-size:15px;margin:12px 0}#monster-merge .stage-steps{display:flex;justify-content:center;gap:12px;margin:16px 0}#monster-merge .stage-steps i{width:12px;height:12px;background:#458e82;border-radius:50%;animation:step-light .7s ease both}#monster-merge .stage-steps i:nth-child(2){animation-delay:.12s}#monster-merge .stage-steps i:nth-child(3){animation-delay:.24s}#monster-merge .stage-steps i:nth-child(4){animation-delay:.36s}#monster-merge .stage-steps i:nth-child(5){animation-delay:.48s}@keyframes stage-arrive{from{opacity:0}to{opacity:1}}@keyframes gate-rise{from{transform:translateY(50px);opacity:0}to{transform:translateY(0);opacity:1}}@keyframes step-light{from{opacity:.15;transform:scale(.6)}to{opacity:1;transform:scale(1)}}@media(prefers-reduced-motion:reduce){#monster-merge .stage-arrival,#monster-merge .stage-gate,#monster-merge .stage-steps i{animation:none}}</style>
+<div class="game"><header><h2 data-title>モンスター合体パズル</h2><button type="button" data-audio class="cursor-interaction" aria-pressed="false">♪ BGM・効果音 OFF</button></header>
+
+<section data-selection><h3>主人公をえらぼう</h3><p class="hero-caption">持っているURカードから主人公を選ぼう。キャラクターごとのスキルで挑戦！</p><p class="hero-caption">← 横にスワイプして、モンスターを選べるよ →</p><div data-heroes aria-label="獲得したURモンスター。横スクロールで選択"></div><div class="selection-info"><strong data-selected-name></strong><p data-skill-description></p><p>触った行・列をスワイプ。同じ種類・同じレア度を合わせると進化！ 続けて合体すると連鎖になるよ。</p><p>スキルにより5〜10合体で満タン。お助けは20合体で登場、その後は30合体ごと。パートナーは自動で決まるよ。</p></div><button type="button" data-game-start class="cursor-interaction">ゲームスタート</button></section><section data-gameplay hidden><div class="stats"><span data-stage>ステージ 1</span><span data-score>得点 0</span><span data-best>ハイスコア 0</span></div>
+<div class="enemy" hidden><img data-enemy alt="敵モンスター"><div><span data-hp></span><div class="bar"><span data-hpbar></span></div><small data-turn></small></div></div>
+<div class="stage-progress"><span data-next-stage></span><div class="stage-track"><i data-stage-fill></i></div></div><div class="board" style="grid-template-columns:repeat(4,1fr)" role="group" aria-label="パズル盤面"></div>
+<p class="assist-status" data-assist></p><div class="message" role="status" aria-live="polite"></div>
+
+<div class="actions"><button type="button" data-skill class="cursor-interaction"></button><button type="button" data-restart class="cursor-interaction">もう一度</button><button type="button" data-back-selection class="cursor-interaction">モンスター選択</button></div><div class="cut" hidden></div><div class="result-shade" hidden><section class="result-popup" role="dialog" aria-modal="true" aria-labelledby="merge-result-title"><div class="record-party" data-record-party aria-hidden="true" hidden></div><div class="record-ribbon" data-record-ribbon hidden>NEW RECORD!</div><div data-result-art class="result-art"></div><h2 id="merge-result-title" data-result-title></h2><p data-record-message role="status"></p><p class="result-score" data-result-score></p><p data-result-best></p><div class="actions"><button type="button" class="cursor-interaction" data-result-retry>リトライ</button><button type="button" class="cursor-interaction" data-result-end>終わる</button></div></section></div>
+</section></div>
+<script>
+
+(()=>{
+const root=document.getElementById('monster-merge'),q=s=>root.querySelector(s),board=q('.board'),msg=q('.message');
+const player=new URLSearchParams(location.search).get('player')||'guest',saveKey='maths-adventure.merge-progress.v1:'+player,affinityKey='maths-adventure.merge-skills.v1:'+player;
+let owned=[];try{const data=JSON.parse(decodeURIComponent(location.hash.slice(1)));if(Array.isArray(data))owned=data.filter(x=>x&&x.rarity==='UR'&&typeof x.key==='string'&&typeof x.image==='string'&&/^\/(?!\/)/.test(x.image)).sort((a,b)=>a.key.localeCompare(b.key));}catch(e){}
+if(!owned.length){root.innerHTML='<p style="padding:30px">URカードを獲得してから遊ぼう！</p>';return;}
+const heroArt=i=>owned[i]?.image||owned[0].image,heroName=i=>owned[i]?.name||'URモンスター';
+const nextPartner=()=>owned.length>1?(hero+1+Math.floor(Math.random()*(owned.length-1)))%owned.length:hero;
+
+const art=["/reward-games/sprites/001-plus-rabbit_N.webp", "/pictures/monsters/001-plus-rabbit/sr.webp", "/pictures/monsters/001-plus-rabbit/ur.webp", "/reward-games/sprites/002-sum-slime_N.webp", "/pictures/monsters/002-sum-slime/sr.webp", "/pictures/monsters/002-sum-slime/ur.webp", "/reward-games/sprites/004-apple-bear_N.webp", "/pictures/monsters/004-apple-bear/sr.webp", "/pictures/monsters/004-apple-bear/ur.webp", "/reward-games/sprites/003-pair-bird_N.webp", "/pictures/monsters/003-pair-bird/sr.webp", "/pictures/monsters/003-pair-bird/ur.webp", "/reward-games/sprites/005-carry-fox_N.webp", "/pictures/monsters/005-carry-fox/sr.webp", "/pictures/monsters/005-carry-fox/ur.webp", "/reward-games/sprites/010-remove-mole_N.webp", "/pictures/monsters/010-remove-mole/sr.webp", "/pictures/monsters/010-remove-mole/ur.webp"];
+
+
+const names=['うさぎ','スライム','くま','ことり','きつね','モグラ'],ranks=['N','SR','UR'];
+let cells=[],score=0,charge=0,busy=false,sound=false,ac,undo=null,origin=null,hero=0,targetMode=null,picks=[],partner=1,partnerCharge=0,skillOwner=0,gameOver=false,ended=false,best=0,newRecord=false,mergeCount=0,assistUsed=0,size=4,stage=1,peakScore=0,bestStage=1,combo=0;const skillCosts=[7,5,5,6,10,8,10];function skillNeed(){return skillCosts[heroSkills[hero]]??10;}const skillNames=['まきもどし','チェンジ','おでかけ','虹のへんしん','ファイヤーライン','仲間集め','雷縦ライン'];let affinities={};try{affinities=JSON.parse(localStorage.getItem(affinityKey)||'{}')||{};}catch(e){}for(const c of owned)if(!Number.isInteger(affinities[c.key])||affinities[c.key]<0||affinities[c.key]>6)affinities[c.key]=Math.floor(Math.random()*7);try{localStorage.setItem(affinityKey,JSON.stringify(affinities));}catch(e){}let heroSkills=owned.map(c=>affinities[c.key]);
+const skillDescriptions=['1手前の盤面と得点へ戻る。','選んだモンスターと周囲1マスの相手を交換。ななめもOK。','選んだNモンスターを1体送り出して、空きを作る。','選んだNを、別の種類のNに変身させる。','タップした横1列を、炎でまとめて消し去る。','タップした種類を近くへ集合。レア度はそのまま、連鎖を狙おう！','タップした縦1列を、雷でまとめて消し去る。'];
+function showGameplay(){q('[data-selection]').hidden=true;q('[data-gameplay]').hidden=false;}
+function showSelection(){q('[data-selection]').hidden=false;q('[data-gameplay]').hidden=true;drawHeroes();}
+q('[data-game-start]').onclick=()=>{if(busy)return;if(gameOver){q('[data-restart]').disabled=false;start();}partner=nextPartner();showGameplay();draw();save();};
+q('[data-back-selection]').onclick=()=>{if(!busy)showSelection();};
+const species=c=>Math.floor((c-1)/3),rank=c=>(c-1)%3;
+function tone(){soundEffect('pop');}
+function save(){try{localStorage.setItem(saveKey,JSON.stringify({version:6,cells,score,charge,hero,heroKey:owned[hero].key,partner,undo,best,gameOver,ended,newRecord,mergeCount,assistUsed,size,stage,peakScore,bestStage,combo}));}catch(e){}}
+function piece(c){const p=document.createElement('div');p.className='monster '+['n','sr','ur'][rank(c)];p.innerHTML=`<img src="${art[c-1]}" alt="${names[species(c)]} ${ranks[rank(c)]}"><small>${ranks[rank(c)]}</small>`;return p;}
+function draw(pop=[]){let badge=q('[data-combo]');if(!badge){badge=document.createElement('span');badge.dataset.combo='';badge.setAttribute('aria-live','polite');q('[data-score]').after(badge);}badge.textContent=combo>=2?'🔥 '+combo+'連鎖':combo===1?'✨ 連鎖スタート':'';board.style.gridTemplateColumns='repeat('+size+',1fr)';board.innerHTML='';updateStageUI();for(let i=0;i<size*size;i++){const t=document.createElement('div');t.className='tile'+(picks.includes(i)?' skill-pick':'')+(targetMode===1&&picks.length===1&&canChangePair(picks[0],i)?' change-range':'');t.onclick=()=>chooseTarget(i);t.setAttribute('aria-label',`${Math.floor(i/size)+1}行${i%size+1}列 ${cells[i]?names[species(cells[i])]+' '+ranks[rank(cells[i])]:'空き'}`);if(cells[i]){let p=piece(cells[i]);if(pop.includes(i))p.classList.add('pop');t.append(p);}board.append(t);}q('[data-score]').textContent='得点 '+score;q('[data-best]').textContent='ハイスコア '+best;drawSkillButtons();}
+function drawSkillButtons(){q('[data-assist]').textContent='お助け爆発まで '+Math.max(0,nextAssist()-mergeCount)+'合体';
+ [0].forEach(owner=>{const who=owner?partner:hero,k=heroSkills[who],value=owner?partnerCharge:charge,button=q(owner?'[data-partner-skill]':'[data-skill]'),ready=value>=skillNeed()&&(k!==0||!!undo);
+ button.innerHTML=`<span>${owner?'パートナー':'主人公'} · ${heroName(who)}</span><strong>${skillNames[k]}</strong><span class="skill-meter" role="progressbar" aria-label="${heroName(who)}のスキル" aria-valuemin="0" aria-valuemax="${skillNeed()}" aria-valuenow="${value}"><i style="width:${value/skillNeed()*100}%;background:hsl(${195-value/skillNeed()*132} 90% 62%)"></i></span><small>${ready?'✦ タップで発動！':value+'/'+skillNeed()}</small>`;
+ button.disabled=busy||gameOver||value<skillNeed()||(k===0&&!undo);
+ button.classList.toggle('charged',ready);button.setAttribute('aria-pressed',String(targetMode!==null&&skillOwner===owner));
+ });
+}
+
+function spawn(){const e=cells.map((x,i)=>x?null:i).filter(x=>x!==null);if(e.length)cells[e[Math.floor(Math.random()*e.length)]]=1+3*Math.floor(Math.random()*speciesCount())+(Math.random()<(stage===1?0:stage===2?.08:.16)?1:0);}
+function start(){combo=0;size=4;stage=1;peakScore=0;mergeCount=0;assistUsed=0;gameOver=false;ended=false;newRecord=false;q('.result-shade').hidden=true;targetMode=null;picks=[];cells=[1,0,1,4,4,0,0,7,7,0,0,0,0,0,0,0];score=0;charge=0;partnerCharge=0;undo=null;busy=false;draw();msg.textContent='横は触った行だけ・縦は触った列だけ動くよ';}
+function planStep(old,dir,cell=0){let next=[...old],moves=[],merged=[],gain=0;const lane=(dir==='left'||dir==='right')?Math.floor(cell/size):cell%size;for(let a=lane;a<=lane;a++){const ix=Array.from({length:size},(_,b)=>dir==='left'?a*size+b:dir==='right'?a*size+size-1-b:dir==='up'?b*size+a:(size-1-b)*size+a);ix.forEach(i=>next[i]=0);let out=0;const arr=ix.filter(i=>old[i]);for(let k=0;k<arr.length;k++){const from=arr[k],c=old[from],to=ix[out];moves.push({from,to,c});if(k+1<arr.length&&old[arr[k+1]]===c){moves.push({from:arr[k+1],to,c});const r=rank(c);next[to]=r===2?0:c+1;gain+=r===2?1000:(r+1)*100;merged.push(to);k++;out++;}else{next[to]=c;out++;}}}return{next,moves,merged,gain};}
+function plan(old,dir,cell=0){
+ let current=[...old],rounds=[],merged=[],gain=0,depth=0;
+ for(let step=0;step<16;step++){
+  const p=planStep(current,dir,cell);if(p.next.every((c,i)=>c===current[i]))break;
+  if(p.merged.length)depth++;
+  const multiplier=depth>=3?2:depth===2?1.5:1;
+  p.gain=Math.round(p.gain*multiplier);p.depth=depth;p.multiplier=multiplier;
+  rounds.push(p);merged.push(...p.merged);gain+=p.gain;current=p.next;
+  if(!p.merged.length)break;
+ }
+ return {next:current,moves:rounds[0]?.moves??[],merged,gain,rounds,depth};
+}
+async function travel(p){
+ const tiles=[...board.children],rect=board.getBoundingClientRect(),layer=document.createElement('div');layer.className='travel-layer';board.append(layer);
+ p.moves.forEach(m=>{if(tiles[m.from].firstChild)tiles[m.from].firstChild.style.visibility='hidden';});
+ const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+ await Promise.all(p.moves.map(m=>{const a=tiles[m.from].getBoundingClientRect(),b=tiles[m.to].getBoundingClientRect(),ghost=piece(m.c);ghost.classList.add('traveler');Object.assign(ghost.style,{left:a.left-rect.left+'px',top:a.top-rect.top+'px',width:a.width+'px',height:a.height+'px'});layer.append(ghost);return ghost.animate?.([{transform:'translate(0,0)'},{transform:`translate(${b.left-a.left}px,${b.top-a.top}px)`}],{duration:reduced?0:360,easing:'cubic-bezier(.22,.7,.25,1)',fill:'forwards'}).finished.catch(()=>{})??Promise.resolve();}));
+}
+function chainSound(depth){
+ if(!sound)return;try{const ctx=audioContext(),now=ctx.currentTime;[0,4,7].forEach((n,i)=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type='triangle';o.frequency.value=440*Math.pow(2,(n+Math.min(depth-1,10)*2)/12);g.gain.setValueAtTime(.001,now+i*.06);g.gain.linearRampToValueAtTime(.07,now+i*.06+.01);g.gain.exponentialRampToValueAtTime(.001,now+i*.06+.28);o.connect(g).connect(ctx.destination);o.start(now+i*.06);o.stop(now+i*.06+.3);});}catch(e){}
+}
+async function slide(dir,cell=0){
+ if(busy||gameOver||targetMode)return;const old=[...cells],p=plan(old,dir,cell);
+ if(!p.rounds.length){msg.textContent='その方向には動けないよ';checkGameOver();return;}
+ const previousCombo=combo;const mergedThisSwipe=p.rounds.some(r=>r.merged.length);combo=mergedThisSwipe?combo+1:0;busy=true;undo={cells:old,score};drawSkillButtons();soundEffect('slide');
+ const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+ for(const round of p.rounds){
+  await travel(round);cells=[...round.next];score+=round.gain;charge=Math.min(skillNeed(),charge+round.merged.length);mergeCount+=round.merged.length;draw(round.merged);
+  if(round.merged.length){const depth=combo;chainSound(depth);sparkle(round.merged);msg.textContent=depth>=2?depth+'連鎖！ ＋'+round.gain:'合体！ ポンッ！ ＋'+round.gain;
+   const banner=document.createElement('span');banner.className='chain-banner';banner.textContent=combo>=2?combo+'連鎖！':'合体！';board.append(banner);await new Promise(r=>setTimeout(r,reduced?0:420));banner.remove();
+  }
+ }
+ if(!mergedThisSwipe&&previousCombo>0)msg.textContent='連鎖フィニッシュ！ また合体をつなごう';if(charge>=skillNeed())soundEffect('ready');await advanceStage();spawn();await maybeAssist();busy=false;draw();checkGameOver();save();
+}
+
+q('[data-restart]').onclick=()=>{if(!busy){start();save();}};function armSkill(owner){if(owner!==0)return;if(busy||gameOver||(owner?partnerCharge:charge)<skillNeed())return;if(targetMode!==null&&skillOwner===owner){targetMode=null;picks=[];draw();msg.textContent='スワイプでつづけよう';return;}skillOwner=owner;const k=heroSkills[owner?partner:hero];targetMode=null;picks=[];if(k===0){if(undo)useSkill(k);}else{targetMode=k;msg.textContent=k===1?'交換するモンスターをタップ（周囲1マス）':k===2?'おでかけするNをタップ':k===3?'へんしんするNをタップ':k===4?'炎で消す横ラインをタップ':k===6?'雷で消す縦ラインをタップ':'集めたい種類のモンスターをタップ';draw();}}
+q('[data-skill]').onclick=()=>armSkill(0);q('[data-audio]').onclick=()=>{sound=!sound;q('[data-audio]').textContent=sound?'♪ BGM・効果音 ON':'♪ BGM・効果音 OFF';q('[data-audio]').setAttribute('aria-pressed',String(sound));if(sound){startMusic();tone();}else{stopMusic();ac?.suspend().catch(()=>{});}};
+function markLane(cell,axis){[...board.children].slice(0,size*size).forEach((t,i)=>t.classList.toggle('lane-active',axis==='x'?Math.floor(i/size)===Math.floor(cell/size):i%size===cell%size));}
+function clearLane(){[...board.children].slice(0,size*size).forEach(t=>t.classList.remove('lane-active'));}
+board.onpointerdown=e=>{if(busy||gameOver||targetMode||e.isPrimary===false)return;const tile=e.target.closest('.tile');const cell=[...board.children].indexOf(tile);if(cell<0||cell>=size*size)return;origin={x:e.clientX,y:e.clientY,cell,axis:null};board.setPointerCapture?.(e.pointerId);};
+board.onpointermove=e=>{if(!origin||busy)return;const dx=e.clientX-origin.x,dy=e.clientY-origin.y;if(!origin.axis&&Math.max(Math.abs(dx),Math.abs(dy))>10)origin.axis=Math.abs(dx)>Math.abs(dy)?'x':'y';if(origin.axis)markLane(origin.cell,origin.axis);};
+board.onpointerup=e=>{if(!origin)return;const o=origin;origin=null;const dx=e.clientX-o.x,dy=e.clientY-o.y;clearLane();if(Math.max(Math.abs(dx),Math.abs(dy))<=24)return;const axis=o.axis||(Math.abs(dx)>Math.abs(dy)?'x':'y');if(Math.abs(axis==='x'?dx:dy)<=24)return;slide(axis==='x'?(dx>0?'right':'left'):(dy>0?'down':'up'),o.cell);};board.onpointercancel=()=>{origin=null;clearLane();};board.onlostpointercapture=()=>{if(origin){origin=null;clearLane();}};
+
+let musicBuffer=null,musicSource=null,musicGain=null,musicDecode=null,musicToken=0;
+function audioContext(){ac??=new(window.AudioContext||window.webkitAudioContext)();ac.resume().catch(()=>{});return ac;}
+function stopMusic(){musicToken++;try{musicSource?.stop();}catch(e){}musicSource?.disconnect();musicSource=null;}
+async function startMusic(){if(!sound||gameOver||document.hidden||musicSource)return;const token=++musicToken;try{const ctx=audioContext();if(!musicBuffer){if(!musicDecode){musicDecode=fetch('/reward-games/audio/puzzle-continuous-full.mp3').then(r=>{if(!r.ok)throw Error('BGM');return r.arrayBuffer()}).then(b=>ctx.decodeAudioData(b));}musicBuffer=await musicDecode;}if(!sound||document.hidden||token!==musicToken)return;musicGain??=ctx.createGain();musicGain.disconnect();musicGain.gain.setValueAtTime(.06,ctx.currentTime);musicGain.connect(ctx.destination);musicSource=ctx.createBufferSource();musicSource.buffer=musicBuffer;musicSource.loop=true;musicSource.connect(musicGain);musicSource.start();}catch(e){musicDecode=null;msg.textContent='BGMを再生できませんでした。おとをONにし直してね。';}}
+function soundEffect(kind){if(!sound)return;try{const ctx=audioContext(),now=ctx.currentTime;const note=(hz,end,delay,duration,volume,type='sine')=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type=type;o.frequency.setValueAtTime(hz,now+delay);o.frequency.exponentialRampToValueAtTime(Math.max(20,end),now+delay+duration);g.gain.setValueAtTime(.001,now+delay);g.gain.linearRampToValueAtTime(volume,now+delay+.008);g.gain.exponentialRampToValueAtTime(.001,now+delay+duration);o.connect(g).connect(ctx.destination);o.start(now+delay);o.stop(now+delay+duration+.02);};
+const noise=(delay,duration,volume,cutoff)=>{const buffer=ctx.createBuffer(1,Math.ceil(ctx.sampleRate*duration),ctx.sampleRate),a=buffer.getChannelData(0);for(let i=0;i<a.length;i++)a[i]=(Math.random()*2-1)*(1-i/a.length);const source=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),g=ctx.createGain();source.buffer=buffer;filter.type='lowpass';filter.frequency.setValueAtTime(cutoff,now+delay);filter.frequency.exponentialRampToValueAtTime(90,now+delay+duration);g.gain.setValueAtTime(volume,now+delay);g.gain.exponentialRampToValueAtTime(.001,now+delay+duration);source.connect(filter).connect(g).connect(ctx.destination);source.start(now+delay);source.stop(now+delay+duration);};
+if(kind==='slide'){noise(0,.28,.07,2800);note(260,520,0,.16,.025,'triangle');}
+else if(kind==='destroy'){note(150,40,0,.23,.12);note(110,35,.12,.27,.09);noise(0,.28,.10,1900);noise(.12,.25,.07,1200);}
+else if(kind==='skill'){[220,330,440,660,880].forEach((f,i)=>note(f,f*1.05,i*.065,.3,.05,'triangle'));noise(0,.45,.055,3500);musicGain?.gain.setValueAtTime(.06,now);}
+else if(kind==='ready'){[660,880,1320].forEach((f,i)=>note(f,f,i*.09,.25,.045));}
+else{note(750,420,0,.22,.10,'triangle');note(1120,850,.06,.35,.045);}
+}catch(e){}}
+document.addEventListener('visibilitychange',()=>{if(document.hidden){stopMusic();ac?.suspend().catch(()=>{});}else if(sound)startMusic();});window.addEventListener('pagehide',stopMusic);
+
+function sparkle(indices){const box=board.getBoundingClientRect();indices.forEach(i=>{const t=board.children[i];if(!t)return;const r=t.getBoundingClientRect();for(let a=0;a<10;a++){const dot=document.createElement('span');dot.className='spark';dot.textContent=a%2?'✦':'✧';dot.style.left=(r.left-box.left+r.width/2)+'px';dot.style.top=(r.top-box.top+r.height/2)+'px';dot.style.setProperty('--dx',(Math.cos(a*Math.PI/5)*65)+'px');dot.style.setProperty('--dy',(Math.sin(a*Math.PI/5)*65)+'px');board.append(dot);setTimeout(()=>dot.remove(),700);}});}
+function drawHeroes(){const list=q('[data-heroes]'),scrollLeft=list.scrollLeft;list.innerHTML='';for(let i=0;i<owned.length;i++){const b=document.createElement('button');b.type='button';b.className='cursor-interaction';b.innerHTML=`<img src="${heroArt(i)}" alt="${heroName(i)} UR"><small>${skillNames[heroSkills[i]]}</small>`;b.setAttribute('aria-pressed',String(i===hero));b.onclick=()=>{if(busy||gameOver)return;const previous=hero;hero=i;partner=nextPartner();targetMode=null;picks=[];drawHeroes();draw();save();};list.append(b);}list.scrollLeft=scrollLeft;q('[data-selected-name]').textContent=heroName(hero)+' UR · '+skillNames[heroSkills[hero]];q('[data-skill-description]').textContent=skillDescriptions[heroSkills[hero]]+'（'+skillNeed()+'合体で満タン）';}
+
+function chooseTarget(i){
+ if(targetMode===null||busy||gameOver)return;
+ if(targetMode===1){
+  if(!picks.length){if(!cells[i])return;picks=[i];msg.textContent='光っている周囲1マスの相手をえらんでね';draw();return;}
+  if(i===picks[0]){picks=[];draw();return;}
+  if(!canChangePair(picks[0],i)){msg.textContent='交換できるのは周囲1マス（ななめもOK）だよ';return;}
+  picks.push(i);draw();useSkill(1);return;
+ }
+ if(targetMode===4||targetMode===6){picks=[i];draw();useSkill(targetMode);return;}if(targetMode===5){if(!cells[i])return;picks=[i];draw();useSkill(5);return;}if(!cells[i])return;if(rank(cells[i])!==0){msg.textContent='Nモンスターをえらんでね';return;}picks=[i];draw();useSkill(targetMode);
+}
+
+async function useSkill(k){if(k===1&&(picks.length!==2||!canChangePair(picks[0],picks[1])))return;if(busy||gameOver||(skillOwner?partnerCharge:charge)<skillNeed())return;busy=true;const actor=hero;const targets=[...picks];targetMode=null;draw();const scene=root.querySelector('.game'),cut=q('.cut');cut.innerHTML=`<div class="rays"></div><img src="${heroArt(actor)}" alt="${heroName(actor)} UR"><strong>${skillNames[k]}！</strong>`;cut.dataset.actor=String(actor);cut.classList.toggle('partner-cut',skillOwner===1);cut.hidden=false;scene.classList.add('skill-active');soundEffect('skill');await new Promise(r=>setTimeout(r,1200));cut.hidden=true;await impact(k,targets);if(k===0){cells=[...undo.cells];score=undo.score;}if(k===1){[cells[targets[0]],cells[targets[1]]]=[cells[targets[1]],cells[targets[0]]];}if(k===2){cells[targets[0]]=0;}if(k===3){const old=species(cells[targets[0]]),other=Array.from({length:speciesCount()},(_,i)=>i).filter(x=>x!==old);cells[targets[0]]=other[Math.floor(Math.random()*other.length)]*3+1;}if(k===4){const row=Math.floor(targets[0]/size);for(let j=0;j<size;j++)cells[row*size+j]=0;}if(k===6){const col=targets[0]%size;for(let j=0;j<size;j++)cells[j*size+col]=0;}if(k===5){const g=gatherPlan(cells,targets[0]);await travel(g);cells=g.next;}charge=0;undo=null;picks=[];draw(targets);sparkle(k===0?cells.map((c,i)=>c?i:-1).filter(i=>i>=0).slice(0,4):targets);if(k===1||k===2)soundEffect('pop');if(musicGain&&ac)musicGain.gain.setValueAtTime(.06,ac.currentTime);msg.textContent=['時間がもどった！','くるっとチェンジ！','いってらっしゃい！','虹のへんしん！','ファイヤーライン！ 横一列消去！','仲間が集まった！ スワイプで連鎖を狙おう！','雷縦ライン！ 縦一列消去！'][k];await new Promise(r=>setTimeout(r,600));scene.classList.remove('skill-active');busy=false;draw();checkGameOver();save();}
+
+function stageThreshold(n){if(n<=5)return [0,0,3000,7000,12000,18000][n];let t=18000;for(let i=5;i<n;i++)t+=6000+(i-5)*2000;return t;}
+function stageFor(points){let n=1;while(n<99&&points>=stageThreshold(n+1))n++;return n;}
+function speciesCount(){return stage>=11?6:stage>=8?5:stage>=5?4:3;}
+function expandBoard(){if(size===5)return;const next=Array(25).fill(0);cells.forEach((c,i)=>next[Math.floor(i/4)*5+i%4]=c);cells=next;size=5;undo=null;}
+function updateStageUI(){const areas=['森の入口','黄金の遺跡','氷の神殿','天空の城'],area=Math.min(3,Math.floor((stage-1)/3));q('[data-stage]').textContent='ステージ '+stage+' · '+areas[area];q('[data-next-stage]').textContent='次まで '+Math.max(0,stageThreshold(stage+1)-peakScore).toLocaleString()+'点 · '+size+'×'+size+' · '+speciesCount()+'種類';const low=stageThreshold(stage),high=stageThreshold(stage+1);q('[data-stage-fill]').style.width=Math.min(100,(peakScore-low)/(high-low)*100)+'%';root.querySelector('.game').dataset.area=String(area);}
+function stageChime(){if(!sound)return;try{const ctx=audioContext(),t=ctx.currentTime;[523,659,784,1047].forEach((f,i)=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.value=f;g.gain.setValueAtTime(.001,t+i*.13);g.gain.linearRampToValueAtTime(.055,t+i*.13+.015);g.gain.exponentialRampToValueAtTime(.001,t+i*.13+.5);o.connect(g).connect(ctx.destination);o.start(t+i*.13);o.stop(t+i*.13+.52);});}catch(e){}}
+async function advanceStage(){peakScore=Math.max(peakScore,score);const next=stageFor(peakScore);if(next<=stage)return;const old=stage,oldKinds=speciesCount();stage=next;bestStage=Math.max(bestStage,stage);if(stage>=4)expandBoard();draw();const scene=root.querySelector('.game'),arrival=document.createElement('div');arrival.className='stage-arrival';arrival.setAttribute('role','status');arrival.setAttribute('aria-live','polite');arrival.innerHTML='<div class="stage-gate"><span class="stage-travel">STAGE '+old+' → '+stage+'</span><span class="stage-flag" aria-hidden="true">🚩</span><small>新しい冒険へ</small><strong>STAGE '+stage+'</strong><div class="stage-steps" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><p>'+(old<4&&stage>=4?'盤面が5×5に広がった！':oldKinds<speciesCount()?'新しいモンスターが登場！':'次のステージへ進んだよ！')+'</p></div>';scene.append(arrival);stageChime();const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;await new Promise(r=>setTimeout(r,reduced?700:1600));arrival.remove();}
+function skillAudio(kind){if(!sound)return;try{const ctx=audioContext(),now=ctx.currentTime;
+ const note=(a,b,t,d,v=.06,type='sine')=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type=type;o.frequency.setValueAtTime(a,now+t);o.frequency.exponentialRampToValueAtTime(b,now+t+d);g.gain.setValueAtTime(.001,now+t);g.gain.linearRampToValueAtTime(v,now+t+.03);g.gain.exponentialRampToValueAtTime(.001,now+t+d);o.connect(g).connect(ctx.destination);o.start(now+t);o.stop(now+t+d+.02);};
+ const rumble=(t,d,v,cut)=>{const buffer=ctx.createBuffer(1,Math.ceil(ctx.sampleRate*d),ctx.sampleRate),data=buffer.getChannelData(0);for(let i=0;i<data.length;i++)data[i]=Math.random()*2-1;const source=ctx.createBufferSource(),filter=ctx.createBiquadFilter(),g=ctx.createGain();source.buffer=buffer;filter.type='lowpass';filter.frequency.value=cut;g.gain.setValueAtTime(.001,now+t);g.gain.linearRampToValueAtTime(v,now+t+.08);g.gain.exponentialRampToValueAtTime(.001,now+t+d);source.connect(filter).connect(g).connect(ctx.destination);source.start(now+t);source.stop(now+t+d);};
+ if(kind===5){note(1700,1850,0,.45,.055);note(1850,1700,.5,.35,.04);}
+ else if(kind===6){rumble(0,.35,.15,6000);note(1500,70,0,.25,.09,'sawtooth');rumble(.25,.6,.10,2200);note(100,35,.25,.6,.08,'triangle');}
+ else if(kind===4){rumble(0,1.05,.22,1300);note(100,55,0,.9,.065,'triangle');}
+ else if(kind===0){[1000,800,650,500,380].forEach((f,i)=>note(f,f*.65,i*.13,.22,.045,'triangle'));}
+ else if(kind===3){[880,1175,1480,1760].forEach((f,i)=>note(f,f*1.01,i*.11,.55,.045));}
+ else if(kind===2){note(130,35,0,.4,.13);rumble(0,.4,.16,1800);note(110,30,.32,.5,.12);rumble(.32,.5,.13,1300);}
+ else{note(420,1000,0,.25,.05,'triangle');note(1000,420,.28,.25,.05,'triangle');}
+ }catch(e){}}
+
+function nextAssist(){return 20+assistUsed*30;}
+async function impact(kind,targets){
+ const fx=document.createElement('div');fx.className='impact impact-'+kind;
+ fx.innerHTML=`<span>${['時空ブレイク！','クロスインパクト！','ドカーン！','レインボーバースト！','ファイヤーライン！','みんな、集まれ！','サンダーブレイク！'][kind]}</span><i></i><b></b>`;
+ fx.insertAdjacentHTML?.('beforeend',kind===0?'<div class="rewind-clock"><em></em></div>':kind===3?'<div class="rainbow-arc"></div><div class="magic-glint">✦</div>':kind===4?'<div class="flame-wave">'+Array.from({length:12},(_,i)=>'<em style="--delay:'+i*.025+'s"></em>').join('')+'</div>':kind===5?'<div class="whistle-note">♪</div>':kind===6?'<div class="lightning-bolt"></div>':'<div class="blast-orb"></div>');
+ if(kind===4){const row=Math.floor(targets[0]/size),t=board.children[row*size],r=t.getBoundingClientRect(),b=board.getBoundingClientRect();fx.style.top=(r.top-b.top)+'px';fx.style.height=r.height+'px';fx.style.bottom='auto';}if(kind===6){const t=board.children[targets[0]%size],r=t.getBoundingClientRect(),b=board.getBoundingClientRect();fx.style.left=(r.left-b.left)+'px';fx.style.width=r.width+'px';fx.style.right='auto';}board.append(fx);skillAudio(kind);
+ const reduced=window.matchMedia?.('(prefers-reduced-motion: reduce)').matches;
+ const selected=targets.length?targets:cells.map((c,i)=>c?i:-1).filter(i=>i>=0);
+ selected.forEach(i=>{const t=board.children[i];t?.animate?.([{transform:'scale(1)'},{transform:'scale(.84) rotate(-8deg)'},{transform:'scale(1.05) rotate(5deg)'},{transform:'scale(1)'}],{duration:reduced?0:520});});
+ await new Promise(r=>setTimeout(r,reduced?0:1100));fx.remove();
+}
+async function maybeAssist(){
+ if(mergeCount<nextAssist())return false;
+ assistUsed++;const cut=q('.cut');cut.innerHTML=`<div class="rays"></div><img src="${heroArt(partner)}" alt="お助け ${heroName(partner)}"><strong>お助け！ 爆発アタック！</strong>`;cut.dataset.actor=String(partner);cut.classList.add('partner-cut');cut.hidden=false;soundEffect('skill');
+ await new Promise(r=>setTimeout(r,1200));cut.hidden=true;
+ const targets=cells.map((c,i)=>({c,i})).filter(x=>x.c).sort((a,b)=>rank(a.c)-rank(b.c)||a.i-b.i).slice(0,3).map(x=>x.i);
+ await impact(2,targets);targets.forEach(i=>cells[i]=0);undo=null;draw(targets);sparkle(targets);msg.textContent='お助け爆発！ 3マスまで空いたよ！';return true;
+}
+
+function gatherPlan(old,center){
+ const tokens=old.map((c,from)=>({c,from})),type=species(old[center]);
+ if(!old[center])return {next:[...old],moves:[]};
+ const slots=old.map((_,i)=>i).sort((a,b)=>(Math.abs(Math.floor(a/size)-Math.floor(center/size))+Math.abs(a%size-center%size))-(Math.abs(Math.floor(b/size)-Math.floor(center/size))+Math.abs(b%size-center%size))||a-b).slice(0,old.filter(c=>c&&species(c)===type).length);
+ const fixed=new Set();for(const to of slots){if(!tokens[to].c||species(tokens[to].c)!==type){const from=tokens.findIndex((t,i)=>!fixed.has(i)&&t.c&&species(t.c)===type);[tokens[to],tokens[from]]=[tokens[from],tokens[to]];}fixed.add(to);}
+ return {next:tokens.map(t=>t.c),moves:tokens.flatMap((t,to)=>t.c?[{from:t.from,to,c:t.c}]:[])};
+}
+
+function adjacent(a,b){return a!==b&&Math.abs(Math.floor(a/size)-Math.floor(b/size))<=1&&Math.abs(a%size-b%size)<=1;}
+function hasBoardMove(){
+ if(cells.some(c=>c!==0)&&cells.includes(0))return true;
+ return cells.some((c,i)=>c!==0&&((i%size<size-1&&c===cells[i+1])||(i<size*(size-1)&&c===cells[i+size])));
+}
+function canChangePair(a,b){return adjacent(a,b)&&cells[a]!==cells[b]&&(cells[a]!==0||cells[b]!==0);}
+
+function canUseSkill(owner){
+ if(owner!==0)return false;
+ if((owner?partnerCharge:charge)<skillNeed())return false;
+ const k=heroSkills[owner?partner:hero];
+ if(k===0)return !!undo&&undo.cells.some((c,i)=>c!==cells[i]);
+ if(k===4||k===6)return cells.some(Boolean);if(k===5)return cells.some((c,i)=>c&&gatherPlan(cells,i).next.some((x,j)=>x!==cells[j]));
+ if(k===1)return cells.some((c,i)=>c&&cells.some((_,j)=>canChangePair(i,j)));
+ return cells.some(c=>c&&rank(c)===0);
+}
+function checkGameOver(persist=true){
+ if(busy||gameOver||hasBoardMove()||canUseSkill(0))return false;
+ gameOver=true;ended=false;targetMode=null;picks=[];origin=null;newRecord=score>best;best=Math.max(best,score);stopMusic();draw();drawHeroes();showResult();if(newRecord)recordFanfare();else soundEffect('destroy');if(persist)save();return true;
+}
+function recordFanfare(){if(!sound)return;try{const ctx=audioContext(),now=ctx.currentTime;[523,659,784,1047,784,1047,1319].forEach((hz,i)=>{const o=ctx.createOscillator(),g=ctx.createGain();o.type='triangle';o.frequency.value=hz;const t=now+i*.13;g.gain.setValueAtTime(.001,t);g.gain.linearRampToValueAtTime(.065,t+.015);g.gain.exponentialRampToValueAtTime(.001,t+.4);o.connect(g).connect(ctx.destination);o.start(t);o.stop(t+.42);});}catch(e){}}
+
+function showResult(){
+ const modal=q('.result-shade');modal.hidden=false;modal.classList.toggle('record-result',newRecord);q('[data-record-ribbon]').hidden=!newRecord;const party=q('[data-record-party]');party.hidden=!newRecord;party.innerHTML=newRecord?Array.from({length:36},(_,i)=>`<i style="--x:${(i*37)%100}%;--d:${(i%9)*.09}s;--c:${['#ffe18a','#ff91b8','#8cf2e0','#bfa0ff'][i%4]};--r:${i*29}deg"></i>`).join(''):'';
+ q('[data-result-art]').innerHTML=`<span class="result-stars" aria-hidden="true">${newRecord?'✦ ✧ ✦':'✧ ✦ ✧'}</span><img src="${heroArt(hero)}" alt="主人公 ${heroName(hero)}"><img src="${heroArt(partner)}" alt="パートナー ${heroName(partner)}">`;
+ q('[data-result-title]').textContent=ended?'またあそぼう！':newRecord?'やったね！ おめでとう！':'ゲームオーバー';
+ q('[data-record-message]').textContent=newRecord?'ハイスコア更新おめでとう！':ended?'ふたりの冒険、おつかれさま！':'ふたりでよくがんばったね！';
+ q('[data-result-score]').textContent='スコア '+score.toLocaleString();q('[data-result-best]').textContent='ハイスコア '+best.toLocaleString()+' · 最高ステージ '+bestStage;
+ q('[data-result-end]').hidden=ended;
+ q('[data-restart]').disabled=true;q('[data-result-retry]').focus?.();
+}
+q('[data-result-retry]').onclick=()=>{q('[data-restart]').disabled=false;start();drawHeroes();if(sound)startMusic();save();};
+q('[data-result-end]').onclick=()=>{ended=true;stopMusic();q('.result-shade').hidden=true;showSelection();save();};
+
+function restore(s){
+ if(busy||!s||![2,3,4,5,6].includes(s.version)||!Array.isArray(s.cells)||![16,25].includes(s.cells.length)||s.cells.some(c=>!Number.isInteger(c)||c<0||c>18))return;
+ size=s.cells.length===25?5:4;cells=[...s.cells];score=Math.max(0,Number(s.score)||0);peakScore=Math.max(score,Number(s.peakScore)||0);stage=Math.max(1,Number(s.stage)||1,stageFor(peakScore));bestStage=Math.max(stage,Number(s.bestStage)||1);if(stage>=4&&size===4)expandBoard();
+ combo=Math.max(0,Math.floor(Number(s.combo)||0));mergeCount=Math.max(0,Number(s.mergeCount)||0);assistUsed=Math.max(0,Number(s.assistUsed)||0);best=Math.max(best,Number(s.best)||0);gameOver=s.gameOver===true;ended=gameOver&&s.ended===true;newRecord=gameOver&&s.newRecord===true;
+ undo=s.undo&&Array.isArray(s.undo.cells)&&s.undo.cells.length===size*size&&s.undo.cells.every(c=>Number.isInteger(c)&&c>=0&&c<=18)?{cells:[...s.undo.cells],score:Math.max(0,Number(s.undo.score)||0)}:null;
+ hero=s.heroKey?Math.max(0,owned.findIndex(x=>x.key===s.heroKey)):Number.isInteger(s.hero)&&s.hero>=0&&s.hero<owned.length?s.hero:0;partner=Number.isInteger(s.partner)&&s.partner>=0&&s.partner<owned.length&&s.partner!==hero?s.partner:nextPartner();
+ charge=Math.min(skillNeed(),Math.max(0,Number(s.charge)||0)*(s.version<6?skillNeed()/4:1));
+ if(gameOver&&!ended&&(hasBoardMove()||canUseSkill(0))){gameOver=false;newRecord=false;q('.result-shade').hidden=true;q('[data-restart]').disabled=false;}
+ drawHeroes();draw();if(gameOver)showResult();else checkGameOver(false);
+}drawHeroes();start();try{restore(JSON.parse(localStorage.getItem(saveKey)||'null'));}catch(e){}window.addEventListener('pagehide',()=>{stopMusic();});
+})();
+
+</script>
+</div>
+
+<style>#monster-merge{padding:8px!important}#monster-merge .game{max-width:500px;margin:auto}#monster-merge .board{max-width:min(100%,56dvh);margin-inline:auto}#monster-merge [data-heroes]{display:flex;flex-wrap:nowrap;gap:12px;overflow-x:auto;overflow-y:hidden;max-height:none;padding:6px 4px 14px;scroll-snap-type:x proximity;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch;touch-action:pan-x}#monster-merge [data-heroes] button{box-sizing:border-box;flex:0 0 144px;width:144px;min-width:144px;padding:7px;scroll-snap-align:start;align-self:stretch}#monster-merge [data-heroes] img{display:block;box-sizing:border-box;width:128px;height:128px;max-width:none;aspect-ratio:1/1;object-fit:contain;border-radius:8px;background:#17363b}#monster-merge [data-heroes] small{line-height:1.5;white-space:normal;overflow-wrap:anywhere;margin-top:5px}#monster-merge [data-heroes] button[aria-pressed=true]{outline:3px solid #ffe09b;outline-offset:-2px}</style></body></html>

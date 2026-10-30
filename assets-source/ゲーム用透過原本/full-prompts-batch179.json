@@ -1,0 +1,31 @@
+[
+  {
+    "key": "009-take-cat_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\009-take-cat\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-189b7b85-8866-40cd-87c8-8f319c694dda.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\009-take-cat_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\009-take-cat_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\009-take-cat_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      235,
+      886,
+      844
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied SR take cat card. Preserve exact grey tabby cat, golden eyes and face, both ears, original front-facing airborne walking pose, both hands and feet, entire striped curved tail, full wooden stick and brown tied sack on shoulder including knot and patch, brown belt and pouch, purple gem clasp and torn purple cape with all ends and actual holes. Remove ALL purple magic swirls, sparkles, ground mist, white backdrop, glow and shadows. True transparent alpha with clean edges including between legs and cloak holes. Center complete physical silhouette within64% square,18% transparent margins. No redesign, letters/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・棒・袋・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

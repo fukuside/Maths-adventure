@@ -552,7 +552,7 @@ function buildDivisionWord() {
           total,
           
         right:
-          each,
+          people,
 
         answer:
           each,
@@ -587,6 +587,8 @@ function buildDivisionWord() {
           `${people}人で おなじ数ずつ わけます。\n` +
           `1人ぶんは なんまい？`,
         
+        left: total,
+        right: people,
         answer:
           each,
 

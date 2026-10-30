@@ -1,0 +1,30 @@
+[
+  {
+    "key": "002-sum-slime_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Precise transparent cutout cleanup only. Preserve exact UR slime king face body top droplet crown hands full ornate cape staff chains attached gems. Remove colored residual pixels: red/yellow inside staff ring, cyan around top droplet and hand, red fringe along cape, white flecks. Empty gaps inside staff ring and between physical equipment must be alpha zero. No matte halo scattered pixels or new effects. Keep original front-facing character untouched, smaller centered 60% canvas with 20% clean transparent padding. Complete body and all cape tips, no clipping. Transparent PNG.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending160-generated.png",
+    "cardReference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8f838524-fead-4e4f-be66-c019448a78fb.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending166-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      39,
+      1235,
+      1235
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "第160便を直接修正。顔・全身・冠・衣装装備保持。杖円環内の赤黄、頭頂と手外周の水色残り、余白不足が残存し保留。"
+  }
+]

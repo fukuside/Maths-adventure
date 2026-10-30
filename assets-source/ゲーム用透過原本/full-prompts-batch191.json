@@ -1,0 +1,31 @@
+[
+  {
+    "key": "015-minute-mouse_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\015-minute-mouse\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8c82e223-727c-423c-9508-287fb30514a7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\015-minute-mouse_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\015-minute-mouse_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\015-minute-mouse_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      249,
+      886,
+      831
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR minute mouse reference card. Preserve exact grey mouse face large ears brown eyes pink nose whiskers, full body both hands both feet curled pink tail, entire held golden hourglass including glass and sand, navy gold star cape full flowing ends jewelry and chains. Keep original front-facing three-quarter standing pose. Remove golden environment swirls floor clock magic circle floating sparks and white backdrop. Glass of held hourglass remains physical, surrounding gaps truly transparent. True transparent alpha, no painted checkerboard. Whole silhouette centered64% square with18% clear margins, no redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・砂時計・耳・尾・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

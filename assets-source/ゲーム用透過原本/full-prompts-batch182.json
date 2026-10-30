@@ -1,0 +1,31 @@
+[
+  {
+    "key": "010-remove-mole_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\010-remove-mole\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5a45add5-12b3-4413-a940-b9fb394d3335.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\010-remove-mole_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\010-remove-mole_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\010-remove-mole_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      201,
+      886,
+      878
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied UR remove mole card. Preserve exact dark brown mole face black eyes pink nose and whiskers, original front-facing three-quarter action pose, complete body with all paws and claws, ornate brown gold helmet blue goggles purple gem, complete raised shovel including jeweled blade shaft and D handle, all gold armor and belts, side pouch attached gems and chains, entire purple gold-trimmed scarf/cape with all torn ends. Remove ALL soil rocks flying crystals outside equipment, gold swirls sparkles ground white backdrop glow shadows. Reveal obscured feet consistently. True transparent alpha. Entire silhouette centered64% square with18% transparent margins. No redesign, letters/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・シャベル・ヘルメット・爪・スカーフ・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

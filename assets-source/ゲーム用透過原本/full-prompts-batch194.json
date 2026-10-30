@@ -1,0 +1,31 @@
+[
+  {
+    "key": "016-hour-owl_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\016-hour-owl\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-db918622-72ca-453e-8c6a-652520fa785d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\016-hour-owl_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\016-hour-owl_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\016-hour-owl_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      246,
+      886,
+      834
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR hour owl reference card. Preserve exact brown owl stern face cream facial disk yellow black eyes yellow beak both ear tufts, full body both wings and feet/claws, navy gold ornate square scholar hat blue diamond tassel and attached jewelry, entire held ornate golden hourglass glass/sand, navy gold flowing cape all ends, chains and blue jeweled bow/chest/anklets. Keep original front-facing reaching-wing standing pose. Remove ALL architecture sky background giant clock ring floating clock numerals crystals starbursts gold magic trails floor circle ground and shadows. Preserve physical owl clothing hat and held hourglass only. True transparent alpha through gaps. Entire silhouette centered64% square with18% transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・砂時計・帽子・両翼・足・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

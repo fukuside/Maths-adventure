@@ -1703,5 +1703,1096 @@
     "gameFacing": "front",
     "visualReview": "devil boy face horns hair staff bat wing membranes fingers boots and full tail visually checked; percent symbols flames floor removed; no environmental matte visible",
     "sizing": "full source canvas contained and centered, no crop"
+  },
+  {
+    "key": "001-plus-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ea591f6b-0cc1-40bb-9f7c-89ac35ffec29.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\001-plus-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      202,
+      886,
+      877
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit target is the provided SR plus rabbit card. Isolate ONLY the exact physical rabbit with its entire gold cross staff, both ears, face, both arms, feet, green gold-trim cape and brown satchel. Preserve the original pose and every physical detail. Delete all scenery, gold swirls, floor magic circle, floating crosses, stars, glow and shadows. True transparent alpha in all empty spaces, also between ears and around staff. No colored matte, halo, fragments or floating particles. Entire silhouette centered occupying 64 percent of square canvas, with 18 percent empty transparent padding on all four sides. Keep front facing, do not turn character. No redesign, lettering or frame. Output transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending156-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 86120
+  },
+  {
+    "key": "002-sum-slime_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b548d9cb-fdbe-487e-99d7-c574a5584e5d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\002-sum-slime_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      244,
+      886,
+      835
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "background-extraction. Extract the exact SR blue slime wizard from this card. Preserve full body, face, top droplet, two hands and feet, blue gold cape, blue brooch, entire gold staff with round cross head and bottom blue jewel. Remove every external water swirl, droplet, bubble, floating plus, sparkle, floor and shadow. No remnant speckles or color fringe. True transparent alpha around and within gaps in silhouette. Same front-facing pose, exact individual, exact colors and gear, no redesign. Place character centered and smaller, occupying only 64% of square canvas, surrounded on all sides by 18% completely empty transparent padding. No text. PNG with real alpha.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending157-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 78398
+  },
+  {
+    "key": "004-apple-bear_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d419def9-2ffb-4a2a-ac2f-910df1dc3bcd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\004-apple-bear_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      220,
+      194,
+      860,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case background-extraction. Isolate the exact red SR apple bear in the reference. Preserve both ears, face, head leaf, raised hand holding its large apple, other fist, both complete feet, entire green scarf, brown straps buckles and backpack. Keep exact identity original front-facing walking pose and painted textures. Remove all external apples, leaves, clovers, glowing swirl, sparkles, ground vegetation and shadows. Clean physical silhouette with actual transparent alpha, no white or colored matte remnants, no detached pixels. Whole character centered occupying 64% canvas with 18% transparent margin each side. No redesign, no text, no scene. Transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending158-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 83936
+  },
+  {
+    "key": "001-plus-rabbit_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6d6dc5c5-a6c3-4c60-a4b7-abf2058ad892.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\001-plus-rabbit_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      215,
+      886,
+      865
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "background-extraction: precisely cut out the physical UR white rabbit king from reference. Preserve face, both ears, crown, both hands feet, white gold green vestments, full cape tips, belt jewels chains, entire staff and its physical circular ornament and dangling gems. Transparent alpha inside the staff ring and every gap. Remove background, sunlight, all magic swirls, free-floating crosses stars gems and floor circle. Keep original front-facing pose and exact identity. No halo, colored fringe, remnants or isolated pixels. Entire figure fits centered with 18% transparent empty padding on every side. No text or redesign. True transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending159-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 128806
+  },
+  {
+    "key": "002-sum-slime_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e2b99104-2df5-4b03-baba-eba982cbef63.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\002-sum-slime_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      229,
+      886,
+      851
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "background-extraction. Extract only this exact UR blue slime king and physical equipment: entire top droplet, crown, both arms, blue body taper, blue white gold robe and cape all tips, chest brooch, chains and attached jewels and crosses, full gold staff with blue cross inside physical circular ornament. Keep identity face pose rarity and details unchanged, front facing. Delete environment, all water swirls droplets sparkles loose gems loose crosses background floor magic circle and shadows. True transparent alpha in all gaps including staff ring. No residual color fringes or particles. Center complete silhouette at 64% of canvas with 18% blank transparent margin all four sides. No cropping redesign or text. Transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending160-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 144478
+  },
+  {
+    "key": "004-apple-bear_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1c2dd110-e36b-4283-80d4-10f8fc669a35.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\004-apple-bear_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      221,
+      886,
+      859
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction only. Isolate the exact physical UR red apple bear king, preserve face ears crown head leaves both hands feet raised apple green scarf red white fur cape all tips gold cuffs jewels belts apple emblem pouches. Remove all external fire swirls magic rings loose apples leaves sparkles scenery ground and shadows. True transparent alpha around the clean physical silhouette with no colored fringe, no matte, no isolated remnants. Preserve front-facing pose and identity. Entire full body SMALL in the CENTER occupying 60 percent of square canvas, leaving generous 20 percent completely empty transparent margin on every edge. No clipping or redesign, no text. Transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-pending161-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 120630
+  },
+  {
+    "key": "003-pair-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\003-pair-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ba643c27-28ea-44af-9ea7-c82d1822dd34.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\003-pair-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\003-pair-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\003-pair-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      291,
+      886,
+      788
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of the provided SR pair bird card. Preserve BOTH physical birds as one paired monster: pink red gold bird on left and blue white bird on right, exact faces, beaks, full spread wings, all tail feathers, both feet and claws, gold chain linking their necks, large gold winged pink heart pendant and hanging pink gem. Remove nest, leaves, flying hearts, colored swirls, sparkles, all white background, all ground and shadows. True transparent alpha. Keep their original inward-looking front three-quarter paired pose; do not turn or redesign. Full two-bird silhouette centered within64 percent square, 18 percent transparent margins on all four sides. No text, frame, glows or floating debris. Transparent PNG.\n",
+    "sourceFacing": "mixed-inward",
+    "gameFacing": "mixed-inward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。両鳥の顔・翼・尾・足・鎖・宝石保持。巣と環境を除去。内向きのペアのまま。実機未確認。"
+  },
+  {
+    "key": "003-pair-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\003-pair-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7d11093a-40ee-4cf9-99bb-c9116eae781a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\003-pair-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\003-pair-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\003-pair-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      232,
+      886,
+      847
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of provided UR pair bird card. Isolate BOTH physical royal birds as one paired monster. Preserve exact pink/gold left bird and blue/white right bird, faces, beaks, crowns, full spread wings and tails, four feet/claws, ornate gold wing armor with pink and blue heart gems, all linking gold chains, central two-color heart pendant with dangling gems. Remove the entire nest including its separate heart ornament, floating feathers/hearts, swirls, magic circles, sparkles, environment, ground, glow and shadows. Reconstruct any tiny wing tip clipped by card edge consistently. Both birds must be whole. Keep original inward-facing paired pose, not side-facing. True transparent alpha, no matte or rim colors. Center silhouette within64% square with18% transparent margins. No redesign, text or frame.\n",
+    "sourceFacing": "mixed-inward",
+    "gameFacing": "mixed-inward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。両鳥の顔・翼・尾・足・鎖・宝石保持。巣と環境を除去。内向きのペアのまま。実機未確認。"
+  },
+  {
+    "key": "005-carry-fox_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\005-carry-fox\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d9b8c20b-4a85-491d-90c0-1d4da6644e03.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\005-carry-fox_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\005-carry-fox_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\005-carry-fox_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      197,
+      194,
+      882,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of provided SR carry fox card. Isolate exact orange fox with both ears, face, full body, complete curved sword including tip and grip, green scarf, brown leather backpack and rolled bedroll, belt pouches, hanging blue crystal, both boots and full fluffy white-tipped tail. Preserve original airborne running pose and left-facing three-quarter orientation. Remove all white backdrop, golden swirls, floating leaves, stars, ground, stones, grass and shadows. Real transparent alpha, no matte rim or glow. Entire silhouette centered within64 percent of square canvas with18 percent transparent padding. No redesign or text.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・剣・尾・背負い袋・宝石保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "005-carry-fox_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\005-carry-fox\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0b448ad7-1877-4836-b24c-cdc72e46496b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\005-carry-fox_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\005-carry-fox_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\005-carry-fox_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      237,
+      886,
+      843
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of provided UR carry fox card. Preserve exact orange fox identity, expression, ears, full body, full ornate curved sword and grip, green-gold scarf and flowing cape, full brown/gold armor, belt pouches, chains and green crystal ornaments, backpack with rolled bedroll, both boots, entire white tipped bushy tail. Keep original front-facing three-quarter leaping attack pose. Remove white backdrop, ALL fire, magical rings, flying leaves, sparkles, soil, rocks, grass and shadows. Do not remove physical cloak tails or sword. True transparent alpha, no colored matte fringe. Center complete silhouette within64% square with18% transparent padding. No text, frames, redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・剣・尾・背負い袋・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "006-sum-lion_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\006-sum-lion\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-21b716ad-60ff-416d-b275-b83815ca53ea.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\006-sum-lion_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\006-sum-lion_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\006-sum-lion_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      210,
+      886,
+      869
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied SR sum lion card. Preserve exact gold lion with red mane, original face/expression and front-left three-quarter standing pose, complete curved sword tip through grip, both hands, red gold black armor and lion knee emblems, red patterned cape with all flowing ends, full tail with red tuft, both feet. Remove ALL flames, fire swirls, sparks, rocks, soil, grass, white backdrop and shadows. True transparent alpha. No redesign or added effects. Entire physical silhouette centered within64% of square with18% transparent margins. No text/frame/matte halo.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・剣・尾・鎧・マント・宝石保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "006-sum-lion_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\006-sum-lion\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-282ebf9f-7045-44a1-921e-ca16280013e7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\006-sum-lion_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\006-sum-lion_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\006-sum-lion_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      203,
+      886,
+      876
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of provided UR sum lion card. Preserve exact roaring lion identity, face, eyes, mane, crown, both hands, complete ornate black gold curved sword from tip to grip, full red gold armor, lion belt and knee emblems, chains, full fur-lined flowing red cape and all ends, tail with red tuft and gold band, both feet. Preserve original front-left three-quarter standing pose. Remove ALL flames and fire effects including sword exterior fire, magical swirls, sparks, flying rocks, ground, grass, white backdrop and shadows. Physical painted blade flame pattern stays. True transparent alpha with clean edges. Full silhouette centered within64% square with18% transparent margins. No redesign, no letters/frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・剣・尾・鎧・マント・宝石保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "007-plus-emperor_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\007-plus-emperor\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6b663de9-c375-44eb-8202-26568dc500d2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\007-plus-emperor_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\007-plus-emperor_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\007-plus-emperor_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      222,
+      886,
+      857
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of SR plus emperor bear card. Keep exact cream bear face and black moustache, crown with purple gems, full body, both feet and hands, full staff including round purple orb with gold plus symbol and finial, purple gold patterned robe and entire fur-trimmed flowing cape, jewelry and belts. Preserve original front-facing pose. Remove all purple magic swirls, sparkles, floor circle, white backdrop, glow and shadows. True transparent alpha, no colored matte fringes. Center whole silhouette within64 percent square with18 percent margins. No redesign, text or frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・杖・冠・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "007-plus-emperor_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\007-plus-emperor\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7d138484-6c09-4925-baa1-c14cd83bfbfb.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\007-plus-emperor_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\007-plus-emperor_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\007-plus-emperor_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      223,
+      886,
+      857
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied UR plus emperor bear card. Preserve exact cream bear identity, black moustache, stern joyful expression, full crown and all gems, full body and both feet/hands, full staff with ornate circular purple orb and gold plus symbol and finials, purple gold robes and entire fur-lined flowing cape with hanging physical gold chains and emblems, jewelry and boot gems. Keep original front-facing pose. Remove all floating unconnected crystals, magical swirls, rings, sparks, floor circle, ground, white background, glow and shadows. Reconstruct any cape tips clipped by reference card boundary consistently. True transparent alpha, no matte fringe. Whole silhouette centered within64% square with18% transparent margins. No redesign, text or frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・杖・冠・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "008-minus-fox_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\008-minus-fox\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7defca55-97b7-4437-af24-a30052dcf231.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\008-minus-fox_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\008-minus-fox_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\008-minus-fox_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      207,
+      886,
+      873
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied SR minus fox card. Preserve exact dark blue fox with purple forelock, both ears, golden eyes, original face and left-facing three-quarter walking pose, all four paws, entire white-tipped tail, purple gold-trimmed scarf and both trailing ends, purple chest jewel in gold setting. Remove all purple magic swirls, particles, floor circle, ground, white backdrop, glow and shadows. True transparent alpha without color matte halos. Entire body and all fur/scarf tips centered within64% square with18% transparent margins. No redesign, lettering or frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・尾・四足・スカーフ・宝石保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "008-minus-fox_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\008-minus-fox\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0b3d0d21-d579-4ed8-844b-2b554c677863.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\008-minus-fox_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\008-minus-fox_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\008-minus-fox_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      235,
+      886,
+      845
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied UR minus fox card. Preserve exact dark blue royal fox, purple mane, gold eyes, fierce face, forehead crown/gem, all four paws and claws, complete huge white-tipped tail, purple gold armor on shoulders and legs, all long purple gold flowing cloak/scarf ends, physical gold chains and attached gems. Preserve original front-left three-quarter pose. Remove all unconnected floating crystals, purple electricity, magic swirls, sparkles, floor circle, ground, white background, glow/shadows. Reconstruct tiny cloak tips clipped by card edge consistently. Real transparent alpha and clean edges. Entire silhouette centered within64% square,18% transparent padding. No redesign, text/frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・尾・四足・スカーフ・宝石保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "009-take-cat_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\009-take-cat\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-189b7b85-8866-40cd-87c8-8f319c694dda.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\009-take-cat_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\009-take-cat_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\009-take-cat_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      235,
+      886,
+      844
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied SR take cat card. Preserve exact grey tabby cat, golden eyes and face, both ears, original front-facing airborne walking pose, both hands and feet, entire striped curved tail, full wooden stick and brown tied sack on shoulder including knot and patch, brown belt and pouch, purple gem clasp and torn purple cape with all ends and actual holes. Remove ALL purple magic swirls, sparkles, ground mist, white backdrop, glow and shadows. True transparent alpha with clean edges including between legs and cloak holes. Center complete physical silhouette within64% square,18% transparent margins. No redesign, letters/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・棒・袋・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "009-take-cat_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\009-take-cat\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-34a88d44-0ad3-44af-974f-11eeec238954.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\009-take-cat_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\009-take-cat_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\009-take-cat_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      208,
+      886,
+      871
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of UR take cat card. Preserve exact grey tabby cat identity, golden eyes and fierce face, both ears, full body in original front-facing action pose, both clawed hands and feet, entire striped curved tail, full gold-wrapped wooden staff and large tied brown patched sack with all attached chains and purple gems, all leather armor, belts/pouches, gem clasp and torn purple gold-trim cape including every physical end. Remove ALL purple magic/electricity including plume above sack, floating rocks and shards, ground magic circle, white background, glow/shadows. True transparent alpha including cloak holes and gaps. Whole silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・棒・袋・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "010-remove-mole_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\010-remove-mole\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1202f55a-d8eb-4fd1-9b24-36a719faa0f8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\010-remove-mole_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\010-remove-mole_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\010-remove-mole_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      873
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied SR remove mole card. Preserve exact dark brown mole, pink nose, black eyes, face, full body and all paws/claws, brown helmet with gold stripe and blue goggles, complete raised shovel blade shaft and D handle, purple scarf and all trailing ends, leather belts and side pouch with attached purple crystals. Preserve original front-facing three-quarter leaping pose. Remove ALL soil/rocks/crystals outside pouch, magical gold swirls, sparkles, white backdrop, ground and shadows. Reveal complete feet currently partially against ground consistently. True transparent alpha no matte halo. Full silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・シャベル・ヘルメット・爪・スカーフ・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "010-remove-mole_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\010-remove-mole\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5a45add5-12b3-4413-a940-b9fb394d3335.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\010-remove-mole_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\010-remove-mole_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\010-remove-mole_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      201,
+      886,
+      878
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied UR remove mole card. Preserve exact dark brown mole face black eyes pink nose and whiskers, original front-facing three-quarter action pose, complete body with all paws and claws, ornate brown gold helmet blue goggles purple gem, complete raised shovel including jeweled blade shaft and D handle, all gold armor and belts, side pouch attached gems and chains, entire purple gold-trimmed scarf/cape with all torn ends. Remove ALL soil rocks flying crystals outside equipment, gold swirls sparkles ground white backdrop glow shadows. Reveal obscured feet consistently. True transparent alpha. Entire silhouette centered64% square with18% transparent margins. No redesign, letters/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・シャベル・ヘルメット・爪・スカーフ・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "011-diff-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\011-diff-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d2a63440-b129-419c-88a2-c3b8c226d594.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\011-diff-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\011-diff-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\011-diff-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      200,
+      886,
+      879
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied SR diff bird card. Preserve exactly ONE two-tone bird: orange red left half and blue white right half, exact face golden beak and eyes, full crest, both full spread physical feather wings, both feet/claws and complete split-color tail. Keep original frontal flying pose and color split. Remove all separate fire/water swirls, floating feathers, crystals, droplets, sparks, floor circles, white backdrop, ground, glow and shadows. Physical feather coloration remains. True transparent alpha with clean edges. Whole silhouette centered64% square with18% transparent margin each side. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・顔・両翼・両足・尾・左右の配色保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "011-diff-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\011-diff-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5f911226-0e2d-4502-8b3e-dea21b3649db.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\011-diff-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\011-diff-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\011-diff-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of UR diff bird card. Preserve exactly ONE split-color royal bird orange red left half and blue white right half; exact frontal face golden beak eyes, full crest and forehead jewel, both full spread physical feather wings with gold filigree armor, chest gem and chain, leg armor, both feet/claws and complete split-color tails with attached gold trims. Keep original frontal flying pose and asymmetrical feathers. Remove ALL separate fire/water swirls, floating crystals, feathers, droplets, sparks, floor circles, ground, white backdrop, glow and shadows. Reconstruct tiny wing tips clipped by card boundary consistently. True transparent alpha clean edges. Full silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・顔・両翼・両足・尾・左右の配色保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "012-back-bear_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\012-back-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6ff424a2-1d9d-4249-bf6e-a3817670198f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\012-back-bear_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\012-back-bear_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\012-back-bear_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      213,
+      194,
+      867,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of SR back bear card. Preserve exact bright blue bear identity, round ears black eyes pink cheeks face, full body both hands and feet, brown leather backpack with rolled bedroll and side pockets, all straps belt gold buckles. Keep original front-left three-quarter walking pose. Remove ALL clovers, leaves, flowers, rocks, grass, ground, green magic swirls, sparks, white backdrop and shadows. True transparent alpha with clean edges. Whole physical silhouette centered64% square with18% transparent padding. No redesign/text/frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・両手足・リュック・ベルト保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "012-back-bear_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\012-back-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9dcb7d8f-3b05-43be-a68f-37dd15a04819.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\012-back-bear_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\012-back-bear_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\012-back-bear_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      253,
+      886,
+      826
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied UR back bear card. Preserve exact blue bear face eyes ears pink cheeks and full body, both fists feet, ornate blue gold clover-patterned armor and entire cape with all ends, white neckcloth and clover brooch, brown backpack with rolled bedroll all pockets straps buckles. Keep original front-left three-quarter walking pose. Remove ALL floating clovers/leaves, flowers grass rocks ground, gold swirls, magical halo behind head, sparkles, white backdrop glow/shadows. Retain clover ornaments physically attached to armor only. True transparent alpha and clean edges. Whole silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・両手足・リュック・ベルト保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "013-sub-wolf_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\013-sub-wolf\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-58dbdf46-988a-481d-aef1-f0a85a0362f8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\013-sub-wolf_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\013-sub-wolf_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\013-sub-wolf_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      257,
+      886,
+      822
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of SR sub wolf card. Preserve exact dark blue wolf identity golden eyes original face ears, full body all four paws black claws, complete white-tipped fluffy tail, purple gold patterned scarf with all trailing ends and gold diamond clasp. Preserve original left-facing three-quarter forward-running pose. Remove ALL purple magic swirls sparkles floor circle ground white backdrop glow/shadows. True transparent alpha no matte fringe. Full physical silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・四足・尾・スカーフ保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "013-sub-wolf_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\013-sub-wolf\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6c6f1db2-877e-4baf-9678-227487afcd48.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\013-sub-wolf_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\013-sub-wolf_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\013-sub-wolf_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      231,
+      886,
+      849
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of UR sub wolf card. Preserve exact dark blue wolf identity golden eyes original face ears mane, forehead gold purple jewel, full body all four paws black claws, complete large white-tipped tail, all purple gold scarf ends and hanging attached gems chains, gold leg armor. Preserve original left-facing three-quarter running pose. Remove ALL purple magic swirls electricity sparkles floating rocks floor circle ground white backdrop glow/shadows. True transparent alpha no matte fringe including gaps under scarf. Whole physical silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・四足・尾・スカーフ保持。環境除去。左向き維持。実機未確認。"
+  },
+  {
+    "key": "014-minus-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\014-minus-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-252d5b19-0eca-4fde-b598-3854ea939394.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\014-minus-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\014-minus-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\014-minus-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      231,
+      886,
+      848
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of SR minus king card. Preserve exact grey purple royal wolf-cat identity, purple eyes stern face cream cheeks beard both ears, full crown, entire staff orb gold cross finial through bottom tip, both hands claws feet, full curved tail, purple gold robe and full fur-lined cape ends, all jewelry and belt. Keep original front-facing standing pose. Remove ALL purple magic swirls electricity floor circle sparks ground white backdrop glow shadows. True transparent alpha including gaps around staff and cape. Whole silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・杖・冠・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "014-minus-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\014-minus-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-66c529f8-2723-4dec-8dcc-d3b328b31d34.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\014-minus-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\014-minus-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\014-minus-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      215,
+      886,
+      865
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of UR minus king reference card. Preserve this exact purple-grey royal wolf-cat identity, purple eyes, cream brows cheeks and beard, both ears, huge jeweled purple gold crown with top cross, entire staff with orb gold cross and finial through bottom tip, both hands with paw pads/claws, both feet, purple gold intricate robes jewelry chains and full fur-lined sweeping cape ends. Keep original front-facing dramatic reaching pose and full-body silhouette. Remove ALL environment, floating rocks, purple magic swirls lightning sparkles floor circle ground shadow and white background. Retain only physical character, clothing and held staff. True transparent alpha including gaps around staff and cape, no checkerboard painted in. Center whole silhouette within 64% of square with18% transparent margins. No redesign, no text/frame. Keep exact UR details and face.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・杖・冠・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "015-minute-mouse_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\015-minute-mouse\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8c82e223-727c-423c-9508-287fb30514a7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\015-minute-mouse_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\015-minute-mouse_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\015-minute-mouse_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      249,
+      886,
+      831
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR minute mouse reference card. Preserve exact grey mouse face large ears brown eyes pink nose whiskers, full body both hands both feet curled pink tail, entire held golden hourglass including glass and sand, navy gold star cape full flowing ends jewelry and chains. Keep original front-facing three-quarter standing pose. Remove golden environment swirls floor clock magic circle floating sparks and white backdrop. Glass of held hourglass remains physical, surrounding gaps truly transparent. True transparent alpha, no painted checkerboard. Whole silhouette centered64% square with18% clear margins, no redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・砂時計・耳・尾・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "015-minute-mouse_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\015-minute-mouse\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a28086ed-ccad-4c87-a443-021c8a810ac1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\015-minute-mouse_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\015-minute-mouse_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\015-minute-mouse_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      234,
+      886,
+      845
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR minute mouse reference card. Preserve exact grey mouse face ears brown eyes pink nose whiskers, gold blue jeweled headband, full body both hands both feet tail, entire held ornate golden hourglass glass and sand, navy gold flowing star cape with every end and gold chains blue gemstones pocket watch and cream gold robes. Keep original front-facing three-quarter reaching pose. Remove environment huge background clock, floating numerals/crystals golden swirls floor magic circle sparkles and white backdrop. Retain physical character and held hourglass only, with true transparent alpha through gaps. Entire silhouette centered64% square with18% clear margins. No redesign/text/frame. Preserve exact UR face and equipment.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・砂時計・耳・尾・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "016-hour-owl_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\016-hour-owl\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-63826729-40b1-4476-9e39-81f472dde759.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\016-hour-owl_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\016-hour-owl_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\016-hour-owl_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      263,
+      886,
+      817
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR hour owl reference card. Preserve exact brown owl face cream facial disk yellow black eyes yellow open beak both ear tufts, full body wings feet claws, entire navy gold square scholar hat blue gem tassel, entire held golden hourglass glass and sand, navy gold flowing star cape all ends and blue jeweled bow. Keep original front-facing standing reaching-wing pose. Remove golden environment swirls floor clock circle floating sparks white background and ground shadows. Retain physical owl clothing hat and held hourglass only. True transparent alpha through gaps. Whole silhouette centered64% square with18% clear margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・砂時計・帽子・両翼・足・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "016-hour-owl_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\016-hour-owl\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-db918622-72ca-453e-8c6a-652520fa785d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\016-hour-owl_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\016-hour-owl_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\016-hour-owl_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      246,
+      886,
+      834
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR hour owl reference card. Preserve exact brown owl stern face cream facial disk yellow black eyes yellow beak both ear tufts, full body both wings and feet/claws, navy gold ornate square scholar hat blue diamond tassel and attached jewelry, entire held ornate golden hourglass glass/sand, navy gold flowing cape all ends, chains and blue jeweled bow/chest/anklets. Keep original front-facing reaching-wing standing pose. Remove ALL architecture sky background giant clock ring floating clock numerals crystals starbursts gold magic trails floor circle ground and shadows. Preserve physical owl clothing hat and held hourglass only. True transparent alpha through gaps. Entire silhouette centered64% square with18% transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・砂時計・帽子・両翼・足・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "017-clock-cat_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\017-clock-cat\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e305fade-bd93-4d97-b2f4-f3b853e32b96.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\017-clock-cat_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\017-clock-cat_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\017-clock-cat_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      218,
+      194,
+      861,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit attached SR card exactly as shown regardless of filename. Preserve this exact cute cream-green leaf dragon creature, green eyes happy face, full wooden branching antlers with attached leaves, leaf crown ears, full body both hands claws both feet, entire curved tail with leaf tuft, green gold leaf cape and all gold green gems and pendant. Keep original front-facing three-quarter raised-hand standing pose. Remove floating detached leaves, green magic swirls, floor circle, sparkles ground shadow and white background. Retain physical creature and its worn equipment only. True transparent alpha through all gaps. Whole silhouette centered64% square with18% transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・枝角・葉冠・両手足・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "017-clock-cat_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\017-clock-cat\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-62931a2a-8939-496c-a051-63b3527c3cee.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\017-clock-cat_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\017-clock-cat_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\017-clock-cat_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      205,
+      194,
+      875,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR reference card exactly as shown regardless of filename. Preserve this exact cream-green leaf dragon face green eyes happy open mouth, full wooden branching antlers attached leaves leaf crown emerald forehead diadem ears, full body both hands claws both feet, entire tail leaf tuft, green gold ornate full cape with every end and all emerald gems chains pendants bracers anklets. Keep original front-facing three-quarter raised-hand standing pose. Remove environment detached swirling vines/branches floating leaves gems golden green magic swirls floor circle sparkles ground white background. Retain physical creature and worn gear only. True transparent alpha through gaps. Entire silhouette centered64% square with18% clear transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・枝角・葉冠・両手足・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "018-bell-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\018-bell-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e0203f4f-4254-42e5-b107-2a1a529d1f0c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\018-bell-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\018-bell-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\018-bell-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      203,
+      886,
+      876
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR bell bird card preserving exact orange cream bird identity brown eyes happy open beak, full orange crest, whole raised blue-orange wings with all feathers, both legs claws and full tail feathers, brass goggles leather headband, green scarf gold treble-clef brooch, brown harness pouch, entire held gold pocket clock with chain ring and treble-clef dial. Keep original front three-quarter airborne one-foot-raised pose. Remove detached floating notes leaves gold magic swirls path ground rocks bushes shadows and cream background. Retain character clothing equipment and held clock only. True transparent alpha through every gap. Whole silhouette centered64% square with18% transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両翼・脚・尾・ゴーグル・時計・スカーフ・鞄保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "018-bell-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\018-bell-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-456e8fd6-dfa3-4bca-b2de-0e1d9a021580.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\018-bell-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\018-bell-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\018-bell-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      243,
+      886,
+      837
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR bell bird reference card. Preserve exact orange cream bird face brown eyes happy open beak, whole orange crest, full spread blue orange cream wings with every feather, both legs claws full tail, brass blue goggles, entire feathered ornate hat, green gold scarf treble clef pendant, gold chains blue jewels harness pouch and full dark green gold cape ends. Preserve BOTH held objects completely: golden pocket clock treble clef dial/ring/chain and ornate golden mandolin with strings neck tuning pegs. Keep original front three-quarter airborne pose. Remove floating detached notes feathers leaves gold magic swirls path ground bushes shadows cream background. Physical bird gear and held objects only. True transparent alpha through gaps. Entire silhouette centered64% square with18% clear transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両翼・脚・尾・ゴーグル・帽子・時計・楽器・スカーフ・鞄・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "019-time-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\019-time-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ef6a25c3-fe0d-461f-bf92-bcbb321c22c1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\019-time-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\019-time-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\019-time-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      216,
+      886,
+      864
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR time rabbit reference card. Preserve exact white rabbit face reddish-brown eyes happy open mouth pink nose cheeks, both full long pink ears, full body both hands and both feet/pawpads fluffy tail, entire held golden pocket clock Roman dial hands ring, small chain pocket watch at waist, red gold star cape with every flowing end and attached clock emblem brooch chains. Keep original front three-quarter airborne running one-foot-raised pose. Remove floating detached notes gears leaves clock backdrop gold magic trails path ground rocks plants shadows cream background. Retain physical rabbit clothing equipment held clock only. True transparent alpha through gaps. Whole silhouette centered64% square with18% clear transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・耳・両手足・尾・時計・チェーン・赤いマント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
   }
 ]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "013-sub-wolf_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\013-sub-wolf\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-58dbdf46-988a-481d-aef1-f0a85a0362f8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\013-sub-wolf_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\013-sub-wolf_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\013-sub-wolf_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      257,
+      886,
+      822
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of SR sub wolf card. Preserve exact dark blue wolf identity golden eyes original face ears, full body all four paws black claws, complete white-tipped fluffy tail, purple gold patterned scarf with all trailing ends and gold diamond clasp. Preserve original left-facing three-quarter forward-running pose. Remove ALL purple magic swirls sparkles floor circle ground white backdrop glow/shadows. True transparent alpha no matte fringe. Full physical silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・耳・全身・四足・尾・スカーフ保持。環境除去。左向き維持。実機未確認。"
+  }
+]

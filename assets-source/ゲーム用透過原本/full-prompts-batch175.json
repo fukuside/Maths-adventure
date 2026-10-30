@@ -1,0 +1,31 @@
+[
+  {
+    "key": "007-plus-emperor_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\007-plus-emperor\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6b663de9-c375-44eb-8202-26568dc500d2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\007-plus-emperor_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\007-plus-emperor_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\007-plus-emperor_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      222,
+      886,
+      857
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of SR plus emperor bear card. Keep exact cream bear face and black moustache, crown with purple gems, full body, both feet and hands, full staff including round purple orb with gold plus symbol and finial, purple gold patterned robe and entire fur-trimmed flowing cape, jewelry and belts. Preserve original front-facing pose. Remove all purple magic swirls, sparkles, floor circle, white backdrop, glow and shadows. True transparent alpha, no colored matte fringes. Center whole silhouette within64 percent square with18 percent margins. No redesign, text or frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・杖・冠・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

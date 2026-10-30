@@ -1,0 +1,31 @@
+[
+  {
+    "key": "019-time-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\019-time-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ef6a25c3-fe0d-461f-bf92-bcbb321c22c1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\019-time-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\019-time-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\019-time-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      216,
+      886,
+      864
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR time rabbit reference card. Preserve exact white rabbit face reddish-brown eyes happy open mouth pink nose cheeks, both full long pink ears, full body both hands and both feet/pawpads fluffy tail, entire held golden pocket clock Roman dial hands ring, small chain pocket watch at waist, red gold star cape with every flowing end and attached clock emblem brooch chains. Keep original front three-quarter airborne running one-foot-raised pose. Remove floating detached notes gears leaves clock backdrop gold magic trails path ground rocks plants shadows cream background. Retain physical rabbit clothing equipment held clock only. True transparent alpha through gaps. Whole silhouette centered64% square with18% clear transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・耳・両手足・尾・時計・チェーン・赤いマント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

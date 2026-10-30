@@ -1,0 +1,194 @@
+[
+  {
+    "key": "001-plus-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ea591f6b-0cc1-40bb-9f7c-89ac35ffec29.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\001-plus-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      202,
+      886,
+      877
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit target is the provided SR plus rabbit card. Isolate ONLY the exact physical rabbit with its entire gold cross staff, both ears, face, both arms, feet, green gold-trim cape and brown satchel. Preserve the original pose and every physical detail. Delete all scenery, gold swirls, floor magic circle, floating crosses, stars, glow and shadows. True transparent alpha in all empty spaces, also between ears and around staff. No colored matte, halo, fragments or floating particles. Entire silhouette centered occupying 64 percent of square canvas, with 18 percent empty transparent padding on all four sides. Keep front facing, do not turn character. No redesign, lettering or frame. Output transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_SR-pending156-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 86120
+  },
+  {
+    "key": "002-sum-slime_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b548d9cb-fdbe-487e-99d7-c574a5584e5d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\002-sum-slime_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      244,
+      886,
+      835
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "background-extraction. Extract the exact SR blue slime wizard from this card. Preserve full body, face, top droplet, two hands and feet, blue gold cape, blue brooch, entire gold staff with round cross head and bottom blue jewel. Remove every external water swirl, droplet, bubble, floating plus, sparkle, floor and shadow. No remnant speckles or color fringe. True transparent alpha around and within gaps in silhouette. Same front-facing pose, exact individual, exact colors and gear, no redesign. Place character centered and smaller, occupying only 64% of square canvas, surrounded on all sides by 18% completely empty transparent padding. No text. PNG with real alpha.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_SR-pending157-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 78398
+  },
+  {
+    "key": "004-apple-bear_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d419def9-2ffb-4a2a-ac2f-910df1dc3bcd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\004-apple-bear_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      220,
+      194,
+      860,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case background-extraction. Isolate the exact red SR apple bear in the reference. Preserve both ears, face, head leaf, raised hand holding its large apple, other fist, both complete feet, entire green scarf, brown straps buckles and backpack. Keep exact identity original front-facing walking pose and painted textures. Remove all external apples, leaves, clovers, glowing swirl, sparkles, ground vegetation and shadows. Clean physical silhouette with actual transparent alpha, no white or colored matte remnants, no detached pixels. Whole character centered occupying 64% canvas with 18% transparent margin each side. No redesign, no text, no scene. Transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending158-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 83936
+  },
+  {
+    "key": "001-plus-rabbit_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6d6dc5c5-a6c3-4c60-a4b7-abf2058ad892.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\001-plus-rabbit_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      215,
+      886,
+      865
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "background-extraction: precisely cut out the physical UR white rabbit king from reference. Preserve face, both ears, crown, both hands feet, white gold green vestments, full cape tips, belt jewels chains, entire staff and its physical circular ornament and dangling gems. Transparent alpha inside the staff ring and every gap. Remove background, sunlight, all magic swirls, free-floating crosses stars gems and floor circle. Keep original front-facing pose and exact identity. No halo, colored fringe, remnants or isolated pixels. Entire figure fits centered with 18% transparent empty padding on every side. No text or redesign. True transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending159-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 128806
+  },
+  {
+    "key": "002-sum-slime_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\002-sum-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e2b99104-2df5-4b03-baba-eba982cbef63.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\002-sum-slime_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      229,
+      886,
+      851
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "background-extraction. Extract only this exact UR blue slime king and physical equipment: entire top droplet, crown, both arms, blue body taper, blue white gold robe and cape all tips, chest brooch, chains and attached jewels and crosses, full gold staff with blue cross inside physical circular ornament. Keep identity face pose rarity and details unchanged, front facing. Delete environment, all water swirls droplets sparkles loose gems loose crosses background floor magic circle and shadows. True transparent alpha in all gaps including staff ring. No residual color fringes or particles. Center complete silhouette at 64% of canvas with 18% blank transparent margin all four sides. No cropping redesign or text. Transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\002-sum-slime_UR-pending160-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 144478
+  },
+  {
+    "key": "004-apple-bear_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1c2dd110-e36b-4283-80d4-10f8fc669a35.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\004-apple-bear_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      221,
+      886,
+      859
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction only. Isolate the exact physical UR red apple bear king, preserve face ears crown head leaves both hands feet raised apple green scarf red white fur cape all tips gold cuffs jewels belts apple emblem pouches. Remove all external fire swirls magic rings loose apples leaves sparkles scenery ground and shadows. True transparent alpha around the clean physical silhouette with no colored fringe, no matte, no isolated remnants. Preserve front-facing pose and identity. Entire full body SMALL in the CENTER occupying 60 percent of square canvas, leaving generous 20 percent completely empty transparent margin on every edge. No clipping or redesign, no text. Transparent PNG.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "postProcessSource": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_UR-pending161-generated.png",
+    "visualReview": "白・濃色・ピンク背景と原寸で確認。顔・全身・杖/冠・衣装・宝石保持、環境と浮遊点除去、輪郭色残りを補正。正面維持。",
+    "sizing": "centered full silhouette within 64% square; transparent margins >=18%",
+    "webpBytes": 120630
+  }
+]

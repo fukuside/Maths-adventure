@@ -1,0 +1,31 @@
+[
+  {
+    "key": "015-minute-mouse_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\015-minute-mouse\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a28086ed-ccad-4c87-a443-021c8a810ac1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\015-minute-mouse_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\015-minute-mouse_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\015-minute-mouse_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      234,
+      886,
+      845
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR minute mouse reference card. Preserve exact grey mouse face ears brown eyes pink nose whiskers, gold blue jeweled headband, full body both hands both feet tail, entire held ornate golden hourglass glass and sand, navy gold flowing star cape with every end and gold chains blue gemstones pocket watch and cream gold robes. Keep original front-facing three-quarter reaching pose. Remove environment huge background clock, floating numerals/crystals golden swirls floor magic circle sparkles and white backdrop. Retain physical character and held hourglass only, with true transparent alpha through gaps. Entire silhouette centered64% square with18% clear margins. No redesign/text/frame. Preserve exact UR face and equipment.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・砂時計・耳・尾・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

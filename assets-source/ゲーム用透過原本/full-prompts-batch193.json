@@ -1,0 +1,31 @@
+[
+  {
+    "key": "016-hour-owl_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\016-hour-owl\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-63826729-40b1-4476-9e39-81f472dde759.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\016-hour-owl_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\016-hour-owl_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\016-hour-owl_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      263,
+      886,
+      817
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR hour owl reference card. Preserve exact brown owl face cream facial disk yellow black eyes yellow open beak both ear tufts, full body wings feet claws, entire navy gold square scholar hat blue gem tassel, entire held golden hourglass glass and sand, navy gold flowing star cape all ends and blue jeweled bow. Keep original front-facing standing reaching-wing pose. Remove golden environment swirls floor clock circle floating sparks white background and ground shadows. Retain physical owl clothing hat and held hourglass only. True transparent alpha through gaps. Whole silhouette centered64% square with18% clear margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・砂時計・帽子・両翼・足・マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "011-diff-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\011-diff-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d2a63440-b129-419c-88a2-c3b8c226d594.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\011-diff-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\011-diff-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\011-diff-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      200,
+      886,
+      879
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of supplied SR diff bird card. Preserve exactly ONE two-tone bird: orange red left half and blue white right half, exact face golden beak and eyes, full crest, both full spread physical feather wings, both feet/claws and complete split-color tail. Keep original frontal flying pose and color split. Remove all separate fire/water swirls, floating feathers, crystals, droplets, sparks, floor circles, white backdrop, ground, glow and shadows. Physical feather coloration remains. True transparent alpha with clean edges. Whole silhouette centered64% square with18% transparent margin each side. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・顔・両翼・両足・尾・左右の配色保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

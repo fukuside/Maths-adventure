@@ -1,0 +1,30 @@
+[
+  {
+    "key": "001-plus-rabbit_UR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Precise-object-edit of this transparent UR rabbit cutout. Keep every physical character detail unchanged: full face ears crown hands feet white green gold cape staff ring attached chains jewels. Remove ALL residual yellow/red speckles inside the staff ring, near crown, along every outer edge and between hanging objects. Empty spaces must have alpha zero, with no floating dots, matte or halo. Same original front pose. Keep whole silhouette and shrink it centered to 60% canvas, 20% clean transparent padding on every edge. Do not redesign, add effects, text or scenery. Actual transparent alpha PNG.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending159-generated.png",
+    "cardReference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\001-plus-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5e758f29-5055-450a-af5e-5d029b477e60.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\001-plus-rabbit_UR-pending165-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      0,
+      27,
+      1234,
+      1254
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "第159便を直接修正。顔・全身・衣装装備保持。杖円環内・鎖周辺・冠周辺の黄赤残りと浮遊点が残存し保留。"
+  }
+]

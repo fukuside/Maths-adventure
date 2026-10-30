@@ -1,3 +1,4 @@
+import {usageEvent,usageMode} from "./usage.js";
 import {rewardDay,rewardUnlockStatus,recordRewardClear,rewardUnlockHint,rewardResetNote} from './reward-unlock.js';
 import {prepareWritten,editWrittenInput,writtenAnswerComplete,checkWrittenAnswer} from './written-easy.js';
 import {rewardLobby,purchaseEntry} from './reward-games.js';
@@ -207,6 +208,7 @@ export function createApp(root) {
     false;
 
     function resetLearningSession() {
+    usageEvent("study-start");
 
     learningSessionStartedAt =
       Date.now();
@@ -700,7 +702,7 @@ root.addEventListener(
       if(['treasure-fishing','monster-path'].includes(t.dataset.game)&&!unlockedPartnerEntries().some(x=>x.rarity==='N'))return;
       if(!rewardUnlockStatus(state).unlocked){render();return;}
       const entry=purchaseEntry(state.gems,t.dataset.game);if(!entry)return;
-      activeRewardGame=entry.game;state.gems=entry.gems;screen='reward-play';render();persistState(state);return;
+      usageEvent('game-entry',entry.game.id);activeRewardGame=entry.game;state.gems=entry.gems;screen='reward-play';render();persistState(state);return;
     }
     if (a === "survey-later") { snoozeSurvey(localStorage); render(); return; }
     if (a === "change-course") {
@@ -2882,6 +2884,7 @@ function sample(arr){
 }
 
   function finish() {
+  usageEvent("study-clear");
   const lockedBefore=stages.filter(s=>s.world===currentStage.world&&s.isBoss&&!s.hiddenFromWorld&&!bossUnlockStatus(state,s,stages).unlocked);
   recordTrail(state,currentStage,challengeRunId,qi,questions.length);
   newlyUnlockedBosses=lockedBefore.filter(s=>bossUnlockStatus(state,s,stages).unlocked);
@@ -2945,7 +2948,9 @@ function sample(arr){
   void saveLearningSession();
 
 
+  const wasUsageUnlocked=rewardUnlockStatus(state).unlocked;
   recordRewardClear(state,challengeRunId);
+  if(!wasUsageUnlocked && rewardUnlockStatus(state).unlocked)usageEvent("unlock");
   persistState(state);
 
   screen = "result";
@@ -2962,6 +2967,7 @@ function sample(arr){
     if(isSoundEnabled()&&!stageBgmFading&&((changed&&status.fading)||(!status.playing&&!status.pending&&(changed||changedTrack))))void titleMusic.play();
   }
   function render() {
+  usageMode(screen==='game'?'study':screen==='reward-play'?'game':'other');
   if(screen==='reward-play'&&root.querySelector('.reward-game-frame'))return;
   syncScreenBgm();
 
@@ -4567,6 +4573,10 @@ function renderFractionAnswerInput(
       qi
     ] ?? null;
 
+
+  if(question?.keypad === 'expression') {
+    return escapeHtml(String(value ?? '').replaceAll('/', '÷').replaceAll('*', '×'));
+  }
 
   /* =====================================================
      24時間表記

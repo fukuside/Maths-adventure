@@ -1,0 +1,31 @@
+[
+  {
+    "key": "017-clock-cat_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\017-clock-cat\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-62931a2a-8939-496c-a051-63b3527c3cee.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\017-clock-cat_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\017-clock-cat_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\017-clock-cat_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      205,
+      194,
+      875,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR reference card exactly as shown regardless of filename. Preserve this exact cream-green leaf dragon face green eyes happy open mouth, full wooden branching antlers attached leaves leaf crown emerald forehead diadem ears, full body both hands claws both feet, entire tail leaf tuft, green gold ornate full cape with every end and all emerald gems chains pendants bracers anklets. Keep original front-facing three-quarter raised-hand standing pose. Remove environment detached swirling vines/branches floating leaves gems golden green magic swirls floor circle sparkles ground white background. Retain physical creature and worn gear only. True transparent alpha through gaps. Entire silhouette centered64% square with18% clear transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・枝角・葉冠・両手足・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

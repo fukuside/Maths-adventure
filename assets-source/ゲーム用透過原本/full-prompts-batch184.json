@@ -1,0 +1,31 @@
+[
+  {
+    "key": "011-diff-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\011-diff-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5f911226-0e2d-4502-8b3e-dea21b3649db.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\011-diff-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\011-diff-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\011-diff-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of UR diff bird card. Preserve exactly ONE split-color royal bird orange red left half and blue white right half; exact frontal face golden beak eyes, full crest and forehead jewel, both full spread physical feather wings with gold filigree armor, chest gem and chain, leg armor, both feet/claws and complete split-color tails with attached gold trims. Keep original frontal flying pose and asymmetrical feathers. Remove ALL separate fire/water swirls, floating crystals, feathers, droplets, sparks, floor circles, ground, white backdrop, glow and shadows. Reconstruct tiny wing tips clipped by card boundary consistently. True transparent alpha clean edges. Full silhouette centered64% square with18% transparent margins. No redesign/text/frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・顔・両翼・両足・尾・左右の配色保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

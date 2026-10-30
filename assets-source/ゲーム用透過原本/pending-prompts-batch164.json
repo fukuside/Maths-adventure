@@ -1,0 +1,30 @@
+[
+  {
+    "key": "004-apple-bear_SR",
+    "status": "pending-quality",
+    "tool": "built-in imagegen",
+    "prompt": "Clean up existing transparent SR apple bear cutout. Keep exact full body, face, pose, ears, head leaf, apple, scarf, straps and backpack unchanged. Remove thin bright red/yellow/green contaminated fringe and scattered pixels outside the actual bear outline. Natural clean alpha antialias only; no color halo or matte. Scale intact entire silhouette smaller, occupying 60% of square height, centered with 20% empty transparent border each side. No background, shadow, extra objects, text or redesign. True alpha PNG.",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending158-generated.png",
+    "cardReference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\004-apple-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e7891334-861a-46ed-b96c-0461ef716968.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\004-apple-bear_SR-pending164-generated.png",
+    "size": [
+      1254,
+      1254
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      33,
+      32,
+      1204,
+      1228
+    ],
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "visualReview": "第158便を直接修正。全身・装備保持。頭・腕・足の外周に赤い残りと浮遊点が残存し保留。"
+  }
+]

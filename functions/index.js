@@ -3951,3 +3951,5 @@ exports.sendWeeklyLearningReports =
       return null;
     }
   );
+// Aggregate-only management analytics; independent of learning saves.
+Object.assign(exports, require("./usage-functions.cjs"));

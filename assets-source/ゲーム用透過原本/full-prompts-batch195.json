@@ -1,0 +1,31 @@
+[
+  {
+    "key": "017-clock-cat_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\017-clock-cat\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e305fade-bd93-4d97-b2f4-f3b853e32b96.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\017-clock-cat_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\017-clock-cat_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\017-clock-cat_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      218,
+      194,
+      861,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit attached SR card exactly as shown regardless of filename. Preserve this exact cute cream-green leaf dragon creature, green eyes happy face, full wooden branching antlers with attached leaves, leaf crown ears, full body both hands claws both feet, entire curved tail with leaf tuft, green gold leaf cape and all gold green gems and pendant. Keep original front-facing three-quarter raised-hand standing pose. Remove floating detached leaves, green magic swirls, floor circle, sparkles ground shadow and white background. Retain physical creature and its worn equipment only. True transparent alpha through all gaps. Whole silhouette centered64% square with18% transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・枝角・葉冠・両手足・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

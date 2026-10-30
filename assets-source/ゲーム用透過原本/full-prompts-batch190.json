@@ -1,0 +1,31 @@
+[
+  {
+    "key": "014-minus-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\014-minus-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-66c529f8-2723-4dec-8dcc-d3b328b31d34.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\014-minus-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\014-minus-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\014-minus-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      215,
+      886,
+      865
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background extraction edit of UR minus king reference card. Preserve this exact purple-grey royal wolf-cat identity, purple eyes, cream brows cheeks and beard, both ears, huge jeweled purple gold crown with top cross, entire staff with orb gold cross and finial through bottom tip, both hands with paw pads/claws, both feet, purple gold intricate robes jewelry chains and full fur-lined sweeping cape ends. Keep original front-facing dramatic reaching pose and full-body silhouette. Remove ALL environment, floating rocks, purple magic swirls lightning sparkles floor circle ground shadow and white background. Retain only physical character, clothing and held staff. True transparent alpha including gaps around staff and cape, no checkerboard painted in. Center whole silhouette within 64% of square with18% transparent margins. No redesign, no text/frame. Keep exact UR details and face.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・杖・冠・尾・マント・宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]
