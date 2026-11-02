@@ -3013,7 +3013,7 @@ function sample(arr){
 }
   function body() {
   if(screen==='reward-lobby'&&!rewardUnlockStatus(state).unlocked)return '<section class="panel stack"><h2>ごほうびゲーム</h2>'+rewardUnlockHint(state)+rewardResetNote+'<p>まずは2ステージ学習してから遊ぼう！入場にはダイヤ5個も必要です。</p><button class="button" data-action="go" data-screen="title">さんすうに挑戦する</button></section>';
-  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length,unlockedPartnerEntries().filter(x=>x.rarity==='SR').length,unlockedPartnerEntries().filter(x=>x.rarity==='UR').length);
+  if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length,unlockedPartnerEntries().filter(x=>x.rarity==='SR').length,unlockedPartnerEntries().filter(x=>x.rarity==='UR').length,getActivePlayer()?.playerId||'guest');
   if(screen==='reward-play'){
     const owned=unlockedPartnerEntries().filter(x=>activeRewardGame?.id==='monster-merge'?x.rarity==='UR':activeRewardGame?.id==='monster-pinball'?x.rarity==='SR':['treasure-fishing','monster-path'].includes(activeRewardGame?.id)?x.rarity==='N':['N','SR','UR'].includes(x.rarity)).map(x=>({key:x.key,name:x.card.name,rarity:x.rarity,image:image(x.card,x.rarity)}));
     const source=(activeRewardGame?.url||'/reward-games/monster-run.html')+'?player='+encodeURIComponent(getActivePlayer()?.playerId||'guest')+'#'+encodeURIComponent(JSON.stringify(owned));

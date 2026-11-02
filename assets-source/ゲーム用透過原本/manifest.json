@@ -4650,5 +4650,34 @@
     "gameMirrorX": false,
     "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
     "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白毛・四肢・曲尾・星紋・青金首輪宝石・鎖・宝石冠・星マント・手輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "052-dot-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\052-dot-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-78be6c18-a4ab-4345-8f9e-df69d1127780.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\052-dot-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\052-dot-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\052-dot-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      197,
+      886,
+      883
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR dot bird reference. Preserve identical white green yellow mosaic tile feather bird green eyes open yellow beak whole tall crest both complete wings all geometric feather tips complete fan tail both golden feet claws. Keep original front threequarter flying pose and physical tile feather texture. Remove left magic sphere all detached pixel squares sparkles green light trails ground mosaic magic circle shadow offwhite background. Recover wing section obscured by magic consistently, keep just two wings. True transparent alpha all feather gaps. Center full silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑両目・黄色嘴・両翼・両足爪・白緑黄タイル羽・冠羽・扇尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
   }
 ]
