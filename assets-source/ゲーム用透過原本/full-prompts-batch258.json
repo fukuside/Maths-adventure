@@ -1,0 +1,31 @@
+[
+  {
+    "key": "049-point-slime_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\049-point-slime\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-da8a979e-dc7b-4d8e-8bed-473936e3654b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\049-point-slime_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\049-point-slime_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\049-point-slime_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      211,
+      886,
+      869
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR point slime reference. Preserve identical golden orange glossy slime drop full teardrop top body attached side arm nubs and lower foot lobes, dark amber oval eyes white highlights pink cheeks happy open mouth, white connected five point dot constellation marking on body. Keep front floating pose and physical glossy highlights orange body. Remove external fireball at left all detached bubbles sparks orange swirling trails ground magic circle shadows offwhite background. Reconstruct physical left arm nub hidden by fireball consistently. True transparent alpha outside silhouette. Center entire body64 percent square18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀両目・笑顔・桃頬・橙雫体・腕突起・足葉・白点連結紋保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

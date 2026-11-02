@@ -1,0 +1,31 @@
+[
+  {
+    "key": "041-kuku-king-gold_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\041-kuku-king-gold\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6620ce52-d2a5-45d5-8e18-e19111c574d6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\041-kuku-king-gold_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\041-kuku-king-gold_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\041-kuku-king-gold_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      217,
+      886,
+      862
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR kuku king gold reference. Preserve exact golden fivepoint star monarch body black oval eyes curled black moustache forehead star, both gold hands feet, full gold crown blue red gems, full held gold red jeweled scepter tip bottom finial, red gold cape white black spotted fur every end gold chest star chain clasps. Original front-facing three-quarter standing stepping pose unchanged. Remove external gold swirl glitter stars floor magic circle shadows black background. Physical star king equipment only. True transparent alpha all gaps. Entire complete silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・黒髭・星体・両手足・冠・王笏・赤金マント・白毛皮・星胸飾り保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "038-massive-golem_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\038-massive-golem\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-aefa722f-c2a9-4886-a98f-91d83dda51a6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\038-massive-golem_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\038-massive-golem_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\038-massive-golem_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      196,
+      194,
+      883,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR massive golem reference. Preserve exact dark craggy rock golem glowing purple eyes head central amethyst full massive body both fists hands fingers both legs feet, all attached purple crystals head chest shoulders arms knees, ornate gold armor bands spikes waist gem and dark stone texture. Original front-facing three-quarter crouched standing pose unchanged. Remove all detached floating rocks crystals external purple lightning vortex sparks floor magic circle ground shadows background. Physical golem only. True transparent alpha all gaps between arms body legs. Entire complete silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・岩頭・両拳指・両脚足・紫水晶・金鎧・岩肌保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

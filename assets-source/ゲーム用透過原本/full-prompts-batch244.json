@@ -1,0 +1,31 @@
+[
+  {
+    "key": "042-half-penguin_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\042-half-penguin\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-cea648ed-47fb-4c34-8859-c40cb476c52a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\042-half-penguin_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\042-half-penguin_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\042-half-penguin_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      218,
+      194,
+      862,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR half penguin reference. Preserve exact navy white penguin blue eyes happy open yellow beak, entire round body both wings both yellow feet toes black talons, asymmetric attached ice crystal crest on right half head and crystal right wing shoulder tail feathers all tips. Keep original front-facing three-quarter airborne pose. Remove ice magic burst in front of left wing, detached ice shards snowflakes sparkles water spiral shadows offwhite backdrop. Reconstruct unobscured left physical wing consistently if needed. Keep attached crystal plumage, not environmental shards. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・嘴・両翼・両足爪・青白体・片側の氷結晶羽・尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

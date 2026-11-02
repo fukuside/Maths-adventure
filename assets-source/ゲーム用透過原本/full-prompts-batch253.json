@@ -1,0 +1,31 @@
+[
+  {
+    "key": "046-remainder-cat_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\046-remainder-cat\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-923700ce-ad03-4b01-86e1-f95c37cd92b6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\046-remainder-cat_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\046-remainder-cat_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\046-remainder-cat_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      218,
+      886,
+      862
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR remainder cat reference. Preserve exact black purple cat golden eyes pink ears happy open mouth forehead diamond rune whiskers full body four paws long claws purple pads full curled tail. Preserve every purple gold pointed constellation robe cape panel, red jewel collar big gold bell clasps gold chains hanging gems and gold tail ornament with chain pendant. Keep front threequarter floating pose. Remove all separate clocks hourglass floating crystals purple lightning magical rings ground debris background and external sparkle. Attached constellation markings remain. True transparent alpha all gaps. Whole silhouette centered64 percent square18 percent margin. No text frame redesign pose change.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・金色両目・耳・四肢・髭・黒紫毛・紫金マント・鈴首輪・曲尾・額菱紋・長爪・金鎖・尾装飾とペンダント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

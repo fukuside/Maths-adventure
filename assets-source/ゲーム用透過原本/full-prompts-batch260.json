@@ -1,0 +1,31 @@
+[
+  {
+    "key": "050-tenths-pon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\050-tenths-pon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5ec290f7-b8d3-48eb-b8d0-58bc7461d968.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\050-tenths-pon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      225,
+      886,
+      854
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR tenths pon reference. Preserve exact glossy silver gray slime full droplet top body all attached side arm and lower foot lobes black blue oval eyes white highlights pink cheeks happy open mouth white connected dot constellation on surface. Keep front floating pose, silver body and glossy reflective white highlights intact. Remove left magic orb all detached silver bubbles silver wind trails sparkles ground circle shadow offwhite background. Restore left physical nub hidden by orb consistently. True transparent alpha outside silhouette; do not erase silver white body as background. Entire silhouette centered64 percent square18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青黒両目・笑顔・桃頬・銀灰雫体・腕突起・足葉・白点連結紋保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

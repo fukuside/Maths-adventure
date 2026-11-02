@@ -1,0 +1,31 @@
+[
+  {
+    "key": "042-half-penguin_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\042-half-penguin\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d11b0ad5-5858-42b9-95c6-f69ef965929d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\042-half-penguin_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\042-half-penguin_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\042-half-penguin_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      208,
+      886,
+      871
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit target UR half penguin reference. Preserve identical blue eyes open yellow beak white navy full body both wings both golden feet black claws, asymmetrical attached ice crystal crown and right wing feathers, gold blue jewel chest armor arm wing ornaments ankle bands tail. Keep front three-quarter airborne pose. Remove all detached ice shards snowflakes magic circle left of wing water spiral and background. Physical penguin and worn armor only. Reconstruct left physical wing hidden by magic consistently. True transparent alpha all gaps. Whole silhouette centered 64 percent square with 18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・嘴・両翼・両足爪・青白体・片側の氷結晶羽・尾・金青宝石胸飾り・足輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

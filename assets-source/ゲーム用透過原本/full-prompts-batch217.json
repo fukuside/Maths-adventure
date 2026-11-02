@@ -1,0 +1,31 @@
+[
+  {
+    "key": "028-money-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\028-money-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-47fe976c-c26e-4c4c-95d9-52caefb74ef8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\028-money-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\028-money-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\028-money-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      198,
+      194,
+      882,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR money king reference. Preserve exact gold lion face brown eyes open mouth teeth cream muzzle full orange mane round ears, full body hands feet paw pads complete curved tufted tail, whole jeweled gold red crown, held full gold coin scepter crowned top red bow and bottom finial, red gold green royal clothes white fur cape every end belt cross buckle chains jewels cuffs. Keep original front-facing three-quarter leaping pose. Remove detached coins sparks golden energy swirl castles treasure chest floor coin piles money bag gems ground shadows cream backdrop. Physical character held equipment only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign pose change added labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・たてがみ・尾・冠・コイン王笏・赤リボン・赤金緑衣装・白毛皮・宝石・鎖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "045-group-golem_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\045-group-golem\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6b8b33b2-e26c-4ab9-858d-854c5bfa4986.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\045-group-golem_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\045-group-golem_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\045-group-golem_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      200,
+      194,
+      880,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR group golem reference. Preserve identical massive mossy brown rock golem lime glowing eyes black face recess spiral glowing chest rune, gold engraved shoulder wrist waist knee ornaments, entire body both arms left open rock palm and right huge fist both legs complete feet attached moss leaves. Preserve three small companion round rock faces upperleft midleft upperright with two lime eyes each. Top middle plain boulder is environmental and must be removed. Keep front threequarter powerful stance. Remove all other loose rocks ground dust gold green energy spirals lightning sparks backdrop. Recover ground-hidden feet consistently. True transparent alpha between all group members. Center complete group64 percent square18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・発光両目・岩全身・左開き掌・右拳・両足・苔葉・胸渦紋・小岩顔3体・金彫刻装甲保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

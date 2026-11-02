@@ -1,0 +1,31 @@
+[
+  {
+    "key": "035-rainbow-dragon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\035-rainbow-dragon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-52c9f67d-fe22-4718-b5a0-9427004cfcf7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\035-rainbow-dragon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\035-rainbow-dragon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\035-rainbow-dragon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      213,
+      886,
+      867
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR rainbow dragon reference. Preserve exact purple dragon blue eyes happy open mouth teeth tongue cream muzzle belly, complete gold horns ears rainbow mane, whole body both hands feet gold claws, BOTH full spread purple pink orange membrane wings all tips, complete long curled tail gold dorsal spikes and rainbow tail tuft every feather, attached gold star markings. Keep original front-facing three-quarter airborne pose. Remove external rainbow ring floating stars sparkles galaxy streaks floor magic circle ground shadows. Physical dragon only with true transparent alpha outside and all gaps. Do not remove colored wing membranes as background. Entire silhouette centered64% square18% margin. No redesign pose changes labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・角・耳・虹たてがみ・両手足爪・両翼膜・尾・背棘・虹尾房・星模様保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

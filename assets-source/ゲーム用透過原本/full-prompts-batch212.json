@@ -1,0 +1,31 @@
+[
+  {
+    "key": "025-change-fox_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\025-change-fox\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-716e266d-f5ff-44b9-bb19-1d618e819094.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\025-change-fox_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\025-change-fox_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\025-change-fox_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      204,
+      886,
+      876
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR change fox reference. Preserve exact orange fox brown eyes happy open mouth white cheeks muzzle chest black tipped long ears leaf hair ornament, full body both arms feet dark paws complete bushy orange white tipped tail, full ornate green gold flowing cape every end, jeweled brooch pendant chains leaf tassels leather belts pouches gold arm guards, full held green jewel gold leaf staff with entire shaft pointed bottom and attached leaf chains. Preserve original front-facing three-quarter leaping pose. Remove fire orb around outstretched palm and reveal matching dark physical paw, detached leaves gems rocks energy swirls sparks background ground shadows. Physical character equipment only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign no new pose no labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・尾・葉髪飾り・宝石杖・革ベルト・鞄・腕具・緑金マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

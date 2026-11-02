@@ -1,0 +1,31 @@
+[
+  {
+    "key": "028-money-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\028-money-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-bf076bcf-601c-41b9-99f3-afc5a210fef7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\028-money-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\028-money-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\028-money-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      198,
+      886,
+      882
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR money king reference. Preserve exact gold lion face brown eyes open roaring mouth teeth cream muzzle orange mane all tips round ears, full body hands claws feet pads and tail if visible, complete jeweled crown, full held tall gold coin scepter crowned top red bow gold leaf mount jewels full shaft pointed bottom, red gold green royal clothing white spotted fur cape all large curling ends gold chains belt dollar buckle gems wrist cuffs. Preserve original front-facing three-quarter leaping pose. Remove floating coins crystals golden energy rings sparks castles flags treasure chest money sack floor piles ground shadows. Physical character gear only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign no pose change no labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・たてがみ・尾・冠・コイン王笏・赤リボン・赤金緑衣装・白毛皮・宝石・鎖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

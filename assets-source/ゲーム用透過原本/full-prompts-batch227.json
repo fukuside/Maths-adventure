@@ -1,0 +1,31 @@
+[
+  {
+    "key": "033-star-wolf_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\033-star-wolf\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-29c3f14e-7d87-4626-9652-37582865ecf5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\033-star-wolf_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\033-star-wolf_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\033-star-wolf_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      206,
+      194,
+      873,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR star wolf reference. Preserve exact indigo purple white wolf face gold eyes smiling mouth black nose both pointed ears white forehead star marking gold head ornament, entire fur body all four legs paws raised forepaw complete curled bushy white tipped tail, attached gold star chest brooch shoulder harness bands limb ornaments and star markings on fur. Original front-facing three-quarter standing pose unchanged. Remove detached floating gold stars all orbital glowing lines blue sparkles galaxy background floor star platform ground shadows. Physical wolf gear only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign new pose labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・耳・四足・尾・紫白毛・額星・胸星・肩ハーネス・金装飾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

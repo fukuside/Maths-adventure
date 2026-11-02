@@ -1,0 +1,31 @@
+[
+  {
+    "key": "048-divide-emperor_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\048-divide-emperor\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-267d135e-93df-4aa7-a713-7b02db33b960.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\048-divide-emperor_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      212,
+      886,
+      867
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR divide emperor reference. Preserve exact black void face two violet eyes long white hair black purple gold horned crown central violet diamond, full both arms left hand gripping staff right open five finger glove, entire dark purple gold diamond robe cape chains hanging physical gems both boots. Preserve entire held gold dark staff crescent horn head purple orb and finial. Keep original front threequarter standing pose. Remove magical light burst in palm all floating unattached diamonds purple swirls ground magic circle shadows backdrop. Staff orb is physical equipment keep it. True transparent alpha all gaps. Whole silhouette centered64 percent square18 percent margin. No text frame redesign pose change.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫両目・白髪・角冠・両手足・紫金衣装・鎖宝石・長杖と紫球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

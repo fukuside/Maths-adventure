@@ -1,0 +1,31 @@
+[
+  {
+    "key": "036-octopal_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\036-octopal\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c335aa69-d4dd-4f65-9f5b-d458f0faf235.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\036-octopal_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      220,
+      886,
+      860
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR octopal reference card. Preserve exact purple octopus face purple eyes sly smile cheeks all physical curled tentacles and pink suction cups every rear limb and staff gripping limb, full purple gold star wizard hat curved tip brim ornate gold purple jeweled headpiece, held full dark gold staff crescent prongs purple orb gold mounts and pointed bottom, attached gold purple gem tentacle armor chains and painted stars. Keep original front-facing pose. Remove galaxy vortex floating crystals bubbles detached stars sparks floor magic circle shadows background. Keep physical orb. True transparent alpha all gaps between limbs staff hat. Entire silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・頬・全触腕・吸盤・魔法帽・宝石・杖・球・金装飾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

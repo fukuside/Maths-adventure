@@ -1,0 +1,31 @@
+[
+  {
+    "key": "043-divide-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\043-divide-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4640793c-17ef-4116-92c5-7921a8217814.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\043-divide-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\043-divide-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\043-divide-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      211,
+      194,
+      869,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit target SR divide bird reference. Preserve exact blue orange white feathered bird identity golden eyes yellow open beak full both spread wings all feather tips blue orange crest both golden feet black talons complete sweeping forked long blue orange tail. Keep original front three-quarter airborne pose. Remove detached fireball left, swirling fire trails sparks sky clouds and all environment. Attached orange feathers remain. True transparent alpha including feather gaps. Full silhouette centered64 percent square18 percent margin. No text frame pose change redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・金色の両目・黄色の嘴・青橙白羽・両翼全端・両足黒爪・長い分岐尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

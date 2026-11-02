@@ -1,0 +1,31 @@
+[
+  {
+    "key": "039-lightning-fang_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\039-lightning-fang\\UR.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7ecc930a-71e4-4e14-9633-82a7fb4d769f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\039-lightning-fang_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\039-lightning-fang_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\039-lightning-fang_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      203,
+      194,
+      877,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR lightning fang reference. Preserve exact blue white wolf cyan eyes snarling open mouth teeth tongue black nose both ears full spiky fur body all four legs paws black claws full curled raised white tipped tail, all attached gold blue crystal head crown chest shoulder spikes leg bracers and lightning fur markings. Keep original front-facing three-quarter pouncing crouch. Remove external lightning arcs sparks rocks blue magic floor circle shadows dark background. Physical wolf armor only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・口歯・耳・四足爪・尾・青白毛・稲妻模様・金青水晶鎧・冠・脚防具保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

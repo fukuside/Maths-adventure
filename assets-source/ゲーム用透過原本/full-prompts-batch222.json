@@ -1,0 +1,31 @@
+[
+  {
+    "key": "030-twinbird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\030-twinbird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-63a624df-50a7-4f22-9102-b13aedd93732.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\030-twinbird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\030-twinbird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\030-twinbird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      197,
+      194,
+      883,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR twinbird reference. Preserve BOTH white green teal birds as one paired asset exact faces green eyes open yellow beaks crests gold green head ornaments, both full bodies all four wings complete white teal green gold feather tips, both long jeweled fan tails all four gold claw feet, all attached emerald gold chest wing tail jewelry. Preserve original relative arrangement left higher facing right right lower facing left inward three-quarter flight poses. Remove detached leaves feathers wind vortex golden streaks sparks stars magic circle ruins plants ground shadows background. Keep both complete physical birds only. True transparent alpha all gaps. Entire paired silhouette centered64% square18% margin. No redesign no pose change no labels frame.\n",
+    "sourceFacing": "mixed-inward",
+    "gameFacing": "mixed-inward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・2羽・両顔・嘴・4翼・羽先・2尾・4足爪・胸・翼・尾・頭の宝石金装飾保持。環境除去。2羽の内向き原配置維持・一方向扱いなし。実機未確認。"
+  }
+]

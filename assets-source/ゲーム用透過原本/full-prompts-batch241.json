@@ -1,0 +1,31 @@
+[
+  {
+    "key": "040-divine-phoenix_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\040-divine-phoenix\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2837a2b7-74b5-4385-870b-2a510f640a20.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\040-divine-phoenix_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\040-divine-phoenix_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\040-divine-phoenix_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      201,
+      194,
+      878,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR divine phoenix reference. Preserve exact red orange gold phoenix face orange eye open yellow beak full flame feather crest, entire body BOTH full spread wings all red orange gold feather tips complete long curling flame-shaped tail feathers both legs toes black talons, ornate gold red crystal forehead chest wing and leg armor. Original left-facing three-quarter standing pose unchanged. Remove external fire vortex embers sparks detached rocks lava floor magic ring ground shadows background. Preserve physical flame-shaped feathers not surrounding fire ring. True transparent alpha all gaps. Entire complete silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・橙眼・嘴・冠羽・両翼・羽先・両脚爪・長い尾羽・赤橙黄羽・金赤宝石鎧保持。環境除去。左向き原姿勢維持・ゲーム描画時左右反転。実機未確認。"
+  }
+]

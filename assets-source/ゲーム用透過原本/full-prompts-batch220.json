@@ -1,0 +1,31 @@
+[
+  {
+    "key": "029-waterpon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\029-waterpon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1e5376e3-066f-489f-8c81-c36a9b20070e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\029-waterpon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\029-waterpon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\029-waterpon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      244,
+      194,
+      836,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR waterpon reference. Preserve exact round cyan blue watery creature face huge blue eyes happy open purple blue mouth blush cheeks, complete curved teardrop crest and connected rounded tip, entire body all rounded attached limbs including raised right arm with stacked watery shapes far left arm and both feet. Preserve original front-facing three-quarter tilted airborne pose and glossy watery material highlights. Remove all surrounding water tornado waves splashes streams detached droplets bubbles glitter underwater background floor pool ripples shadows. Character silhouette only, true transparent alpha outside and gaps; retain blue body unchanged not erase it as background. Entire silhouette centered64% square18% margin. No redesign pose change added labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い球体・顔・両目・口・頬・水滴冠・丸い手足・水質感保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

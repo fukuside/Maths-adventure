@@ -1,0 +1,31 @@
+[
+  {
+    "key": "045-group-golem_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\045-group-golem\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5d516484-9288-41c8-a5fd-896589f3ff2b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\045-group-golem_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\045-group-golem_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\045-group-golem_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      195,
+      194,
+      884,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR group golem reference. Preserve exact central mossy brown rock golem glowing lime eyes black face recess luminous spiral chest rune, full head torso both boulder fists arms legs complete feet attached moss and leaves. Keep original front threequarter running pose. Preserve three distinct small round rock companion faces with two lime eyes each in same upperleft upperright lowerleft arrangement as physical members of this monster group. Remove all other loose rocks dirt impact debris ground dust green wind trails sparks offwhite backdrop detached leaves. Recover right planted foot hidden by impact consistently. True transparent alpha including between four group members. Center entire group within64 percent square18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・発光両目・岩全身・両拳・両足・苔葉・胸渦紋・小岩顔3体保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

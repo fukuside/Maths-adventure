@@ -1,0 +1,31 @@
+[
+  {
+    "key": "047-quotient-wolf_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\047-quotient-wolf\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c9dc268c-4e37-45e9-bb30-a81d9f379265.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\047-quotient-wolf_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\047-quotient-wolf_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\047-quotient-wolf_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      227,
+      886,
+      853
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR quotient wolf reference. Preserve identical blue white wolf single visible blue eye black gold star eyepatch strap white forehead lightning fur mark full ears nose all four paws black claws bushy white tipped tail. Preserve ornate navy gold constellation cape panels gold chains blue diamond gems star clasp wrist shin armor and physical gold chained star frame held over raised left palm. Remove blue energy orb inside that frame leaving transparent opening. Remove background giant spectral wolf entire apparition, magic circles loose crystals blue wind lightning sparks ground rubble backdrop. Keep original front threequarter pose. True transparent alpha all gaps. Center full silhouette64 percent square18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い片目・黒金眼帯・青白毛・四肢黒爪・白先尾・青金マント・星留め・青菱宝石・金鎖・手足鎧・掌の金星枠保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "050-tenths-pon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\050-tenths-pon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4f97a32b-2463-4fd8-b104-8e6158519fd5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\050-tenths-pon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      249,
+      886,
+      831
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR tenths pon reference. Preserve identical glossy silver gray slime full droplet top body all attached arm and foot lobes black blue eyes pink cheeks joyful mouth white linked dot constellation. Preserve silver diamond crown blue white jewels entire silver blue diamond patterned cape all ends and central silver blue gem clasp. Keep front floating pose. Remove left magic orb all detached bubbles diamonds silver swirls sparkles ground circle shadows dark backdrop. Recover cape clipped edge consistently. Do not erase silver white body highlights. True transparent alpha outside silhouette and cape gaps. Entire character centered64 percent square18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青黒両目・笑顔・桃頬・銀灰雫体・腕突起・足葉・白点連結紋・銀宝石冠・銀青マント・中央宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

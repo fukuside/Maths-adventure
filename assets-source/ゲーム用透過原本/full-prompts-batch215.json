@@ -1,0 +1,31 @@
+[
+  {
+    "key": "027-gold-panda_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\027-gold-panda\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2603d927-7c00-4298-8f27-98c4f22d4520.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\027-gold-panda_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\027-gold-panda_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\027-gold-panda_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      206,
+      194,
+      873,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR gold panda reference. Preserve exact cream black panda face brown black eyes open happy mouth little teeth black nose ears, full body both hands feet paw pads, full held gold framed magnifying glass including pale reflective lens and handle, blue gold cap round emblem blue bow tie cream gold apron leather shoulder bag straps buckles. Keep original front-facing three-quarter leaping pose. Remove detached coins stars gold energy swirls shop building flowers cobblestone ground shadows offwhite background. Physical character and equipment only. True transparent alpha all gaps; preserve pale reflective glass lens rather than remove its center. Entire silhouette centered64% square18% margin. No redesign pose change added text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・金縁ルーペ・青金帽子・蝶ネクタイ・革鞄・エプロン保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

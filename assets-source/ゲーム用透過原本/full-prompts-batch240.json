@@ -1,0 +1,31 @@
+[
+  {
+    "key": "040-divine-phoenix_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\040-divine-phoenix\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-24fa894d-95d0-4c6d-a641-f231e4f5aed4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\040-divine-phoenix_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\040-divine-phoenix_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\040-divine-phoenix_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      208,
+      194,
+      871,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR divine phoenix reference. Preserve exact red orange gold bird face orange eye open yellow beak entire flame shaped feather crest, full body BOTH spread wings every red orange yellow feather tip, both golden legs toes talons, complete long curling flame-shaped red orange gold tail feathers. Preserve original left-facing three-quarter standing pose. Remove surrounding detached flames floating embers sparks glowing floor magic circle shadows dark background. Keep physical flame-shaped feathers intact, no flame ring. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・橙眼・嘴・冠羽・両翼・羽先・両脚爪・長い尾羽・赤橙黄羽保持。環境除去。左向き原姿勢維持・ゲーム描画時左右反転。実機未確認。"
+  }
+]

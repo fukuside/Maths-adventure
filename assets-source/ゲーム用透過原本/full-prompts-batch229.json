@@ -1,0 +1,31 @@
+[
+  {
+    "key": "034-six-speaker_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\034-six-speaker\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7b4279c8-a217-4e09-bac0-cec4e2bb0abf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\034-six-speaker_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\034-six-speaker_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\034-six-speaker_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      256,
+      886,
+      823
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR six-speaker reference. Preserve exact yellow black striped bee warrior serious face black eyes mouth both antennae, entire round body two legs armored feet, ALL SIX separate arms hands each gripping its own gold lightning sword with cyan jeweled hilt, all SIX complete blades tips, gold helmet brow jewel shoulder arm leg armor and both pale veined wings. Preserve exact front-facing symmetrical standing pose. Remove external electrical arcs detached sparks rocks lightning floor ring shadows white backdrop. Retain physical six lightning blades and wing membranes, not background lightning. True transparent alpha all gaps between arms swords wings. Whole silhouette centered64% square18% margin. No redesign new pose no missing weapons added text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・触角2本・6腕6手・雷剣6本・2脚・両翅・金鎧・青宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

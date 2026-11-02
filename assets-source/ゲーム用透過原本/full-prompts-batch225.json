@@ -1,0 +1,31 @@
+[
+  {
+    "key": "032-clover-turtle_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\032-clover-turtle\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-666cb114-03ae-446c-9ee0-d85793b031e1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\032-clover-turtle_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\032-clover-turtle_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\032-clover-turtle_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      250,
+      886,
+      830
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR clover turtle reference. Preserve exact pale green turtle face green black eyes happy open mouth, full head neck green scaled body all physical legs visible claws short tail, entire domed dark green segmented shell including large four leaf clover shell emblem gold rim scrollwork attached clover jewels. Preserve original left-facing three-quarter crawling standing pose. Remove floating clovers detached leaves magic green gold swirl sparks grass flowers moss rocks ground shadows white backdrop. Physical turtle shell only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign no pose change text frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・頭頸・脚爪・尾・鱗・甲羅・大クローバー・金縁・宝石装飾保持。環境除去。左向き原姿勢維持・ゲーム描画時左右反転。実機未確認。"
+  }
+]

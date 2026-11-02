@@ -1,0 +1,31 @@
+[
+  {
+    "key": "026-shop-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\026-shop-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0b0d0a25-4c05-4dc0-80de-1214f3f1ce0d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\026-shop-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\026-shop-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\026-shop-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      247,
+      886,
+      832
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR shop bird reference. Preserve exact grey cream bird face brown black eyes open yellow beak both wings complete feathers right wing spread left wing gripping full green oval jewel gold wand, entire body both yellow feet toes talons tail feathers if visible, blue gold beret blue neck scarf all ends cream gold apron straps buckles leather satchel. Retain original front-facing three-quarter flying leaping pose. Remove detached coins leaves energy swirl sparks shop building cobblestone plants floor ground shadows cream backdrop. True transparent alpha all gaps between wing feathers equipment feet scarf. Entire silhouette centered64% square with18% transparent margin. No redesign pose changes new labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・嘴・両翼・羽先・両足爪・ベレー帽・宝石杖・革鞄・エプロン・青スカーフ保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "051-decimal-cat_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\051-decimal-cat\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-60c604fd-0374-4b38-b866-7b90fc5f9396.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\051-decimal-cat_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      217,
+      194,
+      862,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR decimal cat reference. Preserve identical white kitten blue eyes pink ears nose happy mouth whiskers full body four paws complete curved tail, attached gold blue forehead cheek hip star markings, navy gold star collar central blue gem gold frame and delicate chains. Keep front threequarter floating reaching pose. Remove large magic star in raised paw all floating stars blue purple trails sparkles ground circle dark backdrop. Restore paw hidden by star consistently. True transparent alpha all gaps, retain white fur. Center entire silhouette64 percent square18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白毛・四肢・曲尾・星紋・青金首輪宝石・鎖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

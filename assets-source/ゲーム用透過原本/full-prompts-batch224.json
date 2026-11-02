@@ -1,0 +1,31 @@
+[
+  {
+    "key": "031-firesaurus_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\031-firesaurus\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d019b464-5bd2-4ca5-9d52-1232c0d37fbb.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\031-firesaurus_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\031-firesaurus_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\031-firesaurus_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      204,
+      886,
+      876
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR firesaurus reference. Preserve exact red dinosaur orange eyes roaring open mouth teeth tongue cream muzzle belly full red scaled body both arms hands claws legs feet claws full upward curved tail all head dorsal tail red crystal spikes, ornate gold red crystal shoulder chest harness and both knee armor complete. Keep original left-facing three-quarter standing pose. Remove all external fire ring flames crossing tail and body as environmental overlay, flying rocks volcano smoke lava floor platform ground shadows background. Physical dinosaur armor only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・舌・歯・両腕爪・両脚爪・尾・背中結晶棘・鱗・腹・金赤宝石肩鎧・胸飾り・両膝鎧保持。環境除去。左向き原姿勢維持・ゲーム描画時左右反転。実機未確認。"
+  }
+]

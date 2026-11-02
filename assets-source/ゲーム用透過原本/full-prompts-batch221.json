@@ -1,0 +1,31 @@
+[
+  {
+    "key": "030-twinbird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\030-twinbird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-fca71317-5db0-43f9-8eae-e8fa06e544ba.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\030-twinbird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\030-twinbird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\030-twinbird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      226,
+      886,
+      854
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR twinbird reference. Preserve BOTH green white birds as one paired character asset, exact two faces green eyes yellow open beaks white cheeks feather crests, both full bodies all four wings all white green feather tips both long fan tails all four gold feet claws each green diamond gold chest pendant. Preserve original relative arrangement left bird higher facing right and right bird lower facing left, three-quarter inward poses; do not merge or remove either bird. Remove detached leaves wind spiral sparkles magic circle grass rocks ground shadows white backdrop. True transparent alpha between birds feathers limbs and outside. Whole paired silhouette centered64% square18% margin. No redesign no pose change no labels frame.\n",
+    "sourceFacing": "mixed-inward",
+    "gameFacing": "mixed-inward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・2羽・両顔・嘴・4翼・羽先・2尾・4足爪・胸宝石保持。環境除去。2羽の内向き原配置維持・一方向扱いなし。実機未確認。"
+  }
+]

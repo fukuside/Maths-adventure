@@ -1,0 +1,31 @@
+[
+  {
+    "key": "027-gold-panda_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\027-gold-panda\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2a507caf-c5d4-4db2-b706-8a02b4c4b0a5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\027-gold-panda_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\027-gold-panda_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\027-gold-panda_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      213,
+      886,
+      867
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR gold panda reference. Preserve exact cream black panda face brown eyes happy open mouth teeth black nose ears, full body both hands feet pads, complete held ornate gold magnifying glass reflective pale blue lens gold leaf mount chains blue gems stars handle, blue gold cap with jeweled star brooch ribbons, blue bow tie cream gold star apron coat full blue gold cape all ends leather satchel buckles chains star medallion. Original front-facing three-quarter leaping pose unchanged. Remove detached coins crystals gold energy rings sparks town buildings treasure chests street ground shadows. Physical character and equipment only. True transparent alpha all gaps; retain reflective lens surface. Entire silhouette centered64% square18% margin. No redesign no pose change added text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・金縁ルーペ・青金帽子・蝶ネクタイ・革鞄・エプロン・青金マント・リボン・宝石・鎖・星飾り保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

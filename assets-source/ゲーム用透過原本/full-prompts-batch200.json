@@ -1,0 +1,31 @@
+[
+  {
+    "key": "019-time-rabbit_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\019-time-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b527967a-3a1c-408d-9df4-63fad980c7c6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\019-time-rabbit_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\019-time-rabbit_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\019-time-rabbit_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      203,
+      886,
+      876
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR time rabbit reference card. Preserve exact white rabbit happy face amber brown eyes pink nose cheeks open mouth, both long full pink ears, jeweled small red gold crown headband, full body both hands feet pawpads tail, entire held ornate gold Roman-dial pocket clock hands/ring, waist pocket watch chains, white gold ornate waistcoat red gold full flowing cape with all ends and cuff/ankle jewelry. Keep original front three-quarter airborne running pose. Remove background giant clock architecture gears detached feathers notes gems flowers path ground stones gold magic swirls shadows and cream backdrop. Retain physical rabbit worn clothing jewelry held clock only. True transparent alpha through gaps. Entire silhouette centered64% square with18% clear transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・耳・両手足・尾・時計・チェーン・赤いマント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

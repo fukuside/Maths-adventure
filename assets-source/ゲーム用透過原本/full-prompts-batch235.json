@@ -1,0 +1,31 @@
+[
+  {
+    "key": "037-shine-pegasus_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\037-shine-pegasus\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5ee1f678-c145-48c5-989b-988e770a9661.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\037-shine-pegasus_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      212,
+      194,
+      868,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR shine pegasus reference. Preserve exact white winged unicorn blue eyes gentle smiling muzzle ears full gold horn curly golden mane complete golden tail, full body four legs gold hooves BOTH complete white gold feather wings every tip gold blue gem chest harness sun flank marking. Keep original left-facing three-quarter rearing airborne pose. Remove external gold halos floating feathers stars sparkles clouds sky floor magic circle shadows. Physical pegasus only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・耳・角・金たてがみ・四肢蹄・両羽翼・金尾・青宝石・金装飾保持。環境除去。左向き原姿勢維持・ゲーム描画時左右反転。実機未確認。"
+  }
+]

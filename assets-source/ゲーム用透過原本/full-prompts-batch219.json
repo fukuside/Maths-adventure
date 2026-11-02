@@ -1,0 +1,31 @@
+[
+  {
+    "key": "029-waterpon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\029-waterpon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1aea28bc-6107-4659-9ffe-4e4434da02aa.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\029-waterpon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\029-waterpon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\029-waterpon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      227,
+      194,
+      853,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR waterpon reference. Preserve exact round cyan blue water creature body face blue eyes eyebrows open smiling blue mouth cheek blush, entire curved teardrop crest with rounded bead tip, all rounded attached arms and feet as shown including far side limb. Preserve glossy blue watery material highlights and original front-facing three-quarter airborne pose. Remove all surrounding water splashes streams detached droplets bubbles sparkles underwater blue background floor pool ripples shadows. Keep character silhouette only with true transparent alpha outside and in gaps. Do not remove or recolor blue body as background. Entire silhouette centered64% square18% margin. No redesign new pose text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い球体・顔・両目・口・頬・水滴冠・丸い手足・水質感保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

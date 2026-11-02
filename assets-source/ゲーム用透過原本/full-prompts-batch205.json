@@ -1,0 +1,31 @@
+[
+  {
+    "key": "022-coin-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\022-coin-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e1367e70-8363-4b8f-a23c-85892e82be46.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\022-coin-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\022-coin-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\022-coin-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      224,
+      886,
+      855
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit target SR coin rabbit reference card. Preserve exact white rabbit red brown eyes happy mouth pink nose, full two long ears, entire body both hands both feet pink pads tail if visible, red gold cape with all sweeping ends green gold collar and coin medallion, large physical gold coin held in left side hand including embossed symbol. Retain original front-facing three-quarter leaping pose. Remove surrounding detached coins stacks floor magic circle energy ring sparks highlights not attached to body and cream backdrop ground shadows. True transparent alpha through all gaps. Whole physical silhouette centered64% of square with18% transparent margin. No redesign or new pose. No text or frame added.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・大コイン・コイン首飾り・赤金マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

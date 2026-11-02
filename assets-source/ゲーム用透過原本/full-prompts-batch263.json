@@ -1,0 +1,31 @@
+[
+  {
+    "key": "051-decimal-cat_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\051-decimal-cat\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ffbca48f-c98e-4e86-b5f8-784d7ecb2337.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\051-decimal-cat_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      231,
+      886,
+      848
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR decimal cat reference. Preserve identical white kitten blue eyes pink ears nose happy mouth whiskers entire four paws body full long curved tail, gold blue forehead cheek hip stars, elaborate gold blue jeweled diadem forehead chains, navy gold star cape all ribbon ends, collar large blue gem gold frame attached chains star ornaments wrist bands. Keep front threequarter floating pose. Remove all detached stars floating crystal orbs external magic star near raised paw light trails ground circle background. Keep only physical worn items, restore obscured paw consistently. True transparent alpha all gaps retain white fur. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白毛・四肢・曲尾・星紋・青金首輪宝石・鎖・宝石冠・星マント・手輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

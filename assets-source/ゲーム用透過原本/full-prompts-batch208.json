@@ -1,0 +1,31 @@
+[
+  {
+    "key": "023-yen-cat_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\023-yen-cat\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-033811ea-1aec-4937-82c1-697da821059e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\023-yen-cat_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\023-yen-cat_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\023-yen-cat_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      247,
+      886,
+      832
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR yen cat reference. Preserve exact cream white orange striped cat green eyes happy open mouth pink nose whiskers ears orange forehead, jeweled gold red crown full body both hands feet raised pink pads tail if visible, large held oval gold koban embossed symbol, full ornate gold green staff with red jewel head coin crown tassels chains gems and pointed shaft end, bell collar gold coin chest pendant attached jewelry chains ornate red gold green floral cape white fur all ends. Retain original front-facing three-quarter leaping pose. Remove floating detached coins gems glitter golden purple energy swirls background magic ring floor coin piles ground and shadows. True transparent alpha all gaps. Center whole physical silhouette64% square with18% transparent margins. No redesign no pose change no new labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・小判・鈴・冠・宝石杖・房飾り・鎖・胸小判・赤金緑マント・白毛皮保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

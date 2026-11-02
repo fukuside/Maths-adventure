@@ -1,0 +1,31 @@
+[
+  {
+    "key": "046-remainder-cat_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\046-remainder-cat\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-52a1deb7-9b94-4cfb-860c-852b201c0dc6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\046-remainder-cat_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\046-remainder-cat_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\046-remainder-cat_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      226,
+      886,
+      853
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR remainder cat reference. Preserve exact black purple cat golden eyes pink inner ears open happy mouth forehead violet diamond marking, whole body all four paws whiskers full curled tail, purple gold constellation cape all ends and collar red gem gold bell clasps. Keep front threequarter airborne pose. Remove detached magic clock left, hourglass top right, all floating roman numeral discs purple energy sparks ground circle shadow offwhite background. Character physical cape and attached markings only. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin. No text frame redesign pose change.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・金色両目・耳・四肢・髭・黒紫毛・紫金マント・鈴首輪・曲尾・額菱紋保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

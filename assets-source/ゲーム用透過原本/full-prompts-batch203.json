@@ -1,0 +1,31 @@
+[
+  {
+    "key": "021-chrono-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\021-chrono-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7a92f966-b944-4736-a353-274a3fc071f7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\021-chrono-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\021-chrono-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\021-chrono-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      205,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR chrono king reference card. Preserve exact grey cream cat-king face blue eyes open happy mouth pink nose whiskers both ears, entire jeweled blue gold purple crown, full body both hands and feet tail if visible, full held purple gold staff with clock face Roman dial top finial and lower crystal tip, chest pocket watch gold chains gems and purple gold moon-star robe/cape all ends. Keep original front-facing three-quarter standing reaching-hand pose. Remove magical clock glyph floating above palm, all surrounding purple gold swirls clock rings detached gears crystals sparkles floor circle ground shadows cream backdrop. Retain physical cat gear clothing and held staff only. True transparent alpha through gaps. Whole silhouette centered64% square with18% transparent margins. No redesign text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・耳・両手足・冠・杖・時計・宝石・マント・鎖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

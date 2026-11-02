@@ -1,0 +1,31 @@
+[
+  {
+    "key": "022-coin-rabbit_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\022-coin-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-632bf1bb-ae36-49f2-ac25-c99c268a4761.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\022-coin-rabbit_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\022-coin-rabbit_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\022-coin-rabbit_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      213,
+      886,
+      867
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR coin rabbit reference. Preserve exact white rabbit face red brown eyes happy open mouth both long ears pink inner ears entire jeweled crown, full body hands feet pink paw pads, raised large held gold coin with embossed dollar, complete held clock staff on right including crowned clock dial red shaft and pointed bottom, attached chains red gems, full red gold green royal cape white fur trim all ends, gold coin chest medallion and jewelry. Preserve original front-facing three-quarter leaping pose. Remove detached floating coins crystals stars energy swirls background clock glyph buildings floor magic circle ground and shadows. Retain physical attached clothing jewelry coin staff only. True transparent alpha through gaps. Full silhouette centered64% square with18% margin. No redesign no pose changes no text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・大コイン・コイン首飾り・冠・時計杖・鎖・宝石・赤金緑マント・白毛皮保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

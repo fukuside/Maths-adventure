@@ -1,0 +1,31 @@
+[
+  {
+    "key": "049-point-slime_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\049-point-slime\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-45142d53-2a08-4a0f-a2ce-2f1e003dcf93.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\049-point-slime_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\049-point-slime_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\049-point-slime_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      225,
+      886,
+      854
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR point slime reference. Preserve identical glossy golden orange slime full droplet top round body two arm lobes both lower foot lobes amber oval eyes white highlights pink cheeks joyful open mouth and connected white dot constellation body markings. Preserve full ornate gold orange jeweled crown, red orange gold flame-pattern cape all tips collar chain central oval orange gem star clasp. Keep front pose. Remove left external fireball all detached bubbles floating diamonds flames rings sparks ground circle dark rocky environment. Recover cape edge clipped by reference consistently. True transparent alpha outside entire silhouette and garment gaps. Full character centered64 percent square18 percent margin. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀両目・笑顔・桃頬・橙雫体・腕突起・足葉・白点連結紋・金橙宝石冠・赤金マント・中央橙宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "020-chrono-wolf_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\020-chrono-wolf\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b077fb9e-c722-4741-bbf9-7b5d6d36009f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\020-chrono-wolf_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\020-chrono-wolf_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\020-chrono-wolf_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      202,
+      194,
+      877,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR chrono wolf reference card. Preserve exact blue white wolf face cyan eyes dark nose teeth fierce expression, both full ears, entire leaping body all four legs paws claws and full raised tail, black leather harness collar straps brass buckle gear medallions chain and blue crystals embedded in fur. Keep original left-facing three-quarter leaping pose, do not rotate or mirror. Remove ALL blue water/magic swirls detached floating gems rocks ground clock circle sparkles shadows cream background. Retain physical wolf and worn gear only. True transparent alpha through gaps between legs tail and body. Entire silhouette centered64% square with18% clear transparent margins. No redesign text frame.\n",
+    "sourceFacing": "left-three-quarter",
+    "gameFacing": "right-three-quarter",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・耳・四足・尾・歯・革ベルト・歯車・宝石保持。環境除去。左向き原姿勢維持、ゲーム描画時反転。実機未確認。"
+  }
+]

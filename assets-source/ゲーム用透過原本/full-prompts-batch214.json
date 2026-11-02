@@ -1,0 +1,31 @@
+[
+  {
+    "key": "026-shop-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\026-shop-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-77a4fd27-96f6-4a54-9ba8-7cf46475b52c.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\026-shop-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\026-shop-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\026-shop-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      250,
+      886,
+      829
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR shop bird reference. Preserve exact grey cream bird face brown black eyes happy open yellow beak, full body both wings complete feather tips right wing spread left gripping entire green jewel ornate gold wand with attached chains stars blue tassel, both yellow feet claws, blue gold beret full blue gold feather plume brooch, blue gold scarf and royal cape all long ends, cream gold apron leather satchel coin ornament buckles and attached jewelry. Original front-facing three-quarter flying leaping pose unchanged. Remove detached coins floating crystals golden energy rings sparkles buildings shop street flowers ground and shadows. Physical bird equipment only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign pose change labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・嘴・両翼・羽先・両足爪・ベレー帽・宝石杖・革鞄・エプロン・青スカーフ・青金マント・羽飾り・鎖・房飾り保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

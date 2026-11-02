@@ -1,0 +1,31 @@
+[
+  {
+    "key": "034-six-speaker_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\034-six-speaker\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-977b41e1-7ed3-42aa-b20e-8616c58e79c6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\034-six-speaker_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\034-six-speaker_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\034-six-speaker_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      220,
+      886,
+      859
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR six-speaker reference. Preserve exact yellow black bee warrior serious face black eyes small mouth two antennae, full body ALL SIX arms hands each holding one complete lightning sword gold blades cyan jeweled hilts all six tips, two legs armored pointed feet, all FOUR visible veined wings (two large upper two smaller lower), entire gold cyan jeweled crown black gold striped chest armor white fur collar shoulder arm knee armor and trailing gold cloth panels. Original front-facing airborne standing pose unchanged. Remove external lightning arcs sparks floating crystals ruins floor magic circle ground shadows background. Physical character weapons and wing membranes only. True transparent alpha all gaps. Entire silhouette centered64% square18% margin. No redesign new pose text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・触角2本・6腕6手・雷剣6本・2脚・4翅・金鎧・青宝石・冠・白襟・金布保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

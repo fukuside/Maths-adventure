@@ -1,0 +1,31 @@
+[
+  {
+    "key": "044-share-rabbit_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\044-share-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-983bdcc0-3e83-4e1b-985a-5bedae636835.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\044-share-rabbit_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\044-share-rabbit_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\044-share-rabbit_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      202,
+      194,
+      877,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR share rabbit reference. Preserve identical white rabbit green eyes joyful open mouth pink long ears whole body both paws feet pads fluffy tail. Preserve held ornate gold green fourleaf clover wand including physical clover head, green gold floral cape scarf clasp, gold green belly pendant, brown gold backpack rolled mat pouches straps belts wrist ankle guards. Keep front threequarter hopping pose. Recover clipped ear and cape tips consistently. Remove external glow rings flying leaves loose flowers forest waterfalls ground magic circle sparks all environment. Physical held wand remains without surrounding radiance. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑の両目・長耳・両手足肉球・白尾・金緑クローバー杖・緑金マント・荷物・ベルト・金緑胸飾り・手足輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "044-share-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\044-share-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2627150b-7b34-4281-99dd-468024d8b725.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\044-share-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\044-share-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\044-share-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      220,
+      194,
+      859,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR share rabbit reference. Preserve exact white rabbit green eyes happy open mouth pink inner long ears full body both paws both feet paw pads fluffy tail, held orange carrot weapon leafy green top, green gold clover cape scarf clasp, brown backpack rolled mat straps buckles belts pouches. Keep front three-quarter hopping pose. Remove luminous clover magic at carrot muzzle, green wind spiral detached leaves flowers sparkles sky forest all environment. Keep carrot physical tip and attached carrot leaves. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin. No text frame redesign pose change.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑の両目・長耳・両手足肉球・白尾・人参武器と葉・緑金マント・荷物・ベルト保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

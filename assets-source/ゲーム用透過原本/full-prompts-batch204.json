@@ -1,0 +1,31 @@
+[
+  {
+    "key": "021-chrono-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\021-chrono-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-570022db-acc4-4d94-a91c-74cb0da7c816.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\021-chrono-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\021-chrono-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\021-chrono-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      210,
+      886,
+      870
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit target UR chrono king reference. Preserve exact cream grey cat monarch face blue eyes pink nose open mouth whiskers ears, full ornate purple gold jeweled crown, full body both hands feet, full physical clock staff with finial Roman dial gold chains hanging watches and shaft crystal tip, chest watch chains gems purple gold moon star robe all cape ends white fur trim. Keep original front-facing three-quarter standing reaching-hand pose. Remove all floating magical clock glyph above palm, detached crystals gears sparkles swirling energy clock rings background and floor magic circle ground shadow. Keep attached physical jewelry. True transparent alpha around silhouette and between limbs staff cloak. Center entire silhouette in square with18% transparent margins. No redesign no new pose no labels frame. Preserve complete physical extremities.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・耳・両手足・冠・杖・時計・宝石・マント・鎖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

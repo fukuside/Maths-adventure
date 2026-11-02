@@ -1,0 +1,31 @@
+[
+  {
+    "key": "023-yen-cat_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\023-yen-cat\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-59242e08-cfae-4ad3-be41-81b44e87dcfe.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\023-yen-cat_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\023-yen-cat_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\023-yen-cat_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      267,
+      886,
+      812
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR yen cat reference card. Preserve exact white orange striped cat green eyes happy mouth pink nose whiskers ears orange forehead patch, full body both hands feet pink pads complete curved orange striped tail, large held oval gold koban with embossed symbol, red gold green floral cape all ends green collar gold bell. Keep original front-facing three-quarter leaping pose. Remove all detached coins piles surrounding golden energy ring sparkles ground shadows cream backdrop. True transparent alpha throughout gaps. Center full physical silhouette64% square with18% transparent margins. No redesign, no pose change, no new labels frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・縞尾・小判・鈴・赤金緑マント保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

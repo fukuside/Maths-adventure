@@ -1,0 +1,31 @@
+[
+  {
+    "key": "036-octopal_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\036-octopal\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e774b00d-314b-4858-ab6d-d2a3f179eb90.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\036-octopal_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      222,
+      886,
+      857
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR octopal reference card. Preserve exact purple octopus smiling face purple black eyes pink cheeks open mouth all physical curled tentacles and pink suction cups including rear tentacles and staff gripping limb, full purple gold star wizard hat bent tip brim blue jewel band, full held staff blue glass orb gold mount shaft. Keep original front-facing pose. Remove galaxy vortex bubbles detached stars sparkles floor magic circle shadows background. Keep painted gold star body markings and physical orb. True transparent alpha between all tentacles staff hat and outside. Entire complete silhouette centered64% square18% transparent margins. No redesign pose change text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両目・口・頬・全触腕・吸盤・魔法帽・宝石・杖・球・金装飾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

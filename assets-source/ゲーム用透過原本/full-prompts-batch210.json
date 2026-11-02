@@ -1,0 +1,31 @@
+[
+  {
+    "key": "024-wallet-bear_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\024-wallet-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-cfa1c921-a141-4ad2-8584-dd75065b67d5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\024-wallet-bear_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\024-wallet-bear_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\024-wallet-bear_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      245,
+      886,
+      834
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR wallet bear reference. Preserve exact brown bear face black eyes happy mouth tan muzzle black nose both round ears, full green jeweled gold crown full body both arms legs paw pads, large held gold coin embossed symbol, held open leather wallet satchel containing notes and coins, leather straps belt pouches buckles green jewel belt attached chains gold tassels gems and entire green gold royal cape with white fur trim every long end. Original front-facing three-quarter leaping pose unchanged. Remove detached foreground staff on ground, treasure chest, floor piles coins gems floating coins golden energy ring sparks backdrop ground shadows. Retain attached physical gear only. True transparent alpha all gaps. Entire silhouette centered64% square with18% transparent margin. No redesign new pose text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・両耳・両手足・肉球・大コイン・財布・紙幣・硬貨・肩鞄・革ベルト・冠・緑宝石・鎖・房飾り・緑金マント・白毛皮保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "047-quotient-wolf_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\047-quotient-wolf\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-af21b899-ffca-4410-a19c-9aa3749f0e85.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\047-quotient-wolf_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\047-quotient-wolf_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\047-quotient-wolf_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      261,
+      886,
+      819
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR quotient wolf reference. Preserve exact blue white wolf single visible blue eye black gold eyepatch over other eye with strap gold star, white forehead lightning fur marking black nose smile full ears all four paws black claws full bushy white tipped tail. Preserve blue gold constellation cape all panels round gold blue star clasp chain blue diamond pendant. Keep front threequarter lunging pose. Remove blue wind blades all detached sparkles ground magic circle shadows offwhite background. True transparent alpha all gaps. Complete silhouette centered64 percent square18 percent margin. No text frame redesign pose change.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い片目・黒金眼帯・青白毛・四肢黒爪・白先尾・青金マント・星留め・青菱宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]
