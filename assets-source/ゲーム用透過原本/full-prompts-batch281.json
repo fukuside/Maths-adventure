@@ -1,0 +1,31 @@
+[
+  {
+    "key": "060-denominator-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\060-denominator-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-36608289-a13a-4696-a8bf-97047c635dec.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\060-denominator-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      195,
+      886,
+      885
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR denominator bird reference. Preserve identical majestic white blue gold griffin blue eyes yellow open beak full crest two enormous spread wings complete tips full long ribbon feather tail, two golden armored front claw arms and two dark rear legs feet. Preserve elaborate gold blue jeweled forehead chest shoulder wrist wing leg armor gold chains attached dangling blue gems. Keep front threequarter airborne pose. Recover cropped wing tips consistently. Remove glowing head halo all detached rings crystals loose feathers sparks gold purple light trails ground circle dark sky. Only physical character attached ornaments. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・黄色嘴・両翼・前爪腕2本と後脚2本・白青金羽・冠羽・長尾・金青装甲・鎖青宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

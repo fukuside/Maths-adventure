@@ -1,0 +1,31 @@
+[
+  {
+    "key": "071-distance-griffon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\071-distance-griffon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f7882760-eb24-4251-b243-00e0b2487801.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\071-distance-griffon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      208,
+      886,
+      871
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR distance griffon card. Preserve identical blue eyed white eagle head open gold beak large gold blue crystal crown crest, elaborate gold blue crystal shoulder chest armor cuffs, two huge white brown blue feather wings gold jeweled feather fittings, white feather chest golden lion body two front claw talons and two rear paws long curled tuft tail band, blue gold cloth ribbons. Keep front threequarter airborne leaping pose. Complete clipped wing tips consistently. Remove separate background halo floating blue crystal shards gold lightning wind trails floor magical ring debris shadows. Keep attached crystal armor ribbons feathers claws tail. True transparent alpha all gaps whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白鷲頭黄嘴・青金宝石冠鎧・白茶青両翼・前鉤爪と後足・金獅子胴・房尾腕輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

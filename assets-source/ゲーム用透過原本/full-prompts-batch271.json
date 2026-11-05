@@ -1,0 +1,31 @@
+[
+  {
+    "key": "055-decimal-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\055-decimal-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-dcf3faa3-a6f3-4903-bd27-d3c09566d77b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\055-decimal-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      211,
+      886,
+      868
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR decimal king reference. Preserve identical blue seal monarch blue eyes gold nose curled white moustache whiskers happy open mouth entire body both hands left gripping staff right open fingers both armored feet. Preserve complete elaborate gold blue crown blue gold star robe white fur cape all ends chains blue chest thigh and foot jewels. Preserve entire held black gold staff circular gold star head physical faceted blue orb and bottom finial. Keep front threequarter standing pose. Recover clipped cape tips consistently. Remove water swirls detached crystals sparkles gold light rays ground circle starry background. True transparent alpha all gaps. Full silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白髭・両手足・青体・金青冠・毛皮マント・鎖宝石・長杖青球・足鎧保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

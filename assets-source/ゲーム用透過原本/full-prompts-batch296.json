@@ -1,0 +1,31 @@
+[
+  {
+    "key": "068-average-goddess_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\068-average-goddess\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-da2c5af9-fdc1-4b0b-a92b-5812177f61bf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\068-average-goddess_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      224,
+      194,
+      855,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR average goddess card. Preserve identical blue eyed gentle smiling goddess long flowing blue hair gold blue laurel tiara, white blue gold ornate flowing dress long open sleeves gold chains blue diamond jewels, two outstretched open hands fingers, both legs and white gold blue high sandals, front threequarter floating crossed leg pose. Keep all physical hair ribbons translucent sleeves cloth folds chains ornaments sandals. Remove all detached blue orbs water light rings sparkles floating shards magical floor background shadows. Actual transparent alpha including hair and limb gaps, whole body every garment ribbon centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長青髪・月桂冠・両手指・青白金ドレス長袖・金鎖青宝石・両脚サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

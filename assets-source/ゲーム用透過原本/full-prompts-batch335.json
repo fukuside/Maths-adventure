@@ -1,0 +1,31 @@
+[
+  {
+    "key": "087-alphabet-witch_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\087-alphabet-witch\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-04b3e264-3bb7-419d-9fdc-885cb7a0e9c8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\087-alphabet-witch_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\087-alphabet-witch_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\087-alphabet-witch_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      230,
+      194,
+      849,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR alphabet witch. Preserve identical red curled twin ponytails pink eyes happy open-mouth face, huge bent pointed purplegold witch hat gold star purplegem brooch, black purple gold frilled dress white ruffles long floating split cape skirt bluepurple jewels gold chains star and circle pendants, both hands fingers, complete ornate open purplegold spellbook floating beside left arm as equipment, both legs stockings star-decorated blackpurplegold boots. Keep original floating front threequarter pose one knee bent, all limbs and skirt. Remove library stairs floor reflections giant halo planets orbit trails detached crystals magic light sparkles. Keep physical equipment book clothes jewelry only. Complete silhouette true transparent alpha all gaps centered64percent square18percent margin no added text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・桃眼・赤巻ツイン髪・紫金尖帽・両手指・開いた紫金魔導書・黒紫金白襞ドレス・鎖星宝石円飾・両脚ストッキング長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

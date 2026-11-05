@@ -1,0 +1,31 @@
+[
+  {
+    "key": "052-dot-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\052-dot-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b748ade5-5b07-441a-bba6-971493882dd5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\052-dot-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\052-dot-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\052-dot-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      196,
+      194,
+      884,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR dot bird reference. Preserve identical white green yellow mosaic tile feather bird green eyes open yellow beak tall crest two complete spread wings all geometric feather tips full fan tail two golden feet claws. Preserve gold green diamond forehead chest wing and tail ornaments chains. Keep original front threequarter flying pose. Recover cropped wing tip consistently. Remove all detached pixel squares sparks gold green swirls ground magic circle dark background. Physical tile feathers and attached ornaments only. True transparent alpha all feather gaps. Center full silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑両目・黄色嘴・両翼・両足爪・白緑黄タイル羽・冠羽・扇尾・金緑宝石装飾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

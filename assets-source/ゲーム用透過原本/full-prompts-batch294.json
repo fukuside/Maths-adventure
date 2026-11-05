@@ -1,0 +1,31 @@
+[
+  {
+    "key": "067-ratio-seraphim_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\067-ratio-seraphim\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-44a5cec1-47c5-457e-89be-777ee0469617.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\067-ratio-seraphim_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      198,
+      194,
+      881,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR ratio seraphim card. Preserve exact angel boy silver white tousled hair blue eyes open mouth, two full white feather wings, white blue gold flowing ornate long coat trousers both white armored boots blue gems, left hand gripping complete gold balance scale staff with blue crystal finial and both hanging chain pans each blue orb, right open hand, original front threequarter airborne pose raised bent leg. Preserve all physical feathers clothing ribbons scale chains pans blue orbs jewels. Remove detached feathers floating crystals sparkles golden swirls magic floor shadows all backdrop. Full body both wings entire scales centered64percent square18percent margins true transparent alpha gaps between feathers chains pans limbs. No text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・銀白髪・両手・白羽両翼・青白金衣装・両脚ブーツ・青宝石天秤杖・両鎖皿と青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

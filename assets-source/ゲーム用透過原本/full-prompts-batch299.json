@@ -1,0 +1,31 @@
+[
+  {
+    "key": "069-balance-cerberus_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\069-balance-cerberus\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-cd473c65-58a0-491e-b105-a98b97eada02.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\069-balance-cerberus_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      205,
+      194,
+      875,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR balance cerberus card. Preserve identical massive white three headed wolf blue eyes three snarling mouths teeth ears three gold blue crystal crowns, shared muscular body four claw paws, two raised bushy tails, ornate gold harness and chains blue diamond chest pendant and gold blue jeweled front cuffs. Keep front threequarter crouching pose center head frontal outer heads outward, complete all tail fur tips. Remove separate golden halo wheels chains in background lightning flames flying blue shards rocks sparks magical ground shadow backdrop. Physical attached chains harness gold fur ornaments remain. True transparent alpha all gaps whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・三頭青眼・牙・白毛・三金冠・原本の多足爪・双尾・金ハーネス鎖・青宝石・前足腕輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

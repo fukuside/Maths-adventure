@@ -1,0 +1,31 @@
+[
+  {
+    "key": "053-zero-tenths-bear_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\053-zero-tenths-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-86607e99-ca49-4937-8900-a7992b3f1468.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\053-zero-tenths-bear_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      218,
+      886,
+      861
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR zero tenths bear reference. Preserve identical pale blue white bear blue eyes dark nose open mouth pink cheeks round ears whole body both paws both feet blue pads claws. Preserve gold blue diamond star crown entire blue gold pixel star cape trailing scarf ends, chest 0.10 inscription as physical costume, large blue star jewel clasp and gold trim. Keep front threequarter action pose. Remove magic orb covering left paw all external floating numerals crystals star objects energy rings pixels ground shadow dark backdrop. Restore obscured left palm and clipped cloth ends consistently. True transparent alpha all gaps retain pale fur. Whole silhouette centered64 percent square18 percent margin no added text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・鼻・両手足青肉球・淡青白毛・青スカーフと0.10衣装紋・金青冠・マント・星宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

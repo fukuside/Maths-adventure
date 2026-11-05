@@ -1,0 +1,31 @@
+[
+  {
+    "key": "083-circle-goddess_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\083-circle-goddess\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1e79860e-e3f0-4d76-9522-9dfe8244d477.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\083-circle-goddess_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      252,
+      194,
+      827,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR circle goddess card. Preserve identical amber eyed gentle smiling long dark brown haired goddess gold net headpiece white flowers gold star earrings, ornate black white gold layered long gown wide sleeves white ruffles gold chains hanging blue diamonds compass medallions stars, one hand holding complete tall black gold armillary staff with blue star center gold circles attached small blue orbs, other open hand, both gold white high sandals. Keep original front threequarter standing pose full hem reveal occluded rear shoe consistently. Remove detached floating planets orbit trails stars sparkles sky palace columns waterfalls flowers floor reflections shadows backdrop. Physical staff rings connected ornaments hair dress chains stay. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼・長黒茶髪・金花冠・両手・天球儀星長杖・黒白金長袖ドレス白襞・金鎖星宝石円飾・両脚サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

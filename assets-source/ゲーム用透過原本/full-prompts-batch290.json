@@ -1,0 +1,31 @@
+[
+  {
+    "key": "065-small-knight_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\065-small-knight\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d13e3c82-ea05-4b0e-a3ff-5386fc7346c7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\065-small-knight_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      217,
+      886,
+      863
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR small knight card. Preserve identical cute brave child knight blue eyes open mouth silver helmet blue plume, silver full armor chainmail, chest blue gold crest, blue gold tabard and flowing cape, right raised silver sword gold guard blue gem, left blue gold shield white downward arrow physical painted emblem, both gauntlets both fully armored legs boots in airborne running pose. Preserve entire sword shield plume and cape all tips. Remove stone pavement debris stones all blue gold slash trails sparkles backdrop shadows. Actual transparent alpha all spaces between body equipment. Whole silhouette centered64percent square18percent margins no text no redesign, keep front threequarter face original action.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・顔・青羽根兜・銀鎧鎖帷子・両手・剣・下向き矢印盾・青金衣装マント・両脚ブーツ保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

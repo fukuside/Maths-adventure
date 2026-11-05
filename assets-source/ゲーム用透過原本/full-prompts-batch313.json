@@ -1,0 +1,31 @@
+[
+  {
+    "key": "076-proportion-succubus_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\076-proportion-succubus\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4e24d458-acbb-46ca-a012-1d668277f5a7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\076-proportion-succubus_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      205,
+      194,
+      874,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR proportion succubus card. Preserve identical smiling violet eyed sorceress long purple hair pointed ears paired black gold curled horns ornate gold red jeweled crown, two burgundy gold bat wings with hanging chains, black purple gold long layered ornate gown wide sleeves white lavender lace ruffles, gold chains red blue diamonds, both open hands fingers and both purple gold boots. Keep original front threequarter standing pose complete full gown hem, reveal occluded rear boot consistently. Remove all red blue magical spheres orbit rings light trails sparks petals moon castle garden floor reflections shadows background. Physical hair wings horns crown chains gems dress stay. True transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長紫髪・笑顔・黒金角・尖耳・赤紫両翼・両手指・黒紫金長袖ドレス白レース・金鎖赤青宝石・両脚長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

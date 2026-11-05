@@ -1,0 +1,31 @@
+[
+  {
+    "key": "064-equal-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\064-equal-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-97bfc1b9-752b-4264-9d59-1e103724c878.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\064-equal-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      210,
+      886,
+      869
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR equal king card. Preserve identical golden brown king blue eyes white bushy eyebrows curled moustache huge black gold crown blue diamonds cross top, black gold armor gold equals sign chest, elaborate gold chains blue jewels, white gloves left gripping complete long black gold staff with large blue crystal top, right open hand, both black gold boots, full blue gold star cape white fur trim. Keep front threequarter stance. Complete cropped cape edge consistently. Remove palace columns banners halo magic swirls floor all detached floating crystals sparkles light trails shadows. Physical chains gems cape stars staff crown remain. Actual transparent alpha including all gaps. Full character and entire staff centered64percent square18percent margins no new text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白眉口髭・金冠・白手袋両手・両靴・黒金鎧の等号・青金毛皮マント・青宝石長杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "056-half-moon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\056-half-moon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ceaa5378-b3ed-41f4-a903-e22ce2b50682.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\056-half-moon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      227,
+      886,
+      853
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR half moon reference. Preserve identical white rabbit blue eyes long pink ears happy mouth full body both paws both feet fluffy tail. Preserve blue gold star wizard hat bent tip dangling chain star charm, entire blue gold robe cape bow blue gem clasps chains star charms, complete held black gold staff crescent moon head blue faceted orb and bottom finial. Keep front threequarter airborne pose. Remove giant golden background crescent behind rabbit, all floating crystals sparks gold light rings clouds ground circle sky. Physical staff crescent remains. True transparent alpha all gaps. Whole silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長耳・両手足・白尾・魔法帽・青金衣装・鎖星飾り・月杖青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

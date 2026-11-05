@@ -1,0 +1,31 @@
+[
+  {
+    "key": "079-proportion-unicorn_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\079-proportion-unicorn\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9800c1c3-bcf8-4889-8560-161ec9b098da.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\079-proportion-unicorn_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\079-proportion-unicorn_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\079-proportion-unicorn_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      199,
+      194,
+      881,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR proportion unicorn card. Preserve identical white unicorn blue eye long golden spiral horn, flowing pastel pink lavender blue mane huge tail with attached white flowers, elaborate gold blue harness saddle cloth gold chains hanging pastel blue diamond jewels and gold wing shaped shoulder ornaments, gold blue shin armor four full legs crystal hooves one front leg raised. Keep original left facing threequarter standing pose no mirror. Remove horn magic halo floating crystals petals light trails sparkles orbit rings garden grass rivers palace waterfall sky all ground and shadows backdrop. Keep physical flowers woven mane tail harness chains jewels horn intact. True transparent alpha all gaps whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白馬体・金螺旋角・桃紫青の鬣長尾と白花・青金馬具鞍布鎖・青宝石・四脚結晶蹄保持。環境除去。左向き原姿勢維持、ゲーム描画時反転で右向き。実機未確認。"
+  }
+]

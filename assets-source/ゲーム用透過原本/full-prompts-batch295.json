@@ -1,0 +1,31 @@
+[
+  {
+    "key": "067-ratio-seraphim_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\067-ratio-seraphim\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1c091b99-233d-4436-b21b-d6867afa5345.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\067-ratio-seraphim_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      200,
+      194,
+      880,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR ratio seraphim card. Preserve identical silver white haired blue eyed angel boy calm face, elaborate white blue gold long coat flowing ribbons gold chains blue jewels white gold armored boots both legs, right open hand left gripping entire ornate gold blue balance staff with both chain pans each blue orb, all layered white feather wings and gold jeweled wing fittings. Keep front threequarter floating pose; recover clipped outer feather tips consistently. Remove separate background halo crown star wheels clouds floating feathers detached blue shards light trails magical floor shadows. Physical staff finial pans orbs chains wing fittings clothing remain. Actual transparent alpha all gaps, full silhouette entire staff wings boots centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・銀白髪・両手・白羽両翼・青白金衣装・両脚ブーツ・青宝石天秤杖・両鎖皿と青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

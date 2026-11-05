@@ -1,0 +1,31 @@
+[
+  {
+    "key": "074-density-titan_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\074-density-titan\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-770e156d-0fa3-471b-84d7-45b0b955d618.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\074-density-titan_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      224,
+      194,
+      856,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR density titan card. Preserve identical cute brave charcoal stone golem blue eyes smiling open mouth, blue crystal crown gold fittings, large blue crystal shoulder spikes gold rims, huge square blue chest diamond gold frame, two full clenched stone fists arms gold blue wrist cuffs, two sturdy stone legs feet blue crystal knee shin armor gold bands. Keep original standing front threequarter raised fist pose. Remove cave waterfalls rocks water reflection floating detached blue shards sparkle shadows ground backdrop. Keep all attached crystals stone surface cracks gold armor intact. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・笑顔・黒石肌亀裂・青結晶金冠肩鎧・胸大青宝石・両拳腕・両脚足・膝脛青結晶金輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

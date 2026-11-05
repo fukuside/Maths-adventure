@@ -1,0 +1,31 @@
+[
+  {
+    "key": "063-proper-monster_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\063-proper-monster\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-fff161cd-439e-4b0a-bc44-291221c3aa4b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\063-proper-monster_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR proper monster reference. Preserve exact charcoal black scaled horned dragon demon violet eyes snarling mouth fangs two long curved purple veined horns forehead purple diamond chest purple crystal armor shoulder knee gems, entire body both claw hands feet violet claws two full bat wings purple membranes and long scaled tail purple diamond tip. Keep front threequarter wide stance. Recover clipped wing edge consistently. Remove detached crystals all purple energy swirls sparks ground circle shadow backdrop. Attached glowing horn veins gems and wing membranes remain. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫両目・牙・双角・両翼膜・四肢紫爪・黒鱗・額胸膝紫宝石・長尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

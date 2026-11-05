@@ -1,0 +1,31 @@
+[
+  {
+    "key": "071-distance-griffon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\071-distance-griffon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ef091084-c8ec-4014-b34d-3c73855a418e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\071-distance-griffon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      204,
+      886,
+      876
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR distance griffon card. Preserve identical white eagle head blue eyes open yellow hooked beak, blue gold crystal crown crest shoulder chest armor and foreleg cuffs, two full white brown blue feather wings gold blue fittings, white feather chest golden lion hindquarters two front yellow black claw talons and two rear lion paws, long brown tuft tail gold blue band. Original front threequarter airborne leaping pose. Remove detached blue crystal diamonds golden blue trails floor magic circle all sparks shadows background. Keep physical armor gems feathers claws tail. True transparent alpha including wing feather gaps whole silhouette centered64percent square18percent margin no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白鷲頭黄嘴・青金宝石冠鎧・白茶青両翼・前鉤爪と後足・金獅子胴・房尾腕輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

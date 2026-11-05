@@ -1,0 +1,31 @@
+[
+  {
+    "key": "057-third-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\057-third-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a7311b71-08f3-4cde-863f-780718bf65e9.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\057-third-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      195,
+      886,
+      885
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR third bird reference. Preserve identical majestic white blue gold eagle blue eye yellow open beak full tall crest two enormous spread wings all feather tips complete long ribbon feather tail two golden legs black talons. Preserve ornate gold blue armor chest shoulders wrist legs and held long black gold staff circular ring central blue star gem hanging crystals complete bottom spear finial, right open claw hand and hanging attached gem chain. Keep front threequarter flying pose. Recover cropped wing tips consistently. Remove all detached shards sparks external gold rings ground circle clouds dark backdrop. True transparent alpha all gaps. Center whole silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・黄色嘴・両翼・両足黒爪・白青金羽・冠羽・長尾・金青装甲・長杖青星宝石・右爪手・垂れ鎖宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

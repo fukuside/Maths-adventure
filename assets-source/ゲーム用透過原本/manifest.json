@@ -4679,5 +4679,2122 @@
     "gameMirrorX": false,
     "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
     "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑両目・黄色嘴・両翼・両足爪・白緑黄タイル羽・冠羽・扇尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "052-dot-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\052-dot-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b748ade5-5b07-441a-bba6-971493882dd5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\052-dot-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\052-dot-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\052-dot-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      196,
+      194,
+      884,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR dot bird reference. Preserve identical white green yellow mosaic tile feather bird green eyes open yellow beak tall crest two complete spread wings all geometric feather tips full fan tail two golden feet claws. Preserve gold green diamond forehead chest wing and tail ornaments chains. Keep original front threequarter flying pose. Recover cropped wing tip consistently. Remove all detached pixel squares sparks gold green swirls ground magic circle dark background. Physical tile feathers and attached ornaments only. True transparent alpha all feather gaps. Center full silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑両目・黄色嘴・両翼・両足爪・白緑黄タイル羽・冠羽・扇尾・金緑宝石装飾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "053-zero-tenths-bear_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\053-zero-tenths-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8888043d-48ef-40d8-8ec6-8b55fc0ced62.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\053-zero-tenths-bear_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      219,
+      886,
+      860
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR zero tenths bear reference. Preserve identical pale blue white bear blue eyes dark nose joyful mouth pink cheeks round ears full body both paws both feet blue pads and small tail if visible. Preserve blue pixel patterned scarf all trailing ends and exact physical scarf inscription 0.10 as part of costume. Keep original front threequarter action pose. Remove magic orb covering left paw all floating numerals pixels sparkles blue energy trails ground circle shadow dark background. Restore hidden physical paw consistently. True transparent alpha all gaps retain pale fur. Center complete silhouette64 percent square18 percent margin. No added text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・鼻・両手足青肉球・淡青白毛・青スカーフと0.10衣装紋保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "053-zero-tenths-bear_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\053-zero-tenths-bear\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-86607e99-ca49-4937-8900-a7992b3f1468.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\053-zero-tenths-bear_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      218,
+      886,
+      861
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR zero tenths bear reference. Preserve identical pale blue white bear blue eyes dark nose open mouth pink cheeks round ears whole body both paws both feet blue pads claws. Preserve gold blue diamond star crown entire blue gold pixel star cape trailing scarf ends, chest 0.10 inscription as physical costume, large blue star jewel clasp and gold trim. Keep front threequarter action pose. Remove magic orb covering left paw all external floating numerals crystals star objects energy rings pixels ground shadow dark backdrop. Restore obscured left palm and clipped cloth ends consistently. True transparent alpha all gaps retain pale fur. Whole silhouette centered64 percent square18 percent margin no added text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・鼻・両手足青肉球・淡青白毛・青スカーフと0.10衣装紋・金青冠・マント・星宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "054-point-dragon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\054-point-dragon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d023231f-243a-417a-9279-efe6c2717ef2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\054-point-dragon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      234,
+      886,
+      845
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR point dragon reference. Preserve identical white scaled dragon blue eyes happy open mouth small fangs blue crystal forehead crest back spikes, entire body both open claw hands both feet blue claws, two full membrane wings all tips and complete curled tail crystal tip. Keep front threequarter airborne pose. Remove ice magic explosion between hands all detached crystals ice trails sparkles ground circle shadows pale gray background. Restore obscured hands consistently. Preserve white wing membranes and white scales, attached blue crystals. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・牙・両翼膜・両手足青爪・白鱗・青水晶冠背棘・曲尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "054-point-dragon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\054-point-dragon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-727de3c2-fa01-43c6-a415-0108b40fc687.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\054-point-dragon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      219,
+      886,
+      861
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR point dragon reference. Preserve exact majestic white scaled dragon blue eyes snarling open mouth fangs long horn crystal crest neck back blue spikes, entire body both claw hands both feet blue claws two immense membrane wings full tips long curved tail crystal tip. Preserve gold blue jeweled chest shoulder wrist leg wing and tail armor filigree. Keep original front threequarter airborne pose. Complete cropped wing tips consistently. Remove palm magic orb all detached shards ice swirls gold light rings sparkles clouds ground circle backdrop. Preserve wing membranes white scales attached crystals and armor. True transparent alpha all gaps. Center complete silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・牙・両翼膜・両手足青爪・白鱗・青水晶冠背棘・曲尾・金青宝石装甲保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "055-decimal-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\055-decimal-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-73ee1d49-53c8-46de-bc7d-ec16142abe7f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\055-decimal-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      215,
+      886,
+      865
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR decimal king reference. Preserve identical blue round seal king blue eyes gold nose white curled moustache whiskers smiling open mouth entire body both flipper hands both small feet. Preserve complete gold blue jeweled crown, blue gold star robe fur trimmed cape all ends chains chest gems, held long black gold staff complete finial circular gold star frame and physical faceted blue orb. Keep front threequarter floating pose. Remove water swirls detached droplets crystals sparks ground magic circle shadows starry background. Preserve staff orb solid equipment. True transparent alpha all gaps. Center full silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白髭・両手足・青体・金青冠・毛皮マント・鎖宝石・長杖青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "055-decimal-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\055-decimal-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-dcf3faa3-a6f3-4903-bd27-d3c09566d77b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\055-decimal-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      211,
+      886,
+      868
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR decimal king reference. Preserve identical blue seal monarch blue eyes gold nose curled white moustache whiskers happy open mouth entire body both hands left gripping staff right open fingers both armored feet. Preserve complete elaborate gold blue crown blue gold star robe white fur cape all ends chains blue chest thigh and foot jewels. Preserve entire held black gold staff circular gold star head physical faceted blue orb and bottom finial. Keep front threequarter standing pose. Recover clipped cape tips consistently. Remove water swirls detached crystals sparkles gold light rays ground circle starry background. True transparent alpha all gaps. Full silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白髭・両手足・青体・金青冠・毛皮マント・鎖宝石・長杖青球・足鎧保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "056-half-moon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\056-half-moon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ceaa5378-b3ed-41f4-a903-e22ce2b50682.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\056-half-moon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      227,
+      886,
+      853
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR half moon reference. Preserve identical white rabbit blue eyes long pink ears happy mouth full body both paws both feet fluffy tail. Preserve blue gold star wizard hat bent tip dangling chain star charm, entire blue gold robe cape bow blue gem clasps chains star charms, complete held black gold staff crescent moon head blue faceted orb and bottom finial. Keep front threequarter airborne pose. Remove giant golden background crescent behind rabbit, all floating crystals sparks gold light rings clouds ground circle sky. Physical staff crescent remains. True transparent alpha all gaps. Whole silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長耳・両手足・白尾・魔法帽・青金衣装・鎖星飾り・月杖青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "056-half-moon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\056-half-moon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-da98b200-7416-4a86-b3b8-059812a9c6de.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\056-half-moon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      207,
+      886,
+      872
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR half moon reference. Preserve identical white rabbit blue eyes long pink ears happy mouth full body both hands both feet fluffy tail. Preserve complete blue gold star wizard hat chains star charms, ornate navy gold fur trimmed robe cape all tips blue jeweled bow clasps gold chains hanging stars and blue gems, entire held black gold crescent staff physical blue orb and bottom finial. Keep front threequarter floating pose right palm open. Remove giant background crescent, external palm magic trails all detached crystals sparkles gold light rings clouds ground circle dark sky. Recover clipped cape and staff tips consistently. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長耳・両手足・白尾・魔法帽・青金衣装・鎖星飾り・月杖青球・毛皮マント・垂れ宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "057-third-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\057-third-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2922ae2f-609e-49ca-9055-98dadbb66d10.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\057-third-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      228,
+      886,
+      852
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR third bird reference. Preserve exact white blue gold feather bird blue eyes yellow open beak complete tall crest both full spread wings both golden feet black talons long blue gold tail. Preserve gold blue forehead gem chest armor shoulder wing guards and held gold framed blue faceted orb short wand with gripping white hand. Keep front threequarter airborne pose. Remove all detached feathers crystals blue wind sparks ground circle clouds dark background. Recover clipped wand edge consistently. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・黄色嘴・両翼・両足黒爪・白青金羽・冠羽・長尾・金青装甲・手持ち青球杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "057-third-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\057-third-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a7311b71-08f3-4cde-863f-780718bf65e9.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\057-third-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      195,
+      886,
+      885
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR third bird reference. Preserve identical majestic white blue gold eagle blue eye yellow open beak full tall crest two enormous spread wings all feather tips complete long ribbon feather tail two golden legs black talons. Preserve ornate gold blue armor chest shoulders wrist legs and held long black gold staff circular ring central blue star gem hanging crystals complete bottom spear finial, right open claw hand and hanging attached gem chain. Keep front threequarter flying pose. Recover cropped wing tips consistently. Remove all detached shards sparks external gold rings ground circle clouds dark backdrop. True transparent alpha all gaps. Center whole silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・黄色嘴・両翼・両足黒爪・白青金羽・冠羽・長尾・金青装甲・長杖青星宝石・右爪手・垂れ鎖宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "058-quarter-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\058-quarter-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b694e3c6-14ad-4e5a-8e4a-23a96ae65773.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\058-quarter-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      274,
+      194,
+      805,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR asset 058 quarter rabbit reference exactly as pictured: a blue violet faceted crystal humanoid, NOT a rabbit. Preserve identical large angular gem head cyan oval eyes small smile segmented crystal torso violet chest gem both articulated arms hands fingers both angular legs feet. Keep original front threequarter action pose. Remove external palm magic disk all detached floating crystal shards purple blue trails sparkles ground circle dark sky. Keep attached physical crystal facets with their original colors and highlights; do not erase pale facets. True transparent alpha all limb gaps. Whole silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・シアン両目・笑顔・角結晶頭・分節胴体・紫胸石・両手指・両脚足保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "058-quarter-rabbit_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\058-quarter-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-3fb4012c-a50a-4345-bf84-b137e5b7a6fa.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\058-quarter-rabbit_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      259,
+      194,
+      820,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR 058 quarter rabbit reference exactly as pictured crystal humanoid not rabbit. Preserve identical angular blue violet crystal head cyan oval eyes small smile full segmented crystal body purple chest gem, both articulated hands fingers both legs sharp feet, large attached crystal back shoulder arrays and gold edged armor wrist bands hanging jewel chains. Preserve physical gold circular halo behind head with top blue diamond. Remove detached orbiting framed crystals external palm magic circle purple blue trails stars ground circle clouds dark sky. Keep attached crystal facets pale highlights and gold trim. True transparent alpha all gaps. Center whole silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・シアン両目・笑顔・角結晶頭・分節胴体・紫胸石・両手指・両脚足・結晶背棘・金装甲・金輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "059-numerator-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\059-numerator-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e80e689c-5097-4af2-8ad2-4bcb75a2ea18.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\059-numerator-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      208,
+      194,
+      871,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR numerator rabbit reference. Preserve exact white rabbit blue eyes long pink ears happy mouth full body both hands both feet fluffy tail. Preserve entire purple gold star wizard hat blue diamond clasp dangling star, purple gold robe cape bow blue gems gold chains, entire held brown gold staff large violet faceted orb star frame and bottom end. Keep front threequarter floating pose right hand open. Remove palm magic circle all detached numerals crystals purple trails sparks ground ring dark sky. True transparent alpha all gaps retain white fur. Whole silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長耳・両手足・白尾・紫金帽衣装・鎖青宝石・長杖紫球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "059-numerator-rabbit_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\059-numerator-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-85882c2e-ec96-4afe-83f5-7a7a759c3ab3.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\059-numerator-rabbit_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      223,
+      194,
+      857,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR numerator rabbit reference. Preserve identical white rabbit blue eyes long pink ears joyful mouth complete body both hands both feet fluffy tail. Preserve ornate purple gold star hat blue diamond dangling star charms, entire purple gold robe cape all tips gold chains hanging blue gems star charms bow gem wrist ankle armor. Preserve entire held long staff purple faceted orb gold star frame hanging charms bottom finial. Keep front threequarter floating pose open right palm. Remove palm magic external rings floating crystals sparkles gold purple wind ground circle dark sky. Recover clipped staff head tips consistently. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長耳・両手足・白尾・紫金帽衣装・鎖青宝石・長杖紫球・手足鎧・垂れ星宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "060-denominator-bird_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\060-denominator-bird\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4c43be4e-e1c9-475e-8d6b-f00958dc0ab2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\060-denominator-bird_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      197,
+      194,
+      883,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR denominator bird reference. Preserve exact white blue gold feather griffin bird blue eyes yellow open beak full crest two huge spread wings full tips complete long blue white gold tail, two armored golden front claw arms and two smaller dark rear feet. Preserve gold blue forehead chest shoulder wing wrist armor blue gems. Keep front threequarter airborne pose. Recover cropped wing tips consistently. Remove palm magic sphere all detached floating gold rings feathers crystals head light halo external sparkles wind ground circle dark sky. Physical character and armor only. True transparent alpha all feather gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・黄色嘴・両翼・前爪腕2本と後脚2本・白青金羽・冠羽・長尾・金青装甲保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "060-denominator-bird_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\060-denominator-bird\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-36608289-a13a-4696-a8bf-97047c635dec.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\060-denominator-bird_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      195,
+      886,
+      885
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR denominator bird reference. Preserve identical majestic white blue gold griffin blue eyes yellow open beak full crest two enormous spread wings complete tips full long ribbon feather tail, two golden armored front claw arms and two dark rear legs feet. Preserve elaborate gold blue jeweled forehead chest shoulder wrist wing leg armor gold chains attached dangling blue gems. Keep front threequarter airborne pose. Recover cropped wing tips consistently. Remove glowing head halo all detached rings crystals loose feathers sparks gold purple light trails ground circle dark sky. Only physical character attached ornaments. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・黄色嘴・両翼・前爪腕2本と後脚2本・白青金羽・冠羽・長尾・金青装甲・鎖青宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "061-fraction-fairy_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\061-fraction-fairy\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-471f7765-0b25-4014-a144-d10fc6880796.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\061-fraction-fairy_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\061-fraction-fairy_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\061-fraction-fairy_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      217,
+      194,
+      863,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR fraction fairy reference. Preserve identical lavender haired fairy blue violet eyes joyful mouth hair curls complete full body both hands fingers legs purple shoes lace stockings, entire purple white frilled dress gold chains dangling blue purple gems, gold blue crown hair crystals neck chest gems wrist ornaments. Preserve complete large purple blue butterfly wings all lobes and entire held purple gold staff blue diamond crystal head hanging charm bottom tip. Keep front threequarter stepping pose. Remove all detached crystals butterfly magic sparkles violet wind ground circle dark background. True transparent alpha all gaps, keep colored physical wings and details. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青紫両目・紫髪・両手指脚靴・蝶翼・紫白衣装・冠鎖宝石・長杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "061-fraction-fairy_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\061-fraction-fairy\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ef0d4715-4992-443b-aa8c-709fe329e3cb.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\061-fraction-fairy_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\061-fraction-fairy_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\061-fraction-fairy_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      207,
+      194,
+      873,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR fraction fairy reference. Preserve identical lavender haired fairy blue violet eyes joyful mouth complete hair curls full body both hands fingers legs purple shoes lace stocking and leg gold jewelry, entire purple white layered frill dress gold chains blue gems, ornate crown hair crystal flowers neck chest wrist gems. Preserve all large purple blue butterfly wing lobes gold edged wing ornaments and complete held gold purple staff blue diamond head hanging charms bottom crystal tip. Keep front threequarter stepping pose. Remove all detached crystal shards butterflies magic circles sparkles gold violet trails ground ring dark backdrop. Recover cropped wing tips consistently. True transparent alpha all gaps retain physical wing color and translucency. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青紫両目・紫髪・両手指脚靴・蝶翼・紫白衣装・冠鎖宝石・長杖・金翼飾り・脚宝飾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "062-fraction-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\062-fraction-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-730959be-b6ea-4be0-ab4f-d8d21823bced.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\062-fraction-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      206,
+      194,
+      873,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR fraction king reference. Preserve identical elderly human king blue eyes stern brows full flowing white hair curled moustache long beard skin face full body both hands fingers both boots. Preserve gold blue jeweled crown entire navy gold star robe cape fur collar all ends gold chains hanging blue gems chest belt jewels, complete held black gold staff circular star frame physical faceted blue orb and bottom end. Keep front threequarter standing pose right palm open. Remove all detached crystals blue lightning sparkles ground circle dark sky. Recover clipped cape edges consistently. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白髪髭・両手指・両足靴・青金冠衣装・鎖青宝石・長杖青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "062-fraction-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\062-fraction-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-45ddabe7-1bde-4e5b-b79a-f8c7969b17d6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\062-fraction-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      211,
+      194,
+      868,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR fraction king reference. Preserve identical elderly human king blue eyes stern face white flowing hair curled moustache long braided beard full body both hands fingers gold rings both boots. Preserve gold blue jeweled crown entire ornate navy gold fur robe cape all tips gold chains blue chest belt gems, complete held black gold staff ring star head blue faceted orb hanging crystal charms bottom finial. Keep front threequarter standing pose. Remove head background halo all detached floating crystals gold blue lightning trails sparkles ground circle architectural ground backdrop. Recover clipped cape edges consistently. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白髪髭・両手指・両足靴・青金冠衣装・鎖青宝石・長杖青球・毛皮・指輪・編髭保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "063-proper-monster_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\063-proper-monster\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-fff161cd-439e-4b0a-bc44-291221c3aa4b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\063-proper-monster_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR proper monster reference. Preserve exact charcoal black scaled horned dragon demon violet eyes snarling mouth fangs two long curved purple veined horns forehead purple diamond chest purple crystal armor shoulder knee gems, entire body both claw hands feet violet claws two full bat wings purple membranes and long scaled tail purple diamond tip. Keep front threequarter wide stance. Recover clipped wing edge consistently. Remove detached crystals all purple energy swirls sparks ground circle shadow backdrop. Attached glowing horn veins gems and wing membranes remain. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫両目・牙・双角・両翼膜・四肢紫爪・黒鱗・額胸膝紫宝石・長尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "063-proper-monster_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\063-proper-monster\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0c84e05e-f169-46f9-8a32-7b5fa136aad7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\063-proper-monster_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      199,
+      886,
+      880
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit target UR proper monster card. Preserve identical black scaled dragon demon king, violet eyes snarling fangs, two tall purple cracked horns forehead diamond crown, gold thorn armor chest purple diamond, gold chains hanging jewels, dark purple cape, both full bat wings, two arms with left hand gripping entire tall black staff topped large spiked gold circular purple crystal wheel, right open purple claw hand, two legs claw feet and long curled scaled tail. Preserve all equipment physical chains gems and wing membranes. Remove background vortex black hole lightning detached crystals debris ground magic circle shadows. Complete any clipped wing staff tail tips consistently. Keep front threequarter stance entire body and staff centered64percent square with18percent margins. Actual transparent alpha including spaces within staff wheel chains wings limbs; no text no redesign.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫両目・牙・双角・両翼膜・四肢紫爪・黒鱗・額胸膝紫宝石・長尾・金棘鎧・鎖・紫マント・大輪長杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "064-equal-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\064-equal-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-3ae1a057-6726-4b30-b6f6-ab3444a07ba6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\064-equal-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      197,
+      194,
+      883,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR equal king card reference. Preserve exact golden brown round king face blue eyes white bushy eyebrows white curled moustache, large gold black crown with blue diamond cross top, black gold armor gold equals sign on chest, white gloves left grips entire long black gold staff large blue crystal head, right open hand, two full black gold boots, blue gold star cape white fur trim all gold chains belt blue gems. Keep front threequarter stance, restore no clipping. Remove golden swirls floating detached crystals stars sparkles magic floor all backdrop shadows. Physical cape stars chest equals symbol crown staff remain. Actual transparent alpha clean gaps no environment. Whole character and complete staff centered64percent square18percent margin. No extra text no redesign.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白眉口髭・金冠・白手袋両手・両靴・黒金鎧の等号・青金毛皮マント・青宝石長杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "064-equal-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\064-equal-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-97bfc1b9-752b-4264-9d59-1e103724c878.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\064-equal-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      210,
+      886,
+      869
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR equal king card. Preserve identical golden brown king blue eyes white bushy eyebrows curled moustache huge black gold crown blue diamonds cross top, black gold armor gold equals sign chest, elaborate gold chains blue jewels, white gloves left gripping complete long black gold staff with large blue crystal top, right open hand, both black gold boots, full blue gold star cape white fur trim. Keep front threequarter stance. Complete cropped cape edge consistently. Remove palace columns banners halo magic swirls floor all detached floating crystals sparkles light trails shadows. Physical chains gems cape stars staff crown remain. Actual transparent alpha including all gaps. Full character and entire staff centered64percent square18percent margins no new text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白眉口髭・金冠・白手袋両手・両靴・黒金鎧の等号・青金毛皮マント・青宝石長杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "065-small-knight_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\065-small-knight\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d13e3c82-ea05-4b0e-a3ff-5386fc7346c7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\065-small-knight_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      217,
+      886,
+      863
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR small knight card. Preserve identical cute brave child knight blue eyes open mouth silver helmet blue plume, silver full armor chainmail, chest blue gold crest, blue gold tabard and flowing cape, right raised silver sword gold guard blue gem, left blue gold shield white downward arrow physical painted emblem, both gauntlets both fully armored legs boots in airborne running pose. Preserve entire sword shield plume and cape all tips. Remove stone pavement debris stones all blue gold slash trails sparkles backdrop shadows. Actual transparent alpha all spaces between body equipment. Whole silhouette centered64percent square18percent margins no text no redesign, keep front threequarter face original action.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・顔・青羽根兜・銀鎧鎖帷子・両手・剣・下向き矢印盾・青金衣装マント・両脚ブーツ保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "065-small-knight_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\065-small-knight\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-dd7e6fed-a820-4546-a9a4-d8323694e37e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\065-small-knight_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      217,
+      886,
+      862
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR small knight reference card. Keep exact brave child knight blue eyes open mouth silver gold elaborate armor chainmail jeweled belt, silver gold helmet blue gem and large blue plume, raised complete silver sword ornate gold guard blue gem, huge blue gold shield painted white downward arrow, blue gold tabard and flowing star cape. Keep both hands both armored legs boots and dynamic front threequarter lunging pose. Reconstruct obscured rear boot consistently and complete cape and sword tips. Remove castle flags clouds detached rocks crystals all blue gold slash trails light rings floor magic circle shadows. Physical cape stars shield arrow jewels remain. Actual transparent alpha including gaps, whole silhouette sword cape plume boots centered64percent square18percent margin no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・顔・青羽根兜・銀鎧鎖帷子・両手・剣・下向き矢印盾・青金衣装マント・両脚ブーツ保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "066-percent-devil_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\066-percent-devil\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4edcb148-8d26-4e17-a481-a0a5f147f3a8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\066-percent-devil_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      194,
+      885,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR percent devil reference. Preserve identical cute brave demon boy red eyes fanged grin black hair red streak pointed ears two red black horns, black red gold jacket shorts red neck bow ruby gems gold chains, black lace boots both legs, left gripping entire black staff red ornate spiked head ruby, right outstretched bare hand, both full burgundy bat wings and thin arrow tip tail, original front threequarter airborne pose. Remove red percentage magic circles floating percent orbs numbers detached shards sparks red lightning swirls smoke floor shadows all backdrop. Keep physical wings clothes gems chains staff intact. Whole character equipment and tail centered64percent square18percent margin actual transparent alpha all gaps. No text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤両目・牙・赤黒髪角・尖耳・両手・紅宝石長杖・黒赤金衣装鎖・両脚ブーツ・赤紫翼・矢尻尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "066-percent-devil_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\066-percent-devil\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9a31cb59-bcaa-4120-a0f6-a56ac11d48d5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\066-percent-devil_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      200,
+      194,
+      879,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR percent devil card. Preserve exact demon boy red eyes fanged grin black hair red streak pointed ears paired red black horns, ornate black red gold jacket shorts ruby jewelry gold chains red neck bow tall black red gold armored boots, left hand gripping complete black staff ornate red spiked ruby head, open right hand, both huge burgundy black bat wings and thin arrow tail, torn black red gold cape. Keep original front threequarter airborne stance and full body, complete clipped wing edges and obscured rear boot consistently. Remove all percent orbs symbols circles red lightning smoke detached shards sparks magical floor shadows backdrop. Physical ruby staff gems cloth wings remain. Actual transparent alpha every gap; full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤両目・牙・赤黒髪角・尖耳・両手・紅宝石長杖・黒赤金衣装鎖・両脚ブーツ・赤紫翼・矢尻尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "067-ratio-seraphim_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\067-ratio-seraphim\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-44a5cec1-47c5-457e-89be-777ee0469617.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\067-ratio-seraphim_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      198,
+      194,
+      881,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR ratio seraphim card. Preserve exact angel boy silver white tousled hair blue eyes open mouth, two full white feather wings, white blue gold flowing ornate long coat trousers both white armored boots blue gems, left hand gripping complete gold balance scale staff with blue crystal finial and both hanging chain pans each blue orb, right open hand, original front threequarter airborne pose raised bent leg. Preserve all physical feathers clothing ribbons scale chains pans blue orbs jewels. Remove detached feathers floating crystals sparkles golden swirls magic floor shadows all backdrop. Full body both wings entire scales centered64percent square18percent margins true transparent alpha gaps between feathers chains pans limbs. No text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・銀白髪・両手・白羽両翼・青白金衣装・両脚ブーツ・青宝石天秤杖・両鎖皿と青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "067-ratio-seraphim_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\067-ratio-seraphim\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1c091b99-233d-4436-b21b-d6867afa5345.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\067-ratio-seraphim_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      200,
+      194,
+      880,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR ratio seraphim card. Preserve identical silver white haired blue eyed angel boy calm face, elaborate white blue gold long coat flowing ribbons gold chains blue jewels white gold armored boots both legs, right open hand left gripping entire ornate gold blue balance staff with both chain pans each blue orb, all layered white feather wings and gold jeweled wing fittings. Keep front threequarter floating pose; recover clipped outer feather tips consistently. Remove separate background halo crown star wheels clouds floating feathers detached blue shards light trails magical floor shadows. Physical staff finial pans orbs chains wing fittings clothing remain. Actual transparent alpha all gaps, full silhouette entire staff wings boots centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・銀白髪・両手・白羽両翼・青白金衣装・両脚ブーツ・青宝石天秤杖・両鎖皿と青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "068-average-goddess_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\068-average-goddess\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-da2c5af9-fdc1-4b0b-a92b-5812177f61bf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\068-average-goddess_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      224,
+      194,
+      855,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR average goddess card. Preserve identical blue eyed gentle smiling goddess long flowing blue hair gold blue laurel tiara, white blue gold ornate flowing dress long open sleeves gold chains blue diamond jewels, two outstretched open hands fingers, both legs and white gold blue high sandals, front threequarter floating crossed leg pose. Keep all physical hair ribbons translucent sleeves cloth folds chains ornaments sandals. Remove all detached blue orbs water light rings sparkles floating shards magical floor background shadows. Actual transparent alpha including hair and limb gaps, whole body every garment ribbon centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長青髪・月桂冠・両手指・青白金ドレス長袖・金鎖青宝石・両脚サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "068-average-goddess_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\068-average-goddess\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b3d80ef6-7af2-427e-bbc1-245b5e26e005.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\068-average-goddess_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      207,
+      886,
+      873
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR average goddess reference. Preserve identical blue eyed gently smiling goddess long blue hair gold blue laurel crown, elaborate white blue gold dress and flowing long open sleeves, gold chains star ornaments blue jewels, two open hands fingers both crossed legs gold blue high sandals, original front threequarter floating pose. Keep all physical hair strands translucent cloth ribbons gold chains gems footwear. Recover clipped garment edges consistently. Remove separate gold halo behind head star wheel all floating blue orbs crystal shards sparkles water energy trails floor circle clouds columns backdrop shadows. True transparent alpha all gaps, full body complete hair clothes hands feet centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長青髪・月桂冠・両手指・青白金ドレス長袖・金鎖青宝石・両脚サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "069-balance-cerberus_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\069-balance-cerberus\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-53112473-1e77-485c-a331-52b7e9b300d4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\069-balance-cerberus_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      229,
+      886,
+      850
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR balance cerberus card. Preserve identical white fur three headed wolf blue eyes three gold crowns blue diamonds, three snarling mouths teeth ears, one powerful shared body four full claw paws two bushy raised tails, gold jeweled harness blue gems gold chains and two front gold blue wrist cuffs. Keep original front threequarter crouched stance with side heads facing outward and center head frontal. Remove all golden flame wisps trails sparks floating rocks magic floor circle shadows background. Physical fur tails claws crowns harness chains gems remain. True transparent alpha every gap, whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・三頭青眼・牙・白毛・三金冠・四足爪・双尾・金ハーネス鎖・青宝石・前足腕輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "069-balance-cerberus_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\069-balance-cerberus\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-cd473c65-58a0-491e-b105-a98b97eada02.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\069-balance-cerberus_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      205,
+      194,
+      875,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR balance cerberus card. Preserve identical massive white three headed wolf blue eyes three snarling mouths teeth ears three gold blue crystal crowns, shared muscular body four claw paws, two raised bushy tails, ornate gold harness and chains blue diamond chest pendant and gold blue jeweled front cuffs. Keep front threequarter crouching pose center head frontal outer heads outward, complete all tail fur tips. Remove separate golden halo wheels chains in background lightning flames flying blue shards rocks sparks magical ground shadow backdrop. Physical attached chains harness gold fur ornaments remain. True transparent alpha all gaps whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・三頭青眼・牙・白毛・三金冠・原本の多足爪・双尾・金ハーネス鎖・青宝石・前足腕輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "070-speed-valkyrie_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\070-speed-valkyrie\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-796f1fc7-ec98-4e43-a20c-ca60d9e353c3.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\070-speed-valkyrie_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      209,
+      886,
+      870
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR speed valkyrie card. Preserve identical brave blonde ponytail blue eyed girl open mouth, blue gold jeweled headband silver blue wing ear ornaments, white blue gold armor skirt flowing blue gold ribbons lace trim, both gauntlet hands gripping entire diagonal blue shaft spear large silver gold blue crystal blade upper left and small blade lower right, both white feather wings, both legs armored silver gold blue boots in airborne running pose. Remove detached feathers blue wind trails sparkles magical floor shadow background. Keep physical wings hair ribbons feathers ornaments spear all tips intact. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins front threequarter original pose no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・金髪ポニーテール・翼耳飾り・両白羽翼・両手・青柄両刃槍・青白金鎧衣装リボン・両脚ブーツ保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "070-speed-valkyrie_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\070-speed-valkyrie\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-afa349ab-d225-41ac-bf19-dbcc8a24a272.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\070-speed-valkyrie_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      208,
+      886,
+      871
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR speed valkyrie card. Preserve identical blonde blue eyed warrior girl open mouth high flowing ponytail jeweled blue gold headband wing ear ornaments, white blue gold elaborate armor skirt lace blue gold ribbons, both hands gripping whole diagonal blue spear gold blue crystal silver upper blade and rear tip, both large white feather wings gold jeweled fittings, both legs silver gold blue boots original airborne front threequarter pose. Complete clipped feathers spear and ribbon tips consistently. Remove detached feathers blue wind energy trails gold halo star wheel clouds palace floor magical rings shards sparkles shadows background. Physical wings armor ribbons jewels stay. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・金髪ポニーテール・翼耳飾り・両白羽翼・両手・青柄両刃槍・青白金鎧衣装リボン・両脚ブーツ保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "071-distance-griffon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\071-distance-griffon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ef091084-c8ec-4014-b34d-3c73855a418e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\071-distance-griffon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      204,
+      886,
+      876
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR distance griffon card. Preserve identical white eagle head blue eyes open yellow hooked beak, blue gold crystal crown crest shoulder chest armor and foreleg cuffs, two full white brown blue feather wings gold blue fittings, white feather chest golden lion hindquarters two front yellow black claw talons and two rear lion paws, long brown tuft tail gold blue band. Original front threequarter airborne leaping pose. Remove detached blue crystal diamonds golden blue trails floor magic circle all sparks shadows background. Keep physical armor gems feathers claws tail. True transparent alpha including wing feather gaps whole silhouette centered64percent square18percent margin no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白鷲頭黄嘴・青金宝石冠鎧・白茶青両翼・前鉤爪と後足・金獅子胴・房尾腕輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "071-distance-griffon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\071-distance-griffon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f7882760-eb24-4251-b243-00e0b2487801.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\071-distance-griffon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\071-distance-griffon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      208,
+      886,
+      871
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR distance griffon card. Preserve identical blue eyed white eagle head open gold beak large gold blue crystal crown crest, elaborate gold blue crystal shoulder chest armor cuffs, two huge white brown blue feather wings gold jeweled feather fittings, white feather chest golden lion body two front claw talons and two rear paws long curled tuft tail band, blue gold cloth ribbons. Keep front threequarter airborne leaping pose. Complete clipped wing tips consistently. Remove separate background halo floating blue crystal shards gold lightning wind trails floor magical ring debris shadows. Keep attached crystal armor ribbons feathers claws tail. True transparent alpha all gaps whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白鷲頭黄嘴・青金宝石冠鎧・白茶青両翼・前鉤爪と後足・金獅子胴・房尾腕輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "072-time-chrono-demon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\072-time-chrono-demon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ef244159-9d76-416b-ba1c-122894ed1d62.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\072-time-chrono-demon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      202,
+      886,
+      878
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR time chrono demon card. Preserve identical cute purple navy dragon blue eyes white muzzle belly open mouth fangs, spiky violet head large gold horns blue diamond forehead, two navy violet gold rim bat wings, two claw arms and two claw legs with gold talons, blue gold crystal chest wrist knee armor, long curled purple scaled tail gold rim blue diamond tip. Keep front threequarter airborne pose whole body. Remove all floating clocks roman numeral rings gears violet lightning wisps shards magic floor shadow background. Keep attached armor gems horns wing membranes tail intact. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白顔腹・牙・紫鱗・金角青宝石・紫金両翼・四肢金爪・胸腕膝宝石・長尾青宝石先保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "072-time-chrono-demon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\072-time-chrono-demon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0f4bc6bf-42bc-4616-9b87-af53e9844527.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\072-time-chrono-demon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      211,
+      886,
+      868
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR time chrono demon card. Preserve identical navy purple dragon blue violet eyes white muzzle belly open fanged mouth, gold horns purple crystal forehead spiky head, ornate gold violet crystal chest shoulder wrist knee armor and physical gold chains, both huge dark violet gold rim bat wings, two claw arms two claw legs gold talons long curled navy scaled gold armored tail purple crystal spear tip. Keep front threequarter airborne pose full body; complete clipped wing edges and obscured rear foot consistently. Remove all floating clocks roman numeral dials gears detached crystals purple lightning sparks smoke magical floor shadows backdrop. Keep physical armor chains gems membranes tail intact. Actual transparent alpha all gaps entire silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白顔腹・牙・紫鱗・金角青宝石・紫金両翼・四肢金爪・胸腕膝宝石・長尾青宝石先保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "073-unit-fenrir_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\073-unit-fenrir\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e1e1121e-1353-41a8-b903-e761b2b7d9d6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\073-unit-fenrir_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR unit fenrir card. Preserve identical cute brave white navy blue wolf blue eyes smiling open mouth little fangs pointed ears, layered icy blue crystal mane head shoulder back and leg crystals, large blue diamond chest, four full white black claw paws and large curled bushy navy blue white tip tail. Keep original standing front threequarter pose head facing viewer. Remove entire snowy mountain forest sky frozen lake reflection floating detached crystals snow sparkles shadows ground. Preserve physical attached crystal fur and all tail tips. Actual transparent alpha all gaps, whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白青毛・笑顔牙・尖耳・頭肩背脚の青結晶・胸大宝石・四足黒爪・青白房尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "073-unit-fenrir_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\073-unit-fenrir\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d73a2079-527b-4984-95bc-f62d7f7ba211.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\073-unit-fenrir_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      195,
+      194,
+      885,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR unit fenrir reference. Preserve identical majestic white gray navy wolf pale blue eyes calm closed muzzle pointed ears, large layered icy blue crystal mane head shoulder back and legs, blue diamond chest, four full white paws black claws, huge curled navy blue white tip bushy tail embedded blue crystals. Keep original standing front threequarter body and head angled slightly right. Remove snowy mountains forests sky constellations floating detached crystals water rings sparkles frozen lake reflection ground shadows backdrop. Keep all attached crystal fur tips tail intact. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白青毛・閉じた口・尖耳・頭肩背脚の青結晶・胸大宝石・四足黒爪・青白房尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "074-density-titan_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\074-density-titan\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-770e156d-0fa3-471b-84d7-45b0b955d618.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\074-density-titan_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      224,
+      194,
+      856,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR density titan card. Preserve identical cute brave charcoal stone golem blue eyes smiling open mouth, blue crystal crown gold fittings, large blue crystal shoulder spikes gold rims, huge square blue chest diamond gold frame, two full clenched stone fists arms gold blue wrist cuffs, two sturdy stone legs feet blue crystal knee shin armor gold bands. Keep original standing front threequarter raised fist pose. Remove cave waterfalls rocks water reflection floating detached blue shards sparkle shadows ground backdrop. Keep all attached crystals stone surface cracks gold armor intact. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・笑顔・黒石肌亀裂・青結晶金冠肩鎧・胸大青宝石・両拳腕・両脚足・膝脛青結晶金輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "074-density-titan_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\074-density-titan\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9257256f-b771-4ccc-a564-3f68393cf4cd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\074-density-titan_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      227,
+      194,
+      853,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR density titan card. Preserve identical smiling charcoal stone golem blue eyes open mouth, massive blue crystal crown ornate gold fittings, large blue crystal shoulder armor gold frames, huge square blue chest diamond, gold plated stone torso belt, two clenched stone fists arms gold blue spiked cuffs, two strong stone legs complete feet large blue knee shin gems gold bands. Keep original front threequarter standing fists pose. Remove cave palace bridges waterfalls water reflection rocks floating detached crystals sparkles shadows ground backdrop. Keep all attached crystals gold plates cracks stone body intact. True transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・笑顔・黒石肌亀裂・青結晶金冠肩鎧・胸大青宝石・両拳腕・両脚足・膝脛青結晶金輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "075-rate-mercury_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\075-rate-mercury\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2213b474-a100-47af-97ca-ae4cdd43f05b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\075-rate-mercury_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      260,
+      194,
+      820,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR rate mercury reference. Preserve identical cute silver white haired blue eyed smiling boy open mouth, two white feather wings, white gold tunic short sleeves blue gold cape ribbons blue jewel collar belt, right raised hand gripping entire golden staff with winged lightning finial, left open hand fingers, both legs gold white winged sandals blue jewels original front threequarter airborne raised knee pose. Keep physical staff gold lightning finial wings feather sandals garments ribbons jewels. Remove surrounding detached yellow lightning trails clouds palace columns flowers floor sky all background and shadows. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・銀白髪・笑顔・白羽両翼・金翼雷杖・両手指・白金衣装青金マントリボン・両脚翼サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "075-rate-mercury_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\075-rate-mercury\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-629b77f6-b00f-4b05-b1d0-2f54c542e3a2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\075-rate-mercury_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      247,
+      194,
+      833,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR rate mercury card. Preserve identical silver ash haired blue eyed young male angel calm smile, white gold armor tunic blue gold flowing cape ribbons gold chains blue gems, two white feather wings gold fittings, right hand gripping complete tall gold staff blue crystal winged pointed finial, left open hand, both legs gold white winged sandals. Keep original front threequarter floating raised knee pose. Remove separate staff halo rings gold lightning trails clouds floating palaces columns waterfalls floor sky sparkles background shadows. Physical staff finial wings sandals armor ribbons remain. Actual transparent alpha all gaps entire character and staff centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・銀白髪・笑顔・白羽両翼・金翼雷杖・両手指・白金衣装青金マントリボン・両脚翼サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "076-proportion-succubus_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\076-proportion-succubus\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-be66c75e-e56a-4030-bbbd-2f8bf8131c97.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\076-proportion-succubus_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      243,
+      194,
+      836,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR proportion succubus reference. Preserve identical smiling purple haired horned sorceress violet eyes pointed ears paired black gold curved horns, both burgundy gold bat wings red inner membrane, long flowing purple hair, black purple gold ornate long layered dress wide sleeves white lavender lace ruffles, gold chains red blue diamond jewels, both open hands fingers both legs tall purple gold boots and thin tail if visible. Keep front threequarter standing original pose. Remove red blue magical orbs rings and all aura sparks petals moon palace garden lamps waterfalls floor shadows background. Keep physical wings hair horns jewelry chains cloth intact. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margin no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長紫髪・笑顔・黒金角・尖耳・赤紫両翼・両手指・黒紫金長袖ドレス白レース・金鎖赤青宝石・両脚長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "076-proportion-succubus_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\076-proportion-succubus\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4e24d458-acbb-46ca-a012-1d668277f5a7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\076-proportion-succubus_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      205,
+      194,
+      874,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR proportion succubus card. Preserve identical smiling violet eyed sorceress long purple hair pointed ears paired black gold curled horns ornate gold red jeweled crown, two burgundy gold bat wings with hanging chains, black purple gold long layered ornate gown wide sleeves white lavender lace ruffles, gold chains red blue diamonds, both open hands fingers and both purple gold boots. Keep original front threequarter standing pose complete full gown hem, reveal occluded rear boot consistently. Remove all red blue magical spheres orbit rings light trails sparks petals moon castle garden floor reflections shadows background. Physical hair wings horns crown chains gems dress stay. True transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長紫髪・笑顔・黒金角・尖耳・赤紫両翼・両手指・黒紫金長袖ドレス白レース・金鎖赤青宝石・両脚長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "077-average-archangel_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\077-average-archangel\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f226e173-1eae-42db-b6ea-757e09901a20.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\077-average-archangel_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\077-average-archangel_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\077-average-archangel_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      278,
+      194,
+      802,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR average archangel reference. Preserve identical smiling blue eyed golden blonde long haired angel girl gold crown blue jewel wing hair ornaments, two full white feather wings gold fittings, white blue gold ornate long dress open sleeves gold chains hanging blue diamonds stars, both hands one gripping complete tall gold staff circular compass blue star head and three hanging balance pans blue star jewels, other open hand, both legs white gold blue armored boots. Original front threequarter standing pose recover hidden rear boot consistently. Remove palace clouds waterfalls flowers floating petals loose feathers golden wind trails magical floor reflection shadows background. Physical staff circle chains pans jewels hair wings cloth stay. True transparent alpha every gap full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長金髪・笑顔・金冠羽飾・白羽両翼・両手指・白青金長袖ドレス・金鎖青宝石星・両脚鎧靴・円環天秤三皿杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "077-average-archangel_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\077-average-archangel\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5e4fc94d-0a4d-428c-b9b9-523430461639.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\077-average-archangel_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\077-average-archangel_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\077-average-archangel_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      252,
+      194,
+      827,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR average archangel card. Preserve identical gentle smiling blue eyed long golden haired angel girl ornate gold blue crown wing hair ornaments, two white feather wings gold fittings, elaborate white gold long layered gown sleeves gold chains hanging blue diamonds stars, both hands one gripping entire tall gold staff circular compass blue star head three chain balance pans blue star jewels other open palm, both white gold armored boots. Keep original front threequarter standing pose complete gown hem and recover hidden rear boot consistently. Remove separate head halo golden rings floor magic circle reflection loose petals feathers palace waterfalls clouds flowers shadows backdrop. Physical staff circle chains pans crown wings hair clothing stay. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長金髪・笑顔・金冠羽飾・白羽両翼・両手指・白青金長袖ドレス・金鎖青宝石星・両脚鎧靴・円環天秤三皿杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "078-ratio-twin-dragon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\078-ratio-twin-dragon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-fba8bdb5-184e-48e0-bedd-8f209007370d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\078-ratio-twin-dragon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      226,
+      886,
+      854
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR ratio twin dragon card. Preserve exact paired blue and golden dragons intertwined facing each other smiling fanged mouths blue dragon blue eyes gold dragon amber eyes, white neck belly scales, crystalline layered horn crests spikes, blue left large wing gold right large wing, individual arms claws legs and both curled intertwined long tails blue and gold. Keep pair as one full grouped asset same front threequarter upright composition and touching hands. Remove external blue gold orbit trails sparks platform cliffs castles waterfall clouds sky loose crystals shadows background. Keep physical scales crystal wing membranes horns claws intertwined tails intact. Actual transparent alpha all gaps group centered64percent square18percent margins no text no redesign no extra dragon.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青金二竜・青眼と琥珀眼・笑顔牙・白腹鱗・結晶角冠・青金両翼・各四肢爪・絡む双長尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "078-ratio-twin-dragon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\078-ratio-twin-dragon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-130d714b-e618-4a17-8f69-f4da18463332.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\078-ratio-twin-dragon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      219,
+      886,
+      860
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR ratio twin dragon card. Preserve exact intertwined blue and golden dragon pair facing each other smiling fanged mouths blue dragon blue eyes golden dragon amber eyes, white neck belly scales gold crystalline horns layered crests spikes, large blue left wing gold rim and golden right wing, each arms claw legs both long intertwined curled tails blue gold with crystal spikes. Keep group as one asset original upright front threequarter composition touching hands. Remove all detached blue gold orbs orbit rings sparkles light trails floating shards platform castle cliffs waterfalls clouds sky shadows backdrop. Keep physical crystals wings scales horns claws tails intact. Actual transparent alpha every gap full grouped silhouette centered64percent square18percent margins no text no redesign no extra dragon.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青金二竜・青眼と琥珀眼・笑顔牙・白腹鱗・結晶角冠・青金両翼・各四肢爪・絡む双長尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "079-proportion-unicorn_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\079-proportion-unicorn\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-18263960-4bd3-4a52-b8fd-b89a9afdb199.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\079-proportion-unicorn_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\079-proportion-unicorn_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\079-proportion-unicorn_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      213,
+      194,
+      867,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR proportion unicorn card. Preserve identical white unicorn blue eye long golden spiral horn, flowing pastel pink lavender blue mane and huge tail with attached white flowers, ornate blue gold harness saddle cloth gold chains hanging blue diamond jewels, gold blue shin armor and blue crystal hooves all four legs one front leg raised. Keep exact left facing threequarter standing pose no mirror. Remove flowers grass ground landscape waterfall palace cliffs sky floating crystals petals sparkles horn halo and all light trails shadows backdrop. Keep physical flowers woven in mane tail harness cloth chains jewels horn intact. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白馬体・金螺旋角・桃紫青の鬣長尾と白花・青金馬具鞍布鎖・青宝石・四脚結晶蹄保持。環境除去。左向き原姿勢維持、ゲーム描画時反転で右向き。実機未確認。"
+  },
+  {
+    "key": "079-proportion-unicorn_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\079-proportion-unicorn\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9800c1c3-bcf8-4889-8560-161ec9b098da.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\079-proportion-unicorn_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\079-proportion-unicorn_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\079-proportion-unicorn_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      199,
+      194,
+      881,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR proportion unicorn card. Preserve identical white unicorn blue eye long golden spiral horn, flowing pastel pink lavender blue mane huge tail with attached white flowers, elaborate gold blue harness saddle cloth gold chains hanging pastel blue diamond jewels and gold wing shaped shoulder ornaments, gold blue shin armor four full legs crystal hooves one front leg raised. Keep original left facing threequarter standing pose no mirror. Remove horn magic halo floating crystals petals light trails sparkles orbit rings garden grass rivers palace waterfall sky all ground and shadows backdrop. Keep physical flowers woven mane tail harness chains jewels horn intact. True transparent alpha all gaps whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白馬体・金螺旋角・桃紫青の鬣長尾と白花・青金馬具鞍布鎖・青宝石・四脚結晶蹄保持。環境除去。左向き原姿勢維持、ゲーム描画時反転で右向き。実機未確認。"
+  },
+  {
+    "key": "080-scale-fairy_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\080-scale-fairy\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b8fd66ba-8c17-4a1c-ae3e-21f56e00cd2d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\080-scale-fairy_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      258,
+      194,
+      821,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR scale fairy card. Preserve identical smiling green eyed short olive green haired fairy girl white flower leaf hair ornaments, full translucent pastel butterfly wings gold veins, green white gold leaf petal dress long sheer leaf ribbons flower belt sleeves, two hands one gripping full gold flower branch staff large purple blue crystal framed leaves flowers and small blue diamond lower tip other open hand, two legs flower gold vine sandals, original front threequarter airborne bent knee pose. Remove floating pastel cubes butterflies petals orbit trails glow rings garden palace trees waterfalls ground shadows backdrop. Keep physical attached flowers leaves staff crystal wing membranes cloth sandals intact. Actual transparent alpha gaps retain translucent wings full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑眼・短緑髪・花葉髪飾・笑顔・蝶羽・両手指・花葉宝石長杖・緑白金葉ドレスリボン・両脚花蔓サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "080-scale-fairy_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\080-scale-fairy\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8dd19134-7ec3-4d09-8636-e85c1e112afb.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\080-scale-fairy_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      244,
+      194,
+      836,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR scale fairy card. Preserve identical smiling green eyed short olive haired fairy girl ornate gold leaves flower crown, full translucent pastel butterfly wings gold veins, green white gold layered leaf petal dress sheer long leaf ribbons flowers sleeves, both hands one holding complete gold flower branch staff large purple blue crystal in flower leaf frame other open palm, both legs flower gold vine sandals. Keep original front threequarter floating crossed bent leg pose. Remove all detached pastel cubes butterflies petals gold orbit rings light trails garden palace trees waterfalls floor shadows background. Keep physical attached leaves flowers staff crystal wing membranes dress sandals intact. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑眼・短緑髪・花葉髪飾・笑顔・蝶羽・両手指・花葉宝石長杖・緑白金葉ドレスリボン・両脚花蔓サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "081-geometric-demon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\081-geometric-demon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-640be3e2-da68-49d9-b5eb-d6ddae4f2cb4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\081-geometric-demon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      259,
+      194,
+      820,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR geometric demon card. Preserve identical black crimson crystalline armored demon knight glowing amber eyes enclosed horned helmet paired curved horns, jagged purple red crystal shoulder spikes chest diamond gems black red gold armor fissures, right hand gripping entire black red spiked crystal mace staff left large black red kite shield purple diamond center, both hands both legs pointed armored boots and torn purple black cape skirt. Keep original front threequarter standing stance. Remove detached floating shards sparks aura crystal palace stairs reflective floor background shadows. Keep physical attached crystals armor shield staff cape intact. Actual transparent alpha all gaps full silhouette complete weapon boots centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼・黒赤双角兜・黒紅結晶鎧肩棘・両手・結晶棘長杖・菱形宝石盾・紫黒裂けマント・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "081-geometric-demon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\081-geometric-demon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-824d64f8-4a1c-405b-8e54-bacc39511953.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\081-geometric-demon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      218,
+      194,
+      861,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR geometric demon card. Preserve exact black crimson crystal armored demon knight glowing amber eyes paired curved horn helmet red forehead diamond, elaborate jagged purple red shoulder crystal spikes round gems chest diamonds gold red armor fissures, right gripping entire black red spiked crystal mace staff left large kite shield black crimson purple diamonds, both hands both legs pointed armored boots and long torn purple black cape. Keep front threequarter standing stance. Remove separate gold halo crown wheel behind head floating shards sparks magic trails crystal palace stairs reflective floor shadows backdrop. Physical attached horns armor crystals weapon shield cape remain. Actual transparent alpha all gaps entire silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼・黒赤双角兜・黒紅結晶鎧肩棘・両手・結晶棘長杖・菱形宝石盾・紫黒裂けマント・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "082-polygon-chimera_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\082-polygon-chimera\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d1f575e5-3380-4668-9b09-bdea0e636a2a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\082-polygon-chimera_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      284,
+      886,
+      795
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR polygon chimera card. Preserve exact two headed crystalline chimera dragon one gold head amber eye one olive green head green eye both open fanged mouths long necks shared black gold purple blue crystal scale body, two large gold purple turquoise bat wings layered crystal spikes, four complete claw legs gold front and dark rear, long curled scaled tail purple crystal spikes white underside. Original front threequarter standing pose heads outward. Remove detached crystals floating islands cliff platform waterfalls palace sky trees flowers sparkles shadows background. Keep physical attached crystals wing membranes claws all body tail intact. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・金頭琥珀眼と緑頭緑眼・両牙顔長首・黒金紫青結晶胴・両翼膜・四足爪・長巻尾結晶棘保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "082-polygon-chimera_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\082-polygon-chimera\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-775933b8-4837-4ead-8a80-a688b6281467.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\082-polygon-chimera_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      307,
+      886,
+      772
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR polygon chimera card. Preserve exact two headed crystal chimera dragon golden head amber eye olive green head green eye both open fanged mouths long necks, shared black gold purple blue crystalline scale body, two huge gold purple turquoise crystal bat wings layered spikes, four complete claw legs gold front dark rear long curled white underside tail purple crystal spear tip. Keep original front threequarter standing heads outward pose, complete all wing tail tips. Remove detached crystals sparkles cliff platform castles waterfalls floating islands clouds sky trees flowers shadows backdrop. Physical crystals scales membranes claws body tail intact. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・金頭琥珀眼と緑頭緑眼・両牙顔長首・黒金紫青結晶胴・両翼膜・四足爪・長巻尾結晶棘保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "083-circle-goddess_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\083-circle-goddess\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1e79860e-e3f0-4d76-9522-9dfe8244d477.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\083-circle-goddess_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      252,
+      194,
+      827,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR circle goddess card. Preserve identical amber eyed gentle smiling long dark brown haired goddess gold net headpiece white flowers gold star earrings, ornate black white gold layered long gown wide sleeves white ruffles gold chains hanging blue diamonds compass medallions stars, one hand holding complete tall black gold armillary staff with blue star center gold circles attached small blue orbs, other open hand, both gold white high sandals. Keep original front threequarter standing pose full hem reveal occluded rear shoe consistently. Remove detached floating planets orbit trails stars sparkles sky palace columns waterfalls flowers floor reflections shadows backdrop. Physical staff rings connected ornaments hair dress chains stay. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼・長黒茶髪・金花冠・両手・天球儀星長杖・黒白金長袖ドレス白襞・金鎖星宝石円飾・両脚サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "083-circle-goddess_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\083-circle-goddess\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7be5d74c-9440-4e14-a26f-82c0e68b2437.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\083-circle-goddess_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      245,
+      194,
+      835,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR circle goddess reference card into a single transparent game cutout. Preserve identical amber eyes smiling face long flowing dark brown hair gold sun crown white flowers earrings, ornate black white gold long gown wide sleeves white ruffles chains blue diamonds compass and star medallions, both hands, complete tall black gold armillary staff with blue star core gold rings attached blue pendants, both legs gold white sandals. Keep original front three-quarter standing pose, full hem and both feet, reconstruct occluded rear sandal consistently. Remove palace sky waterfalls floor reflection shadow detached floating planets orbit trails magic circles and sparkles including giant ring behind head and waist. Keep physical connected staff rings and dress ornaments. Actual transparent alpha in all gaps. Full silhouette centered at64percent canvas with18percent margins, no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼・長黒茶髪・金花冠・両手・天球儀星長杖・黒白金長袖ドレス白襞・金鎖星宝石円飾・両脚サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "084-angle-archangel_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\084-angle-archangel\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a4d1bdb9-9d6b-4101-a0cd-fedb24c26231.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\084-angle-archangel_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      225,
+      194,
+      854,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case background-extraction. Extract only SR angle archangel from reference onto true transparent alpha. Preserve same silver tousled short hair blue eyes face, white gold blue gemstone feather armor, two complete large white feather wings gold blue wing bases, both gauntlets hands, complete gold sword pointing down left, blue gold flowing split cape and skirt panels, two legs armored boots. Keep original front threequarter standing pose. Remove sky palace waterfalls crystals ground floor reflection all floating light trails halos particles. No redesign no text frame or new objects. Complete body and sword wing tips centered64% square with18% transparent margins. Preserve actual alpha in feather gaps.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・短銀髪・白金青宝石鎧・両白羽翼・両手・黄金長剣・青金マント裾・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "084-angle-archangel_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\084-angle-archangel\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a740e61b-6d2c-4b4f-90ac-3ec6f4c9ff3d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\084-angle-archangel_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      231,
+      886,
+      848
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case background-extraction. Extract only UR angle archangel from reference onto true transparent alpha. Preserve identical silver tousled short hair blue eyes face, ornate white gold blue gemstone feather armor, two complete enormous white lavender feather wings gold blue bases, both hands gauntlets, complete gold sword pointing down left, blue gold split cape skirt chains blue jewel pendants, two complete legs armored boots. Keep front threequarter floating standing pose and crown-like small head halo if physically attached, no new pose. Remove sky palace waterfalls stairs ground reflections detached crystals stars huge celestial magic circles orbit trails light bands particles. Preserve connected jewelry and complete silhouette. Center64percent square18percent transparent margins all edges and gaps true alpha. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・短銀髪・白金青宝石鎧・両白羽翼・両手・黄金長剣・青金マント裾・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "085-graph-sphinx_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\085-graph-sphinx\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5e3f8c2d-a02c-4cee-ad70-9b06c2373c45.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\085-graph-sphinx_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\085-graph-sphinx_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\085-graph-sphinx_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      246,
+      886,
+      834
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR graph sphinx reference. Preserve exact golden lion bluegold jeweled crown amber eyes white muzzle long brown gold mane, blue gold breast shoulder armor gems, two complete black brown gold feather wings blue jeweled bases, four legs paws claws bluegold greaves, full curled tail tuft armor. Keep original front threequarter standing pose and facial direction. Remove all architecture sky clouds waterfalls pedestal floor reflection shadow sparkles. Single complete character true transparent alpha all gaps, centered64percent square18percent margin. No text frame redesign or new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼白口吻・金茶鬣・金青冠・青金宝石鎧・両黒茶金羽翼・四足爪・巻尾房保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "085-graph-sphinx_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\085-graph-sphinx\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-543d910e-e7cc-4d26-9048-536c066ed097.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\085-graph-sphinx_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\085-graph-sphinx_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\085-graph-sphinx_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      205,
+      886,
+      875
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR graph sphinx reference. Preserve identical golden lion jeweled high goldblue crown amber eyes white muzzle long flowing auburn mane, ornate bluegold wing shoulder chest armor blue diamonds hanging chains cape panels, two complete huge black brown gold feather wings gold bases, all four legs paws claws bluegold greaves, full curled tail with bushy tuft and goldblue tip armor. Keep original front threequarter standing pose facial direction. Remove palace sky clouds waterfalls round platform ground reflections shadows detached stars orbit trails magical light. Complete silhouette centered64percent square18percent margin, true transparent alpha all gaps. No text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼白口吻・金茶鬣・金青冠・青金宝石鎧・両黒茶金羽翼・四足爪・巻尾房保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "086-data-oracle_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\086-data-oracle\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-75fbbc95-5e4d-422f-91af-28c8b7cf3541.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\086-data-oracle_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      267,
+      194,
+      813,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR data oracle. Preserve identical tan skin blue eyes smiling face long silver white hair goldblue hair ornaments, purple white gold ornate long gown wide flowing sleeves layered split skirt chains stars blue diamonds, both hands fingers, complete long blackgold staff gold orbital cage purpleblue crystal and dangling attached jewels, both legs high goldblack boots. Keep front threequarter original standing pose. Remove library architecture floor reflections planets all floating graph screens detached crystals orbit trails magic aura and sparkles. Preserve physical staff rings clothing hair and jewelry. Whole silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・褐色肌青眼・長銀白髪・金青髪飾・両手指・天球儀紫青結晶長杖・紫白金長袖ドレス・鎖星宝石・両脚長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "086-data-oracle_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\086-data-oracle\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6da6f3fb-d20e-4a7c-8598-114cfd712c43.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\086-data-oracle_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      260,
+      194,
+      819,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR data oracle. Preserve exact tan skin blue eyes gentle face long white silver flowing hair goldblue crown hair jewelry, ornate purple white gold gown shoulder cutouts long flowing sleeves split layered skirt gold chains stars blue purple diamond ornaments, both hands fingers, complete tall goldblack staff with gold orbital cage purpleblue crystal and attached blue pendants, both legs and goldwhite pointed high boots reveal rear boot consistently if hem occludes. Keep original front threequarter standing pose. Remove entire library waterfalls floor reflections big magic halo behind head celestial rings orbit trails graphs hologram screens detached floating crystals planets sparkles. Keep physical staff gold cage and attached dress ornaments. Full character centered64percent square18percent margins true transparent alpha all gaps. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・褐色肌青眼・長銀白髪・金青髪飾・両手指・天球儀紫青結晶長杖・紫白金長袖ドレス・鎖星宝石・両脚長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "087-alphabet-witch_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\087-alphabet-witch\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4db23808-4148-4fec-bc82-2727082252ee.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\087-alphabet-witch_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\087-alphabet-witch_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\087-alphabet-witch_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      262,
+      194,
+      818,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR alphabet witch. Preserve same red twin ponytails pink eyes smiling face, huge purple gold bent pointed witch hat purple gemstone star brooch, black purple gold long split dress frilled sleeves white ruffles chains stars pendants, both hands fingers, open ornate purplegold spellbook hovering beside left hand as equipment, two legs black stockings and purplegold star high boots. Keep original front threequarter standing pose. Remove library windows shelves ground reflections all detached crystals orbit trails sparkles magic circles. Retain book and clothing ornaments. Full character true transparent alpha all gaps, centered64percent square18percent margins no frame text or redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・桃眼・赤巻ツイン髪・紫金尖帽・両手指・開いた紫金魔導書・黒紫金白襞ドレス・鎖星宝石円飾・両脚ストッキング長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "087-alphabet-witch_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\087-alphabet-witch\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-04b3e264-3bb7-419d-9fdc-885cb7a0e9c8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\087-alphabet-witch_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\087-alphabet-witch_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\087-alphabet-witch_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      230,
+      194,
+      849,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR alphabet witch. Preserve identical red curled twin ponytails pink eyes happy open-mouth face, huge bent pointed purplegold witch hat gold star purplegem brooch, black purple gold frilled dress white ruffles long floating split cape skirt bluepurple jewels gold chains star and circle pendants, both hands fingers, complete ornate open purplegold spellbook floating beside left arm as equipment, both legs stockings star-decorated blackpurplegold boots. Keep original floating front threequarter pose one knee bent, all limbs and skirt. Remove library stairs floor reflections giant halo planets orbit trails detached crystals magic light sparkles. Keep physical equipment book clothes jewelry only. Complete silhouette true transparent alpha all gaps centered64percent square18percent margin no added text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・桃眼・赤巻ツイン髪・紫金尖帽・両手指・開いた紫金魔導書・黒紫金白襞ドレス・鎖星宝石円飾・両脚ストッキング長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "088-algebra-devil-lord_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\088-algebra-devil-lord\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b075d261-bcde-49b5-84ff-00b71371db63.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\088-algebra-devil-lord_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      224,
+      194,
+      855,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR algebra devil lord. Preserve exact blackgold curled double horn helmet glowing purple eyes narrow visor face, massive black purple gold spiked armor purple diamond chest shoulder belt gems, two gauntlets claw fingers, complete tall blackgold purple axe halberd with full staff, purpleblack torn gold edged cape split skirt, both legs spiked armored boots. Keep original front threequarter standing pose. Remove all palace columns stairs cosmic sky ground reflection shadow detached crystals orbit light trails magic circles sparkles. Keep character equipment complete silhouette true transparent alpha all gaps centered64percent square18percent margins no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・黒金双巻角兜・黒紫金棘鎧紫宝石・両手爪・紫刃長柄斧・紫黒金裂けマント・両脚棘鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "088-algebra-devil-lord_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\088-algebra-devil-lord\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5315b0e1-1489-4426-a9d1-8a1262829cad.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\088-algebra-devil-lord_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      219,
+      194,
+      860,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR algebra devil lord reference. Preserve identical ornate black gold curled double horns crested helmet purple glowing eyes narrow visor face, enormous blackpurplegold spiked armor purple diamond chest belt knees gems, both gauntlets claw fingers, complete towering blackgold purple crystal axe halberd full shaft, ragged purpleblack gold edged cape split skirt hanging diamond pendants, both legs spiked goldblack boots. Keep original front standing pose complete silhouette. Remove cosmic palace stairs columns floor reflections shadows planets giant celestial ring halos orbit trails detached crystals sparks magic aura. Physical armor weapon and cape ornaments stay. Actual transparent alpha all gaps, centered64percent square18percent margin no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・黒金双巻角兜・黒紫金棘鎧紫宝石・両手爪・紫刃長柄斧・紫黒金裂けマント・両脚棘鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
   }
 ]

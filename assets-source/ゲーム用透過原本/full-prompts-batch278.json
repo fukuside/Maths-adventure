@@ -1,0 +1,31 @@
+[
+  {
+    "key": "059-numerator-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\059-numerator-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e80e689c-5097-4af2-8ad2-4bcb75a2ea18.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\059-numerator-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      208,
+      194,
+      871,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR numerator rabbit reference. Preserve exact white rabbit blue eyes long pink ears happy mouth full body both hands both feet fluffy tail. Preserve entire purple gold star wizard hat blue diamond clasp dangling star, purple gold robe cape bow blue gems gold chains, entire held brown gold staff large violet faceted orb star frame and bottom end. Keep front threequarter floating pose right hand open. Remove palm magic circle all detached numerals crystals purple trails sparks ground ring dark sky. True transparent alpha all gaps retain white fur. Whole silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長耳・両手足・白尾・紫金帽衣装・鎖青宝石・長杖紫球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -7,6 +7,7 @@ async function countLifetime(auth){
   if(scanned>20000)throw new Error('lifetime-count-limit');
   for(const user of page.users){
    if(user.customClaims?.analyticsAdmin===true){excludedAdmins++;continue;}
+   if(user.customClaims?.usageOnly===true)continue;
    if(user.metadata?.lastSignInTime)total++;
   }
   pageToken=page.pageToken;

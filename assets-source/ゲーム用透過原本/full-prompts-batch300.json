@@ -1,0 +1,31 @@
+[
+  {
+    "key": "070-speed-valkyrie_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\070-speed-valkyrie\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-796f1fc7-ec98-4e43-a20c-ca60d9e353c3.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\070-speed-valkyrie_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      209,
+      886,
+      870
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR speed valkyrie card. Preserve identical brave blonde ponytail blue eyed girl open mouth, blue gold jeweled headband silver blue wing ear ornaments, white blue gold armor skirt flowing blue gold ribbons lace trim, both gauntlet hands gripping entire diagonal blue shaft spear large silver gold blue crystal blade upper left and small blade lower right, both white feather wings, both legs armored silver gold blue boots in airborne running pose. Remove detached feathers blue wind trails sparkles magical floor shadow background. Keep physical wings hair ribbons feathers ornaments spear all tips intact. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins front threequarter original pose no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・金髪ポニーテール・翼耳飾り・両白羽翼・両手・青柄両刃槍・青白金鎧衣装リボン・両脚ブーツ保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

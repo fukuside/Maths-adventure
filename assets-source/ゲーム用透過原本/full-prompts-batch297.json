@@ -1,0 +1,31 @@
+[
+  {
+    "key": "068-average-goddess_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\068-average-goddess\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b3d80ef6-7af2-427e-bbc1-245b5e26e005.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\068-average-goddess_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      207,
+      886,
+      873
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR average goddess reference. Preserve identical blue eyed gently smiling goddess long blue hair gold blue laurel crown, elaborate white blue gold dress and flowing long open sleeves, gold chains star ornaments blue jewels, two open hands fingers both crossed legs gold blue high sandals, original front threequarter floating pose. Keep all physical hair strands translucent cloth ribbons gold chains gems footwear. Recover clipped garment edges consistently. Remove separate gold halo behind head star wheel all floating blue orbs crystal shards sparkles water energy trails floor circle clouds columns backdrop shadows. True transparent alpha all gaps, full body complete hair clothes hands feet centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長青髪・月桂冠・両手指・青白金ドレス長袖・金鎖青宝石・両脚サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

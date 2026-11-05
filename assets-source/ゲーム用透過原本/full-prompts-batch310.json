@@ -1,0 +1,31 @@
+[
+  {
+    "key": "075-rate-mercury_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\075-rate-mercury\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-2213b474-a100-47af-97ca-ae4cdd43f05b.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\075-rate-mercury_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      260,
+      194,
+      820,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR rate mercury reference. Preserve identical cute silver white haired blue eyed smiling boy open mouth, two white feather wings, white gold tunic short sleeves blue gold cape ribbons blue jewel collar belt, right raised hand gripping entire golden staff with winged lightning finial, left open hand fingers, both legs gold white winged sandals blue jewels original front threequarter airborne raised knee pose. Keep physical staff gold lightning finial wings feather sandals garments ribbons jewels. Remove surrounding detached yellow lightning trails clouds palace columns flowers floor sky all background and shadows. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・銀白髪・笑顔・白羽両翼・金翼雷杖・両手指・白金衣装青金マントリボン・両脚翼サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "055-decimal-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\055-decimal-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-73ee1d49-53c8-46de-bc7d-ec16142abe7f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\055-decimal-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      215,
+      886,
+      865
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR decimal king reference. Preserve identical blue round seal king blue eyes gold nose white curled moustache whiskers smiling open mouth entire body both flipper hands both small feet. Preserve complete gold blue jeweled crown, blue gold star robe fur trimmed cape all ends chains chest gems, held long black gold staff complete finial circular gold star frame and physical faceted blue orb. Keep front threequarter floating pose. Remove water swirls detached droplets crystals sparks ground magic circle shadows starry background. Preserve staff orb solid equipment. True transparent alpha all gaps. Center full silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白髭・両手足・青体・金青冠・毛皮マント・鎖宝石・長杖青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

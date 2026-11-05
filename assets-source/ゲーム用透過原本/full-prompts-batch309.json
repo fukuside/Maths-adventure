@@ -1,0 +1,31 @@
+[
+  {
+    "key": "074-density-titan_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\074-density-titan\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9257256f-b771-4ccc-a564-3f68393cf4cd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\074-density-titan_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\074-density-titan_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      227,
+      194,
+      853,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR density titan card. Preserve identical smiling charcoal stone golem blue eyes open mouth, massive blue crystal crown ornate gold fittings, large blue crystal shoulder armor gold frames, huge square blue chest diamond, gold plated stone torso belt, two clenched stone fists arms gold blue spiked cuffs, two strong stone legs complete feet large blue knee shin gems gold bands. Keep original front threequarter standing fists pose. Remove cave palace bridges waterfalls water reflection rocks floating detached crystals sparkles shadows ground backdrop. Keep all attached crystals gold plates cracks stone body intact. True transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・笑顔・黒石肌亀裂・青結晶金冠肩鎧・胸大青宝石・両拳腕・両脚足・膝脛青結晶金輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

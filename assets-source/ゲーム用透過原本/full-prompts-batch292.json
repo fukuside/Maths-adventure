@@ -1,0 +1,31 @@
+[
+  {
+    "key": "066-percent-devil_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\066-percent-devil\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-4edcb148-8d26-4e17-a481-a0a5f147f3a8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\066-percent-devil_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      194,
+      885,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR percent devil reference. Preserve identical cute brave demon boy red eyes fanged grin black hair red streak pointed ears two red black horns, black red gold jacket shorts red neck bow ruby gems gold chains, black lace boots both legs, left gripping entire black staff red ornate spiked head ruby, right outstretched bare hand, both full burgundy bat wings and thin arrow tip tail, original front threequarter airborne pose. Remove red percentage magic circles floating percent orbs numbers detached shards sparks red lightning swirls smoke floor shadows all backdrop. Keep physical wings clothes gems chains staff intact. Whole character equipment and tail centered64percent square18percent margin actual transparent alpha all gaps. No text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤両目・牙・赤黒髪角・尖耳・両手・紅宝石長杖・黒赤金衣装鎖・両脚ブーツ・赤紫翼・矢尻尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

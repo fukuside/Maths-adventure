@@ -1,0 +1,31 @@
+[
+  {
+    "key": "080-scale-fairy_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\080-scale-fairy\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8dd19134-7ec3-4d09-8636-e85c1e112afb.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\080-scale-fairy_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      244,
+      194,
+      836,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR scale fairy card. Preserve identical smiling green eyed short olive haired fairy girl ornate gold leaves flower crown, full translucent pastel butterfly wings gold veins, green white gold layered leaf petal dress sheer long leaf ribbons flowers sleeves, both hands one holding complete gold flower branch staff large purple blue crystal in flower leaf frame other open palm, both legs flower gold vine sandals. Keep original front threequarter floating crossed bent leg pose. Remove all detached pastel cubes butterflies petals gold orbit rings light trails garden palace trees waterfalls floor shadows background. Keep physical attached leaves flowers staff crystal wing membranes dress sandals intact. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑眼・短緑髪・花葉髪飾・笑顔・蝶羽・両手指・花葉宝石長杖・緑白金葉ドレスリボン・両脚花蔓サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "088-algebra-devil-lord_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\088-algebra-devil-lord\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5315b0e1-1489-4426-a9d1-8a1262829cad.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\088-algebra-devil-lord_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      219,
+      194,
+      860,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR algebra devil lord reference. Preserve identical ornate black gold curled double horns crested helmet purple glowing eyes narrow visor face, enormous blackpurplegold spiked armor purple diamond chest belt knees gems, both gauntlets claw fingers, complete towering blackgold purple crystal axe halberd full shaft, ragged purpleblack gold edged cape split skirt hanging diamond pendants, both legs spiked goldblack boots. Keep original front standing pose complete silhouette. Remove cosmic palace stairs columns floor reflections shadows planets giant celestial ring halos orbit trails detached crystals sparks magic aura. Physical armor weapon and cape ornaments stay. Actual transparent alpha all gaps, centered64percent square18percent margin no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・黒金双巻角兜・黒紫金棘鎧紫宝石・両手爪・紫刃長柄斧・紫黒金裂けマント・両脚棘鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

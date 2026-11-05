@@ -1,0 +1,31 @@
+[
+  {
+    "key": "088-algebra-devil-lord_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\088-algebra-devil-lord\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b075d261-bcde-49b5-84ff-00b71371db63.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\088-algebra-devil-lord_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\088-algebra-devil-lord_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      224,
+      194,
+      855,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR algebra devil lord. Preserve exact blackgold curled double horn helmet glowing purple eyes narrow visor face, massive black purple gold spiked armor purple diamond chest shoulder belt gems, two gauntlets claw fingers, complete tall blackgold purple axe halberd with full staff, purpleblack torn gold edged cape split skirt, both legs spiked armored boots. Keep original front threequarter standing pose. Remove all palace columns stairs cosmic sky ground reflection shadow detached crystals orbit light trails magic circles sparkles. Keep character equipment complete silhouette true transparent alpha all gaps centered64percent square18percent margins no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・黒金双巻角兜・黒紫金棘鎧紫宝石・両手爪・紫刃長柄斧・紫黒金裂けマント・両脚棘鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

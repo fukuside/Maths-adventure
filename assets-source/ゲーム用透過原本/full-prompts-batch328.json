@@ -1,0 +1,31 @@
+[
+  {
+    "key": "084-angle-archangel_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\084-angle-archangel\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a4d1bdb9-9d6b-4101-a0cd-fedb24c26231.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\084-angle-archangel_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      225,
+      194,
+      854,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case background-extraction. Extract only SR angle archangel from reference onto true transparent alpha. Preserve same silver tousled short hair blue eyes face, white gold blue gemstone feather armor, two complete large white feather wings gold blue wing bases, both gauntlets hands, complete gold sword pointing down left, blue gold flowing split cape and skirt panels, two legs armored boots. Keep original front threequarter standing pose. Remove sky palace waterfalls crystals ground floor reflection all floating light trails halos particles. No redesign no text frame or new objects. Complete body and sword wing tips centered64% square with18% transparent margins. Preserve actual alpha in feather gaps.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・短銀髪・白金青宝石鎧・両白羽翼・両手・黄金長剣・青金マント裾・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

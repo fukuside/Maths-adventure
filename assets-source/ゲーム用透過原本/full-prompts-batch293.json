@@ -1,0 +1,31 @@
+[
+  {
+    "key": "066-percent-devil_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\066-percent-devil\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9a31cb59-bcaa-4120-a0f6-a56ac11d48d5.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\066-percent-devil_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\066-percent-devil_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      200,
+      194,
+      879,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR percent devil card. Preserve exact demon boy red eyes fanged grin black hair red streak pointed ears paired red black horns, ornate black red gold jacket shorts ruby jewelry gold chains red neck bow tall black red gold armored boots, left hand gripping complete black staff ornate red spiked ruby head, open right hand, both huge burgundy black bat wings and thin arrow tail, torn black red gold cape. Keep original front threequarter airborne stance and full body, complete clipped wing edges and obscured rear boot consistently. Remove all percent orbs symbols circles red lightning smoke detached shards sparks magical floor shadows backdrop. Physical ruby staff gems cloth wings remain. Actual transparent alpha every gap; full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤両目・牙・赤黒髪角・尖耳・両手・紅宝石長杖・黒赤金衣装鎖・両脚ブーツ・赤紫翼・矢尻尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

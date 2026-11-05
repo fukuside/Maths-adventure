@@ -1,0 +1,31 @@
+[
+  {
+    "key": "073-unit-fenrir_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\073-unit-fenrir\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e1e1121e-1353-41a8-b903-e761b2b7d9d6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\073-unit-fenrir_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR unit fenrir card. Preserve identical cute brave white navy blue wolf blue eyes smiling open mouth little fangs pointed ears, layered icy blue crystal mane head shoulder back and leg crystals, large blue diamond chest, four full white black claw paws and large curled bushy navy blue white tip tail. Keep original standing front threequarter pose head facing viewer. Remove entire snowy mountain forest sky frozen lake reflection floating detached crystals snow sparkles shadows ground. Preserve physical attached crystal fur and all tail tips. Actual transparent alpha all gaps, whole silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白青毛・笑顔牙・尖耳・頭肩背脚の青結晶・胸大宝石・四足黒爪・青白房尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

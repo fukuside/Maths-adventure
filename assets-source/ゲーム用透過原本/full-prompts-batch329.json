@@ -1,0 +1,31 @@
+[
+  {
+    "key": "084-angle-archangel_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\084-angle-archangel\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-a740e61b-6d2c-4b4f-90ac-3ec6f4c9ff3d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\084-angle-archangel_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      231,
+      886,
+      848
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case background-extraction. Extract only UR angle archangel from reference onto true transparent alpha. Preserve identical silver tousled short hair blue eyes face, ornate white gold blue gemstone feather armor, two complete enormous white lavender feather wings gold blue bases, both hands gauntlets, complete gold sword pointing down left, blue gold split cape skirt chains blue jewel pendants, two complete legs armored boots. Keep front threequarter floating standing pose and crown-like small head halo if physically attached, no new pose. Remove sky palace waterfalls stairs ground reflections detached crystals stars huge celestial magic circles orbit trails light bands particles. Preserve connected jewelry and complete silhouette. Center64percent square18percent transparent margins all edges and gaps true alpha. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・短銀髪・白金青宝石鎧・両白羽翼・両手・黄金長剣・青金マント裾・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

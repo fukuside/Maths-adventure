@@ -1,0 +1,31 @@
+[
+  {
+    "key": "058-quarter-rabbit_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\058-quarter-rabbit\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-3fb4012c-a50a-4345-bf84-b137e5b7a6fa.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\058-quarter-rabbit_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      259,
+      194,
+      820,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR 058 quarter rabbit reference exactly as pictured crystal humanoid not rabbit. Preserve identical angular blue violet crystal head cyan oval eyes small smile full segmented crystal body purple chest gem, both articulated hands fingers both legs sharp feet, large attached crystal back shoulder arrays and gold edged armor wrist bands hanging jewel chains. Preserve physical gold circular halo behind head with top blue diamond. Remove detached orbiting framed crystals external palm magic circle purple blue trails stars ground circle clouds dark sky. Keep attached crystal facets pale highlights and gold trim. True transparent alpha all gaps. Center whole silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・シアン両目・笑顔・角結晶頭・分節胴体・紫胸石・両手指・両脚足・結晶背棘・金装甲・金輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

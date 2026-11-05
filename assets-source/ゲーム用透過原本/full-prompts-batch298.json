@@ -1,0 +1,31 @@
+[
+  {
+    "key": "069-balance-cerberus_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\069-balance-cerberus\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-53112473-1e77-485c-a331-52b7e9b300d4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\069-balance-cerberus_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      229,
+      886,
+      850
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR balance cerberus card. Preserve identical white fur three headed wolf blue eyes three gold crowns blue diamonds, three snarling mouths teeth ears, one powerful shared body four full claw paws two bushy raised tails, gold jeweled harness blue gems gold chains and two front gold blue wrist cuffs. Keep original front threequarter crouched stance with side heads facing outward and center head frontal. Remove all golden flame wisps trails sparks floating rocks magic floor circle shadows background. Physical fur tails claws crowns harness chains gems remain. True transparent alpha every gap, whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・三頭青眼・牙・白毛・三金冠・四足爪・双尾・金ハーネス鎖・青宝石・前足腕輪保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

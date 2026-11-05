@@ -1,0 +1,31 @@
+[
+  {
+    "key": "062-fraction-king_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\062-fraction-king\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-45ddabe7-1bde-4e5b-b79a-f8c7969b17d6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\062-fraction-king_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      211,
+      194,
+      868,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR fraction king reference. Preserve identical elderly human king blue eyes stern face white flowing hair curled moustache long braided beard full body both hands fingers gold rings both boots. Preserve gold blue jeweled crown entire ornate navy gold fur robe cape all tips gold chains blue chest belt gems, complete held black gold staff ring star head blue faceted orb hanging crystal charms bottom finial. Keep front threequarter standing pose. Remove head background halo all detached floating crystals gold blue lightning trails sparkles ground circle architectural ground backdrop. Recover clipped cape edges consistently. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白髪髭・両手指・両足靴・青金冠衣装・鎖青宝石・長杖青球・毛皮・指輪・編髭保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

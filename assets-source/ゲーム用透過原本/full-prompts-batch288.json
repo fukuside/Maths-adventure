@@ -1,0 +1,31 @@
+[
+  {
+    "key": "064-equal-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\064-equal-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-3ae1a057-6726-4b30-b6f6-ab3444a07ba6.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\064-equal-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      197,
+      194,
+      883,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR equal king card reference. Preserve exact golden brown round king face blue eyes white bushy eyebrows white curled moustache, large gold black crown with blue diamond cross top, black gold armor gold equals sign on chest, white gloves left grips entire long black gold staff large blue crystal head, right open hand, two full black gold boots, blue gold star cape white fur trim all gold chains belt blue gems. Keep front threequarter stance, restore no clipping. Remove golden swirls floating detached crystals stars sparkles magic floor all backdrop shadows. Physical cape stars chest equals symbol crown staff remain. Actual transparent alpha clean gaps no environment. Whole character and complete staff centered64percent square18percent margin. No extra text no redesign.",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白眉口髭・金冠・白手袋両手・両靴・黒金鎧の等号・青金毛皮マント・青宝石長杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

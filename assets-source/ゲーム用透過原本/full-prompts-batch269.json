@@ -1,0 +1,31 @@
+[
+  {
+    "key": "054-point-dragon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\054-point-dragon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-727de3c2-fa01-43c6-a415-0108b40fc687.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\054-point-dragon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      219,
+      886,
+      861
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR point dragon reference. Preserve exact majestic white scaled dragon blue eyes snarling open mouth fangs long horn crystal crest neck back blue spikes, entire body both claw hands both feet blue claws two immense membrane wings full tips long curved tail crystal tip. Preserve gold blue jeweled chest shoulder wrist leg wing and tail armor filigree. Keep original front threequarter airborne pose. Complete cropped wing tips consistently. Remove palm magic orb all detached shards ice swirls gold light rings sparkles clouds ground circle backdrop. Preserve wing membranes white scales attached crystals and armor. True transparent alpha all gaps. Center complete silhouette64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・牙・両翼膜・両手足青爪・白鱗・青水晶冠背棘・曲尾・金青宝石装甲保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

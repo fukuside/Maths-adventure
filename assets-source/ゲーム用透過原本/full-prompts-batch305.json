@@ -1,0 +1,31 @@
+[
+  {
+    "key": "072-time-chrono-demon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\072-time-chrono-demon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0f4bc6bf-42bc-4616-9b87-af53e9844527.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\072-time-chrono-demon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      211,
+      886,
+      868
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR time chrono demon card. Preserve identical navy purple dragon blue violet eyes white muzzle belly open fanged mouth, gold horns purple crystal forehead spiky head, ornate gold violet crystal chest shoulder wrist knee armor and physical gold chains, both huge dark violet gold rim bat wings, two claw arms two claw legs gold talons long curled navy scaled gold armored tail purple crystal spear tip. Keep front threequarter airborne pose full body; complete clipped wing edges and obscured rear foot consistently. Remove all floating clocks roman numeral dials gears detached crystals purple lightning sparks smoke magical floor shadows backdrop. Keep physical armor chains gems membranes tail intact. Actual transparent alpha all gaps entire silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白顔腹・牙・紫鱗・金角青宝石・紫金両翼・四肢金爪・胸腕膝宝石・長尾青宝石先保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

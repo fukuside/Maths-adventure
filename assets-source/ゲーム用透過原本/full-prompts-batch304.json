@@ -1,0 +1,31 @@
+[
+  {
+    "key": "072-time-chrono-demon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\072-time-chrono-demon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-ef244159-9d76-416b-ba1c-122894ed1d62.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\072-time-chrono-demon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      202,
+      886,
+      878
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR time chrono demon card. Preserve identical cute purple navy dragon blue eyes white muzzle belly open mouth fangs, spiky violet head large gold horns blue diamond forehead, two navy violet gold rim bat wings, two claw arms and two claw legs with gold talons, blue gold crystal chest wrist knee armor, long curled purple scaled tail gold rim blue diamond tip. Keep front threequarter airborne pose whole body. Remove all floating clocks roman numeral rings gears violet lightning wisps shards magic floor shadow background. Keep attached armor gems horns wing membranes tail intact. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白顔腹・牙・紫鱗・金角青宝石・紫金両翼・四肢金爪・胸腕膝宝石・長尾青宝石先保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

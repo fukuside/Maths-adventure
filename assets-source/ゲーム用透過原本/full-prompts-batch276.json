@@ -1,0 +1,31 @@
+[
+  {
+    "key": "058-quarter-rabbit_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\058-quarter-rabbit\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-b694e3c6-14ad-4e5a-8e4a-23a96ae65773.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\058-quarter-rabbit_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\058-quarter-rabbit_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      274,
+      194,
+      805,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR asset 058 quarter rabbit reference exactly as pictured: a blue violet faceted crystal humanoid, NOT a rabbit. Preserve identical large angular gem head cyan oval eyes small smile segmented crystal torso violet chest gem both articulated arms hands fingers both angular legs feet. Keep original front threequarter action pose. Remove external palm magic disk all detached floating crystal shards purple blue trails sparkles ground circle dark sky. Keep attached physical crystal facets with their original colors and highlights; do not erase pale facets. True transparent alpha all limb gaps. Whole silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・シアン両目・笑顔・角結晶頭・分節胴体・紫胸石・両手指・両脚足保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

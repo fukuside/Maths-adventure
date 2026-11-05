@@ -1,0 +1,31 @@
+[
+  {
+    "key": "077-average-archangel_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\077-average-archangel\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-5e4fc94d-0a4d-428c-b9b9-523430461639.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\077-average-archangel_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\077-average-archangel_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\077-average-archangel_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      252,
+      194,
+      827,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR average archangel card. Preserve identical gentle smiling blue eyed long golden haired angel girl ornate gold blue crown wing hair ornaments, two white feather wings gold fittings, elaborate white gold long layered gown sleeves gold chains hanging blue diamonds stars, both hands one gripping entire tall gold staff circular compass blue star head three chain balance pans blue star jewels other open palm, both white gold armored boots. Keep original front threequarter standing pose complete gown hem and recover hidden rear boot consistently. Remove separate head halo golden rings floor magic circle reflection loose petals feathers palace waterfalls clouds flowers shadows backdrop. Physical staff circle chains pans crown wings hair clothing stay. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長金髪・笑顔・金冠羽飾・白羽両翼・両手指・白青金長袖ドレス・金鎖青宝石星・両脚鎧靴・円環天秤三皿杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

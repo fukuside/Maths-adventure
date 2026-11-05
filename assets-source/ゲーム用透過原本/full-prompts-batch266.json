@@ -1,0 +1,31 @@
+[
+  {
+    "key": "053-zero-tenths-bear_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\053-zero-tenths-bear\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-8888043d-48ef-40d8-8ec6-8b55fc0ced62.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\053-zero-tenths-bear_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      219,
+      886,
+      860
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR zero tenths bear reference. Preserve identical pale blue white bear blue eyes dark nose joyful mouth pink cheeks round ears full body both paws both feet blue pads and small tail if visible. Preserve blue pixel patterned scarf all trailing ends and exact physical scarf inscription 0.10 as part of costume. Keep original front threequarter action pose. Remove magic orb covering left paw all floating numerals pixels sparkles blue energy trails ground circle shadow dark background. Restore hidden physical paw consistently. True transparent alpha all gaps retain pale fur. Center complete silhouette64 percent square18 percent margin. No added text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・鼻・両手足青肉球・淡青白毛・青スカーフと0.10衣装紋保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

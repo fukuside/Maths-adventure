@@ -1,0 +1,31 @@
+[
+  {
+    "key": "056-half-moon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\056-half-moon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-da98b200-7416-4a86-b3b8-059812a9c6de.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\056-half-moon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      207,
+      886,
+      872
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR half moon reference. Preserve identical white rabbit blue eyes long pink ears happy mouth full body both hands both feet fluffy tail. Preserve complete blue gold star wizard hat chains star charms, ornate navy gold fur trimmed robe cape all tips blue jeweled bow clasps gold chains hanging stars and blue gems, entire held black gold crescent staff physical blue orb and bottom finial. Keep front threequarter floating pose right palm open. Remove giant background crescent, external palm magic trails all detached crystals sparkles gold light rings clouds ground circle dark sky. Recover clipped cape and staff tips consistently. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・長耳・両手足・白尾・魔法帽・青金衣装・鎖星飾り・月杖青球・毛皮マント・垂れ宝石保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

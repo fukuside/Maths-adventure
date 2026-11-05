@@ -1,0 +1,31 @@
+[
+  {
+    "key": "086-data-oracle_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\086-data-oracle\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-75fbbc95-5e4d-422f-91af-28c8b7cf3541.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\086-data-oracle_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      267,
+      194,
+      813,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR data oracle. Preserve identical tan skin blue eyes smiling face long silver white hair goldblue hair ornaments, purple white gold ornate long gown wide flowing sleeves layered split skirt chains stars blue diamonds, both hands fingers, complete long blackgold staff gold orbital cage purpleblue crystal and dangling attached jewels, both legs high goldblack boots. Keep front threequarter original standing pose. Remove library architecture floor reflections planets all floating graph screens detached crystals orbit trails magic aura and sparkles. Preserve physical staff rings clothing hair and jewelry. Whole silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・褐色肌青眼・長銀白髪・金青髪飾・両手指・天球儀紫青結晶長杖・紫白金長袖ドレス・鎖星宝石・両脚長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

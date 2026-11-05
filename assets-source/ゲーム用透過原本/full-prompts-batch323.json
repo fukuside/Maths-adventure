@@ -1,0 +1,31 @@
+[
+  {
+    "key": "081-geometric-demon_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\081-geometric-demon\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-824d64f8-4a1c-405b-8e54-bacc39511953.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\081-geometric-demon_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      218,
+      194,
+      861,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR geometric demon card. Preserve exact black crimson crystal armored demon knight glowing amber eyes paired curved horn helmet red forehead diamond, elaborate jagged purple red shoulder crystal spikes round gems chest diamonds gold red armor fissures, right gripping entire black red spiked crystal mace staff left large kite shield black crimson purple diamonds, both hands both legs pointed armored boots and long torn purple black cape. Keep front threequarter standing stance. Remove separate gold halo crown wheel behind head floating shards sparks magic trails crystal palace stairs reflective floor shadows backdrop. Physical attached horns armor crystals weapon shield cape remain. Actual transparent alpha all gaps entire silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼・黒赤双角兜・黒紅結晶鎧肩棘・両手・結晶棘長杖・菱形宝石盾・紫黒裂けマント・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

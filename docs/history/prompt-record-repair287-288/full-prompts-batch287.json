@@ -1,0 +1,31 @@
+[
+  {
+    "key": "063-proper-monster_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\063-proper-monster\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0c84e05e-f169-46f9-8a32-7b5fa136aad7.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\063-proper-monster_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\063-proper-monster_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      199,
+      886,
+      880
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit target UR proper monster card. Preserve identical black scaled dragon demon king, violet eyes snarling fangs, two tall purple cracked horns forehead diamond crown, gold thorn armor chest purple diamond, gold chains hanging jewels, dark purple cape, both full bat wings, two arms with left hand gripping entire tall black staff topped large spiked gold circular purple crystal wheel, right open purple claw hand, two legs claw feet and long curled scaled tail. Preserve all equipment physical chains gems and wing membranes. Remove background vortex black hole lightning detached crystals debris ground magic circle shadows. Complete any clipped wing staff tail tips consistently. Keep front threequarter stance entire body and staff centered64percent square with18percent margins. Actual transparent alpha including spaces within staff wheel chains wings limbs; no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫両目・牙・双角・両翼膜・四肢紫爪・黒鱗・額胸膝紫宝石・長尾・金棘鎧・鎖・紫マント・大輪長杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

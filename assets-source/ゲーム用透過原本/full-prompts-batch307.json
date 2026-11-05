@@ -1,0 +1,31 @@
+[
+  {
+    "key": "073-unit-fenrir_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\073-unit-fenrir\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d73a2079-527b-4984-95bc-f62d7f7ba211.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\073-unit-fenrir_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      195,
+      194,
+      885,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR unit fenrir reference. Preserve identical majestic white gray navy wolf pale blue eyes calm closed muzzle pointed ears, large layered icy blue crystal mane head shoulder back and legs, blue diamond chest, four full white paws black claws, huge curled navy blue white tip bushy tail embedded blue crystals. Keep original standing front threequarter body and head angled slightly right. Remove snowy mountains forests sky constellations floating detached crystals water rings sparkles frozen lake reflection ground shadows backdrop. Keep all attached crystal fur tips tail intact. Actual transparent alpha all gaps whole silhouette centered64percent square18percent margins no text no redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・白青毛・閉じた口・尖耳・頭肩背脚の青結晶・胸大宝石・四足黒爪・青白房尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

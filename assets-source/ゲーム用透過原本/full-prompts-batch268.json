@@ -1,0 +1,31 @@
+[
+  {
+    "key": "054-point-dragon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\054-point-dragon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d023231f-243a-417a-9279-efe6c2717ef2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\054-point-dragon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      234,
+      886,
+      845
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR point dragon reference. Preserve identical white scaled dragon blue eyes happy open mouth small fangs blue crystal forehead crest back spikes, entire body both open claw hands both feet blue claws, two full membrane wings all tips and complete curled tail crystal tip. Keep front threequarter airborne pose. Remove ice magic explosion between hands all detached crystals ice trails sparkles ground circle shadows pale gray background. Restore obscured hands consistently. Preserve white wing membranes and white scales, attached blue crystals. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・牙・両翼膜・両手足青爪・白鱗・青水晶冠背棘・曲尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

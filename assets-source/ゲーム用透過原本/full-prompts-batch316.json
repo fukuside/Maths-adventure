@@ -1,0 +1,31 @@
+[
+  {
+    "key": "078-ratio-twin-dragon_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\078-ratio-twin-dragon\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-fba8bdb5-184e-48e0-bedd-8f209007370d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\078-ratio-twin-dragon_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      226,
+      886,
+      854
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR ratio twin dragon card. Preserve exact paired blue and golden dragons intertwined facing each other smiling fanged mouths blue dragon blue eyes gold dragon amber eyes, white neck belly scales, crystalline layered horn crests spikes, blue left large wing gold right large wing, individual arms claws legs and both curled intertwined long tails blue and gold. Keep pair as one full grouped asset same front threequarter upright composition and touching hands. Remove external blue gold orbit trails sparks platform cliffs castles waterfall clouds sky loose crystals shadows background. Keep physical scales crystal wing membranes horns claws intertwined tails intact. Actual transparent alpha all gaps group centered64percent square18percent margins no text no redesign no extra dragon.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青金二竜・青眼と琥珀眼・笑顔牙・白腹鱗・結晶角冠・青金両翼・各四肢爪・絡む双長尾保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

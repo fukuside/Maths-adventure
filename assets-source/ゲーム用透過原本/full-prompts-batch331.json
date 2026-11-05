@@ -1,0 +1,31 @@
+[
+  {
+    "key": "085-graph-sphinx_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\085-graph-sphinx\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-543d910e-e7cc-4d26-9048-536c066ed097.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\085-graph-sphinx_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\085-graph-sphinx_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\085-graph-sphinx_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      205,
+      886,
+      875
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR graph sphinx reference. Preserve identical golden lion jeweled high goldblue crown amber eyes white muzzle long flowing auburn mane, ornate bluegold wing shoulder chest armor blue diamonds hanging chains cape panels, two complete huge black brown gold feather wings gold bases, all four legs paws claws bluegold greaves, full curled tail with bushy tuft and goldblue tip armor. Keep original front threequarter standing pose facial direction. Remove palace sky clouds waterfalls round platform ground reflections shadows detached stars orbit trails magical light. Complete silhouette centered64percent square18percent margin, true transparent alpha all gaps. No text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼白口吻・金茶鬣・金青冠・青金宝石鎧・両黒茶金羽翼・四足爪・巻尾房保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

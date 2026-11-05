@@ -1,0 +1,31 @@
+[
+  {
+    "key": "062-fraction-king_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\062-fraction-king\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-730959be-b6ea-4be0-ab4f-d8d21823bced.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\062-fraction-king_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      206,
+      194,
+      873,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR fraction king reference. Preserve identical elderly human king blue eyes stern brows full flowing white hair curled moustache long beard skin face full body both hands fingers both boots. Preserve gold blue jeweled crown entire navy gold star robe cape fur collar all ends gold chains hanging blue gems chest belt jewels, complete held black gold staff circular star frame physical faceted blue orb and bottom end. Keep front threequarter standing pose right palm open. Remove all detached crystals blue lightning sparkles ground circle dark sky. Recover clipped cape edges consistently. True transparent alpha all gaps. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青両目・白髪髭・両手指・両足靴・青金冠衣装・鎖青宝石・長杖青球保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

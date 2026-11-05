@@ -1,0 +1,31 @@
+[
+  {
+    "key": "061-fraction-fairy_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\061-fraction-fairy\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-471f7765-0b25-4014-a144-d10fc6880796.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\061-fraction-fairy_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\061-fraction-fairy_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\061-fraction-fairy_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      217,
+      194,
+      863,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit SR fraction fairy reference. Preserve identical lavender haired fairy blue violet eyes joyful mouth hair curls complete full body both hands fingers legs purple shoes lace stockings, entire purple white frilled dress gold chains dangling blue purple gems, gold blue crown hair crystals neck chest gems wrist ornaments. Preserve complete large purple blue butterfly wings all lobes and entire held purple gold staff blue diamond crystal head hanging charm bottom tip. Keep front threequarter stepping pose. Remove all detached crystals butterfly magic sparkles violet wind ground circle dark background. True transparent alpha all gaps, keep colored physical wings and details. Entire silhouette centered64 percent square18 percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青紫両目・紫髪・両手指脚靴・蝶翼・紫白衣装・冠鎖宝石・長杖保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

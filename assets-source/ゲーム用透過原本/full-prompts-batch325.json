@@ -1,0 +1,31 @@
+[
+  {
+    "key": "082-polygon-chimera_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\082-polygon-chimera\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-775933b8-4837-4ead-8a80-a688b6281467.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\082-polygon-chimera_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      307,
+      886,
+      772
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR polygon chimera card. Preserve exact two headed crystal chimera dragon golden head amber eye olive green head green eye both open fanged mouths long necks, shared black gold purple blue crystalline scale body, two huge gold purple turquoise crystal bat wings layered spikes, four complete claw legs gold front dark rear long curled white underside tail purple crystal spear tip. Keep original front threequarter standing heads outward pose, complete all wing tail tips. Remove detached crystals sparkles cliff platform castles waterfalls floating islands clouds sky trees flowers shadows backdrop. Physical crystals scales membranes claws body tail intact. Actual transparent alpha all gaps full silhouette centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・金頭琥珀眼と緑頭緑眼・両牙顔長首・黒金紫青結晶胴・両翼膜・四足爪・長巻尾結晶棘保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

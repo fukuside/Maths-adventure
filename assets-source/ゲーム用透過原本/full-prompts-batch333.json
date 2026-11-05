@@ -1,0 +1,31 @@
+[
+  {
+    "key": "086-data-oracle_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\086-data-oracle\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6da6f3fb-d20e-4a7c-8598-114cfd712c43.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\086-data-oracle_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      260,
+      194,
+      819,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR data oracle. Preserve exact tan skin blue eyes gentle face long white silver flowing hair goldblue crown hair jewelry, ornate purple white gold gown shoulder cutouts long flowing sleeves split layered skirt gold chains stars blue purple diamond ornaments, both hands fingers, complete tall goldblack staff with gold orbital cage purpleblue crystal and attached blue pendants, both legs and goldwhite pointed high boots reveal rear boot consistently if hem occludes. Keep original front threequarter standing pose. Remove entire library waterfalls floor reflections big magic halo behind head celestial rings orbit trails graphs hologram screens detached floating crystals planets sparkles. Keep physical staff gold cage and attached dress ornaments. Full character centered64percent square18percent margins true transparent alpha all gaps. No text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・褐色肌青眼・長銀白髪・金青髪飾・両手指・天球儀紫青結晶長杖・紫白金長袖ドレス・鎖星宝石・両脚長靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

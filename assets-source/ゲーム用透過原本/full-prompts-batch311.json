@@ -1,0 +1,31 @@
+[
+  {
+    "key": "075-rate-mercury_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\075-rate-mercury\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-629b77f6-b00f-4b05-b1d0-2f54c542e3a2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\075-rate-mercury_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      247,
+      194,
+      833,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Use case: background-extraction. Edit UR rate mercury card. Preserve identical silver ash haired blue eyed young male angel calm smile, white gold armor tunic blue gold flowing cape ribbons gold chains blue gems, two white feather wings gold fittings, right hand gripping complete tall gold staff blue crystal winged pointed finial, left open hand, both legs gold white winged sandals. Keep original front threequarter floating raised knee pose. Remove separate staff halo rings gold lightning trails clouds floating palaces columns waterfalls floor sky sparkles background shadows. Physical staff finial wings sandals armor ribbons remain. Actual transparent alpha all gaps entire character and staff centered64percent square18percent margins no text redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・銀白髪・笑顔・白羽両翼・金翼雷杖・両手指・白金衣装青金マントリボン・両脚翼サンダル保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]
