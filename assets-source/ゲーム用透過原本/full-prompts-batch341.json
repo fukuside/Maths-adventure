@@ -1,0 +1,31 @@
+[
+  {
+    "key": "090-signed-swordsman_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\090-signed-swordsman\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-68fda549-e3e1-42c7-b747-fd7a85dbb9a8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\090-signed-swordsman_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      219,
+      886,
+      860
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR signed swordsman reference. Preserve same young male face brown eyes long spiky black high ponytail red headband, long flowing red torn scarf ribbons, ornate black red gold samurai armor broad shoulders forearms waist layered redblack gold split skirt lion ornaments, both hands fingers holding two complete curved katana blue blade to lower left red blade to lower right ornate gold hilts, both legs and blackredgold armored boots. Keep original front threequarter standing pose. Remove mountains temples waterfalls ground reflections shadows detached leaves and all external blue water and red fire swirl arcs sparks. Keep physical red cloth ribbons distinct from removed fire aura, keep colored blades. Complete silhouette true transparent alpha all gaps centered64percent square18percent margins no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・茶眼・黒高結髪赤鉢巻・赤裂け長マフラー・黒赤金武者鎧・両手・青赤二刀・赤黒裾黒袴・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "092-equation-samurai_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\092-equation-samurai\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d40009e1-6a0c-4a7a-94f2-88fb17a2b6cd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\092-equation-samurai_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      210,
+      886,
+      870
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR equation samurai. Preserve exact young male blue eyes black flowing high ponytail goldblue tie, white blue gold long samurai coat shoulder armor gauntlets belt gold ornaments layered bluegold skirt black trousers flowing whitebluegold coat ribbons, both hands fingers complete blue silver curved katana held across front toward right, both legs blackgold shin armor and boots. Keep original front threequarter standing stance face body proportions. Remove entire magical water dragon water spirals droplets blue aura and scenery mountains temples cherry trees ground rock shadows reflections. Physical sword blade and clothing remain. Full silhouette true transparent alpha all gaps centered64percent square18percent margins no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・黒高結髪金紐・白青金武者衣装・黒金鎧・両手指・青銀湾刀全長・青金裾黒袴・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

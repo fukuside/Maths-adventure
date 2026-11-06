@@ -1,0 +1,31 @@
+[
+  {
+    "key": "089-zeus-proportional_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\089-zeus-proportional\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7d835c06-0b28-4fc6-8829-9b2983fd9638.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\089-zeus-proportional_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      250,
+      194,
+      829,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR zeus proportional. Preserve exact muscular older man stern face silver white flowing hair beard gold crown, goldwhite blue gemstone armor lion shoulders, both hands holding complete golden lightning spear shaft and large bluegold round sun lion shield, whitegold split tunic bluewhitegold flowing cape, two legs golden armored boots. Keep original front threequarter standing pose. Remove temple clouds sky mountains rock pedestal floor shadows all external lightning arcs magic sparks halos. Keep physical golden spear head and shaft shield armor and cape. Full silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・銀白髪髭・金冠・金白青宝石鎧・両手・黄金長槍・青金太陽丸盾・白金衣装青白金マント・両脚金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

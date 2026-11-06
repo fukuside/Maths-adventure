@@ -1,0 +1,31 @@
+[
+  {
+    "key": "093-proportion-archer-princess_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\093-proportion-archer-princess\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-876f8f43-6b2f-490d-9fce-ffab558cb28e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\093-proportion-archer-princess_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      271,
+      194,
+      809,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR proportion archer princess. Preserve identical brown eyes young face long dark brown high ponytail cherry blossom gold hairpin, pink white burgundy gold floral kimono short skirt long sheer sleeves flowing ribbon panels obi flower tassels, both hands fingers complete ornate browngold recurve bow with attached flower tassels bowstring and single nocked pink arrow, both legs dark thighhighs gold shin armor pinkgold boots. Keep original front threequarter standing drawn bow aiming right pose. Remove temple garden sky cherry trees petals ground shadows and external pink magic orbit trails sparks. Keep physical flower ornaments clothes bow arrow. Complete silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・茶眼・長茶結髪桜髪飾・桃白紅金花和装帯長布・両手指・桜金弓弦桃矢・両脚黒ストッキング金桃鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "094-data-strategist_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\094-data-strategist\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f04c2dff-008f-4f5a-8b6f-87962ebd0230.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\094-data-strategist_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      256,
+      194,
+      823,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR data strategist reference. Preserve identical young male purple eyes black long flowing hair purple gold scholar hat purplegem tassels, purple white gold wide sleeved robe layered split coat gold chains belt tassels pendants black trousers, both hands fingers one pointing right other holding complete open ornate blackgold spellbook, both legs blackgold boots. Keep original front threequarter standing pose. Remove library bookshelves windows planets floating graph charts all three screens floor reflections shadows magic circles purple orbit trails and sparks. Keep held book physical outfit only. Complete silhouette true transparent alpha gaps centered64percent square18percent margins no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長黒髪・紫金宝石学帽房・両手指・開いた黒金魔導書・紫白金長袖衣装鎖宝石房・黒袴・両脚黒金靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

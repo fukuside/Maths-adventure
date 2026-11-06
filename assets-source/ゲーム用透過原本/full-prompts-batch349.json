@@ -1,0 +1,31 @@
+[
+  {
+    "key": "094-data-strategist_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\094-data-strategist\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-412138c0-5bdb-442b-b0f7-1382024d0db8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\094-data-strategist_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      254,
+      194,
+      826,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR data strategist reference. Preserve exact young male purple eyes black flowing long hair purplegold scholar crown hat bluepurple gem tassels, ornate purple white gold wide sleeved long robe split swirling coat tails chains diamond star ornaments tassels black trousers, complete open goldblack astronomical spellbook held in hand and other hand pointing left, both complete legs boots in original crossed floating pose. Keep original front threequarter pose and equipment. Remove entire library sky stairs floor reflections shadows large celestial overhead rings all floating chart panels planets detached stars magic orbit trails sparks. Keep held book physical clothes jewelry. Complete silhouette true transparent alpha gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長黒髪・紫金宝石学帽房・両手指・開いた黒金魔導書・紫白金長袖衣装鎖宝石房・黒袴・両脚黒金靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

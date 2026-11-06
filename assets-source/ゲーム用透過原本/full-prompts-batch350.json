@@ -1,0 +1,31 @@
+[
+  {
+    "key": "095-plane-geometry-lancer_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\095-plane-geometry-lancer\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c22ce6ba-fe73-43d8-a4cc-706ba596bb8f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\095-plane-geometry-lancer_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      253,
+      194,
+      826,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR plane geometry lancer. Preserve identical young female blue eyes long black high ponytail white flower bluegold ribbon, blue white gold breast shoulder forearm armor dress split coat white ruffles gold patterns black thighhighs whitegold shin armored high boots, both hands fingers, complete very long blackgold spear silver pointed blade blue diamond and full shaft lower pointed butt. Keep original front threequarter standing pose. Remove castle mountains waterfall sky garden ground floor reflections shadows all blue water orbit trails geometric triangle circle square glyphs petals sparks. Keep physical weapon clothing flower only. Complete silhouette centered64percent square18percent margins true transparent alpha all gaps no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長黒高結髪白花青金紐・両手指・銀金青宝石長槍全長・青白金鎧ドレス白襞長裾・両脚黒ストッキング白金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

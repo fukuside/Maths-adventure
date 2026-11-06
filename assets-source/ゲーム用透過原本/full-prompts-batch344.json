@@ -1,0 +1,31 @@
+[
+  {
+    "key": "092-equation-samurai_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\092-equation-samurai\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e933de49-e00f-4d0d-becd-24da39947caf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\092-equation-samurai_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      247,
+      194,
+      832,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR equation samurai. Preserve identical young male blue eyes black high topknot gold tie, white blue gold samurai coat armor blackgold shoulder gauntlets, bluegold belt skirt panels black trousers blue tassels whiteblue flowing coat tails, both hands fingers and complete single blue silver curved katana held across front hilt left blade right, both legs blackgold shin armor boots. Keep original front threequarter wide crouched stance. Remove mountains temple sky cherry trees ground waterfall reflections shadows all water swirls splashes droplets blue magic trails. Keep physical sword blue blade but no external aura. Full silhouette true transparent alpha gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・黒高結髪金紐・白青金武者衣装・黒金鎧・両手指・青銀湾刀全長・青金裾黒袴・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

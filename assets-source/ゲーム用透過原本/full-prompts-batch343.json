@@ -1,0 +1,31 @@
+[
+  {
+    "key": "091-expression-ninja_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\091-expression-ninja\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f10b9a6b-7a59-4f41-a146-2470d3a1018d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\091-expression-ninja_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\091-expression-ninja_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\091-expression-ninja_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      244,
+      194,
+      835,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR expression ninja. Preserve identical purple eyes young masked face forehead mark black long high ponytail gold tie, purple mouth scarf long purplegold flowing ribbon tails, ornate black purplegold ninja armor gauntlets shoulder plates belt pouches tassels layered blackgold skirt black trousers, both hands fingers complete legs goldblack shin guards boots. Retain the three complete four-point blackgold purplegem shuriken around the character as equipment. Keep original front threequarter wide standing pose. Remove moon forest temple bamboo ground shadow reflections all purple energy orbit trails sparks petals floating magic aura. Keep physical equipment and cloth. Complete silhouette centered64percent square18percent margins true transparent alpha all gaps no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼額印・黒高結髪・紫覆面長布・黒紫金忍鎧・両手指・黒金紫宝石手裏剣・黒袴裾・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

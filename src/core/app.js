@@ -86,6 +86,7 @@ export function createApp(root) {
   let gameOver = false;
   let wrongMessage = "";
 
+  const worldScrollPositions = new Map();
   let flashVisible = true;
   let inputEnabled = false;
   let flashTimer = null;
@@ -989,6 +990,7 @@ if (a === "player-rename-submit") {
 
   const nextStage=getStage(t.dataset.id);
   if(!nextStage||!bossUnlockStatus(state,nextStage,stages).unlocked)return;
+  worldScrollPositions.set(worldId, window.scrollY);
   currentStage=nextStage;
   newlyUnlockedBosses=[];
 
@@ -2583,8 +2585,8 @@ function preloadNearbyQuestions() {
     render();
     requestAnimationFrame(() => {
       const area=document.querySelector('.input-dock-game');
-      if(!area)return;
       window.scrollTo({top:0,behavior:'instant'});
+      if(!area)return;
       const slot=area.querySelector('[aria-current="step"]'),keys=area.querySelector('.keypad');
       if(slot && keys){
         const r=slot.getBoundingClientRect(),limit=innerWidth<760?keys.getBoundingClientRect().top-76:innerHeight-20;
@@ -2604,6 +2606,7 @@ function preloadNearbyQuestions() {
 
 
   render();
+  requestAnimationFrame(() => { if (screen === "game") window.scrollTo({top:0,behavior:"instant"}); });
 
 
   flashTimer =
@@ -3010,6 +3013,11 @@ function sample(arr){
 
     </div>
   `;
+  if (screen === "world" && worldScrollPositions.has(worldId)) {
+    requestAnimationFrame(() => {
+      if (screen === "world") window.scrollTo({ top: worldScrollPositions.get(worldId), behavior: "instant" });
+    });
+  }
 }
   function body() {
   if(screen==='reward-lobby'&&!rewardUnlockStatus(state).unlocked)return '<section class="panel stack"><h2>ごほうびゲーム</h2>'+rewardUnlockHint(state)+rewardResetNote+'<p>まずは2ステージ学習してから遊ぼう！入場にはダイヤ5個も必要です。</p><button class="button" data-action="go" data-screen="title">さんすうに挑戦する</button></section>';
@@ -3748,7 +3756,7 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
     : "";
 
 
-return `<section class="stack game-area ${q?.kind === "written-calculation" || q?.keypad === "expression" || currentStage?.keypad === "expression" ? "input-dock-game" : ""}">
+return `<section class="stack game-area ${/^(money|multiply)/.test(currentStage?.type || "") ? "mobile-readable-game" : ""} ${q?.kind === "written-calculation" || q?.keypad === "expression" || currentStage?.keypad === "expression" ? "input-dock-game" : ""}">
 
   <!-- =====================================================
        全WORLD共通：単元タイトル

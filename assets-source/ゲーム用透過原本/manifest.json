@@ -6796,5 +6796,411 @@
     "gameMirrorX": false,
     "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
     "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・黒金双巻角兜・黒紫金棘鎧紫宝石・両手爪・紫刃長柄斧・紫黒金裂けマント・両脚棘鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "089-zeus-proportional_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\089-zeus-proportional\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7d835c06-0b28-4fc6-8829-9b2983fd9638.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\089-zeus-proportional_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      250,
+      194,
+      829,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR zeus proportional. Preserve exact muscular older man stern face silver white flowing hair beard gold crown, goldwhite blue gemstone armor lion shoulders, both hands holding complete golden lightning spear shaft and large bluegold round sun lion shield, whitegold split tunic bluewhitegold flowing cape, two legs golden armored boots. Keep original front threequarter standing pose. Remove temple clouds sky mountains rock pedestal floor shadows all external lightning arcs magic sparks halos. Keep physical golden spear head and shaft shield armor and cape. Full silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・銀白髪髭・金冠・金白青宝石鎧・両手・黄金長槍・青金太陽丸盾・白金衣装青白金マント・両脚金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "089-zeus-proportional_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\089-zeus-proportional\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1ff64f16-5d65-4252-bacf-2d5ab5c6e2f8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\089-zeus-proportional_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      258,
+      194,
+      822,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR zeus proportional. Preserve identical muscular older god stern face white silver wavy hair beard gold laurel bluegem crown, detailed goldwhiteblue armor shoulder sun medallions belt gems, both hands holding full long gold lightning spear with physical spearhead and complete shaft and bluegold round sun laurel shield, white gold split tunic bluewhitegold long cape, both legs gold armored boots. Keep original front threequarter standing pose. Remove temples waterfalls sky clouds rock floor shadow giant head halo and all external lightning trails sparks aura. Keep physical equipment ornate clothing. Complete silhouette centered64percent square18percent transparent margin true alpha all gaps no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・銀白髪髭・金冠・金白青宝石鎧・両手・黄金長槍・青金太陽丸盾・白金衣装青白金マント・両脚金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "090-signed-swordsman_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\090-signed-swordsman\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-199e8d83-75bc-4c36-9850-0e5db52d5482.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\090-signed-swordsman_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      208,
+      194,
+      872,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR signed swordsman reference. Preserve identical young male face brown eyes black high ponytail red headband, red scarf long tattered flowing ribbons, black red gold samurai shoulder chest forearm waist armor layered red skirt black trousers, both hands gauntlets, two complete physical curved swords blue left blade pointing up-left and red right blade pointing down-right gold hilts, both legs blackredgold armored boots. Keep original front threequarter wide standing pose. Remove temples mountains sky waterfalls stone ground reflection shadow detached leaves all blue water and red fire aura arcs sparks around body and blades. Keep blade colors without external trails. Whole silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・茶眼・黒高結髪赤鉢巻・赤裂け長マフラー・黒赤金武者鎧・両手・青赤二刀・赤黒裾黒袴・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "090-signed-swordsman_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\090-signed-swordsman\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-68fda549-e3e1-42c7-b747-fd7a85dbb9a8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\090-signed-swordsman_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      219,
+      886,
+      860
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR signed swordsman reference. Preserve same young male face brown eyes long spiky black high ponytail red headband, long flowing red torn scarf ribbons, ornate black red gold samurai armor broad shoulders forearms waist layered redblack gold split skirt lion ornaments, both hands fingers holding two complete curved katana blue blade to lower left red blade to lower right ornate gold hilts, both legs and blackredgold armored boots. Keep original front threequarter standing pose. Remove mountains temples waterfalls ground reflections shadows detached leaves and all external blue water and red fire swirl arcs sparks. Keep physical red cloth ribbons distinct from removed fire aura, keep colored blades. Complete silhouette true transparent alpha all gaps centered64percent square18percent margins no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・茶眼・黒高結髪赤鉢巻・赤裂け長マフラー・黒赤金武者鎧・両手・青赤二刀・赤黒裾黒袴・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "091-expression-ninja_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\091-expression-ninja\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f8aa3900-4290-4570-9136-f10ecb737798.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\091-expression-ninja_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\091-expression-ninja_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\091-expression-ninja_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      252,
+      194,
+      828,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR expression ninja reference. Preserve exact purple eyes young face forehead purple diamond black high ponytail, purple mouth scarf long purplegold flowing ribbons, black purplegold ninja armor pauldrons gauntlets belt pouches tassels black trousers, both hands fingers, held four-point blackgold purplegem shuriken in raised rear hand and second thrown shuriken lower left as equipment, both complete legs goldblack shin armor purple shoes. Keep original leaping front threequarter crouch pose one knee tucked, not standing redesign. Remove night forest temple bamboo moon stone ground reflections all purple magic trails petals sparkles. Physical equipment and cloth remain. Complete silhouette true transparent alpha gaps centered64percent square18percent margin no text frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼額印・黒高結髪・紫覆面長布・黒紫金忍鎧・両手指・黒金紫宝石手裏剣・黒袴裾・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "091-expression-ninja_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\091-expression-ninja\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f10b9a6b-7a59-4f41-a146-2470d3a1018d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\091-expression-ninja_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\091-expression-ninja_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\091-expression-ninja_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      244,
+      194,
+      835,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR expression ninja. Preserve identical purple eyes young masked face forehead mark black long high ponytail gold tie, purple mouth scarf long purplegold flowing ribbon tails, ornate black purplegold ninja armor gauntlets shoulder plates belt pouches tassels layered blackgold skirt black trousers, both hands fingers complete legs goldblack shin guards boots. Retain the three complete four-point blackgold purplegem shuriken around the character as equipment. Keep original front threequarter wide standing pose. Remove moon forest temple bamboo ground shadow reflections all purple energy orbit trails sparks petals floating magic aura. Keep physical equipment and cloth. Complete silhouette centered64percent square18percent margins true transparent alpha all gaps no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼額印・黒高結髪・紫覆面長布・黒紫金忍鎧・両手指・黒金紫宝石手裏剣・黒袴裾・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "092-equation-samurai_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\092-equation-samurai\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e933de49-e00f-4d0d-becd-24da39947caf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\092-equation-samurai_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      247,
+      194,
+      832,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR equation samurai. Preserve identical young male blue eyes black high topknot gold tie, white blue gold samurai coat armor blackgold shoulder gauntlets, bluegold belt skirt panels black trousers blue tassels whiteblue flowing coat tails, both hands fingers and complete single blue silver curved katana held across front hilt left blade right, both legs blackgold shin armor boots. Keep original front threequarter wide crouched stance. Remove mountains temple sky cherry trees ground waterfall reflections shadows all water swirls splashes droplets blue magic trails. Keep physical sword blue blade but no external aura. Full silhouette true transparent alpha gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・黒高結髪金紐・白青金武者衣装・黒金鎧・両手指・青銀湾刀全長・青金裾黒袴・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "092-equation-samurai_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\092-equation-samurai\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-d40009e1-6a0c-4a7a-94f2-88fb17a2b6cd.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\092-equation-samurai_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      210,
+      886,
+      870
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR equation samurai. Preserve exact young male blue eyes black flowing high ponytail goldblue tie, white blue gold long samurai coat shoulder armor gauntlets belt gold ornaments layered bluegold skirt black trousers flowing whitebluegold coat ribbons, both hands fingers complete blue silver curved katana held across front toward right, both legs blackgold shin armor and boots. Keep original front threequarter standing stance face body proportions. Remove entire magical water dragon water spirals droplets blue aura and scenery mountains temples cherry trees ground rock shadows reflections. Physical sword blade and clothing remain. Full silhouette true transparent alpha all gaps centered64percent square18percent margins no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・黒高結髪金紐・白青金武者衣装・黒金鎧・両手指・青銀湾刀全長・青金裾黒袴・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "093-proportion-archer-princess_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\093-proportion-archer-princess\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-876f8f43-6b2f-490d-9fce-ffab558cb28e.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\093-proportion-archer-princess_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      271,
+      194,
+      809,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR proportion archer princess. Preserve identical brown eyes young face long dark brown high ponytail cherry blossom gold hairpin, pink white burgundy gold floral kimono short skirt long sheer sleeves flowing ribbon panels obi flower tassels, both hands fingers complete ornate browngold recurve bow with attached flower tassels bowstring and single nocked pink arrow, both legs dark thighhighs gold shin armor pinkgold boots. Keep original front threequarter standing drawn bow aiming right pose. Remove temple garden sky cherry trees petals ground shadows and external pink magic orbit trails sparks. Keep physical flower ornaments clothes bow arrow. Complete silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・茶眼・長茶結髪桜髪飾・桃白紅金花和装帯長布・両手指・桜金弓弦桃矢・両脚黒ストッキング金桃鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "093-proportion-archer-princess_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\093-proportion-archer-princess\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-9456e478-5e8e-43cb-b32e-84082508eb58.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\093-proportion-archer-princess_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      259,
+      194,
+      820,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR proportion archer princess. Preserve exact brown eyes young face long flowing dark brown ponytail elaborate pink blossom gold hairpins, ornate pink white burgundy gold floral kimono long sleeve ribbons layered skirt obi flower gold chains tassels, complete brown gold recurve bow decorated physical cherry flowers hanging tassels bowstring single nocked pink arrow, both hands fingers and full legs dark stockings goldpink shin armor boots. Keep original front threequarter drawn bow aiming right standing stance. Remove temples cherry garden trees sky waterfalls stream ground shadows detached petals all external pink energy spirals sparks. Physical flowers on hair dress bow stay. Full silhouette true transparent alpha all gaps centered64percent square18percent margins no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・茶眼・長茶結髪桜髪飾・桃白紅金花和装帯長布・両手指・桜金弓弦桃矢・両脚黒ストッキング金桃鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "094-data-strategist_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\094-data-strategist\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-f04c2dff-008f-4f5a-8b6f-87962ebd0230.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\094-data-strategist_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      256,
+      194,
+      823,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR data strategist reference. Preserve identical young male purple eyes black long flowing hair purple gold scholar hat purplegem tassels, purple white gold wide sleeved robe layered split coat gold chains belt tassels pendants black trousers, both hands fingers one pointing right other holding complete open ornate blackgold spellbook, both legs blackgold boots. Keep original front threequarter standing pose. Remove library bookshelves windows planets floating graph charts all three screens floor reflections shadows magic circles purple orbit trails and sparks. Keep held book physical outfit only. Complete silhouette true transparent alpha gaps centered64percent square18percent margins no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長黒髪・紫金宝石学帽房・両手指・開いた黒金魔導書・紫白金長袖衣装鎖宝石房・黒袴・両脚黒金靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "094-data-strategist_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\094-data-strategist\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-412138c0-5bdb-442b-b0f7-1382024d0db8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\094-data-strategist_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      254,
+      194,
+      826,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR data strategist reference. Preserve exact young male purple eyes black flowing long hair purplegold scholar crown hat bluepurple gem tassels, ornate purple white gold wide sleeved long robe split swirling coat tails chains diamond star ornaments tassels black trousers, complete open goldblack astronomical spellbook held in hand and other hand pointing left, both complete legs boots in original crossed floating pose. Keep original front threequarter pose and equipment. Remove entire library sky stairs floor reflections shadows large celestial overhead rings all floating chart panels planets detached stars magic orbit trails sparks. Keep held book physical clothes jewelry. Complete silhouette true transparent alpha gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長黒髪・紫金宝石学帽房・両手指・開いた黒金魔導書・紫白金長袖衣装鎖宝石房・黒袴・両脚黒金靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "095-plane-geometry-lancer_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\095-plane-geometry-lancer\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c22ce6ba-fe73-43d8-a4cc-706ba596bb8f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\095-plane-geometry-lancer_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      253,
+      194,
+      826,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR plane geometry lancer. Preserve identical young female blue eyes long black high ponytail white flower bluegold ribbon, blue white gold breast shoulder forearm armor dress split coat white ruffles gold patterns black thighhighs whitegold shin armored high boots, both hands fingers, complete very long blackgold spear silver pointed blade blue diamond and full shaft lower pointed butt. Keep original front threequarter standing pose. Remove castle mountains waterfall sky garden ground floor reflections shadows all blue water orbit trails geometric triangle circle square glyphs petals sparks. Keep physical weapon clothing flower only. Complete silhouette centered64percent square18percent margins true transparent alpha all gaps no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長黒高結髪白花青金紐・両手指・銀金青宝石長槍全長・青白金鎧ドレス白襞長裾・両脚黒ストッキング白金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "095-plane-geometry-lancer_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\095-plane-geometry-lancer\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-077c78de-6e5a-4eb8-be65-a12d000df74a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\095-plane-geometry-lancer_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      201,
+      194,
+      878,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR plane geometry lancer reference. Preserve exact young female blue eyes long flowing black high ponytail white flower bluegold ribbons, ornate bluewhitegold armor shoulder chest gauntlets dress white ruffle layered skirt long bluewhitegold split flowing coat black thighhighs both legs whitegold armored high boots, both hands fingers, complete exceptionally long diagonal double-ended silver gold black lance blue gem and lower blade. Keep original front threequarter standing stance. Remove entire castle garden mountains sky waterfalls floor shadows reflections gold halo blue water energy spirals floating triangle circle square glyphs detached petals sparks. Keep physical weapon flowers clothing. Full silhouette centered64percent square18percent margins true transparent alpha all gaps no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長黒高結髪白花青金紐・両手指・銀金青宝石長槍全長・青白金鎧ドレス白襞長裾・両脚黒ストッキング白金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
   }
 ]

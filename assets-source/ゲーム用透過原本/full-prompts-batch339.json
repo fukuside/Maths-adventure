@@ -1,0 +1,31 @@
+[
+  {
+    "key": "089-zeus-proportional_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\089-zeus-proportional\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1ff64f16-5d65-4252-bacf-2d5ab5c6e2f8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\089-zeus-proportional_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      258,
+      194,
+      822,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR zeus proportional. Preserve identical muscular older god stern face white silver wavy hair beard gold laurel bluegem crown, detailed goldwhiteblue armor shoulder sun medallions belt gems, both hands holding full long gold lightning spear with physical spearhead and complete shaft and bluegold round sun laurel shield, white gold split tunic bluewhitegold long cape, both legs gold armored boots. Keep original front threequarter standing pose. Remove temples waterfalls sky clouds rock floor shadow giant head halo and all external lightning trails sparks aura. Keep physical equipment ornate clothing. Complete silhouette centered64percent square18percent transparent margin true alpha all gaps no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・銀白髪髭・金冠・金白青宝石鎧・両手・黄金長槍・青金太陽丸盾・白金衣装青白金マント・両脚金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]
