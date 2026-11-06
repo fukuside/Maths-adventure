@@ -7202,5 +7202,237 @@
     "gameMirrorX": false,
     "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
     "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長黒高結髪白花青金紐・両手指・銀金青宝石長槍全長・青白金鎧ドレス白襞長裾・両脚黒ストッキング白金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "096-solid-geometry-shield-general_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\096-solid-geometry-shield-general\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-329f52f4-7233-470f-b267-2d2743f754a2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\096-solid-geometry-shield-general_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      226,
+      194,
+      853,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR solid geometry shield general. Preserve exact young female green eyes black long high ponytail green gold leaf hairpin ribbons, emerald green gold armor chest pauldrons gauntlets waist split tabard whitegreen gold flowing skirt panels, both hands holding complete spiked green gold mace and large green gold pointed leaf kite shield, both legs green gold armored boots. Keep original front threequarter wide standing pose. Remove castle mountains waterfalls forest leaves stone stairs ground shadows all floating green octahedra crystals magic orbit trails sparks. Keep physical mace shield costume. Whole silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑眼・長黒高結髪緑金葉飾紐・両手・緑金棘メイス・緑金葉尖盾・緑白金鎧長裾・両脚緑金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "096-solid-geometry-shield-general_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\096-solid-geometry-shield-general\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7dff3336-7b6d-4165-a9d3-35e6d106128d.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\096-solid-geometry-shield-general_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      208,
+      194,
+      872,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR solid geometry shield general. Preserve identical green eyed young female face long flowing black high ponytail goldgreen leaf crown ribbons, ornate emerald gold armor chest pauldrons gauntlets waist tabard whitegreen gold long split flowing coat skirt, both hands holding complete green gold spiked mace shaft and enormous pointed green gold leaf shield, both full legs goldgreen armored boots. Keep original front threequarter standing pose proportions. Remove all castle forest waterfalls sky stone stairs ground shadows green magic halo behind head floating geometric crystals orbit trails detached leaves sparks. Keep physical equipment clothing hair. Complete silhouette centered64percent square18percent margins true transparent alpha all gaps no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑眼・長黒高結髪緑金葉飾紐・両手・緑金棘メイス・緑金葉尖盾・緑白金鎧長裾・両脚緑金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "097-linear-function-chief_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\097-linear-function-chief\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-79211641-342d-4d02-bed9-6f984e0c98f8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\097-linear-function-chief_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      261,
+      194,
+      819,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR linear function chief reference. Preserve exact young male purple eyes black long high tied flowing hair goldpurple crown hairpiece ribbons, ornate purple white gold long wide sleeved robe split skirt panels belt flower gems gold chains tassels black trousers blackgold boots, both hands fingers and complete short gold handled writing brush held raised with white black bristle tip. Keep original front threequarter wide standing pose. Remove library architecture garden wisteria sky floor reflections shadow detached petals all purple ink magic orbit trails sparks. Physical brush hair clothing jewelry stay. Full silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長黒結髪金紫冠紐・両手指・金柄筆全長・紫白金長袖衣装鎖花宝石房・黒袴・両脚黒金靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "097-linear-function-chief_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\097-linear-function-chief\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1ea705f8-52b6-4edd-8321-09f076d3dcbe.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\097-linear-function-chief_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      254,
+      194,
+      826,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR linear function chief reference. Preserve identical young male purple eyes calm face black long flowing tied hair goldpurple leaf crown ribbons, elaborate purple white gold long robe wide sleeves multiple split flowing panels belt violet gems gold chains flowers tassels black trousers both blackgold boots in original crossed floating stance, both hands fingers complete short gold handled writing brush blackwhite bristle tip raised in hand. Keep original front threequarter pose. Remove library temple wisteria moon sky overhead celestial rings floor shadow reflections all purple ink trails floating petals sparks. Keep physical brush clothes ornaments only. Complete silhouette centered64percent square18percent margin true transparent alpha all gaps no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長黒結髪金紫冠紐・両手指・金柄筆全長・紫白金長袖衣装鎖花宝石房・黒袴・両脚黒金靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "098-simultaneous-equation-dual-swords_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\098-simultaneous-equation-dual-swords\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-6c04106a-f703-481e-868c-926f926b3315.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\098-simultaneous-equation-dual-swords_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      266,
+      886,
+      814
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR simultaneous equation dual swords. Preserve BOTH warriors as single paired sprite back to back: left red female brown eyes long black high ponytail red gold hair ornament red scarf blackredgold samurai armor and complete red curved katana pointing left; right blue male blue eyes short spiky black hair bluegold headband blue scarf blackbluegold samurai armor and complete blue curved katana pointing right. Preserve both faces all four hands arms four legs boots complete swords flowing cloth skirts. Keep original paired front threequarter outward-facing poses. Remove temple cherry garden sky stairs floor reflections shadows all external redblue energy spirals sparks petals. True transparent alpha all gaps centered64percent square18percent margin no text frame redesign separate or extra characters.\n",
+    "sourceFacing": "mixed-outward",
+    "gameFacing": "mixed-outward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤女青男二人一組・両顔眼黒髪飾・赤青長布・赤青黒金武者鎧・両刀全長・全四肢鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "098-simultaneous-equation-dual-swords_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\098-simultaneous-equation-dual-swords\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-091eea84-a1f1-414e-93f1-e85c1d157005.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\098-simultaneous-equation-dual-swords_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      280,
+      886,
+      799
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR simultaneous equation dual swords reference. Preserve exact paired TWO warriors as one sprite back to back: red female at left long black ponytail red flower gold crown red scarf blackredgold ornate samurai armor complete red katana aiming left; blue male at right short spiky black hair bluegold headband blue scarf blackbluegold ornate samurai armor complete blue katana aiming right. Preserve identical faces eyes all hands arms four legs armored boots split skirt and flowing physical redblue ribbons. Keep original paired outward-facing front threequarter standing stances. Remove temple autumn mountains sky stairs ground reflection shadow redblue magic halos orbit trails firewater aura detached leaves sparks. True transparent alpha all gaps entire pair centered64percent square18percent margins no text frame redesign extra characters.\n",
+    "sourceFacing": "mixed-outward",
+    "gameFacing": "mixed-outward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤女青男二人一組・両顔眼黒髪飾・赤青長布・赤青黒金武者鎧・両刀全長・全四肢鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "099-inequality-general_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\099-inequality-general\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0370d7e6-cbf8-4fd5-9dcd-d0496d1761dc.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\099-inequality-general_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\099-inequality-general_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\099-inequality-general_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      245,
+      194,
+      835,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR inequality general reference. Preserve identical young male amber eyes black spiky tied hair redgold crown plume red ribbons, black red gold ornate heavy samurai armor lion shoulder belt gauntlets split skirt redblackgold torn cape, both hands full fingers holding complete long blackgold red polearm huge curved silverblackgold blade at upper left red tassels full shaft pointed lower butt, both legs blackgoldred armored boots. Keep original front threequarter standing pose. Remove fortress mountains sky clouds rock pedestal shadows all goldred fire orbit trails sparks. Keep physical hair plume cloth weapon equipment. Whole silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼黒結髪赤金冠房紐・両手・銀黒赤金長柄大刀全長・黒赤金獅子龍武者鎧・赤黒金裂けマント・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "099-inequality-general_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\099-inequality-general\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-297c0f88-d697-4f6a-8708-fda0d8256edc.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\099-inequality-general_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\099-inequality-general_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\099-inequality-general_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      213,
+      886,
+      867
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR inequality general. Preserve exact young male stern amber eyes black spiky high hair goldred crown ribbons, elaborate black red gold armored chest huge dragon lion shoulders gauntlets belt split skirt blackredgold flowing torn cape, both hands full fingers complete huge long blackgold red silver double crescent blade polearm angled down-left including full shaft rear end, both legs goldblack armored boots. Keep original front threequarter standing stance. Remove fortress mountains waterfall sunset sky rock ground shadow all golden head halo fire orbit spirals sparks. Keep physical weapon clothing armor hair. Complete silhouette true transparent alpha all gaps centered64percent square18percent margins no text frame redesign new pose.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼黒結髪赤金冠房紐・両手・銀黒赤金長柄大刀全長・黒赤金獅子龍武者鎧・赤黒金裂けマント・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
   }
 ]

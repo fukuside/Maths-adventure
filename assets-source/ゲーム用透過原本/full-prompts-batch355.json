@@ -1,0 +1,31 @@
+[
+  {
+    "key": "097-linear-function-chief_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\097-linear-function-chief\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1ea705f8-52b6-4edd-8321-09f076d3dcbe.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\097-linear-function-chief_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      254,
+      194,
+      826,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR linear function chief reference. Preserve identical young male purple eyes calm face black long flowing tied hair goldpurple leaf crown ribbons, elaborate purple white gold long robe wide sleeves multiple split flowing panels belt violet gems gold chains flowers tassels black trousers both blackgold boots in original crossed floating stance, both hands fingers complete short gold handled writing brush blackwhite bristle tip raised in hand. Keep original front threequarter pose. Remove library temple wisteria moon sky overhead celestial rings floor shadow reflections all purple ink trails floating petals sparks. Keep physical brush clothes ornaments only. Complete silhouette centered64percent square18percent margin true transparent alpha all gaps no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長黒結髪金紫冠紐・両手指・金柄筆全長・紫白金長袖衣装鎖花宝石房・黒袴・両脚黒金靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

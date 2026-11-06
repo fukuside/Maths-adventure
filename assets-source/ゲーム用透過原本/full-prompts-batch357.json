@@ -1,0 +1,31 @@
+[
+  {
+    "key": "098-simultaneous-equation-dual-swords_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\098-simultaneous-equation-dual-swords\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-091eea84-a1f1-414e-93f1-e85c1d157005.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\098-simultaneous-equation-dual-swords_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      280,
+      886,
+      799
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR simultaneous equation dual swords reference. Preserve exact paired TWO warriors as one sprite back to back: red female at left long black ponytail red flower gold crown red scarf blackredgold ornate samurai armor complete red katana aiming left; blue male at right short spiky black hair bluegold headband blue scarf blackbluegold ornate samurai armor complete blue katana aiming right. Preserve identical faces eyes all hands arms four legs armored boots split skirt and flowing physical redblue ribbons. Keep original paired outward-facing front threequarter standing stances. Remove temple autumn mountains sky stairs ground reflection shadow redblue magic halos orbit trails firewater aura detached leaves sparks. True transparent alpha all gaps entire pair centered64percent square18percent margins no text frame redesign extra characters.\n",
+    "sourceFacing": "mixed-outward",
+    "gameFacing": "mixed-outward",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤女青男二人一組・両顔眼黒髪飾・赤青長布・赤青黒金武者鎧・両刀全長・全四肢鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

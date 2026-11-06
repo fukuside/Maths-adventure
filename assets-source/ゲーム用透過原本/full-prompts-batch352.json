@@ -1,0 +1,31 @@
+[
+  {
+    "key": "096-solid-geometry-shield-general_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\096-solid-geometry-shield-general\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-329f52f4-7233-470f-b267-2d2743f754a2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\096-solid-geometry-shield-general_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      226,
+      194,
+      853,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR solid geometry shield general. Preserve exact young female green eyes black long high ponytail green gold leaf hairpin ribbons, emerald green gold armor chest pauldrons gauntlets waist split tabard whitegreen gold flowing skirt panels, both hands holding complete spiked green gold mace and large green gold pointed leaf kite shield, both legs green gold armored boots. Keep original front threequarter wide standing pose. Remove castle mountains waterfalls forest leaves stone stairs ground shadows all floating green octahedra crystals magic orbit trails sparks. Keep physical mace shield costume. Whole silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑眼・長黒高結髪緑金葉飾紐・両手・緑金棘メイス・緑金葉尖盾・緑白金鎧長裾・両脚緑金鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

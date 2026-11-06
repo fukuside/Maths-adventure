@@ -1,0 +1,31 @@
+[
+  {
+    "key": "097-linear-function-chief_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\097-linear-function-chief\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-79211641-342d-4d02-bed9-6f984e0c98f8.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\097-linear-function-chief_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      261,
+      194,
+      819,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR linear function chief reference. Preserve exact young male purple eyes black long high tied flowing hair goldpurple crown hairpiece ribbons, ornate purple white gold long wide sleeved robe split skirt panels belt flower gems gold chains tassels black trousers blackgold boots, both hands fingers and complete short gold handled writing brush held raised with white black bristle tip. Keep original front threequarter wide standing pose. Remove library architecture garden wisteria sky floor reflections shadow detached petals all purple ink magic orbit trails sparks. Physical brush hair clothing jewelry stay. Full silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼・長黒結髪金紫冠紐・両手指・金柄筆全長・紫白金長袖衣装鎖花宝石房・黒袴・両脚黒金靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

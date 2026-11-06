@@ -1,0 +1,31 @@
+[
+  {
+    "key": "099-inequality-general_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\099-inequality-general\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-0370d7e6-cbf8-4fd5-9dcd-d0496d1761dc.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\099-inequality-general_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\099-inequality-general_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\099-inequality-general_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      245,
+      194,
+      835,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR inequality general reference. Preserve identical young male amber eyes black spiky tied hair redgold crown plume red ribbons, black red gold ornate heavy samurai armor lion shoulder belt gauntlets split skirt redblackgold torn cape, both hands full fingers holding complete long blackgold red polearm huge curved silverblackgold blade at upper left red tassels full shaft pointed lower butt, both legs blackgoldred armored boots. Keep original front threequarter standing pose. Remove fortress mountains sky clouds rock pedestal shadows all goldred fire orbit trails sparks. Keep physical hair plume cloth weapon equipment. Whole silhouette true transparent alpha all gaps centered64percent square18percent margin no text frame redesign.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼黒結髪赤金冠房紐・両手・銀黒赤金長柄大刀全長・黒赤金獅子龍武者鎧・赤黒金裂けマント・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

@@ -175,98 +175,6 @@ function buildSingleProductQuestion() {
     );
 
 
-  /*
-    3商品のうち、
-    真ん中くらいの価格を基準に予算を作る。
-
-    例：
-    160 / 180 / 220
-
-    予算180円なら
-    160円と180円の2つが買えてしまうため、
-    「買える」ではなく
-    「ちょうど買える」にする場合もある。
-  */
-
-  const mode =
-    Math.random() < 0.55
-      ? "exact"
-      : "affordable";
-
-
-  if (mode === "exact") {
-    const target =
-      products[
-        r(
-          0,
-          products.length - 1
-        )
-      ];
-
-    const budget =
-      target.price;
-
-    const choices =
-      shuffle(
-        products
-      ).map(
-        (
-          product,
-          index
-        ) => ({
-          id:
-            ["A", "B", "C"][index],
-
-          icon:
-            product.icon,
-
-          name:
-            product.name,
-
-          price:
-            product.price,
-
-          affordable:
-            product.price === budget
-        })
-      );
-
-    const answer =
-      choices.find(
-        choice =>
-          choice.affordable
-      ).id;
-
-    return {
-      kind:
-        "money-choice",
-
-      prompt:
-        `${group.shop}です。${budget}円で ちょうど かえるのは どれ？`,
-
-      items:
-        moneyItemsForAmount(
-          budget
-        ),
-
-      choices,
-
-      answer,
-
-      uniqueKey:
-        `canbuy-exact-${group.shop}-${budget}-${choices.map(
-          c =>
-            `${c.id}-${c.name}-${c.price}`
-        ).join("-")}`
-    };
-  }
-
-
-  /*
-    「買えるのはどれ？」は
-    正解が必ず1つになる予算を選ぶ
-  */
-
   const sorted =
     [...products].sort(
       (a, b) =>
@@ -425,8 +333,7 @@ function buildSetQuestion() {
 
 
   /*
-    真ん中のセット価格を
-    正解の予算にする
+    最安のセットだけ買える予算を作る
   */
 
   const totals =
@@ -441,18 +348,17 @@ function buildSetQuestion() {
       );
 
   const budget =
-    totals[1];
+    totals[0] + 10;
 
 
   /*
-    「ちょうど」なので
-    同額が複数あれば作り直す
+    予算内のセットが複数あれば通常問題へ戻す
   */
 
   const exactCount =
     sets.filter(
       set =>
-        set.total === budget
+        set.total <= budget
     ).length;
 
   if (exactCount !== 1) {
@@ -493,7 +399,7 @@ function buildSetQuestion() {
           set.total,
 
         affordable:
-          set.total === budget
+          set.total <= budget
       })
     );
 
@@ -510,7 +416,7 @@ function buildSetQuestion() {
       "money-choice",
 
     prompt:
-      `${budget}円で ちょうど かえる セットは どれ？`,
+      `${budget}円もっています。この お金で かえる セットは どれ？`,
 
     items:
       moneyItemsForAmount(

@@ -39,13 +39,7 @@ export default {
 
         <div class="money-choice-wallet">
 
-          <span
-            class="
-              money-choice-wallet-label
-            "
-          >
-            👛 もっているお金
-          </span>
+          ${items.length ? '<span class="money-choice-wallet-label">👛 もっているお金</span>' : ''}
 
 
           <div
@@ -100,13 +94,13 @@ export default {
 
         ${choice.moneyItems.map(item=>`
 
-          <img
+          <span class="payment-money ${Number(item.value)>=1000?'payment-bill':'payment-coin'}"><img
   class="money-choice-money-image"
   src="${item.image}"
   alt="${item.value}円"
   decoding="async"
   fetchpriority="high"
->
+><span class="payment-denomination">${item.value}円</span></span>
         `).join("")}
 
       </div>
