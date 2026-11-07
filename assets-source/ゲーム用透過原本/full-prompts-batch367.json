@@ -1,0 +1,31 @@
+[
+  {
+    "key": "051-decimal-cat_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\051-decimal-cat\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\051-decimal-cat_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      286,
+      194,
+      794,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"051-decimal-cat_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/051-decimal-cat/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-b64e2fa1-021a-42a2-b7bc-ea2bed336480.png\",\n      \"prompt\": \"Use case: background-extraction. Edit supplied 051 N monster card. Extract exactly same full seated white cream kitten with blue eyes, pink ears nose, full curled tail, star markings on fur, blue star collar and large gold framed blue gemstone pendant. Preserve pose face proportions clothing all paws and painted game illustration. Remove entire dark starry environment, magic floor rings, detached floating stars/sparkles and light trails. Keep only stars physically on fur/collar; no floating extras. True alpha transparency all outside silhouette including tail/body gap, no blue background residue. Whole body centered with empty margins, no cropping, no added text. Keep existing slightly left-facing pose; runtime may mirror.\",\n      \"review\": \"Full cat preserved, but cyan/blue fringe outside tail and bottom plus detached flecks; not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\051-decimal-cat_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}\n[\n  {\n    \"key\": \"051-decimal-cat_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-e0e31316-1a64-46e2-ae44-5e03a30fa8db.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\051-decimal-cat_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\051-decimal-cat\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit: extract ONLY exact white star cat from reference 051 N. Preserve complete seated cat with blue eyes, pink nose ears, whiskers, gold blue star collar and blue pendant, gold blue star markings attached to forehead cheeks flank and tail, all paws and full curved tail. Same face and left three-quarter orientation and game painting. Remove dark blue space background, all floating detached stars, glowing ribbons, sparks, ground magic circle and shadow. True transparent alpha around entire silhouette and tail gap, no blue or white matte residue. Entire cat centered within square 1080x1080 with 20 percent empty transparent padding all sides. No crop, no new accessories, no text, no redesign.\",\n    \"visualReview\": \"Complete cat ears face collar pendant markings paws tail retained. White residue behind right whiskers/collar and saturated blue/magenta edge pixels around tail and paws remain. Not approved.\"\n  }\n]\nReuse pending-2. No regeneration. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目と白い毛並み・耳・座った全身と足・巻き尾・星紋・青宝石の首輪保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

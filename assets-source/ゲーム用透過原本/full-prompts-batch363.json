@@ -1,0 +1,31 @@
+[
+  {
+    "key": "036-octopal_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\036-octopal\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\036-octopal_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      199,
+      886,
+      880
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit. Make a precise transparent cutout of this exact purple octopus wizard. Preserve its friendly big violet eyes smile pink cheeks purple pointed wizard hat with golden stars and blue gem, all eight complete curling tentacles and pink suction cups. Do not redesign or change pose. Remove ONLY ocean, coral, bubbles, seabed, ground shadow and water between tentacles. Every gap must be transparent, not blue white pink or red filled. Entire octopus including hat and tentacle tips centered within square canvas with 18% empty transparent padding. True alpha background, clean antialiased edges with no colored halo. No backdrop, no text, no extra objects. Front facing.\n2026-11-07: reuse pending-4; alpha>=64 components>=60 inward1.1px nearest interior RGB; remove edge-connected white; local neutral-white background removal x330..385 or650..750 y540..620 after centering1080. No regeneration. Prior prompts pending-prompts-batch23.json and pending-prompts-batch92.json preserved.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫大眼笑顔頬・紫金星青宝石魔法帽全長・八本の巻腕と桃吸盤・体の金星紋保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

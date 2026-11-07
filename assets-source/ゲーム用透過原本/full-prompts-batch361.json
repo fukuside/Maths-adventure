@@ -1,0 +1,31 @@
+[
+  {
+    "key": "100-number-goddess-hikari_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\100-number-goddess-hikari\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-33e54e6d-c036-42c2-95ea-92a57ea3fcaf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\100-number-goddess-hikari_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      215,
+      194,
+      865,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR number goddess Hikari reference. Preserve exact purple eyes silver lavender long flowing hair elaborate gold floral jewel crown, both arms hands full fingers open palms, elaborate flowing white purple gold floral kimono long split skirts red linings gold sash chains flower jewels purple gem brooch, both white gold jeweled boots and entire original floating front stance. Remove detached floating gems orbs gold head halo all magic rainbow orbit trails sparkles castle pillars garden waterfalls sky ground shadow floor circle. Preserve physical clothing and all body, original pose not redesign. True transparent alpha all gaps centered64percent square18percent margins no text no frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼銀紫長髪金花宝石冠・両手指・白紫金花着物赤裏長袖長裾・紫宝石飾鎖花飾・両脚白金宝石靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

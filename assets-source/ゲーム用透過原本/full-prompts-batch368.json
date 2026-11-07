@@ -1,0 +1,31 @@
+[
+  {
+    "key": "053-zero-tenths-bear_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\053-zero-tenths-bear\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\053-zero-tenths-bear_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      211,
+      194,
+      869,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"053-zero-tenths-bear_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/053-zero-tenths-bear/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-43e74ce8-5076-4c28-b264-e5e9cc1234db.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact same complete light blue baby bear from supplied 053 N card on genuine transparent alpha. Preserve full seated body, ears, blue eyes nose smile, all four paws and pads, small tail, blue scarf including flowing ends and existing 0.10 design, all fur details. Same frontal slightly left pose, proportions, cute painted game illustration. Remove dark star background, all detached floating zeros, sparkles, floor digital circle, ground shadow and external blue haze. Transparent gaps between scarf ends and body and limbs. Clean alpha with no colored environmental residue. Full body centered empty margins no cropping no redesign no new text.\",\n      \"review\": \"Full bear and scarf retained; cyan opaque patch at left hand/foot gap and cyan external fringe. Pending, not game referenced.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\053-zero-tenths-bear_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}\n[\n  {\n    \"key\": \"053-zero-tenths-bear_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-42b6711c-dc86-4264-a0b3-0315962b6778.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\053-zero-tenths-bear_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\053-zero-tenths-bear\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Use case background-extraction. Remove background from exact 053 N reference blue teddy bear. Keep same full seated light cyan bear with blue eyes ears nose paw pads, white muzzle and happy face, complete blue scarf and both scarf tails, both arms and both feet. Preserve scarf original 0.10 marking as part of costume. Remove all surrounding floating zeros, stars, blue space atmosphere, floor digital ring and shadow. True transparent alpha outside bear and between scarf ends arms body and feet; no blue backdrop or colored matte remnants. Entire bear centered with 20 percent transparent padding, no clipping no redesign. Same front slightly left orientation, same painted game style.\",\n    \"visualReview\": \"Bear identity complete ears face scarf marking arms feet preserved. White triangle beneath left hand and cyan/blue residue around ears, scarf and foot edges remain. Not approved.\"\n  }\n]\nReuse pending-2. No regeneration. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目と水色の毛並み・両耳・四肢と肉球・尾・0.10の青いスカーフ保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

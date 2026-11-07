@@ -104,8 +104,8 @@ function showVictory(){const cut=root.querySelector('[data-cutin]');cut.classLis
 
 function restore(state){if(!state||state.version!==2||![4,5].includes(state.n)||!Array.isArray(state.tiles)||state.tiles.length!==state.n*state.n||!Array.isArray(state.solution)||!Array.isArray(state.route))return false;lastTurn=state.lastTurn&&Number.isInteger(state.lastTurn.cell)&&state.lastTurn.cell>=0&&state.lastTurn.cell<state.n*state.n&&Array.isArray(state.lastTurn.before)?{cell:state.lastTurn.cell,before:[...state.lastTurn.before]}:null;stones=new Set(state.stones||[]);stoneRequired=state.stoneRequired||0;stoneSolution=state.stoneSolution||[];stoneMode=false;stoneCell=-1;stoneError=-1;level=Math.max(1,state.level);stars=state.stars||0;moves=state.moves||0;n=state.n;start=state.start;goal=state.goal;hero=state.finish?goal:start;tiles=state.tiles.map(t=>[...t]);solution=state.solution.map(t=>[...t]);route=[...state.route];mission=state.mission;lastMission=state.lastMission;selected=state.cardKeys?Math.max(0,cards.findIndex(c=>c.key===state.cardKeys[state.selected])):Math.max(0,Math.min(cards.length-1,state.selected||0));skillUsed=!!state.skillUsed;highlight=state.highlight??-1;shield=new Set(state.shield||[]);friends=(state.friends||[]).map(f=>({...f,card:state.cardKeys?cards.findIndex(c=>c.key===state.cardKeys[f.card]):f.card})).filter(f=>f.card>=0&&f.card<cards.length);collected=new Set(state.finish?state.collected:[]);finish=!!state.finish;bestCleared=state.bestCleared||0;followers=state.finish?(state.followers||[]).map(f=>({...f,card:state.cardKeys?cards.findIndex(c=>c.key===state.cardKeys[f.card]):f.card})).filter(f=>f.card>=0&&f.card<cards.length):[];busy=finish;planning=false;warning=[];enemyTime=0;go.disabled=finish;next.hidden=!finish;root.querySelector('[data-mission-label]').textContent=['🚩 みちをつなごう','🚩 でぐちを さがそう','🎁 おたからは どこ？','🐾 なかまを つれていこう','👿 おじゃまに まけるな','🪨 石で 分かれ道を ふさごう','🪨👿 道をまもって すすもう'][mission];[...picker.children].forEach((x,j)=>x.setAttribute('aria-pressed',String(selected===j)));status.textContent=finish?'🎉 クリア！':'💾 ステージ '+level+' のつづきから';draw();if(finish)showVictory();return true;}
 
-function missionCopy(){root.querySelector('[data-mission-copy]').textContent=stoneRequired>0?'わかれみちになったら石をおいて、道にまよわないようにしてね。'+(mission===6?' なかまもいっしょにつれていこう！':''):friends.length?'なかまがいる道をとおって、みんなで宝箱までいこう！':mission===4?'敵が道をかえるよ。つながりをたしかめて、宝箱までいこう！':'道をくるっとまわして、スタートから宝箱までつなげてね。';}
-function updateStoneUI(){missionCopy();const tool=root.querySelector('[data-stone-tool]');tool.hidden=stoneRequired===0;root.querySelector('[data-stone-toggle]').disabled=busy;root.querySelector('[data-stone-toggle]').setAttribute('aria-pressed',String(stoneMode));root.querySelector('[data-stone-toggle]').textContent=stoneMode?'🪨 石をおく・もどす':'🪨 石をおく';root.querySelector('[data-stone-count]').textContent='今回つかう石：'+stoneRequired+' 個　（おいた石 '+stones.size+' 個）';const panel=root.querySelector('[data-stone-directions]');panel.hidden=!stoneMode||stoneCell<0||busy;for(const b of panel.querySelectorAll('[data-dir]')){const d=Number(b.dataset.dir);b.disabled=busy||(!tiles[stoneCell]?.includes(d)&&!blocked(stoneCell,d));b.textContent=['↑','→','↓','←'][d]+(blocked(stoneCell,d)?' 🪨 もどす':' におく');}}
+function missionCopy(){root.querySelector('[data-mission-copy]').textContent=stoneRequired>0?'① 石をおく → ② 道のマス → ③ ふさぐ向き':friends.length?'なかまがいる道をとおって、みんなで宝箱までいこう！':mission===4?'敵が道をかえるよ。つながりをたしかめて、宝箱までいこう！':'道をくるっとまわして、スタートから宝箱までつなげてね。';}
+function updateStoneUI(){missionCopy();const tool=root.querySelector('[data-stone-tool]');tool.hidden=stoneRequired===0;root.querySelector('[data-stone-toggle]').disabled=busy;root.querySelector('[data-stone-toggle]').setAttribute('aria-pressed',String(stoneMode));root.querySelector('[data-stone-toggle]').textContent=stoneMode?'🪨 石をおく・もどす':'🪨 石をおく';root.querySelector('[data-stone-count]').textContent='おいた石：'+stones.size+' / '+stoneRequired+' 個';const panel=root.querySelector('[data-stone-directions]');panel.hidden=!stoneMode||stoneCell<0||busy;for(const b of panel.querySelectorAll('[data-dir]')){const d=Number(b.dataset.dir);b.disabled=busy||(!tiles[stoneCell]?.includes(d)&&!blocked(stoneCell,d));b.textContent=['↑','→','↓','←'][d]+(blocked(stoneCell,d)?' 🪨 もどす':' におく');}}
 root.querySelector('[data-stone-toggle]').onclick=()=>{if(busy)return;stoneMode=!stoneMode;stoneCell=-1;status.textContent=stoneMode?'🪨 道のマス → ふさぐ方向をタップ':'👆 道を まわそう';draw();};for(const b of root.querySelector('[data-stone-directions]').querySelectorAll('[data-dir]'))b.onclick=()=>placeStone(stoneCell,Number(b.dataset.dir));
 
 if(!restore(saved))make();else if(!finish)status.textContent='💾 ステージ '+level+' のつづきから';
@@ -117,4 +117,54 @@ const lobby=RewardGameLobby({root,title:'🌿 モンスターみちつなぎ',pi
 
 
 </script></div>
-<link rel="stylesheet" href="/reward-games/reward-lobby.css"></body></html>
+<link rel="stylesheet" href="/reward-games/reward-lobby.css"><style id="path-compact-play-layout">
+/* Keep the mission, stone tool, board and main actions together on phones. */
+#monster-path-demo .rg-play .game{display:grid;grid-template-columns:1fr 1fr;gap:4px 8px;padding:8px;max-width:530px}
+#monster-path-demo .rg-play .top{grid-column:1/-1;justify-content:flex-end}
+#monster-path-demo .rg-play .top h2{display:none}
+#monster-path-demo .rg-play .mission-panel{grid-column:1/-1;margin:0;padding:6px 8px}
+#monster-path-demo .mission-heading{font-size:14px}
+#monster-path-demo .mission-panel .mission-label{font-size:14px;margin:0;padding:2px}
+#monster-path-demo .mission-copy{font-size:12px;line-height:1.4;margin:3px 0}
+#monster-path-demo .mission-panel .stone-tool{display:grid;grid-template-columns:1fr auto;align-items:center;gap:4px;margin:4px 0 0;padding:4px}
+#monster-path-demo .stone-tool p{font-size:12px;margin:0}
+#monster-path-demo .mission-tool-button{padding:6px 12px;min-height:44px}
+#monster-path-demo .stone-directions{grid-column:1/-1;padding:0;flex-wrap:nowrap}
+#monster-path-demo .stone-directions button{flex:1;padding:4px;min-width:0;font-size:13px}
+#monster-path-demo .area-head{grid-column:1/-1;padding:0}
+#monster-path-demo [data-area]{font-size:13px;margin:0}
+#monster-path-demo .area-track{height:4px}
+#monster-path-demo .record,#monster-path-demo .score{font-size:11px;margin:0;padding:0;text-align:center}
+#monster-path-demo .rg-play .board{grid-column:1/-1;width:min(100%,max(220px,calc(100dvh - 430px)));justify-self:center;margin:0;padding:5px;gap:4px}
+#monster-path-demo .status{grid-column:1/-1;min-height:22px;font-size:12px}
+#monster-path-demo .team{grid-column:1/-1;min-height:0}
+#monster-path-demo .team:empty{display:none}
+#monster-path-demo .team img{height:24px;width:24px}
+#monster-path-demo .actions{grid-column:1/-1;display:flex;flex-wrap:nowrap;gap:6px}
+#monster-path-demo .skill-box{flex:1;width:auto;padding:4px;gap:1px}
+#monster-path-demo .skill-box>span{font-size:10px}
+#monster-path-demo .action{font-size:14px;min-height:44px;padding:6px 12px}
+#monster-path-demo .rg-heading{padding:4px 8px;gap:4px}
+#monster-path-demo .rg-heading h1{font-size:16px}
+#monster-path-demo .rg-back{margin:2px!important}
+@media(min-width:700px) and (orientation:landscape){#monster-path-demo .rg-play .game{max-width:850px;grid-template-columns:260px 1fr}#monster-path-demo .rg-play .board{grid-column:2;grid-row:1/7;width:min(100%,calc(100dvh - 130px))}#monster-path-demo .rg-play .top,#monster-path-demo .rg-play .mission-panel,#monster-path-demo .area-head,#monster-path-demo .record,#monster-path-demo .score{grid-column:1}#monster-path-demo .status,#monster-path-demo .team,#monster-path-demo .actions{grid-column:1/-1}}
+</style><style>#monster-path-demo:has(.rg-play:not([hidden])) .rg-heading h1{display:none}
+#monster-path-demo .rg-play .top{min-height:22px}
+#monster-path-demo .rg-play [data-level]{font-size:13px;padding:3px 10px;margin:0;min-height:0}
+#monster-path-demo .mission-heading{display:inline;font-size:12px;margin-right:5px}
+#monster-path-demo .mission-panel .mission-label{display:inline;font-size:13px}
+#monster-path-demo .mission-copy{margin:3px 0;font-size:12px}
+#monster-path-demo .mission-tool-button{font-size:14px}
+#monster-path-demo .rg-heading{min-height:48px}</style><style>
+#monster-path-demo .rg-heading [data-audio]{margin:0}
+#monster-path-demo .rg-play .game{gap:2px 6px;padding:4px 8px}
+#monster-path-demo .rg-play .board{width:min(100%,max(220px,calc(100dvh - 470px)))}
+#monster-path-demo .rg-play .skill-box>span{display:none}
+#monster-path-demo .rg-play .skill-box{padding:0;background:transparent}
+#monster-path-demo .rg-play .actions .action{min-height:44px}
+#monster-path-demo .mission-panel .stone-tool{padding:3px;margin:3px 0 0}
+#monster-path-demo .mission-panel .stone-tool p{line-height:1.3}
+#monster-path-demo .mission-panel .stone-directions{padding-top:0}
+</style></body></html>
+
+

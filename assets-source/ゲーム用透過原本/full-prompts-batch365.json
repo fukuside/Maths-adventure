@@ -1,0 +1,31 @@
+[
+  {
+    "key": "048-divide-emperor_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\048-divide-emperor\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-pending-3.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\048-divide-emperor_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      220,
+      194,
+      859,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"048-divide-emperor_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/048-divide-emperor/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"front\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-dc355e87-ad83-4ba6-8a14-d84cbf1dc600.png\",\n      \"prompt\": \"Use case: background-extraction. Edit supplied 048 N card into transparent game sprite. Preserve exact full small purple-black emperor mage: horned gold-trim helmet purple central crystal, shadow face with two glowing purple eyes, long white hair, gold-edged purple armor cape robes chains gems, both gloves, boots, complete held tall staff with crescent head and purple orb. Keep pose and frontal orientation, proportions, identity and painted game illustration style. Remove background, floor magic circle, ground shadows, detached floating crystals and sparkles. Retain physical staff orb and clothing jewels; no detached visual effects. Genuine transparent alpha around entire figure and through staff crescent openings and gaps between limbs/cape. Full body and staff centered with empty margins, no cropping or new text.\",\n      \"review\": \"Opaque blue residue in crescent staff gaps.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\048-divide-emperor_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    },\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-3a30b003-c698-4dd3-a0a4-1b3261e1af5e.png\",\n      \"prompt\": \"Targeted cleanup of this extracted emperor mage only. Keep every pixel of character identity, full staff, orb, helmet, face, white hair, cape, chains, gems and boots and frontal pose. Remove the bright blue/magenta opaque background remnants in the negative spaces BETWEEN the purple orb and crescent staff frame at upper left. Those gaps must be true alpha 0, not blue or purple paint. Remove isolated fringe residue outside silhouette. Do not remove the orb or solid gold/purple staff. All other outer background remains truly transparent. No redesign, no cropping.\",\n      \"review\": \"Staff gaps improved; bright blue residue remains in right hair gaps. Not accepted or game referenced.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\048-divide-emperor_N-pending-2.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}\n[\n  {\n    \"key\": \"048-divide-emperor_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-8c4b4b79-94e9-432c-8a75-7d08e88c1d3e.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\048-divide-emperor_N-pending-3.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\048-divide-emperor\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit of exact reference 048 N dark emperor. Preserve same full chibi emperor, black shadow face with two purple glowing eyes, white hair, purple black gold horned helmet and entire elaborate robes, both hands and both boots, full staff and purple orb held image left. Remove pale background, floating loose crystals and sparkles, ground magic circle and shadows entirely. True transparent alpha all exterior and all negative spaces around staff hair horns sleeves and boots. Do not fill gaps white pink yellow or red; no colored matte residue or halo. Entire character and staff centered, 18 percent transparent margins all sides; no crop, no redesign, no text. Keep original frontal facing.\",\n    \"visualReview\": \"Helmet face hair staff orb robes hands and both boots retained. Magenta blue residual pixels remain around orb and right hair; generous margins not met. Not approved.\"\n  }\n]\nReuse pending-3. No regeneration. User-approved alpha>=64 components>=60 inward1.1px nearest interior RGB edge correction centered64percent square1080. Front unchanged.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫発光眼黒顔白髪・黒紫金角兜・両手・紫球三日月長杖全長・黒紫金長衣マント宝石鎖・両脚靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  }
+]

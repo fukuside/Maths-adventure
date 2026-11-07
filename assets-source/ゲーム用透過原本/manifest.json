@@ -7434,5 +7434,295 @@
     "gameMirrorX": false,
     "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
     "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀眼黒結髪赤金冠房紐・両手・銀黒赤金長柄大刀全長・黒赤金獅子龍武者鎧・赤黒金裂けマント・両脚鎧靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "100-number-goddess-hikari_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\100-number-goddess-hikari\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-1fd36f65-9c92-43af-91a2-642bb7d5878a.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\100-number-goddess-hikari_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      269,
+      194,
+      811,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit SR number goddess Hikari reference. Preserve identical purple eyes silver lavender long flowing hair gold floral jewel crown, both hands and fingers open palms, elaborate white purple gold floral kimono red inner sleeves long flowing split skirts sash purple gem sun brooch hanging jewels, both legs white gold purple jeweled armored boots. Keep original front standing stance entire body and physical clothing. Remove all detached floating gems orbs gold halo orbit trails magic floor circle, castle garden pillars flowers sky ground shadow sparkles. True transparent alpha all gaps, centered64percent of square 18percent margin no text frame redesign. Preserve exact character only.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼銀紫長髪金花宝石冠・両手指・白紫金花着物赤裏長袖長裾・紫宝石飾鎖花飾・両脚白金宝石靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "100-number-goddess-hikari_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\100-number-goddess-hikari\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-33e54e6d-c036-42c2-95ea-92a57ea3fcaf.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\100-number-goddess-hikari_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      215,
+      194,
+      865,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit UR number goddess Hikari reference. Preserve exact purple eyes silver lavender long flowing hair elaborate gold floral jewel crown, both arms hands full fingers open palms, elaborate flowing white purple gold floral kimono long split skirts red linings gold sash chains flower jewels purple gem brooch, both white gold jeweled boots and entire original floating front stance. Remove detached floating gems orbs gold head halo all magic rainbow orbit trails sparkles castle pillars garden waterfalls sky ground shadow floor circle. Preserve physical clothing and all body, original pose not redesign. True transparent alpha all gaps centered64percent square18percent margins no text no frame.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼銀紫長髪金花宝石冠・両手指・白紫金花着物赤裏長袖長裾・紫宝石飾鎖花飾・両脚白金宝石靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "036-octopal_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\036-octopal\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\036-octopal_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      199,
+      886,
+      880
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit. Make a precise transparent cutout of this exact purple octopus wizard. Preserve its friendly big violet eyes smile pink cheeks purple pointed wizard hat with golden stars and blue gem, all eight complete curling tentacles and pink suction cups. Do not redesign or change pose. Remove ONLY ocean, coral, bubbles, seabed, ground shadow and water between tentacles. Every gap must be transparent, not blue white pink or red filled. Entire octopus including hat and tentacle tips centered within square canvas with 18% empty transparent padding. True alpha background, clean antialiased edges with no colored halo. No backdrop, no text, no extra objects. Front facing.\n2026-11-07: reuse pending-4; alpha>=64 components>=60 inward1.1px nearest interior RGB; remove edge-connected white; local neutral-white background removal x330..385 or650..750 y540..620 after centering1080. No regeneration. Prior prompts pending-prompts-batch23.json and pending-prompts-batch92.json preserved.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫大眼笑顔頬・紫金星青宝石魔法帽全長・八本の巻腕と桃吸盤・体の金星紋保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "037-shine-pegasus_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\037-shine-pegasus\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_N-pending-3.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\037-shine-pegasus_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\037-shine-pegasus_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      213,
+      886,
+      867
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"037-shine-pegasus_N\",\n  \"status\": \"pending-cleanup-not-game-ready\",\n  \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\037-shine-pegasus\\\\n.webp\",\n  \"sourceFacing\": \"left\",\n  \"attempts\": [\n    {\n      \"path\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-b5bd66d4-b082-454b-b8dc-b9f6c2ce9c7c.png\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\037-shine-pegasus_N-pending-1.png\",\n      \"prompt\": \"Use case: background-extraction. Edit target 037-shine-pegasus N reference. Extract exact single white winged unicorn pony with original blue eyes smiling face, complete gold horn ears golden mane and full flowing tail, BOTH full feathered white wings, all four complete legs with golden hooves, gold sun marking on flank. Preserve original left-facing three-quarter pose proportions and game illustration. Remove all white backdrop, detached petals, flowers grass ground and shadow, including gaps between legs and wing feathers. Genuine transparent alpha outside complete pony; centered square PNG with 15–20% clear margin. No crop, new limbs/equipment/text or redesign.\\n\"\n    },\n    {\n      \"path\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-5798fc19-cbf7-49f8-8f6f-1c08bc264a00.png\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\037-shine-pegasus_N-pending-2.png\",\n      \"prompt\": \"Localized cleanup of supplied winged unicorn cutout. Remove white background wedge trapped between front and rear legs around x600–645 y910–1035. Remove detached golden haze/specks around mane and tail curls while preserving actual gold hair strands. All space between separate legs, wing feather gaps and outside silhouette must be true transparent alpha. Preserve exact pony face blue eyes gold horn mane white wings four legs gold hooves sun marking and full tail without redesign/crop.\\n\"\n    }\n  ],\n  \"review\": \"White patches between legs persist; gold/red residue in mane/tail curls and detached flecks remain; not ready. Continue other N next.\"\n}\nReuse pending-3; user-approved alpha64 connected components60 inward1.1px nearest interior RGB edge correction. Center64percent in1080 square. No new generation. Preserve left pose; render mirrorX for game.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼笑顔・白い体・金角耳・金たてがみ尾・左右白羽翼・四脚金蹄・腰の金太陽紋保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  },
+  {
+    "key": "048-divide-emperor_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\048-divide-emperor\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-pending-3.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\048-divide-emperor_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\048-divide-emperor_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      220,
+      194,
+      859,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"048-divide-emperor_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/048-divide-emperor/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"front\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-dc355e87-ad83-4ba6-8a14-d84cbf1dc600.png\",\n      \"prompt\": \"Use case: background-extraction. Edit supplied 048 N card into transparent game sprite. Preserve exact full small purple-black emperor mage: horned gold-trim helmet purple central crystal, shadow face with two glowing purple eyes, long white hair, gold-edged purple armor cape robes chains gems, both gloves, boots, complete held tall staff with crescent head and purple orb. Keep pose and frontal orientation, proportions, identity and painted game illustration style. Remove background, floor magic circle, ground shadows, detached floating crystals and sparkles. Retain physical staff orb and clothing jewels; no detached visual effects. Genuine transparent alpha around entire figure and through staff crescent openings and gaps between limbs/cape. Full body and staff centered with empty margins, no cropping or new text.\",\n      \"review\": \"Opaque blue residue in crescent staff gaps.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\048-divide-emperor_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    },\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-3a30b003-c698-4dd3-a0a4-1b3261e1af5e.png\",\n      \"prompt\": \"Targeted cleanup of this extracted emperor mage only. Keep every pixel of character identity, full staff, orb, helmet, face, white hair, cape, chains, gems and boots and frontal pose. Remove the bright blue/magenta opaque background remnants in the negative spaces BETWEEN the purple orb and crescent staff frame at upper left. Those gaps must be true alpha 0, not blue or purple paint. Remove isolated fringe residue outside silhouette. Do not remove the orb or solid gold/purple staff. All other outer background remains truly transparent. No redesign, no cropping.\",\n      \"review\": \"Staff gaps improved; bright blue residue remains in right hair gaps. Not accepted or game referenced.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\048-divide-emperor_N-pending-2.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}\n[\n  {\n    \"key\": \"048-divide-emperor_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-8c4b4b79-94e9-432c-8a75-7d08e88c1d3e.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\048-divide-emperor_N-pending-3.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\048-divide-emperor\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit of exact reference 048 N dark emperor. Preserve same full chibi emperor, black shadow face with two purple glowing eyes, white hair, purple black gold horned helmet and entire elaborate robes, both hands and both boots, full staff and purple orb held image left. Remove pale background, floating loose crystals and sparkles, ground magic circle and shadows entirely. True transparent alpha all exterior and all negative spaces around staff hair horns sleeves and boots. Do not fill gaps white pink yellow or red; no colored matte residue or halo. Entire character and staff centered, 18 percent transparent margins all sides; no crop, no redesign, no text. Keep original frontal facing.\",\n    \"visualReview\": \"Helmet face hair staff orb robes hands and both boots retained. Magenta blue residual pixels remain around orb and right hair; generous margins not met. Not approved.\"\n  }\n]\nReuse pending-3. No regeneration. User-approved alpha>=64 components>=60 inward1.1px nearest interior RGB edge correction centered64percent square1080. Front unchanged.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫発光眼黒顔白髪・黒紫金角兜・両手・紫球三日月長杖全長・黒紫金長衣マント宝石鎖・両脚靴保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "050-tenths-pon_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\050-tenths-pon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_N-pending-4.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\050-tenths-pon_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\050-tenths-pon_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      216,
+      194,
+      864,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"050-tenths-pon_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/050-tenths-pon/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"front\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-a582e17c-b6ab-4bfe-87f3-852165b182dd.png\",\n      \"prompt\": \"Use case: background-extraction. Edit supplied 050 N monster card. Extract same complete silver-gray slime, frontal pose, true transparent background. Preserve exact droplet body curled top and two bottom lobes, blue-black eyes, smiling open mouth pink cheeks, glossy silver highlights and connected white dots on body. Keep painted silver body opaque; only exterior transparent. Remove cream backdrop, all floor magic rings, ground shadow, detached silver bubbles and floating sparkles. Full body centered, empty margins all sides, no crop or redesign, original cute game illustration. No new objects or lettering.\",\n      \"review\": \"Cyan opaque fringe below body and isolated blue top flecks.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\050-tenths-pon_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    },\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-14e211d1-1390-4675-b461-0aeb4fb64a5b.png\",\n      \"prompt\": \"Cleanup only: same silver slime extracted image. Remove bright cyan/blue fringe patches BELOW the lower silhouette and isolated blue flecks around top curl, replacing with real alpha zero. Preserve entire silver body, white outline highlights, face, markings, all bottom lobes and top curl exactly. No shadow or ground, no colored rim outside body. True transparent background. No redesign or crop.\",\n      \"review\": \"Cyan/blue bottom fringe persists. Not accepted or added to game.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\050-tenths-pon_N-pending-2.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}\n[\n  {\n    \"key\": \"050-tenths-pon_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-99496cb8-211a-4029-b201-5852954d1053.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\050-tenths-pon_N-pending-3.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\050-tenths-pon\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Use case background-extraction. Extract exact single silver-gray smiling slime from reference 050 N. Preserve original cute blue-black eyes white highlights blush mouth, teardrop top curl, entire round body and two small side lobes, white connected constellation circles drawn ON its body. Remove all floating silver bubbles, sparkles, floor magic circle, ground shadow and pale background. Opaque character painted silver glass shading retained; true transparent alpha exterior everywhere. Clean silhouette no colored or white background residue. Full body centered with 20 percent transparent padding on each side. No new details no text no redesign. Keep frontal orientation.\",\n    \"visualReview\": \"Silver slime full body, face and constellation preserved. Opaque white fringe and cyan/blue residual pixels remain outside silhouette on left and lower edge; pending review correction, not installed.\"\n  }\n]\n[\n  {\n    \"key\": \"050-tenths-pon_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-7f477b85-dde9-41fd-8fda-3d30aa87bcbf.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\050-tenths-pon_N-pending-4.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\050-tenths-pon\\\\n.webp\",\n    \"editTarget\": \"exec-99496cb8-211a-4029-b201-5852954d1053.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Precise-object-edit of supplied transparent silver slime cutout. Targeted EDGE CLEANUP ONLY: remove the stray opaque white fringe just outside its left outline and bottom outline, remove cyan blue stray edge pixels around curl and base, make those unwanted pixels fully transparent. Preserve every interior character pixel, silver shading, blue-black eyes smile blush and connected white constellation markings; do not redesign, relight or change pose. Preserve existing transparent alpha background. Clean smooth dark gray silhouette outline with natural antialiasing, no outer glow or matte. Add generous transparent padding around entire full character by fitting within central 60 percent of square. Exact original front-facing character, no new objects, no text.\",\n    \"visualReview\": \"Targeted cleanup of existing pending cutout rather than regeneration from card. Identity preserved but white fragments still outside left/bottom edge and cyan residue at base. Not approved.\"\n  }\n]\nReuse pending-4. No regeneration. User-approved alpha>=64 components>=60 inward1.1px nearest interior RGB edge correction centered64percent square1080. Front unchanged.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青黒眼笑顔桃頬・銀灰雫体と突起全体・白反射と白点連結紋保持。環境除去。正面寄り原姿勢維持。実機未確認。"
+  },
+  {
+    "key": "051-decimal-cat_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\051-decimal-cat\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\051-decimal-cat_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\051-decimal-cat_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      286,
+      194,
+      794,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"051-decimal-cat_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/051-decimal-cat/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-b64e2fa1-021a-42a2-b7bc-ea2bed336480.png\",\n      \"prompt\": \"Use case: background-extraction. Edit supplied 051 N monster card. Extract exactly same full seated white cream kitten with blue eyes, pink ears nose, full curled tail, star markings on fur, blue star collar and large gold framed blue gemstone pendant. Preserve pose face proportions clothing all paws and painted game illustration. Remove entire dark starry environment, magic floor rings, detached floating stars/sparkles and light trails. Keep only stars physically on fur/collar; no floating extras. True alpha transparency all outside silhouette including tail/body gap, no blue background residue. Whole body centered with empty margins, no cropping, no added text. Keep existing slightly left-facing pose; runtime may mirror.\",\n      \"review\": \"Full cat preserved, but cyan/blue fringe outside tail and bottom plus detached flecks; not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\051-decimal-cat_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}\n[\n  {\n    \"key\": \"051-decimal-cat_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-e0e31316-1a64-46e2-ae44-5e03a30fa8db.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\051-decimal-cat_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\051-decimal-cat\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit: extract ONLY exact white star cat from reference 051 N. Preserve complete seated cat with blue eyes, pink nose ears, whiskers, gold blue star collar and blue pendant, gold blue star markings attached to forehead cheeks flank and tail, all paws and full curved tail. Same face and left three-quarter orientation and game painting. Remove dark blue space background, all floating detached stars, glowing ribbons, sparks, ground magic circle and shadow. True transparent alpha around entire silhouette and tail gap, no blue or white matte residue. Entire cat centered within square 1080x1080 with 20 percent empty transparent padding all sides. No crop, no new accessories, no text, no redesign.\",\n    \"visualReview\": \"Complete cat ears face collar pendant markings paws tail retained. White residue behind right whiskers/collar and saturated blue/magenta edge pixels around tail and paws remain. Not approved.\"\n  }\n]\nReuse pending-2. No regeneration. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目と白い毛並み・耳・座った全身と足・巻き尾・星紋・青宝石の首輪保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  },
+  {
+    "key": "053-zero-tenths-bear_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\053-zero-tenths-bear\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\053-zero-tenths-bear_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\053-zero-tenths-bear_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      211,
+      194,
+      869,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"053-zero-tenths-bear_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/053-zero-tenths-bear/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-43e74ce8-5076-4c28-b264-e5e9cc1234db.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact same complete light blue baby bear from supplied 053 N card on genuine transparent alpha. Preserve full seated body, ears, blue eyes nose smile, all four paws and pads, small tail, blue scarf including flowing ends and existing 0.10 design, all fur details. Same frontal slightly left pose, proportions, cute painted game illustration. Remove dark star background, all detached floating zeros, sparkles, floor digital circle, ground shadow and external blue haze. Transparent gaps between scarf ends and body and limbs. Clean alpha with no colored environmental residue. Full body centered empty margins no cropping no redesign no new text.\",\n      \"review\": \"Full bear and scarf retained; cyan opaque patch at left hand/foot gap and cyan external fringe. Pending, not game referenced.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\053-zero-tenths-bear_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}\n[\n  {\n    \"key\": \"053-zero-tenths-bear_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-42b6711c-dc86-4264-a0b3-0315962b6778.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\053-zero-tenths-bear_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\053-zero-tenths-bear\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Use case background-extraction. Remove background from exact 053 N reference blue teddy bear. Keep same full seated light cyan bear with blue eyes ears nose paw pads, white muzzle and happy face, complete blue scarf and both scarf tails, both arms and both feet. Preserve scarf original 0.10 marking as part of costume. Remove all surrounding floating zeros, stars, blue space atmosphere, floor digital ring and shadow. True transparent alpha outside bear and between scarf ends arms body and feet; no blue backdrop or colored matte remnants. Entire bear centered with 20 percent transparent padding, no clipping no redesign. Same front slightly left orientation, same painted game style.\",\n    \"visualReview\": \"Bear identity complete ears face scarf marking arms feet preserved. White triangle beneath left hand and cyan/blue residue around ears, scarf and foot edges remain. Not approved.\"\n  }\n]\nReuse pending-2. No regeneration. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目と水色の毛並み・両耳・四肢と肉球・尾・0.10の青いスカーフ保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  },
+  {
+    "key": "054-point-dragon_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\054-point-dragon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\054-point-dragon_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\054-point-dragon_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      217,
+      194,
+      862,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"054-point-dragon_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/054-point-dragon/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-389e70c0-23c1-44aa-b6f4-e28268b02452.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact same complete white ice baby dragon from supplied 054 N card on genuine transparent alpha. Preserve entire seated body, face blue eyes open smile, pale cream belly plates, both wings membranes and crystal tips, all claws feet legs, whole curled tail and embedded blue ice spikes and crest. Existing left three-quarter pose and cute painted game illustration unchanged. Remove pale gray backdrop, detached floating crystals and sparkles, all ground magic circle and shadows. Transparent negative spaces between wings body feet tail. Clean silhouette without external blue residue. Full body centered generous empty margins no cropping no text no redesign.\",\n      \"review\": \"Full dragon preserved but white residue beneath right wing, cyan fringe and detached flecks. Not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\054-point-dragon_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"054-point-dragon_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-f7300160-0a53-4ea1-bae6-2a54c1cbead4.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\054-point-dragon_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\054-point-dragon\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction precise edit of 054 N reference: preserve exact cute white ice crystal baby dragon, blue eyes open smiling mouth tiny teeth, white scales cream belly, blue crystal head spikes forehead gems, both complete bat wings with opaque cream membranes, all paws blue claws, whole curved tail with crystal tip. Same left three-quarter seated pose, exact identity painted style. Remove pale background ALL floating detached crystals sparkles and entire glowing ground magic circle and shadow. Genuine transparent alpha everywhere outside actual dragon including between horns wings tail legs. Clean edges without colored mattes or white fills in gaps. Full character centered with 20% transparent padding square, no clipping no redesign no text.\",\n    \"visualReview\": \"Dragon full face crystal spikes wings membranes paws claws and tail retained. Cyan residue between neck spikes and wing and around outer claws remains; right wing almost canvas edge. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と笑顔・頭と背の氷結晶・両翼・見える脚と爪・曲がった尾全体保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  },
+  {
+    "key": "055-decimal-king_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\055-decimal-king\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\055-decimal-king_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      226,
+      194,
+      853,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"055-decimal-king_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/055-decimal-king/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-4ecd486d-9030-461d-b6c0-b3d24d142e54.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exactly same complete blue seal king from supplied 055 N card. Preserve full seated body paws tail if visible, face blue eyes cream moustache whiskers, blue gold jeweled crown, fur-lined blue gold robe, chest jewels, both hands and complete held staff with gold ring and blue orb. Keep frontal slightly left pose and painted game illustration. Remove all starry blue environment, floor magic circle ground shadow, floating crystals stars and detached sparkles. True transparent alpha around silhouette and inside staff ring around orb, no blue background remnants. Full body staff crown centered with empty margins no cropping no redesign no text.\",\n      \"review\": \"Full king crown staff robe preserved; red/yellow residue in staff gaps and blue external flecks. Not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\055-decimal-king_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"055-decimal-king_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-ee352bb9-4fad-458e-b7f3-cde1ef6847e2.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\055-decimal-king_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\055-decimal-king\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit reference 055 N. Exact cute blue seal king, full golden blue crown, blue eyes white mustache whiskers golden nose happy mouth, complete blue-gold royal robes with white fur trim, both hands and both flipper feet, entire gold staff with blue orb image left. Preserve identity pose colors all clothing and jewels. Remove all background starfield floating crystals stars and floor gold magic circle shadow. Genuine transparent alpha exterior and every gap inside staff ring, around crown tips, between staff and robe, legs and cape hem. No colored blue red yellow matte. Full body and staff central with 20 percent empty transparent margins. No clipping no text no redesign. Keep original front slightly left pose.\",\n    \"visualReview\": \"Seal king identity, crown, moustache, full staff, robes hands feet preserved. Red/yellow residue around gold staff ring/crown and blue residue around cape/feet; staff nearly touches upper canvas boundary. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と白い口ひげ・王冠・青宝玉の長杖全体・両手足・金星入り青マント保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
   }
 ]

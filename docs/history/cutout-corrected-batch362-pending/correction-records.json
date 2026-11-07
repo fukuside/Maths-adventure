@@ -1,0 +1,22 @@
+[
+  {
+    "key": "036-octopal_N",
+    "pendingBatch": 169,
+    "input": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\036-octopal_N-pending-4.png",
+    "png": "C:\\Users\\user\\.codex\\visualizations\\2026\\10\\12\\01a12e0b-5276-7060-9999-a044ffd69a64\\cutout-batch362\\036-octopal_N-1080.png",
+    "webp": "C:\\Users\\user\\.codex\\visualizations\\2026\\10\\12\\01a12e0b-5276-7060-9999-a044ffd69a64\\cutout-batch362\\036-octopal_N.webp",
+    "alphaBounds": [
+      194,
+      199,
+      886,
+      880
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "cleanup": "alpha>=64; components>=60px; inward matte trim 1.1 source pixels; nearest interior color for edge under3px; transparent zero RGB; centered 64% canvas with padding",
+    "retainedMaskPixels": 766873,
+    "removedSmallComponents": 0
+  }
+]

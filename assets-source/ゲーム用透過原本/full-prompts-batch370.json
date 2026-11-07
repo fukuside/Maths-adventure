@@ -1,0 +1,31 @@
+[
+  {
+    "key": "055-decimal-king_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\055-decimal-king\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\055-decimal-king_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\055-decimal-king_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      226,
+      194,
+      853,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"055-decimal-king_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/055-decimal-king/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-4ecd486d-9030-461d-b6c0-b3d24d142e54.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exactly same complete blue seal king from supplied 055 N card. Preserve full seated body paws tail if visible, face blue eyes cream moustache whiskers, blue gold jeweled crown, fur-lined blue gold robe, chest jewels, both hands and complete held staff with gold ring and blue orb. Keep frontal slightly left pose and painted game illustration. Remove all starry blue environment, floor magic circle ground shadow, floating crystals stars and detached sparkles. True transparent alpha around silhouette and inside staff ring around orb, no blue background remnants. Full body staff crown centered with empty margins no cropping no redesign no text.\",\n      \"review\": \"Full king crown staff robe preserved; red/yellow residue in staff gaps and blue external flecks. Not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\055-decimal-king_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"055-decimal-king_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-ee352bb9-4fad-458e-b7f3-cde1ef6847e2.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\055-decimal-king_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\055-decimal-king\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit reference 055 N. Exact cute blue seal king, full golden blue crown, blue eyes white mustache whiskers golden nose happy mouth, complete blue-gold royal robes with white fur trim, both hands and both flipper feet, entire gold staff with blue orb image left. Preserve identity pose colors all clothing and jewels. Remove all background starfield floating crystals stars and floor gold magic circle shadow. Genuine transparent alpha exterior and every gap inside staff ring, around crown tips, between staff and robe, legs and cape hem. No colored blue red yellow matte. Full body and staff central with 20 percent empty transparent margins. No clipping no text no redesign. Keep original front slightly left pose.\",\n    \"visualReview\": \"Seal king identity, crown, moustache, full staff, robes hands feet preserved. Red/yellow residue around gold staff ring/crown and blue residue around cape/feet; staff nearly touches upper canvas boundary. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と白い口ひげ・王冠・青宝玉の長杖全体・両手足・金星入り青マント保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]
