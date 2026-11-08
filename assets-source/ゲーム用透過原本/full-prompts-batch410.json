@@ -1,0 +1,31 @@
+[
+  {
+    "key": "098-simultaneous-equation-dual-swords_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\098-simultaneous-equation-dual-swords\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\098-simultaneous-equation-dual-swords_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\098-simultaneous-equation-dual-swords_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      278,
+      886,
+      802
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"098-simultaneous-equation-dual-swords_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-f74ece44-f378-4843-9987-c7efb1fe46cd.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\098-simultaneous-equation-dual-swords_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\098-simultaneous-equation-dual-swords\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"mixed\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 098-simultaneous-equation-dual-swords N reference. Extract exact TWO full samurai children as one sprite, red girl on left blue boy on right, both complete faces eyes hair ornaments headband, full costumes ribbons armor hands gripping two complete swords, all legs boots. Preserve exact back-to-back stance identities painted style. Remove all red and blue magical flame swirls and loose petals leaves temple stairs ground sky reflection shadow. Keep cloth ribbons and sword surfaces. Genuine transparent alpha exterior and every gap between pair hair swords arms ribbons legs; no colored matte residue. Full pair centered 15-20 percent clear margin no crop no text no redesign.\",\n    \"visualReview\": \"Both samurai faces costumes swords limbs retained. Red blue opaque residue between ribbons, right sword/ribbon reaches canvas boundary. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。二人の向きはmixed、左右反転なし。",
+    "sourceFacing": "mixed",
+    "gameFacing": "mixed",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤と青の二人の顔と全身・背中合わせの構え・刀二振り・衣装と四足保持。環境除去。二人の向きはmixed、左右反転なし。実機未確認。"
+  }
+]

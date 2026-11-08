@@ -1,0 +1,31 @@
+[
+  {
+    "key": "083-circle-goddess_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\083-circle-goddess\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\083-circle-goddess_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\083-circle-goddess_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      257,
+      194,
+      823,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"083-circle-goddess_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-7439d474-53dc-4c1f-a74e-00354fa5bd32.png\",\n    \"prompt\": \"Background extraction edit supplied 083-circle-goddess N card. Preserve exact full black-haired amber-eyed celestial mage, gold hair ornaments, black white gold ornate full gown and sleeves, both hands, complete shoes, held black gold staff with entire circular astrolabe top and its attached ornaments. Remove all castle arches flowers sky floor reflections ambient rings floating planets stars and light trails not physically attached to dress/staff. Keep gold patterns and hanging dress charms. Real transparent alpha outside and within staff rings hair and arm gaps, clean no colored matte residue. Same pose style identity, full character and staff centered 15-20 percent clear margin no crop no text no redesign.\",\n    \"facing\": \"front\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\083-circle-goddess_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\083-circle-goddess\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full mage face hair dress staff and equipment retained. Red/yellow opaque remnants inside staff rings and hair gaps; not approved.\",\n    \"gameMirrorX\": false\n  }\n]\nReuse pending-1. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original front pose, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・琥珀色の目・長髪と花飾り・天球儀の長杖・星柄の衣装と宝飾・両手と足元保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

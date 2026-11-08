@@ -1,0 +1,31 @@
+[
+  {
+    "key": "kg-002_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\packs\\kindergarten\\monsters\\kg-002\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7a681793-539b-4d59-8f18-144ddb9ae271.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-002_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-002_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\kg-002_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      223,
+      194,
+      856,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of supplied kg-002 UR card. Keep the exact white rabbit, blue eyes, pink-lined upright ears, smile, raised paw, both legs and tail, full blue cape with gold edges, pale ribbons and dangling jewels, necklace, and complete jeweled gold crescent/halo accessory behind the ears. Remove all exterior scenery including full moon, sky, mountains, castle, lake, petals, sparks and flower-covered ground. Preserve rarity, face, pose, identity and original rendering. Preserve the exact complete silhouette and all apparel. Transparent RGBA outside subject and through open gaps; no colored matte, background marks or shadows. Center entire figure with 15–20% clear padding. No text, crop, redraw, or new elements.\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。正面原姿勢維持、左右反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目・長い耳・手足と尾・宝飾の三日月と輪・青金のマントとリボン保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

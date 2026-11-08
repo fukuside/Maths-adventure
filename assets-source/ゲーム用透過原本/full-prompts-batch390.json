@@ -1,0 +1,31 @@
+[
+  {
+    "key": "078-ratio-twin-dragon_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\078-ratio-twin-dragon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\078-ratio-twin-dragon_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\078-ratio-twin-dragon_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      226,
+      886,
+      854
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"078-ratio-twin-dragon_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-03195551-6edb-48ab-8858-96dd83d4d2d1.png\",\n    \"prompt\": \"Background-extraction edit 078 N card. Extract exactly same intertwined TWO dragon pair as one sprite, blue dragon on left gold dragon right, both full faces eyes horns crests, two complete visible spread wings and opaque membranes, claws legs intertwined full tails crystals scales. Preserve embrace pose no separating redesign or missing limbs. Remove all mountains cliffs waterfalls trees sky floating islands distant crystals mist shadow and ground. True transparent alpha outside pair and open gaps within wings tails bodies. No red yellow cyan matte remnants. Painted game illustration, full pair centered 15-20 percent clear margin, no text no crop.\",\n    \"facing\": \"mixed\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\078-ratio-twin-dragon_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\078-ratio-twin-dragon\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Both intertwined dragons identities complete wings and tails retained. Red yellow cyan remnants in wing/head gaps and around edges; not approved.\",\n    \"gameMirrorX\": false\n  }\n]\nReuse pending-1. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original mixed pose, no mirror.\n",
+    "sourceFacing": "mixed",
+    "gameFacing": "mixed",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青と金の二頭の顔・角と結晶・翼・絡んだ尾・見える脚と爪保持。環境除去。二頭が向き合う原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

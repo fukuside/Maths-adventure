@@ -1,0 +1,31 @@
+[
+  {
+    "key": "068-average-goddess_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\068-average-goddess\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\068-average-goddess_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\068-average-goddess_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      244,
+      194,
+      836,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"068-average-goddess_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-667ae3ac-340d-4efc-a7f9-2dbdd1dbf6f9.png\",\n    \"prompt\": \"Use case: background-extraction. Edit target: attached 068-average-goddess N card. Extract ONLY the exact same blue-haired goddess as a clean game sprite with genuine transparent alpha. Preserve face, blue eyes, crown, jewels, earrings, every long blue hair strand, both open hands, white-blue-gold flowing dress and sleeves, full legs and sandals, original front-facing pose and game illustration style. Remove all three floating blue planets, sparkles, droplets, water trails, magic circle and floor. Preserve all actual clothing fabric. All open gaps between hair strands, sleeves, arms and body must be transparent, not white or colored residue. No background, no shadow, no halo, no checkerboard pixels, no red/yellow edge patches. Full character centered with 15-20 percent clear margins on all sides; no text; no crop; do not turn the face or redesign.\",\n    \"facing\": \"front\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\068-average-goddess_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\068-average-goddess\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full front-facing goddess preserved; planets and water removed, but cyan blue fringes in hair openings and white/red edge residue remain. Not approved for game use.\"\n  }\n][\n  {\n    \"key\": \"068-average-goddess_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-f1c1ef77-533d-49fa-be08-db93420e157f.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\068-average-goddess_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\068-average-goddess\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit exact 068 N goddess. Keep exact blue-haired blue-eyed goddess face, long flowing hair braids and locks, golden blue jewel tiara earrings, complete white blue gold dress translucent sleeves and long sashes, both hands fingers, full legs feet sandals. Preserve identity anatomy pose costume game illustration. Remove white backdrop ALL floating blue spheres and rings, water swirls droplets sparkles floor magic circle and shadow. Only goddess clothing hair and attached jewelry remain. True transparent alpha exterior and all gaps in hair sleeves sashes fingers legs. No blue/cyan/red/yellow/white matte remnants. Full figure centered square with 20 percent transparent margins no crop no text no redesign. Same frontal orientation.\",\n    \"visualReview\": \"Goddess face hair tiara jewelry dress sleeves sashes fingers legs sandals retained. Cyan/blue residue in hair curls and white/red residue beside hands, sashes and hem. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Front pose preserved, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・青い長髪・冠と宝飾・両手・白青の衣装と飾り布・両足とサンダル保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

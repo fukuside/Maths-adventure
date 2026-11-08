@@ -1,0 +1,31 @@
+[
+  {
+    "key": "096-solid-geometry-shield-general_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\096-solid-geometry-shield-general\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\096-solid-geometry-shield-general_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\096-solid-geometry-shield-general_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      222,
+      194,
+      857,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"096-solid-geometry-shield-general_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-106ef3f5-c9e6-4573-9818-17b22f069899.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\096-solid-geometry-shield-general_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\096-solid-geometry-shield-general\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 096-solid-geometry-shield-general N. Extract exact same full black ponytail green-eyed girl knight, green gold crown and ribbon, green white gold leaf armor skirt cape sleeves, held entire green crystal mace and full large gold green shield, both legs armored boots. Preserve face cheerful expression pose identity game illustration. Remove entire castle trees leaves flowers sky bridge waterfall ground shadow reflections and ALL floating detached green gems light trails. Genuine transparent alpha silhouette and openings among hair ribbon equipment arms legs cape, no colored matte remnants. Full character mace shield centered generous 15-20 percent margins no crop no text no redesign.\",\n    \"visualReview\": \"Full knight mace shield hair limbs retained. Red/yellow opaque patches in hair and cape gaps; not approved. Initial generation connection failed; retry succeeded.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。正面原姿勢維持、左右反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑の目と笑顔・冠とリボン・緑晶のメイスと盾・緑金の装甲と両足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

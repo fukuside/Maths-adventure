@@ -1,0 +1,31 @@
+[
+  {
+    "key": "070-speed-valkyrie_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\070-speed-valkyrie\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_N-pending113-generated.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\070-speed-valkyrie_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\070-speed-valkyrie_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      194,
+      886,
+      885
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"070-speed-valkyrie_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-d4afc156-cedc-4faf-81aa-80dce85aa7eb.png\",\n    \"prompt\": \"Use case: background-extraction. Extract exact same 070-speed-valkyrie N character from edit target. Preserve blonde ponytail, blue eyes and face, winged head ornaments, complete two feathered wings, gold blue white armor, skirt cape, both hands, both boots, entire blue spear including BOTH tips. Keep original slightly left-facing pose and painted game style. Remove only background and environmental detached feathers, sparkles, blue swirling air and floor magic circle. True alpha transparency around entire silhouette and all gaps between spear arm body legs wings. No colored matte residue or white patches. Full body centered with 15-20 percent clear margins, no crop or redesign or text.\",\n    \"facing\": \"left\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\070-speed-valkyrie_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\070-speed-valkyrie\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full valkyrie wings spear both tips retained. Red yellow opaque residue in hair openings and near lower spear; white fringe on wing. Not approved for game.\",\n    \"gameMirrorX\": true\n  }\n][\n  {\n    \"key\": \"070-speed-valkyrie_N\",\n    \"status\": \"pending-quality\",\n    \"tool\": \"built-in imagegen\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\070-speed-valkyrie\\\\n.webp\",\n    \"generatedOriginal\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-17502dae-60a1-4163-8760-eb4512998948.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\070-speed-valkyrie_N-pending113-generated.png\",\n    \"prompt\": \"Background-extraction edit of exact 070 N valkyrie reference. Preserve entire same cute blonde ponytail girl, blue eyes face expression, winged gold blue tiara, silver blue gold armor dress cape, hands fingers, both boots, full two white feather wings and whole blue gold spear with silver blade. Preserve identity rarity pose art. Remove white environment, all floating feathers sparkles wind arcs and ground magic circle. Actual transparent alpha outside silhouette including negative spaces between spear body hair and wings. White feathers and silver armor remain opaque. No colored matte residue. Center full figure square, 20 percent transparent padding all edges no clipping no text no redesign. Preserve frontal slightly left facing, do not invent side pose.\",\n    \"size\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"sourceFacing\": \"front\",\n    \"gameMirrorX\": false,\n    \"visualReview\": \"Face eyes ponytail tiara complete wings spear armor fingers and boots preserved. Red yellow blue matte remnants around hair spear and wings; insufficient padding. Not installed; no direction change.\"\n  }\n]\nReuse pending113-generated.png. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original front pose, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と金髪・羽根飾り・白い両翼・槍全体・鎧とマント・両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

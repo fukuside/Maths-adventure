@@ -1,0 +1,31 @@
+[
+  {
+    "key": "062-fraction-king_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\062-fraction-king\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\062-fraction-king_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\062-fraction-king_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      236,
+      194,
+      844,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"062-fraction-king_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/062-fraction-king/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-843a764f-2640-4ba4-96ec-1ee32575a6e2.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact same full elderly wizard king from supplied 062 N card on true transparent alpha. Preserve face eyes white moustache beard hair, gold blue jeweled crown, complete robe cape boots hands, all worn chains jewels and held staff including orb ring hanging ornaments. Keep pose and painted cute fantasy game identity. Remove starry environment, detached floating crystals, both crystal pedestals, ground magic floor circle shadow. Transparent all negative spaces including inside staff ring and hair curls, no environmental residue. Full body staff crown centered generous empty margins no crop no redesign no new text.\",\n      \"review\": \"Full king preserved; red/gray residue in staff ring, hair curl opaque patches. Pending.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\062-fraction-king_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"062-fraction-king_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-694cd6ca-4a5d-4f17-aced-4b5a6c7f4e42.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\062-fraction-king_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\062-fraction-king\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit exact 062 N reference. Preserve full friendly elderly wizard king, white flowing hair beard mustache eyebrows and eyes face, navy gold blue crystal crown, complete robes cape chain jewels and cuffs, both hands fingers both boots, entire tall gold staff blue orb with attached hanging crystals. Remove navy stars and ALL detached floating crystals, pedestal crystals left/right, floor magic circle and shadow. True transparent alpha exterior and inside staff ring and between crown hair hands staff robe hem. No red/yellow/blue/white matte residue. Same front left-three-quarter identity pose illustration. Full character staff centered square with generous 20 percent transparent padding. No crop no text no redesign.\",\n    \"visualReview\": \"King face beard crown hair full staff robes hands and boots preserved. Red/yellow residual areas in staff ring and crown gaps, white fragments around hair curls, top margin too small. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と白いひげ・王冠・宝玉と吊り飾りの長杖・青金の衣装・両手足保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

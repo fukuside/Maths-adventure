@@ -1,0 +1,31 @@
+[
+  {
+    "key": "097-linear-function-chief_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\097-linear-function-chief\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\097-linear-function-chief_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\097-linear-function-chief_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      200,
+      194,
+      880,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"097-linear-function-chief_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-2233444a-6009-411b-b409-ea6a26aa7fd1.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\097-linear-function-chief_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\097-linear-function-chief\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"right\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit supplied 097-linear-function-chief N. Extract exact same full dark-haired purple-eyed calligrapher girl, long ponytail flower gold head ornament, white purple gold robe sleeves skirt ribbons, both hands and entire raised brush with bristles, both legs boots. Preserve exact face cheerful pose game paint style. Remove all purple ink magic swirls detached petals architecture library flowers sky ground reflection shadow. True transparent alpha exterior and every gap among hair brush arms robe ribbons legs; no red white purple matte patches. Full centered character and brush generous15-20 percent clear margin no crop no text no redesign.\",\n    \"visualReview\": \"Full calligrapher face brush hair robes boots retained. White patches in hair gaps and red/yellow around ribbons hem remain. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。右向き原姿勢維持、左右反転なし。",
+    "sourceFacing": "right",
+    "gameFacing": "right",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫の目と笑顔・金の髪飾り・筆の穂と柄・白紫の衣装と両手足保持。環境除去。右向き原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

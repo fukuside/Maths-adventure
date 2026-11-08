@@ -1,0 +1,31 @@
+[
+  {
+    "key": "060-denominator-bird_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\060-denominator-bird\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\060-denominator-bird_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\060-denominator-bird_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      196,
+      886,
+      883
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"060-denominator-bird_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/060-denominator-bird/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-7f6bd616-ab05-4cf0-9238-aef9dc007ce8.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exactly same full cream blue gold celestial bird from supplied 060 N card. Preserve face blue eyes gold beak, complete crest, both fully spread wings, physical gold armor and blue jewels, both gold legs black claws, full curved long tail and attached tail jewel. Keep left three-quarter flying pose and original painted game illustration. Remove starry sky, ALL detached floating rings including halo above head, detached feathers, sparks stars, ground magic disk and shadow. Genuine transparent alpha everywhere outside body and inside feather/leg gaps. Clean silhouette no blue/gold background remnants. Full body centered empty margins no cropping no redesign no text.\",\n      \"review\": \"Complete bird retained; opaque white/cyan/yellow remnants between crest-wing and wing-tail. Not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\060-denominator-bird_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"060-denominator-bird_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-48f02eff-1da7-45ce-9738-1a2bc534822a.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\060-denominator-bird_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\060-denominator-bird\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit of exact 060 N reference. Preserve complete cute blue white gold griffin bird, blue eyes yellow beak, head crest, both fully raised wings, blue gold jewel armor, both complete golden talons, long curved feather tail with gold jewel, main halo above head. Remove every detached outer gold ring and star, floating feathers, navy cosmos and floor magic rings. Genuine transparent alpha outside bird and halo, including all negative spaces feather gaps wing/body/tail gaps and inside halo. No white blue red yellow matte residue. Exact same flying left-three-quarter pose and painterly game style. Full bird tail wings halo centered square with 20 percent transparent padding, no clipping no text no redesign.\",\n    \"visualReview\": \"Bird face crest wings armor talons curved tail and main halo preserved. Saturated cyan/yellow/blue residual opaque areas in halo feather and tail gaps; margin too small. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼とくちばし・冠羽と頭上の金環・両翼と巻き尾羽・両脚・青金の装具保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "kg-005_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\packs\\kindergarten\\monsters\\kg-005\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-c4e1b6c9-04f0-4ca5-9f06-a1cfe12f0fa9.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-005_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-005_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\kg-005_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      253,
+      886,
+      826
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of the supplied kg-005 UR card. Isolate the smiling pale-lavender kitten, blue eyes, both ears, crown, curled fluffy tail, feet, complete starry navy cape, pink bow and ribbons, and entire winged blue gem scepter including its shaft. Preserve exact full-body pose, identity, painted style, silhouette and equipment. Remove scenery, sky, architecture, waterfalls, trees, flowers, ground, all detached light effects and shadows. Genuine transparent RGBA exterior and in every opening between limbs, hair or fur and accessories. Keep all subject edges, 15–20% clear padding, centered on square. No text, crop, redesign or color fringe.\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。正面原姿勢維持、左右反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目・冠・耳と尾・全身・宝杖とリボン・星模様のマント保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

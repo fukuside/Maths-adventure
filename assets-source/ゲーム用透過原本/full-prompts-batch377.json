@@ -1,0 +1,31 @@
+[
+  {
+    "key": "064-equal-king_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\064-equal-king\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\064-equal-king_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\064-equal-king_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      225,
+      194,
+      854,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"064-equal-king_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/064-equal-king/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"front\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-6db4e48a-2a4e-4879-86d0-edff3413f278.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact full golden brown animal king from supplied 064 N card. Preserve face blue eyes white bushy eyebrows moustache, black gold crown blue gems, full black armor with TWO gold horizontal chest bars, blue gold fur-edged cape, hands feet boots complete held blue crystal staff. Same frontal pose proportions painted fantasy game style. Remove white background ALL detached floating crystals sparkles gold swirls and floor magic circle ground shadow. True transparent alpha around body and inside crown openings cape staff gaps, no colored residue. Entire character centered generous empty margins no cropping no redesign no added text.\",\n      \"review\": \"Full king preserved; opaque yellow/red residue between staff and face, below cape and leg gaps. Not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\064-equal-king_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"064-equal-king_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-e40b1d91-2f20-49d9-9685-c708dbdb9d4c.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\064-equal-king_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\064-equal-king\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction precise edit reference 064 N. Exact cute golden brown animal king, blue eyes white bushy eyebrows huge white mustache, gold black blue crystal crown, black gold armor two horizontal gold bars chest, blue gold cape thick white fur trim, both complete white gloved paws both boots, full black gold staff with blue diamond tip. Preserve identity pose every accessory. Remove pale background, all detached crystals sparks swirling light, floor magic circle and cast shadow. Genuine alpha transparency exterior and gaps in crown staff cape feet, no colored matte or white residue. Full character and staff centered on square with 20 percent clear transparent margins. No crop no redesign no text. Same front-facing pose.\",\n    \"visualReview\": \"Animal king face crown staff armor cape gloves boots preserved. Red/yellow residual pixels around crown and staff, filled residue in staff/head gap and cape hem. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Front pose preserved, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と白いひげ・王冠・青結晶の杖・等号の鎧・毛皮付きマント・両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

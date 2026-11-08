@@ -1,0 +1,31 @@
+[
+  {
+    "key": "081-geometric-demon_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\081-geometric-demon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\081-geometric-demon_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\081-geometric-demon_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      217,
+      194,
+      863,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"081-geometric-demon_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-3d9397be-15d3-4be9-b704-b4e3194ca3c7.png\",\n    \"prompt\": \"Background-extraction edit supplied 081-geometric-demon N. Isolate exact same full black magenta crystalline armored demon knight, two curved horns helmet glowing orange eyes, full held staff/axe including crystalline top and entire shaft, large shield in other hand, jagged armor cape, both legs boots. Preserve exact pose identity intricate gold cracks red crystals. Remove cave purple light floor reflection shadow ALL detached floating shards and sparks. True transparent alpha outside character and equipment, including gaps between horns staff arm body shield legs cape. No red yellow blue matte remnants or glow. Full centered knight and weapons with 15-20 percent margin no crop no redesign no text.\",\n    \"facing\": \"front\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\081-geometric-demon_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\081-geometric-demon\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full knight horns axe shield cape limbs retained; magenta/red opaque residue in axe gaps and colored edge remnants remain. Not approved.\",\n    \"gameMirrorX\": false\n  }\n]\nReuse pending-1. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original front pose; mirror at draw time only for left.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・赤い目と両角・結晶の斧と盾・鎧とマント・両脚保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

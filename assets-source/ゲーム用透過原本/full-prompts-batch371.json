@@ -1,0 +1,31 @@
+[
+  {
+    "key": "056-half-moon_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\056-half-moon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\056-half-moon_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\056-half-moon_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      224,
+      194,
+      856,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"056-half-moon_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/056-half-moon/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-bcb12041-f7cb-4b45-ae46-48c322d2f216.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact white wizard rabbit from supplied 056 N card, preserving full long ears blue eyes pink nose all paws tail, blue gold star hat with dangling star, bow gem necklace blue gold star cape and complete held crystal staff. Remove ALL scenery including large golden crescent moon seat, small background crescent, stars sky clouds. Keep only rabbit clothing staff and physically attached dangling hat star. Rabbit remains in seated pose with paws visible, no moon pedestal. True transparent alpha all background and interior gaps, no colored residue. Same slightly left frontal pose and painted card-game identity, full body centered generous empty margins no crop no added text.\",\n      \"review\": \"Rabbit complete, moon removed; yellow/red residue around dangling hat star and cyan staff fringe. Pending.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\056-half-moon_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"056-half-moon_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-9c0e0a36-a409-4b92-b191-38af75b4ebc1.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\056-half-moon_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\056-half-moon\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Use case background-extraction. Extract exact full white moon wizard rabbit seated on its large gold crescent mount from 056 N reference. Preserve original blue eyes face long pink ears, blue gold star cap and hanging star charm, bow cloak with white lining, hands paws tail, entire crystal-tipped wand, and COMPLETE main golden crescent seat. Main crescent is character mount, keep it; remove detached thin crescent in upper left background. Remove all navy sky clouds distant stars and environmental glow. True transparent alpha exterior and all gaps between ears wand cape rabbit crescent, no colored matte residue. Entire rabbit and crescent centered with 20 percent empty transparent padding, no clipping, no redesign no text. Keep left three-quarter orientation.\",\n    \"visualReview\": \"Rabbit ears face costume staff paws main crescent mount preserved; distant detached crescent removed. White residue around ears and red/yellow/blue matte near charms crescent and cloak remain. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長耳・星飾り付き帽子と青金の衣装・杖全体・手足と尾・金の三日月の乗り物保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

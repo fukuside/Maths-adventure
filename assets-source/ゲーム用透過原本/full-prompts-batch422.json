@@ -1,0 +1,31 @@
+[
+  {
+    "key": "038-massive-golem_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\038-massive-golem\\u.png",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-7814f3a6-f621-4d9c-83b5-19423d81d02f.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\038-massive-golem_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\038-massive-golem_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\038-massive-golem_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of the supplied 038 Massive Golem SR card artwork, user-approved u.png. Extract the exact full, front-facing crouched brown stone golem, keeping its squat proportions, two glowing purple eyes, rocky face, huge closed fists, both entire feet, and all amethyst crystals physically attached to its head, back, shoulders, arms and legs. Preserve original pose, foreshortening, the larger foreground fist at image right, colors, and painted detailing. Remove every detached crystal and floating rock, portal and glow outside the silhouette, forest, sky, magic ground circle, ground and shadow. Genuine transparent RGBA exterior and through all gaps between limbs, especially between legs and under arms. Keep full character centered with about 18% transparent margins. No new armor, text, crop, or redesign.\nユーザーが比較画像中央の u.png をSR参照として承認。補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。正面原姿勢維持、左右反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫の目・岩の体・両拳・両足・体に付いた紫水晶保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

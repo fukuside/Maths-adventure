@@ -1,0 +1,31 @@
+[
+  {
+    "key": "069-balance-cerberus_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\069-balance-cerberus\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\069-balance-cerberus_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\069-balance-cerberus_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      198,
+      886,
+      881
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"069-balance-cerberus_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-e29bcc2e-68e0-4926-ae46-db7b7a6dc7a7.png\",\n    \"prompt\": \"Use case: background-extraction. Edit target supplied 069-balance-cerberus N card. Extract exact same full white three-headed puppy Cerberus, keeping all THREE heads with distinct face directions, blue eyes, ears, gold crowns with blue jewels, all gold armor and dangling chains, four paws, fluffy tails and fur. Keep original frontal body pose and painted game illustration; do not redesign. Remove white backdrop, ALL floating golden flames, sparks, floor magic circle and cast shadow. Genuine transparent alpha outside animal and in every opening between legs, chains, necks and tails. No colored fringe, matte, white patches or checkerboard pixels. Center full body with generous 15-20 percent clear margins, no cropping, no text. Mixed head directions must stay unchanged.\",\n    \"facing\": \"mixed\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\069-balance-cerberus_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\069-balance-cerberus\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Three heads and full body armor chains paws tails retained; red and yellow opaque residue between legs and around necks. Mixed head directions unchanged. Not approved for game.\"\n  }\n][\n  {\n    \"key\": \"069-balance-cerberus_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-9ea08f02-6021-49f4-8ef9-d668443f8d83.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\069-balance-cerberus_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\069-balance-cerberus\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"mixed\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction exact reference 069 N three-headed white wolf cerberus. Preserve all THREE distinct wolf heads blue eyes expressions, three gold blue crystal crowns, full white furry shared body, complete gold armor harness blue chest jewel and all attached gold chains, every visible leg paw claw, both fluffy side tails. Do not alter anatomy number of heads pose identity. Remove white background ALL detached gold flames sparkles and floor magic circle shadow. True transparent alpha exterior and all gaps in fur heads crowns harness chains legs tails. No red/yellow/blue opaque matte or white environmental residue. Full creature centered square with generous 20 percent transparent padding, no clipping no text. Frontal central head and outward side heads keep mixed facing.\",\n    \"visualReview\": \"All three wolf faces crowns shared body harness chains legs paws and side tails retained. Red/yellow opaque remnants around crowns mouth chains and leg gaps; insufficient side margin. Not approved.\"\n  }\n]\nReuse pending-2.png. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original mixed pose, no mirror.\n",
+    "sourceFacing": "mixed",
+    "gameFacing": "mixed",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・三つの顔と冠・白い胴・金の装具と鎖・見える脚と爪・左右の尾保持。環境除去。三つの頭の原方向維持、左右反転なし。実機未確認。"
+  }
+]

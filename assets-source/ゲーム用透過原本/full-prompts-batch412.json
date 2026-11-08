@@ -1,0 +1,31 @@
+[
+  {
+    "key": "100-number-goddess-hikari_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\100-number-goddess-hikari\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\100-number-goddess-hikari_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\100-number-goddess-hikari_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      222,
+      886,
+      858
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"100-number-goddess-hikari_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-058872e0-38e5-48d2-b45a-eff5a5301613.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\100-number-goddess-hikari_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\100-number-goddess-hikari\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Use case: background-extraction. Edit reference 100-number-goddess-hikari N. Extract exact single tiny smiling silver-white haired goddess child, closed happy eyes, gold flower crown, white red gold purple ceremonial outfit, tassels, both hands, both complete legs and shoes. Preserve floating multicolored seven jewels arranged around her as part of character design. Preserve individual face identity clothing pose and painted game style. Remove palace architecture pillars arches sky clouds water flowers distant scenery floor pedestal and all magic light rings and environmental glow. Genuine transparent alpha outside figure and jewels and in every gap between flowing hair, arms, ribbons and jewels. No painted backdrop or colored matte. Full character and seven jewels centered in square with generous 15-20 percent transparent margins, no cropping, no text, no redesign. Keep front facing.\",\n    \"visualReview\": \"Face, crown, complete outfit, hands, feet and seven jewels preserved. Pink white opaque residue remains throughout hair gaps, with colored matte around jewels and crown. Not approved for runtime.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。正面原姿勢維持、左右反転なし。参照に見える宝石8個は装備として保持。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・笑顔・白髪と花冠・白赤金の衣装・両手足・参照にある8個の宝石（旧プロンプトの個数表記より参照を優先）保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "key": "065-small-knight_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\065-small-knight\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\065-small-knight_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\065-small-knight_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      274,
+      194,
+      805,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"065-small-knight_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/065-small-knight/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-dbc7ef89-6cef-4969-8557-83365a131f6b.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact same complete small armored knight from supplied 065 N card. Preserve face blue eyes, silver helmet blue plume, all armor boots legs hands, blue gold chest crest and tabard, complete held sword with blue gem hilt, full blue gold shield with white downward arrow. Original frontal slightly left pose cute painted game illustration unchanged. Remove ALL castle scenery paving grass rocks sky and ground shadow. Genuine transparent alpha outside silhouette and all gaps between sword body shield legs plume curls, no environment residue. Full body sword plume shield centered generous clear margins no crop no text or redesign.\",\n      \"review\": \"Full knight preserved; red/gray opaque fringes at sword hilt and blue plume fringe. Not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\065-small-knight_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"065-small-knight_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-8fd2cc0a-e664-43ee-898a-285d2eff82f3.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\065-small-knight_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\065-small-knight\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit reference 065 N. Preserve exact cute little knight with friendly blue eyes brown hair silver helmet and full blue plume, all silver armor chainmail blue gold tabard, full sword left and blue gold shield right with original white down arrow, both gauntlets complete legs boots. Preserve face identity pose equipment illustration. Remove ALL castle towers sky ground paving stones grass and shadow. True transparent alpha exterior and every gap between sword helmet shield body legs plume, no colored matte or opaque white residue. Full body sword plume shield centered in square with 20 percent transparent padding. No clipping no redesign no text. Same front slightly left pose.\",\n    \"visualReview\": \"Knight identity face helmet plume sword shield armor full limbs retained. Red/yellow residue around sword guard and between tabard/legs, blue fringe around plume. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・青い羽根飾り付き兜・剣全体・矢印の盾・銀の鎧と両脚保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

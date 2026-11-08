@@ -1,0 +1,31 @@
+[
+  {
+    "key": "067-ratio-seraphim_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\067-ratio-seraphim\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\067-ratio-seraphim_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\067-ratio-seraphim_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      207,
+      194,
+      872,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"067-ratio-seraphim_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/067-ratio-seraphim/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-433bf36b-5743-40d3-8b19-11deaccbd913.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact complete white-haired angel boy from supplied 067 N card, true transparent alpha. Preserve blue eyes face full hair curls, both complete white feather wings, white gold blue robes cape boots all limbs, complete held balance scale including every gold chain both blue bowls and blue spheres. Original slight-left frontal pose painted cute game style unchanged. Remove white environment, detached floating feathers sparkles floor magic ring and shadows. Transparent gaps among balance chains, bowls, hair curls, wings and body; no opaque white/gold residue. Full character and scale centered generous margins no cropping no new text no redesign.\",\n      \"review\": \"Complete angel and scale retained; red/yellow opaque remnants among scale chains, gray white hair curl residue. Pending.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\067-ratio-seraphim_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"067-ratio-seraphim_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-56c4386f-a53a-42bc-b7d6-83bb245a082d.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\067-ratio-seraphim_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\067-ratio-seraphim\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit exact 067 N reference. Preserve silver-haired blue-eyed angel boy face hairstyle long hair, two complete white feather wings, white blue gold robes all ribbons and both boots, both hands with fingers, entire gold balance scales held left including chains both blue pans and blue spheres. Same identity pose costume game illustration. Remove all pale background loose feathers sparkles and floor gold ring/shadow. True transparent alpha exterior and every opening in scales chains wings hair flowing coat and legs. No opaque white/red/yellow/blue matte remnants. Full angel and entire scales centered in square with generous 20 percent transparent margin all sides. No crop no text no redesign, same front-left pose.\",\n    \"visualReview\": \"Angel identity face full wings flowing hair costume balance scales chains blue pans hands feet preserved. Opaque red/yellow remnants in chain openings and beside scale stand, white/magenta hair-gap residue. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Front pose preserved, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・銀髪・白い両翼・金の天秤と鎖と青い皿・白金の衣装・両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

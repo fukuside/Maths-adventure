@@ -1,0 +1,31 @@
+[
+  {
+    "key": "080-scale-fairy_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\080-scale-fairy\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\080-scale-fairy_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\080-scale-fairy_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      228,
+      194,
+      852,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"080-scale-fairy_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-673d0293-414a-4555-9b55-6a01d77d3980.png\",\n    \"prompt\": \"Background-extraction edit supplied 080-scale-fairy N card. Isolate exact same full green-haired green-eyed fairy girl, flower leaf hair ornament, complete four iridescent insect wings with veins, green white gold leaf dress and flowing leaf ribbons, held staff with faceted blue gem and floral leaves, both hands legs flower shoes. Preserve face pose and game illustration. Remove castle forest plants waterfall stones stream ground, detached floating cubes butterflies petals light trails. True transparent alpha around silhouette and all open gaps; retain wing surface with natural translucency but remove landscape visible through it. Full centered character and staff generous 15-20 percent clear margins, no crop no text no redesign.\",\n    \"facing\": \"front\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\080-scale-fairy_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\080-scale-fairy\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full fairy staff four wings limbs and clothes retained. Yellow white residue around hair staff wings and dress; not approved.\",\n    \"gameMirrorX\": false\n  }\n]\nReuse pending-1. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Front pose preserved, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑の目と髪・花飾り・羽根・結晶の杖・葉の衣装・両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

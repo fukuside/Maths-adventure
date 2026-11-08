@@ -1,0 +1,31 @@
+[
+  {
+    "key": "073-unit-fenrir_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\073-unit-fenrir\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_N-pending116-generated.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\073-unit-fenrir_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\073-unit-fenrir_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      205,
+      194,
+      875,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"073-unit-fenrir_N\",\n    \"status\": \"pending-quality\",\n    \"tool\": \"built-in imagegen\",\n    \"prompt\": \"Background-extraction edit supplied 073 N ice wolf cub. Keep exact individual cute blue eyes smiling open mouth tongue white muzzle, blue navy white layered fur, both ears, all attached ice crystals head chest back limbs tail, all four paws toes dark claws and entire curled bushy tail. Same full standing frontal slightly left-facing pose. Remove every environmental snow mountain trees sky floating flakes crystals not attached to body and reflective ice floor. Genuine transparent alpha outside body and between legs tail fur. No colored matte residue or floor shadow. Center full body within square with 20% transparent padding each edge. Preserve game-painted art face rarity anatomy, no redesign no letters.\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\073-unit-fenrir\\\\n.webp\",\n    \"generatedOriginal\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-d777baf7-0d8d-4908-9b7d-ed0c978b01fc.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\073-unit-fenrir_N-pending116-generated.png\",\n    \"size\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"sourceFacing\": \"front\",\n    \"gameMirrorX\": false,\n    \"visualReview\": \"Face smile fur ears body crystals all four paws claws full tail preserved. Cyan blue matte fringes around fur and legs, white residue tail upper edge, insufficient padding. Pending not installed.\"\n  }\n]\n[\n  {\n    \"key\": \"073-unit-fenrir_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-197645fe-ae7a-441a-9452-3197fda0fa6f.png\",\n    \"prompt\": \"Background-extraction edit. Isolate exact same full blue-white crystal wolf puppy from attached 073-unit-fenrir N card. Preserve face blue eyes cheerful open mouth, pointed ears, blue white fur, all crystals attached to fur and chest, all four legs paws claws, entire raised fluffy tail. Preserve original slightly left-facing pose and game illustration detail. Remove snowy landscape, ALL detached crystals, trees, sky, sparkles, ground, ice reflection and shadow. True transparent alpha with clean fur edges and fully transparent spaces between legs and under belly and tail. No colored background residue. Full animal centered, 15-20 percent clear margins, no cropping no text no redesign.\",\n    \"facing\": \"left\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\073-unit-fenrir_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\073-unit-fenrir\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full crystal wolf face fur crystals paws tail retained. White patches between legs and blue edge residue remain; pending.\",\n    \"gameMirrorX\": true\n  }\n]\nReuse pending116-generated.png. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original front pose, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と笑顔・両耳・体の青結晶・四脚と爪・尾全体保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

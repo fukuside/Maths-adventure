@@ -1,0 +1,31 @@
+[
+  {
+    "key": "072-time-chrono-demon_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\072-time-chrono-demon\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_N-pending115-generated.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\072-time-chrono-demon_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\072-time-chrono-demon_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      212,
+      194,
+      867,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"072-time-chrono-demon_N\",\n    \"status\": \"pending-quality\",\n    \"tool\": \"built-in imagegen\",\n    \"prompt\": \"Background-extraction edit exact supplied N card 072: same cute seated blue crystal dragon, white face belly, blue eyes, gold horns and blue head gems, two bat wings with opaque pale membranes, both arms feet all gold claws, long blue tail with gold blue spear-tip. Preserve same individual rarity face full body pose and game painting. Remove white background, sparkles orbit wind and ground magic circle entirely. True transparent alpha exterior and negative spaces, no white colored matte fringe. Keep full tail both wings all horns and toes. Center full character in square with 20 percent clear margins. No new drawing design, no letters. Preserve front slightly-left facing; do not make side-view.\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\072-time-chrono-demon\\\\n.webp\",\n    \"generatedOriginal\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-f7f45ac0-1f76-4e2c-88fd-a6e88ac46ad0.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\072-time-chrono-demon_N-pending115-generated.png\",\n    \"size\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"sourceFacing\": \"front\",\n    \"gameMirrorX\": false,\n    \"visualReview\": \"Same blue dragon identity and entire horns wings limbs claws tail kept. Grey matte patches under wings cheek horns and colored fringes, insufficient padding. Pending not installed.\"\n  }\n]\n[\n  {\n    \"key\": \"072-time-chrono-demon_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-43bde764-a0de-43d2-8b64-93d5eb9423fe.png\",\n    \"prompt\": \"Use case background-extraction. Extract exact same little blue gold dragon from supplied 072 N card. Preserve left-facing three-quarter pose, blue eyes white muzzle smile, blue crystal gold horns crown, blue scales white belly, both bat wings with opaque pale membranes, all paws gold claws, chest and limb jewels, full curled tail and gold blue tail tip. Remove white backdrop, blue floating sparkles, swirl trails and magic-circle ground completely. Real transparent alpha around silhouette and openings between wings body and tail; preserve actual wing membranes. No colored fringe, no matte patches, no glow, no redesign. Center entire dragon with 15-20 percent margin and no crop, no text.\",\n    \"facing\": \"left\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\072-time-chrono-demon_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\072-time-chrono-demon\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full dragon identity wings membranes paws tail retained. Blue residue in opening behind right wing and red under tail tip; pending.\",\n    \"gameMirrorX\": true\n  }\n]\nReuse pending115-generated.png. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original front pose, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と白い顔・金角と青結晶・両翼・爪と脚・尾と宝石装具保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

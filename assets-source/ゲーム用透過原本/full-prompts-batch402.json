@@ -1,0 +1,31 @@
+[
+  {
+    "key": "090-signed-swordsman_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\090-signed-swordsman\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\090-signed-swordsman_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\090-signed-swordsman_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      216,
+      886,
+      863
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"090-signed-swordsman_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-e5cae38b-3c2c-47ac-80fb-0a935cd70a7c.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\090-signed-swordsman_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\090-signed-swordsman\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 090-signed-swordsman N. Extract same full cheerful chibi samurai boy with closed happy eyes open smiling mouth, black ponytail red headband ribbons, red black gold armor tunic, both hands holding complete blue blade and red blade swords, both legs boots. Preserve exact identity pose paint style and actual colored blade surfaces; remove ALL flame trails light swirls, temple scenery trees mountains falling leaves ground shadow reflection. True transparent alpha exterior and spaces between hair ribbons arms blades legs no colored matte remnants. Full character both swords centered 15-20 percent clear margin no crop no text no redesign.\",\n    \"visualReview\": \"Full samurai pose face hair swords limbs retained; red opaque remnants between ribbons and detached blade particles remain. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px、正面のため反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・笑顔・黒髪と赤い鉢巻き・赤青の両剣・鎧と両手足。刀身に接した発光を保持保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

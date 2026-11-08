@@ -1,0 +1,31 @@
+[
+  {
+    "key": "kg-003_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\packs\\kindergarten\\monsters\\kg-003\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-af4d68a2-81ec-4dce-8f2c-1c7c841781e1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-003_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-003_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\kg-003_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      206,
+      886,
+      874
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of supplied kg-003 SR card. Isolate the exact orange fox with green eyes, closed smile, four paws, one bushy cream-tipped tail, teal cape, three gold geometric collar charms and whole round gold turquoise shield. Preserve SR rarity, original pose, face, colors, equipment and painted style. Remove all scenery, sky, ground, shadow, loose flowers, butterflies, detached lights and background rainbow. Transparent RGBA exterior and open gaps, no matte. Full figure centered on square with 15–20% padding, no crop, text, redesign or additions.\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。左向き原姿勢維持、ラン描画のみ左右反転。",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・緑の目・四足・白い尾先・緑のマントと丸盾・首飾り保持。環境除去。左向き原姿勢維持、ラン描画のみ左右反転。実機未確認。"
+  }
+]

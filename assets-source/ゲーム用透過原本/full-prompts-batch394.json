@@ -1,0 +1,31 @@
+[
+  {
+    "key": "082-polygon-chimera_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\082-polygon-chimera\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\082-polygon-chimera_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\082-polygon-chimera_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      264,
+      886,
+      815
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"082-polygon-chimera_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-51acb6fe-8b10-4ba9-baec-83d290b7b1eb.png\",\n    \"prompt\": \"Background-extraction edit 082-polygon-chimera N. Isolate exact same full two-headed crystal dragon chimera: left gold head amber eye, right green head green eye, both open smiling mouths, single shared dark blue body gold chest, all attached purple blue crystals, two small wings, four legs claws, entire curled crystal tail. Preserve original pose proportions face and game paint style. Remove castle cliffs waterfalls grass stones sky distant crystals all ground reflections shadow. True transparent alpha outside silhouette and all gaps among necks wings legs tail; no environment residue or colored matte. Entire subject centered 15-20 percent clear margin no crop no text no redesign.\",\n    \"facing\": \"left\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\082-polygon-chimera_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\082-polygon-chimera\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Both heads shared body identity retained. Blue white remnants between necks and wing; tail reaches right canvas boundary with insufficient margin. Not approved.\",\n    \"gameMirrorX\": true\n  }\n]\nReuse pending-1. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original left pose; mirror at draw time only for left.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・二頭の顔と角・共有する胴・左右の翼・脚と爪・巻いた尾保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

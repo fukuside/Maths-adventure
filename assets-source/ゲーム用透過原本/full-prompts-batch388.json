@@ -1,0 +1,31 @@
+[
+  {
+    "key": "076-proportion-succubus_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\076-proportion-succubus\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_N-pending119-generated.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\076-proportion-succubus_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\076-proportion-succubus_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      265,
+      194,
+      814,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"076-proportion-succubus_N\",\n    \"status\": \"pending-quality\",\n    \"tool\": \"built-in imagegen\",\n    \"prompt\": \"Background-extraction precise edit supplied 076 N fantasy horned purple-haired mage. Preserve exact same face eyes smile horns crown jewelry, long entire purple hair, both full bat wings, complete modest black purple gold full-length layered dress lace sleeves skirt, both hands all fingers and full boots. Keep original pose and game painting individual rarity. Remove castle flowers sky stone floor aura floating petals and magic red blue orbs above hands. Genuine transparent alpha outside silhouette including hair curls sleeve gaps wing gaps and legs. No matte fringe or opaque background patches. Full body centered square with 20 percent transparent margin each side. No redesign no text no side pose.\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\076-proportion-succubus\\\\n.webp\",\n    \"generatedOriginal\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-dd38e26a-bcaf-4292-9007-bc648ec9dc89.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\076-proportion-succubus_N-pending119-generated.png\",\n    \"size\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"sourceFacing\": \"front\",\n    \"gameMirrorX\": false,\n    \"visualReview\": \"Same face horns crown hair wings complete dress fingers boots preserved. Red magenta matte residues in hair curls and wing gaps and insufficient padding. Pending not installed.\"\n  }\n]\n[\n  {\n    \"key\": \"076-proportion-succubus_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-2521cac3-6bab-4129-9fe1-7c883796bdcd.png\",\n    \"prompt\": \"Background-extraction edit. Extract exact same full purple-haired horned fantasy mage from 076 N reference card. Preserve face, purple eyes, both horns, long flowing hair, two bat wings opaque membranes, black purple gold layered dress, both sleeves open hands, full boots and legs. Keep red and blue magic orbs held immediately above hands as character equipment, but remove all unrelated environment: castles, arches, flowers, petals, moon, floor, reflections and ambient sparks. True transparent alpha around silhouette and between hair strands horns wings and arms; no matte residue. Same pose and painted game style, full body centered 15-20 percent margin, no text no crop no redesign.\",\n    \"facing\": \"front\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\076-proportion-succubus_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\076-proportion-succubus\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full identity horns wings dress boots and held orbs retained; red opaque patches between hair strands and blue residue by right orb. Not approved.\",\n    \"gameMirrorX\": false\n  }\n]\nReuse pending119-generated.png. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original front pose, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫眼と笑顔・長髪・両角と冠飾り・両翼・宝飾のある衣装・両手と靴保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

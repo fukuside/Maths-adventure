@@ -1,0 +1,31 @@
+[
+  {
+    "key": "089-zeus-proportional_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\089-zeus-proportional\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\089-zeus-proportional_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\089-zeus-proportional_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      223,
+      194,
+      857,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"089-zeus-proportional_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-24c6004b-f242-4a54-9bc6-f1553f2e2f45.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\089-zeus-proportional_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\089-zeus-proportional\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 089-zeus-proportional N. Extract exact full cute white-haired bearded Zeus warrior with blue eyes gold laurel, blue gold white armor cape, entire gold spear held raised including tip and shaft, full round blue gold shield with central jewel, both legs boots. Preserve exact identity face pose and illustration style. Remove temple clouds sky statues floor reflections shadows and ALL detached lightning surrounding or crossing outside silhouette. Preserve actual weapon and equipment. True transparent alpha exterior and openings between hair spear cape legs shield no matte remnants. Full body weapons centered 15-20 percent clear margins no crop no text no redesign.\",\n    \"visualReview\": \"Full Zeus face hair beard spear shield cape boots retained. Red/yellow residue along spear and cape; white hair-gap patches. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px、正面のため反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目・白髪とひげ・月桂冠・槍の穂先と柄・丸盾・マントと両足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

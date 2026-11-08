@@ -1,0 +1,31 @@
+[
+  {
+    "key": "075-rate-mercury_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\075-rate-mercury\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_N-pending118-generated.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\075-rate-mercury_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\075-rate-mercury_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      203,
+      194,
+      877,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"075-rate-mercury_N\",\n    \"status\": \"pending-quality\",\n    \"tool\": \"built-in imagegen\",\n    \"prompt\": \"Background extraction exact supplied 075 N white-haired winged boy Mercury. Preserve same blue eyes open smile, hairstyle, entire white gold tunic belt blue ribbons long gold-trim flowing cloth, both feather wings, all hands fingers, entire winged gold wand, both bare legs and winged gold sandals with toes. Same midair frontal dynamic pose and painting. Remove all sky temples islands clouds lightning aura and ground. Genuine transparent alpha outside silhouette and between wand feathers fingers ribbon loops legs. White clothes feathers remain opaque. No colored matte residue. Entire figure central square with 20 percent transparent margin, no clipping no text no redesign or pose change.\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\075-rate-mercury\\\\n.webp\",\n    \"generatedOriginal\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-77132132-be33-4390-b8e6-47610e00c1be.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\075-rate-mercury_N-pending118-generated.png\",\n    \"size\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"sourceFacing\": \"front\",\n    \"gameMirrorX\": false,\n    \"visualReview\": \"Same white-haired boy face tunic full wings wand ribbons fingers legs sandals toes preserved. White grey remnants in ribbon gaps and hair, yellow red purple exterior fringes, insufficient padding. Pending not installed.\"\n  }\n]\n[\n  {\n    \"key\": \"075-rate-mercury_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-5e3a3472-c16b-451d-b8c0-b9ee559835bd.png\",\n    \"prompt\": \"Background-extraction edit target 075-rate-mercury N card. Isolate exact same flying silver-haired winged boy: blue eyes open smiling mouth, raised hand holding golden wand, other open hand, TWO full feathered wings, white gold blue tunic ribbons, bent legs and complete winged sandals. Preserve exact pose identity and game illustration. Remove sky temples columns cloud lightning trails sunlight environment and floor completely. Keep cloth ribbons, actual wings and wand. True transparent alpha exterior and all gaps between wings arms ribbons legs, no colored fringe matte or white background remnants. Full body centered generous 15-20 percent margins no crop no text no redesign.\",\n    \"facing\": \"front\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\075-rate-mercury_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\075-rate-mercury\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full winged boy pose identity wand wings ribbons sandals preserved. Red/yellow residue and white patches around hair ribbons and between legs remain. Not approved.\",\n    \"gameMirrorX\": false\n  }\n]\nReuse pending118-generated.png. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original front pose, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と笑顔・銀髪・両翼・金の杖・白金の衣装と飾り布・両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

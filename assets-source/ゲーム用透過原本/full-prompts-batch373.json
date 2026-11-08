@@ -1,0 +1,31 @@
+[
+  {
+    "key": "059-numerator-rabbit_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\059-numerator-rabbit\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\059-numerator-rabbit_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\059-numerator-rabbit_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      259,
+      194,
+      821,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"059-numerator-rabbit_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/059-numerator-rabbit/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-d81462db-6377-49b9-a633-0f4926e9091d.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact same full standing white magician rabbit from supplied 059 N card. Preserve full ears, face blue eyes smile, purple gold star pointed hat with hanging gold star, blue gems, bow, complete robe cape, both hands and feet, complete held purple orb staff. Keep all clothing physical details and original frontal slight left pose and painted game illustration. Remove dark sky, floating numbers, all detached stars sparkles, orbit around staff orb, ground magic circles shadow. Genuine transparent alpha outside character and through gaps between legs robe staff. No environmental color residue. Center full body with empty margins no crop no redesign no new text.\",\n      \"review\": \"Full rabbit preserved; magenta residue in leg/cape gap and red/yellow around star/staff. Not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\059-numerator-rabbit_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"059-numerator-rabbit_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-4bea8ba5-a76a-4207-9593-87ee1fee2585.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\059-numerator-rabbit_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\059-numerator-rabbit\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit. Exact full white rabbit wizard from reference 059 N, preserve happy blue eyes face long ears, purple gold star hat and hanging gold charm, blue gem bow robe cape gold trims, both hands feet, complete staff purple orb and gold star finial. Remove sky starfield all floating numbers sparks and magic floor rings, orb surrounding unattached light ring. True transparent alpha all exterior and negative spaces between ears, staff, limbs and cape panels. No opaque colored matte, no white halos. Character unchanged left three-quarter pose game illustration. Full body and staff centered square with 20 percent transparent padding. No text no new objects no crop.\",\n    \"visualReview\": \"Rabbit face ears costume staff and full limbs retained. Red/yellow/white residual pixels between staff and whiskers and around cape, magenta fringe at ears/feet; insufficient top margin. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・長耳・紫金の帽子と星飾り・紫宝玉の杖・マントと両手足保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

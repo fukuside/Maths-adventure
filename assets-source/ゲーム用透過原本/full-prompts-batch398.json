@@ -1,0 +1,31 @@
+[
+  {
+    "key": "086-data-oracle_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\086-data-oracle\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\086-data-oracle_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\086-data-oracle_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      262,
+      194,
+      818,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"086-data-oracle_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-0f3e221b-1ed5-4576-88ef-30892b9c1149.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\086-data-oracle_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\086-data-oracle\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 086-data-oracle N reference. Extract same full silver-haired dark-skinned blue-eyed oracle girl, gold blue hair jewelry, purple white gold robe long sleeves, open hand, staff with full golden orbital ring and blue crystal, all hanging staff jewels, both legs boots and complete flowing hair. Preserve exact identity pose and paint style. Remove entire library columns stairs globe, all floating graph panels detached crystals light trails floor circles reflection and shadow. True transparent alpha exterior and every gap in staff ring hair arm body; no red yellow white matte remnants. Center full character with staff 15-20 percent clear margins no crop no text no redesign.\",\n    \"visualReview\": \"Full oracle identity retained. Red yellow residue in staff, white hair-gap patches and red hem fringe. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px、正面のため反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と銀髪・宝飾付き長杖・紫と金の衣装・両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

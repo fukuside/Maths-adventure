@@ -1,0 +1,31 @@
+[
+  {
+    "key": "057-third-bird_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\057-third-bird\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_N-pending-2.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\057-third-bird_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\057-third-bird_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      229,
+      886,
+      851
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "{\n  \"key\": \"057-third-bird_N\",\n  \"reference\": \"C:/Users/user/子育てプロジェクト/maths-adventure-v1.4/public/pictures/monsters/057-third-bird/n.webp\",\n  \"status\": \"pending-cleanup\",\n  \"facing\": \"left\",\n  \"attempts\": [\n    {\n      \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-423dec82-3c7d-4d9e-b60a-8c9f10b460cd.png\",\n      \"prompt\": \"Use case: background-extraction. Extract exact full blue cream gold bird from supplied 057 N card. Preserve whole crown crest face blue eyes gold beak, complete spread wings with every feather and jewel shoulder armor, necklace chest jewel, both gold legs and black talons, entire tail. Existing left three-quarter airborne pose and painted illustration unchanged. Remove starry sky, clouds, floor circle, all detached feathers floating crystals stars and ribbon swirls. Genuine transparent alpha everywhere outside physical bird, including gaps between legs wings feathers, no opaque blue residue or colored fringes. Full body centered generous empty margins no cropping no redesign no text.\",\n      \"review\": \"Full bird retained, opaque yellow/red patches at feet and right wing edge, detached blue flecks. Not accepted.\",\n      \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\057-third-bird_N-pending-1.png\",\n      \"nativeSize\": [\n        1254,\n        1254\n      ],\n      \"alphaExtrema\": [\n        0,\n        255\n      ]\n    }\n  ]\n}[\n  {\n    \"key\": \"057-third-bird_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-20e7bdce-b9ca-4d64-9521-7dba3e254813.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\057-third-bird_N-pending-2.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\057-third-bird\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"left\",\n    \"gameMirrorX\": true,\n    \"prompt\": \"Background-extraction edit of exact reference 057 N blue white gold bird. Keep complete single cute eagle/griffin bird: same blue eyes yellow beak white cheeks blue crest gold blue jeweled diadem, both complete spread wings with every feather, blue white tail, both golden talons, all chest shoulder jewel armor. Preserve current left-facing flying pose and painterly style. Remove entire navy sky stars clouds detached feathers crystals wind ribbons and ground magic ring. True transparent alpha around silhouette and between crest feathers wings talons and tail; no blue/red/yellow matte residual. Entire bird fully visible centered square with generous 20 percent transparent margin every side. No crop no text no redesign.\",\n    \"visualReview\": \"Full bird face crest wings armor talons tail preserved. Cyan/yellow/red residue in feather and talon gaps; right wing almost canvas boundary. Not approved.\"\n  }\n]\nReuse pending-2. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Left pose preserved and mirrored at draw time.\n",
+    "sourceFacing": "left",
+    "gameFacing": "right",
+    "gameMirrorX": true,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼・くちばし・冠羽と宝石・両翼と尾羽・両脚の爪・胸と肩の装具保持。環境除去。左向き原姿勢維持、ゲーム描画時左右反転。実機未確認。"
+  }
+]

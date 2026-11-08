@@ -1,0 +1,31 @@
+[
+  {
+    "key": "kg-006_UR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\packs\\kindergarten\\monsters\\kg-006\\ur.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-35231d21-fd68-4c6b-8123-ffb8c25d01be.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-006_UR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-006_UR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\kg-006_UR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      236,
+      886,
+      844
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of the supplied kg-006 UR card. Isolate the green dragon in its original slight right-facing pose, smile and blue eyes, both golden horns, all visible claws, both full rainbow wings, complete crystal armor and curved tail with rainbow crystal tip. Preserve exact full-body pose, identity, painted style, silhouette and equipment. Remove scenery, sky, architecture, waterfalls, trees, flowers, ground, all detached light effects and shadows. Genuine transparent RGBA exterior and in every opening between limbs, hair or fur and accessories. Keep all subject edges, 15–20% clear padding, centered on square. No text, crop, redesign or color fringe.\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。原本の右向きを維持、反転なし。",
+    "sourceFacing": "right",
+    "gameFacing": "right",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目・金の角・虹色の両翼・爪と結晶の鎧・尾の先端保持。環境除去。原本の右向きを維持、反転なし。実機未確認。"
+  }
+]

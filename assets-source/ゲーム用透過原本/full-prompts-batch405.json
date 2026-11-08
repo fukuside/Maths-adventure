@@ -1,0 +1,31 @@
+[
+  {
+    "key": "093-proportion-archer-princess_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\093-proportion-archer-princess\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\093-proportion-archer-princess_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\093-proportion-archer-princess_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      214,
+      194,
+      866,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"093-proportion-archer-princess_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-419bc555-3496-43b6-a752-65d089fd1576.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\093-proportion-archer-princess_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\093-proportion-archer-princess\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"right\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 093-proportion-archer-princess N. Extract exact full brown ponytail archer girl with brown eyes smiling face, cherry hair ornaments, pink white red gold kimono sleeves skirt ribbons, both hands drawing entire gold brown bow and held pink arrow, back quiver arrows, both legs boots. Preserve original right-facing pose identity illustration style. Remove scenery trees buildings bridge lanterns sky ground shadow all detached petals and pink magic swirls. True transparent alpha exterior and open gaps between hair bow string arms ribbon legs, no white red pink matte remnants. Full character bow arrow centered 15-20 percent clear margin no crop no text no redesign.\",\n    \"visualReview\": \"Full archer face hair bow arrow quiver limbs retained. Red opaque residue in hair/bow gaps and white fringe around arrow. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。右向き原姿勢維持、左右反転なし。",
+    "sourceFacing": "right",
+    "gameFacing": "right",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・笑顔・桜の髪飾り・弓と弦・矢と矢筒・衣装と両手足保持。環境除去。右向き原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

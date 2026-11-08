@@ -1,0 +1,31 @@
+[
+  {
+    "key": "084-angle-archangel_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\084-angle-archangel\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\084-angle-archangel_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\084-angle-archangel_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      205,
+      194,
+      875,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"084-angle-archangel_N\",\n    \"source\": \"C:/Users/user/.codex/generated_images/01a12e0b-5276-7060-9999-a044ffd69a64/exec-e4fbe7e8-dbe1-41a8-826e-afef1d378a5b.png\",\n    \"prompt\": \"Background-extraction edit 084-angle-archangel N reference. Extract exact same full silver-haired blue-eyed angel boy, white gold blue armor, two complete feather wings and gold wing bases, entire sword held upright in left side of image, open other hand, flowing blue white gold coat ribbons charms, both legs boots. Same face pose style. Remove temple castle pillars sky clouds distant crystals feathers light swirls floor reflections shadows. True transparent alpha outside silhouette and every opening between sword wing body ribbons legs, no red yellow blue matte residue or white patches. Full centered body wings sword with 15-20 percent clear margins no crop no text no redesign.\",\n    \"facing\": \"front\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\084-angle-archangel_N-pending-1.png\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\084-angle-archangel\\\\n.webp\",\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"visualReview\": \"Full angel sword wings armor limbs retained. White/red/yellow residue in wing/arm and ribbon openings and colored edges remain. Not approved.\",\n    \"gameMirrorX\": false\n  }\n]\nReuse pending-1. Alpha threshold 64, components >=60, inward trim 1.1px, nearest interior edge RGB, centered 64% of 1080 square. Original front pose, no mirror.\n",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青眼と銀髪・白い両翼・剣全体・白金の鎧と飾り布・両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

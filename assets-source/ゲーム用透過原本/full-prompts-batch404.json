@@ -1,0 +1,31 @@
+[
+  {
+    "key": "092-equation-samurai_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\092-equation-samurai\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\092-equation-samurai_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\092-equation-samurai_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      253,
+      194,
+      826,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"092-equation-samurai_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-ec08d55f-c22b-4884-a059-69368904e0ea.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\092-equation-samurai_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\092-equation-samurai\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 092-equation-samurai N reference. Extract same full cute black-haired blue-eyed samurai boy smiling, ponytail blue ribbon trailing ends, white blue gold patterned coat sleeves, blue trousers gold belt, one open hand and other holding entire katana, both bent legs boots. Preserve actual identity pose and painted style. Remove ALL water swirls splashes droplets temple mountains bridges cherry petals sky ground reflection shadow. True transparent alpha around silhouette and openings in hair ribbons arms legs sword, clean no white cyan red yellow matte. Full centered character and katana with 15-20 percent clear margins no crop no text no redesign.\",\n    \"visualReview\": \"Full samurai face hair katana limbs retained. Blue opaque residue in ribbon/hair gaps and red around hand/blade hilt. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。正面原姿勢維持、左右反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目と笑顔・青いリボン・刀身と柄・白青の衣装と両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

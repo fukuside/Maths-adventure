@@ -1,0 +1,31 @@
+[
+  {
+    "key": "094-data-strategist_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\094-data-strategist\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\094-data-strategist_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\094-data-strategist_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      252,
+      194,
+      827,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"094-data-strategist_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-8ba21c0d-6f06-4079-ba0d-611e69f1b76d.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\094-data-strategist_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\094-data-strategist\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 094-data-strategist N reference. Extract exact same full black-haired purple-eyed scholar boy, purple gold cap with entire tassel, white purple gold robe sleeves trailing ribbons, book held to chest, pointing other hand, both legs boots. Keep hovering parchment pie-chart beside pointing finger as equipment. Preserve identity pose style. Remove library columns shelves globes lamps ambient sparkles purple trails floor magic circle reflections shadow. True transparent alpha exterior and gaps among tassel arms parchment ribbons legs, no red yellow white matte. Full character book parchment centered 15-20 percent clear margin no crop no text additions no redesign.\",\n    \"visualReview\": \"Full scholar cap tassel book chart clothes limbs retained. Red/yellow edge remnants near hair/chart and costume. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。正面原姿勢維持、左右反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・紫の目と笑顔・帽子の房・本と円グラフの羊皮紙・衣装と両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]

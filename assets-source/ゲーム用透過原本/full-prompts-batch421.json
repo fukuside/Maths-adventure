@@ -1,0 +1,31 @@
+[
+  {
+    "key": "kg-006_SR",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\packs\\kindergarten\\monsters\\kg-006\\sr.webp",
+    "generatedOriginal": "C:\\Users\\user\\.codex\\generated_images\\01a12e0b-5276-7060-9999-a044ffd69a64\\exec-e565fdb6-2603-4c34-b502-575dc16c2292.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-006_SR-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\kg-006_SR-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\kg-006_SR.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      194,
+      210,
+      886,
+      869
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "Background-extraction edit of supplied kg-006 SR card. Isolate the exact green dragon, slight right-facing pose, face, two gold horns, all visible feet and claws, both rainbow wings, simple gold breastplate with purple jewel and entire tail with rainbow tuft. Preserve SR rarity, original pose, face, colors, equipment and painted style. Remove all scenery, sky, ground, shadow, loose flowers, butterflies, detached lights and background rainbow. Transparent RGBA exterior and open gaps, no matte. Full figure centered on square with 15–20% padding, no crop, text, redesign or additions.\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。原本の右向きを維持、反転なし。",
+    "sourceFacing": "right",
+    "gameFacing": "right",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目と角・虹色の両翼・金の胸当て・爪と尾の先端保持。環境除去。原本の右向きを維持、反転なし。実機未確認。"
+  }
+]

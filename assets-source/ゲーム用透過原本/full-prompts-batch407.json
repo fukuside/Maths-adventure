@@ -1,0 +1,31 @@
+[
+  {
+    "key": "095-plane-geometry-lancer_N",
+    "reference": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\pictures\\monsters\\095-plane-geometry-lancer\\n.webp",
+    "generatedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_N-pending-1.png",
+    "storedOriginal": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_N-generated.png",
+    "png": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\assets-source\\ゲーム用透過原本\\095-plane-geometry-lancer_N-1080.png",
+    "webp": "C:\\Users\\user\\子育てプロジェクト\\maths-adventure-v1.4\\public\\reward-games\\sprites\\095-plane-geometry-lancer_N.webp",
+    "size": [
+      1080,
+      1080
+    ],
+    "alphaExtrema": [
+      0,
+      255
+    ],
+    "alphaBounds": [
+      200,
+      194,
+      879,
+      886
+    ],
+    "tool": "built-in imagegen + user-approved Python alpha/edge correction",
+    "prompt": "[\n  {\n    \"key\": \"095-plane-geometry-lancer_N\",\n    \"source\": \"C:\\\\Users\\\\user\\\\.codex\\\\generated_images\\\\01a12e0b-5276-7060-9999-a044ffd69a64\\\\exec-40e6ed61-f919-4475-b6ca-5461f1769386.png\",\n    \"storedOriginal\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\assets-source\\\\ゲーム用透過原本\\\\095-plane-geometry-lancer_N-pending-1.png\",\n    \"reference\": \"C:\\\\Users\\\\user\\\\子育てプロジェクト\\\\maths-adventure-v1.4\\\\public\\\\pictures\\\\monsters\\\\095-plane-geometry-lancer\\\\n.webp\",\n    \"nativeSize\": [\n      1254,\n      1254\n    ],\n    \"alphaExtrema\": [\n      0,\n      255\n    ],\n    \"tool\": \"built-in imagegen\",\n    \"status\": \"pending\",\n    \"facing\": \"front\",\n    \"gameMirrorX\": false,\n    \"prompt\": \"Background-extraction edit 095-plane-geometry-lancer N. Isolate same full black ponytail blue-eyed lancer girl, blue white gold armor dress sleeves skirt ribbons, flower and blue hair bow, both gloved hands, both legs armored boots, entire diagonally held spear with BOTH upper blade and lower point. Keep exact pose face identity game paint style. Remove ALL castle terrace columns banners flowers mountains waterfalls sky floor reflection shadow. Real transparent alpha exterior and every gap between hair ribbons arms spear legs, no white red yellow blue matte. Full centered character and spear generous15-20 percent clear margin no crop no text no redesign.\",\n    \"visualReview\": \"Full lancer hair face spear both tips limbs retained. Red/yellow axehead residue, blue patches in ribbon/hair gaps and white edges. Not approved.\"\n  }\n]\n補正条件: alpha >=64、60px未満の連結成分除去、輪郭1.1px内側、境界RGBは最寄りの内側色、1080px中央に最大692px。正面原姿勢維持、左右反転なし。",
+    "sourceFacing": "front",
+    "gameFacing": "front",
+    "gameMirrorX": false,
+    "postProcess": "same as batch168: alpha>=64; components>=60px; inward trim1.1px; nearest interior edge RGB; centered64%",
+    "visualReview": "白・濃色・ピンク背景と1080原寸で確認。顔・全身・青い目・花飾りとリボン・槍の両端と柄・青白の装甲と両手足保持。環境除去。正面原姿勢維持、左右反転なし。実機未確認。"
+  }
+]
