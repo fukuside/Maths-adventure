@@ -1,0 +1,809 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#15162d">
+<title>ひみつの数字対決</title>
+<style>
+*{box-sizing:border-box} [hidden]{display:none!important}
+body{margin:0;background:radial-gradient(ellipse at 50% 0,#322955,#15162d 46%,#101221);color:#faf8ff;font:16px system-ui,sans-serif;min-height:100svh}
+main{width:min(720px,100% - 24px);margin:auto;padding:22px 0} h1,h2,p{margin:0} h1{font-size:clamp(23px,5vw,36px);line-height:1.15}
+header{display:flex;align-items:center;gap:12px;margin-bottom:17px}.eyebrow{color:#ffd67a;font-size:12px;font-weight:800;letter-spacing:.13em}
+.badge{font-weight:900;color:#302008;background:linear-gradient(#ffefa8,#ffba51);padding:6px 10px;border-radius:10px;box-shadow:0 0 18px #eec97044}
+.panel{padding:14px;border-radius:16px;border:1px solid #8270bb70;background:#1b1c36}
+h2{font-size:17px}.muted{color:#cfcae5}.hint{margin:6px 0 12px;font-size:14px}
+.roster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-bottom:15px}
+button,input{font:inherit;min-height:44px;border-radius:11px}button{font-weight:800;cursor:pointer;border:1px solid #9483cc;color:#fff;background:#3d315f;padding:7px 10px}
+button:hover:not(:disabled),button:focus-visible{filter:brightness(1.2)}button:disabled{opacity:.55;cursor:default}
+.roster button{padding:4px 2px 8px;line-height:1.25;font-size:clamp(11px,2.6vw,15px);background:#292744;overflow-wrap:anywhere}
+.roster button[aria-pressed=true]{border-color:#ffce70;background:#503b66;box-shadow:inset 0 0 0 1px #ffce70}
+.roster img{display:block;width:100%;height:clamp(85px,23vw,150px);object-fit:contain}
+.primary{color:#241633;background:#ffd67a;border-color:#ffe8a6}.entry{display:grid;gap:9px}.join{display:flex;gap:8px}input{flex:1;min-width:0;background:#13152a;color:white;border:1px solid #9483cc;padding:8px 12px;text-transform:uppercase}
+.modes{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:14px}.modes button[aria-pressed=true]{border-color:#ffd67a;background:#503b66}
+.toolbar{display:flex;align-items:center;justify-content:space-between;gap:6px;flex-wrap:wrap}.toolbar strong{letter-spacing:.11em;color:#ffdf8f}.toolbar button{font-size:13px}
+.stage{position:relative;display:grid;grid-template-columns:1fr 1fr;isolation:isolate;overflow:hidden;border-radius:14px;margin-top:8px;background:radial-gradient(ellipse at 50% 82%,#7356a8,#353262 50%,#24243e 75%);border:1px solid #9782ce60}
+.stage::after{content:"";position:absolute;z-index:-1;inset:69% -15% -35%;background:repeating-linear-gradient(90deg,#bdaaef2a 0 1px,transparent 1px 10%),repeating-linear-gradient(0deg,#bdaaef2a 0 1px,transparent 1px 20%);transform:perspective(180px) rotateX(48deg)}
+.fighter{min-width:0;text-align:center;padding:8px 4px 0}.fighter img{display:block;width:100%;height:clamp(105px,33vw,240px);object-fit:contain;filter:drop-shadow(0 9px 5px #10102399)}
+.fighter p{font-size:clamp(11px,2.8vw,16px);font-weight:800;overflow-wrap:anywhere}.fighter small{display:block;font-size:12px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}}
+.actions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px;margin-top:8px}.actions small{display:block;font-size:11px;font-weight:500}.message{min-height:2.5em;font-size:14px;margin-top:8px}.error{min-height:1.5em;color:#ffbcb4;font-size:13px;margin-top:5px}
+</style>
+<style>
+.secret{display:grid;gap:5px;margin:0 0 13px}.number-row{display:flex;gap:7px}.number-row input{letter-spacing:.23em;font-size:18px}
+.rules{margin-top:13px;color:#cfcae5;font-size:14px}.rules summary{cursor:pointer;font-weight:800;color:#ffdf8f}.rules p{margin-top:5px}
+.guess{display:grid;gap:5px;margin-top:10px}.history{width:100%;border-collapse:collapse;margin-top:12px;font-size:13px;text-align:center}.history th,.history td{padding:6px 3px;border-bottom:1px solid #8270bb50}.history th{color:#ffdf8f}.history b{letter-spacing:.08em}.history small{display:block;color:#ddd4f4}
+@media(max-width:470px){.fighter img{height:clamp(75px,24vw,120px)}}
+.fighter{position:relative;--forward:1;--back:-1}#rival{--forward:-1;--back:1}
+.fighter.is-striking{z-index:2}.is-striking img{animation:lunge .64s ease-out}
+.takes-hit img{animation:recoil .39s .19s ease-out}
+.takes-block:not(.takes-hit) img{animation:graze .35s .19s ease-out}
+.impact{position:absolute;pointer-events:none;inset:26% 5% 7%;display:grid;place-items:center;z-index:3}
+.impact::before,.impact::after{content:"";position:absolute;opacity:0}
+.takes-guard .impact::before{width:70%;height:95%;border:3px solid #9afaff;border-radius:48% 48% 45% 45%;background:#59deff25;box-shadow:inset 0 0 20px #78efff9e,0 0 22px #8ee8ffc0;animation:shield .56s .08s ease-out}
+.takes-hit .impact::before{width:85%;height:12%;background:#fff6fa;border-radius:90% 5%;box-shadow:0 0 9px 3px #ffedbc,0 0 24px 8px #ff476f;transform:rotate(-35deg);animation:slash .42s .15s ease-out}
+.takes-block .impact::after{width:52%;height:64%;background:conic-gradient(from 15deg,transparent 0 12%,#ffdb84 12% 16%,transparent 16% 39%,#fff1ae 39% 43%,transparent 43% 65%,#ffdb84 65% 70%,transparent 70%);animation:sparks .44s .16s ease-out}
+.impact b{align-self:end;z-index:1;padding:3px 6px;background:#1a142c;border:1px solid currentColor;border-radius:7px;color:#ffdc8d;font-size:clamp(11px,2.8vw,19px);text-align:center;text-shadow:0 2px #171427}
+.takes-hit .impact b{color:#ffd5e0}.takes-guard .impact b{color:#a8f7ff}
+@keyframes lunge{33%{translate:calc(var(--forward)*28%) -5%;scale:1.09}70%{translate:calc(var(--forward)*4%) 0}}
+@keyframes recoil{28%{translate:calc(var(--back)*13%) -4%;filter:brightness(1.75)}65%{translate:calc(var(--back)*4%) 1%}}
+@keyframes graze{38%{translate:calc(var(--back)*5%) 0;filter:brightness(1.25)}}
+@keyframes shield{20%,55%{opacity:1;scale:1}0%{scale:.72}100%{scale:1.08}}
+@keyframes slash{0%{scale:.2 1}22%{opacity:1;scale:1 1}90%{scale:1 .3}}
+@keyframes sparks{24%{opacity:1;scale:.55}78%{opacity:.62;scale:1.35}}
+@media(prefers-reduced-motion:reduce){.fighter img,.impact::before,.impact::after{animation:none!important}.impact::before,.impact::after{opacity:.75}}
+.skill-picker{min-width:0;margin:3px 0;border:1px solid #8d79b9;border-radius:10px;padding:6px 8px}.skill-picker select{display:block;width:100%;min-height:42px;background:#292744;color:#fff;border:1px solid #a18cca;border-radius:8px;font:inherit}.skill-picker small{display:block;margin-top:5px}.skill-change{display:flex;gap:8px;align-items:center;margin-top:5px}
+.cutin,.verdict{position:absolute;z-index:5;pointer-events:none;inset:0;display:grid;place-content:center;text-align:center}
+.cutin{overflow:hidden;background:linear-gradient(115deg,#2e1e62f0,#5a2a7bee 50%,#c17c1de8);border-block:2px solid #ffe2a1;animation:cutin .76s ease-out}
+.cutin img{position:absolute;inset:-23% auto -23% -4%;width:58%;height:146%;object-fit:contain;filter:drop-shadow(0 0 12px #ffcc86)}
+.cutin.is-rival img{left:auto;right:-4%}.cutin div{position:relative;z-index:1;padding:5px 10px;background:#1a122ee8;border-radius:10px}.cutin small{color:#ffe39c;font-weight:900;letter-spacing:.12em}.cutin strong{display:block;font-size:clamp(19px,5vw,36px)}
+.cutin p{font-size:clamp(12px,3vw,16px);max-width:20em;margin:3px auto 0}
+.audio-controls{display:flex;gap:6px;margin:0 0 10px;justify-content:flex-end}.audio-controls button{min-height:40px;font-size:13px}.audio-controls button[aria-pressed=true]{background:#173e36;border-color:#9ae9bb;color:#c0ffd6}.audio-controls button[aria-pressed=false]{background:#33243d;border-color:#c8a4c2;color:#f2d9ec}
+.secret-board{display:inline-grid;gap:2px;justify-items:center;margin-top:4px}.secret-board strong{border:1px solid #a2eccd;padding:1px 8px;border-radius:8px;background:#143e3b;color:#bcffe1;letter-spacing:.2em;font-variant-numeric:tabular-nums}.secret-board strong.is-hidden{border-color:#d5a1ff;background:#38285f;color:#f3d1ff}.secret-board .opened{color:#ffdf93;font-weight:800}
+.skill-results{display:grid;gap:5px;margin-top:9px}.skill-results p{padding:6px 8px;background:#332654;border-left:3px solid #e3b5ff;border-radius:5px;font-size:13px}
+.stage{grid-template-columns:minmax(0,1fr) minmax(86px,28%) minmax(0,1fr);align-items:center}
+.stage .guess{grid-column:2;grid-row:1;z-index:1;margin:0;padding:4px;text-align:center;font-size:13px}.stage .guess label{font-weight:800}.stage .number-row{display:grid}.stage input{width:100%;text-align:center;padding:5px}.stage button{padding-inline:3px;font-size:13px}
+#rival{grid-column:3;grid-row:1}.fighter{align-self:stretch}.fighter img{height:clamp(85px,25vw,175px)}
+.history-wrap{margin-top:8px;font-size:13px}.history-wrap summary{cursor:pointer;color:#ffdf8f;font-weight:800}.history-scroll{max-height:145px;overflow:auto}.history{margin-top:2px}
+main:has(#battle:not([hidden])){padding-top:8px}main:has(#battle:not([hidden])) header{margin-bottom:4px}main:has(#battle:not([hidden])) .rules{display:none}
+.message{min-height:0;margin:5px 0}.audio-controls{flex-wrap:wrap}
+.audio-notice{margin:-5px 0 8px;text-align:right;font-size:12px;color:#ffda9b}.hero-skills{padding:7px 9px;margin:-5px 0 12px;background:#28233f;border-radius:10px;font-size:13px}.hero-skills ul{margin:4px 0;padding-left:19px}.fighter-skills{color:#ffe0a1;margin-top:3px;font-size:11px}
+.finisher{position:fixed;inset:0;z-index:20;isolation:isolate;display:grid;place-items:center;pointer-events:none;overflow:hidden;background:radial-gradient(ellipse at center,#a54466,#241333 63%,#0e0916);color:#fff;text-align:center}
+.finisher img{position:absolute;width:min(88vw,660px);height:82%;object-fit:contain;filter:drop-shadow(0 0 24px #ffba73);animation:finish-hero 1.25s ease-out both}
+.finisher div{z-index:2;align-self:end;margin-bottom:clamp(24px,10vh,85px);background:#160c24e8;border:2px solid #ffcc84;padding:9px 20px;border-radius:12px}.finisher strong{display:block;font-size:clamp(25px,8vw,66px)}.finisher small{color:#ffe096;font-weight:900}
+.finisher::after{content:"";position:absolute;width:120%;height:12%;border-radius:75% 4%;background:#fff4de;box-shadow:0 0 32px 13px #ff4778;transform:rotate(-30deg);animation:final-slash 1.25s ease-out both}
+@keyframes finish-hero{0%{scale:.72;opacity:0}26%,66%{scale:1;opacity:1}100%{scale:1.22;opacity:.75}}
+@keyframes final-slash{0%,55%{opacity:0;scale:.05 1}68%{opacity:1;scale:1 1}94%,100%{opacity:0;scale:1 .12}}
+@media(prefers-reduced-motion:reduce){.finisher img,.finisher::after{animation:none}.finisher::after{opacity:.25}}
+.verdict{align-content:center}.verdict strong{background:#171225e8;padding:3px 15px;border:2px solid currentColor;border-radius:12px;color:#ffe188;font-size:clamp(28px,9vw,62px);letter-spacing:.07em;box-shadow:0 0 24px #100b22}.verdict.is-loss strong{color:#ffd1df}
+.fighter.is-defeated img{opacity:.24;transform:translateY(18%) rotate(-12deg) scale(.7);animation:fall .64s ease-in}
+.fighter.is-victorious img{animation:cheer .72s ease-in-out 2}
+.fighter.is-defeated::after{content:"";position:absolute;z-index:3;inset:24% 9% 3%;background:radial-gradient(circle,#fff 0 5%,#fff3a2 9%,#ff9c32 24%,#f94870aa 39%,transparent 65%),repeating-conic-gradient(from 8deg,transparent 0 13deg,#ffdc8088 14deg 17deg,transparent 18deg 34deg);border-radius:50%;opacity:0;animation:burst .65s ease-out}
+@keyframes cutin{0%{translate:-110% 0}22%,80%{translate:0 0}100%{opacity:.75}}
+@keyframes fall{0%,28%{opacity:1;transform:none}}
+@keyframes cheer{42%{translate:0 -19%;scale:1.08}}
+@keyframes burst{5%{opacity:1;scale:.25}46%{opacity:1;scale:1.15}100%{scale:1.5}}
+@media(prefers-reduced-motion:reduce){.cutin,.fighter.is-defeated::after,.fighter.is-victorious img,.fighter.is-defeated img{animation:none!important}}
+</style>
+</head>
+<body>
+<main>
+<header><span class="badge">UR</span><div><p class="eyebrow">モンスター闘技場 / 対戦試作</p><h1>ひみつの数字対決</h1></div></header>
+<div class="audio-controls" role="group" aria-label="音の設定"><button id="bgm-toggle" type="button" aria-pressed="true">BGM オン</button><button id="sfx-toggle" type="button" aria-pressed="true">効果音 オン</button></div>
+<p id="audio-notice" class="audio-notice" role="status" hidden></p>
+<audio id="battle-bgm" src="./maths-adventure-bgm-loop.mp3" preload="none" loop></audio>
+<section id="lobby" class="panel">
+<h2>対戦方法をえらぼう</h2>
+<div class="modes" role="group" aria-label="対戦方法">
+<button id="mode-cpu" type="button" aria-pressed="true">CPUと対戦</button>
+<button id="mode-friend" type="button" aria-pressed="false">友だち部屋</button>
+</div>
+<h2>桁数をえらぼう</h2>
+<div class="modes" role="group" aria-label="暗号の桁数">
+<button id="digits-3" type="button" aria-pressed="true">3桁勝負</button>
+<button id="digits-4" type="button" aria-pressed="false">4桁勝負</button>
+</div>
+<h2>URモンスターをえらぼう</h2>
+<div id="roster" class="roster" aria-label="モンスター選択"></div>
+<div id="hero-skills" class="hero-skills" aria-live="polite"></div>
+<div class="secret">
+<label for="secret">自分のひみつの数</label>
+<div class="number-row"><input id="secret" type="text" inputmode="numeric" autocomplete="off" maxlength="3" placeholder="例 123" aria-describedby="secret-hint"><button id="random" type="button">おまかせ</button></div>
+<small id="secret-hint" class="muted">0〜9から違う数字を3つ。047のように、先頭にも0を使えるよ。</small>
+</div>
+<button type="button" id="cpu-start" class="primary" disabled>CPU対戦をはじめる</button>
+<div class="entry" id="friend-entry" hidden>
+<button type="button" id="create" class="primary" disabled>対戦部屋をつくる</button>
+<form id="join" class="join"><input id="code" aria-label="友だちの合言葉" placeholder="友だちの合言葉" maxlength="8" autocomplete="off" required><button id="join-button" disabled>部屋に入る</button></form>
+</div>
+</section>
+<section id="battle" class="panel" hidden>
+<div class="toolbar"><div id="cpu-title" hidden>CPU対戦</div><div id="room-label">合言葉 <strong id="room-code"></strong></div><strong id="battle-digits"></strong><button id="leave" type="button">もどる</button></div>
+<div class="stage"><article class="fighter" id="you"></article>
+<form id="guess-form" class="guess" hidden>
+<label for="guess" id="guess-label">相手の数字</label>
+<div class="number-row"><input id="guess" type="text" inputmode="numeric" autocomplete="off" maxlength="3" placeholder="例 153"><button id="guess-send" class="primary">攻撃する</button></div>
+</form>
+<article class="fighter" id="rival"></article>
+<div class="cutin" id="cutin" hidden aria-hidden="true"><img alt=""><div><small>スキル発動！</small><strong></strong><p></p></div></div>
+<div class="verdict" id="verdict" hidden aria-hidden="true"><strong></strong></div>
+</div>
+<div class="finisher" id="finisher" hidden aria-hidden="true"><img alt=""><div><small>3ヒット！</small><strong>これで終わりだ！</strong></div></div>
+<p id="status" class="message" aria-live="polite"></p>
+<fieldset id="skill-picker" class="skill-picker" hidden>
+<legend>URスキル（1試合に1つ）</legend>
+<select id="skill" aria-label="今回使うスキル"><option value="">使わない</option><option value="change">数字チェンジ</option><option value="reveal">数字オープン</option><option value="hide">ブロックかくし</option><option value="check">数字チェック</option><option value="swap">ならび替え</option><option value="mark">ヒットの目印</option></select>
+<small id="skill-hint" class="muted"></small>
+<label class="skill-change" id="skill-change" hidden>変更後の数 <input id="new-secret" type="text" inputmode="numeric" autocomplete="off" maxlength="3" form="guess-form"></label>
+<label class="skill-change" id="skill-check" hidden>調べる数字 <input id="check-digit" type="text" inputmode="numeric" autocomplete="off" maxlength="1" form="guess-form"></label>
+</fieldset>
+<div class="skill-results" id="skill-results" aria-live="polite" hidden></div>
+<details class="history-wrap" id="history" hidden><summary>これまでのヒント</summary><div class="history-scroll"><table class="history">
+<thead><tr><th scope="col">回</th><th scope="col">あなたの予想</th><th scope="col">相手の予想</th></tr></thead>
+<tbody id="turns"></tbody>
+</table></div></details>
+</section>
+<details class="rules" open><summary>ヒット・ブロックって？</summary><p>数字も場所も同じなら「ヒット」。数字は同じで場所が違えば「ブロック」。</p><p>たとえば、ひみつが <strong>123</strong> で予想が <strong>135</strong> なら、1は同じ場所、3は違う場所なので <strong>1ヒット・1ブロック</strong>。</p><p>先に全部の桁を当てたら勝ち。同じ回で当てたり、12回でどちらも当たらなかったりしたら引き分け。</p></details>
+<p id="error" class="error" role="alert"></p>
+</main>
+<script type="module">
+const $ = id => document.getElementById(id);
+let roster, chosen, room, token, timer, sending = false;
+let mode = 'cpu', digits = 3;
+let actionTimer, animatedTurn = 0, animating = false;
+const validNumber = (value, length) => value.length === length && /^[0-9]+$/.test(value) && new Set(value).size === length;
+const skillLabels = { change: '数字チェンジ', reveal: '数字オープン', hide: 'ブロックかくし', check: '数字チェック', swap: 'ならび替え', mark: 'ヒットの目印' };
+const skillHints = {
+  change: '今回、自分のひみつの数を1か所だけ変更。相手には変えた場所も数字も知らせません。',
+  reveal: '直前にブロックが見えたとき、相手の数に含まれる数字を1つだけ確認。場所はひみつ。',
+  hide: '次の回、相手の予想に対するブロック数を隠します。',
+  check: '0〜9の数字を1つ選び、相手の暗号にあるか調べます。',
+  swap: '自分の暗号から数字を2つ選び、場所だけを入れ替えます。',
+  mark: '直前の予想でヒットした場所を1か所だけ確認します。',
+};
+
+function isSwap(secret, next) {
+  const changed = [...secret].map((digit, i) => digit === next[i] ? -1 : i).filter(i => i >= 0);
+  const [a, b] = changed;
+  return changed.length === 2 && secret[a] === next[b] && secret[b] === next[a];
+}
+const sound = { bgm: true, sfx: true };
+const soundKey = 'maths-adventure.arena-audio.v1';
+try {
+  const saved = JSON.parse(localStorage.getItem(soundKey));
+  for (const key of Object.keys(sound)) if (typeof saved?.[key] === 'boolean') sound[key] = saved[key];
+} catch {}
+let audio, audioOutput, musicPending = false, musicBlocked = false, enteringMatch = false;
+let fallbackBlocked = false, switchBlocked = false, lastAudioChange = '';
+const music = $('battle-bgm');
+music.volume = .18;
+const mediaEffects = new Audio();
+const switchPlayer = new Audio();
+const clips = new Map();
+const effects = {
+  attack: [[390, 0, .13, .074, 'triangle', 145]],
+  hit: [[650, .14, .15, .095, 'triangle', 110], [240, .17, .12, .045, 'sine', 85]],
+  finisher: [[330, 0, .32, .045, 'triangle', 640], [980, .7, .23, .13, 'sawtooth', 130], [125, .75, .26, .1, 'sine', 48]],
+  graze: [[840, .15, .065, .028, 'sine', 450]],
+  guard: [[780, .15, .16, .046, 'sine', 480], [1180, .16, .12, .018]],
+  skill: [[392, 0, .17, .033], [523, .09, .19, .032], [784, .18, .29, .035]],
+  win: [[392, 0, .24, .036], [494, .12, .25, .036], [587, .24, .31, .04]],
+  lose: [[220, 0, .31, .035, 'triangle', 82], [147, .18, .31, .024]],
+  on: [[550, 0, .12, .11], [880, .07, .15, .13]],
+  off: [[700, 0, .10, .10], [370, .06, .13, .12]],
+};
+
+function effectClip(names) {
+  const key = names.join(',');
+  if (clips.has(key)) return clips.get(key);
+  const notes = names.flatMap(name => effects[name]);
+  const rate = 22050;
+  const count = Math.ceil(Math.max(...notes.map(([, delay, duration]) => delay + duration)) * rate);
+  const bytes = new ArrayBuffer(44 + count * 2), data = new DataView(bytes);
+  for (const [offset, tag] of [[0, 'RIFF'], [8, 'WAVE'], [12, 'fmt '], [36, 'data']]) {
+    [...tag].forEach((letter, i) => data.setUint8(offset + i, letter.charCodeAt(0)));
+  }
+  for (const [offset, value] of [[4, 36 + count * 2], [16, 16], [24, rate], [28, rate * 2], [40, count * 2]]) {
+    data.setUint32(offset, value, true);
+  }
+  for (const [offset, value] of [[20, 1], [22, 1], [32, 2], [34, 16]]) data.setUint16(offset, value, true);
+  for (let i = 0; i < count; i++) {
+    let sample = 0;
+    for (const [frequency, delay, duration, volume, type = 'sine', end = frequency] of notes) {
+      const t = i / rate - delay;
+      if (t < 0 || t >= duration) continue;
+      const cycle = frequency * t + (end - frequency) * t * t / (2 * duration);
+      const sine = Math.sin(2 * Math.PI * cycle);
+      const wave = type === 'triangle' ? Math.asin(sine) * 2 / Math.PI
+        : type === 'sawtooth' ? 2 * (cycle % 1) - 1 : sine;
+      const envelope = Math.min(t / .012, 1) * (1 - t / duration) ** 2;
+      sample += wave * envelope * volume * 2;
+    }
+    data.setInt16(44 + i * 2, Math.round(Math.max(-1, Math.min(1, sample)) * 32767), true);
+  }
+  const url = URL.createObjectURL(new Blob([bytes], { type: 'audio/wav' }));
+  clips.set(key, url);
+  return url;
+}
+
+async function playMediaCue(player, names) {
+  player.src = effectClip(names);
+  try {
+    await player.play();
+    return true;
+  } catch (error) {
+    return error.name === 'AbortError';
+  }
+}
+
+async function unlockAudio() {
+  musicBlocked = false;
+  fallbackBlocked = false;
+  syncMusic();
+  if (!sound.sfx) return;
+  try {
+    const Context = window.AudioContext || window.webkitAudioContext;
+    if (!audio && Context) {
+      audio = new Context();
+      audioOutput = audio.createGain();
+      audioOutput.gain.value = 1.6;
+      audioOutput.connect(audio.destination);
+      audio.addEventListener('statechange', updateAudioNotice);
+    }
+    if (audio && audio.state !== 'running') {
+      await Promise.race([audio.resume(), new Promise(resolve => setTimeout(resolve, 1000))]);
+    }
+  } catch {}
+  updateAudioNotice();
+}
+
+function tone([frequency, delay, duration, volume, type = 'sine', end = frequency], output = audioOutput) {
+  const oscillator = audio.createOscillator(), envelope = audio.createGain();
+  const at = audio.currentTime + delay;
+  oscillator.type = type;
+  oscillator.frequency.setValueAtTime(frequency, at);
+  oscillator.frequency.exponentialRampToValueAtTime(end, at + duration);
+  envelope.gain.setValueAtTime(.0001, at);
+  envelope.gain.exponentialRampToValueAtTime(volume, at + .02);
+  envelope.gain.exponentialRampToValueAtTime(.0001, at + duration);
+  oscillator.connect(envelope);
+  envelope.connect(output);
+  oscillator.start(at);
+  oscillator.stop(at + duration);
+}
+
+function playSound(...names) {
+  if (!sound.sfx) return;
+  if (audio?.state === 'running') {
+    for (const name of names) for (const note of effects[name]) tone(note);
+  } else {
+    playMediaCue(mediaEffects, names).then(played => {
+      fallbackBlocked = !played;
+      updateAudioNotice();
+    });
+  }
+}
+
+function syncMusic() {
+  const playing = sound.bgm && !document.hidden &&
+    (enteringMatch || (room && room.result === null && room.players.length === 2));
+  if (!playing) {
+    music.pause();
+    updateAudioNotice();
+    return;
+  }
+  if (music.paused && !musicPending && !musicBlocked) {
+    musicPending = true;
+    music.play().catch(error => {
+      if (error.name !== 'AbortError') musicBlocked = true;
+    }).finally(() => {
+      musicPending = false;
+      updateAudioNotice();
+    });
+  }
+}
+
+function updateAudioNotice() {
+  const blocked = [];
+  if (sound.bgm && musicBlocked) blocked.push('BGM');
+  if (sound.sfx && fallbackBlocked && audio?.state !== 'running') blocked.push('効果音');
+  if (switchBlocked) blocked.push('切り替え音');
+  const notice = $('audio-notice');
+  const message = [lastAudioChange, !music.paused && sound.bgm ? 'BGM再生中' : '',
+    blocked.length ? blocked.join('・') + 'を再生できません。別タブで試すか、端末の消音設定を確認してください。' : '']
+    .filter(Boolean).join(' ／ ');
+  notice.hidden = !message;
+  if (notice.textContent !== message) notice.textContent = message;
+}
+
+for (const [key, label] of [['bgm', 'BGM'], ['sfx', '効果音']]) {
+  const button = $(key + '-toggle');
+  const paint = () => {
+    button.setAttribute('aria-pressed', String(sound[key]));
+    button.textContent = label + (sound[key] ? '：● オン' : '：○ オフ');
+  };
+  button.onclick = () => {
+    sound[key] = !sound[key];
+    lastAudioChange = label + (sound[key] ? 'をオンにしました' : 'をオフにしました');
+    switchBlocked = false;
+    const cue = sound[key] ? 'on' : 'off';
+    playMediaCue(switchPlayer, [cue]).then(played => {
+      if (!played && audio?.state === 'running') {
+        for (const note of effects[cue]) tone(note, audio.destination);
+      } else {
+        switchBlocked = !played;
+      }
+      updateAudioNotice();
+    });
+    if (key === 'sfx') {
+      if (!sound.sfx) mediaEffects.pause();
+      if (audioOutput) audioOutput.gain.value = sound.sfx ? 1.6 : 0;
+    }
+    try { localStorage.setItem(soundKey, JSON.stringify(sound)); } catch {}
+    unlockAudio();
+    syncMusic();
+    paint();
+    updateAudioNotice();
+  };
+  paint();
+}
+document.addEventListener('visibilitychange', syncMusic);
+for (const event of ['playing', 'pause', 'ended']) music.addEventListener(event, updateAudioNotice);
+
+async function api(path, body) {
+  const headers = token ? { Authorization: 'Bearer ' + token } : {};
+  const options = body ? { method: 'POST', headers: {...headers,'Content-Type':'application/json'}, body: JSON.stringify(body) } : { headers };
+  const response = await fetch('./api/' + path, options);
+  const result = await response.json();
+  if (!response.ok) throw new Error(result.error);
+  return result;
+}
+
+function selectHero(key) {
+  chosen = key;
+  for (const button of $('roster').children) button.setAttribute('aria-pressed', String(button.dataset.hero === key));
+  const hero = roster[key];
+  const title = document.createElement('strong');
+  title.textContent = hero.name + 'のスキル（対戦中にどちらか1つ）';
+  const list = document.createElement('ul');
+  for (const skill of hero.skills) {
+    const item = document.createElement('li');
+    const name = document.createElement('strong');
+    name.textContent = skillLabels[skill];
+    item.append(name, ' — ' + skillHints[skill]);
+    list.append(item);
+  }
+  $('hero-skills').replaceChildren(title, list);
+  updateEntry();
+}
+function updateEntry() {
+  $('cpu-start').disabled = $('create').disabled = $('join-button').disabled = sending || !chosen;
+  $('digits-3').disabled = $('digits-4').disabled = sending;
+}
+function selectDigits(length) {
+  digits = length;
+  for (const option of [3, 4]) $('digits-' + option).setAttribute('aria-pressed', String(option === length));
+  for (const id of ['secret', 'guess', 'new-secret']) $(id).maxLength = length;
+  if (!validNumber($('secret').value, length)) $('secret').value = '';
+  const example = length === 3 ? '047' : '0472';
+  $('secret').placeholder = $('guess').placeholder = '例 ' + example;
+  $('secret-hint').textContent = '0〜9から違う数字を' + length + 'つ。' + example + 'のように、先頭にも0を使えるよ。';
+  $('error').textContent = '';
+}
+function selectMode(next) {
+  mode = next;
+  const cpu = next === 'cpu';
+  $('mode-cpu').setAttribute('aria-pressed', String(cpu));
+  $('mode-friend').setAttribute('aria-pressed', String(!cpu));
+  $('cpu-start').hidden = !cpu;
+  $('friend-entry').hidden = cpu;
+  $('error').textContent = '';
+}
+async function enter(method, code) {
+  if (sending) return;
+  const secret = $('secret').value.trim();
+  if (!validNumber(secret, digits)) {
+    $('error').textContent = '0〜9から異なる数字を' + digits + 'つ選んで、ひみつの数を決めてね。';
+    $('secret').focus();
+    return;
+  }
+  enteringMatch = method === 'join' || mode === 'cpu';
+  unlockAudio();
+  sending = true;
+  updateEntry();
+  $('error').textContent = '';
+  try {
+    const result = await api(method, { hero: chosen, code, mode, secret, digits });
+    room = result.room;
+    token = result.token;
+    $('guess').value = '';
+    $('lobby').hidden = true;
+    $('battle').hidden = false;
+    render();
+    poll();
+  } catch (error) {
+    $('error').textContent = error.message;
+  } finally {
+    enteringMatch = false;
+    sending = false;
+    updateEntry();
+    if (room) render();
+    else syncMusic();
+  }
+}
+
+function renderFighter(el, player, label, skillClue) {
+  if (!player) {
+    el.textContent = '対戦相手を待っています';
+    delete el.dataset.hero;
+    return;
+  }
+  if (el.dataset.hero !== player.hero) {
+    el.dataset.hero = player.hero;
+    el.innerHTML = '<p></p><small class="fighter-skills"></small><div class="secret-board"><small>ひみつの数字</small><strong></strong><small class="opened" hidden></small></div><img alt="">';
+    el.querySelector('p').textContent = label + ' · ' + roster[player.hero].name;
+    el.querySelector('.fighter-skills').textContent = roster[player.hero].skills.map(skill => skillLabels[skill]).join(' / ');
+    el.querySelector('img').src = './sprites/' + player.hero + '.webp';
+  }
+  const number = el.querySelector('.secret-board strong');
+  const marked = skillClue?.name === 'mark';
+  number.textContent = player.secret ?? Array.from({ length: room.digits }, (_, i) =>
+    marked && i + 1 === skillClue.position ? skillClue.digit : '？').join('');
+  number.classList.toggle('is-hidden', player.secret == null);
+  const clue = el.querySelector('.opened');
+  clue.hidden = !skillClue || player.secret != null;
+  clue.textContent = skillClue ? skillOutcome(skillClue, true) : '';
+}
+
+function clearImpact() {
+  for (const id of ['you', 'rival']) {
+    const fighter = $(id);
+    fighter.classList.remove('is-striking', 'takes-guard', 'takes-hit', 'takes-block');
+    fighter.querySelector('.impact')?.remove();
+  }
+}
+
+function showImpact(attacker, defender, { hits, blocks }) {
+  clearImpact();
+  const cues = ['attack'];
+  if (hits) cues.push('hit');
+  if (blocks) cues.push('graze');
+  if (!hits && blocks === 0) cues.push('guard');
+  playSound(...cues);
+  attacker.classList.add('is-striking');
+  if (hits) defender.classList.add('takes-hit');
+  if (blocks) defender.classList.add('takes-block');
+  if (!hits && blocks === 0) defender.classList.add('takes-guard');
+  const effect = document.createElement('div');
+  effect.className = 'impact';
+  effect.setAttribute('aria-hidden', 'true');
+  const caption = document.createElement('b');
+  caption.textContent = hits ? (blocks ? 'ズバッ！ ＋ かすり' : 'ズバッ！')
+    : blocks === null ? 'ブロック数はひみつ！' : blocks ? 'かすり！' : '完全ガード！';
+  effect.append(caption);
+  defender.append(effect);
+}
+
+function skillOutcome(skill, own, turn, target) {
+  if (skill.name === 'change') return own ? '自分の数字を1桁チェンジ！' : '相手が1桁チェンジ。前のヒントは変更前のものです。';
+  if (skill.name === 'hide') return '第' + (turn + 1) + '回は' + (own ? '相手' : 'あなた') + 'のブロック数がひみつ。';
+  if (skill.name === 'swap') return (own ? '自分' : '相手') + 'の数字を2つ入れ替えました。使っている数字は同じです。';
+  const outdated = target && skill.revision !== target.revision;
+  if (skill.name === 'mark') {
+    if (!own) return '相手が、直前に当てた桁を1つ確認。';
+    return '左から' + skill.position + '番目は「' + skill.digit + '」' + (outdated ? 'でした（変更前）。' : '！');
+  }
+  if (skill.name === 'check') {
+    if (!own) return '相手が、数字を1つ調べました。';
+    return '相手の暗号に「' + skill.digit + '」は' + (skill.present ? 'ある' : 'ない') +
+      (outdated && target.changeKind !== 'swap' ? '（変更前）。' : '！');
+  }
+  if (!skill.digit) return '相手だけが、あなたの暗号に含まれる数字を1つ確認。';
+  if (outdated && target.changeKind !== 'swap') return '数字「' + skill.digit + '」は変更前のヒントです。';
+  return '相手の暗号に「' + skill.digit + '」がある！ 場所はひみつ。';
+}
+
+function showCutin(seat, skill, turn) {
+  const cutin = $('cutin');
+  playSound('skill');
+  void cutin.offsetWidth;
+  cutin.classList.toggle('is-rival', seat !== room.seat);
+  cutin.querySelector('img').src = './sprites/' + room.players[seat].hero + '.webp';
+  cutin.querySelector('strong').textContent = skillLabels[skill.name];
+  cutin.querySelector('p').textContent = skillOutcome(skill, seat === room.seat, turn, room.players[1 - seat]);
+  cutin.hidden = false;
+}
+
+function finishBattle(result, seat) {
+  const victory = result === seat;
+  if (result !== 'draw') {
+    playSound(victory ? 'win' : 'lose');
+    $(victory ? 'rival' : 'you').classList.add('is-defeated');
+    $(victory ? 'you' : 'rival').classList.add('is-victorious');
+  }
+  const verdict = $('verdict');
+  verdict.classList.toggle('is-loss', result !== 'draw' && !victory);
+  verdict.querySelector('strong').textContent = result === 'draw' ? 'DRAW!' : victory ? 'YOU WIN!' : 'YOU LOSE!';
+  verdict.hidden = false;
+}
+
+function showFinisher(side) {
+  const panel = $('finisher');
+  void panel.offsetWidth;
+  panel.querySelector('img').src = './sprites/' + room.players[side].hero + '.webp';
+  panel.querySelector('small').textContent = room.digits + 'ヒット！';
+  panel.hidden = false;
+  playSound('finisher');
+}
+
+function playRound(round, seat, result) {
+  animatedTurn = round.turn;
+  animating = true;
+  const steps = [];
+  for (const side of [seat, 1 - seat]) {
+    if (round.skills[side]) steps.push([1150, () => showCutin(side, round.skills[side], round.turn)]);
+  }
+  for (const side of [seat, 1 - seat]) {
+    const guess = round.guesses[side];
+    if (guess.guess === null) continue;
+    if (guess.hits === room.digits) steps.push([1250, () => showFinisher(side)]);
+    const own = side === seat;
+    steps.push([650, () => showImpact($(own ? 'you' : 'rival'), $(own ? 'rival' : 'you'), guess)]);
+  }
+  function next() {
+    $('cutin').hidden = $('finisher').hidden = true;
+    const step = steps.shift();
+    if (step) {
+      step[1]();
+      actionTimer = setTimeout(next, step[0]);
+      return;
+    }
+    clearImpact();
+    if (result !== null) finishBattle(result, seat);
+    animating = false;
+    render();
+  }
+  next();
+}
+
+function clueText({ hits, blocks }) {
+  if (hits === null) return 'スキル使用で攻撃なし';
+  return hits + 'ヒット・' + (blocks === null ? 'ブロック数はひみつ' : blocks + 'ブロック');
+}
+
+function renderSkill() {
+  const player = room.players[room.seat];
+  const select = $('skill');
+  const available = roster[player.hero].skills;
+  for (const option of select.options) option.hidden = Boolean(option.value) && !available.includes(option.value);
+  select.querySelector('option[value="reveal"]').disabled = !room.canReveal;
+  select.querySelector('option[value="mark"]').disabled = !room.canMark;
+  select.querySelector('option[value="hide"]').disabled = room.turn >= 12;
+  if (select.selectedOptions[0]?.disabled || select.selectedOptions[0]?.hidden || player.usedSkill) select.value = '';
+  $('skill-picker').disabled = player.usedSkill || sending || animating || player.ready;
+  $('skill-change').hidden = select.value !== 'change' && select.value !== 'swap';
+  $('skill-check').hidden = select.value !== 'check';
+  $('guess').hidden = Boolean(select.value);
+  $('guess-label').textContent = select.value ? 'この回は攻撃なし' : '相手の数字';
+  $('guess-send').textContent = select.value ? 'スキル発動' : '攻撃する';
+  $('skill-hint').textContent = player.usedSkill ? 'この試合のスキルは発動済み。'
+    : skillHints[select.value] ?? 'スキルを使う回は攻撃を1回休みます。';
+}
+
+function render() {
+  const { seat, players, history, result, code, turn } = room;
+  const cpu = room.mode === 'cpu';
+  const you = players[seat], rival = players[1 - seat];
+  $('room-code').textContent = code;
+  $('battle-digits').textContent = room.digits + '桁勝負';
+  $('room-label').hidden = cpu;
+  $('cpu-title').hidden = !cpu;
+  const round = history.at(-1);
+  const pendingAnimation = animating || Boolean(round && round.turn > animatedTurn);
+  const visibleHistory = pendingAnimation ? history.slice(0, -1) : history;
+  const opened = visibleHistory.map(r => r.skills[seat]).find(skill => skill?.digit &&
+    (skill.revision === rival?.revision || (rival?.changeKind === 'swap' && skill.name !== 'mark')));
+  renderFighter($('you'), you, 'あなた');
+  renderFighter($('rival'), rival, cpu ? 'CPU' : '相手', opened);
+  if (round && round.turn > animatedTurn) playRound(round, seat, result);
+  const notes = [];
+  for (const { turn, skills } of visibleHistory) {
+    for (const side of [seat, 1 - seat]) {
+      const skill = skills[side];
+      if (skill) notes.push('第' + turn + '回 · ' + (side === seat ? 'あなた' : '相手') + '｜' +
+        skillLabels[skill.name] + ' — ' + skillOutcome(skill, side === seat, turn, players[1 - side]));
+    }
+  }
+  const results = $('skill-results');
+  results.hidden = !notes.length;
+  if (results.dataset.notes !== notes.join('\n')) {
+    results.dataset.notes = notes.join('\n');
+    results.replaceChildren(...notes.map(text => {
+      const p = document.createElement('p');
+      p.textContent = text;
+      return p;
+    }));
+  }
+  syncMusic();
+  const latest = visibleHistory.at(-1)?.guesses[seat];
+  const feedback = latest ? (latest.guess === null ? '' : latest.guess + ' → ') + clueText(latest) + '。 ' : '';
+  const status = animating ? '対戦結果を表示中…'
+    : result !== null ? feedback + (result === 'draw' ? 'ひきわけ！' : result === seat ? 'あなたの勝ち！' : '相手の勝ち！')
+    : !rival ? '合言葉を友だちに伝えて、部屋に入ってもらおう。'
+    : you.ready ? (you.guess === null ? 'スキルを選んだよ。' : you.guess + ' で送ったよ。') + '相手を待っています。'
+    : feedback + '第' + turn + '回。相手の数を予想しよう！';
+  if ($('status').textContent !== status) $('status').textContent = status;
+  $('guess-form').hidden = $('skill-picker').hidden = result !== null || !rival;
+  $('guess-send').disabled = $('guess').disabled = sending || you.ready || animating;
+  renderSkill();
+  $('history').hidden = visibleHistory.length === 0;
+  if ($('turns').rows.length !== visibleHistory.length) {
+    $('turns').replaceChildren();
+    for (const round of [...visibleHistory].reverse()) {
+      const row = $('turns').insertRow();
+      row.insertCell().textContent = round.turn;
+      for (const side of [seat, 1 - seat]) {
+        const guess = round.guesses[side], skill = round.skills[side];
+        const cell = row.insertCell();
+        const number = document.createElement('b');
+        const clue = document.createElement('small');
+        number.textContent = guess.guess ?? '―';
+        const oldHint = guess.guess !== null && guess.revision !== players[1 - side].revision;
+        clue.textContent = clueText(guess) + (oldHint ?
+          (players[1 - side].changeKind === 'swap' ? '（ならび替え前）' : '（変更前）') : '');
+        cell.append(number, clue);
+        if (skill) {
+          const note = document.createElement('small');
+          note.textContent = skillLabels[skill.name] + (side === seat && skill.digit ? ' — ' +
+            skillOutcome(skill, true, round.turn, players[1 - side]) : '');
+          cell.append(note);
+        }
+      }
+    }
+  }
+}
+
+async function sendGuess() {
+  if (sending || animating || !room || room.players[room.seat].ready || room.result !== null) return;
+  const name = $('skill').value;
+  const guess = name ? null : $('guess').value.trim();
+  if (!name && !validNumber(guess, room.digits)) {
+    $('error').textContent = '0〜9から異なる数字を' + room.digits + 'つ選んで、予想してね。';
+    return;
+  }
+  const skill = name ? { name } : null;
+  if (name === 'change' || name === 'swap') {
+    skill.secret = $('new-secret').value.trim();
+    const current = room.players[room.seat].secret;
+    const validEdit = name === 'swap' ? isSwap(current, skill.secret)
+      : [...skill.secret].filter((digit, i) => digit !== current[i]).length === 1;
+    if (!validNumber(skill.secret, room.digits) || !validEdit) {
+      $('error').textContent = name === 'swap' ? '今の暗号の数字を2つ選び、場所だけを入れ替えてね。'
+        : '自分の数を1か所だけ変えてね。同じ数字は使えないよ。';
+      return;
+    }
+  }
+  if (name === 'check') {
+    skill.digit = $('check-digit').value.trim();
+    if (!/^[0-9]$/.test(skill.digit)) {
+      $('error').textContent = '調べる数字を0〜9から1つ選んでね。';
+      return;
+    }
+  }
+  unlockAudio();
+  sending = true;
+  $('error').textContent = '';
+  const currentToken = token;
+  render();
+  try {
+    const result = await api('guess', { code: room.code, turn: room.turn, guess, skill });
+    if (token === currentToken) {
+      room = result.room;
+      $('guess').value = '';
+      $('skill').value = '';
+      $('new-secret').value = '';
+      $('check-digit').value = '';
+    }
+  } catch (error) {
+    if (token === currentToken) $('error').textContent = error.message;
+  } finally {
+    if (token === currentToken) {
+      sending = false;
+      render();
+    }
+  }
+}
+
+function poll() {
+  clearTimeout(timer);
+  if (!room || room.result !== null) return;
+  const currentToken = token;
+  timer = setTimeout(async () => {
+    if (token !== currentToken || !room) return;
+    if (sending) return poll();
+    try {
+      const { room: next } = await api('state?code=' + encodeURIComponent(room.code));
+      if (token !== currentToken) return;
+      const keepsGuess = !room.players[room.seat].ready || next.history.length > room.history.length || next.players[room.seat].ready;
+      if (!sending && next.history.length >= room.history.length && keepsGuess) {
+        room = next;
+        render();
+      }
+    } catch (error) {
+      if (token === currentToken) $('error').textContent = error.message;
+    }
+    if (token === currentToken) poll();
+  }, 850);
+}
+
+$('mode-cpu').onclick = () => selectMode('cpu');
+$('mode-friend').onclick = () => selectMode('friend');
+$('digits-3').onclick = () => selectDigits(3);
+$('digits-4').onclick = () => selectDigits(4);
+$('cpu-start').onclick = () => enter('create');
+$('create').onclick = () => enter('create');
+$('join').onsubmit = event => {
+  event.preventDefault();
+  enter('join', $('code').value.trim().toUpperCase());
+};
+$('guess-form').onsubmit = event => { event.preventDefault(); sendGuess(); };
+$('skill').onchange = () => {
+  if (['change', 'swap'].includes($('skill').value)) $('new-secret').value = room.players[room.seat].secret;
+  renderSkill();
+};
+$('random').onclick = () => {
+  let secret;
+  do { secret = String(Math.floor(Math.random() * 10 ** digits)).padStart(digits, '0'); } while (!validNumber(secret, digits));
+  $('secret').value = secret;
+  $('error').textContent = '';
+};
+$('leave').onclick = () => {
+  clearTimeout(timer);
+  clearTimeout(actionTimer);
+  clearImpact();
+  $('cutin').hidden = $('verdict').hidden = $('finisher').hidden = true;
+  $('history').open = false;
+  $('skill').value = $('new-secret').value = $('check-digit').value = '';
+  animatedTurn = 0;
+  animating = false;
+  room = token = null;
+  syncMusic();
+  $('skill-results').replaceChildren();
+  $('skill-results').dataset.notes = '';
+  $('skill-results').hidden = true;
+  sending = false;
+  $('turns').replaceChildren();
+  for (const id of ['you','rival']) {
+    $(id).textContent = '';
+    $(id).className = 'fighter';
+    delete $(id).dataset.hero;
+  }
+  $('battle').hidden = true;
+  $('lobby').hidden = false;
+  $('error').textContent = '';
+  updateEntry();
+};
+selectDigits(digits);
+try {
+  ({roster} = await api('roster'));
+  for (const [key, hero] of Object.entries(roster)) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.dataset.hero = key;
+    const image = new Image();
+    image.src = './sprites/' + key + '.webp';
+    image.alt = '';
+    const skills = document.createElement('small');
+    skills.className = 'fighter-skills';
+    skills.textContent = hero.skills.map(skill => skillLabels[skill]).join(' / ');
+    button.append(image, hero.name, skills);
+    button.onclick = () => selectHero(key);
+    $('roster').append(button);
+  }
+  selectHero(Object.keys(roster)[0]);
+} catch {
+  $('error').textContent = '対戦サーバーに接続できません。';
+}
+</script>
+</body>
+</html>

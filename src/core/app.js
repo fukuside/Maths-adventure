@@ -3367,7 +3367,7 @@ function legacyMigrate() {
       <div class="panel stack">
         <button class="button secondary" data-action="change-course"
           data-course="${isKindergarten ? "elementary" : "kindergarten"}">
-          ${isKindergarten ? "📚 小学生コースへ" : "🌱 幼児コースへ"}
+          ${isKindergarten ? "📚 小学生コースへ" : "🌱 未就学コースへ"}
         </button>
       </div>
 
@@ -3449,7 +3449,21 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
 /* =========================
    新トップページ
 ========================= */
+  function numberDuelUrl() {
+    const configured = import.meta.env.VITE_NUMBER_DUEL_URL;
+    if (configured) {
+      try {
+        const url = new URL(configured);
+        if (url.protocol === 'https:') return url.href;
+      } catch {}
+    }
+    return import.meta.env.DEV || ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname)
+      ? '/number-duel/' : '';
+  }
+
   function landing() {
+    const duelUrl = numberDuelUrl();
+    const duelHref = duelUrl.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 
   return `
     <section class="landing-screen">
@@ -3506,7 +3520,7 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
           data-course="kindergarten"
         >
           <span class="landing-play-icon">🌱</span>
-          <span>幼児コース</span>
+          <span>未就学コース</span>
         </button>
         <button class="landing-start-button"
           data-action="select-course" data-course="elementary">
@@ -3514,6 +3528,16 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
           <span>小学生コース</span>
         </button>
 
+
+        <a class="landing-start-button landing-duel-button"
+          data-number-duel ${duelUrl ? `href="${duelHref}"` : `aria-disabled="true"`}>
+          <span class="landing-play-icon" aria-hidden="true">⚔️</span>
+          <span class="landing-duel-copy">
+            <strong>ひみつの数字対決</strong>
+            <small>ダイヤなしであそべるよ。<br>お友達と対戦できるよ。</small>
+            ${duelUrl ? "" : "<small>オンライン対戦 準備中</small>"}
+          </span>
+        </a>
 
         <div class="landing-reward-unlock"><button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button><button type="button" class="landing-reward-help" data-action="reward-help" aria-label="遊べる条件を表示" aria-expanded="false">?</button>${rewardUnlockHint(state)}</div>
         <!-- サブボタン -->
