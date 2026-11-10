@@ -1,11 +1,19 @@
 import { createServer } from 'node:http';
-import { randomBytes, randomInt } from 'node:crypto';
+import { createHash, randomBytes, randomInt } from 'node:crypto';
 import { readFile, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
 const skillPool = ['reveal', 'check', 'change', 'swap', 'hide', 'mark'];
 const idleLimit = 30 * 60_000;
+
+function skillsForMonster(key) {
+  // Keep each monster's randomly distributed skill set stable across matches and restarts.
+  const hash = createHash('sha256').update('number-duel-skills:' + key).digest();
+  const first = hash.readUInt32BE(0) % skillPool.length;
+  const remaining = skillPool.filter((_, index) => index !== first);
+  return [skillPool[first], remaining[hash.readUInt32BE(4) % remaining.length]];
+}
 
 async function loadRoster(spriteDirectory) {
   const sprites = new Set(await readdir(spriteDirectory));
@@ -17,7 +25,7 @@ async function loadRoster(spriteDirectory) {
   }));
   return Object.fromEntries(cards.flat().flatMap(card => {
     const key = card.id + '_UR';
-    return sprites.has(key + '.webp') ? [[key, { name: card.name }]] : [];
+    return sprites.has(key + '.webp') ? [[key, { name: card.name, skills: skillsForMonster(key) }]] : [];
   }));
 }
 
@@ -88,11 +96,10 @@ function resolveTurn(room) {
   }
 }
 
-function playerFor(hero, secret) {
-  const first = pick(skillPool);
+function playerFor(hero, secret, skills) {
   return {
     hero, secret, token: randomBytes(24).toString('hex'), guess: null,
-    skills: [first, pick(skillPool.filter(skill => skill !== first))],
+    skills,
     skill: null, usedSkill: false, revision: 0, changeKind: null, hideAt: 0,
   };
 }
@@ -235,11 +242,12 @@ export function createArenaServer({ spriteDirectory, bgmFile } = {}) {
         if (rooms.size >= 100) return reply(503, { error: '対戦部屋が混み合っています。' });
         let code;
         do { code = randomBytes(4).toString('hex').toUpperCase(); } while (rooms.has(code));
-        const player = playerFor(data.hero, data.secret);
+        const player = playerFor(data.hero, data.secret, roster[data.hero].skills);
         const players = [player];
         if (mode === 'cpu') {
           const opponents = Object.keys(roster).filter(hero => hero !== player.hero);
-          const opponent = playerFor(pick(opponents), pick(numbers.get(digits)));
+          const hero = pick(opponents);
+          const opponent = playerFor(hero, pick(numbers.get(digits)), roster[hero].skills);
           opponent.token = null;
           players.push(opponent);
         }
@@ -258,7 +266,7 @@ export function createArenaServer({ spriteDirectory, bgmFile } = {}) {
         if (!validNumber(data.secret, digits)) {
           return reply(400, { error: `異なる数字を${digits}つ使って、ひみつの数を決めてください。` });
         }
-        const player = playerFor(data.hero, data.secret);
+        const player = playerFor(data.hero, data.secret, roster[data.hero].skills);
         room.players.push(player);
         room.updatedAt = Date.now();
         return reply(200, { token: player.token, room: roomView(room, 1) });
@@ -281,7 +289,7 @@ export function createArenaServer({ spriteDirectory, bgmFile } = {}) {
           return reply(400, { error: 'スキルは1試合に1つだけ使えます。' });
         }
         if (!player.skills.includes(name)) {
-          return reply(400, { error: 'この対戦で引いたスキルを使ってください。' });
+          return reply(400, { error: '選んだモンスターのスキルを使ってください。' });
         }
         if (name === 'reveal' && !canReveal(room, seat)) {
           return reply(400, { error: '数字オープンは、直前にブロックが見えたときに使えます。' });

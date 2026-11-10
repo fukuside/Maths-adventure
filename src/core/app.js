@@ -3478,10 +3478,12 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
         ${href ? `<a class="button" href="${escapeHtml(href.href)}">このプレイヤーで対戦</a>`
           : '<p>URモンスターを獲得すると対戦できます。</p>'}</article>`;
     }).join('');
-    return `<section class="panel stack"><h2>ひみつの数字対決</h2>
+    return `<section class="panel stack"><header class="number-duel-picker-header">
+      <h2>ひみつの数字対決</h2>
+      <button type="button" class="button secondary" data-action="go" data-screen="landing">トップへ戻る</button>
+      </header>
       <p>プレイヤーをえらぼう。持っているURモンスターで、ダイヤなしであそべます。</p>
-      ${entries || '<p>プレイヤーを作って、算数でURモンスターを集めよう。</p>'}
-      <button type="button" class="button secondary" data-action="go" data-screen="landing">トップへもどる</button></section>`;
+      ${entries || '<p>プレイヤーを作って、算数でURモンスターを集めよう。</p>'}</section>`;
   }
 
   function landing() {

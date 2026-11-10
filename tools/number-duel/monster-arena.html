@@ -10,6 +10,9 @@
 body{margin:0;background:radial-gradient(ellipse at 50% 0,#322955,#15162d 46%,#101221);color:#faf8ff;font:16px system-ui,sans-serif;min-height:100svh}
 main{width:min(720px,100% - 24px);margin:auto;padding:22px 0} h1,h2,p{margin:0} h1{font-size:clamp(23px,5vw,36px);line-height:1.15}
 header{display:flex;align-items:center;gap:12px;margin-bottom:17px}.eyebrow{color:#ffd67a;font-size:12px;font-weight:800;letter-spacing:.13em}
+.arena-return{display:inline-flex;align-items:center;justify-content:center;min-height:44px;margin-left:auto;padding:6px 8px;border:1px solid #9483cc;border-radius:11px;background:#3d315f;color:#fff;font-size:13px;font-weight:800;text-decoration:none;white-space:nowrap}
+main:has(#battle:not([hidden])) .arena-return{display:none}
+@media(max-width:375px){header{gap:6px}header h1{font-size:18px}}
 .badge{font-weight:900;color:#302008;background:linear-gradient(#ffefa8,#ffba51);padding:6px 10px;border-radius:10px;box-shadow:0 0 18px #eec97044}
 .panel{padding:14px;border-radius:16px;border:1px solid #8270bb70;background:#1b1c36}
 h2{font-size:17px}.muted{color:#cfcae5}.hint{margin:6px 0 12px;font-size:14px}
@@ -20,6 +23,7 @@ button:hover:not(:disabled),button:focus-visible{filter:brightness(1.2)}button:d
 .roster button{padding:4px 2px 8px;line-height:1.25;font-size:clamp(11px,2.6vw,15px);background:#292744;overflow-wrap:anywhere}
 .roster button[aria-pressed=true]{border-color:#ffce70;background:#503b66;box-shadow:inset 0 0 0 1px #ffce70}
 .roster img{display:block;width:100%;height:clamp(85px,23vw,150px);object-fit:contain}
+.roster small{display:block;margin-top:4px;color:#ffe0a1;font-size:.9em}
 .primary{color:#241633;background:#ffd67a;border-color:#ffe8a6}.entry{display:grid;gap:9px}.join{display:flex;gap:8px}input{flex:1;min-width:0;background:#13152a;color:white;border:1px solid #9483cc;padding:8px 12px;text-transform:uppercase}
 .modes{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-bottom:14px}.modes button[aria-pressed=true]{border-color:#ffd67a;background:#503b66}
 .toolbar{display:flex;align-items:center;justify-content:space-between;gap:6px;flex-wrap:wrap}.toolbar strong{letter-spacing:.11em;color:#ffdf8f}.toolbar button{font-size:13px}
@@ -89,7 +93,7 @@ main:has(#battle:not([hidden])){padding-top:8px}main:has(#battle:not([hidden])) 
 </head>
 <body>
 <main>
-<header><span class="badge">UR</span><div><p class="eyebrow">モンスター闘技場</p><h1>ひみつの数字対決</h1></div></header>
+<header><span class="badge">UR</span><div><p class="eyebrow">モンスター闘技場</p><h1>ひみつの数字対決</h1></div><a id="back-to-maths" class="arena-return" href="https://maths-adventure-psi.vercel.app/">トップへ戻る</a></header>
 <div class="audio-controls" role="group" aria-label="音の設定"><button id="bgm-toggle" type="button" aria-pressed="true">BGM オン</button><button id="sfx-toggle" type="button" aria-pressed="true">効果音 オン</button></div>
 <p id="audio-notice" class="audio-notice" role="status" hidden></p>
 <audio id="battle-bgm" src="./maths-adventure-bgm-loop.mp3" preload="none" loop></audio>
@@ -108,7 +112,6 @@ main:has(#battle:not([hidden])){padding-top:8px}main:has(#battle:not([hidden])) 
 <div id="roster" class="roster" aria-label="モンスター選択"></div>
 <div id="hero-skills" class="hero-skills" aria-live="polite"></div>
 <p id="owned-notice" class="hint muted" hidden>Maths-Adventureのトップでプレイヤーを選ぶと、持っているURモンスターがここに並びます。</p>
-<a id="back-to-maths" href="https://maths-adventure-psi.vercel.app/">Maths-Adventureのトップへ</a>
 <div class="secret">
 <label for="secret">自分のひみつの数</label>
 <div class="number-row"><input id="secret" type="text" inputmode="numeric" autocomplete="off" maxlength="3" placeholder="例 123" aria-describedby="secret-hint"><button id="random" type="button">おまかせ</button></div>
@@ -134,7 +137,7 @@ main:has(#battle:not([hidden])){padding-top:8px}main:has(#battle:not([hidden])) 
 <div class="finisher" id="finisher" hidden aria-hidden="true"><img alt=""><div><small>3ヒット！</small><strong>これで終わりだ！</strong></div></div>
 <p id="status" class="message" aria-live="polite"></p>
 <fieldset id="skill-picker" class="skill-picker" hidden>
-<legend>この対戦で引いたスキル（1試合に1つ）</legend>
+<legend>モンスターのスキル（1試合に1つ）</legend>
 <select id="skill" aria-label="今回使うスキル"><option value="">使わない</option><option value="change">数字チェンジ</option><option value="reveal">数字オープン</option><option value="hide">ブロックかくし</option><option value="check">数字チェック</option><option value="swap">ならび替え</option><option value="mark">ヒットの目印</option></select>
 <small id="skill-hint" class="muted"></small>
 <label class="skill-change" id="skill-change" hidden>変更後の数 <input id="new-secret" type="text" inputmode="numeric" autocomplete="off" maxlength="3" form="guess-form"></label>
@@ -367,20 +370,18 @@ function selectHero(key) {
   for (const button of $('roster').children) button.setAttribute('aria-pressed', String(button.dataset.hero === key));
   const hero = roster[key];
   const title = document.createElement('strong');
-  title.textContent = hero.name + 'で対戦。スキルは対戦ごとに2つ抽選し、どちらか1つ使えます。';
-  const details = document.createElement('details');
-  const summary = document.createElement('summary');
-  summary.textContent = '抽選されるスキルの説明';
+  title.textContent = hero.name + 'のスキル';
   const list = document.createElement('ul');
-  for (const skill of Object.keys(skillLabels)) {
+  for (const skill of hero.skills) {
     const item = document.createElement('li');
     const name = document.createElement('strong');
     name.textContent = skillLabels[skill];
     item.append(name, ' — ' + skillHints[skill]);
     list.append(item);
   }
-  details.append(summary, list);
-  $('hero-skills').replaceChildren(title, details);
+  const rule = document.createElement('small');
+  rule.textContent = '1試合にどちらか1つ使えます。使う回は攻撃を休みます。';
+  $('hero-skills').replaceChildren(title, list, rule);
   updateEntry();
 }
 function updateEntry() {
@@ -804,7 +805,9 @@ try {
     const image = new Image();
     image.src = './sprites/' + key + '.webp';
     image.alt = '';
-    button.append(image, hero.name);
+    const skills = document.createElement('small');
+    skills.textContent = hero.skills.map(skill => skillLabels[skill]).join(' / ');
+    button.append(image, hero.name, skills);
     button.onclick = () => selectHero(key);
     $('roster').append(button);
   }
