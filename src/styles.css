@@ -18467,5 +18467,9 @@ body:has(.decimal-choice-question){overflow-y:auto!important}
 .landing-start-button.landing-duel-button{min-height:0;padding:9px 18px;gap:10px;margin-top:8px;font-size:clamp(16px,3.6vw,25px);text-decoration:none}
 .landing-duel-copy{display:grid;gap:2px;line-height:1.2;text-align:left}
 .landing-duel-copy small{font-size:clamp(11px,2.6vw,14px);font-weight:700}
-.landing-duel-button[aria-disabled=true]{cursor:default}
-.landing-duel-button[aria-disabled=true]:hover{transform:none;filter:none}
+.landing-duel-button:disabled{cursor:default}
+.landing-duel-button:disabled:hover{transform:none;filter:none}
+.landing-duel-entry{width:min(96%,480px);display:grid;grid-template-columns:minmax(0,1fr) minmax(82px,108px);gap:9px;align-items:center}
+.landing-duel-entry .landing-duel-button{min-width:0;margin-top:0;width:100%;padding-inline:10px}
+.landing-duel-bubble{position:relative;background:#fff5cd;color:#382657;border:2px solid #f4bd59;border-radius:12px;padding:6px;text-align:center;font-size:clamp(11px,2.6vw,14px);font-weight:900;line-height:1.2;text-shadow:none}
+.landing-duel-bubble::before{content:"";position:absolute;left:-7px;top:50%;width:9px;height:9px;background:inherit;border-left:2px solid #f4bd59;border-bottom:2px solid #f4bd59;transform:translateY(-50%) rotate(45deg)}

@@ -1,15 +1,25 @@
 import { createServer } from 'node:http';
 import { randomBytes, randomInt } from 'node:crypto';
-import { readFile } from 'node:fs/promises';
+import { readFile, readdir } from 'node:fs/promises';
 import { join } from 'node:path';
 import { fileURLToPath, pathToFileURL } from 'node:url';
 
-const roster = {
-  '001-plus-rabbit_UR': { name: 'プラスラビット', skills: ['reveal', 'check'] },
-  '002-sum-slime_UR': { name: 'サムスライム', skills: ['change', 'swap'] },
-  '038-massive-golem_UR': { name: 'マッシブ・ゴーレム', skills: ['hide', 'mark'] },
-};
+const skillPool = ['reveal', 'check', 'change', 'swap', 'hide', 'mark'];
 const idleLimit = 30 * 60_000;
+
+async function loadRoster(spriteDirectory) {
+  const sprites = new Set(await readdir(spriteDirectory));
+  const packs = fileURLToPath(new URL('../../src/content/packs/', import.meta.url));
+  const cards = await Promise.all(['builtin', 'kindergarten'].map(async pack => {
+    const dir = join(packs, pack, 'cards');
+    const files = (await readdir(dir)).filter(file => file.endsWith('.js')).sort();
+    return Promise.all(files.map(async file => (await import(pathToFileURL(join(dir, file)).href)).default));
+  }));
+  return Object.fromEntries(cards.flat().flatMap(card => {
+    const key = card.id + '_UR';
+    return sprites.has(key + '.webp') ? [[key, { name: card.name }]] : [];
+  }));
+}
 
 function validNumber(value, digits) {
   return typeof value === 'string' && value.length === digits && /^[0-9]+$/.test(value) && new Set(value).size === digits;
@@ -79,8 +89,10 @@ function resolveTurn(room) {
 }
 
 function playerFor(hero, secret) {
+  const first = pick(skillPool);
   return {
     hero, secret, token: randomBytes(24).toString('hex'), guess: null,
+    skills: [first, pick(skillPool.filter(skill => skill !== first))],
     skill: null, usedSkill: false, revision: 0, changeKind: null, hideAt: 0,
   };
 }
@@ -111,7 +123,7 @@ function chooseCpuGuess(room) {
 
 function chooseCpuSkill(room, cpu) {
   if (cpu.usedSkill || room.turn < 2) return null;
-  const available = roster[cpu.hero].skills;
+  const available = cpu.skills;
   if (available.includes('reveal') && canReveal(room, 1)) return { name: 'reveal' };
   if (available.includes('mark') && canMark(room, 1)) return { name: 'mark' };
   if (available.includes('swap') && room.history.at(-1).guesses[0].hits >= 1) {
@@ -136,8 +148,8 @@ function roomView(room, seat) {
       })),
       skills: skills.map((skill, index) => skill && (index === seat ? skill : { name: skill.name })),
     })),
-    players: room.players.map(({ hero, guess, secret, revision, usedSkill, skill, changeKind }, index) => ({
-      hero, revision, changeKind, ready: guess !== null || skill !== null,
+    players: room.players.map(({ hero, guess, secret, revision, usedSkill, skill, changeKind, skills }, index) => ({
+      hero, revision, changeKind, skills, ready: guess !== null || skill !== null,
       ...(index === seat ? { secret, guess, usedSkill } : room.result !== null ? { secret } : {}),
     })),
   };
@@ -156,6 +168,7 @@ export function createArenaServer({ spriteDirectory, bgmFile } = {}) {
   spriteDirectory ??= process.env.ARENA_SPRITES || fileURLToPath(new URL('../../public/reward-games/sprites/', import.meta.url));
   bgmFile ??= process.env.ARENA_BGM || join(spriteDirectory, '..', '..', 'maths-adventure-bgm-loop.mp3');
   const rooms = new Map();
+  let rosterPromise;
   return createServer(async (req, res) => {
     const url = new URL(req.url, 'http://localhost');
     const reply = (code, data) => {
@@ -168,6 +181,7 @@ export function createArenaServer({ spriteDirectory, bgmFile } = {}) {
         res.writeHead(200, { 'Content-Type': 'text/html; charset=utf-8' });
         return res.end(body);
       }
+      const roster = await (rosterPromise ??= loadRoster(spriteDirectory));
       if (req.method === 'GET' && url.pathname === '/api/roster') return reply(200, { roster });
       if (req.method === 'GET' && url.pathname === '/maths-adventure-bgm-loop.mp3') {
         const body = await readFile(bgmFile);
@@ -266,8 +280,8 @@ export function createArenaServer({ spriteDirectory, bgmFile } = {}) {
         if (player.usedSkill) {
           return reply(400, { error: 'スキルは1試合に1つだけ使えます。' });
         }
-        if (!roster[player.hero].skills.includes(name)) {
-          return reply(400, { error: '選んだモンスターが持っているスキルを使ってください。' });
+        if (!player.skills.includes(name)) {
+          return reply(400, { error: 'この対戦で引いたスキルを使ってください。' });
         }
         if (name === 'reveal' && !canReveal(room, seat)) {
           return reply(400, { error: '数字オープンは、直前にブロックが見えたときに使えます。' });

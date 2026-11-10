@@ -3020,6 +3020,7 @@ function sample(arr){
   }
 }
   function body() {
+  if (screen === "number-duel-select") return numberDuelPlayers();
   if(screen==='reward-lobby'&&!rewardUnlockStatus(state).unlocked)return '<section class="panel stack"><h2>ごほうびゲーム</h2>'+rewardUnlockHint(state)+rewardResetNote+'<p>まずは2ステージ学習してから遊ぼう！入場にはダイヤ5個も必要です。</p><button class="button" data-action="go" data-screen="title">さんすうに挑戦する</button></section>';
   if(screen==='reward-lobby')return rewardLobby(state.gems,unlockedPartnerEntries().length,unlockedPartnerEntries().filter(x=>x.rarity==='N').length,unlockedPartnerEntries().filter(x=>x.rarity==='SR').length,unlockedPartnerEntries().filter(x=>x.rarity==='UR').length,getActivePlayer()?.playerId||'guest');
   if(screen==='reward-play'){
@@ -3461,9 +3462,30 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
       ? '/number-duel/' : '';
   }
 
+  function numberDuelPlayers() {
+    const url = numberDuelUrl();
+    const activeId = getActivePlayer()?.playerId;
+    const players = getPlayers();
+    const entries = players.map(player => {
+      const playerState = player.playerId === activeId ? state : player.state;
+      const owned = [...new Set((playerState?.unlockedCards ?? []).filter(key =>
+        typeof key === 'string' && key.endsWith('_UR') && getCard(key.slice(0, -3))
+      ))];
+      const href = url && owned.length ? new URL(url, location.origin) : null;
+      if (href) href.hash = new URLSearchParams({ ur: owned.join(',') }).toString();
+      return `<article class="panel stack"><strong>${escapeHtml(player.nickname)}</strong>
+        <p>持っているURモンスター ${owned.length}体</p>
+        ${href ? `<a class="button" href="${escapeHtml(href.href)}">このプレイヤーで対戦</a>`
+          : '<p>URモンスターを獲得すると対戦できます。</p>'}</article>`;
+    }).join('');
+    return `<section class="panel stack"><h2>ひみつの数字対決</h2>
+      <p>プレイヤーをえらぼう。持っているURモンスターで、ダイヤなしであそべます。</p>
+      ${entries || '<p>プレイヤーを作って、算数でURモンスターを集めよう。</p>'}
+      <button type="button" class="button secondary" data-action="go" data-screen="landing">トップへもどる</button></section>`;
+  }
+
   function landing() {
     const duelUrl = numberDuelUrl();
-    const duelHref = duelUrl.replaceAll("&", "&amp;").replaceAll('"', "&quot;").replaceAll("<", "&lt;").replaceAll(">", "&gt;");
 
   return `
     <section class="landing-screen">
@@ -3529,15 +3551,18 @@ function fadeOutTitleBgm(duration=1200) { return titleMusic.fadeOut(duration); }
         </button>
 
 
-        <a class="landing-start-button landing-duel-button"
-          data-number-duel ${duelUrl ? `href="${duelHref}"` : `aria-disabled="true"`}>
+        <div class="landing-duel-entry">
+        <button type="button" class="landing-start-button landing-duel-button"
+          data-action="go" data-screen="number-duel-select" ${duelUrl ? '' : 'disabled'}>
           <span class="landing-play-icon" aria-hidden="true">⚔️</span>
           <span class="landing-duel-copy">
             <strong>ひみつの数字対決</strong>
             <small>ダイヤなしであそべるよ。<br>お友達と対戦できるよ。</small>
             ${duelUrl ? "" : "<small>オンライン対戦 準備中</small>"}
           </span>
-        </a>
+        </button>
+        <span class="landing-duel-bubble">URモンスターであそべるよ</span>
+        </div>
 
         <div class="landing-reward-unlock"><button class="landing-start-button landing-reward-button" data-action="reward-top"><span class="landing-play-icon">🎮</span><span>ごほうびゲームであそぼう</span></button><button type="button" class="landing-reward-help" data-action="reward-help" aria-label="遊べる条件を表示" aria-expanded="false">?</button>${rewardUnlockHint(state)}</div>
         <!-- サブボタン -->

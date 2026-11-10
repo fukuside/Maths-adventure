@@ -14,6 +14,7 @@ header{display:flex;align-items:center;gap:12px;margin-bottom:17px}.eyebrow{colo
 .panel{padding:14px;border-radius:16px;border:1px solid #8270bb70;background:#1b1c36}
 h2{font-size:17px}.muted{color:#cfcae5}.hint{margin:6px 0 12px;font-size:14px}
 .roster{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;margin-bottom:15px}
+.roster{max-height:clamp(145px,38svh,330px);overflow:auto;padding:3px;overscroll-behavior:contain}
 button,input{font:inherit;min-height:44px;border-radius:11px}button{font-weight:800;cursor:pointer;border:1px solid #9483cc;color:#fff;background:#3d315f;padding:7px 10px}
 button:hover:not(:disabled),button:focus-visible{filter:brightness(1.2)}button:disabled{opacity:.55;cursor:default}
 .roster button{padding:4px 2px 8px;line-height:1.25;font-size:clamp(11px,2.6vw,15px);background:#292744;overflow-wrap:anywhere}
@@ -88,7 +89,7 @@ main:has(#battle:not([hidden])){padding-top:8px}main:has(#battle:not([hidden])) 
 </head>
 <body>
 <main>
-<header><span class="badge">UR</span><div><p class="eyebrow">モンスター闘技場 / 対戦試作</p><h1>ひみつの数字対決</h1></div></header>
+<header><span class="badge">UR</span><div><p class="eyebrow">モンスター闘技場</p><h1>ひみつの数字対決</h1></div></header>
 <div class="audio-controls" role="group" aria-label="音の設定"><button id="bgm-toggle" type="button" aria-pressed="true">BGM オン</button><button id="sfx-toggle" type="button" aria-pressed="true">効果音 オン</button></div>
 <p id="audio-notice" class="audio-notice" role="status" hidden></p>
 <audio id="battle-bgm" src="./maths-adventure-bgm-loop.mp3" preload="none" loop></audio>
@@ -103,9 +104,11 @@ main:has(#battle:not([hidden])){padding-top:8px}main:has(#battle:not([hidden])) 
 <button id="digits-3" type="button" aria-pressed="true">3桁勝負</button>
 <button id="digits-4" type="button" aria-pressed="false">4桁勝負</button>
 </div>
-<h2>URモンスターをえらぼう</h2>
+<h2>持っているURモンスターをえらぼう</h2>
 <div id="roster" class="roster" aria-label="モンスター選択"></div>
 <div id="hero-skills" class="hero-skills" aria-live="polite"></div>
+<p id="owned-notice" class="hint muted" hidden>Maths-Adventureのトップでプレイヤーを選ぶと、持っているURモンスターがここに並びます。</p>
+<a id="back-to-maths" href="https://maths-adventure-psi.vercel.app/">Maths-Adventureのトップへ</a>
 <div class="secret">
 <label for="secret">自分のひみつの数</label>
 <div class="number-row"><input id="secret" type="text" inputmode="numeric" autocomplete="off" maxlength="3" placeholder="例 123" aria-describedby="secret-hint"><button id="random" type="button">おまかせ</button></div>
@@ -131,7 +134,7 @@ main:has(#battle:not([hidden])){padding-top:8px}main:has(#battle:not([hidden])) 
 <div class="finisher" id="finisher" hidden aria-hidden="true"><img alt=""><div><small>3ヒット！</small><strong>これで終わりだ！</strong></div></div>
 <p id="status" class="message" aria-live="polite"></p>
 <fieldset id="skill-picker" class="skill-picker" hidden>
-<legend>URスキル（1試合に1つ）</legend>
+<legend>この対戦で引いたスキル（1試合に1つ）</legend>
 <select id="skill" aria-label="今回使うスキル"><option value="">使わない</option><option value="change">数字チェンジ</option><option value="reveal">数字オープン</option><option value="hide">ブロックかくし</option><option value="check">数字チェック</option><option value="swap">ならび替え</option><option value="mark">ヒットの目印</option></select>
 <small id="skill-hint" class="muted"></small>
 <label class="skill-change" id="skill-change" hidden>変更後の数 <input id="new-secret" type="text" inputmode="numeric" autocomplete="off" maxlength="3" form="guess-form"></label>
@@ -364,16 +367,20 @@ function selectHero(key) {
   for (const button of $('roster').children) button.setAttribute('aria-pressed', String(button.dataset.hero === key));
   const hero = roster[key];
   const title = document.createElement('strong');
-  title.textContent = hero.name + 'のスキル（対戦中にどちらか1つ）';
+  title.textContent = hero.name + 'で対戦。スキルは対戦ごとに2つ抽選し、どちらか1つ使えます。';
+  const details = document.createElement('details');
+  const summary = document.createElement('summary');
+  summary.textContent = '抽選されるスキルの説明';
   const list = document.createElement('ul');
-  for (const skill of hero.skills) {
+  for (const skill of Object.keys(skillLabels)) {
     const item = document.createElement('li');
     const name = document.createElement('strong');
     name.textContent = skillLabels[skill];
     item.append(name, ' — ' + skillHints[skill]);
     list.append(item);
   }
-  $('hero-skills').replaceChildren(title, list);
+  details.append(summary, list);
+  $('hero-skills').replaceChildren(title, details);
   updateEntry();
 }
 function updateEntry() {
@@ -442,7 +449,7 @@ function renderFighter(el, player, label, skillClue) {
     el.dataset.hero = player.hero;
     el.innerHTML = '<p></p><small class="fighter-skills"></small><div class="secret-board"><small>ひみつの数字</small><strong></strong><small class="opened" hidden></small></div><img alt="">';
     el.querySelector('p').textContent = label + ' · ' + roster[player.hero].name;
-    el.querySelector('.fighter-skills').textContent = roster[player.hero].skills.map(skill => skillLabels[skill]).join(' / ');
+    el.querySelector('.fighter-skills').textContent = player.skills.map(skill => skillLabels[skill]).join(' / ');
     el.querySelector('img').src = './sprites/' + player.hero + '.webp';
   }
   const number = el.querySelector('.secret-board strong');
@@ -574,7 +581,7 @@ function clueText({ hits, blocks }) {
 function renderSkill() {
   const player = room.players[room.seat];
   const select = $('skill');
-  const available = roster[player.hero].skills;
+  const available = player.skills;
   for (const option of select.options) option.hidden = Boolean(option.value) && !available.includes(option.value);
   select.querySelector('option[value="reveal"]').disabled = !room.canReveal;
   select.querySelector('option[value="mark"]').disabled = !room.canMark;
@@ -784,23 +791,28 @@ $('leave').onclick = () => {
   updateEntry();
 };
 selectDigits(digits);
+if (location.pathname.startsWith('/number-duel/')) $('back-to-maths').href = '/';
 try {
   ({roster} = await api('roster'));
-  for (const [key, hero] of Object.entries(roster)) {
+  const inventory = new URLSearchParams(location.hash.slice(1)).get('ur') ?? '';
+  const owned = [...new Set(inventory.split(','))].filter(key => Object.hasOwn(roster, key));
+  for (const key of owned) {
+    const hero = roster[key];
     const button = document.createElement('button');
     button.type = 'button';
     button.dataset.hero = key;
     const image = new Image();
     image.src = './sprites/' + key + '.webp';
     image.alt = '';
-    const skills = document.createElement('small');
-    skills.className = 'fighter-skills';
-    skills.textContent = hero.skills.map(skill => skillLabels[skill]).join(' / ');
-    button.append(image, hero.name, skills);
+    button.append(image, hero.name);
     button.onclick = () => selectHero(key);
     $('roster').append(button);
   }
-  selectHero(Object.keys(roster)[0]);
+  if (owned.length) selectHero(owned[0]);
+  else {
+    $('owned-notice').hidden = false;
+    $('hero-skills').hidden = true;
+  }
 } catch {
   $('error').textContent = '対戦サーバーに接続できません。';
 }
