@@ -1,6 +1,6 @@
-export function prepareWritten(q,index=0){
+export function prepareWritten(q,index=0,total=10){
  if(!q||q.kind!=='written-calculation'||q.easyWritten||q.fractionWork||q.seniorFraction)return q;
- q.legacyWritten=!q.rows;q.easyWritten=true;q.support=index<3?'guide':index<7?'practice':'independent';
+ q.legacyWritten=!q.rows;q.easyWritten=true;q.support=index<Math.round(total*.3)?'guide':index<Math.round(total*.7)?'practice':'independent';
  if(!q.rows){const result=q.multiply?q.a*q.b:q.subtract?q.a-q.b:q.a+q.b;q.width=Math.max(String(q.a).length,String(result).length);const cells=n=>Array.from({length:q.width},(_,p)=>10**p>n&&p?null:{text:Math.floor(n/10**p)%10});q.rows=[{label:'',cells:cells(q.a)},{label:q.multiply?'×':q.subtract?'−':'＋',cells:cells(q.b),rule:true},{label:'答え',cells:cells(result).map(c=>c?{value:c.text}:null)}];}
  const original=q.slots||[],groups=[],slots=[];q.rows=q.rows.map(row=>({...row,cells:row.cells.map(c=>c?{...c}:null)}));
  const workRows=q.rows.filter(row=>!row.carryRow&&row.cells.some(c=>c&&(c.slot!==undefined||c.value!==undefined)));

@@ -24,7 +24,11 @@ export function generateQuestions(stage, count = stage?.questionCount ?? 5) {
   const questions = [];
   let guard = 0;
   while (questions.length < count && guard++ < 500) {
-    const question = generator({...stage,questionIndex:questions.length});
+    // Keep later lesson activities reachable when a ten-question stage is shortened.
+    const questionIndex = stage.questionCount === 6 && count === 6
+      ? Math.round(questions.length * 9 / 5)
+      : questions.length;
+    const question = generator({...stage,questionIndex});
     const key = question.uniqueKey ?? question.label ?? JSON.stringify(question);
     if (!questions.some(existing => (existing.uniqueKey ?? existing.label ?? JSON.stringify(existing)) === key)) questions.push(question);
   }

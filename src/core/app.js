@@ -1004,8 +1004,7 @@ if (a === "player-rename-submit") {
 
   questions =
     generateQuestions(
-      currentStage,
-      isKindergartenStage() ? 5 : 10
+      currentStage
     );
 
     /*
@@ -1826,8 +1825,7 @@ if (isCorrect) {
 
       questions =
         generateQuestions(
-          currentStage,
-          isKindergartenStage() ? 5 : 10
+          currentStage
         );
 
       qi = 0;
@@ -5335,7 +5333,7 @@ function renderPartnerCompanion() {
 }
 
   function renderQuestion(question) {
-    prepareWritten(question,qi);return renderQuestionByKind(question, { escapeHtml, inputEnabled, input });
+    prepareWritten(question,qi,questions.length);return renderQuestionByKind(question, { escapeHtml, inputEnabled, input });
   }
 
   function escapeHtml(value) {

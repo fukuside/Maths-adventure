@@ -1,6 +1,6 @@
 import {normalizeTrails} from './challenge-trails.js';
 // All basic stages need one clear, followed by at least one additional clear.
-// Stars are existing ten-question completion records and are never consumed.
+// Stars are stage completion records and are never consumed.
 export function bossUnlockStatus(state,boss,stages){
  if(!boss?.isBoss||boss.world>=101)return {unlocked:true,stars:0,remaining:0,required:0,scope:'none'};
  const normal=stages.filter(s=>s.world===boss.world&&!s.isBoss&&!s.hiddenFromWorld);
